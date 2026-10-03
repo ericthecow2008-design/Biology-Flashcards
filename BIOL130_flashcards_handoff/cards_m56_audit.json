@@ -3363,7 +3363,7 @@
   "topic": "Connecting Modules 1–6",
   "points": 1,
   "box": "During a long fast, fat cells break their stored triacylglycerols (fats) into glycerol and fatty acids, which other tissues then use for energy.",
-  "claim": "This counts as catabolism, even though a triacylglycerol, unlike glycogen, isn't a polymer built from repeating monomers.",
+  "claim": "Unlike glycogen, a triacylglycerol isn't a polymer built from repeating monomers, and breaking it down this way counts as catabolism.",
   "answer": true,
   "explanation": "Both parts hold. Catabolism is the breakdown of molecules into smaller units, releasing energy, and the notes' figure on anabolism and catabolism includes lipids → fatty acids. And unlike glycogen, a chain of glucose monomers, a triacylglycerol is glycerol plus three fatty acids, not a repeating chain: lipids are the only macromolecule that isn't a polymer (Module 2).",
   "links": "Catabolism · Lipids aren't polymers (Module 2) · Real-world: fasting",
