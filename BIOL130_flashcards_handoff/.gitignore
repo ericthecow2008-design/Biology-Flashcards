@@ -1,0 +1,15 @@
+# generated while working -- not part of the kit
+__pycache__/
+node_modules/
+package-lock.json
+/pages/
+/verify/
+/gallery_m56/
+/review_m56/
+/cards_all.json
+/diagrams_all.json
+_*.png
+# build outputs at the top level; the finished copies go in deliverables/
+/BIOL130_Modules3-6.apkg
+/biol130-flashcards.html
+/biol130_modules3-6.md

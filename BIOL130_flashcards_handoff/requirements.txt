@@ -1,0 +1,3 @@
+genanki==0.13.1    # builds the Anki deck
+anki==26.9.3       # only for the import tests in verify_apkg_m36.py
+pymupdf==1.28.2    # only for render_pages.py
