@@ -22,7 +22,7 @@ def _spline(points, closed=False):
 
 
 # ---------------------------------------------------------------------------
-# 1. Eight side chains on the same backbone
+# 1. Eight amino acids at physiological pH
 # ---------------------------------------------------------------------------
 def r_group_gallery():
     W, H = 640, 278
@@ -78,13 +78,13 @@ def r_group_gallery():
     for i, (letter, chain, kind) in enumerate(specs):
         y0, h = rows[i // 4]
         b += panel(160 * (i % 4), y0, h, letter, chain, kind)
-    aria = ("Eight panels lettered A to H, each drawing the same backbone, H₃N⁺, a central C and COO⁻ bonded in a row "
+    aria = ("Eight panels lettered A to H, each drawing a backbone of H₃N⁺, a central C and COO⁻ bonded in a row "
             "from left to right, with an H bonded above the central C and a different side chain bonded below it. "
             "Side chains, from the central C downward: A, CH₃; B, CH₂ then OH; C, CH₂ then COO⁻; D, four CH₂ groups in "
             "a row then NH₃⁺; E, CH₂ then SH; F, a second H; G, CH₂ then a benzene ring; H, three CH₂ groups that bond "
             "back to the backbone nitrogen (written H₂N⁺ in this panel), closing a five-membered ring of that N, the "
             "central C and the three CH₂ groups")
-    return "Eight side chains on the same backbone", svg(W, H, aria, b)
+    return "Eight amino acids at physiological pH", svg(W, H, aria, b)
 
 
 # ---------------------------------------------------------------------------
