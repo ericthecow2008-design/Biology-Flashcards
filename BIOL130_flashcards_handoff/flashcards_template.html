@@ -1,0 +1,985 @@
+<title>BIOL 130 Flashcards</title>
+<style>
+  :root{
+    --bg:#F5F6F1; --surface:#FFFFFF; --surface-2:#EDEFE6;
+    --ink:#1B2E28; --ink-soft:#52645C; --ink-faint:#8B9A93;
+    --border:#DCDFD3;
+    --accent:#B87820; --accent-ink:#FFFFFF; --accent-bg:#F1E2C8;
+    --mod1:#215F7D; --mod1-bg:#E1EBF0;
+    --mod2:#4D6B34; --mod2-bg:#E7EEDC;
+    --mod3:#9B3B67; --mod3-bg:#F3E0E8;
+    --mod4:#18706A; --mod4-bg:#DCEFED;
+    --mod5:#6F6A12; --mod5-bg:#EEEBD2;
+    --mod6:#6A3FB0; --mod6-bg:#ECE4F7;
+    --bridge:#6E4C72; --bridge-bg:#EDE3ED;
+    --good:#2F7A4C; --good-bg:#DFEEE3;
+    --review:#A84B34; --review-bg:#F3E1D9;
+    --visual:#4B58A6; --visual-bg:#E7E9F5;
+    --shadow: rgba(27,46,40,0.10);
+    --focus: #1B2E28;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#111C17; --surface:#17251F; --surface-2:#1E2F27;
+      --ink:#EAF0EC; --ink-soft:#AFC0B7; --ink-faint:#75897F;
+      --border:#2A3D34;
+      --accent:#E1A24E; --accent-ink:#20140A; --accent-bg:#3A2C15;
+      --mod1:#7CB6D6; --mod1-bg:#1B2E38;
+      --mod2:#9BC17E; --mod2-bg:#26301C;
+      --mod3:#E08CB3; --mod3-bg:#3A2230;
+      --mod4:#6FC9C0; --mod4-bg:#183532;
+      --mod5:#D6CC6E; --mod5-bg:#2F2D14;
+      --mod6:#B9A0EE; --mod6-bg:#2C2342;
+      --bridge:#CBA6CE; --bridge-bg:#332639;
+      --good:#7FCC98; --good-bg:#1E3627;
+      --review:#E28E70; --review-bg:#3B2620;
+      --visual:#AEB9EE; --visual-bg:#272C48;
+      --shadow: rgba(0,0,0,0.4);
+      --focus:#EAF0EC;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#111C17; --surface:#17251F; --surface-2:#1E2F27;
+    --ink:#EAF0EC; --ink-soft:#AFC0B7; --ink-faint:#75897F;
+    --border:#2A3D34;
+    --accent:#E1A24E; --accent-ink:#20140A; --accent-bg:#3A2C15;
+    --mod1:#7CB6D6; --mod1-bg:#1B2E38;
+    --mod2:#9BC17E; --mod2-bg:#26301C;
+      --mod3:#E08CB3; --mod3-bg:#3A2230;
+      --mod4:#6FC9C0; --mod4-bg:#183532;
+      --mod5:#D6CC6E; --mod5-bg:#2F2D14;
+      --mod6:#B9A0EE; --mod6-bg:#2C2342;
+    --bridge:#CBA6CE; --bridge-bg:#332639;
+    --good:#7FCC98; --good-bg:#1E3627;
+    --review:#E28E70; --review-bg:#3B2620;
+    --visual:#AEB9EE; --visual-bg:#272C48;
+    --shadow: rgba(0,0,0,0.4);
+    --focus:#EAF0EC;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;0,700;1,500&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Noto+Serif+KR:wght@500;600;700&display=swap');
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:"Work Sans", system-ui, sans-serif;
+    padding-inline:16px;
+    padding-block:20px 40px;
+  }
+  h1,h2,h3{font-family:"Petrona", Georgia, serif; margin:0;}
+  ::selection{background:var(--accent-bg); color:var(--ink);}
+  button{font-family:inherit;}
+  :focus-visible{outline:2px solid var(--focus); outline-offset:2px;}
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:.01ms !important; transition-duration:.01ms !important;}
+  }
+
+  .wrap{max-width:760px; margin:0 auto;}
+
+  header.top{
+    display:flex; flex-direction:column; gap:4px; margin-bottom:18px;
+  }
+  .eyebrow{
+    font-family:"IBM Plex Mono", monospace; font-size:.72rem; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--ink-faint);
+  }
+  h1{font-size:1.7rem; font-weight:700; color:var(--ink); text-wrap:balance;}
+  .sub{color:var(--ink-soft); font-size:.92rem; max-width:60ch; line-height:1.5;}
+
+  .statline{
+    display:flex; gap:14px; flex-wrap:wrap; align-items:center;
+    margin-top:10px; font-family:"IBM Plex Mono", monospace; font-size:.78rem; color:var(--ink-soft);
+  }
+  .statline b{color:var(--ink); font-weight:600;}
+  .dot{width:8px;height:8px;border-radius:50%; display:inline-block; margin-right:5px; vertical-align:middle;}
+  .dot.known{background:var(--good);} .dot.review{background:var(--review);} .dot.unseen{background:var(--ink-faint);}
+
+  .panel{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:14px; margin-top:16px; box-shadow: 0 1px 2px var(--shadow);
+  }
+
+  .controls{display:flex; flex-direction:column; gap:10px;}
+  .row{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+  .row.between{justify-content:space-between;}
+
+  .pill{
+    border:1px solid var(--border); background:var(--surface-2); color:var(--ink-soft);
+    border-radius:999px; padding:6px 13px; font-size:.82rem; font-weight:600;
+    cursor:pointer; transition:background .15s, color .15s, border-color .15s;
+    white-space:nowrap;
+  }
+  .pill:hover{border-color:var(--ink-faint);}
+  .pill.active{background:var(--ink); color:var(--bg); border-color:var(--ink);}
+  .pill.mod1.active{background:var(--mod1); border-color:var(--mod1); color:var(--surface);}
+  .pill.mod2.active{background:var(--mod2); border-color:var(--mod2); color:var(--surface);}
+  .pill.mod3.active{background:var(--mod3); border-color:var(--mod3); color:var(--surface);}
+  .pill.mod4.active{background:var(--mod4); border-color:var(--mod4); color:var(--surface);}
+  .pill.mod5.active{background:var(--mod5); border-color:var(--mod5); color:var(--surface);}
+  .pill.mod6.active{background:var(--mod6); border-color:var(--mod6); color:var(--surface);}
+  .pill.mod0.active{background:var(--bridge); border-color:var(--bridge); color:var(--surface);}
+
+  select#topicSelect{
+    border:1px solid var(--border); background:var(--surface-2); color:var(--ink);
+    border-radius:10px; padding:7px 10px; font-size:.82rem; font-weight:600; font-family:inherit;
+    flex:1; min-width:160px;
+  }
+
+  .toggle{
+    display:flex; align-items:center; gap:7px; font-size:.82rem; color:var(--ink-soft); cursor:pointer; user-select:none;
+  }
+  .toggle input{accent-color:var(--accent); width:15px; height:15px;}
+
+  .iconbtn{
+    border:1px solid var(--border); background:var(--surface-2); color:var(--ink);
+    border-radius:10px; padding:7px 12px; font-size:.82rem; font-weight:600; cursor:pointer;
+    display:inline-flex; align-items:center; gap:6px;
+  }
+  .iconbtn:hover{border-color:var(--ink-faint);}
+  .iconbtn.on{background:var(--accent); border-color:var(--accent); color:var(--accent-ink);}
+
+  /* progress bar */
+  .progress-track{height:6px; border-radius:99px; background:var(--surface-2); overflow:hidden; display:flex; margin-top:14px;}
+  .progress-track > span{height:100%;}
+  .progress-track .p-known{background:var(--good);}
+  .progress-track .p-review{background:var(--review);}
+
+  /* study card */
+  .stage{margin-top:16px;}
+  .cardcount{font-family:"IBM Plex Mono", monospace; font-size:.76rem; color:var(--ink-faint); margin-bottom:8px; display:flex; justify-content:space-between;}
+
+  .card{
+    background:var(--surface); border:1px solid var(--border); border-radius:18px;
+    padding:22px 20px 20px; min-height:200px; box-shadow:0 2px 10px var(--shadow);
+    position:relative; display:flex; flex-direction:column;
+  }
+  .card .tags{display:flex; gap:7px; margin-bottom:14px; flex-wrap:wrap; align-items:center;}
+  .tag{
+    font-family:"IBM Plex Mono", monospace; font-size:.68rem; font-weight:600; letter-spacing:.03em;
+    padding:3px 9px; border-radius:6px; text-transform:uppercase;
+  }
+  .tag.m1{background:var(--mod1-bg); color:var(--mod1);}
+  .tag.m2{background:var(--mod2-bg); color:var(--mod2);}
+  .tag.m3{background:var(--mod3-bg); color:var(--mod3);}
+  .tag.m4{background:var(--mod4-bg); color:var(--mod4);}
+  .tag.m5{background:var(--mod5-bg); color:var(--mod5);}
+  .tag.m6{background:var(--mod6-bg); color:var(--mod6);}
+  .tag.m0{background:var(--bridge-bg); color:var(--bridge);}
+  .tag.topic{background:var(--surface-2); color:var(--ink-soft); text-transform:none; font-weight:500;}
+  .tag.type{background:var(--surface-2); color:var(--ink-soft); text-transform:none; font-weight:600;}
+  .tag.diagram{background:var(--visual-bg); color:var(--visual); text-transform:none; font-weight:600;}
+  .ptsbadge{font-family:"IBM Plex Mono", monospace; font-size:.72rem; color:var(--ink-faint); font-weight:600; margin-left:auto;}
+
+  .examtitle{font-family:"Petrona", Georgia, serif; font-weight:700; font-size:1.08rem; color:var(--ink); margin-bottom:6px; text-wrap:balance;}
+  .examstem{font-size:1rem; line-height:1.55; color:var(--ink); margin-bottom:10px;}
+  .exambox{
+    border:1.5px solid var(--ink); border-radius:4px; padding:12px 14px; margin:8px 0 14px;
+    font-family:"Noto Serif KR","Petrona",Georgia,serif; font-size:.97rem; line-height:1.6;
+    background:var(--surface); color:var(--ink);
+  }
+
+  .bogi{
+    border:1.5px solid var(--ink); border-radius:4px; padding:22px 14px 12px; position:relative;
+    margin:18px 0 16px; background:var(--surface);
+  }
+  .bogilabel{
+    position:absolute; top:-11px; left:50%; transform:translateX(-50%); background:var(--surface);
+    padding:0 10px; font-weight:700; font-family:"Noto Serif KR",serif; font-size:.85rem; color:var(--ink);
+  }
+  .statement-row{
+    margin:5px 0 4px 1.7em; text-indent:-1.7em; font-family:"Noto Serif KR","Petrona",Georgia,serif;
+    font-size:.95rem; line-height:1.55; color:var(--ink);
+  }
+  .statement-row .sbadge{display:inline-block; min-width:1.1em; font-weight:700;}
+  .statement-row.marked-T .sbadge{color:var(--good);}
+  .statement-row.marked-F .sbadge{color:var(--review);}
+  .statement-explain{font-size:.83rem; color:var(--ink-soft); margin:1px 0 10px 1.7em; line-height:1.5;}
+
+  .choicelist{display:flex; flex-direction:column; gap:8px; margin-top:14px;}
+  .choicebtn{
+    text-align:left; border:1px solid var(--border); background:var(--surface-2); color:var(--ink);
+    border-radius:10px; padding:11px 14px; font-size:.92rem; font-family:"Noto Serif KR","Work Sans",sans-serif;
+    cursor:pointer; display:flex; gap:10px; align-items:center; line-height:1.5; width:100%;
+  }
+  .choicebtn .cnum{font-weight:700; color:var(--ink-faint); flex:none;}
+  .choicebtn:hover:not(.locked){border-color:var(--ink-faint);}
+  .choicebtn.locked{cursor:default;}
+  .choicebtn.correct{background:var(--good-bg); border-color:var(--good);}
+  .choicebtn.correct .cnum{color:var(--good);}
+  .choicebtn.incorrect{background:var(--review-bg); border-color:var(--review);}
+  .choicebtn.incorrect .cnum{color:var(--review);}
+  .choicebtn.correct::after{content:"✓"; margin-left:auto; color:var(--good); font-weight:700; flex:none;}
+  .choicebtn.incorrect::after{content:"✕"; margin-left:auto; color:var(--review); font-weight:700; flex:none;}
+
+  .tfrow{display:flex; gap:12px; margin-top:14px;}
+  .tfbtn{
+    flex:1; border:1.5px solid var(--border); background:var(--surface-2); color:var(--ink);
+    border-radius:12px; padding:16px; font-weight:700; font-size:1rem; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; gap:8px;
+  }
+  .tfbtn:hover:not(.locked){border-color:var(--ink-faint);}
+  .tfbtn .ticon{font-size:1.3rem; font-weight:700; line-height:1;}
+  .tfbtn.true .ticon{color:var(--good);}
+  .tfbtn.false .ticon{color:var(--review);}
+  .tfbtn.locked{cursor:default;}
+  .tfbtn.correct{background:var(--good-bg); border-color:var(--good);}
+  .tfbtn.incorrect{background:var(--review-bg); border-color:var(--review);}
+
+  .resultbox{margin-top:14px; padding:12px 14px; border-radius:10px; font-size:.9rem; line-height:1.6;}
+  .resultbox.correct{background:var(--good-bg); color:var(--ink);}
+  .resultbox.incorrect{background:var(--review-bg); color:var(--ink);}
+  .resultbox .verdict{font-weight:700; font-family:"Petrona",serif; font-size:1.02rem; margin-bottom:5px;}
+  .resultbox.correct .verdict{color:var(--good);}
+  .resultbox.incorrect .verdict{color:var(--review);}
+
+  .linksfoot{margin-top:12px; padding-top:10px; border-top:1px dashed var(--border); font-size:.78rem; color:var(--ink-soft);}
+  .linksfoot b{color:var(--ink);}
+
+  .diagramfig{
+    margin:10px 0 16px; padding:16px 14px 12px; background:var(--surface); border:1px solid var(--border);
+    border-radius:12px; text-align:center; overflow-x:auto;
+  }
+  /* Diagrams render at their native viewBox pixel size (set inline per-svg from
+     the diagram's own viewBox width) rather than shrinking to fit the card, so
+     label text never scales below a legible size on narrow phone screens. On
+     screens wider than the diagram, it just displays inline at natural size;
+     on narrower screens, the figure scrolls horizontally instead of shrinking. */
+  .diagramfig svg{display:inline-block; height:auto; color:var(--ink);}
+  .diagramfig svg text{font-family:"Work Sans",sans-serif;}
+  .diagramfig figcaption{font-size:.74rem; color:var(--ink-soft); margin-top:10px;}
+  .diagramfig.scrollable{text-align:left;}
+  .scrollhint{
+    font-size:.72rem; color:var(--visual); text-align:center; margin:-10px 0 14px;
+    font-weight:600;
+  }
+
+  /* matching */
+  .matchwrap{display:flex; gap:12px; margin-top:14px;}
+  .matchcol{flex:1; display:flex; flex-direction:column; gap:7px; min-width:0;}
+  .matchcol-label{font-family:"IBM Plex Mono",monospace; font-size:.66rem; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-faint); margin-bottom:1px;}
+  .chip{
+    border:1.5px solid var(--border); background:var(--surface-2); color:var(--ink);
+    border-radius:10px; padding:9px 11px; font-size:.85rem; line-height:1.4; cursor:pointer;
+    display:flex; gap:7px; align-items:center; width:100%; text-align:left;
+  }
+  .chip .clabel{font-weight:700; color:var(--ink-faint); flex:none; font-family:"IBM Plex Mono",monospace; font-size:.78rem;}
+  .chip .pairbadge{
+    margin-left:auto; flex:none; width:1.3em; height:1.3em; border-radius:50%; background:var(--visual);
+    color:#fff; font-size:.68rem; font-weight:700; display:flex; align-items:center; justify-content:center;
+  }
+  .chip:hover:not(.paired):not(.locked){border-color:var(--ink-faint);}
+  .chip.selected{border-color:var(--accent); background:var(--accent-bg);}
+  .chip.paired{border-color:var(--visual); background:var(--visual-bg);}
+  .chip.locked{cursor:default;}
+  .chip.correct{border-color:var(--good); background:var(--good-bg);}
+  .chip.correct .clabel{color:var(--good);}
+  .chip.incorrect{border-color:var(--review); background:var(--review-bg);}
+  .chip.incorrect .clabel{color:var(--review);}
+  .matchmeta{font-family:"IBM Plex Mono",monospace; font-size:.76rem; color:var(--ink-faint); margin-top:10px; text-align:center;}
+  .checkbtn{
+    width:100%; margin-top:10px; border:none; border-radius:12px; padding:13px; font-weight:700; font-size:.95rem;
+    cursor:pointer; background:var(--ink); color:var(--bg);
+  }
+  .checkbtn:disabled{opacity:.35; cursor:not-allowed;}
+  .matchpairresult{display:flex; gap:9px; padding:7px 0; border-bottom:1px solid var(--border); font-size:.85rem; align-items:flex-start;}
+  .matchpairresult:last-child{border-bottom:none;}
+  .matchpairresult .pr-icon{flex:none; font-weight:700; margin-top:1px;}
+  .matchpairresult.correct .pr-icon{color:var(--good);}
+  .matchpairresult.incorrect .pr-icon{color:var(--review);}
+
+  .navrow{display:flex; gap:10px; margin-top:14px; align-items:center;}
+  .navbtn{
+    border:1px solid var(--border); background:var(--surface); color:var(--ink);
+    border-radius:12px; padding:10px 16px; font-weight:600; cursor:pointer; flex:1;
+  }
+  .navbtn:hover{border-color:var(--ink-faint);}
+  .navbtn:disabled{opacity:.4; cursor:not-allowed;}
+
+  .hint{font-size:.74rem; color:var(--ink-faint); text-align:center; margin-top:10px;}
+  .hint kbd{font-family:"IBM Plex Mono",monospace; background:var(--surface-2); border:1px solid var(--border); border-radius:4px; padding:1px 5px;}
+
+  .empty{padding:40px 10px; text-align:center; color:var(--ink-soft);}
+  .empty .big{font-family:"Petrona",serif; font-size:1.2rem; color:var(--ink); margin-bottom:6px;}
+
+  /* browse grid */
+  .grid{display:grid; grid-template-columns:1fr; gap:10px; margin-top:16px;}
+  @media (min-width:560px){ .grid{grid-template-columns:1fr 1fr;} }
+  .gcard{
+    background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:12px 13px;
+    cursor:pointer; display:flex; flex-direction:column; gap:8px;
+  }
+  .gcard:hover{border-color:var(--ink-faint);}
+  .gcard .top{display:flex; justify-content:space-between; align-items:flex-start; gap:8px;}
+  .gcard .gq{font-size:.86rem; line-height:1.4; color:var(--ink); font-weight:500;}
+  .statusdot{width:9px;height:9px;border-radius:50%; flex:none; margin-top:4px;}
+  .statusdot.known{background:var(--good);} .statusdot.review{background:var(--review);} .statusdot.unseen{background:var(--border); border:1px solid var(--ink-faint);}
+  .gcard .dotgroup{display:flex; gap:6px; align-items:center; flex:none;}
+
+  .footerbar{display:flex; justify-content:space-between; align-items:center; margin-top:22px; gap:10px; flex-wrap:wrap;}
+  .resetlink{font-size:.76rem; color:var(--ink-faint); background:none; border:none; cursor:pointer; text-decoration:underline; padding:4px;}
+
+  .credit{font-size:.74rem; color:var(--ink-faint); margin-top:26px; text-align:center; line-height:1.6;}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <span class="eyebrow">Biol 130 · Introductory Cell Biology</span>
+    <h1>Modules __MOD_RANGE__ Flashcards</h1>
+    <p class="sub">Suneung-style analytical questions in four formats — 보기 combination, matching, true/false, and multiple choice — including diagram-based items and real-world application scenarios. Think it through before you click; every answer is checked instantly with a full explanation.</p>
+    <div class="statline" id="statline"></div>
+  </header>
+
+  <div class="panel">
+    <div class="controls">
+      <div class="row" id="modRow"></div>
+      <div class="row" id="typeRow"></div>
+      <div class="row">
+        <select id="topicSelect"></select>
+        <button class="iconbtn" id="shuffleBtn" type="button">⤮ Shuffle</button>
+        <button class="iconbtn" id="browseBtn" type="button">▤ Browse all</button>
+      </div>
+      <div class="row between">
+        <label class="toggle"><input type="checkbox" id="reviewOnly"> Only items I got wrong</label>
+      </div>
+    </div>
+    <div class="progress-track" id="progressTrack"></div>
+  </div>
+
+  <div class="stage" id="studyStage">
+    <div class="cardcount" id="cardCount"></div>
+    <div class="card" id="card"></div>
+    <div class="navrow">
+      <button class="navbtn" id="prevBtn" type="button">← Prev</button>
+      <button class="navbtn" id="nextBtn" type="button">Next →</button>
+    </div>
+    <p class="hint">Click an answer to check it · <kbd>←</kbd>/<kbd>→</kbd> to move · <kbd>1</kbd>–<kbd>5</kbd> to answer Combination/MC · <kbd>T</kbd>/<kbd>F</kbd> for True/False</p>
+  </div>
+
+  <div class="grid" id="browseGrid" style="display:none;"></div>
+
+  <div class="footerbar">
+    <span class="eyebrow" id="deckLabel"></span>
+    <button class="resetlink" id="resetBtn" type="button">Reset progress</button>
+  </div>
+
+  <p class="credit">Built from Dr. Vivian Dayeh's Biol 130 lecture notes, Modules __MOD_RANGE__ (Fall 2026). Progress is saved locally in this browser only.</p>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  const CARDS = __CARDS_JSON__;
+  const DIAGRAMS = __DIAGRAMS_JSON__;
+
+  const MOD_LABEL = {0:"Bridge", 1:"Mod 1", 2:"Mod 2", 3:"Mod 3", 4:"Mod 4", 5:"Mod 5", 6:"Mod 6"};
+  const MOD_TAGCLASS = {0:"m0", 1:"m1", 2:"m2", 3:"m3", 4:"m4", 5:"m5", 6:"m6"};
+  const TYPE_LABEL = {combo:"Combination", match:"Matching", tf:"True / False", mc:"Multiple Choice"};
+  const TYPE_SHORT = {combo:"보기", match:"Match", tf:"T/F", mc:"MC"};
+  const CIRCLED = ["①","②","③","④","⑤"];
+  const LETTERS = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P"];
+
+  function esc(s){
+    if(s==null) return "";
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+  function diagramHtmlFor(c){
+    if(!c.diagram || !DIAGRAMS[c.diagram]) return '';
+    const d = DIAGRAMS[c.diagram];
+    // Pin the svg's rendered width to its own viewBox width (native 1:1 scale)
+    // so text never shrinks below legible size on narrow screens -- see the
+    // .diagramfig CSS comment for why (overflow-scroll instead of shrink-to-fit).
+    const vb = d.svg.match(/^<svg viewBox="0 0 ([\d.]+) ([\d.]+)"/);
+    const svgHtml = vb ? d.svg.replace('<svg ', `<svg style="width:${Math.round(parseFloat(vb[1]))}px;max-width:none;" `) : d.svg;
+    return `<figure class="diagramfig">${svgHtml}<figcaption>${esc(d.title)}</figcaption></figure>`;
+  }
+  function previewText(c){
+    if(c.type==="combo" || c.type==="match") return c.title;
+    if(c.type==="tf") return c.claim;
+    if(c.type==="mc") return c.stem;
+    return "";
+  }
+  function shuffleArray(arr){
+    const a = arr.slice();
+    for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+    return a;
+  }
+
+  // ---------- state ----------
+  let status = {};              // id -> 'correct' | 'incorrect'
+  try{
+    const raw = localStorage.getItem('biol130fc_v2_status');
+    if(raw) status = JSON.parse(raw);
+  }catch(e){ status = {}; }
+
+  function saveStatus(){
+    try{ localStorage.setItem('biol130fc_v2_status', JSON.stringify(status)); }catch(e){}
+  }
+
+  let filterMod = 'all';        // 'all' | 0 | 1 | 2
+  let filterTopic = 'all';
+  let filterType = 'all';       // 'all' | 'combo' | 'match' | 'tf' | 'mc'
+  let reviewOnly = false;       // only items marked 'incorrect'
+  let shuffled = false;
+  let order = CARDS.map(c=>c.id);
+  let pos = 0;
+  let browseMode = false;
+  let cardState = null;         // per-card interaction state, reset on navigation
+
+  function resetCardState(c){
+    if(!c){ cardState = null; return; }
+    if(c.type==='combo' || c.type==='mc'){
+      cardState = { answered:false, selected:null };
+    } else if(c.type==='tf'){
+      cardState = { answered:false, selected:null };
+    } else if(c.type==='match'){
+      const n = c.pairs.length;
+      cardState = { answered:false, rightOrder: shuffleArray([...Array(n).keys()]), selectedLeft:null, userPairs:{} };
+    }
+  }
+
+  // ---------- elements ----------
+  const modRow = document.getElementById('modRow');
+  const typeRow = document.getElementById('typeRow');
+  const topicSelect = document.getElementById('topicSelect');
+  const reviewOnlyBox = document.getElementById('reviewOnly');
+  const shuffleBtn = document.getElementById('shuffleBtn');
+  const browseBtn = document.getElementById('browseBtn');
+  const cardEl = document.getElementById('card');
+  const cardCountEl = document.getElementById('cardCount');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const studyStage = document.getElementById('studyStage');
+  const browseGrid = document.getElementById('browseGrid');
+  const statline = document.getElementById('statline');
+  const progressTrack = document.getElementById('progressTrack');
+  const resetBtn = document.getElementById('resetBtn');
+  const deckLabel = document.getElementById('deckLabel');
+
+  // ---------- filter pills ----------
+  const MODS = [
+    {key:'all', label:'All modules', cls:''},
+    {key:1, label:'Module 1', cls:'mod1'},
+    {key:2, label:'Module 2', cls:'mod2'},
+    {key:3, label:'Module 3', cls:'mod3'},
+    {key:4, label:'Module 4', cls:'mod4'},
+    {key:5, label:'Module 5', cls:'mod5'},
+    {key:6, label:'Module 6', cls:'mod6'},
+    {key:0, label:'Bridge', cls:'mod0'},
+  ].filter(m => m.key === 'all' || CARDS.some(c => c.mod === m.key));  // only modules that have cards
+  MODS.forEach(m=>{
+    const b = document.createElement('button');
+    b.className = 'pill ' + m.cls;
+    b.textContent = m.label;
+    b.type = 'button';
+    b.addEventListener('click', ()=>{ filterMod = m.key; filterTopic='all'; rebuild(true); });
+    b.dataset.key = m.key;
+    modRow.appendChild(b);
+  });
+
+  const TYPES = [
+    {key:'all', label:'All formats'},
+    {key:'combo', label:'보기 Combination'},
+    {key:'match', label:'Matching'},
+    {key:'tf', label:'True / False'},
+    {key:'mc', label:'Multiple Choice'},
+  ];
+  TYPES.forEach(t=>{
+    const b = document.createElement('button');
+    b.className = 'pill';
+    b.textContent = t.label;
+    b.type = 'button';
+    b.addEventListener('click', ()=>{ filterType = t.key; filterTopic='all'; rebuild(true); });
+    b.dataset.key = t.key;
+    typeRow.appendChild(b);
+  });
+
+  function topicsForMod(mod, type){
+    const set = [];
+    CARDS.forEach(c=>{
+      if(mod!=='all' && c.mod!==mod) return;
+      if(type!=='all' && c.type!==type) return;
+      if(!set.includes(c.topic)) set.push(c.topic);
+    });
+    return set;
+  }
+
+  function rebuildTopicSelect(){
+    const topics = topicsForMod(filterMod, filterType);
+    topicSelect.innerHTML = '';
+    const optAll = document.createElement('option');
+    optAll.value = 'all'; optAll.textContent = 'All topics in view';
+    topicSelect.appendChild(optAll);
+    topics.forEach(t=>{
+      const o = document.createElement('option');
+      o.value = t; o.textContent = t;
+      topicSelect.appendChild(o);
+    });
+    if(!topics.includes(filterTopic)) filterTopic = 'all';
+    topicSelect.value = filterTopic;
+  }
+
+  topicSelect.addEventListener('change', ()=>{ filterTopic = topicSelect.value; rebuild(true); });
+  reviewOnlyBox.addEventListener('change', ()=>{ reviewOnly = reviewOnlyBox.checked; rebuild(true); });
+  shuffleBtn.addEventListener('click', ()=>{
+    shuffled = !shuffled;
+    shuffleBtn.classList.toggle('on', shuffled);
+    rebuild(true);
+  });
+  browseBtn.addEventListener('click', ()=>{
+    browseMode = !browseMode;
+    browseBtn.classList.toggle('on', browseMode);
+    render();
+  });
+  resetBtn.addEventListener('click', ()=>{
+    if(confirm('Clear all saved progress (correct / incorrect marks) for this deck in this browser?')){
+      status = {}; saveStatus(); render();
+    }
+  });
+
+  function currentSet(){
+    let list = CARDS.filter(c=>{
+      if(filterMod!=='all' && c.mod!==filterMod) return false;
+      if(filterTopic!=='all' && c.topic!==filterTopic) return false;
+      if(filterType!=='all' && c.type!==filterType) return false;
+      if(reviewOnly && status[c.id]!=='incorrect') return false;
+      return true;
+    });
+    let ids = list.map(c=>c.id);
+    if(shuffled){
+      for(let i=ids.length-1;i>0;i--){
+        const j = Math.floor(Math.random()*(i+1));
+        [ids[i],ids[j]]=[ids[j],ids[i]];
+      }
+    }
+    return ids;
+  }
+
+  function setPos(p){
+    pos = p;
+    resetCardState(order.length ? cardById(order[pos]) : null);
+    render();
+  }
+
+  function rebuild(resetPosFlag){
+    rebuildTopicSelect();
+    order = currentSet();
+    if(resetPosFlag) pos = 0;
+    if(pos >= order.length) pos = Math.max(0, order.length-1);
+    resetCardState(order.length ? cardById(order[pos]) : null);
+    Array.from(modRow.children).forEach(b=>{
+      const key = b.dataset.key === 'all' ? 'all' : Number(b.dataset.key);
+      b.classList.toggle('active', key === filterMod);
+    });
+    Array.from(typeRow.children).forEach(b=>{
+      b.classList.toggle('active', b.dataset.key === filterType);
+    });
+    render();
+  }
+
+  function cardById(id){ return CARDS.find(c=>c.id===id); }
+
+  function renderStatline(){
+    const all = CARDS.length;
+    const correct = Object.values(status).filter(s=>s==='correct').length;
+    const incorrect = Object.values(status).filter(s=>s==='incorrect').length;
+    statline.innerHTML =
+      `<span><b>${all}</b> items total</span>` +
+      `<span><span class="dot known"></span><b>${correct}</b> correct</span>` +
+      `<span><span class="dot review"></span><b>${incorrect}</b> incorrect</span>` +
+      `<span><span class="dot unseen"></span><b>${all-correct-incorrect}</b> unanswered</span>`;
+
+    const kw = all? (correct/all*100):0, rw = all? (incorrect/all*100):0;
+    progressTrack.innerHTML = `<span class="p-known" style="width:${kw}%"></span><span class="p-review" style="width:${rw}%"></span>`;
+  }
+
+  function render(){
+    renderStatline();
+    deckLabel.textContent = browseMode ? 'Browse view' : 'Study view';
+    if(browseMode){
+      studyStage.style.display = 'none';
+      browseGrid.style.display = 'grid';
+      renderBrowse();
+    } else {
+      studyStage.style.display = 'block';
+      browseGrid.style.display = 'none';
+      renderStudy();
+    }
+  }
+
+  function renderBrowse(){
+    const ids = currentSet();
+    browseGrid.innerHTML = '';
+    if(ids.length===0){
+      browseGrid.innerHTML = `<div class="empty" style="grid-column:1/-1;"><div class="big">No items match this filter</div>Try a different module, format, topic, or turn off the active filters.</div>`;
+      return;
+    }
+    ids.forEach(id=>{
+      const c = cardById(id);
+      const st = status[id] || 'unseen';
+      const dotcls = st==='correct' ? 'known' : (st==='incorrect' ? 'review' : 'unseen');
+      const div = document.createElement('div');
+      div.className = 'gcard';
+      div.innerHTML = `
+        <div class="top">
+          <span class="tag ${MOD_TAGCLASS[c.mod]}">${MOD_LABEL[c.mod]}</span>
+          <span class="dotgroup">${c.diagram?'<span class="tag diagram">◇</span>':''}<span class="tag type">${TYPE_SHORT[c.type]}</span><span class="statusdot ${dotcls}" title="${st}"></span></span>
+        </div>
+        <div class="gq">${esc(previewText(c))}</div>
+        <span class="tag topic">${esc(c.topic)}</span>
+      `;
+      div.addEventListener('click', ()=>{
+        browseMode = false;
+        browseBtn.classList.remove('on');
+        order = currentSet();
+        let p = order.indexOf(id);
+        if(p<0) p = 0;
+        pos = p;
+        resetCardState(cardById(order[pos]));
+        render();
+      });
+      browseGrid.appendChild(div);
+    });
+  }
+
+  function tagsHtmlFor(c){
+    return `<div class="tags">
+      <span class="tag ${MOD_TAGCLASS[c.mod]}">${MOD_LABEL[c.mod]}</span>
+      <span class="tag topic">${esc(c.topic)}</span>
+      <span class="tag type">${TYPE_LABEL[c.type]}</span>
+      ${c.diagram?`<span class="tag diagram">◇ Diagram</span>`:''}
+      ${c.points?`<span class="ptsbadge">[${c.points}점]</span>`:''}
+    </div>`;
+  }
+
+  function renderStudy(){
+    if(order.length===0){
+      cardEl.innerHTML = `<div class="empty"><div class="big">No items match this filter</div>Try a different module, format, topic, or turn off the active filters.</div>`;
+      cardCountEl.textContent = '';
+      prevBtn.disabled = true; nextBtn.disabled = true;
+      return;
+    }
+    prevBtn.disabled = false; nextBtn.disabled = false;
+    const id = order[pos];
+    const c = cardById(id);
+    if(!cardState) resetCardState(c);
+    const st = status[id] || 'unseen';
+    cardCountEl.innerHTML = `<span>Item ${pos+1} of ${order.length}</span><span>${st==='correct'?'✓ correct':st==='incorrect'?'✕ incorrect':'· unanswered'}</span>`;
+
+    if(c.type==='combo') renderCombo(c);
+    else if(c.type==='match') renderMatch(c);
+    else if(c.type==='tf') renderTF(c);
+    else if(c.type==='mc') renderMC(c);
+    markScrollableDiagrams();
+  }
+
+  // Diagrams render at native pixel size (see .diagramfig CSS) and scroll
+  // horizontally rather than shrink on narrow screens. Flag the ones that
+  // actually overflow so CSS can show a "scroll for more" affordance --
+  // most diagrams fit fine on a normal-width screen and need no hint at all.
+  function markScrollableDiagrams(){
+    cardEl.querySelectorAll('.diagramfig').forEach(el=>{
+      if(el.scrollWidth > el.clientWidth + 2){
+        el.classList.add('scrollable');
+        const hint = document.createElement('div');
+        hint.className = 'scrollhint';
+        hint.textContent = '↔ scroll sideways to see the full diagram';
+        el.insertAdjacentElement('afterend', hint);
+      }
+    });
+  }
+
+  function renderCombo(c){
+    const st = cardState;
+    const stmtHtml = c.statements.map(s=>{
+      let cls = 'statement-row';
+      let badge, explain = '';
+      if(st.answered){
+        cls += s.correct ? ' marked-T' : ' marked-F';
+        badge = `<span class="sbadge">${s.label}</span> <span class="sbadge">${s.correct?'O':'X'}</span>`;
+        explain = `<div class="statement-explain">${esc(s.explanation)}</div>`;
+      } else {
+        badge = `<span class="sbadge">${s.label}.</span>`;
+      }
+      return `<div class="${cls}">${badge} ${esc(s.text)}</div>${explain}`;
+    }).join('');
+
+    const choicesHtml = c.choices.map((choice,i)=>{
+      let cls = 'choicebtn';
+      if(st.answered){
+        cls += ' locked';
+        if(i===c.answerIndex) cls += ' correct';
+        else if(i===st.selected) cls += ' incorrect';
+      }
+      return `<button type="button" class="${cls}" data-idx="${i}" ${st.answered?'disabled':''}>
+        <span class="cnum">${CIRCLED[i]}</span><span>${esc(choice)}</span>
+      </button>`;
+    }).join('');
+
+    let resultHtml = '';
+    if(st.answered){
+      const isCorrect = st.selected === c.answerIndex;
+      resultHtml = `<div class="resultbox ${isCorrect?'correct':'incorrect'}">
+          <div class="verdict">${isCorrect?'Correct':'Incorrect — correct answer: '+CIRCLED[c.answerIndex]+' ('+esc(c.choices[c.answerIndex])+')'}</div>
+        </div>
+        ${c.links?`<div class="linksfoot"><b>Concepts linked:</b> ${esc(c.links)}</div>`:''}`;
+    }
+
+    cardEl.innerHTML = `
+      ${tagsHtmlFor(c)}
+      ${c.title?`<div class="examtitle">${esc(c.title)}</div>`:''}
+      <div class="examstem">${esc(c.stem)}</div>
+      ${diagramHtmlFor(c)}
+      <div class="exambox">${c.box}</div>
+      <div class="bogi"><div class="bogilabel">&lt;보기&gt;</div>${stmtHtml}</div>
+      <div class="choicelist">${choicesHtml}</div>
+      ${resultHtml}
+    `;
+
+    if(!st.answered){
+      cardEl.querySelectorAll('.choicebtn').forEach(btn=>{
+        btn.addEventListener('click', ()=>{ answerSingle(c, Number(btn.dataset.idx)); });
+      });
+    }
+  }
+
+  function renderMC(c){
+    const st = cardState;
+    const optsHtml = c.options.map((opt,i)=>{
+      let cls = 'choicebtn';
+      if(st.answered){
+        cls += ' locked';
+        if(i===c.answerIndex) cls += ' correct';
+        else if(i===st.selected) cls += ' incorrect';
+      }
+      return `<button type="button" class="${cls}" data-idx="${i}" ${st.answered?'disabled':''}>
+        <span class="cnum">${CIRCLED[i]}</span><span>${esc(opt)}</span>
+      </button>`;
+    }).join('');
+
+    let resultHtml = '';
+    if(st.answered){
+      const isCorrect = st.selected === c.answerIndex;
+      resultHtml = `<div class="resultbox ${isCorrect?'correct':'incorrect'}">
+          <div class="verdict">${isCorrect?'Correct':'Incorrect — correct answer: '+CIRCLED[c.answerIndex]}</div>
+          <div>${esc(c.explanation)}</div>
+        </div>
+        ${c.links?`<div class="linksfoot"><b>Concepts linked:</b> ${esc(c.links)}</div>`:''}`;
+    }
+
+    cardEl.innerHTML = `
+      ${tagsHtmlFor(c)}
+      <div class="examstem">${esc(c.stem)}</div>
+      ${diagramHtmlFor(c)}
+      <div class="choicelist">${optsHtml}</div>
+      ${resultHtml}
+    `;
+
+    if(!st.answered){
+      cardEl.querySelectorAll('.choicebtn').forEach(btn=>{
+        btn.addEventListener('click', ()=>{ answerSingle(c, Number(btn.dataset.idx)); });
+      });
+    }
+  }
+
+  function renderTF(c){
+    const st = cardState;
+    let trueCls = 'tfbtn true', falseCls = 'tfbtn false';
+    if(st.answered){
+      trueCls += ' locked'; falseCls += ' locked';
+      if(c.answer===true) trueCls += ' correct'; else if(st.selected===true) trueCls += ' incorrect';
+      if(c.answer===false) falseCls += ' correct'; else if(st.selected===false) falseCls += ' incorrect';
+    }
+    let resultHtml = '';
+    if(st.answered){
+      const isCorrect = st.selected === c.answer;
+      resultHtml = `<div class="resultbox ${isCorrect?'correct':'incorrect'}">
+          <div class="verdict">${isCorrect?'Correct':'Incorrect — the statement is '+(c.answer?'True':'False')}</div>
+          <div>${esc(c.explanation)}</div>
+        </div>
+        ${c.links?`<div class="linksfoot"><b>Concepts linked:</b> ${esc(c.links)}</div>`:''}`;
+    }
+    cardEl.innerHTML = `
+      ${tagsHtmlFor(c)}
+      <div class="exambox">${esc(c.box)}</div>
+      ${diagramHtmlFor(c)}
+      <div class="examstem" style="font-weight:600;">${esc(c.claim)}</div>
+      <div class="tfrow">
+        <button type="button" class="${trueCls}" data-val="true" ${st.answered?'disabled':''}><span class="ticon">○</span> True</button>
+        <button type="button" class="${falseCls}" data-val="false" ${st.answered?'disabled':''}><span class="ticon">✕</span> False</button>
+      </div>
+      ${resultHtml}
+    `;
+    if(!st.answered){
+      cardEl.querySelectorAll('.tfbtn').forEach(btn=>{
+        btn.addEventListener('click', ()=>{ answerTF(c, btn.dataset.val === 'true'); });
+      });
+    }
+  }
+
+  function renderMatch(c){
+    const st = cardState;
+    const n = c.pairs.length;
+    const pairedLeftIdxs = Object.keys(st.userPairs).map(Number).sort((a,b)=>a-b);
+    function badgeFor(leftIdx){
+      const p = pairedLeftIdxs.indexOf(leftIdx);
+      return p<0 ? null : p+1;
+    }
+
+    const leftHtml = c.pairs.map((pr,i)=>{
+      let cls = 'chip left';
+      let badge = '';
+      if(st.answered){
+        cls += ' locked';
+        cls += (st.userPairs[i] === i) ? ' correct' : ' incorrect';
+      } else {
+        if(i in st.userPairs){ cls += ' paired'; badge = `<span class="pairbadge">${badgeFor(i)}</span>`; }
+        else if(st.selectedLeft === i){ cls += ' selected'; }
+      }
+      return `<button type="button" class="${cls}" data-left="${i}" ${st.answered?'disabled':''}>
+        <span class="clabel">${LETTERS[i]}</span><span>${esc(pr.left)}</span>${badge}
+      </button>`;
+    }).join('');
+
+    const rightHtml = st.rightOrder.map((origIdx,k)=>{
+      let cls = 'chip right';
+      const pairedEntry = Object.entries(st.userPairs).find(([li,ri])=>Number(ri)===origIdx);
+      let badge = '';
+      if(st.answered){
+        cls += ' locked';
+        const correct = pairedEntry && Number(pairedEntry[0]) === origIdx;
+        cls += correct ? ' correct' : ' incorrect';
+      } else {
+        if(pairedEntry){ cls += ' paired'; badge = `<span class="pairbadge">${badgeFor(Number(pairedEntry[0]))}</span>`; }
+      }
+      return `<button type="button" class="${cls}" data-right="${origIdx}" ${st.answered?'disabled':''}>
+        <span class="clabel">${k+1}</span><span>${esc(c.pairs[origIdx].right)}</span>${badge}
+      </button>`;
+    }).join('');
+
+    const pairedCount = Object.keys(st.userPairs).length;
+    const checkDisabled = pairedCount < n;
+
+    let resultHtml = '';
+    if(st.answered){
+      const numCorrect = Object.entries(st.userPairs).filter(([li,ri])=>Number(li)===Number(ri)).length;
+      const allCorrect = numCorrect === n;
+      const rows = c.pairs.map((pr,i)=>{
+        const correct = st.userPairs[i] === i;
+        return `<div class="matchpairresult ${correct?'correct':'incorrect'}">
+          <span class="pr-icon">${correct?'✓':'✕'}</span>
+          <span style="flex:1">${LETTERS[i]}. ${esc(pr.left)} ${correct?'=':'≠'} ${esc(pr.right)}</span>
+        </div>`;
+      }).join('');
+      resultHtml = `<div class="resultbox ${allCorrect?'correct':'incorrect'}">
+          <div class="verdict">${numCorrect} / ${n} correct</div>
+          ${rows}
+          <div style="margin-top:8px;">${esc(c.explanation)}</div>
+        </div>
+        ${c.links?`<div class="linksfoot"><b>Concepts linked:</b> ${esc(c.links)}</div>`:''}`;
+    }
+
+    cardEl.innerHTML = `
+      ${tagsHtmlFor(c)}
+      ${c.title?`<div class="examtitle">${esc(c.title)}</div>`:''}
+      <div class="examstem">${esc(c.prompt)}</div>
+      ${diagramHtmlFor(c)}
+      <div class="matchwrap">
+        <div class="matchcol">
+          <div class="matchcol-label">${esc(c.leftLabel||'Items')}</div>
+          ${leftHtml}
+        </div>
+        <div class="matchcol">
+          <div class="matchcol-label">${esc(c.rightLabel||'Match')}</div>
+          ${rightHtml}
+        </div>
+      </div>
+      ${!st.answered ? `<div class="matchmeta">${pairedCount} / ${n} paired</div>
+        <button type="button" class="checkbtn" id="checkMatchBtn" ${checkDisabled?'disabled':''}>Check Matches</button>` : ''}
+      ${resultHtml}
+    `;
+
+    if(!st.answered){
+      cardEl.querySelectorAll('.chip.left').forEach(chip=>{
+        chip.addEventListener('click', ()=>{
+          const i = Number(chip.dataset.left);
+          if(i in st.userPairs){ delete st.userPairs[i]; st.selectedLeft = null; }
+          else { st.selectedLeft = (st.selectedLeft===i) ? null : i; }
+          renderStudy();
+        });
+      });
+      cardEl.querySelectorAll('.chip.right').forEach(chip=>{
+        chip.addEventListener('click', ()=>{
+          const origIdx = Number(chip.dataset.right);
+          const existing = Object.entries(st.userPairs).find(([li,ri])=>Number(ri)===origIdx);
+          if(existing){ delete st.userPairs[Number(existing[0])]; renderStudy(); return; }
+          if(st.selectedLeft !== null){
+            st.userPairs[st.selectedLeft] = origIdx;
+            st.selectedLeft = null;
+            renderStudy();
+          }
+        });
+      });
+      const checkBtn = document.getElementById('checkMatchBtn');
+      if(checkBtn){
+        checkBtn.addEventListener('click', ()=>{
+          st.answered = true;
+          const numCorrect = Object.entries(st.userPairs).filter(([li,ri])=>Number(li)===Number(ri)).length;
+          status[c.id] = (numCorrect === n) ? 'correct' : 'incorrect';
+          saveStatus(); renderStatline();
+          renderStudy();
+        });
+      }
+    }
+  }
+
+  function answerSingle(c, idx){
+    cardState.answered = true;
+    cardState.selected = idx;
+    const correct = idx === c.answerIndex;
+    status[c.id] = correct ? 'correct' : 'incorrect';
+    saveStatus(); renderStatline();
+    renderStudy();
+  }
+  function answerTF(c, val){
+    cardState.answered = true;
+    cardState.selected = val;
+    const correct = val === c.answer;
+    status[c.id] = correct ? 'correct' : 'incorrect';
+    saveStatus(); renderStatline();
+    renderStudy();
+  }
+
+  function go(delta){
+    if(order.length===0) return;
+    setPos((pos + delta + order.length) % order.length);
+  }
+
+  prevBtn.addEventListener('click', ()=>go(-1));
+  nextBtn.addEventListener('click', ()=>go(1));
+
+  document.addEventListener('keydown', (e)=>{
+    if(browseMode) return;
+    if(document.activeElement === topicSelect) return;
+    if(e.code==='ArrowRight'){ go(1); return; }
+    if(e.code==='ArrowLeft'){ go(-1); return; }
+    if(order.length===0 || !cardState || cardState.answered) return;
+    const c = cardById(order[pos]);
+    if(!c) return;
+    if((c.type==='combo'||c.type==='mc') && ['1','2','3','4','5'].includes(e.key)){
+      const idx = Number(e.key)-1;
+      const max = c.type==='combo' ? c.choices.length : c.options.length;
+      if(idx < max) answerSingle(c, idx);
+    } else if(c.type==='tf' && (e.key==='t'||e.key==='T')){
+      answerTF(c, true);
+    } else if(c.type==='tf' && (e.key==='f'||e.key==='F')){
+      answerTF(c, false);
+    }
+  });
+
+  // init
+  modRow.querySelector('[data-key="all"]').classList.add('active');
+  typeRow.querySelector('[data-key="all"]').classList.add('active');
+  rebuild(true);
+})();
+</script>

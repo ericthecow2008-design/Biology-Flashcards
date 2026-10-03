@@ -1,0 +1,239 @@
+### 1 (mod 0, combo, Connecting Modules 1 & 2)
+T: Gene to protein, bond by bond
+STEM: Read (가) and (나) below. Which statements in <보기> are correct?
+BOX: <b>(가)</b> A gene is the DNA sequence that codes for a functional product.<br><br><b>(나)</b> The central dogma describes how that DNA sequence becomes a protein.
+  ㄱ [O] Transcription builds the RNA strand via phosphodiester bonds formed 5'→3'.
+  ㄴ [O] Translation builds the polypeptide via peptide bonds, which form by condensation, releasing water.
+  ㄷ [O] E. coli is convenient for studying this whole pathway because its DNA isn't separated from its ribosomes by a nuclear envelope.
+
+### 2 (mod 0, combo, Connecting Modules 1 & 2)
+T: ATP's double identity
+STEM: Read (A) and (B) below. Which statements in <보기> are correct?
+BOX: <b>(A)</b> ATP: adenine + ribose + three phosphate groups.<br><br><b>(B)</b> cAMP and NAD are also built on a base + sugar + phosphate scaffold.
+  ㄱ [O] ATP counts as a nucleotide structurally, even though it's never incorporated into a nucleic acid strand.
+  ㄴ [O] The "high energy" in ATP resides in the bonds between its second and third phosphate groups.
+  ㄷ [O] Because (B) shares ATP's scaffold, "nucleotide" is a structural classification, not a statement about function.
+
+### 3 (mod 0, combo, Connecting Modules 1 & 2)
+T: One reaction pair, three macromolecules
+STEM: Read (가) and (나) below. Which statements in <보기> are correct?
+BOX: <b>(가)</b> Peptide bond formation between two amino acids.<br><br><b>(나)</b> Phosphodiester bond formation between two nucleotides.
+  ㄱ [O] Both (가) and (나) release one water molecule as they form.
+  ㄴ [O] Hydrolyzing the bond in (가) would release energy, since hydrolysis is the reverse of the energy-requiring condensation reaction.
+  ㄷ [O] If a polysaccharide were built the same way as (가) and (나), a glycosidic bond would also form by releasing water.
+
+### 5 (mod 0, combo, Connecting Modules 1 & 2)
+T: pH, charge, and the active site
+STEM: Read (가) and (나) below. Which statements in <보기> are correct?
+BOX: <b>(가)</b> An enzyme's active site depends on the protein's precise 3D fold.<br><br><b>(나)</b> Amino and carboxyl R-groups are ionizable functional groups.
+  ㄱ [O] Moving the enzyme from its optimal pH into a strongly acidic solution changes the charge on the groups in (나).
+  ㄴ [X] That charge change only affects surface-exposed groups, never residues that form the active site itself.
+  ㄷ [X] This means an enzyme's function depends only on its amino acid sequence, never on the surrounding solution.
+
+### 6 (mod 0, combo, Connecting Modules 1 & 2)
+T: What an enzyme actually changes
+STEM: Read (가) and (나) below. Which statements in <보기> are correct?
+BOX: <b>(가)</b> Glycolysis and the citric acid cycle are metabolic reactions (property 5).<br><br><b>(나)</b> Enzymes catalyze these reactions.
+  ㄱ [O] (나) lowers the activation energy needed to reach the transition state.
+  ㄴ [O] (나) speeds the reaction by stabilizing the transition state, without being consumed itself.
+  ㄷ [O] Without (나), reactions in (가) would still reach the same equilibrium eventually, just more slowly.
+
+### 20 (mod 0, combo, Connecting Modules 1 & 2)
+T: One bond, two structural roles
+STEM: Read (가)–(다) below. Which statements in <보기> are correct?
+BOX: <b>(가)</b> Cysteine's sulfhydryl group (-SH) can react with another cysteine's -SH to form a disulfide bond.<br><br><b>(나)</b> Two cysteines sit on the same polypeptide chain.<br><br><b>(다)</b> Two cysteines sit on separate polypeptide chains.
+  ㄱ [O] Under (나), the resulting disulfide bond stabilizes tertiary (3D) folding.
+  ㄴ [O] Under (다), the resulting disulfide bond contributes to quaternary structure by linking the two chains.
+  ㄷ [X] (가) could just as well occur between a cysteine's -SH and a hydroxyl group.
+
+### 29 (mod 0, combo, Connecting Modules 1 & 2)
+T: One molecule, two charges at once
+STEM: Read (가) and (나) below. Which statements in <보기> are correct?
+BOX: <b>(가)</b> An amino acid has 4 groups on its alpha carbon: -COOH, -NH2, H, and R.<br><br><b>(나)</b> At physiological pH, -NH2 gains a proton and -COOH loses one.
+  ㄱ [O] (나) describes the amino acid existing as a zwitterion — both a positive and negative charge at once.
+  ㄴ [X] All 20 amino acids have identical R groups, differing only in how (가)'s COOH and NH2 are arranged.
+  ㄷ [X] (나) means the amino acid has zero net charge overall at physiological pH, regardless of R group.
+
+### 37 (mod 2, combo, Proteins)
+T: What actually happens when you cook an egg white
+STEM: Raw egg white is a clear, runny solution of the protein albumin, each molecule correctly folded into its normal tertiary structure. When heated, it turns white, opaque, and solid — and stays that way even after cooling back down. Which statements in <보기> are correct?
+BOX: <b>(가)</b> The change is irreversible: cooling the cooked egg white does not return it to its original clear, runny state.<br><br><b>(나)</b> The protein's amino acid sequence (primary structure) is identical before and after cooking.
+  ㄱ [O] Heat energy disrupted the weak interactions (hydrogen bonds, ionic interactions, hydrophobic clustering) holding the folded tertiary structure together, causing the protein to unfold and re-tangle into a disordered aggregate — this is denaturation.
+  ㄴ [O] Because statement (나) says the primary structure is unchanged, the peptide bonds linking amino acids together were not broken by the heat.
+  ㄷ [X] Since the amino acid sequence is unchanged, the cooked protein could spontaneously refold back into its original functional shape if given enough time.
+
+### 38 (mod 2, combo, Condensation & Hydrolysis)
+T: Why undigested lactose causes discomfort
+STEM: Lactose is a disaccharide (glucose + galactose) that must be broken down by the enzyme lactase before it can be absorbed in the small intestine. People with lactose intolerance produce too little lactase, so much of the lactose they consume reaches the large intestine undigested, where gut bacteria ferment it, producing gas and drawing in water. Which statements in <보기> are correct?
+BOX: <b>(가)</b> Lactase catalyzes the breakdown of lactose into its two monosaccharides.<br><br><b>(나)</b> This breakdown reaction requires water as a reactant, not a product.
+  ㄱ [O] The reaction lactase catalyzes is hydrolysis, since a bond is broken by consuming a water molecule rather than releasing one.
+  ㄴ [O] Lactase speeds up this reaction as a catalyst, but doesn't change whether the reaction is energetically favorable — hydrolysis of lactose would still release energy even without the enzyme present, just far too slowly to matter physiologically.
+  ㄷ [X] Since lactose intolerance means lactase is completely absent, no lactose at all can ever be broken down in these individuals.
+
+### 228 (mod 2, tf, Water Chemistry & pH)
+BOX: An enzyme normally functions at pH 7. It's placed into a solution at pH 2.
+CLAIM: This change cannot affect the enzyme's shape, since pH only affects small molecules, not large proteins like enzymes. -> False
+
+### 232 (mod 2, tf, Carbon & Functional Groups)
+BOX: Two amino acids join together, and separately, two monosaccharides join together.
+CLAIM: Only the amino acid reaction forms a bond through a specific functional-group linkage (the amide/peptide bond); the sugar-sugar reaction doesn't involve any specific functional group. -> False
+
+### 235 (mod 2, tf, Condensation & Hydrolysis)
+BOX: An enzyme catalyzes a reaction, lowering the activation energy required.
+CLAIM: Because the enzyme lowers activation energy, the reaction also becomes more energetically favorable overall (releases more net energy) than it would without the enzyme. -> False
+
+### 236 (mod 2, tf, Proteins)
+BOX: A polypeptide chain folds into a specific 3D shape based on interactions between its R groups.
+CLAIM: If a single amino acid in the sequence is changed, the protein's 3D shape and function could be altered, even though only one R group changed. -> True
+
+### 237 (mod 2, tf, Proteins)
+BOX: A functional protein is composed of four separate polypeptide chains held together by non-covalent interactions and disulfide bonds.
+CLAIM: This description specifically matches the definition of quaternary structure. -> True
+
+### 253 (mod 2, tf, Proteins)
+BOX: An amino acid's alpha carbon is bonded to four groups: an amino group (-NH2), a carboxyl group (-COOH), a hydrogen atom, and a variable R group.
+CLAIM: At physiological pH, this same amino acid typically exists as a zwitterion, with both the amino and carboxyl groups carrying opposite charges simultaneously. -> True
+
+### 260 (mod 2, tf, Proteins)
+BOX: The diagram draws four panels in sequence: a beaded chain (Primary), a coiled ribbon (Secondary), a single folded blob (Tertiary), and two differently-shaded blobs touching each other (Quaternary).
+CLAIM: Based on how the diagram progresses, a protein must pass through all four levels in order, and a single-chain protein that never forms multi-subunit assemblies is therefore an "incomplete" or defective protein. -> False
+
+### 317 (mod 2, mc, Proteins)
+STEM: A mutation changes one amino acid's R group from a nonpolar, hydrophobic one to a charged, hydrophilic one, in a region normally buried in the protein's hydrophobic core. What is the most likely consequence?
+KEY: The protein may misfold, since a charged R group is unstable in a hydrophobic core environment
+
+### 330 (mod 2, mc, Carbon & Functional Groups)
+STEM: The amide functional group is specifically responsible for which biologically important linkage?
+KEY: The peptide bond between two amino acids
+
+### 342 (mod 2, mc, Proteins)
+STEM: In the diagram's right-hand panel, one amino acid's –COOH group and a second amino acid's H2N– group are joined by an arrow labeled "peptide bond," with "+ H2O released" written below. Which of the following correctly identifies what happened to the atoms at the reaction site?
+KEY: The –COOH group's –OH and one H from the –NH2 group left together as part of the released water molecule, and the remaining carbon and nitrogen are now directly bonded
+
+### 344 (mod 0, mc, Connecting Modules 1 & 2)
+STEM: The diagram labels the arrow from Gene (DNA) to RNA as "transcription / phosphodiester bonds" and the arrow from RNA to Protein as "translation / peptide bonds," with a note that both steps are condensation reactions. What single underlying chemical fact does this diagram use to connect two otherwise separate topics — nucleic acid chemistry and protein chemistry — into one story?
+KEY: Both steps build a polymer by the same general reaction type — condensation, forming a new covalent bond and releasing water — even though the specific bond formed (phosphodiester vs. peptide) and the monomer involved (nucleotide vs. amino acid) are completely different
+
+### 117 (mod 0, match, Connecting Modules 1 & 2)
+T: Everyday phenomena, molecular explanations | Match each everyday phenomenon to the molecular-level concept it actually demonstrates.
+   Egg white turning solid and opaque when cooked => Heat disrupts the weak bonds (H-bonds, ionic interactions) holding tertiary structure — not the peptide bonds of the primary sequence
+   Dish soap lifting grease off a pan => Amphipathic molecules surround hydrophobic grease with their tails, forming micelles with hydrophilic heads facing the water
+   DNA strands separating when heated during PCR => Breaking hydrogen bonds between complementary bases — the phosphodiester backbone within each strand stays intact
+   Meat becoming tender when treated with a protease-based tenderizer => Enzymatic hydrolysis breaking peptide bonds, cutting long polypeptides into shorter fragments
+   Antacid tablets relieving stomach discomfort => Raising the stomach's pH by neutralizing excess H+, moving it back toward a range that denatures the stomach's own proteins less aggressively
+
+### 1331 (mod 4, mc, Gene Expression & RNA)
+STEM: Why is RNA synthesis called 'transcription' while protein synthesis is called 'translation'?
+KEY: Transcription copies within one nucleic-acid 'language'; translation converts it into another: amino acids
+
+### 1111 (mod 4, match, Gene Expression & RNA)
+T: Templates and products | Match each process to its template and product.
+   Transcription => DNA template → RNA
+   Translation => mRNA code → polypeptide
+   Reverse transcription => RNA template → DNA
+   DNA replication => DNA template → DNA
+
+### 1028 (mod 4, combo, RNA Processing: Prok vs Euk)
+T: Two cells, two timelines
+STEM: Which statements in <보기> are correct?
+BOX: <b>(가)</b> In E. coli, ribosomes attach to an mRNA and start translating while RNA polymerase is still transcribing it.<br><br><b>(나)</b> In a human cell, the primary transcript is processed in the nucleus before it is exported.
+  ㄱ [X] In (나), the primary transcript itself is the mRNA that ribosomes translate.
+  ㄴ [O] The overlap in (가) is possible only because no nuclear envelope separates the DNA from the ribosomes.
+  ㄷ [O] A single E. coli mRNA can carry the information for several genes.
+
+### 1029 (mod 4, combo, RNA Processing: Prok vs Euk)
+T: Caps and tails
+STEM: Using the diagram, which statements in <보기> are correct?
+BOX: <b>(가)</b> A 5' cap (7-methylguanosine) is added to the 5' end of the primary transcript.<br><br><b>(나)</b> About 250 adenines are added to the 3' end (polyadenylation).
+  ㄱ [O] The poly(A) tail helps export the mRNA to the cytoplasm and protects its 3' end from exonucleases.
+  ㄴ [X] Because it is added to the 5' end, the cap protects the mRNA from exonucleases that attack its 3' end.
+  ㄷ [X] An mRNA lacking its cap would still be translated normally; it would just break down sooner.
+
+### 1286 (mod 0, tf, Connecting Modules 1–4)
+BOX: ATP (Modules 1–2) consists of adenine, ribose, and three phosphate groups.
+CLAIM: ATP has the same parts, attached at the same carbons, as the nucleotides RNA polymerase joins into RNA: the base on ribose's 1' carbon and the phosphates on its 3' carbon. -> False
+
+### 1260 (mod 4, tf, Gene Expression & RNA)
+BOX: Adenosine is adenine joined to ribose. ATP is adenosine carrying three phosphate groups.
+CLAIM: Adenosine and ATP are both nucleotides, since each contains a base and a sugar. -> False
+
+### 1265 (mod 4, tf, Transcription Mechanism)
+BOX: Each phosphodiester bond in RNA forms as an incoming ribonucleotide releases its outer two phosphates as pyrophosphate.
+CLAIM: The energy for each new bond comes from a separate ATP molecule hydrolyzed by the polymerase, not from the incoming nucleotide. -> False
+
+### 1344 (mod 0, mc, Connecting Modules 1–4)
+STEM: During its cycle, the Na+/K+ pump is phosphorylated by ATP. Which description of the energy source fits the Module 1–2 picture of ATP?
+KEY: Its outermost phosphate bond breaks, that phosphate goes to the pump, and ADP is released
+
+### 1037 (mod 0, combo, Connecting Modules 1–4)
+T: Energy conversions at membranes
+STEM: Module 3 lists energy transduction among membrane functions. Which statements in <보기> are correct?
+BOX: <b>(가)</b> Chloroplast thylakoid membranes hold chlorophyll.<br><br><b>(나)</b> The inner mitochondrial membrane holds the electron transport chain and ATP synthase.
+  ㄱ [X] Because both organelles have membranes that do this work, both belong to the endomembrane system.
+  ㄴ [O] Thylakoid membranes convert light energy into chemical energy, an example of energy transduction.
+  ㄷ [O] The inner mitochondrial membrane converts energy from food molecules into ATP — energy transduction serving the Module 1 property 'acquires and uses energy'.
+
+### 1035 (mod 0, combo, Connecting Modules 1–4)
+T: Building a pore from amino acids
+STEM: Which statements in <보기> are correct?
+BOX: <b>(가)</b> In a channel protein, the amino acids lining the pore have polar or charged R groups, while those on the outer surface facing the lipid tails have nonpolar R groups.<br><br><b>(나)</b> A mutation replaces one charged, pore-lining amino acid with a nonpolar one.
+  ㄱ [O] The nonpolar outer surface lets the protein sit stably within the hydrophobic interior of the bilayer.
+  ㄴ [O] The polar lining creates an aqueous pore through which ions can pass without contacting the lipid tails.
+  ㄷ [X] Because the changed amino acid lines the pore, the mutant protein can no longer insert into the membrane.
+
+### 1031 (mod 0, combo, Connecting Modules 1–4)
+T: Why DNA hugs histones
+STEM: Which statements in <보기> are correct?
+BOX: <b>(가)</b> Histone proteins are rich in amino acids whose R groups contain amino groups, which are positively charged at cellular pH (Module 2).<br><br><b>(나)</b> DNA wraps around histones to form nucleosomes, the 10 nm fiber (Module 4).
+  ㄱ [X] The binding works through hydrogen bonds to specific bases, so histones wrap only particular DNA sequences.
+  ㄴ [X] Neutralizing DNA's phosphate charges would make it bind histones even more tightly.
+  ㄷ [O] Attraction between the histones' positive charges and DNA's negatively charged phosphate backbone helps the DNA wrap tightly.
+
+### 1313 (mod 3, mc, Mitochondria & Chloroplasts)
+STEM: Chloramphenicol, an antibiotic that blocks bacterial ribosomes, can cause serious side effects (such as bone-marrow suppression) by also blocking protein synthesis inside one human organelle. Which organelle is it, and why is it vulnerable?
+KEY: Mitochondria — they descend from bacteria and keep bacteria-like ribosomes
+
+### 1004 (mod 3, combo, Endomembrane System)
+T: Following a pulse of labeled protein
+STEM: Pancreatic cells, which secrete digestive enzymes, are given a brief pulse of radioactive amino acids, and the label is tracked along the route in the diagram. Which statements in <보기> are correct?
+BOX: <b>(가)</b> At 3 minutes, the label is concentrated in the rough ER.<br><br><b>(나)</b> At 20 minutes it is in the Golgi apparatus; by 2 hours it is in secretory vesicles near the plasma membrane.
+  ㄱ [O] The label appeared first in the rough ER because ribosomes on that membrane assemble amino acids into the new enzymes.
+  ㄴ [O] The label reached the Golgi inside vesicles, since the Golgi is not physically attached to the ER.
+  ㄷ [X] Each time a secretory vesicle releases its enzymes, its membrane is lost from the cell, so the plasma membrane gradually shrinks.
+
+### 1005 (mod 3, combo, Endomembrane System)
+T: Enzymes made right, delivered wrong
+STEM: In I-cell disease, lysosomal enzymes are made normally, but a Golgi defect means they are not sorted to lysosomes. Which statements in <보기> are correct?
+BOX: <b>(가)</b> Normal route: lysosomal enzymes are made in the rough ER → sorted in the Golgi → packaged into lysosomes.<br><br><b>(나)</b> In patients, lysosomes swell with undigested material, and the missing enzymes are found at high levels in the blood.
+  ㄱ [O] Undigested macromolecules build up inside the patients' lysosomes because the lysosomes lack the enzymes that break them down.
+  ㄴ [X] The enzymes' amino acid sequences must be abnormal, since the enzymes end up in the wrong place.
+  ㄷ [O] The enzymes reach the blood because, when not sorted to lysosomes, they leave the Golgi in secretory vesicles and are released by exocytosis.
+
+### 1212 (mod 3, tf, Endomembrane System)
+BOX: Plasma cells, the immune cells that secrete thousands of antibody (protein) molecules per second, have cytoplasm filled with stacked sheets of rough ER.
+CLAIM: Because antibodies are secreted, they are most likely made by free ribosomes in the cytosol, while all that rough ER mainly makes membrane lipids. -> False
+
+### 1308 (mod 3, mc, Endomembrane System)
+STEM: A glycoprotein receptor ends up in the plasma membrane with its sugar chains facing outside the cell. Using the diagram, which route did it take?
+KEY: Rough ER → vesicle → Golgi → vesicle → plasma membrane
+
+### 1348 (mod 0, mc, Connecting Modules 1–4)
+STEM: Module 2 listed protein functions such as enzymes, transport, signaling, and support. Which description fits the Na+/K+-ATPase?
+KEY: Both a transporter and an enzyme: it moves ions and hydrolyzes ATP
+
+### 1116 (mod 0, match, Connecting Modules 1–4)
+T: One bond type, many jobs | Match each Module 3–4 structure or process to the Module 2 bond or interaction it depends on.
+   Holding the two DNA strands together => Hydrogen bonds between complementary bases
+   Linking nucleotides within an RNA strand => Phosphodiester bonds, formed as pyrophosphate is released
+   Keeping phospholipid tails together in the bilayer => Hydrophobic interactions: water excludes the nonpolar tails
+   Attaching sugar chains to membrane proteins => Covalent bonds added by Golgi enzymes (glycosylation)
+   Holding peripheral proteins to the membrane surface => Noncovalent bonds that can break without disrupting the bilayer
+
+### 1034 (mod 0, combo, Connecting Modules 1–4)
+T: Why study E. coli?
+STEM: Which statements in <보기> are correct?
+BOX: <b>(가)</b> Module 1 lists E. coli as a model organism for studying DNA replication, transcription, and translation.<br><br><b>(나)</b> In E. coli, transcription and translation are coupled.
+  ㄱ [X] Because E. coli has no nucleus, it has no RNA polymerase and uses its ribosomes to copy DNA into RNA.
+  ㄴ [O] In E. coli, a researcher could see ribosomes translating an mRNA that is still attached to its DNA through RNA polymerase — something never seen inside a human nucleus.
+  ㄷ [X] E. coli is a poor model for human transcription, since transcription works completely differently in prokaryotes.
+

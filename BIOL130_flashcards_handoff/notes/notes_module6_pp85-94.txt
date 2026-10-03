@@ -1,0 +1,1019 @@
+=================== NOTES PAGE 85
+MODULE
+MAKING LIFE WORK
+
+6
+
+An overview of metabolism will be explored in this module. The basic forms of energy (kinetic and
+potential energy) will be discussed followed by a review of the first and second laws of thermodynamics
+
+as they govern energy flow in biological systems. The final section of the module will examine chemical
+reactions,
+
+emphasizing the function of enzymes.
+
+Learning Outcomes:
+• Describe energy flow in anabolic and catabolic metabolism
+
+• Contrast kinetic and potential forms of energy and relate the structure of ATP to its role in cellular energy
+interactions
+
+• Explain the laws of thermodynamics as they apply to biological systems
+
+• Describe the type(s) of energy involved in chemical reactions and the role of enzymes.
+
+Scanned with
+
+CS CamScanner
+
+=================== NOTES PAGE 86
+6-1
+&
+
+OVERVIEW OF METABOLISM
+
+INTRODUCTION
+
+A. Why Do Cells Need Energy?
+
+- Recall that cells
+
+need:
+
+- A way to separate the inside of the cell from the outside ￫ the membrane
+
+- A way to encode/transmit information ￫ nucleic
+
+acids & proteins
+
+- Energy to do the work of the cell which includes:
+- Movement, growth, pump ions, and perform reactions needed for cellular function, etc.
+
+B. How Do Organisms Harvest Energy?
+
+- Organisms can harvest energy from their environment in one of two ways:
+a. Obtain energy from the sun ￫
+- Plants are the most common ￫ obtain energy from the sun to convert CO2 & water into
+
+sugar and O2
+b. Obtain energy from chemical compounds ￫
+- Animals are the most common chemotrophs ￫ obtain energy by ingesting other organisms
+
+and breaking them down into CO2 & water
+- Organisms can further be classified in two ways based on their source of carbon:
+- If the organism can convert CO2 into glucose since they make their own organic source of
+carbon
+
+￫
+
+- If the organism is unable to convert CO2, they must ingest other organisms/molecules for a
+source of carbon ￫
+All organisms
+
+Phototrophs
+
+Chemotrophs
+
+Energy from sunlight
+
+Energy from chemical compounds
+
+Autotrophs
+Carbon trom norganic
+sources unas
+
+Heterotrophs
+Don
+
+Tron
+
+Autotrophs
+Carbon from inorganic
+
+Heterotrophs
+caroon tro
+
+sources (such as Con
+
+s
+
+Heliobacteria
+
+Sulfur-oxidizing bacteria
+
+Most bacteria
+
+Most green
+
+Hydrogen bacteria
+
+Animals
+
+Examples -
+
+Plant
+
+nonsulfur bacteria
+© Macmilan Leaning
+
+Figure 6.1 A Metabolic Classification of Organisms.
+(Figure 6.1 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 87
+Biol 130
+
+87
+
+Module 6 - Making Life Work
+
+& METABOLISM
+
+A. Introduction
+Question: What is metabolism?
+
+Answer: Metabolism
+
+￫ chemical processes that occur in a living organism to maintain life
+
+- Includes the building up and breakdown of chemical compounds ￫ allows energy to be
+
+harnessed or released
+- These reactions are continuously happening in cells
+
+- Many of these reactions are linked in such a way that the products of one reaction are the
+reactants of the next reaction ￫
+- There are two branches of metabolism ￫
+Macromolecules
+Carbohydrates
+Proteins
+
+Lipids
+
++ H,°
+
+Anabolism
+
+Nucleic acids
+
+from smaller units ￫ requires an
+input of energy (ATP)
+
+Subunits
+Sugars
+Amino acids
+Fatty acids
+
+Nucleotides
+
+and their precursors
+
+Catabolism
+
+Anabolism building of molecules
+
++ HO
+
+Catabolism breakdown of
+molecules into smaller units
+￫ produces energy (ATP)
+
+Figure 6.2 Anabolism and Catabolism.
+(Figure 6.2 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+B. Types of Energy
+
+- Two types of energy:
+
+- Energy that is not associated with movement but rather is stored ￫
+- Energy of motion ￫
+
+Note: energy can
+one form to another
+be converted from
+
+Figure 6.3 Potential &
+Kinetic Energy.
+
+(Figure 6.3 from Morris et al., Biology: How Life
+
+Works, 4th Ed., © 2023. Reprinted by permission
+
+High potential energy
+
+Kinetic energy
+
+Low potential energy
+
+of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 88
+Biol 130
+
+88
+
+Module 6 - Making Life Work
+
+- Chemical bonds between pairs
+
+of atoms in a
+
+molecule hold onto a form of potential
+
+energy ￫
+
+- Bond strength & potential energy are linked
+- Strong bonds = less potential energy
+
+- Weak bonds = more potential energy
+
+C. ATP - The Energy Currency
+
+- Cells do not use all the energy they have at once ￫ best to keep it stored in a chemical
+
+form that
+
+is readily accessible to the cell
+- Most common chemical form used by the cell is ATP ￫
+- The ATP molecule contains energy in its chemical bonds
+- ATP (adenosine triphosphate) is composed of:
+- Adenine
+The bonds linking
+
+these phosphate
+groups have high
+potential energy.
+
+- A five-carbon sugar ￫
+
+- Three phosphate groups
+- Note: if less than 3 phosphates:
+
+-P- O-P.
+
+Adenine
+
+- Only two phosphate groups ￫
+
+Phosphate groups
+
+- Only one phosphate group ￫
+
+OH
+
+- ATP provides energy in a form that all cells can readily
+use ￫ to perform the work of the cell
+- Examples of cellular work:
+- DNA, RNA, and protein synthesis
+- Vesicle movement in a cell
+
+NH,
+
+Ribose
+Adenosine
+Adenosine monophosphate (AMP)
+
+Adenosine diphosphate (ADP)
+Adenosine triphosphate (ATP)
+
+- Pumping substances across membranes
+
+Figure 6.4 ATP Structure.
+
+- Breaking down fats to release energy
+
+(Figure 6.4 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+- Breaking down proteins into amino acids
+
+- Oxidizing sugars to produce ATP
+- ATP has a high amount of energy ￫ the bonds between phosphate groups are weak
+- When the bonds between the phosphate groups are broken ￫ the potential energy is released
+
+for the cell to do work
+- Important: the chemical energy of ATP is held in the bonds connecting the phosphate groups
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 89
+Biol 130
+
+89
+
+Module 6 - Making Life Work
+
+& LAWS OF THERMODYNAMICS
+A.
+
+First Law
+
+- Thermodynamics is the study of changes in energy that accompany events in the universe
+
+- Concepts allow us to predict the direction that events will take and whether input of energy is
+required
+
+- First Law > energy can be neither created nor destroyed
+- Energy can be converted from one form to another ￫ e.g.
+
+Note: when electrons move from
+
+TRANSFORMATION
+
+higher to lower energy level >
+
+energy released as heat or light
+Total energy after
+
+Total energy before
+
+Unit of energy
+
+Figure 6.5 The First Law Of Thermodynamics.
+(Figure 6.5 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+B. Second Law
+
+- Events in the universe have direction ￫ proceed from a higher energy state to a lower energy
+
+state
+- These events are thermodynamically favourable and are said to be spontaneous ￫ no input of
+external energy
+- Results in a reduction in the amount of useable energy ￫ energy transformations are not
+
+100% efficient
+
+Energy, often in
+the form of heat,
+
+resulting in
+
+increased entropy
+Energy available
+to do work
+
+TRANSFORMATION
+
+Total energy
+
+Total energy
+
+after
+
+before
+Unit of energy
+
+Figure 6.6 The Second Law
+
+Of Thermodynamics.
+
+(Figure 6.6 from Morris et al., Biology: How Life
+
+Works, 4th Ed., © 2023. Reprinted by permission of
+Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner
+
+=================== NOTES PAGE 90
+90
+
+Module 6 - Making Life Work
+
+Biol 130
+
+& CHEMICAL REACTIONS
+A. Introduction
+- Atoms keep their identity but the bonds linking them change during a chemical reaction
+- The concentrations of products and reactants can influence whether a reaction proceeds forward
+
+or backward
+A single covalent bond
+
+connecting carbon and oxygen
+in CO, and a single covalent
+bond connecting hydrogen and
+oxygen in HO are broken.
+
+A covalent bond is formed
+between the carbon of CO,
+and the oxygen of H,O, and
+between one oxygen of CO,
+and one hydrogen of HO.
+—
+
+H
+
+New
+
+0=C⼟0 + H+O- H
+
+covalent
+bonds
+
+Figure 6.7 A Chemical Reaction.
+
+H,CO,
+
+Carbon
+dioxide
+
+Water
+
+(Figure 6.7 from Morris et al., Biology: How Life Works,
+4th Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York)
+
+Carbonic
+
+acid
+
+B. Free Energy (G)
+
+- The amount of energy in a system available to do work ￫ Gibbs free energy
+
+- AG is the symbol for the difference in Gibbs free energy between the reactants and products of
+a chemical process
+- If the products of a reaction have more free energy than the reactants ￫
+- Thermodynamically unfavourable ￫
+
+- Needs an input of energy
+
+- If the reactants have more free energy than the products ￫
+- Thermodynamically favourable ￫
+
+- Energy is available for use in other processes
+
+Endergonic reactions
+
+a. Endergonic reaction
+(Nonspontaneous)
+
+require energy
+
+b. Exergonic reaction
+(Spontaneous)
+Reactants
+
+Reactants
+
+Course of reaction
+figure 6.8
+
+Free
+
+Free energy
+
+required (+AG)
+
+￩
+
+energy
+
+Products
+Amount of
+energy
+
+Exergonic reactions
+release energy
+
+Amount of
+energy
+
+released (-AG)
+Products
+
+Course of reaction
+
+Macmilan Learning
+
+Figure 6.8 Endergonic and Exergonic Reaction
+(Figure 6.8 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner
+
+=================== NOTES PAGE 91
+Biol 1 30
+
+91
+
+Module 6 - Making Life Work
+
+C. Energy Available
+
+- Total energy (H) = energy available to do work (G) + energy lost to entropy (S)
+- This can be rearranged to illustrate the state of Gibbs free energy:
+
+AG = AH - TAS
+-
+
+Remember
+
+A = Change = Final State - Initial State
+
+- Where:
+
+H-total energy (enthalpy)
+
+- G = energy available to do work
+
+Temperature influences the
+movement of molecules & adds
+to the degree of disorder
+
+- S = energy lost to entropy or disorder
+- T= absolute temperature in Kelvin
+
+D. ATP Hydrolysis
+
+Question: What happens when ATP is hydrolyzed?
+Answer: The reaction of ATP with water is exergonic (spontaneous) ￫
+- At physiological pH ￫ the phosphate groups in ATP are negatively charged & resist one another
+- Compared to ATP, which has three phosphate groups, ADP contains two ￫ meaning that it has a
+lower potential energy
+Free energy
+
+Adenosine
+triphosphate
+
+н,о
+
+ADP
+
+Water
+
+Adenosine
+
+Figure 6.9 ATP Hydrolysis.
+
+diphosphate
+
+(Figure 6.9 from Morris et al., Biology: How Life Works,
+
+4th Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York)
+
+E. Activation Energy
+
+All reactions require an input of
+energy, called activation energy
+
+- Chemical transformations require the breakage
+
+(Ex), to proceed.
+
+of certain covalent bonds within the reactant
+
+Transition state
+
+- Reactants must contain sufficient kinetic
+
+An enzyme
+
+barrier
+
+accelerates
+the reaction
+by reducing
+
+Free energy
+
+energy to overcome the activation energy
+￫
+
+- Enzymes catalyze reactions by decreasing
+magnitude of Es barrier ￫ reaction can
+
+EA-
+
+Reactants
+AG
+
+proceed
+
+— Uncatalyzed reaction
+
+- Cells can carry out many reactions with a +AG
+
+— Catalyzed reaction
+
+AG is the same
+with and
+without an
+enzyme.
+
+Products
+
+Course of reaction
+
+Figure 6.10 Enzyme-catalyzed Reaction.
+(Figure 6.12 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner
+
+=================== NOTES PAGE 92
+Biol 130
+
+Module 6 - Making Life Work
+
+92
+
+- Occurs for two reasons:
+1. Relative concentrations of reactants to products
+
+are
+
+maintained above that defined
+
+by equilibrium constant
+2. Coupling endergonic and exergonic reactions
+- E.g. hydrolysis of ATP ￫ drives endergonic reactions
+The coupled reaction
+proceeds because the net
+AG is negative and P, is
+shared between the two
+reactions.
+ATP
+
++ H,0￫
+
+ADP
+
+Glucose
+
+Glucose
+
++
+
+ATP
+
+￫
+
++
+
+P,
+
+AG, = -7.3 kcal/mol
+
+Exergonic reaction
+
++
+Glucose
+6-phosphatel
+
+HO
+
+AG, = +3.3 kcal/mol
+
+Endergonic reaction
+
+Glucose +
+6-phosphate
+
+ADP
+
+AG = -4
+
+Coupled reaction
+
+kcal/mol
+
+Figure 6.10a
+© Macmilian Learning
+
+Figure 6.11 Energetic coupling.
+(Figure 6.10 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+
+COOH
+
+F. Chemical Reactions
+
+Amino acids
+
+Question: How are chemical reactions
+catalyzed?
+
+Protein folding brings
+specific amino acids
+close to each other to
+form the active site.
+COOH
+
+The amino acids that
+form the active site
+
+Answer: Chemical reactions are catalyzed
+
+are often far apart in
+the linear sequence of
+
+by proteins called ￫
+
+Bound
+substrate
+
+the unfolded enzyme.
+
+- The active site of an enzyme is formed
+
+by the assembly of certain amino acids
+
+-NH,
+
+NH2
+
+in a three-dimensional structure
+- The enzyme active site binds the
+
+Unfolded enzyme
+
+Folded enzyme
+
+substrate(s) and converts it to the
+products)
+- The active site binds the substrate(s)
+
+a. Schematic model
+
+and helps to stabilize the transition
+state ￫ lowers the activation energy
+
+Substrate
+
+b. Molecular model
+
+Active site
+
+Active site
+Substrate
+
+Figure 6.12 Enzyme Active Site.
+(Figures 6.15 and 6.16 from Morris et al., Biology: How
+
+Life Works, 4th Ed., © 2023. Reprinted by permission of
+Macmillan Learning, New York, New York)
+Figure 6.15
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 93
+Biol 130
+
+93
+
+Module 6 - Making Life Work
+
+b. Induced fit model
+
+a. Lock-and-key model
+
+- Anabolic and catabolic
+reactions are catalyzed by
+enzymes
+
+- It is possible to affect enzyme
+activity
+
+Substrate
+
+Enzyme-
+
+- Enzyme activity can be
+reduced by two different kinds
+of inhibitors ￫ reversible &
+
+a. Catabolic reaction
+
+Products
+
+Substrate
+
+irreversible
+
+- Enzyme activity can be
+increased by activators
+a. An enzyme-catalyzed reaction
+Substrate
+Active site
+
+Enzyme-substrate
+
+Enzyme-product
+
+complex
+
+complex
+
+ES
+
+EP
+
+E+ S
+
+Product
+
+The substrate
+binds to the
+active site, where
+
+Enzyme
+
+Enzyme
+
+E +P
+
+b. Anabolic reaction
+Substrates
+
+Product
+
+it is converted to
+
+product.
+b. Competitive inhibition
+
+Enzyme
+
+Competitive inhibitor
+The inhibitor binds to the
+active site, competing with
+the substrate and reducing
+the rate of the reaction.
+
+Enzyme-substrate Enzyme-product
+complex
+
+complex
+
+ES
+
+EP
+
+E+ S
+
+E+ P
+
+Figure 6.13
+
+apy. How Life Works
+
+Figure 6.13 Enzyme-Substrate Interactions.
+
+c. Noncompetitive inhibition
+
+(Figures 6.13, 6.17 and 6.19 from Morris et al., Biology: How Life Works, 4th Ed.
+© 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+The inhibitor binds to a site
+other than the active site,
+changing the shape of the
+
+Threonine
+
+enzyme and reducing the
+Noncompetitive inhibitor
+
+rate of the reation.
+
+Threonine
+dehydratase
+
+- Because energy is needed for chemical reactions ￫ many
+metabolic pathways are regulated
+
+P1
+
+- An example of regulation is where the final product in a
+pathway inhibits the first step of the reaction known as
+- Important for maintaining balance in the cell and in helping
+
+the cell to conserve energy
+
+P2
+
+Allosteric
+inhibitor
+
+P3
+
+P4
+
+Figure 6.14 An Allosteric Enzyme.
+
+(Figure 6.20 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+Figure 6.20
+
+Brology: How Life Works
+• Macmilan Learning
+
+Isoleucine
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 94
+MODULE
+
+IMPORTANT TERMS AND CONCEPTS
+
+6
+
+IMPORTANT TERMS (you should be able to define these terms)
+
+- Autotroph
+
+- Chemotroph
+- Heterotroph
+
+- Metabolism
+
+- Catabolic
+
+(catabolism)
+
+- Anabolic (anabolism)
+
+- Potential
+
+energy
+
+- Kinetic energy
+
+- Chemical
+
+energy
+
+- Adenosine triphosphate (A TP)
+
+-
+
+reaction
+
+- Chemical equilibrium
+
+- Gibbs Free Energy
+
+- Exergonic
+
+- Endergonic
+
+- Enthalpy
+
+- Energetic coupling
+
+- Enzymes
+
+- Activation energy
+
+- Reactants
+
+- Products
+
+- Substrate
+
+- Enzyme active site
+
+- Enzyme inhibitors
+
+- Enzyme activators
+
+- Phototroph
+
+Chemical
+
+- Allosteric enzyme
+
+IMPORTANT CONCEPTS (you should understand these concepts)
+- Overview of metabolism
+- Kinetic and potential energy
+- Laws of Thermodynamics
+
+- Chemical reactions
+
+- Hydrolysis of ATP
+- Enzymes in catalyzing reactions
+- Enzyme regulation
+
+Scanned with
+
+CS CamScanner
+
+

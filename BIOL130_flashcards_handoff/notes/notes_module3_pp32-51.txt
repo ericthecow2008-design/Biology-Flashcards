@@ -1,0 +1,1127 @@
+=================== NOTES PAGE 32
+MODULE
+CELLS AND MeMBRANES
+3
+This module begins by exploring what cell membranes are made of and how phospholipids come
+together for form the phospholipid bilayer that surrounds cells. The fluid mosaic model will be
+discussed followed an examination of the endomembrane system and other membrane bound
+organelles, including the endosymbiont origin of mitochondria and chloroplasts. The module will end
+with mechanisms of membrane transport.
+Learning Outcomes:
+• Describe the composition of cell membranes.
+• Explain the relationship between the structure of the eukaryotic endomembrane system and the function of
+each of the membrane-bound compartments.
+•
+Describe the structure, function, and origin of mitochondria and chloroplasts.
+• Describe the mechanism behind the selective permeability of membranes and the reasons why certain
+substances can pass through them while others cannot.
+=================== NOTES PAGE 33
+3-1
+STRUCTURE OF CELL MEMBRANES
+& MEMBRANE STRUCTURE
+A. Introduction
+- Membranes are continuous, unbroken sheets, enclosing compartments
+- Structure allows fusion without losing continuity
+- Cell (plasma) membrane ￫ physically separates cells from external environment
+- Nuclear envelope
+- Mitochondrial membranes
+- Chloroplast membranes
+- Lysosomal membrane
+- Endoplasmic reticulum
+B. Membrane Functions
+- There are several functions of membranes including:
+1. Compartmentalization ￫ compartments have different contents and activities
+2. Provide a selectively permeable barrier ￫ prevent unrestricted exchange of molecules
+3. Transporting solutes ￫ exchange of molecules across the membrane
+4. Scaffold for biochemical activities
+5. Responding to external signals ￫ signal transduction
+6. Intercellular interaction ￫ mediates interaction between cell & neighbours
+7. Energy transduction ￫ conversion of one form of energy into another
+C. Cell Membrane Structure
+- Made of the following components:
+Glycoprotein: protein with
+carbohydrate attached
+1.
+Glycolipid: lipid with
+carbohydrate
+attached
+2.
+3.
+Peripheral membrane
+protein
+Integral membrane
+protein
+Phospholipid
+Cholesterol
+bilayer
+Protein channel
+Filaments of the cytoskeleton
+Figure 3.1 The Cell Membrane.
+Figure 3.18 from Fowler et al. (2013). Concepts of Biology. Houston, Texas: OpenStax. Access for
+free at https://openstax.org/books/concepts-biology/pages/1-introduction. CC-BY4.0
+=================== NOTES PAGE 34
+Biol 130
+34
+Module 3 - Cells and Membranes
+Choline -
+- Composed of two layers of lipids and the major
+Polar
+-head
+type ￫ phospholipids
+Phosphate -
+group
+Glycerol
+- Recall that phospholipids have both
+hydrophobic, nonpolar regions and hydrophilic,
+polar regions and are thus amphipathic
+-
+,
+- Hydrophilic region ￫
+- Contains glycerol, a phosphate group,
+and a polar group
+Nonpolar
+fatty acid
+- Hydrophobic region ￫
+Figure 3.2 Phospholipid Structure.
+(Figure 3.4 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York.)
+Phospholipids can be represented in a
+variety of ways to emphasize overall
+structure, different domains, and 3D shape
+Figure 3.4
+D. Phospholipid Arrangement
+* Macmillan Learning
+- Phospholipids can arrange themselves spontaneously
+- Arrangement depends on the size of the polar head groups
+- If the head is large and bulky with one hydrophobic tail that is buried ￫ form spheres
+called micelles
+- If they contain smaller heads and have two hydrophobic tails ￫ form a bilayer with a
+closed structure & inner space
+- If phospholipids are added to a test tube of water, they spontaneously form enclosed bilayers
+called
+￫
+- Liposomes enclose an inner space ￫ the bilayer makes an effective cell membrane
+- Because of the bilayer arrangement the membranes are self-healing ￫ phospholipids
+spontaneously rearrange
+- Due to the tendency of water to exclude nonpolar molecules
+a. Micelle
+b. Bilayer
+c. Liposome
+Polar head group:
+hydrophilic)
+Nonpolar tails
+Biology: How Life Works
+© Macmillan Learning
+Figure 3.3 Phospholipid Behaviour in Water.
+(Figure 3.5 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York.)
+=================== NOTES PAGE 35
+35
+Module 3 - Cells and Membranes
+Biol 130
+E. Membranes Are Dynamic
+- Membranes are dynamic because they are continually moving, forming and re-forming
+￫ membranes are said to be fluid
+Question: How are membranes fluid?
+Answer: Lipids can move laterally within the membrane
+- Movement is affected by nature of the
+phospholipid tails
+lipid mobility
+lipid mobility
+- The following features of lipids
+a. Saturated: stearic acid, CH,(CH,) COOH
+can affect fluidity:
+Increased
+Decreased
+b. Unsaturated: oleic acid, CH,(CH,),CH = CHICH,,COOH
+i. Length of the fatty acid tails
+- Longer
+Saturated fatty acid
+chains lack double
+bonds, resulting in
+=
+ii. Presence of carbon-carbon
+double bonds
+-
+iii.
+Fewer
+Unsaturated fatty acids
+nave one or more double
+bonds that introduce
+kinks in the phospholipids, reducing the
+tightness of packing.
+phospholipids with a
+straight structure that
+favors tight packing
+=
+Cholesterol ￫ inserts into the
+lipid bilayer of animal cell
+membranes
+- Can increase or decrease
+fluidity depending on
+temperature
+Figure 34
+*Leaning
+Figure 3.4 Saturated & Unsaturated Fatty Acids.
+(Figure 3.6 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by
+permission of Macmillan Learning, New York, New York.)
+Cholesterol acts
+like a "buffer" for
+membrane fluidity
+F. Lipid Rafts
+- Lipids, and other
+components such as
+proteins, may be found in
+discrete regions of the
+membrane ￫ lipid rafts
+Hydrophilic
+The amphipathic
+structure of cholesterol
+allows it to pack tightly
+Polar
+groups
+Hydrophobic
+rigid carbon
+with phospholipids.
+ring structure
+- Lipid rafts are
+specialized
+- Hydrophobic
+hydrocarbon
+microdomains that serve
+tail
+as platforms for various
+Cholesterol
+cell processes
+- Lipids move in the plane of
+the membrane
+Figure 3.5 Cholesterol.
+(Figure 3.7 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by
+permission of Macmillan Learning, New York, New York.)
+- Rarely would they move
+between the layers of the bilayer ￫ lipid flip-flop
+- This makes it possible for layers to differ in composition
+=================== NOTES PAGE 36
+36
+Module 3 - Cells and Membranes
+Biol 130
+Extracellular
+G. Membrane Proteins
+- There are several functions of membrane
+proteins:
+1. Transporters that move ions and
+molecules
+2. Receptors that allow the cell to receive signals
+Figure 3.6 Membrane Proteins.
+3. Enzymes that catalyze chemical reactions in
+(Figure 3.8 from Morris et al., Biology: How Life Works, 4th
+Ed., © 2023. Reprinted by permission of Macmillan Learning,
+New York, New York.)
+the cell
+4. Anchors that attach to other proteins
+- There are two types of membrane proteins:
+›permanently associated with the membrane and can span the
+entire lipid bilayer (transmembrane)
+ii.
+￫ temporarily associated with lipid bilayer or with integral proteins
+via noncovalent bonds
+- Can be either cytoplasmic or extracellular
+fluid
+Figure 3.7 Integral & Peripheral
+Membrane Proteins.
+(Figure 3.9 from Morris et al., Biology: How Life Works,
+4th Ed., © 2023. Reprinted by permission of Macmillan
+Drolein
+Integral membrane
+proteins include
+transmembrane
+proteins that span
+the entire membrane.
+Peripheral membrane
+proteins are temporarily
+associated with either the
+internal or the external
+Learning, New York, New York.)
+side of the membrane
+Integral membrane proteins
+Peripheral membrane proteins
+Cytoplasm
+H. Membrane Carbohydrates
+Glycoprotein: protein with
+carbohydrate attached
+- All face outward to extracellular space
+Glycolipid: lipid with
+carbohydrate
+attached
+- Covalently linked to either:
+- Protein
+>
+- Lipid ￫
+Peripheral membrane
+1. Fluid Mosaic Model
+- Core of membrane is the lipid bilayer
+- The lipid bilayer is a fluid structure that
+allows molecules to move laterally within
+the membrane
+protein
+Integral membrane
+protein
+Phospholipid
+bilayer
+Cholesterol
+Protein channel
+Filaments of the cytoskeleton
+Figure 3.8 The Cell Membrane.
+Figure 3.18 from Fowler et al. (2013). Concepts of Biology. Houston, Texas:
+OpenStax. Access for free at https://openstax.org/books/conceptsbiology/pages/1-introduction. CC-BY 4.0
+- Contains a mosaic (mixture) of different types of molecules ￫ lipids, proteins and
+carbohydrates
+- Remember, membranes are dynamic structures in which components are mobile and capable
+of coming together to engage in various types of transient interactions
+=================== NOTES PAGE 37
+3-2
+THE ENDOMEMBRANE SYSTEM
+An animal cell
+% INTRODUCTION
+A. Background
+- Eukaryotic cells have an internal set of
+membranes that define the organelles
+- The following are found in a typical animal cell:
+involved in the synthesis of proteins & lipids
+￫
+modifies
+proteins and lipids produced by the ER
+- Acts as a sorting station
+￫
+Figure 3.9 An Animal Cell.
+contain
+(Figure 3.19 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York.)
+enzymes that break down macromolecules
+such as proteins, nucleic acids, lipids, and
+complex carbohydrates
+￫ specialized organelles that harness energy for the cell
+￫ a protein scaffold that provides the cell structure
+- A plant cell has many of the same features as an animal cell but also have:
+￫ provides additional support to the cell
+￫ contribute to the structure by maintaining turgor pressure
+￫ convert the energy from sunlight into chemical energy that the
+cell can use
+B. The Endomembrane System
+- The entire contents of the cell minus the nucleus
+make up the ￫
+Nuclear envelope
+- The region outside the organelles but inside the
+plasma membrane is the ￫
+Endoplasmic
+reticulum
+- Recall that eukaryotic cells have many internal
+organelles that are surrounded by membranes
+Golgi apparatus
+- These are either physically connected by
+Cell membrane
+membrane "bridges" or transiently by vesicles
+￫ form by budding off an organelle
+Vesicle
+Lysosome
+Exocytosis
+Endocytosis
+Figure 3.10 The Endomembrane System.
+(Figure 3.20 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York.)
+=================== NOTES PAGE 38
+Biol 130
+38
+Module 3 - Cells and Membranes
+- The system of interconnected organelles
+within
+- The endomembrane system allows specific
+the cell >
+functions to take place within defined
+spaces
+of the cell
+- It includes:
+- Plasma membrane & nuclear envelope
+- ER & Golgi apparatus
+- Lysosomes
+- Vesicles that move between the above
+& COMPONENTS OF THE ENDOMEMBRANE SYSTEM
+A. The Nucleus
+- The nucleus is the innermost organelle of
+the endomembrane system
+Nucleus
+Nuclear
+pores
+- The nuclear envelope is a double
+membrane that surrounds the nucleus and
+consists of two membranes ￫ inner and
+outer
+- The nuclear membrane is perforated by
+1 um
+protein openings called nuclear pores ￫
+allow molecules to move into and out of
+The nuclear envelope is perforated by
+the nucleus
+membrane protein openings called
+nuclear pores. Small molecules and ions
+can passively diffuse through the pores,
+but large proteins and RNA require
+active transport.
+- The pores are essential for the nucleus
+to communicate with the rest of the cell
+B. The Endoplasmic Reticulum
+- The outer membrane of the nuclear
+envelope is physically continuous with
+the endoplasmic reticulum (ER)
+Figure 3.11 The Nuclear Envelope.
+(Figure 3.2 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+- The ER is a large organelle in most eukaryotic cells
+- Produces many of the lipids and proteins used inside and outside the cell and is a network
+of interconnected tubules and flattened sacs ￫
+- Its highly folded nature allows for a large membrane surface area to fit inside the cell
+=================== NOTES PAGE 39
+Biol 130
+39
+Module 3 - Cells and Membranes
+Nuclear envelope
+- Rough endoplasmic reticulum (RER) >
+has ribosomes associated with the
+membrane and exposed to the cytosol
+Rough endoplasmic reticulum
+Smooth endoplasmic reticulum
+- Ribosomes are sites of protein
+Ribosome
+synthesis ￫ where amino acids are
+assembled into polypeptides
+bound to
+rough ER
+- Ribosomes may also be free in the
+cytosol
+- The smooth ER
+- Ptotein
+(SER) lacks ribosomes
+￫ parts of the smooth ER bud off to
+•Ribosome
+free in
+produce vesicles that are free to move in
+cytoplasm
+the cytosol
+- The SER is the site of fatty acid and
+phospholipid synthesis
+- There is a lot of SER in cells that are
+specialized for lipid production
+Figure 3.12 The Endoplasmic Reticulum (ER).
+(Figure 3.22 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+C. The Golgi Apparatus
+Vesicle
+- The Golgi apparatus is not physically attached to
+Casterna
+the ER ￫ it is the next stop for vesicles that bud
+from the ER
+Golgi
+apparatus
+- The Golgi apparatus has three functions:
+i. To further modify proteins and lipids
+produced in the ER
+ii. To sort proteins and lipids as they move to
+their final destinations
+Soluble
+ili. To add carbohydrates to proteins and lipids
+- The Golgi apparatus consists of flattened sacs
+called
+protein
+Transmembrane
+protein
+Carbohydrate
+Figure 1.23 (Part 1)
+￫
+- These are surrounded by small vesicles which
+transport proteins from the ER to the Golgi
+apparatus & between the Golgi apparatus and
+the cell membrane/other organelles
+Figure 3.13 The Golgi Apparatus.
+(Figure 3.23 from Morris et al., Biology: How Life Works, 4th
+Ed., © 2023. Reprinted by permission of Macmillan Learning.
+New York, New York)
+- Enzymes within the Golgi apparatus chemically modify proteins & lipids
+- Each step is performed in a different region of the Golgi apparatus ￫ different sets of
+enzymes catalyze specific reactions
+- E.g. glycosylation is the process in which carbohydrates (glycans) are covalently linked to
+lipids or specific amino acids of proteins
+=================== NOTES PAGE 40
+Biol 130
+Module 3 - Cells and Membranes
+40
+D. Lysosomes
+- Lysosomes ￫ specialized vesicles derived
+Enzymes
+from the Golgi apparatus
+- Degrade damaged or unneeded
+macromolecules such as proteins, nucleic
+The Golgi apparatus
+delivers enzymes
+acids, lipids, and complex carbohydrates
+macromolecules to a
+lysosome A vesicle
+with macromolecules
+- The Golgi apparatus can package these
+macromolecules into vesicles that fuse
+also merges with the
+lysosome.
+with lysosomes
+- Enzymes found inside a lysosome are
+synthesized in the RER ￫ sorted in the
+Golgi apparatus ￫ then packaged into
+lysosomes
+Proton pump
+Protons
+macromolecules
+Proton pumps help maintain an acidid
+DH, while broken down macromolecules
+are transported out of the lysosome by
+transporters
+- Lysosomes contain specialized proteins in
+their membranes
+- This includes a proton pump ￫ keeps the
+internal pH of the lysosome at around 5
+Broken down
+igure 3.,24(Part1
+© Macmilan learnin
+Figure 3.14 Lysosomes.
+(Figure 3.24 from Morris et al, Biology: How Life Works, 4th
+Ed, O 2023. Reprinted by permission of Macmillan Learning.
+Question: Why is it important to keep the
+New York, New York)
+contents of the lysosome separate from the rest of the cell?
+Answer: Because the optimal pH of the cell is around 7 (neutral) ￫ proteins and organelles
+within the cytosol would degrade if exposed to a pH of 5 found inside lysosomes
+=================== NOTES PAGE 41
+MITOCHONDRIA AND CHLOROPLASTS
+3-3
+& MEMBRANOUS ORGANELLES NOT IN EMS
+A. Introduction
+- Two membranous organelles
+are not a part of the endomembrane system (EMS)
+￫
+- The following is common to both mitochondria & chloroplasts:
+- Specialized in harnessing energy for the cell
+- Semi-autonomous ￫ grow & multiply independently and contain their own circular genomes
+B. Mitochondria
+- Mitochondria (singular, mitochondrion) harness
+energy from chemical compounds such as sugars and
+convert it into ￫
+- Rod-shaped organelles ￫ present in almost all
+eukaryotic cells
+double membrane
+consisting of an inner
+and an aqueous compart-
+- Mitochondria have the following four parts:
+1. Outer membrane
+- Integral proteins ￫ form large, nonselective
+membrane channels ￫ porins
+2. Intermembrane space ￫ aqueous
+compartment between outer & inner
+membrane
+Figure 3.15 Mitochondria.
+(Figure 3.25 from Morris et al., Biology: How Life Works, 4th
+Ed., © 2023. Reprinted by permission of Macmillan Learning,
+New York, New York)
+3. Inner membrane ￫ highly convoluted
+￫ electron transport chain & ATP
+synthase
+4. Matrix ￫ citric acid cycle, ribosomes,
+DNA
+C. Chloroplasts
+- Chloroplasts are where photosynthesis takes
+place
+- Captures the sun's energy to synthesize
+simple sugars for use in the plant cell
+- Surrounded by a double membrane and have
+an internal membrane-bound compartment
+Chloroplasts are
+surrounded by a
+double membrane
+Outer membrane
+Inner membrane
+and have a third
+membrane in the
+interior, the thylakoid
+Thylakoid
+membrane.
+Figure 3.16 Chloroplasts.
+(Figure 3.26 from Morris et al., Biology: How Life Works, 4th
+Ed., © 2023. Reprinted by permission of Macmillan Learning.
+New York, New York)
+=================== NOTES PAGE 42
+Biol 130
+Module 3 - Cells and Membranes
+42
+- The thylakoid membrane contains lightcollecting molecules
+called pigments
+1 um
+- Chlorophyll is the most common ￫
+produces green colour seen in many
+plants
+Outer membrane
+- Overall chloroplast structure:
+Inner membrane
+- Thylakoids ￫ flattened membrane sacs
+Thylakoid
+within chloroplast
+Grana
+- Space inside a thylakoid￫
+- Orderly stacks of thylakoids ￫
+Lumen
+- Space surrounding thylakoids ￫
+Stroma
+Figure 8.5
+dy: How Life Wort
+e Mucmdlan (einine
+D. Origin of Mitochondria & Chloroplasts
+- Chloroplasts resemble cyanobacteria (a
+photosynthetic bacteria) in organization
+and biochemistry
+Figure
+3.17 Chloroplast Structure.
+(Figure 8.5 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+- Originated as an endosymbiotic relationship between a cyanobacterial cell that had been
+engulfed by a eukaryotic cell
+- Mitochondria resemble free-living bacteria in organization and biochemistry
+- Like chloroplasts, mitochondria originated as endosymbiotic bacteria, in this case,
+proteobacteria
+Hypothesis 1
+Eukaryotic cells evolved from an ancestral archaeon
+that became a mitochondrion.
+True eukaryotic cell with
+Engulfing of proteobacterium
+nucleus and cytoplasm
+Capable of arrows spare
+containing a cytoskeleton
+Infolding of cell
+membrane
+and endomembrane system
+Mitochondria
+memorane
+DNA-
+Cytoplasm
+Ancestral
+archacon
+Heterotrophic
+CUKdPYO
+Hypothesis 2
+Eukaryotic cells evolved from a symbiosis
+between an archaeon and a proteobacterium.
+The proteobacterium became a mitochondrion.
+Archaeon host with
+ancestor of mitochondria
+as symbiont
+infolding of cell membrane
+to produce true eukaryote
+Mitochondria
+Proteobacterium
+Achaeo
+Heterotroonic
+Figure0
+eukaryote
+Figure 3.18 Two Hypotheses for the Origin of the Eukaryotic Cell.
+(Figure 25.6 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 43
+3-4
+MEMBRANE TRANSPORT
+2 DIFFUSION & OSMOSIS
+A. Background
+- The plasma membrane is selectively
+permeable
+- Some molecules
+are more permeable than others ￫ gases (e.g. O_ & CO2) and nonpolar
+molecules (e.g. lipids) can move across the bilayer
+- Small uncharged polar molecules (e.g. H2O) can move across the bilayer
+- Macromolecules (e.g. proteins & carbohydrates) are too large to move across the
+membrane ￫ need another way
+- Movement of substance into the cells ￫
+- Movement of substances out of cells ￫
+- When one exceeds the other ￫ net flux
+Time
+B. Diffusion
+- Diffusion is a spontaneous process
+- Net movement of molecules from area of high
+concentration to area of low concentration
+- Net movement stops when no
+concentration gradient ￫ random motion
+in both directions
+- Permeable
+membrane
+Higher solute Lower solute
+concentration concentration
+There is net movement of
+solute from the area of higher
+solute concentration to the area
+of lower solute concentration.
+There is no net movement of
+solute, but random motion
+continues in both directions.
+Figure 3.19 Diffusion.
+(Figure 3.11 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York.)
+C. Passive Transport
+- Passive transport occurs across a membrane via diffusion ￫
+- Driven by concentration gradient across the membrane
+- Two mechanisms for passive transport:
+i. Simple diffusion ￫ through the cell membrane
+- Small molecules ￫ e.g. O2 & CO2
+- Hydrophobic molecules ￫ e.g. triacylglycerols
+=================== NOTES PAGE 44
+Biol 130
+ii.
+Module 3 - Cells and Membranes
+44
+Facilitated diffusion ￫ molecules move down the concentration gradient through a
+protein transporter
+- Two types of membrane transporters:
+a.
+- Channel formed by integral membrane proteins ￫ surround aqueous pore
+- Permeable to specific molecules ￫ selective
+- Some exist in either open or closed conformation ￫ gated channels
+b.
+- Specific molecules bind to transporter & moves down concentration gradient
+- Mechanism:
+- Molecule binds to carrier protein on one side of membrane ￫ this triggers a
+conformational change in the carrier protein
+- Molecule is now exposed to other surface of membrane ￫ diffuses down
+concentration gradient
+Extracellular
+fluid
+Concentration
+gradient
+Movement of molecules down
+the concentration gradient
+Simple
+diffusion
+Cytoplasm
+Channel
+protein
+Simple = directly
+across membrane
+Facilitated = move
+through a channel
+or carrier protein
+Carrier proteins
+Facilitated diffusion
+Biggy -0m Life Works
+Figure 3.20 Simple Diffusion & Facilitated Diffusion.
+(Figure 3.12 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by
+permission of Macmillan Learning, New York, New York.)
+=================== NOTES PAGE 45
+Biol 130
+45
+Module 3 - Cells and Membranes
+D. Osmosis
+- The diffusion of water across a semipermeable membrane is known as osmosis
+- Due to the concentration gradient of H2O
+￫ moves from a higher [H2O] to lower
+[ H 20 ]
+- The osmotic pressure is key ￫ important
+to consider the tonicity of the solution a cell
+is surrounded by
+• Solute
+Selectively permeable
+membrane
+Higher solute
+Lower solute
+concentaton
+concentaton,
+Hower Water
+higher water
+concentration
+concentlatior
+Membrane allows passage
+of water but not solute.
+Figure 3.21 Osmosis.
+(Figure 3.13 from Morris et al., Biology: How Life Works,
+4th Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York.)
+- If equal on either side of the membrane
+>
+- Hypertonic solutions
+- If a solution is hypertonic relative to cell (higher [solute] than the cell) ￫ water
+molecules will move out of the cell, through the semipermeable membrane, and into
+the surrounding solution
+- As water moves out of the cell ￫ the cell will shrink
+- Animal cells will shrivel & die ￫
+- Plants cell will pull away from surrounding cell wall ￫
+- Hypotonic solutions
+- If a solution is hypotonic relative to cell (lower [solute] than the cell) ￫ water
+molecules will move from the solution, through the semipermeable membrane, and
+into the cell
+- As water moves into the cell ￫ the cell will swell
+- Animal cells will swell & eventually burst
+- If a red blood cell ￫
+- Plant cells will push against surrounding cell wall ￫
+Normal
+Shrunk
+H2O
+Lysed
+HO
+Vacuole
+Hypertonic
+Isotonic
+Hypotonic
+Solute concentration in extracellular space
+Hypertonic
+Isotonic
+Hypotonic
+Solute concentration in extracellular space
+Figure 3.22 Changes in Cells Due to Osmosis.
+(Figures 3.16 and 3.18 from Morris et al., Biology: How Life Works, 4th Ed., ©
+2023. Reprinted by permission of Macmillan Learning, New York, New York.)
+=================== NOTES PAGE 46
+Biol 130
+46
+Module 3 - Cells and Membranes
+& ACTIVE TRANSPORT
+A. Introduction
+- Movement of substances against the concentration gradient ￫ active transport
+- Active energy coupled transport ￫
+- Uses protein carrier ￫ active transporter
+- Substance binds to transporter & moves against the [gradient]
+- Active transporter changes conformation upon binding to substance ￫ movement is in
+one direction
+- Two types ￫ primary active transport & secondary active transport
+B. Primary Active Transport
+- We are going to examine the sodium-potassium pump ￫
+- Only present in animal cells ￫ moves Nations out of the cell and K* ions into the cell
+- Nat/K* pump uses energy released from hydrolysis of ATP to move 3 Nations and
+2 Ktions against the concentration gradient
+- The sodium and potassium ions move in opposite directions ￫
+- The steps of the Na*/K*-ATPase transport cycle are as follows:
+- Na* ions bind to the transport protein on inside of membrane
+- ATP is hydrolyzed ￫
+- Conformation of Na*/K+ ATPase is changed
+- Nations are released to external space
+- K* ions bind on outside of membrane
+- Phosphate group on the transport protein is removed
+- Na*/K*-ATPase transport protein snaps back to its original conformation
+- K*ions move to inside of cell
+Extracellular
+K movement
+binding
+2
+binding
+*
+Na movement
+Concentration
+gradier
+fluid
+Figure 3.23 Primary
+Active Transport.
+(Figure 3.14 from Morris et al., Biology:
+How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan
+Cytoplasm
+In steps 1 and 2, three sodium ions
+are pumped out of the cell against
+their concentration gradient.
+Learning, New York, New York.)
+In steps 3 and 4, two potassium ions
+are pumped into the cell against
+their concentration gradient.
+Figure 3.14
+Biology: How Life Works
+=================== NOTES PAGE 47
+Biol 130
+Module 3 - Cells and Membranes
+C. Electrochemical Gradients
+- Energy stored in the concentration gradient that is established
+through primary active transport can produce an
+electrochemical gradient
++
+ICF
+ECF
++
+- This is a gradient that has both an electrical (charge)
+component & a chemical component
++
++
+- Can drive the movement of other molecules through secondary active transport
+D. Secondary Active Transport
+- Cells use transport proteins to move ions across the membrane ￫ this drives the movement
+of other substances against their concentration gradient
+- For example, cells may actively pump protons across the membrane using ATP
+- The pump creates a proton concentration gradient, also called a chemical gradient
+Because the protons are charged, the proton concentration gradient
+￫ is also an
+- The movement of protons down their [gradient] drives the movement of other molecules
+against their [gradients] ￫ this is secondary active transport (co-transport)
+Extracellular
+fluid
+Primary = uses
+chemical energy
+Electrical gradient
+Proton concentration
+gradient
+Proton
+3
+of ATP directly
+Secondary = uses
+electrochemical
+gradient
+Cytoplasm
+Protons are pumped across
+the membrane by primary
+active transport.
+The proton pump generates
+an electrochemical gradient,
+with a higher concentration
+of protons outside the cell
+and a lower concentration
+of protons inside the cell.
+An antiporter uses the proton
+electrochemical gradient to move
+a different molecule out of the cell
+against its concentration gradient.
+Figure 3.15
+Biology: How Life Works
+Figure 3.24 Secondary Active Transport.
+(Figure 3.15 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York.)
+=================== NOTES PAGE 48
+Biol 130
+Module 3 - Cells and Membranes
+48
+Uniporter
+Symporter
+Antiporter
+- Two types of co-transport:
+- Antiport ￫ two solutes move in opposite
+direction ￫ e.g. Na* and H*
+- Symport ￫ two solutes move in same
+direction ￫ e.g. Nat and glucose
+- Example of secondary transport:
+Figure 3.25 Types of Transporters.
+- Glucose can be taken up by an
+Figure 5.17 from Clark et al. (2018). Biology 2e. Houston, Texas: OpenStax. Access
+for free at https://openstax.org/books/bioloogy-2e/pages/1-introduction. CC-BY 4.0.
+intestinal cell against its
+concentration gradient using secondary transport
+- At the apical plasma membrane of intestinal cells, Nat moving into the cell drives the
+co-transport of glucose into the cell
+- Glucose then diffuses through cytoplasm of intestinal cell
+- At basal plasma membrane ￫ glucose travels to bloodstream via facilitated diffusion
+Primary Active Transport
+The Na+-K* pump moves Nat
+using the energy of ATP hydrolysis to
+establish a concentration gradient of Nat.
+Secondary Active Transport
+Nat, moving with the concentration
+gradient established by the Na+-K+
+pump, drives the transport of glucose
+OUTSIDE OF CELL
+High Na+ Concentration
+Low K+ Concentration
+against its concentration gradient.
+K+
+Na+-K+ Pump
+(antiporter)
+Na+
+Glucose
+(Lower
+Concentration)
+ATP
+ADP +
+Nat
+K+
+INSIDE OF CELL
+High K+ Concentration
+Low Na+ Concentration
+Glucose
+(Higher Concentration)
+Figure 3.26 Transport of Glucose.
+Figure 5.19 from Clark et al. (2018). Biology 2e. Houston, Texas: OpenStax. Access
+for free at https://openstax.org/books/bioloogy-2e/pages/1-introduction. CC-BY 4.0.
+=================== NOTES PAGE 49
+Biol 130
+49
+Module 3 - Cells and Membranes
+Exocytosis
+& BULK TRANSPORT
+Extracellular fluid
+A. Introduction
+- Cells also need to bring in and remove larger molecules and
+particles across the membrane
+- Need to do this without breaking continuity of the cell
+membrane
+Cytoplasm
+B. Exocytosis
+- The process where a vesicle fuses with the cell membrane is
+known as ￫
+Figure 3.27 Exocytosis.
+(Figure 5.23 from Clark et al. (2018). Biology
+2e. Houston, Texas: OpenStax. Access for free
+- A vesicle that has budded off from the endomembrane system
+at https://openstax.org/books/bioloogy2e/pages/1-introduction. CC-BY 4.0.)|
+contents
+its
+deliver
+and
+e
+membran
+plasma
+the
+with
+fuse
+can
+into the extracellular space
+Phagocytosis
+Large particle
+C. Endocytosis
+- The process where material from outside the cell is
+brought into a vesicle that can then fuse with other
+Plasma
+membrane
+organelles is known as ￫
+- All the variations of endocytosis have common
+characteristics:
+- Cell membrane invaginates ￫ forms a pocket around
+the target material
+- The pocket pinches off inside the cell ￫ results in the
+material surrounded by a newly created intracellular
+vesicle formed from the cell membrane
+- Variations of endocytic processes include:
+acuole
+Neutrophil
+Lysosome
+Recognition
+Particle binds
+To a tereotor
+Foreign
+particle
+or cell
+a. Phagocytosis ￫
+Engulfment
+- Delivery to a lysosome via a phagosome
+Neutrophil takes
+in the particle.
+- Phagosome fuses with primary lysosome to form
+secondary lysosome ￫ activates lysosomal hydrolytic
+enzymes
+- Contents are then digested in the secondary lysosome
+Digestion
+Lysosomes fuse
+with the vesicle
+and digest the
+particle.
+Figure 3.28 Phagocytosis.
+(Top - Figure 5.20 from Clark et al. (2018). Biology 2e. Houston, Texas: OpenStax. Access for
+free at https://openstax.org/books/biology-2e/pages/1-introduction. CC-BY 4.0.
+Bottom - Figure 42.4 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted
+by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 50
+Biol 130
+Module 3 - Cells and Membranes
+50
+- Provides:
+i. Nutrition ￫ products move into cytoplasm
+Pinocytosis
+ii.
+Defense ￫ kill microorganisms
+- Done by professional phagocytes in animals
+￫ macrophages & neutrophils
+- Lysosome contains lysozyme ￫ enzyme
+that degrades bacterial cell walls
+- Acidic pH in lysosome kills some
+microorganisms
+‫ج‬28
+- Oxidases on inner surface of phagosome
+produce H202 ￫ kills some bacteria
+Vesicle
+b. Pinocytosis ￫ means "cell drinking"
+- Extracellular fluids taken up without recognition
+by plasma membrane surface
+- Results in smaller vesicles and the vesicle does
+not need to merge with a lysosome
+- Any molecules present in the enclosed fluid
+enters the cell
+c. Receptor-mediated endocytosis ￫ cell membrane
+receptor proteins have binding specificity for certain
+substances
+Figure 3.29 Pinocytosis.
+(Figure 5.21 from Clark et al. (2018). Biology 2e.
+Houston, Texas: OpenStax. Access for free at
+https://openstax.org/books/bioloogy-2e/pages/1introduction. CC-BY 4.0.)
+Receptor-mediated
+endocytosis
+- Coated pit is the site where receptors on the
+extracellular side are concentrated ￫ indented
+surface
+"
+- Clathrin is attached to the cytoplasmic side ￫
+dynamic changes bring the vesicle into the cell
+- Material is then delivered to a network of tubules
+& vesicles ￫
+Receptor
+Clathrin
+- Early endosomes are located near the peripheral
+region of cell
+- Late endosomes are in the interior part of cell ￫
+receives material from early endosomes & Golgi
+apparatus
+Coated vesicle
+Figure 3.30 Receptor-Mediated Endocytosis.
+(Figure 5.22 from Clark et al. (2018). Biology 2e. Houston, Texas: OpenStax.
+Access for free at https://openstax.org/books/bioloogy-2e/pages/1introduction. CC-BY 4.0.)
+=================== NOTES PAGE 51
+MODULE
+3
+IMPORTANT TERMS AND CONCEPTS
+IMPORTANT TERMS (you should be able to define these terms)
+- Phospholipid bilayer
+- Secondary active transport
+- Cytoplasm and cytosol
+- Channel protein
+- Amphipathic
+- Carrier protein
+- Integral membrane protein
+- Diffusion
+- Peripheral membrane protein
+- Osmosis and osmotic pressure
+- Transmembrane protein
+- Isotonic
+- Vacuole
+- Hypotonic
+- Cytoskeleton
+- Hypertonic
+- Cell wall
+- Crenation
+- Endomembrane system
+- Plasmolysis
+- Nuclear envelope & nuclear pores
+- Symporter
+- Endoplasmic reticulum
+- Antiporter
+- Lysosomes
+- Electrochemical gradient
+- Golgi apparatus
+- Bulk transport
+- Mitochondrion
+- Exocytosis
+- Chloroplast
+- Phagocytosis
+- Passive transport
+- Pinocytosis
+- Active transport
+- Receptor mediated endocytosis
+IMPORTANT CONCEPTS (you should understand these concepts)
+- Structure of cell membranes (phospholipid bilayer) and the fluid mosaic model
+- Selectively permeable membrane
+- Endomembrane system compartmentalization of cells
+- Role of various structures in the endomembrane system
+- Structure and function of mitochondria and chloroplasts
+- Membrane transport including
+- Passive transport, simple diffusion and facilitated diffusion,
+- Active transport - primary and secondary
+- Role of the Nat/K*-ATPase
+- Electrochemical gradient
+- Bulk transport mechanisms (exocytosis, endocytosis - phagocytosis, pinocytosis,
+receptor mediated endocytosis
