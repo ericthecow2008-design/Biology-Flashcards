@@ -41,13 +41,16 @@ REVIEW = {
     # round 1, reviewer B (Module 6 + bridge)
     "Using the diagram, a mutation inactivates enzyme e2": {"drop": ["enzyme_catalysis_anabolic_catabolic"]},
     "These reactions break bond y": {"drop": ["m4_ntp_energy_polymerization", "atp_phosphate_bonds_energy"]},
-    "This reaction has ΔG = −7.3 kcal/mol": {"drop": ["anabolism_vs_catabolism"]},
+    "This reaction has ΔG = −7.3 kcal/mol": {"drop": ["anabolism_vs_catabolism", "atp_hydrolysis_exergonic_repulsion"]},
     "Using the diagram, what is reaction I's activation energy": {"drop": ["gibbs_free_energy_delta_g"]},
     "This doesn't violate the second law": {"drop": ["anabolism_vs_catabolism"]},
-    "The extra CO2 pushes this reaction back": {"drop": ["m2_ph_ionization_groups"]},
+    "The extra CO2 pushes this reaction back": {"drop": ["m2_ph_ionization_groups", "chemical_reaction_bonds_change"]},
     "This fits the lock-and-key model better": {"drop": ["active_site_binds_stabilizes_ts"]},
     "One molecule of an enzyme can convert": {"drop": ["active_site_binds_stabilizes_ts"]},
     "Two paths, one reaction": {"add": ["active_site_binds_stabilizes_ts"]},
+    # round 2, reviewer B
+    "In the dark, Euglena belongs": {"drop": ["metabolic_classification_examples"]},
+    "Where in the cell?": {"drop": ["translation_starts_cytosol"]},
 }
 
 def key_text(c):

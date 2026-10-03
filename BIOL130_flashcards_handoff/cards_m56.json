@@ -1433,17 +1433,17 @@
   "mod": 6,
   "topic": "Energy & Metabolism",
   "points": 2,
-  "stem": "Using the diagram, a deep-sea vent bacterium builds all its organic molecules from CO2 and gets its energy by oxidizing hydrogen gas (H2). A bracket fungus grows on a rotting log. Which cells do they belong in?",
+  "stem": "A deep-sea vent bacterium builds all its organic molecules from CO2 and gets its energy by oxidizing hydrogen gas (H2). A tapeworm lives in its host's intestine. Using the diagram, which cells do they belong in?",
   "options": [
-   "The bacterium in A; the fungus in D",
-   "The bacterium in B; the fungus in C",
-   "The bacterium in B; the fungus in D",
+   "The bacterium in A; the tapeworm in D",
+   "The bacterium in B; the tapeworm in C",
+   "The bacterium in B; the tapeworm in D",
    "Both in D, since neither uses light",
-   "The bacterium in D; the fungus in B"
+   "The bacterium in D; the tapeworm in B"
   ],
   "answerIndex": 2,
-  "explanation": "The vent bacterium: chemical energy + carbon from CO2 → B (a chemoautotroph, like the notes' hydrogen bacteria). The fungus: like all fungi, a heterotroph (Module 1) that absorbs organic molecules from the wood for both energy and carbon → D (a chemoheterotroph).",
-  "links": "Chemoautotrophs vs chemoheterotrophs · Fungi are heterotrophs (Module 1)",
+  "explanation": "The vent bacterium: chemical energy + carbon from CO2 → B (a chemoautotroph, like the notes' hydrogen bacteria). The tapeworm is an animal, so a heterotroph (Module 1): it takes both energy and carbon from organic molecules in its host's digested food → D (a chemoheterotroph).",
+  "links": "Chemoautotrophs vs chemoheterotrophs · Animals are heterotrophs (Module 1)",
   "diagram": "metabolic_classification_grid"
  },
  {
@@ -1487,8 +1487,8 @@
   "mod": 6,
   "topic": "Energy & Metabolism",
   "points": 2,
-  "box": "In cellular respiration, glucose and O2 are broken down to CO2 and H2O, molecules held together by stronger bonds.",
-  "claim": "So the products hold less potential energy than the reactants, and the difference is released for the cell to use.",
+  "box": "In cellular respiration, glucose reacts with O2 to form CO2 and H2O, molecules held together by stronger bonds.",
+  "claim": "So the products hold less potential energy than the reactants, and the difference is released, part of it captured by the cell as ATP.",
   "answer": true,
   "explanation": "Strong bonds hold less potential energy and weak bonds hold more. Replacing weaker bonds with stronger ones releases the difference, which is why breaking down fuel molecules can power the cell.",
   "links": "Bond strength and potential energy · Catabolism releases energy"
@@ -1536,9 +1536,9 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "(가) is anabolic and (나) is catabolic.",
+    "text": "When glycogen is broken back down, the glucose released contains the same carbon atoms that were linked into the glycogen.",
     "correct": true,
-    "explanation": "Building a polymer from smaller units is anabolism; breaking it into smaller units is catabolism."
+    "explanation": "In a chemical reaction atoms keep their identity; only the bonds linking them change. Breaking glycogen down breaks the bonds between glucose units, not the units' carbon atoms."
    },
    {
     "label": "ㄴ",
@@ -1561,7 +1561,7 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 2,
-  "links": "Anabolism vs catabolism · Condensation and hydrolysis (Module 2) · Second law"
+  "links": "Anabolism needs energy · Atoms keep their identity · Second law"
  },
  {
   "id": 2014,
@@ -1600,7 +1600,7 @@
    "ㄴ, ㄷ"
   ],
   "answerIndex": 3,
-  "links": "ATP, ADP and AMP · Energy in the phosphate–phosphate bonds · Nucleotide structure (Module 2)",
+  "links": "ATP, ADP and AMP · Energy in the phosphate–phosphate bonds",
   "diagram": "atp_parts_brackets"
  },
  {
@@ -1622,7 +1622,7 @@
   "mod": 6,
   "topic": "ATP & Energetic Coupling",
   "points": 1,
-  "stem": "Which feature of ATP best explains why ATP + H2O → ADP + Pi releases energy in a cell?",
+  "stem": "Which statement best explains why ATP + H2O → ADP + Pi releases energy in a cell?",
   "options": [
    "Water is a high-energy molecule that passes its energy on to ATP",
    "The bond between adenine and ribose holds most of ATP's energy",
@@ -1710,7 +1710,7 @@
   "topic": "ATP & Energetic Coupling",
   "points": 1,
   "box": "A reaction has ΔG = +5.0 kcal/mol. Elsewhere in the same cell, ATP is being hydrolyzed (ΔG = −7.3 kcal/mol).",
-  "claim": "Since the two ΔG values add to −2.3 kcal/mol, the ATP hydrolysis drives the reaction just by happening in the same cell; no shared intermediate is needed.",
+  "claim": "Since the two ΔG values add to −2.3 kcal/mol, this ATP hydrolysis will drive the reaction even though the two reactions share no intermediate.",
   "answer": false,
   "explanation": "ΔG values add only for reactions that are actually coupled. In the notes' example, the phosphate passes from ATP to glucose: the shared intermediate links the two reactions. ATP hydrolyzed elsewhere simply releases its energy, mostly as heat.",
   "links": "Energetic coupling needs a shared intermediate"
@@ -1792,7 +1792,7 @@
   "topic": "Thermodynamics & Free Energy",
   "points": 1,
   "box": "Reaction I in the diagram has a large, negative ΔG.",
-  "claim": "Its large negative ΔG alone shows that reaction I will proceed rapidly as soon as the reactants are mixed.",
+  "claim": "So reaction I will proceed rapidly as soon as its reactants are mixed.",
   "answer": false,
   "explanation": "ΔG says whether a reaction can run on its own, not how fast. Speed depends on the activation barrier (60 → 110 here), which ΔG doesn't reveal.",
   "links": "Spontaneous ≠ fast · Activation energy",
@@ -1908,10 +1908,10 @@
   "topic": "Thermodynamics & Free Energy",
   "points": 1,
   "box": "A gazelle absorbs energy from the grass it eats. That energy ends up as movement, body heat, and chemical bonds in its tissues.",
-  "claim": "Since no energy is destroyed, the gazelle could in principle turn all of the energy it absorbs into running.",
+  "claim": "Measured carefully, the movement, body heat and new chemical bonds would add up to less than the energy absorbed, because heat is energy that has been used up.",
   "answer": false,
-  "explanation": "Energy is conserved (first law), but every conversion releases some of it as heat that can't do work (second law). Movement + heat + stored chemical energy add up to everything absorbed, yet only part can ever become movement.",
-  "links": "First and second laws together"
+  "explanation": "First law: energy is neither created nor destroyed, so movement + heat + stored chemical energy add up to everything absorbed. Heat is still energy; it just can't be used to do work (second law).",
+  "links": "First law: conservation of energy"
  },
  {
   "id": 2245,
@@ -1949,10 +1949,10 @@
   "mod": 6,
   "topic": "Thermodynamics & Free Energy",
   "points": 1,
-  "box": "In glycolysis, one step has a positive ΔG under standard conditions, yet it runs forward inside cells.",
+  "box": "In glycolysis, the step fructose-1,6-bisphosphate → two 3-carbon sugar phosphates has a positive ΔG under standard conditions, yet it runs forward inside cells.",
   "claim": "This is possible only because that step is coupled directly to ATP hydrolysis.",
   "answer": false,
-  "explanation": "Coupling is one way, but not the only one. Here the next enzyme keeps using up the step's product, holding the product-to-reactant ratio below its equilibrium value, so the step keeps running forward.",
+  "explanation": "No ATP takes part in this step, so it isn't coupled. Instead the next enzymes keep using up its products, holding the product-to-reactant ratio below its equilibrium value, so the step keeps running forward.",
   "links": "Two ways to run +ΔG reactions · Metabolic pathways"
  },
  {
@@ -1985,8 +1985,8 @@
   "rightLabel": "Energetics",
   "pairs": [
    {
-    "left": "Building a protein from amino acids",
-    "right": "Endergonic; joins monomers into a polymer (anabolic)"
+    "left": "Joining two amino acids by a peptide bond, on its own (uncoupled)",
+    "right": "Endergonic; joins monomers by condensation (anabolic)"
    },
    {
     "left": "Oxidizing glucose to CO2 and water",
@@ -2005,7 +2005,7 @@
     "right": "Coupled reaction with a negative net ΔG"
    }
   ],
-  "explanation": "Anabolic building needs energy (+ΔG); catabolic breakdown releases it (−ΔG), and cells capture some of it to remake ATP. ATP hydrolysis (−7.3 kcal/mol) is the exergonic half that cells couple to endergonic steps; running it in reverse flips the sign to +7.3; and adding the coupled ΔG values (+3.3 − 7.3) gives −4.0 kcal/mol.",
+  "explanation": "Anabolic building, on its own, needs energy (+ΔG); catabolic breakdown releases it (−ΔG), and cells capture some of it to remake ATP. ATP hydrolysis (−7.3 kcal/mol) is the exergonic half that cells couple to endergonic steps; running it in reverse flips the sign to +7.3; and adding the coupled ΔG values (+3.3 − 7.3) gives −4.0 kcal/mol.",
   "links": "Exergonic vs endergonic · Anabolism vs catabolism · Coupling"
  },
  {
@@ -2032,9 +2032,9 @@
    },
    {
     "label": "ㄷ",
-    "text": "Because the enzyme is a folded protein, heating it until it unfolds would return the reaction to curve 1.",
+    "text": "Heating the enzyme until it unfolds would return the reaction to curve 1, because barrier b exists only while a folded active site binds the substrate and stabilizes the transition state.",
     "correct": true,
-    "explanation": "The lower barrier depends on the active site, which exists only in the folded protein; a denatured enzyme no longer catalyzes (Module 5)."
+    "explanation": "The active site lowers the barrier by binding the substrate and stabilizing the transition state; it exists only in the folded protein, so a denatured enzyme no longer catalyzes (Module 5)."
    }
   ],
   "choices": [
@@ -2054,7 +2054,7 @@
   "mod": 6,
   "topic": "Enzymes & Their Regulation",
   "points": 1,
-  "box": "In the diagram, c marks the free-energy difference between the reactants and the products.",
+  "box": "In the diagram, curve 2 is the same reaction with an enzyme added, and c marks the free-energy difference between the reactants and the products.",
   "claim": "So this reaction is endergonic, and the enzyme supplies the energy it needs to proceed.",
   "answer": false,
   "explanation": "Products below reactants means a negative ΔG: the reaction is exergonic. Enzymes don't supply energy or change ΔG; they only lower the barrier (a → b).",
@@ -2085,9 +2085,9 @@
    },
    {
     "label": "ㄷ",
-    "text": "If X binds only briefly and then falls off, its inhibition is reversible.",
+    "text": "Washing the enzyme free of X by dialysis would restore its full activity.",
     "correct": true,
-    "explanation": "Inhibitors that bind and come off again are reversible; those that bind permanently are irreversible."
+    "explanation": "Because extra substrate can outcompete X, X must bind and come off again: it is a reversible inhibitor, so washing it away restores activity."
    }
   ],
   "choices": [
@@ -2189,18 +2189,18 @@
   "type": "mc",
   "mod": 6,
   "topic": "Enzymes & Their Regulation",
-  "points": 1,
-  "stem": "In a single-chain enzyme, the three amino acids that form the active site are numbers 40, 95 and 210 in the sequence. How can residues so far apart work together?",
+  "points": 2,
+  "stem": "In a single-chain enzyme, residues 40, 95 and 210 form the active site. A mutation at residue 150, far from all three, destroys the enzyme's activity. Which explanation fits best?",
   "options": [
-   "Peptide bonds link them directly to one another",
-   "The bound substrate drags them together from across the chain",
-   "Folding brings them together in three-dimensional space",
-   "Disulfide bonds join residues 40, 95 and 210 into the active site",
-   "They sit next to each other in one α helix of the chain"
+   "It breaks the peptide bonds that link residues 40, 95 and 210 directly",
+   "It removes the disulfide bonds that join residues 40, 95 and 210",
+   "It changes the folding that brings residues 40, 95 and 210 together",
+   "It stops the substrate from dragging the three residues together",
+   "It breaks the α helix that holds residues 40, 95 and 210 side by side"
   ],
   "answerIndex": 2,
-  "explanation": "The active site is formed by specific amino acids, often far apart in the sequence, that tertiary folding places side by side; it exists before the substrate binds. Peptide bonds join only neighbouring residues, a helix brings together residues just a few apart, and a disulfide joins only two cysteines. Unfold the chain and the active site disappears.",
-  "links": "Active site formed by folding · Tertiary structure (Module 5)"
+  "explanation": "The active site is formed by residues far apart in the sequence that tertiary folding places side by side. Folding depends on the whole sequence, so a change at residue 150 can alter the fold and pull the three apart. Peptide bonds join only neighbouring residues, a helix brings together residues just a few apart, a disulfide joins only two cysteines, and the active site exists before the substrate binds.",
+  "links": "Active site formed by folding · Sequence determines folding (Module 5)"
  },
  {
   "id": 2250,
@@ -2276,7 +2276,7 @@
     "right": "An activator"
    }
   ],
-  "explanation": "Activity depends on the folded active site, which heat destroys for good. An inhibitor that can't be washed away = irreversible inhibition; product-triggered shutdown = feedback inhibition at an allosteric site; look-alikes compete for the active site; activators increase activity.",
+  "explanation": "Activity depends on the folded active site; here, heating unfolded it and cooling didn't let the chain refold correctly. An inhibitor that can't be washed away = irreversible inhibition; product-triggered shutdown = feedback inhibition at an allosteric site; look-alikes compete for the active site; activators increase activity.",
   "links": "Enzyme regulation · The active site needs folding"
  },
  {
@@ -2321,9 +2321,9 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Ribosomes bound to the rough ER belong to the endomembrane system, while free ribosomes do not (Module 1).",
+    "text": "Because the peptidyl transferase is made of RNA, the bonds it forms between amino acids are phosphodiester bonds, like those in RNA itself (Module 2).",
     "correct": false,
-    "explanation": "Ribosomes are RNA–protein complexes with no membrane, so they are non-EMS whether free in the cytosol or bound to the ER (Module 1)."
+    "explanation": "A catalyst doesn't change its product: the ribosome still joins the carboxyl group of one amino acid to the amino group of the next, forming a peptide (amide) bond. Phosphodiester bonds link nucleotides."
    },
    {
     "label": "ㄴ",
@@ -2346,7 +2346,7 @@
    "ㄴ, ㄷ"
   ],
   "answerIndex": 4,
-  "links": "Ribozymes · Catalysts lower activation energy · Ribosomes are non-EMS (Module 1)"
+  "links": "Ribozymes · Catalysts lower activation energy · Peptide vs phosphodiester bonds (Module 2)"
  },
  {
   "id": 2253,
@@ -2429,10 +2429,10 @@
   "mod": 0,
   "topic": "Connecting Modules 1–6",
   "points": 1,
-  "box": "Viruses carry genes but have no ribosomes and no metabolism of their own (Module 1). A test tube holds a viral mRNA, free amino acids, ATP and GTP.",
-  "claim": "Adding purified ribosomes alone would let the viral protein be made, since ribosomes are the one part of the machinery a virus borrows from its host.",
-  "answer": false,
-  "explanation": "Ribosomes are only one part of the machinery. Translation also needs tRNAs, aminoacyl tRNA synthetases to charge them, and initiation, elongation and release factors, all of which a virus takes from its host cell.",
+  "box": "A test tube holds a viral mRNA, free amino acids, ATP, GTP and purified ribosomes, but no viral protein is made.",
+  "claim": "The missing ingredients are host-cell parts such as tRNAs, aminoacyl tRNA synthetases and translation factors, which a virus doesn't make for itself (Module 1).",
+  "answer": true,
+  "explanation": "Translation needs more than ribosomes: tRNAs, synthetases to charge them, and initiation, elongation and release factors. Viruses have genes but no translation machinery or metabolism of their own (Module 1), so inside a cell they borrow all of these from the host.",
   "links": "Components of translation · Viruses aren't cells (Module 1)"
  },
  {
@@ -2467,9 +2467,9 @@
   "topic": "Connecting Modules 1–6",
   "points": 1,
   "box": "A tRNA is a single RNA strand of 70–90 nucleotides folded into a cloverleaf.",
-  "claim": "Gentle heating can unfold its cloverleaf without breaking the chain, since the stems are held by hydrogen bonds between bases, not by covalent bonds (Module 2).",
+  "claim": "A mutation that changes one base in a stem, so it can no longer pair with its partner, would weaken the cloverleaf even though the covalent backbone is unchanged (Module 2).",
   "answer": true,
-  "explanation": "The strand folds back on itself, and complementary stretches pair (A–U, G–C) by hydrogen bonds to form the stems. Those weak bonds break with gentle heat, while the covalent phosphodiester backbone holding the chain together stays intact.",
+  "explanation": "The stems form when complementary stretches of the single strand pair (A–U, G–C) through hydrogen bonds. Losing one pair removes some of those weak bonds and loosens the fold, while the covalent backbone that holds the chain together is untouched.",
   "links": "tRNA structure · Weak vs covalent bonds (Module 2)"
  },
  {
@@ -2520,8 +2520,8 @@
   "stem": "The Na+/K+ pump (Module 3) uses about a third of a resting cell's ATP. Where does the energy released by that ATP go?",
   "options": [
    "Part is stored in the ion gradients and part is released as heat",
-   "All of it is stored in the gradients, since energy is conserved",
-   "None is stored; gradients hold no energy, so it all becomes heat",
+   "It stays in the pump protein's phosphate bond until the next cycle",
+   "It becomes kinetic energy that keeps the pumped ions moving outward",
    "It is used up and destroyed as the ions are pushed uphill",
    "It flows straight back into ATP whenever the ions leak back"
   ],
@@ -2538,7 +2538,7 @@
   "box": "Histones (Module 4) are proteins that package DNA inside the nucleus.",
   "claim": "They reach the nucleus in vesicles budding from the rough ER, like proteins headed for secretion.",
   "answer": false,
-  "explanation": "Histones are made on free ribosomes in the cytosol and carry an internal signal sequence that directs them into the nucleus through the nuclear pores, which actively transport large proteins (Module 3). The ER and vesicle route serves secreted and endomembrane proteins; it doesn't deliver proteins into the nucleus.",
+  "explanation": "Histones are made on free ribosomes in the cytosol and carry an internal signal sequence that directs their active import through the nuclear pores (Module 3). The ER and vesicle route serves secreted and endomembrane proteins; it doesn't deliver proteins into the nucleus.",
   "links": "Internal signal → nucleus · Nuclear pores (Module 3)"
  },
  {
@@ -2619,9 +2619,9 @@
    },
    {
     "label": "ㄷ",
-    "text": "Each peptide bond pepsin cuts uses up one water molecule (Module 2).",
+    "text": "Pepsin speeds digestion only by lowering the activation energy of peptide-bond hydrolysis, which is already exergonic as the reverse of condensation (Module 2).",
     "correct": true,
-    "explanation": "Hydrolysis is the reverse of the condensation that formed the peptide bond: one H2O is consumed for every bond broken."
+    "explanation": "Hydrolysis is the reverse of the energy-requiring condensation that formed the peptide bond, so it is favourable on its own; pepsin just makes it fast, without changing ΔG."
    }
   ],
   "choices": [
@@ -2641,7 +2641,7 @@
   "topic": "Connecting Modules 1–6",
   "points": 1,
   "box": "During a high fever, body temperature rises from 37°C to about 41°C.",
-  "claim": "Because molecules move faster when warmer, each further rise in body temperature makes the body's enzymes work faster.",
+  "claim": "Because molecules move faster when warmer, the higher a fever climbs, the faster the body's enzymes can work.",
   "answer": false,
   "explanation": "Up to a point, more kinetic energy speeds reactions. But extra heat also disrupts the weak hydrogen bonds and other interactions that hold an enzyme's fold (Module 2); some enzymes start to unfold and lose activity at high temperatures.",
   "links": "Temperature, kinetic energy and protein folding (Modules 2, 5, 6)"
@@ -2721,9 +2721,9 @@
    },
    {
     "label": "ㄷ",
-    "text": "Detergents can pull an integral membrane protein out of the bilayer intact, because their nonpolar tails coat its membrane-spanning segment (Module 3).",
+    "text": "Mild detergents can pull an integral membrane protein out of the bilayer still folded, because their nonpolar tails coat its membrane-spanning segment (Module 3).",
     "correct": true,
-    "explanation": "The membrane-spanning segment's side chains are mostly nonpolar. Detergent tails cover them while the detergent's polar heads face water, standing in for the lipids — how membrane proteins are extracted for study."
+    "explanation": "The membrane-spanning segment's side chains are mostly nonpolar. Mild detergent tails cover them while the polar heads face water, standing in for the lipids — how membrane proteins are extracted for study. Harsh detergents such as SDS unfold proteins instead."
    }
   ],
   "choices": [
@@ -2754,8 +2754,8 @@
   "mod": 0,
   "topic": "Connecting Modules 1–6",
   "points": 1,
-  "box": "When water vapour turns to liquid (dew forming on a cold glass), hydrogen bonds form between water molecules (Module 2).",
-  "claim": "Forming these bonds requires an input of energy, so dew forming absorbs heat from the surroundings.",
+  "box": "Dew forms on a cold glass as water vapour turns to liquid.",
+  "claim": "Dew forming absorbs heat from the surroundings, because water molecules form hydrogen bonds with one another as they condense (Module 2), and forming bonds requires energy.",
   "answer": false,
   "explanation": "Forming bonds releases energy; breaking them requires it. Vapour turning to liquid releases heat (which is why steam burns are so severe), just as forming stronger bonds in a reaction's products releases energy.",
   "links": "Bond formation releases energy · Hydrogen bonds in water (Module 2)"
@@ -2766,7 +2766,7 @@
   "mod": 0,
   "topic": "Connecting Modules 1–6",
   "points": 2,
-  "stem": "Becker and Duchenne muscular dystrophy are both caused by deletions in the dystrophin gene. In patient A, the missing exon held 150 nucleotides of coding sequence; in patient B, it held 151. A has mild Becker disease and makes a shorter but partly working dystrophin; B has severe Duchenne disease. Which explanation fits best?",
+  "stem": "Becker and Duchenne muscular dystrophy are often caused by deletions in the dystrophin gene. In patient A, the missing exon held 150 nucleotides of coding sequence; in patient B, it held 151. A has mild Becker disease and makes a shorter but partly working dystrophin; B has severe Duchenne disease. Which explanation fits best?",
   "options": [
    "A loses a multiple of 3 nucleotides and keeps its frame; B's frame shifts",
    "B loses one more nucleotide than A, so its protein is just one amino acid shorter",
@@ -2882,16 +2882,16 @@
   "mod": 0,
   "topic": "Connecting Modules 1–6",
   "points": 2,
-  "stem": "Why must a cell keep spending ATP to maintain its Na+ gradient, even when nothing else changes?",
+  "stem": "If a cell's Na+/K+ pumps stop (Module 3), its Na+ gradient runs down within minutes. Which principle explains why the gradient doesn't simply stay put?",
   "options": [
-   "Once built, a gradient holds itself; the ATP only keeps the pump protein folded",
-   "Each pump cycle stores less energy than the last, so more ATP is needed per ion",
-   "The gradient stores no energy, so it has to be paid for again",
-   "Na+ leaks back down its gradient, so the pump must keep restoring it",
-   "The pump works only while an enzyme lowers its ΔG below zero"
+   "Energy can be neither created nor destroyed, only converted to new forms",
+   "Enzymes lower the activation energy that a reaction has to overcome",
+   "A reaction run in reverse has a ΔG of the same size but opposite sign",
+   "Spontaneous change runs downhill in energy, toward more disorder",
+   "Coupled reactions must share an intermediate, such as a phosphate"
   ],
   "answerIndex": 3,
-  "explanation": "A gradient is an ordered, high-energy state, and spontaneous change runs toward lower energy and higher entropy (second law): ions leak back through channels. Keeping the gradient means continually paying with ATP hydrolysis (Module 3).",
+  "explanation": "A gradient is an ordered, high-energy state, and the second law says events run from higher to lower energy and toward more disorder, so ions leak back until the gradient is gone. The other statements are true principles, but none explains why the gradient runs down; only continual pumping, paid for with ATP, holds it in place.",
   "links": "Second law · Gradients store potential energy (Module 3)"
  }
 ]
