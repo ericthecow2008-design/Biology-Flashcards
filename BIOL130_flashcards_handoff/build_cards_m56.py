@@ -31,6 +31,23 @@ raw = cards_m5a.CARDS + cards_m5b.CARDS + cards_m6.CARDS + cards_bridge56.CARDS
 
 # ── independent-review follow-ups, keyed by the start of each card's title/claim/stem ──
 REVIEW = {
+    # round 1, reviewer A (Module 5): tags the card doesn't genuinely test
+    "The curl lasts because": {"drop": ["tertiary_r_group_interactions"]},
+    "A chain only 3 amino acids long": {"drop": ["primary_structure_sequence_n_to_c"]},
+    "Four ways to unfold a protein": {"drop": ["m2_bond_strengths"]},
+    "Every amino acid is encoded by at least two codons": {"drop": ["start_stop_codons"]},
+    "The standard genetic code has 64 codons": {"drop": ["termination_release_factor"]},
+    "Each ribosome makes only part of the polypeptide": {"drop": ["ribosome_moves_5_to_3"]},
+    # round 1, reviewer B (Module 6 + bridge)
+    "Using the diagram, a mutation inactivates enzyme e2": {"drop": ["enzyme_catalysis_anabolic_catabolic"]},
+    "These reactions break bond y": {"drop": ["m4_ntp_energy_polymerization", "atp_phosphate_bonds_energy"]},
+    "This reaction has ΔG = −7.3 kcal/mol": {"drop": ["anabolism_vs_catabolism"]},
+    "Using the diagram, what is reaction I's activation energy": {"drop": ["gibbs_free_energy_delta_g"]},
+    "This doesn't violate the second law": {"drop": ["anabolism_vs_catabolism"]},
+    "The extra CO2 pushes this reaction back": {"drop": ["m2_ph_ionization_groups"]},
+    "This fits the lock-and-key model better": {"drop": ["active_site_binds_stabilizes_ts"]},
+    "One molecule of an enzyme can convert": {"drop": ["active_site_binds_stabilizes_ts"]},
+    "Two paths, one reaction": {"add": ["active_site_binds_stabilizes_ts"]},
 }
 
 def key_text(c):
