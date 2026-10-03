@@ -273,9 +273,9 @@ tf(TH, "The reaction A → B in a pathway has a positive ΔG when A and B are pr
   points=2),
 
 tf(TH, "A gazelle absorbs 1,000 kJ from the grass it eats. It stores 100 kJ in new chemical bonds in its tissues, and its movement accounts for 150 kJ.",
-  "The remaining 750 kJ left its body, mostly as heat.",
+  "So the remaining 750 kJ left its body.",
   True,
-  "First law: energy is neither created nor destroyed, so energy absorbed = energy stored + energy used for movement + energy released: 1,000 − 100 − 150 = 750 kJ. Heat is still energy; it just can't be used to do work (second law).",
+  "First law: energy is neither created nor destroyed, so energy absorbed = energy stored + energy used for movement + energy released: 1,000 − 100 − 150 = 750 kJ. Most of it leaves as heat, which is still energy, even though it can't be used to do work (second law).",
   "First law: conservation of energy",
   ["first_law_conservation"],
   points=1),

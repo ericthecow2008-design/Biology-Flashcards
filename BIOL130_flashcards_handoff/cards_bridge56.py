@@ -206,9 +206,9 @@ tf(BR, "RNA polymerase adds each nucleotide using energy from the incoming nucle
   points=2),
 
 tf(BR, "During a long fast, fat cells break their stored triacylglycerols (fats) into glycerol and fatty acids, which other tissues then use for energy.",
-  "This can't count as catabolism, because triacylglycerols aren't polymers built from repeating monomers (Module 2).",
-  False,
-  "Catabolism is the breakdown of molecules into smaller units, releasing energy; it doesn't require a polymer. A triacylglycerol isn't a polymer (Module 2), but splitting it into glycerol and three fatty acids is still a breakdown into smaller units, as the notes' figure on anabolism and catabolism shows for lipids.",
+  "This counts as catabolism, even though a triacylglycerol, unlike glycogen, isn't a polymer built from repeating monomers.",
+  True,
+  "Both parts hold. Catabolism is the breakdown of molecules into smaller units, releasing energy, and the notes' figure on anabolism and catabolism includes lipids → fatty acids. And unlike glycogen, a chain of glucose monomers, a triacylglycerol is glycerol plus three fatty acids, not a repeating chain: lipids are the only macromolecule that isn't a polymer (Module 2).",
   "Catabolism · Lipids aren't polymers (Module 2) · Real-world: fasting",
   ["anabolism_vs_catabolism", "m2_macromolecule_monomers"],
   points=1),

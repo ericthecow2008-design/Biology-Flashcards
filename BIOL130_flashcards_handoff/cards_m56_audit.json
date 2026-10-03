@@ -1538,9 +1538,9 @@
   "topic": "Regulation & Protein Sorting",
   "points": 2,
   "box": "A receptor is inserted into the ER membrane with its NH3+ end in the cytosol and its COO- end in the ER lumen, then reaches the plasma membrane by vesicle traffic. Kinases, enzymes in the cytosol, switch proteins on or off by adding phosphate groups to them.",
-  "claim": "At the plasma membrane, a cytosolic kinase could add a phosphate to a serine near this receptor's NH3+ end.",
-  "answer": true,
-  "explanation": "Orientation is set when the protein is inserted into the ER, and budding and fusion never flip a membrane: the lumen side becomes the outside of the cell, while the cytosolic side stays cytosolic (Module 3). The NH3+ end therefore stays in the cytosol, within the kinase's reach.",
+  "claim": "At the plasma membrane, a serine near this receptor's COO- end would be within reach of cytosolic kinases.",
+  "answer": false,
+  "explanation": "Orientation is set when the protein is inserted into the ER, and budding and fusion never flip a membrane: the lumen side becomes the outside of the cell, while the cytosolic side stays cytosolic (Module 3). The COO- end, in the ER lumen, ends up outside the cell, out of the kinases' reach; only the NH3+ end stays in the cytosol.",
   "links": "Membrane protein orientation (Module 3) · The lumen side becomes the outside",
   "concepts": [
    "m3_lumen_topology"
@@ -2325,9 +2325,9 @@
   "topic": "Thermodynamics & Free Energy",
   "points": 1,
   "box": "A gazelle absorbs 1,000 kJ from the grass it eats. It stores 100 kJ in new chemical bonds in its tissues, and its movement accounts for 150 kJ.",
-  "claim": "The remaining 750 kJ left its body, mostly as heat.",
+  "claim": "So the remaining 750 kJ left its body.",
   "answer": true,
-  "explanation": "First law: energy is neither created nor destroyed, so energy absorbed = energy stored + energy used for movement + energy released: 1,000 − 100 − 150 = 750 kJ. Heat is still energy; it just can't be used to do work (second law).",
+  "explanation": "First law: energy is neither created nor destroyed, so energy absorbed = energy stored + energy used for movement + energy released: 1,000 − 100 − 150 = 750 kJ. Most of it leaves as heat, which is still energy, even though it can't be used to do work (second law).",
   "links": "First law: conservation of energy",
   "concepts": [
    "first_law_conservation"
@@ -3363,9 +3363,9 @@
   "topic": "Connecting Modules 1–6",
   "points": 1,
   "box": "During a long fast, fat cells break their stored triacylglycerols (fats) into glycerol and fatty acids, which other tissues then use for energy.",
-  "claim": "This can't count as catabolism, because triacylglycerols aren't polymers built from repeating monomers (Module 2).",
-  "answer": false,
-  "explanation": "Catabolism is the breakdown of molecules into smaller units, releasing energy; it doesn't require a polymer. A triacylglycerol isn't a polymer (Module 2), but splitting it into glycerol and three fatty acids is still a breakdown into smaller units, as the notes' figure on anabolism and catabolism shows for lipids.",
+  "claim": "This counts as catabolism, even though a triacylglycerol, unlike glycogen, isn't a polymer built from repeating monomers.",
+  "answer": true,
+  "explanation": "Both parts hold. Catabolism is the breakdown of molecules into smaller units, releasing energy, and the notes' figure on anabolism and catabolism includes lipids → fatty acids. And unlike glycogen, a chain of glucose monomers, a triacylglycerol is glycerol plus three fatty acids, not a repeating chain: lipids are the only macromolecule that isn't a polymer (Module 2).",
   "links": "Catabolism · Lipids aren't polymers (Module 2) · Real-world: fasting",
   "concepts": [
    "anabolism_vs_catabolism",
