@@ -1,0 +1,967 @@
+=================== NOTES PAGE 52
+MODULE
+NUCLEIC ACIDS
+4
+AND
+InfOrMAtIoN FLow
+The topic of nucleic acids and information will be covered in this module. A brief review of nucleotides
+and phosphodiester bonds will be followed by the 3-D structure of DNA. The Central Dogma will be
+discussed, which will be followed by the process of transcription in both prokaryotes and eukaryotes.
+RNA processing and alternative splicing of eukaryotic messenger RNA will also be examined.
+Learning Outcomes:
+• Describe the chemical composition and structure of DNA and analyze how it stores and transmits
+information.
+•
+Explain the Central Dogma and how genetic information flows in the process of transcription.
+• Explain the significance of RNA processing of a primary transcript to messenger RNA.
+=================== NOTES PAGE 53
+4-1
+DEOXYRIBONUCLEIC ACID
+A. Introduction
+- DNA (deoxyribonucleic acid) has a
+common structure across all
+organisms
+- Structure of DNA is linked to its
+function
+10 nm in diameter
+Nucleosome
+- Storing genetic information
+- Copy itself to transmit the
+genetic information from one
+generation to the next
+Nucleosome fibe
+DNA molecule
+2 nm in diameter
+Histone
+proteins
+H2A, H2B,
+Chromatin fiber
+H3, and H4
+Coiled chromatin fiber
+300 nm in diameter
+Coiled coil 700 nm in
+diameter
+B. DNA Is The Genetic Material
+Question: How do we know DNA is
+the genetic material?
+Condensed chromatid
+1400 nm in diameter
+Answer: Experiments conducted by
+F. Griffith in 1928
+demonstrated that DNA is
+the genetic material
+- Studied two strains of the bacterium
+Streptococcus pneumoniae:
+Figure 12.19
+Biology: How Life Works
+© Macmillan Learning
+Figure 4.1 Levels of Chromosome Condensation.
+(Figure 12.19 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted
+by permission of Macmillan Learning, New York, New York)
+a. A virulent strain that caused
+pneumonia and death in injected mice
+b. A mutant, nonvirulent strain that allowed injected mice to survive
+b.
+a.
+Virulent
+bacteria
+Mouse dies of pneumonia.
+Nonvirulent
+bacteria
+Mouse remains healthy.
+Figure 4.2 Transmission of Genetic Information.
+(Figure 4.1 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 54
+Biol 130
+54
+Module 4 - Nucleic Acids and Information Flow
+- Results:
+- When the debris of dead virulent
+cells was mixed with nonvirulent
+C.
+d.
+Killed
+Killed
+virulent
+virulent
+and live
+nonvirulent
+bacteria
+bacteria
+cells ￫ some of the nonvirulent
+cells became virulent
+- Conclusion ￫ some type of
+molecule in the debris carried the
+genetic information for virulence
+- Molecule not identified at that
+time
+- Research conducted by Avery,
+Mouse remains healthy.
+MacLeod & McCarty in 1944
+Mouse dies of pneumonia.
+a Learne
+identified the molecule that
+transformed the nonvirulent to
+virulent bacteria
+Figure 4.3 Transmission of Genetic Information.
+(Figure 4.1 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by
+permission of Macmillan Learning, New York, New York)
+- Key evidence that DNA is the
+genetic material
+Virulent bacteria
+extract
+DNA, RNA, and protein
+are extracted from
+heat-killed virulent
+bacteria and purified
+to make a solution.
+Solution
+only
+Solution
++ RNase
+Nonvirulent
+bacteria
+Solution + protease
+Nonvirulent
+bacteria
+Solution
++ DNase
+Nonvirulent
+bacteria
+Nonvirulent
+bacteria
+The enzymes
+DNase, RNase,
+and protease,
+which degrade
+DNA, RNA, and
+protein,
+respectively, are
+added to the
+solution.
+Virulent and
+Virulent and
+nonvirulent
+Virulent and Nonvirulent
+nonvirulent
+bacteria only
+The control solution of killed but untreated
+virulent bacteria transforms nonvirulent
+bacteria into virulent bacteria. So do the
+The solution
+nonvirulent
+bacteria
+bacteria
+bacteria
+solutions treated with RNase and protease.
+with DNase does
+not transform
+nonvirulent
+bacteria into
+virulent bacteria.
+Figure 4.2
+Biology: How Life Works
+© Macmillan Learning
+Figure 4.4 Identifying Molecule that Carries the Genetic Information.
+(Figure 4.2 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 55
+Biol 130
+Module 4 - Nucleic Acids and Information
+55
+Flow
+lonized
+hydroxyl
+groups
+C. What Is DNA Made Of?
+5'
+0-P-0-н,C
+Base (A, G, T, or C)
+- Recall that DNA is a linear polymer of four
+different subunits ￫
+Phosphate
+group
+2'
+3'
+OH
+- A nucleotide consists of three parts:
+Deoxyribose
+sugar
+i. A five-carbon sugar ￫ deoxyribose with
+no oxygen at the 2' carbon
+Figure 4.5 Nucleotide Structure.
+ii. A base ￫ attached to the l' carbon
+(Figure 4.3 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+- One of four kinds of bases ￫
+Reprinted by permission of Macmillan Learning, New York, New York)
+ill. One or more phosphate groups
+NH,
+Remember:
+A nucleotide has three parts
+A nucleoside has just base & sugar
+CH3
+INHI
+N
+H
+NH,
+Guanine (G)
+Adenine (A)
+NH
+Thymine (T)
+Purines
+D. Phosphodiester Bonds
+- The five-carbon sugar and the
+phosphate groups form the backbone
+of the molecule
+Cytosine (C)
+Pyrimidines
+Figure 4.6 Bases Found in DNA.
+(Figure 4.4 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+5'-phosphate
+group
+- Two negative charges on the phosphate group
+arise from hydroxyl group ionization at
+NH,
+-o-P=0
+cellular pH (~7)
+5'CH2
+- One end of a strand of DNA differs from the
+other >
+- Free 5' phosphate group at the top
+- Free 3' hydroxyl group at the bottom
+- This strand of DNA is read 5'-
+5'CH2]
+NH,
+-3'
+- Or 3'-TCGA-5'
+P=0
+- If a DNA sequence is not specified as 5' or 3',
+then the end at the left is the 5' end
+- Bases can only be added to the 3'-OH on the
+5' CH2
+sugar ￫ DNA grows in the 5'to the 3'
+direction
+Phosphodiester
+bond
+P=0
+CH3
+INH
+5' CH2
+3'-hydroxyl
+Figure 4.7 Phosphodiester Bonds.
+(Figure 4.6 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+group
+Figure 4.6
+Biology: How Life Works
+© Macmillan Learning
+=================== NOTES PAGE 56
+Biol 130
+56
+Module 4 - Nucleic Acids and Information Flow
+E. 3-D Structure of DNA
+- Watson and Crick built a 3-D model of DNA based on results from other researchers:
+- X-ray crystallography by Rosalind Franklin and Maurice Wilkins
+- Results from biochemistry experiments from Erwin Chargaff, showing
+%C = %G and %A = %T
+- The two strands of DNA are wrapped around each other to form a helix ￫ coils to the right
+- The sugar-phosphate backbones wind around the outside of the molecule
+- The bases point inward
+- The two strands run in opposite directions ￫
+- The outside contours form an uneven pair of grooves called the major and minor grooves
+- Recall that bases pair with specificity
+- A pairs only with T
+- C pairs only with G
+- Thus, the bases A and T and the bases G and C are known as ￫
+a.
+b.
+3'
+5'
+Sugar-
+MAMAM
+phosphate
+backbone
+34 A = 3.4 nm
+(10 base pairs)
+Major
+groove
+per complete
+turn
+Minor
+groove
+Major
+groove
+Minor
+groove
+Figure 4.8 Double Helix.
+(Figure 4.7 from Morris et al., Biology: How Life
+Works, 4th Ed., © 2023. Reprinted by permission of
+Macmillan Learning, New York, New York)
+Diameter 20 A = 2 nm
+Figure 4.7
+Biology: How Life Works
+© Macmillan Learning
+=================== NOTES PAGE 57
+Biol 130
+Module 4 - Nucleic Acids and Information
+57
+Flow
+Question: Why is there specificity of base pairing?
+Answer: Specificity
+arises due to hydrogen bonds that form between A and T and
+between C and G
+- There are 3 H-bonds between ￫
+- There are 2 H-bonds between ￫
+- Two factors contribute to the stability of DNA
+a. Hydrogen bonds (H-bonds)
+- H-bonds are weak bonds individually, but when there are many, they contribute to the
+stability of the DNA double helix
+b. Base stacking
+- Interactions between bases on the same strand
+Question: Why is it beneficial for hydrogen bonds to form between nucleotide bases?
+Answer: Allows DNA to "unzip" down the middle due to weak H-bonds
+A and T are held
+together by two
+hydrogen bonds.
+CH,
+CH3
+H-
+N
+Deoxyribose
+Deoxyribose
+Thymine (T)
+Adenine (A)
+Base
+stacking
+Gand Care held
+together by three
+hydrogen bonds.
+H,C
+CH,
+N
+N -
+H i
+CH2
+N
+H-
+Deoxyribose
+Deoxyribose
+Guanine (G)
+Cytosine (C)
+Figure 4.8
+Biology: How Life Works
+Hydrogen
+bonding
+© Macmillan Learning
+Sugar-phosphate backbone
+Figure 4.9 Base Pairing &
+Stabilizing the Double Helix.
+(Figures 4.8 and 4.9 from Morris et al., Biology: How
+Life Works, 4th Ed., © 2023. Reprinted by permission
+of Macmillan Learning, New York, New York)
+Figure 4.9
+Biology: How Life Works
+© Macmillan Learning
+=================== NOTES PAGE 58
+4-2
+TRANSCRIPTION
+& GENE EXPRESSION
+A. Introduction
+Question: What is a genome?
+Answer: The genetic material of an organism
+- Some examples:
+- In bacteria ￫ bacterial genome
+- In nucleus ￫ nuclear genome
+- In mitochondria ￫ mitochondrial genome
+genes can be expressed ￫ "turned on"
+B. Gene Expression
+Question: What is a gene?
+genes can be not expressed ￫
+"turned
+off"
+Answer: "The unit of heredity affecting one or more traits of an organism; the DNA sequence
+that corresponds to a specific protein"
+Question: What is gene expression?
+Answer: "The production of a functional gene product, such as a protein"
+- Gene expression is regulated
+DNA
+C. The Central Dogma
+- DNA is transcribed into RNA, which is
+then translated into protein
+Transcription
+Protein
+- The term transcription is used for the
+mRNA
+generation of RNA from DNA ￫ DNA is
+the template
+Ribosome
+- Emphasizes that DNA and RNA use the Translation
+same "language" of nucleic acids
+Proteins provide structure
+and carry out many essential
+- Protein synthesis is dependent on the
+"code" carried on a molecule of messenger
+RNA (mRNA)
+activities in a cell.
+c Micril an Leanng
+- The term translation is used since this
+indicates a change in the language used
+from nucleic acids to amino acids
+Figure 4.10 The Central Dogma.
+(Figure 4.11 from Morris et al., Biology: How Life Works, 4th Ed., © 2023
+Reprinted by permission of Macmillan Learning, New York, New York)
+Did you know... There are exceptions to the general DNA ￫ RNA ￫ protein flow.
+Reverse transcription uses an RNA template for the synthesis of DNA. The enzyme reverse
+transcriptase (RNA-dependent DNA polymerase) catalyzes this reaction. An example of
+this is the human immunodeficiency virus (HIV) that converts its RNA into DNA.
+=================== NOTES PAGE 59
+Biol 130
+59
+Module 4 - Nucleic Acids and Information Flow
+D. Transcription Location
+Question: Where does transcription occur?
+Answer: It occurs in different places between prokaryotes and eukaryotes
+- Recall that prokaryotes do not have a nucleus ￫ transcription & translation occur in the
+cytoplasm
+- Recall that eukaryotes have a nucleus ￫ transcription occurs in nucleus & translation
+occurs in the cytoplasm
+b. Eukaryote
+a. Prokaryote
+RNA polymerase
+- DNA
+Nucleus
+Processing
+(5' cap, 3' poly(A),
+intron removal)
+O
+in
+Pre-mRNA
+RNA
+—AAA... polymerase
+AAA.-
+Polypeptide
+being synthesized
+- mRNA
+- Cytoplasm
+Ribosome
+© Macmillan Learning
+Figure 4.11 Comparison of Transcription & Translation Locations.
+(Figure from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 60
+Biol 130
+Module 4 - Nucleic Acids and Information Flow
+60
+E. RNA
+- Recall the RNA is a polymer of nucleotides like DNA ￫ but there are differences
+- They are similar in that the RNA strand has polarity ￫ one end has 5'-phosphate group and
+the other has 3-hydroxy!
+The -OH group
+- Differences include:
+makes RNA a less
+stable molecule
+i. Sugar in RNA ￫
+than DNA.
+- Has a hydroxyl at 2' carbon
+ii. Nitrogenous base ￫
+- Replaces thymine found in DNA
+- Thus, A pairs with U in RNA
+ili. S'end of RNA is typically a triphosphate
+- S' end of DNA is typically a monophosphate
+iv. RNA is often of shorter length than DNA and most RNA molecules are single stranded
+v. RNA can fold into complex shapes
+b.
+Uracil has a hydrogen (-H) where
+a.
+thymine has a methyl (-CH) group.
+OH
+5' CH,
+OH
+4'
+H
+Ribose
+1°
+H
+5' CH,
+4'
+H
+OH
+Deoxyribose
+H
+21
+3'1
+OH
+1
+H
+21
+3'1
+OH
+H
+Ribose has a hydroxyl (-OH) group
+where deoxyribose has a hydrogen (-H).
+N｣
+H
+N｣
+Uracil
+(U )
+Thymine
+(T)
+Ribose
+Deoxyribose
+Figure 4.12
+Biology: How Life Works
+© Macmillan Learning
+Figure 4.12 RNA.
+(Figure 4.12 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+Table 4.1 Comparison of DNA & RNA.
+Sugar
+Bases
+DNA
+RNA
+Deoxyribose
+Ribose
+A, T, C, G
+5' end
+A, U, C, G
+Monophosphate
+Triphosphate
+Size
+Very large
+Smaller
+Strands
+Double
+Single
+=================== NOTES PAGE 61
+Biol 130
+61
+Module 4 - Nucleic Acids and Information Flow
+F. Requirements for Transcription
+- The process of transcription is to create a complementary copy a DNA sequence into an RNA
+sequence
+- The DNA serves as a template for RNA production in the cell
+- Despite the differences in transcriptional location the processes are similar in both prokaryotes
+(cytoplasm) and eukaryotes (nucleus)
+Question: What is needed for transcription to occur?
+Answer: Need the following:
+- A DNA template
+- RNA polymerase ￫ this is the enzyme needed for transcription
+- Polymerase moves in 3' to 5' direction along template DNA strand ￫
+- Ribonucleotide triphosphates ￫
+- Provides energy to drive the anabolic/synthetic reaction
+Template strand
+3'
+TAACGCCAT
+AAUUGCCUUAGGCAGUG
+TCGTACAGCGGTTAACGGAATCCGTCACGITG
+• RNA transcript
+Direction of
+RNA growth
+ATTGCGGTAAGCATGTCGCCAATTGCCTTAGGCAGTGCAAC
+3'
+Nontemplate strand
+Figure 4.13
+Brology: How Life Works
+© Macmillan Learning
+Figure 4.13 Transcription.
+(Figure 4.13 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+G. Transcription Process
+Question: How does transcription take place?
+Answer: A region of DNA unwinds, and one strand will be used as a template for the RNA
+transcript
+- The only difference is that T's are replaced with U's
+- The key is the new RNA strand grows in the 5' ￫ 3' direction
+- This means the template DNA strand is read in the 3' ￫ 5' direction by RNA
+polymerase
+- Transcription takes place in 3 stages ￫ initiation, elongation & termination
+Remember!
+All nucleic acids are synthesized by adding nucleotides to the 3' end
+=================== NOTES PAGE 62
+Biol 130 |
+62
+Module 4 - Nucleic Acids and Information Flow
+H. Initiation of Transcription
+- Transcription is initiated at a specific region of DNA >
+- Promoter sequences are conserved double-stranded DNA sequence that proteins known as
+transcription factors and KNA polymerase bind
+- One very common base pair sequence in eukaryotes is 5'- TATAAA -3' >
+- The I" nucleotide to be transcribed is usually found -25 base pairs away from the TATA box
+- Transcription proceeds until RNA polymerase gets to a terminator
+Darker shade
+denotes the
+Initiation
+begins at a
+promoter.
+transcribed DNA
+Transcription
+ends at a
+terminator.
+strand.
+Promoter
+5'
+3'
+Terminator
+Figure 4.14 Promoters & Terminators.
+(Figure 4,14 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+5'
+Reprinted by permission of Macmillan Learning, New York, New York)
+TATA box
+Which strand is transcribed can
+differ from one gene to the next.
+- Transcription initiation is
+different between prokaryotes
+and eukaryotes
+In prokaryotes
+all transcription
+is pertormed by
+a single type of
+RNA Pol
+A. In bacteria, promotor
+recognition is mediated by
+a protein ￫
+Transcriptional
+start site
+Enhancer sequences
+• DNA
+Promoter
+Transcriptional activator proteins
+General
+transcription
+factors
+Enhancer
+sequence
+with RNA polymerase
+mRNA
+B. In eukaryotes, at least six
+Through looping of DNA,
+transcriptional activator proteins.
+mediator complex, RNA Pol Il, and
+general transcription factors are
+brought into close proximity.
+allowing transcription to proceed
+promoters
+RNA Polli makes
+activator proteins bind to enhancers.
+ww h
+Pol's binding to specific
+there are 3
+distinct RNA
+polymerases
+the promoter. and transcriptional
+- This protein associates
+(RNA Pol) and RNA
+In eukaryotes
+General transcription factors bind to
+DNA
+Mediator
+complex
+proteins must work
+together to initiate
+transcription ￫
+Promoter
+- They bind to the
+promoter region
+- Transcriptional activator
+proteins will bind to enhancer
+sequences on the DNA
+- This recruits RNA polymerase
+complex II (RNA Pol II)
+RNA transcript
+RNA polymerase
+complex (Pol Il)
+Figure 4.15 Eukaryotic Transcription Complex.
+(Figure 4.15 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted
+by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 63
+Biol 130
+Module 4 - Nucleic Acids and Information
+63
+Flow
+- The mediator complex associates with the general transcription factors and RNA Pol Il
+- The looping of the DNA brings activator proteins into contact with the proteins bound at
+the promoter region ￫ this initiates transcription
+- This forms a "bubble" that is about 14 base pairs in length
+- The RNA-DNA duplex in the bubble is about 8 base pairs in length
+RNA
+transcript
+RNA polymerase
+complex (Pol II)
+Template
+DNA strand
+Figure 4.16 Transcription Bubble.
+(Figure 4.16 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+Bology: How Let Works
+I. Transcription
+Elongation
+- RNA Pol (prokaryotes) and RNA
+RNA transcript
+Pol II (eukaryotes) allows for
+unwinding of the DNA ￫ this
+allows complementary nucleotides
+to be added to the growing
+RNA polymerase
+acts here
+messenger RNA (mRNA) transcript
+- RNA nucleotide triphosphates
+can enter via channels
+- There are also channels for:
+- The DNA double helix to
+enter/exit
+DNA already
+Incoming RNA
+transcribed
+RNA displaced and
+DNA strands rejoin
+nucleotides
+DNA strands
+separated
+DNA still to
+be transcribed
+- An exit of the growing
+mRNA
+- The release of the mRNA when
+transcription is terminated
+Figure 4.17 Prokaryotic RNA Pol Complex.
+(Figure 4.18 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 64
+Biol 130
+Module 4 - Nucleic Acids and Information Flow
+- Below are the steps of the polymerization
+64
+reaction:
+- The RNA polymerase detects the incoming ribonucleoside triphosphate and, if it base pairs
+appropriately, joins it to the expanding transcript
+- In this case (figure below), the A in the DNA strand would need to be paired
+with a ￫
+- The RNA Pol orients the oxygen in the hydroxyl group at the 3' end of the growing strand into
+a position from which it can attack the innermost phosphate of the triphosphate ￫ provides
+the energy for the reaction
+- A pyrophosphate group, P-P, is then released
+- This creates a permanent attachment of the ribonucleotide and allows the next nucleotide to be
+linked
+Template strand
+RNA transcript
+Direction of
+chain growth
+The 3'-OH of the growing
+strand attacks the highenergy phosphate bond of
+OH
+the incoming ribonucleotide,
+providing the energy to drive
+the reaction.
+Hydrogen
+bonding
+HO
+Incoming ribonucleotides
+are accepted if they correctly
+base pair with the template
+The two phosphates of
+the incoming ribonucleotide
+are released as pyrophosphate.
+DNA.
+Figure 4.17
+Biology: How Life Works
+o Macmillan Learning
+Figure 4.18 RNA Synthesis.
+(Figure 4.17 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 65
+Biol 130
+Module 4 - Nucleic Acids and Information
+65
+Flow
+& PROKARYOTIC VS. EUKARYOTIC TRANSCRIPTION
+A. Prokaryotic Transcription
+- The RNA transcript that comes off the
+3'
+Prokaryotic cell
+template DNA strand is known as the ￫
+Primary transcript = mRNA
+- It contains the information of the gene
+using an RNA code
+Template DNA strand
+- For genes that code for a protein
+the
+primary transcript (mRNA) has the
+information to direct the ribosome to
+translate the protein
+3'
+In prokaryotes, transcription
+and translation are coupled;
+translation begins even before
+transcription is completed.
+- Transcription in prokaryotes is simpler
+because the primary transcript is the mRNA
+Ribosome starting
+to synthesize protein
+- Both transcription & translation occur in
+the cytoplasm
+Figure 4.19 Prokaryotic Transcription.
+- Recall that there is no nuclear envelope to
+separate transcription spatially from
+(Figure 4.19 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+translation as seen in eukaryotes
+- In prokaryotes, the primary transcripts may contain the information for more than one gene
+- If this is the case, then the mRNA is called
+Eukaryotic cell
+B. Eukaryotic Transcription
+- There is an added layer of complexity
+between transcription and translation
+in eukaryotes ￫ due to the presence
+Exon
+of the nuclear membrane
+- The primary transcript needs to be
+modified so the message can move
+from the nucleus to the cytoplasm
+- The chemical modifications that are
+￫
+done to the primary transcript
+RNA processing
+- These include:
+Intron
+DNA
+5' cap
+Poly(A) tail
+Primary
+transcript
+AAAAA
+(RNA)
+Polyadenylation
+adds a poly(A)
+tail to the 3'end.
+The 5' end is
+modified by a
+special
+nucleotide
+called the 5' cap.
+i. Addition of a ￫
+ii. Removal of ￫
+mRNA
+•AAAAA
+Spliced exons
+Introns are excised from
+ili. Addition of the ￫
+the RNA strand and exons
+are spliced together.
+Figure 4.20 Eukaryotic Transcription.
+(Figure 4.20 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+Figure 4.20
+Biology: How Life Works
+© Macmillan Learning
+=================== NOTES PAGE 66
+Biol
+Module 4 - Nucleic Acids and Information
+130
+66
+Flow
+7-Methylguanosine
+5'-1o-5'
+OH
+C. Eukaryotic mRNA Processing
+RNA transcript
+phosphate
+linkage
+- First ￫ addition of a 5' cap of
+7-methy Iguanosine to the 5' end of
+5' end of
+NH,
+н,С
+HAN
+the primary transcript
+- This is a unique 5' - 5' bond
+CH,
+The 5' cap consists of a modified base
+- This helps protect mRNA from
+exonucleases & provide stability
+linked by its 5' carbon to the 5' end of
+the primary transcript by a bridge
+composed of three phosphates.
+- The addition of the 5' cap is needed
+since the ribosome would not
+recognize the mRNA ￫ thus
+translation could not occur
+Figure 4.21 The 5' Cap.
+(Figure 4.21 from Morris et al., Biology: How Life Works, 4th
+Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York)
+- The second major modification is the
+addition of about 250 consecutive
+adenines to the 3' end of the mRNA ￫ called the
+- This process is known as polyadenylation
+- Serves an important role in:
+- Transcription termination
+- Export of the mRNA to the cytoplasm
+- Protection from degradation by exonucleases
+- The primary transcript also undergoes the excision of certain sequences ￫
+- This leaves intact exons
+- This process is known as RNA splicing
+D. Eukaryotic Alternative Splicing
+- Some genes can produce primary transcripts that are spliced in different ways
+- This means that a single gene may produce different, but related, protein products in
+different cells ￫ splicing results in different mRNAs
+Intron Exon
+Gene
+E2
+Primary
+E3
+transcript
+Alternative splicing
+E2
+E2 E4
+Figure 4.22
+Biology. How Life Works
+• Macmilian Learning
+Protein A
+ET E2
+E3
+Protein B
+Figure 4.22 Alternative Splicing
+(Figure 4.22 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+=================== NOTES PAGE 67
+MODULE
+4
+IMPORTANT TERMS AND CONCEPTS
+IMPORTANT TERMS (you should be able to define these terms)
+-
+Deoxyribonucleic acid (DNA)
+- Nucleotides and nucleosides
+- Purines and pyrimidines
+- Phosphodiester bond
+- Double helix
+- Hydrogen bonding
+- Base stacking
+- Replication
+- Ribonucleic acid (RNA)
+- Central dogma
+- Transcription
+- Translation
+- Gene expression
+- Ribosomes
+- Template vs nontemplate strand
+- RNA transcript
+- RNA Polymerase
+- Initiation, elongation, termination
+- 5'-3' vs. 3'-5'
+- TATA box
+- Transcriptional activator protein
+- Sigma factor
+- Enhancer
+- General transcription factors
+- Promoter
+- Primary transcript
+- Messenger RNA (mRNA)
+- Polycistronic mRNA
+- RNA processing
+- 5' cap
+- Polyadenylation - poly(A)tail
+- RNA splicing
+- Alternative splicing
+- Introns and exons
+IMPORTANT CONCEPTS (you should understand these concepts)
+- Chemical composition and structure of DNA
+- DNA structure and function
+- Transcription
+- RNA processing
