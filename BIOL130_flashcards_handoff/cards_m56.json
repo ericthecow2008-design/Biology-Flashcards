@@ -82,10 +82,10 @@
   "topic": "Amino Acids & Peptide Bonds",
   "points": 2,
   "box": "A protein designer wants to make a floppy loop on a protein's surface more rigid. One of the loop's amino acids is the one in panel F of the diagram.",
-  "claim": "Replacing it with the amino acid in panel A would stiffen the loop somewhat, but less than the amino acid in panel H would.",
+  "claim": "Replacing it with the amino acid in panel H would stiffen the loop more than the amino acid in panel D would, even though D's side chain is much longer.",
   "answer": true,
-  "explanation": "Panel F (glycine, side chain –H) lets the backbone rotate freely about the C–N bond. A's –CH3 (alanine) crowds the backbone a little and restricts rotation somewhat; H's side chain (proline) is bonded to the backbone nitrogen itself, which locks rotation about the C–N bond.",
-  "links": "Proline restricts rotation · Glycine adds flexibility · Real-world: protein design",
+  "explanation": "Rigidity doesn't come from size. D's long chain (lysine) points away from the backbone and has freely rotating bonds of its own, while H's side chain (proline) is bonded to the backbone nitrogen itself, which locks rotation about the C–N bond.",
+  "links": "Proline restricts rotation · Side chain properties, not size · Real-world: protein design",
   "diagram": "r_group_gallery"
  },
  {
@@ -166,17 +166,17 @@
   "mod": 5,
   "topic": "Amino Acids & Peptide Bonds",
   "points": 1,
-  "stem": "Using the diagram, a side chain on a protein's surface changes from the one in panel D to the one in panel B. What is the main change at that spot?",
+  "stem": "Using the diagram, a side chain on a protein's surface that forms an ionic bond with a nearby –COO- changes from the one in panel D to the one in panel C. What is the main change at that spot?",
   "options": [
-   "It becomes negatively charged and repels nearby negative groups",
-   "It loses its positive charge but can still hydrogen-bond with water",
    "It becomes nonpolar and tends to move into the folded protein's interior",
+   "The attraction becomes a repulsion, since both groups are now negative",
    "It gains the ability to form a disulfide bridge with another copy",
-   "Nothing changes, since both side chains end in a polar group"
+   "Nothing changes, since both side chains are charged and hydrophilic",
+   "The ionic bond gets stronger, since C's group carries the larger charge"
   ],
   "answerIndex": 1,
-  "explanation": "D (–(CH2)4–NH3+, lysine) is basic and positively charged at physiological pH; B (–CH2–OH, serine) is polar but uncharged. The spot loses its positive charge — and any ionic bond it made — but B's –OH still hydrogen-bonds with water, so it can stay at the surface.",
-  "links": "Basic vs polar side chains · Charge at physiological pH",
+  "explanation": "D (–(CH2)4–NH3+, lysine) is basic and positive, so it attracts the nearby –COO-; C (–CH2–COO-, aspartate) is acidic and negative, so the two groups now repel and the ionic bond is lost. Both side chains are charged and hydrophilic, so the spot stays at the surface; neither has an –SH, and each carries a single charge.",
+  "links": "Acidic vs basic side chains · Ionic bonds need opposite charges",
   "diagram": "r_group_gallery"
  },
  {
@@ -1146,7 +1146,7 @@
    },
    {
     "label": "ㄷ",
-    "text": "The finished protein in panel 4 lacks the amino acids it was first made with, including its starting Met.",
+    "text": "The finished protein in panel 4 lacks the stretch of amino acids made first, including its starting Met.",
     "correct": true,
     "explanation": "Chains are made N-terminus first, starting with Met, so the ER signal is the first segment out; cutting it off in the lumen removes the protein's original amino end."
    }
@@ -1318,7 +1318,7 @@
   "topic": "Regulation & Protein Sorting",
   "points": 1,
   "box": "In a cell, gene Y's DNA is unpacked and its transcription factors are bound, so Y is transcribed at a high rate.",
-  "claim": "So the cell is certain to contain active protein Y.",
+  "claim": "How much active protein Y the cell contains can therefore be predicted from how fast gene Y is transcribed.",
   "answer": false,
   "explanation": "Transcription is only one checkpoint. The transcript must still be processed and exported, and many proteins are made in an inactive form until they are cleaved or modified (for example, phosphorylated). Regulation at these later levels can keep active Y from appearing.",
   "links": "Levels of gene regulation beyond transcription"
@@ -1331,7 +1331,7 @@
   "points": 3,
   "title": "One gene, two cell types",
   "stem": "Which statements in <보기> are correct?",
-  "box": "<b>(가)</b> In muscle cells, the gene for enzyme Z is wrapped tightly with histones and is never transcribed.<br><br><b>(나)</b> In liver cells, the gene is transcribed and enzyme Z is made in an inactive form, switched on by phosphorylation when blood sugar drops.",
+  "box": "<b>(가)</b> In muscle cells, the gene for enzyme Z is wrapped tightly with histones and is never transcribed.<br><br><b>(나)</b> In liver cells, the gene is transcribed and enzyme Z is made in an inactive form, switched on when a kinase phosphorylates it as blood sugar drops.",
   "statements": [
    {
     "label": "ㄱ",
