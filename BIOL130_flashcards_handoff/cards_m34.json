@@ -1,0 +1,4085 @@
+[
+ {
+  "id": 1001,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 3,
+  "title": "Stripping a membrane, one treatment at a time",
+  "stem": "Intact cells like the one in the diagram are treated in two separate experiments. Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> An enzyme that cuts sugar chains is added to the fluid outside the cells. It cannot cross the plasma membrane.<br><br><b>(나)</b> A salt wash that disrupts only noncovalent (ionic and hydrogen-bond) attachments is applied; the bilayer itself stays intact.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "In (가), both the glycolipid's and the glycoprotein's sugar chains can be cut, because membrane carbohydrates all face the extracellular fluid.",
+    "correct": true,
+    "explanation": "Sugars are attached only on the extracellular face — exactly where the impermeable enzyme is — so both kinds are exposed to it."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The channel protein counts as a peripheral protein of the cytoplasmic face, because part of it is exposed to the cytoplasm.",
+    "correct": false,
+    "explanation": "A protein that spans the bilayer is integral (transmembrane) even though its ends are exposed on both faces; peripheral proteins sit on one face and are never embedded."
+   },
+   {
+    "label": "ㄷ",
+    "text": "In (나), the peripheral protein would be released, but the channel protein would stay in the membrane.",
+    "correct": true,
+    "explanation": "Peripheral proteins are held to one face by noncovalent bonds; the channel is integral, embedded across the bilayer, so it stays unless the bilayer itself is dissolved."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Membrane carbohydrates face outward · Integral vs peripheral proteins · Fluid mosaic model",
+  "diagram": "fluid_mosaic_membrane"
+ },
+ {
+  "id": 1201,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 1,
+  "box": "The detergent SDS has a single hydrocarbon tail attached to a large, charged head group, so like a phospholipid it is amphipathic.",
+  "claim": "Based on the diagram, SDS in water would assemble into a bilayer that closes into liposomes, just as phospholipids do.",
+  "answer": false,
+  "explanation": "Being amphipathic isn't enough — shape decides. One tail plus a large head packs into micelles, with tails filling the core and no inner water space. Bilayers and liposomes need two tails and a smaller head.",
+  "links": "Micelle vs bilayer · Head size and tail number",
+  "diagram": "lipid_self_assembly"
+ },
+ {
+  "id": 1301,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 2,
+  "stem": "A drug company wants a lipid particle that carries a water-soluble drug dissolved inside it through the bloodstream. Using the diagram, which design would work?",
+  "options": [
+   "One-tailed lipids that form micelles, holding the drug in the micelle's core",
+   "Triacylglycerols, since three tails make an even more stable bilayer than two",
+   "A flat phospholipid bilayer sheet carrying the drug on one face, since the sheet never needs to close",
+   "Two-tailed phospholipids that close into liposomes, trapping the drug in the enclosed water space",
+   "Any lipid at all, since every lipid is hydrophobic and keeps water out equally well"
+  ],
+  "answerIndex": 3,
+  "explanation": "Only a closed bilayer (liposome) encloses an inner aqueous space for a water-soluble drug. A micelle's core is packed with hydrophobic tails; triacylglycerol has no polar head, so it isn't amphipathic and can't form a bilayer; open sheet edges would expose tails to water, so sheets close up.",
+  "links": "Liposomes · Micelle vs bilayer · Amphipathic lipids · Real-world: liposomal drug delivery",
+  "diagram": "lipid_self_assembly"
+ },
+ {
+  "id": 1202,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 1,
+  "box": "During microinjection, a fine glass needle is pushed through a cell's plasma membrane and then withdrawn. Small punctures like this reseal within seconds on their own.",
+  "claim": "Resealing happens because phospholipids at the edge of the hole expose hydrophobic tails to water, and the lipids spontaneously rearrange to close the gap.",
+  "answer": true,
+  "explanation": "Water excludes nonpolar tails (the hydrophobic effect), so an open edge is unstable; lipids flow together to hide the tails again. That is why the bilayer is called self-healing — no covalent bonds or repair enzymes are needed for a small hole.",
+  "links": "Self-healing bilayer · Hydrophobic effect · Real-world: microinjection"
+ },
+ {
+  "id": 1002,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 3,
+  "title": "Membranes built for the cold",
+  "stem": "Two related fish species keep their membranes at a workable fluidity in very different waters. Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Species P lives in near-freezing Arctic water.<br><br><b>(나)</b> Species Q lives in warm tropical water.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Q could keep its membranes from becoming too fluid in warm water by switching to shorter fatty acid tails.",
+    "correct": false,
+    "explanation": "Shorter tails touch less and make a membrane more fluid; Q would need longer (and more saturated) tails to stiffen its membranes."
+   },
+   {
+    "label": "ㄴ",
+    "text": "P's membrane phospholipids would be expected to carry a higher proportion of unsaturated fatty acid tails than Q's.",
+    "correct": true,
+    "explanation": "C=C kinks keep tails from packing tightly, which keeps a membrane fluid in the cold."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Cholesterol in these fish membranes would restrain lipid movement in warmth and hinder tight packing in cold, buffering fluidity in both species.",
+    "correct": true,
+    "explanation": "Cholesterol is a fluidity buffer: its rigid rings restrain movement at high temperature, and its bulk blocks tight packing at low temperature."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Fluidity: tail length · double bonds · cholesterol · Real-world: temperature adaptation",
+  "diagram": "membrane_fluidity_factors"
+ },
+ {
+  "id": 1302,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 2,
+  "stem": "Four artificial membranes are each made from one kind of phospholipid: W (18-carbon tails, no C=C), X (18-carbon tails, two C=C each), Y (12-carbon tails, no C=C), and Z (12-carbon tails, two C=C each). No cholesterol is present. Which pair correctly names the least fluid and the most fluid membrane?",
+  "options": [
+   "Least fluid: Z; most fluid: W",
+   "Least fluid: W; most fluid: X",
+   "Least fluid: Y; most fluid: X",
+   "Least fluid: X; most fluid: Y",
+   "Least fluid: W; most fluid: Z"
+  ],
+  "answerIndex": 4,
+  "explanation": "Longer tails and fewer double bonds both lower fluidity, so W (long, saturated) is least fluid and Z (short, kinked) is most fluid. X and Y each have one fluidizing feature, so neither can sit at an extreme.",
+  "links": "Tail length · C=C double bonds · Membrane fluidity",
+  "diagram": "membrane_fluidity_factors"
+ },
+ {
+  "id": 1203,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 2,
+  "box": "In healthy cells, the phospholipid phosphatidylserine sits almost entirely in the inner (cytoplasmic) layer of the plasma membrane. When a cell begins programmed cell death, phosphatidylserine appears in the outer layer, and immune cells use it as an 'eat me' signal.",
+  "claim": "Keeping this lipid in one layer is possible because phospholipids move freely sideways within a layer but rarely flip-flop between the two layers.",
+  "answer": true,
+  "explanation": "Spontaneous flip-flop is rare, which is what lets the two layers differ. Enzymes move phosphatidylserine to the inner layer, and because it rarely flips back on its own, it stays there; in dying cells, other enzymes move it outward within minutes — far faster than spontaneous flip-flop.",
+  "links": "Layer asymmetry · Lipid flip-flop · Real-world: signal on dying cells"
+ },
+ {
+  "id": 1204,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 2,
+  "box": "A cell's membrane lipids carry a fluorescent label. A laser bleaches a small spot so it goes dark; within seconds, the spot glows again as its fluorescence recovers.",
+  "claim": "The recovery shows that labeled lipids from the opposite layer of the bilayer flipped over into the bleached spot.",
+  "answer": false,
+  "explanation": "Recovery comes from unbleached lipids diffusing sideways into the spot within the same layer. Flip-flop between layers is rare — far too rare to refill a spot in seconds. The experiment demonstrates membrane fluidity.",
+  "links": "Lateral diffusion · Flip-flop is rare · Real-world: fluorescence recovery experiments"
+ },
+ {
+  "id": 1101,
+  "type": "match",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 4,
+  "title": "Seven jobs of a membrane",
+  "prompt": "Match each observation to the membrane function it best demonstrates.",
+  "leftLabel": "Observation",
+  "rightLabel": "Membrane function",
+  "pairs": [
+   {
+    "left": "The cell digests macromolecules inside lysosomes while building proteins in the surrounding cytosol",
+    "right": "Compartmentalization"
+   },
+   {
+    "left": "Ions such as Na+ cannot cross the lipid bilayer on their own, so gradients across it can be maintained",
+    "right": "Selectively permeable barrier"
+   },
+   {
+    "left": "Glucose enters through a specific transporter protein",
+    "right": "Transporting solutes"
+   },
+   {
+    "left": "Enzymes of one pathway are held side by side on a membrane surface",
+    "right": "Scaffold for biochemical activities"
+   },
+   {
+    "left": "A protein hormone binds the outside of a cell and triggers changes inside without entering",
+    "right": "Responding to external signals (signal transduction)"
+   },
+   {
+    "left": "Cells in a tissue attach to and communicate with their neighbours",
+    "right": "Intercellular interaction"
+   },
+   {
+    "left": "Thylakoid membranes convert light energy into chemical energy",
+    "right": "Energy transduction"
+   }
+  ],
+  "explanation": "All seven follow from one structure: a selectively permeable bilayer (barrier, compartments) studded with proteins (transporters, scaffolds, receptors, junctions) — plus, in membranes like the thylakoid membrane, energy-converting machinery.",
+  "links": "Membrane functions · Compartmentalization · Signal transduction · Energy transduction"
+ },
+ {
+  "id": 1303,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 1,
+  "stem": "A kidney-cell membrane protein binds a hormone at the cell's outer surface; binding changes the shape of a part of the same protein that faces the cytoplasm. Which description fits this protein?",
+  "options": [
+   "A receptor that is an integral, transmembrane protein",
+   "A receptor that is a peripheral protein on the outer surface",
+   "A transporter that is a peripheral protein on the inner surface",
+   "An anchor that is an integral protein linking the membrane to the cell wall",
+   "An enzyme that is a peripheral protein, since receptors cannot span membranes"
+  ],
+  "answerIndex": 0,
+  "explanation": "Receiving a signal is the receptor function; relaying a shape change from the outer face to the cytoplasmic face requires one protein spanning the bilayer — an integral, transmembrane protein. Peripheral proteins sit on only one face, and animal cells have no cell wall.",
+  "links": "Membrane protein functions · Integral vs peripheral · Transmembrane proteins"
+ },
+ {
+  "id": 1205,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 1,
+  "box": "During exocytosis, a vesicle's membrane merges with the plasma membrane and its contents end up outside the cell.",
+  "claim": "For an instant during fusion, the cytosol is open to the outside of the cell, because the membrane has to break before the vesicle can join it.",
+  "answer": false,
+  "explanation": "Membranes are continuous, unbroken sheets whose structure allows fusion without losing continuity: the vesicle's interior becomes continuous with the outside, while the cytosol stays sealed off throughout.",
+  "links": "Membranes are continuous sheets · Fusion · Exocytosis"
+ },
+ {
+  "id": 1003,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 2,
+  "title": "Rafts in a fluid sea",
+  "stem": "Read (가) and (나). Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Certain lipids and proteins gather in discrete patches of the plasma membrane called lipid rafts.<br><br><b>(나)</b> The fluid mosaic model describes membrane components as mobile and able to come together in transient interactions.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Lipid rafts contradict the fluid mosaic model, since components in a raft can no longer move.",
+    "correct": false,
+    "explanation": "Rafts are dynamic microdomains within a fluid membrane; the model explicitly allows components to come together transiently."
+   },
+   {
+    "label": "ㄴ",
+    "text": "'Mosaic' refers to the mixture of lipids, proteins, and carbohydrates that makes up the membrane.",
+    "correct": true,
+    "explanation": "The core is a lipid bilayer, with proteins and carbohydrates forming a mixed pattern — a mosaic."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Rafts hold together because the lipids in them become covalently bonded to one another.",
+    "correct": false,
+    "explanation": "Raft components associate through weak, transient interactions in a fluid membrane — no covalent links; rafts act as platforms for cell processes."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 0,
+  "links": "Lipid rafts · Fluid mosaic model · Membrane components"
+ },
+ {
+  "id": 1206,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 1,
+  "box": "A phospholipid's hydrophilic head contains glycerol, a phosphate group, and a polar group such as choline; its two tails are fatty acids.",
+  "claim": "Replacing the phosphate and its polar group with a third fatty acid attached to the glycerol would give a molecule that forms bilayers even more readily, because it would have more hydrophobic tail.",
+  "answer": false,
+  "explanation": "That molecule is a triacylglycerol — hydrophobic throughout, with no polar head. Without being amphipathic it has nothing to face the water, so it clumps into oil droplets instead of forming a bilayer.",
+  "links": "Amphipathic phospholipid · Triacylglycerol · Bilayer formation"
+ },
+ {
+  "id": 1304,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 1,
+  "stem": "Cholesterol inserts into the lipid bilayer of animal cell membranes. Which description of its orientation in the bilayer matches its structure?",
+  "options": [
+   "It lies entirely within the hydrophobic core, since a steroid has no polar part at all",
+   "It is attached to sugar chains that face the extracellular fluid, like a glycolipid",
+   "Its OH group sits by the phospholipid heads; its rings and tail lie among the fatty acid tails",
+   "It sits on the cytoplasmic surface, held in place there by peripheral proteins",
+   "It is covalently bonded to neighbouring phospholipids, which is how it stiffens the membrane"
+  ],
+  "answerIndex": 2,
+  "explanation": "Cholesterol is amphipathic: a hydroxyl head plus a rigid four-ring body and a hydrocarbon tail. The OH stays near the polar heads and water; the rest packs alongside the tails, where it buffers fluidity through noncovalent packing.",
+  "links": "Cholesterol structure · Amphipathic · Fluidity buffer"
+ },
+ {
+  "id": 1207,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Membrane Structure & Fluidity",
+  "points": 1,
+  "box": "When certain immune cells receive a signal, particular receptor proteins and lipids gather together into lipid rafts in the plasma membrane.",
+  "claim": "Because the membrane would stay intact and fluid, dispersing the rafts would leave this signaling unaffected.",
+  "answer": false,
+  "explanation": "Rafts are microdomains that act as platforms, concentrating particular lipids and proteins for cell processes. Dispersing them spreads those components apart, which can weaken signaling even though the bilayer itself stays intact and fluid.",
+  "links": "Lipid rafts as platforms · Receptors"
+ },
+ {
+  "id": 1004,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 3,
+  "title": "Following a pulse of labeled protein",
+  "stem": "Pancreatic cells, which secrete digestive enzymes, are given a brief pulse of radioactive amino acids, and the label is tracked along the route in the diagram. Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> At 3 minutes, the label is concentrated in the rough ER.<br><br><b>(나)</b> At 20 minutes it is in the Golgi apparatus; by 2 hours it is in secretory vesicles near the plasma membrane.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The label appeared first in the rough ER because ribosomes on that membrane assemble amino acids into the new enzymes.",
+    "correct": true,
+    "explanation": "Ribosomes bound to the rough ER are sites of protein synthesis, so newly incorporated amino acids show up there first."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The label reached the Golgi inside vesicles, since the Golgi is not physically attached to the ER.",
+    "correct": true,
+    "explanation": "The Golgi is the next stop for vesicles budding from the ER; no membrane bridge joins them."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Each time a secretory vesicle releases its enzymes, its membrane is lost from the cell, so the plasma membrane gradually shrinks.",
+    "correct": false,
+    "explanation": "The vesicle membrane fuses into the plasma membrane and becomes part of it — fusion adds membrane rather than removing it."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Rough ER · ER-to-Golgi vesicles · Exocytosis · Real-world: pulse-chase experiments",
+  "diagram": "secretory_pathway"
+ },
+ {
+  "id": 1208,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "box": "Pancreatic cells that secrete digestive enzymes (proteins) are packed with rough ER, while adrenal cells that make lipid-based steroid hormones are packed with smooth ER.",
+  "claim": "A cell specialized to secrete a protein hormone would be expected to be packed mainly with smooth ER, since smooth ER is what buds off vesicles.",
+  "answer": false,
+  "explanation": "Budding vesicles doesn't make a protein factory: proteins for secretion are built by ribosomes on the rough ER. Smooth ER, which lacks ribosomes, makes fatty acids and phospholipids and is abundant in lipid-producing cells.",
+  "links": "Smooth vs rough ER · Structure matches function",
+  "diagram": "secretory_pathway"
+ },
+ {
+  "id": 1305,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 2,
+  "stem": "Three molecules must cross the nuclear envelope: a Na+ ion entering the nucleus, a newly made mRNA leaving it, and a large transcription-factor protein (made in the cytoplasm) entering it. Which statement is correct?",
+  "options": [
+   "All three diffuse passively, because nuclear pores are simply open holes in the envelope",
+   "The ion diffuses passively through the pores; the mRNA and the large protein need active transport through them",
+   "All three cross the double membrane directly, without needing to use the nuclear pores",
+   "The mRNA diffuses out passively because it is made inside the nucleus; only the protein needs active transport",
+   "The ion needs active transport because it is charged, while the large protein diffuses through passively"
+  ],
+  "answerIndex": 1,
+  "explanation": "Nuclear pores let small molecules and ions pass by passive diffusion, but large proteins and RNA require active transport. Where a molecule is made doesn't change that — its size does.",
+  "links": "Nuclear pores · Nuclear envelope · mRNA export"
+ },
+ {
+  "id": 1209,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 2,
+  "box": "A protein is found in the narrow space between the inner and outer membranes of the nuclear envelope.",
+  "claim": "Because the outer nuclear membrane is continuous with the ER, this space is continuous with the ER's interior, so the protein could reach the ER lumen without crossing a membrane.",
+  "answer": true,
+  "explanation": "The nuclear envelope is a double membrane whose outer membrane is physically continuous with the ER; the gap between the two membranes therefore connects directly to the inside of the ER.",
+  "links": "Nuclear envelope · ER continuity · Membrane bridges"
+ },
+ {
+  "id": 1005,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 3,
+  "title": "Enzymes made right, delivered wrong",
+  "stem": "In I-cell disease, lysosomal enzymes are made normally, but a Golgi defect means they are not sorted to lysosomes. Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Normal route: lysosomal enzymes are made in the rough ER → sorted in the Golgi → packaged into lysosomes.<br><br><b>(나)</b> In patients, lysosomes swell with undigested material, and the missing enzymes are found at high levels in the blood.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Undigested macromolecules build up inside the patients' lysosomes because the lysosomes lack the enzymes that break them down.",
+    "correct": true,
+    "explanation": "Lysosomes degrade proteins, nucleic acids, lipids, and complex carbohydrates only if their enzymes arrive; without them, material accumulates."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The enzymes' amino acid sequences must be abnormal, since the enzymes end up in the wrong place.",
+    "correct": false,
+    "explanation": "Synthesis in the rough ER is normal; the failure is in the Golgi's sorting step. A correct protein can still be sent to the wrong destination."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The enzymes reach the blood because, when not sorted to lysosomes, they leave the Golgi in secretory vesicles and are released by exocytosis.",
+    "correct": true,
+    "explanation": "The Golgi ships proteins to lysosomes, the plasma membrane, or secretory vesicles; enzymes that miss the lysosome route are shipped out of the cell."
+   }
+  ],
+  "choices": [
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Lysosomal enzyme route · Golgi sorting · Real-world: I-cell disease"
+ },
+ {
+  "id": 1210,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 2,
+  "box": "Chloroquine, an antimalarial drug, is a weak base that accumulates inside lysosomes and soaks up some of their H+, raising the internal pH from about 5 toward 6.",
+  "claim": "Raising the lysosome's pH from 5 to 6 cuts its H+ concentration to one-tenth, which would be expected to slow the breakdown of macromolecules inside it.",
+  "answer": true,
+  "explanation": "pH is a log scale, so rising one unit means one-tenth the H+. The proton pump normally keeps the lysosome near pH 5, the acidic environment its digestive enzymes work in; making it less acidic impairs digestion.",
+  "links": "Lysosome proton pump · pH and enzyme activity · Real-world: chloroquine",
+  "diagram": "secretory_pathway"
+ },
+ {
+  "id": 1102,
+  "type": "match",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 3,
+  "title": "Which compartment is doing the work?",
+  "prompt": "Match each observation to the endomembrane compartment most directly responsible.",
+  "leftLabel": "Observation",
+  "rightLabel": "Compartment",
+  "pairs": [
+   {
+    "left": "A newly made hormone protein first appears on membranes studded with ribosomes",
+    "right": "Rough ER"
+   },
+   {
+    "left": "A cell that mass-produces phospholipids packs a huge area of ribosome-free tubules and sacs into its cytoplasm",
+    "right": "Smooth ER"
+   },
+   {
+    "left": "Proteins passing through a stack of flattened sacs are modified step by step, gain carbohydrate chains, and are shipped to different destinations",
+    "right": "Golgi apparatus"
+   },
+   {
+    "left": "Unneeded proteins, lipids, and nucleic acids are broken down in an acidic compartment",
+    "right": "Lysosome"
+   },
+   {
+    "left": "Large RNA molecules exit through protein-lined openings in a double membrane",
+    "right": "Nuclear envelope (nuclear pores)"
+   }
+  ],
+  "explanation": "Each compartment's structure fits its job: ribosomes on the rough ER for protein synthesis, folded ribosome-free smooth ER for lipids, Golgi cisternae for step-by-step modification and sorting, acidic lysosomes for digestion, and pores in the double nuclear envelope for exchange.",
+  "links": "Endomembrane compartments · Structure–function"
+ },
+ {
+  "id": 1306,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "stem": "A researcher breaks open liver cells and spins out only the nuclei, keeping everything else (sample 1). From part of sample 1, she then removes all membrane-bound organelles, keeping only the fluid (sample 2). How should the samples be named?",
+  "options": [
+   "Sample 1 is the cytosol; sample 2 is the cytoplasm",
+   "Both samples are cytosol, since neither contains the nucleus",
+   "Sample 1 is the cytoplasm; sample 2 is the cytosol",
+   "Sample 1 is the endomembrane system; sample 2 is the cytoplasm",
+   "Sample 1 is the cytoplasm; sample 2 is the nucleoplasm"
+  ],
+  "answerIndex": 2,
+  "explanation": "Using Module 3's definitions: cytoplasm = all cell contents except the nucleus, organelles included; cytosol = the fluid region outside the organelles but inside the plasma membrane.",
+  "links": "Cytoplasm vs cytosol · Real-world: cell fractionation"
+ },
+ {
+  "id": 1211,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 2,
+  "box": "The enzymes of glycolysis are dissolved in the fluid outside the organelles, while the enzymes of the citric acid cycle are inside the mitochondrial matrix.",
+  "claim": "Both sets of enzymes are in the cytoplasm, but only the glycolysis enzymes are in the cytosol.",
+  "answer": true,
+  "explanation": "Using Module 3's definitions, the cytoplasm is everything in the cell except the nucleus, mitochondria included, while the cytosol is only the fluid outside the organelles. So matrix enzymes are cytoplasmic but not cytosolic.",
+  "links": "Cytoplasm vs cytosol · Mitochondrial matrix"
+ },
+ {
+  "id": 1006,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 3,
+  "title": "Assembly line in the Golgi",
+  "stem": "Read (가) and (나) about how the Golgi apparatus modifies a membrane glycoprotein. Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> The enzyme that adds sugar Y is found only in cisternae that the protein reaches after the cisternae holding the enzyme that adds sugar X.<br><br><b>(나)</b> Sugar Y can be attached only to a sugar chain that already carries sugar X.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Glycosylation links the sugars to the protein by hydrogen bonds, so the chains can easily fall off later.",
+    "correct": false,
+    "explanation": "Glycosylation joins carbohydrates covalently to lipids or to specific amino acids of proteins; the chains are stable."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Placing different enzymes in different regions of the Golgi lets modifications occur in a set order as the protein moves through.",
+    "correct": true,
+    "explanation": "Each modification step happens in a different region with its own enzymes, so X is added before Y by position."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Once the protein reaches the plasma membrane, its sugar chains will face the extracellular fluid, because the inside of the Golgi corresponds to the outside of the cell after vesicle fusion.",
+    "correct": true,
+    "explanation": "A vesicle's inner face becomes the outer face of the plasma membrane when it fuses — which is why membrane carbohydrates all face outward."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Golgi cisternae · Glycosylation · Membrane orientation · Carbohydrates face outward"
+ },
+ {
+  "id": 1212,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "box": "Plasma cells, the immune cells that secrete thousands of antibody (protein) molecules per second, have cytoplasm filled with stacked sheets of rough ER.",
+  "claim": "Because antibodies are secreted, they are most likely made by free ribosomes in the cytosol, while all that rough ER mainly makes membrane lipids.",
+  "answer": false,
+  "explanation": "Proteins for secretion are built by ribosomes on the rough ER and then travel ER → Golgi → secretory vesicles → exocytosis; the huge rough-ER area is where the antibodies are made. Lipid synthesis is the smooth ER's job.",
+  "links": "Rough vs smooth ER · Secretory route · Real-world: antibody-secreting cells"
+ },
+ {
+  "id": 1307,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "stem": "A wilted houseplant is watered, and its leaves become firm again within hours. Which structure is most directly responsible for restoring firmness?",
+  "options": [
+   "The chloroplasts, which make extra sugars that stiffen the leaf's cell walls",
+   "The cell wall, which actively contracts to pull the leaf back into shape",
+   "The smooth ER, which makes new phospholipids so each cell can quickly grow larger again",
+   "The central vacuole, which fills with water and presses the cell against its wall",
+   "The lysosomes, which break down and clear away the damaged, wilted tissue"
+  ],
+  "answerIndex": 3,
+  "explanation": "Water entering by osmosis swells the vacuole, pressing the membrane against the wall; that turgor pressure — not the wall on its own — keeps soft plant tissue firm.",
+  "links": "Vacuole · Turgor pressure · Cell wall"
+ },
+ {
+  "id": 1007,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 2,
+  "title": "One system, two kinds of connection",
+  "stem": "Which statements in <보기> about how the endomembrane system is connected are correct?",
+  "box": "<b>(가)</b> The outer nuclear membrane is continuous with the ER membrane.<br><br><b>(나)</b> Material travels from the ER to the Golgi, and from the Golgi to the plasma membrane, only inside vesicles.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "(가) is a permanent membrane bridge, while (나) is a transient connection made by vesicles budding from one compartment and fusing with another.",
+    "correct": true,
+    "explanation": "Endomembrane compartments are linked either physically by membrane bridges or transiently by vesicles."
+   },
+   {
+    "label": "ㄴ",
+    "text": "A phospholipid made in the smooth ER could reach the plasma membrane without ever leaving a membrane.",
+    "correct": true,
+    "explanation": "It stays in the bilayer as vesicles bud and fuse, moving from the ER membrane to the Golgi membrane to the plasma membrane."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The nucleus is the innermost organelle of this system, and the plasma membrane belongs to the same system.",
+    "correct": true,
+    "explanation": "The endomembrane system includes the nuclear envelope, ER, Golgi, lysosomes, vesicles, and the plasma membrane; the nucleus is its innermost organelle."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Endomembrane system · Membrane bridges vs vesicles · Smooth ER lipids"
+ },
+ {
+  "id": 1213,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "box": "Ribosomes are found both bound to the rough ER and free in the cytosol.",
+  "claim": "Because ribosomes can bind the ER membrane, they are membrane-enclosed organelles that belong to the endomembrane system.",
+  "answer": false,
+  "explanation": "Ribosomes have no membrane of their own; they are non-endomembrane structures that attach to the rough ER's cytosolic face or float free in the cytosol.",
+  "links": "Ribosomes · EMS vs non-EMS"
+ },
+ {
+  "id": 1308,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "stem": "A glycoprotein receptor ends up in the plasma membrane with its sugar chains facing outside the cell. Using the diagram, which route did it take?",
+  "options": [
+   "Rough ER → vesicle → Golgi → vesicle → plasma membrane",
+   "Free ribosome in the cytosol → Golgi → plasma membrane",
+   "Smooth ER → lysosome → plasma membrane",
+   "Rough ER → Golgi through a permanent membrane bridge → plasma membrane",
+   "Golgi → rough ER → vesicle → plasma membrane"
+  ],
+  "answerIndex": 0,
+  "explanation": "Membrane proteins are made on rough-ER ribosomes, carried by vesicle to the Golgi (not physically attached to the ER), where sugars are added, then shipped by vesicle to the plasma membrane.",
+  "links": "Secretory pathway · Golgi sorting · Glycosylation",
+  "diagram": "secretory_pathway"
+ },
+ {
+  "id": 1309,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 2,
+  "stem": "Lysosomes keep their interior near pH 5, while the cytosol stays near pH 7. Which result would best support the course's explanation of why lysosomal contents must be kept separate from the rest of the cell?",
+  "options": [
+   "Lysosomal enzymes released into the cytosol digest the cell's ribosomes",
+   "Cytosolic proteins unfold and stop working at pH 5 but not at pH 7",
+   "Lysosomal enzymes are made on the rough ER and then sorted in the Golgi",
+   "Cytosolic proteins keep their shape and activity at every pH from 3 to 11",
+   "Lysosomes stay acidic only while their proton pumps are supplied with ATP"
+  ],
+  "answerIndex": 1,
+  "explanation": "The course's reason is that the cytosol's proteins and organelles suit pH 7 and would be damaged at pH 5, so the matching test exposes cytosolic proteins to pH 5, with pH 7 as the control. Enzyme digestion is a different reason; the other results are unrelated or contradict the claim.",
+  "links": "Why lysosomes are kept separate · Experimental logic"
+ },
+ {
+  "id": 1310,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "stem": "Two cells of equal volume are compared. In cell X, the ER is a highly folded network of tubules and flattened sacs; in cell Y, the ER is a few round, unfolded sacs enclosing the same total volume. Which prediction follows?",
+  "options": [
+   "Cell Y has more ER membrane area, because round sacs have the most surface for their volume",
+   "Both cells have the same ER membrane area, because their ER encloses the same volume",
+   "Folding reduces the ER's membrane area but greatly increases the space enclosed inside it",
+   "Folding matters only for mitochondria; the shape of the ER doesn't affect its output",
+   "Cell X has far more ER membrane area, so more surface on which to make lipids and proteins"
+  ],
+  "answerIndex": 4,
+  "explanation": "For a given enclosed volume, a round shape has the least surface; folding into tubules and flattened sacs packs much more membrane into the same space. That large membrane area is where the ER makes lipids and proteins.",
+  "links": "ER structure · Membrane surface area"
+ },
+ {
+  "id": 1214,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "box": "Nuclear pores perforate the nuclear envelope, letting molecules move between the nucleus and the cytoplasm.",
+  "claim": "Away from the pores, a single lipid bilayer separates the nucleus from the cytosol, just as the plasma membrane separates the cell from its surroundings.",
+  "answer": false,
+  "explanation": "The nuclear envelope is a double membrane — an inner and an outer membrane, the outer one continuous with the ER — so two bilayers separate the nucleus from the cytosol everywhere except at the pores.",
+  "links": "Nuclear envelope · Double membrane"
+ },
+ {
+  "id": 1311,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 2,
+  "stem": "Away from any pores or channels, how many lipid bilayers separate each of these spaces from the cytosol: the inside of the nucleus, the mitochondrial matrix, and the inside of a lysosome?",
+  "options": [
+   "1, 2, 1",
+   "2, 1, 1",
+   "2, 2, 2",
+   "2, 2, 1",
+   "1, 1, 1"
+  ],
+  "answerIndex": 3,
+  "explanation": "The nuclear envelope is a double membrane, and a mitochondrion has an outer and an inner membrane; a lysosome is a specialized vesicle bounded by a single membrane.",
+  "links": "Nuclear envelope · Mitochondrial membranes · Lysosome membrane"
+ },
+ {
+  "id": 1312,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 1,
+  "stem": "Electron micrographs show ribosomes attached to the outer membrane of the nuclear envelope, just as they are attached to the rough ER. Which fact best explains this?",
+  "options": [
+   "The nuclear envelope is part of the Golgi apparatus",
+   "The outer nuclear membrane is physically continuous with the ER membrane",
+   "Ribosomes are assembled in the nucleolus and stick to the envelope as they leave",
+   "Nuclear pores are lined with ribosomes that carry out export",
+   "The inner nuclear membrane is where the cell's lipids are made"
+  ],
+  "answerIndex": 1,
+  "explanation": "The outer nuclear membrane and the ER form one continuous membrane, so the outer nuclear membrane can behave like rough ER, with ribosomes bound to its cytosolic face.",
+  "links": "Nuclear envelope–ER continuity"
+ },
+ {
+  "id": 1215,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 2,
+  "box": "A drug blocks all vesicle traffic from the ER to the Golgi apparatus.",
+  "claim": "Newly made lysosomal enzymes would still reach the lysosomes, since lysosomes collect their enzymes directly from the rough ER.",
+  "answer": false,
+  "explanation": "Lysosomal enzymes are made in the rough ER, sorted in the Golgi, and only then packaged into lysosomes. The Golgi isn't physically attached to the ER, so blocking ER-to-Golgi vesicles keeps the enzymes from ever reaching lysosomes.",
+  "links": "Lysosomal enzyme route · ER-to-Golgi vesicles"
+ },
+ {
+  "id": 1103,
+  "type": "match",
+  "mod": 3,
+  "topic": "Endomembrane System",
+  "points": 3,
+  "title": "If this organelle failed…",
+  "prompt": "Match each failing structure in an animal cell to its most direct consequence.",
+  "leftLabel": "Failing structure",
+  "rightLabel": "Most direct consequence",
+  "pairs": [
+   {
+    "left": "Rough ER",
+    "right": "Proteins destined for secretion or the plasma membrane are no longer made"
+   },
+   {
+    "left": "Golgi apparatus",
+    "right": "Proteins leave the ER but are not modified, given sugars, or sorted to their destinations"
+   },
+   {
+    "left": "Lysosomes",
+    "right": "Worn-out proteins, lipids, and nucleic acids pile up undigested"
+   },
+   {
+    "left": "Mitochondria",
+    "right": "Far less ATP is made from the energy stored in sugars"
+   },
+   {
+    "left": "Cytoskeleton",
+    "right": "The cell loses the protein scaffold that gives it its structure"
+   }
+  ],
+  "explanation": "Each structure has one main job in the animal cell: the ER makes proteins and lipids, the Golgi modifies and sorts them, lysosomes break down macromolecules, mitochondria harness energy, and the cytoskeleton is the cell's protein scaffold.",
+  "links": "Organelle roles in an animal cell"
+ },
+ {
+  "id": 1216,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 1,
+  "box": "A student argues that mitochondria belong to the endomembrane system because they are surrounded by membranes and sit in the cytoplasm next to the ER and Golgi.",
+  "claim": "The student is right, because what qualifies an organelle for the endomembrane system is being enclosed by a membrane.",
+  "answer": false,
+  "explanation": "Membership depends on connection — by membrane bridges or vesicle traffic — not on having a membrane. Mitochondria and chloroplasts are membranous but are not part of the endomembrane system.",
+  "links": "EMS membership · Mitochondria and chloroplasts are non-EMS"
+ },
+ {
+  "id": 1104,
+  "type": "match",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 4,
+  "title": "Locating events in the two energy organelles",
+  "prompt": "Using the diagram's labels, match each compartment to the scenario that happens there or depends on it.",
+  "leftLabel": "Compartment",
+  "rightLabel": "Scenario",
+  "pairs": [
+   {
+    "left": "1 — mitochondrial outer membrane",
+    "right": "A small dye molecule crosses easily through large, nonselective channels"
+   },
+   {
+    "left": "2 — intermembrane space",
+    "right": "Where that dye stops if it cannot cross the next, more selective membrane"
+   },
+   {
+    "left": "3 — mitochondrial inner membrane",
+    "right": "A toxin that blocks ATP synthase acts here"
+   },
+   {
+    "left": "4 — matrix",
+    "right": "Where mitochondrial genes are transcribed and translated"
+   },
+   {
+    "left": "C — thylakoid membrane",
+    "right": "Where chlorophyll absorbs light energy"
+   },
+   {
+    "left": "F — stroma",
+    "right": "Reached after crossing the chloroplast's outer and inner membranes, without entering any thylakoid"
+   }
+  ],
+  "explanation": "Porins make the outer membrane nonselective, so the inner membrane is the real barrier. The ETC and ATP synthase sit in the inner membrane; DNA and ribosomes are in the matrix; pigments are in thylakoid membranes; the stroma is the fluid around the thylakoids.",
+  "links": "Mitochondrial compartments · Chloroplast compartments",
+  "diagram": "mito_chloro_compartments"
+ },
+ {
+  "id": 1008,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 3,
+  "title": "Counting membranes to the destination",
+  "stem": "Two molecules start in the cytosol. Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Molecule X must reach the lumen of a thylakoid.<br><br><b>(나)</b> Molecule Y, a charged molecule such as ADP, must reach the mitochondrial matrix.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "X and Y must each cross the same number of membranes: two.",
+    "correct": false,
+    "explanation": "X crosses three — the chloroplast's outer (A), inner (B), and thylakoid (C) membranes — while Y crosses two, the mitochondrial outer (1) and inner (3) membranes."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Once Y passes through the porins of the outer membrane, it will reach the matrix without needing any other transport protein.",
+    "correct": false,
+    "explanation": "Porins make only the outer membrane nonselective; the inner membrane is a separate, selective barrier that charged molecules cross only through transport proteins."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The chloroplast stroma occupies the position that corresponds to the mitochondrial matrix: the space enclosed by the inner membrane.",
+    "correct": true,
+    "explanation": "Both are the innermost space bounded by the inner membrane; the chloroplast simply adds thylakoids inside it."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Double membranes · Thylakoid as a third membrane · Porins",
+  "diagram": "mito_chloro_compartments"
+ },
+ {
+  "id": 1217,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 1,
+  "box": "Heart muscle cells use ATP nonstop. Their mitochondria have much more densely folded inner membranes than the mitochondria of less active cells.",
+  "claim": "The extra folding would be expected to support faster ATP production, because it increases the membrane area available for the electron transport chain and ATP synthase.",
+  "answer": true,
+  "explanation": "The ETC and ATP synthase are located in the inner membrane; folding packs more of that membrane — and more ATP-making machinery — into each mitochondrion.",
+  "links": "Inner membrane folding · ATP synthase · Real-world: heart muscle",
+  "diagram": "mito_chloro_compartments"
+ },
+ {
+  "id": 1009,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 3,
+  "title": "Bacteria inside our cells",
+  "stem": "Using the diagram, which statements in <보기> about the origin of mitochondria and chloroplasts are correct?",
+  "box": "<b>(가)</b> Mitochondria and chloroplasts have their own circular genomes and ribosomes, and they grow and divide semi-autonomously.<br><br><b>(나)</b> Mitochondria resemble proteobacteria, and chloroplasts resemble cyanobacteria, in organization and biochemistry.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Their circular genomes support an endosymbiotic origin, since bacteria typically have a single circular chromosome.",
+    "correct": true,
+    "explanation": "Circular DNA, their own ribosomes, and independent division are bacterial traits kept from free-living ancestors."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Under both hypotheses, mitochondria descend from a proteobacterium; the hypotheses differ in whether the nucleus formed before or after that partnership.",
+    "correct": true,
+    "explanation": "Hypothesis 1: infolding makes the nucleus and EMS first, then a proteobacterium is engulfed. Hypothesis 2: the partnership comes first and infolding makes the nucleus later."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Under Hypothesis 1, the proteobacterium was engulfed by a host cell that had not yet formed a nucleus.",
+    "correct": false,
+    "explanation": "That describes Hypothesis 2. In Hypothesis 1, the archaeon forms its nucleus and endomembrane system by infolding before engulfing the proteobacterium."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Endosymbiosis · Two hypotheses for eukaryote origin · Semi-autonomous organelles",
+  "diagram": "endosymbiosis_hypotheses"
+ },
+ {
+  "id": 1218,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 2,
+  "box": "Hypothesis 2 in the diagram begins with an archaeon host living in partnership with a proteobacterium symbiont inside it.",
+  "claim": "Hypothesis 2 implies that, for a time, a cell contained the ancestor of mitochondria but did not yet have a nucleus.",
+  "answer": true,
+  "explanation": "In Hypothesis 2 the symbiosis comes first and membrane infolding produces the nucleus later — so there was a stage with a symbiont inside a still nucleus-free archaeal host. Hypothesis 1 predicts the opposite order.",
+  "links": "Hypothesis 1 vs Hypothesis 2 · Prokaryotes lack a nucleus",
+  "diagram": "endosymbiosis_hypotheses"
+ },
+ {
+  "id": 1219,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 1,
+  "box": "Mitochondria and chloroplasts both contain their own circular genomes and ribosomes, and both grow and divide independently within the cell.",
+  "claim": "Mitochondria and chloroplasts descend from the same engulfed bacterium, which later specialized into two kinds of organelle.",
+  "answer": false,
+  "explanation": "They come from two different endosymbiotic events: mitochondria from a proteobacterium, and chloroplasts from a cyanobacterium engulfed later by a eukaryotic cell that already had mitochondria.",
+  "links": "Endosymbiosis: two separate partners",
+  "diagram": "endosymbiosis_hypotheses"
+ },
+ {
+  "id": 1313,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 2,
+  "stem": "Chloramphenicol, an antibiotic that blocks bacterial ribosomes, can cause serious side effects (such as bone-marrow suppression) by also blocking protein synthesis inside one human organelle. Which organelle is it, and why is it vulnerable?",
+  "options": [
+   "Mitochondria — they descend from bacteria and keep bacteria-like ribosomes",
+   "Rough ER — its ribosomes are attached to a membrane, like some bacterial ones",
+   "Nucleus — it holds the cell's DNA, which the drug stops cells from reading",
+   "Golgi apparatus — it modifies newly made proteins, so it depends on ribosomes",
+   "Lysosomes — their digestive enzymes are proteins that need constant replacement"
+  ],
+  "answerIndex": 0,
+  "explanation": "Mitochondria originated as endosymbiotic proteobacteria and keep their own DNA and ribosomes in the matrix, so a drug aimed at bacterial ribosomes can hit them too; cytosolic and rough-ER ribosomes are the eukaryotic type.",
+  "links": "Mitochondrial ribosomes · Endosymbiosis · Real-world: antibiotic side effects"
+ },
+ {
+  "id": 1220,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 1,
+  "box": "A leaf cell contains both chloroplasts and mitochondria.",
+  "claim": "Because chloroplasts already make sugars, a leaf cell would be expected to rely on its chloroplasts, rather than mitochondria, to harness the energy in those sugars as ATP.",
+  "answer": false,
+  "explanation": "Chloroplasts capture light energy to make sugars; mitochondria then harness the energy in sugars to make ATP. Plant cells need both — mitochondria are present in almost all eukaryotic cells.",
+  "links": "Chloroplasts make sugars · Mitochondria make ATP"
+ },
+ {
+  "id": 1314,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 1,
+  "stem": "In autumn, the green colour drains from many leaves as their chlorophyll is broken down. Where in the chloroplast is this pigment being lost, and which process does the loss directly weaken?",
+  "options": [
+   "The stroma — capturing light energy to make sugars",
+   "The outer membrane — the barrier controlling what enters the chloroplast",
+   "The thylakoid membranes — converting sugars into ATP",
+   "The lumen — storing the sugars made in summer",
+   "The thylakoid membranes — capturing light energy to make sugars"
+  ],
+  "answerIndex": 4,
+  "explanation": "Light-collecting pigments, mostly chlorophyll, sit in the thylakoid membrane, so losing them weakens light capture for photosynthesis. Converting sugars into ATP is the mitochondrion's job.",
+  "links": "Thylakoid pigments · Photosynthesis · Real-world: autumn leaves"
+ },
+ {
+  "id": 1221,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 2,
+  "box": "Mature human red blood cells have no mitochondria (and no nucleus), yet they still need ATP — for example, to run their Na+/K+ pumps.",
+  "claim": "Red blood cells must make their ATP without the citric acid cycle and the electron transport chain.",
+  "answer": true,
+  "explanation": "The citric acid cycle runs in the mitochondrial matrix, and the ETC and ATP synthase sit in the inner membrane; with no mitochondria, red cells rely on ATP-making reactions in the cytosol (glycolysis).",
+  "links": "Mitochondrial compartments · Real-world: red blood cells"
+ },
+ {
+  "id": 1222,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 2,
+  "box": "Both the ER and the inner mitochondrial membrane are highly folded.",
+  "claim": "In both cases, folding is valuable mainly because it increases the volume of the compartment the membrane encloses.",
+  "answer": false,
+  "explanation": "Folding increases membrane area, not enclosed volume. More ER membrane means more room for making lipids and proteins; more inner mitochondrial membrane means more room for the electron transport chain and ATP synthase.",
+  "links": "Membrane folding and surface area · ER · Inner mitochondrial membrane"
+ },
+ {
+  "id": 1315,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 2,
+  "stem": "A small dye added to the cytosol can pass through porins but cannot cross a lipid bilayer on its own or use any other mitochondrial protein. Where in the mitochondrion will it be found?",
+  "options": [
+   "In the matrix",
+   "In both the matrix and the intermembrane space",
+   "In the intermembrane space",
+   "Nowhere — porins are in the inner membrane",
+   "In the thylakoid lumen"
+  ],
+  "answerIndex": 2,
+  "explanation": "Porins sit in the outer membrane, so the dye passes into the intermembrane space; with no way across the inner membrane, it never reaches the matrix. Thylakoids belong to chloroplasts, not mitochondria.",
+  "links": "Porins · Intermembrane space · Inner-membrane barrier"
+ },
+ {
+  "id": 1316,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Mitochondria & Chloroplasts",
+  "points": 2,
+  "stem": "A single-celled green alga contains both mitochondria and chloroplasts. Which sequence of events best explains how it came to have both?",
+  "options": [
+   "A single engulfed proteobacterium later divided into both mitochondria and chloroplasts",
+   "A cyanobacterium engulfed a proteobacterium, and together the pair became the first alga",
+   "A cell that already had mitochondria later engulfed a cyanobacterium that became the chloroplast",
+   "Chloroplasts formed first by infolding of the cell membrane, and mitochondria were engulfed later",
+   "Mitochondria came from an engulfed cyanobacterium, and chloroplasts from a proteobacterium"
+  ],
+  "answerIndex": 2,
+  "explanation": "Two separate endosymbioses: mitochondria came from a proteobacterium; later, in the lineage leading to green algae and plants, a cell that already had mitochondria engulfed a cyanobacterium. That is why nearly all eukaryotes have mitochondria but only some have chloroplasts.",
+  "links": "Endosymbiosis: mitochondria and chloroplasts"
+ },
+ {
+  "id": 1010,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 3,
+  "title": "Two hormones, two strategies",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Testosterone, a steroid hormone (a lipid), binds receptor proteins inside its target cells.<br><br><b>(나)</b> Insulin, a protein hormone, binds receptor proteins on the outer surface of its target cells.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Testosterone can reach receptors inside the cell because, being nonpolar, it crosses the bilayer by simple diffusion.",
+    "correct": true,
+    "explanation": "Nonpolar molecules such as lipids pass directly through the hydrophobic core of the bilayer."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Insulin stays outside because it is nonpolar and gets trapped in the bilayer's hydrophobic core.",
+    "correct": false,
+    "explanation": "Insulin is a large, polar macromolecule — too large to cross the bilayer at all — so it signals through a surface receptor instead."
+   },
+   {
+    "label": "ㄷ",
+    "text": "A small fragment of insulin that kept many charged side chains could cross the bilayer as freely as water.",
+    "correct": false,
+    "explanation": "Shrinking helps only if the molecule is also uncharged; charged groups are still blocked by the hydrophobic core."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 0,
+  "links": "Selective permeability · Simple diffusion · Receptors · Real-world: steroid vs protein hormones",
+  "diagram": "selective_permeability"
+ },
+ {
+  "id": 1223,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 1,
+  "box": "Cells produce CO2 continuously as a waste product of metabolism.",
+  "claim": "CO2 leaves the cell by simple diffusion, without a transport protein, and its net movement stays outward as long as its concentration inside the cell is higher than outside.",
+  "answer": true,
+  "explanation": "Small gases like CO2 cross the bilayer directly. Net diffusion runs from high to low concentration and continues while the gradient exists — and producing CO2 inside keeps that gradient going.",
+  "links": "Simple diffusion · Concentration gradient",
+  "diagram": "selective_permeability"
+ },
+ {
+  "id": 1224,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 1,
+  "box": "A membrane permeable to urea separates two compartments. After an hour, the urea concentration is the same on both sides.",
+  "claim": "At this point, urea molecules have stopped crossing the membrane.",
+  "answer": false,
+  "explanation": "Only the net movement stops. Random motion continues in both directions, so influx and efflux still happen — they are simply equal.",
+  "links": "Diffusion equilibrium · Influx and efflux"
+ },
+ {
+  "id": 1317,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 1,
+  "stem": "A radioactive tracer shows that 500 molecules of solute X enter a cell each second while 200 leave each second. Which description is correct?",
+  "options": [
+   "Influx is 500/s, efflux is 200/s, and the net flux is 700/s into the cell",
+   "Influx is 500/s, efflux is 200/s, and the net flux is 300/s into the cell",
+   "Influx is 200/s, efflux is 500/s, and the net flux is 300/s out of the cell",
+   "There is no net flux, because molecules are moving in both directions",
+   "The net flux is 300/s out of the cell, since efflux always opposes influx"
+  ],
+  "answerIndex": 1,
+  "explanation": "Influx = movement in, efflux = movement out, and net flux = the difference when one exceeds the other: 500 − 200 = 300/s inward.",
+  "links": "Influx · Efflux · Net flux"
+ },
+ {
+  "id": 1011,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 3,
+  "title": "Reading uptake curves",
+  "stem": "Uptake of two molecules into cells is measured as their outside concentration is raised. Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Uptake of X rises at first but levels off at high outside concentrations; a drug that locks X's transport protein in one shape blocks uptake. X always moves from high to low concentration.<br><br><b>(나)</b> Uptake of Y rises in direct proportion to its outside concentration, never levels off, and needs no protein.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "X crosses by facilitated diffusion through a carrier: each molecule must bind and trigger a shape change, so uptake stops rising once all the carriers are busy.",
+    "correct": true,
+    "explanation": "Carriers bind specific molecules and change conformation to release them on the other side; a limited number of carriers caps the rate, and locking the shape blocks transport."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Because X's uptake levels off, X must be moving against its concentration gradient using energy.",
+    "correct": false,
+    "explanation": "Leveling off reflects a limited number of carriers, not the direction of movement; X moves down its gradient, so this is passive."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Y is most likely a small uncharged or nonpolar molecule crossing by simple diffusion.",
+    "correct": true,
+    "explanation": "Simple diffusion needs no protein, so nothing saturates — the rate just tracks the concentration gradient."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Carrier proteins · Simple vs facilitated diffusion · Passive transport",
+  "diagram": "transport_modes"
+ },
+ {
+  "id": 1225,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 1,
+  "box": "Aquaporins are channel proteins that let water cross membranes much faster than through the bilayer alone. When the body needs to conserve water, kidney cells insert more aquaporins into their membranes.",
+  "claim": "With enough aquaporins, kidney cells can move water against its concentration gradient back into the body.",
+  "answer": false,
+  "explanation": "A channel only provides an aqueous pore — facilitated diffusion. Water still moves by osmosis, down its own concentration gradient (toward the side with more solute); aquaporins change the rate, not the direction.",
+  "links": "Channel proteins · Osmosis · Real-world: kidney water conservation",
+  "diagram": "transport_modes"
+ },
+ {
+  "id": 1226,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 2,
+  "box": "In cystic fibrosis, a chloride-ion channel in airway cells fails to work, so fewer Cl- ions move out of the cells into the thin fluid layer that lines the airways. Patients' airway mucus becomes thick and sticky.",
+  "claim": "The thick mucus is explained by osmosis: with less solute moving into the airway fluid, less water follows it out of the cells.",
+  "answer": true,
+  "explanation": "Water moves toward the side with more solute (lower water concentration). When Cl- secretion fails, the airway fluid gains less solute, so less water leaves the cells and the mucus dehydrates.",
+  "links": "Ion channels · Osmosis · Real-world: cystic fibrosis"
+ },
+ {
+  "id": 1012,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 3,
+  "title": "The wrong IV bag",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Normal saline (0.9% NaCl) is isotonic to red blood cells and is safe to infuse into a vein.<br><br><b>(나)</b> By mistake, a large volume of pure water is infused into a patient's vein.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "In normal saline, water molecules stop crossing the red cell membrane.",
+    "correct": false,
+    "explanation": "Isotonic means no net flow; water still crosses in both directions at equal rates."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Red blood cells exposed to the pure water would swell and could burst (hemolysis), because water moves into the cells, where the solute concentration is higher.",
+    "correct": true,
+    "explanation": "Pure water is hypotonic to the cells: water enters by osmosis, the cells swell, and animal cells, having no wall, can lyse."
+   },
+   {
+    "label": "ㄷ",
+    "text": "A plant cell placed in pure water would swell but not burst, because its wall resists the pressure; it becomes turgid.",
+    "correct": true,
+    "explanation": "The wall pushes back against the swelling vacuole and membrane, producing turgor instead of lysis."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Tonicity · Hemolysis · Turgor · Real-world: IV fluids",
+  "diagram": "tonicity_animal_plant"
+ },
+ {
+  "id": 1318,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 1,
+  "stem": "Lettuce left in a salty dressing turns limp. What happened in its cells?",
+  "options": [
+   "The dressing is hypotonic, so water rushed into the cells until their walls burst",
+   "Salt entered the cells by simple diffusion, making the cells swell and then collapse",
+   "The dressing is isotonic, so the limpness must come from the vinegar dissolving the walls",
+   "Water left the cells (hypertonic dressing), so their membranes pulled off the walls: plasmolysis",
+   "The dressing is hypertonic, so the cells shrivelled by crenation, just as red blood cells do"
+  ],
+  "answerIndex": 3,
+  "explanation": "Higher solute outside (hypertonic) pulls water out by osmosis. In plant cells the membrane pulls away from the wall (plasmolysis) and turgor is lost; 'crenation' is the term for animal cells, which have no wall.",
+  "links": "Hypertonic solution · Plasmolysis vs crenation · Real-world: wilting salad"
+ },
+ {
+  "id": 1227,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 1,
+  "box": "Paramecium, a single-celled protist with no cell wall, lives in pond water that is hypotonic to its cytoplasm.",
+  "claim": "Without a way to pump out the water that constantly enters, Paramecium would swell and burst, like a red blood cell in pure water.",
+  "answer": true,
+  "explanation": "In a hypotonic solution water keeps entering by osmosis; with no wall to resist the pressure, the cell would lyse — so wall-less freshwater protists must actively expel water (with contractile vacuoles).",
+  "links": "Hypotonic environment · Lysis · Real-world: freshwater protists",
+  "diagram": "tonicity_animal_plant"
+ },
+ {
+  "id": 1319,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 2,
+  "stem": "A cell whose internal solute concentration is 0.3 M is placed in a 0.5 M solution of a solute that cannot cross its membrane. Which statement is correct?",
+  "options": [
+   "The solution is hypertonic, and water leaves the cell because the water concentration is higher inside the cell than outside",
+   "The solution is hypertonic, and water leaves the cell because water moves from high solute concentration to low solute concentration",
+   "The solution is hypotonic, and water enters the cell because the cell's solute concentration is lower",
+   "The solute diffuses in until both sides reach 0.4 M, so no water moves",
+   "No water moves until the cell uses ATP to pump the solute out"
+  ],
+  "answerIndex": 0,
+  "explanation": "More solute outside means less free water outside; water diffuses from higher [H2O] (inside) to lower [H2O] (outside) — that is, toward the higher solute concentration. The solute can't cross, so only water moves.",
+  "links": "Osmosis as water diffusion · Tonicity"
+ },
+ {
+  "id": 1228,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 1,
+  "box": "Glucose enters most body cells through GLUT carrier proteins, always moving from higher to lower glucose concentration.",
+  "claim": "Because a protein is required, this glucose uptake is powered by ATP.",
+  "answer": false,
+  "explanation": "Needing a protein doesn't settle it — facilitated-diffusion carriers and ATP-driven pumps are both proteins. Direction does: GLUT moves glucose down its gradient, so this is facilitated diffusion, which is passive and uses no ATP.",
+  "links": "Facilitated diffusion · Passive vs active",
+  "diagram": "transport_modes"
+ },
+ {
+  "id": 1105,
+  "type": "match",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 4,
+  "title": "Name that transport mode",
+  "prompt": "Match each example to the transport mode it uses.",
+  "leftLabel": "Example",
+  "rightLabel": "Transport mode",
+  "pairs": [
+   {
+    "left": "O2 entering a red blood cell in the lungs",
+    "right": "Simple diffusion"
+   },
+   {
+    "left": "K+ leaving a nerve cell through a pore that opens only when triggered",
+    "right": "Facilitated diffusion through a gated channel"
+   },
+   {
+    "left": "Glucose moving down its gradient into a muscle cell by binding a carrier that changes shape",
+    "right": "Facilitated diffusion through a carrier"
+   },
+   {
+    "left": "Na+ pushed out of a cell against its gradient by a pump that hydrolyzes ATP",
+    "right": "Primary active transport"
+   },
+   {
+    "left": "Glucose pulled into an intestinal cell against its gradient as Na+ flows in",
+    "right": "Secondary active transport"
+   },
+   {
+    "left": "A white blood cell engulfing a whole bacterium",
+    "right": "Phagocytosis (bulk transport)"
+   }
+  ],
+  "explanation": "Ask two questions: is a protein needed, and is the solute moving with or against its gradient? Down the gradient = passive (no protein = simple; protein = facilitated). Against it = active (ATP directly = primary; another ion's gradient = secondary). Whole particles need bulk transport.",
+  "links": "Passive vs active · Channels vs carriers · Primary vs secondary · Bulk transport"
+ },
+ {
+  "id": 1229,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 2,
+  "box": "Solution A is hypertonic to red blood cells, and red blood cells are hypertonic to solution B.",
+  "claim": "If A and B were separated by a membrane permeable only to water, net water flow would be from B into A.",
+  "answer": true,
+  "explanation": "Solute concentrations rank A > cells > B. Water moves from the lower-solute (higher-water) side toward the higher-solute side, so from B into A. Tonicity is always relative to something.",
+  "links": "Tonicity is relative · Osmosis"
+ },
+ {
+  "id": 1106,
+  "type": "match",
+  "mod": 3,
+  "topic": "Passive Transport & Osmosis",
+  "points": 3,
+  "title": "Same physics, different cells",
+  "prompt": "Match each real situation to what happens to the cells.",
+  "leftLabel": "Situation",
+  "rightLabel": "What happens to the cells",
+  "pairs": [
+   {
+    "left": "Red blood cells dropped into distilled water",
+    "right": "They swell and burst (lysis)"
+   },
+   {
+    "left": "Red blood cells placed in concentrated salt water",
+    "right": "They shrivel (crenation)"
+   },
+   {
+    "left": "Spinach leaves soaked in strong brine",
+    "right": "Their membranes pull away from the cell walls (plasmolysis)"
+   },
+   {
+    "left": "Cells of a wilted plant after the soil is watered",
+    "right": "They swell against their walls and become turgid"
+   },
+   {
+    "left": "Red blood cells suspended in normal (0.9%) saline",
+    "right": "No net water movement; they keep their normal shape"
+   }
+  ],
+  "explanation": "First decide whether the outside is hypertonic, hypotonic, or isotonic to the cells; water then moves toward the higher solute concentration. The cell wall is the only reason plant and animal outcomes differ.",
+  "links": "Tonicity · Crenation · Plasmolysis · Turgor"
+ },
+ {
+  "id": 1013,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 3,
+  "title": "A heart drug that slows a pump",
+  "stem": "Digoxin, used to treat some heart conditions, partially blocks the Na+/K+ pump in heart muscle cells. Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> The Na+/K+ pump moves 3 Na+ out and 2 K+ in per ATP, keeping Na+ low inside the cell.<br><br><b>(나)</b> Heart cells also have a Na+/Ca2+ antiporter: as Na+ flows in down its gradient, it pushes Ca2+ out of the cell.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "With fewer working pumps, Na+ would slowly build up inside the heart cells.",
+    "correct": true,
+    "explanation": "The pump is what keeps intracellular Na+ low; slowing it lets the Na+ that leaks in accumulate."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Digoxin would therefore let Ca2+ accumulate inside the heart cells, because the weakened Na+ gradient powers less Ca2+ removal.",
+    "correct": true,
+    "explanation": "The antiporter is secondary active transport driven by the Na+ gradient; a smaller gradient pushes out less Ca2+, and the extra Ca2+ strengthens contraction."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Since the antiporter uses no ATP directly, it would keep removing Ca2+ at its normal rate however much the pump is blocked.",
+    "correct": false,
+    "explanation": "Secondary active transport runs on the gradient that primary active transport builds; weaken the pump and everything that depends on its gradient weakens too."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "Na+/K+ pump · Secondary active transport · Antiporter · Real-world: digoxin",
+  "diagram": "na_k_pump_cycle"
+ },
+ {
+  "id": 1230,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 2,
+  "box": "A mutant Na+/K+ pump can be phosphorylated by ATP (step 2 in the diagram) but can never release its phosphate (step 4).",
+  "claim": "The mutant pump will release Na+ outside and bind K+, but it can never carry K+ into the cell or begin another cycle.",
+  "answer": true,
+  "explanation": "Phosphorylation opens the pump outward (Na+ out, K+ binds). Releasing the phosphate is what snaps the pump back to face inward and releases K+ inside; without it, the cycle stops after step 3.",
+  "links": "Na+/K+ pump cycle · Conformational change",
+  "diagram": "na_k_pump_cycle"
+ },
+ {
+  "id": 1320,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 2,
+  "stem": "Based on the diagram, what is the net movement of positive charge across the plasma membrane for each ATP the Na+/K+ pump uses?",
+  "options": [
+   "Five positive charges move out of the cell",
+   "One positive charge moves into the cell",
+   "No net charge moves, since Na+ and K+ both carry +1",
+   "Two positive charges move out of the cell",
+   "One positive charge moves out of the cell"
+  ],
+  "answerIndex": 4,
+  "explanation": "Each cycle moves 3 Na+ out and 2 K+ in: 3 − 2 = one net positive charge out, which helps make the inside negative relative to the outside.",
+  "links": "Pump stoichiometry · Electrochemical gradient",
+  "diagram": "na_k_pump_cycle"
+ },
+ {
+  "id": 1231,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 1,
+  "box": "Plant cells, like animal cells, maintain ion gradients across their plasma membranes.",
+  "claim": "Plant cells build these gradients with proton (H+) pumps rather than a Na+/K+ pump, which is found only in animal cells.",
+  "answer": true,
+  "explanation": "The Na+/K+ pump occurs only in animal cells. Plant cells use ATP-driven proton pumps, and the resulting H+ gradient powers their secondary active transport.",
+  "links": "Na+/K+ pump · Proton pumps"
+ },
+ {
+  "id": 1014,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 3,
+  "title": "Two forces on every ion",
+  "stem": "The diagram shows the two forces on Na+ and on K+ in a resting animal cell, whose inside is negative relative to the outside. Apply the same reasoning to other ions and conditions. Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Ca2+ is far more concentrated outside the cell than inside, and so is Cl-.<br><br><b>(나)</b> For a brief moment, the inside of the cell becomes positive relative to the outside.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "When Ca2+ channels open in a resting cell, Ca2+ rushes in, because both its concentration gradient and the charge difference push it inward.",
+    "correct": true,
+    "explanation": "Like Na+, Ca2+ is concentrated outside (chemical force inward) and positively charged, so the negative interior attracts it (electrical force inward); the forces add."
+   },
+   {
+    "label": "ㄴ",
+    "text": "For Cl- in a resting cell, the charge difference also pulls it inward, adding to its concentration gradient.",
+    "correct": false,
+    "explanation": "Like charges repel: a negative interior pushes the anion outward, opposing its inward concentration gradient."
+   },
+   {
+    "label": "ㄷ",
+    "text": "During (나), the charge force on Na+ would point outward, so the total inward push on Na+ would be weaker than at rest.",
+    "correct": true,
+    "explanation": "With the inside positive, the electrical force now repels Na+; only its concentration gradient still pushes it in, so the total inward drive shrinks."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Electrochemical gradient · Chemical vs electrical force · Charge of the ion",
+  "diagram": "electrochemical_gradient"
+ },
+ {
+  "id": 1232,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 1,
+  "box": "A plant cell uses ATP to pump H+ out across its plasma membrane.",
+  "claim": "The H+ gradient it builds stores energy in its concentration difference but not in any charge difference across the membrane.",
+  "answer": false,
+  "explanation": "H+ carries a positive charge, so pumping it builds a charge difference as well as a concentration difference — an electrochemical gradient, which can then drive secondary active transport.",
+  "links": "Proton pump · Electrochemical gradient",
+  "diagram": "electrochemical_gradient"
+ },
+ {
+  "id": 1015,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 3,
+  "title": "Why oral rehydration solution contains sugar",
+  "stem": "Cholera causes severe diarrhea, but the intestinal Na+/glucose symporter keeps working. Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Oral rehydration solution (ORS) — water with both Na+ and glucose — has saved millions of cholera patients.<br><br><b>(나)</b> Plain water, or salt water without sugar, rehydrates cholera patients much less effectively.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The symporter hydrolyzes ATP to move glucose against its gradient.",
+    "correct": false,
+    "explanation": "It is secondary active transport: Na+ flowing down its gradient drives glucose uphill. The ATP is spent by the basal Na+/K+ pump."
+   },
+   {
+    "label": "ㄴ",
+    "text": "ORS works because Na+ and glucose absorbed together through the symporter raise the solute concentration inside intestinal cells, and water follows by osmosis.",
+    "correct": true,
+    "explanation": "Moving solute into the cells (and on into the blood) creates the osmotic pull that draws water out of the gut."
+   },
+   {
+    "label": "ㄷ",
+    "text": "If the basal Na+/K+ pumps stopped, glucose uptake from the gut would eventually fail even though the symporter itself uses no ATP.",
+    "correct": true,
+    "explanation": "The pump keeps Na+ low inside the cell; without it the Na+ gradient runs down and the symporter loses its driving force."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Na+/glucose symport · Primary vs secondary active · Osmosis · Real-world: oral rehydration therapy",
+  "diagram": "intestinal_glucose_transport"
+ },
+ {
+  "id": 1321,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 2,
+  "stem": "In the diagram, glucose enters the intestinal cell through a symporter coupled to Na+ but leaves across the basal membrane through a uniporter. Why can the exit step be passive?",
+  "options": [
+   "The basal uniporter hydrolyzes ATP itself, so the exit step is really a form of active transport",
+   "Cell glucose exceeds blood glucose, so exit is downhill; lumen glucose is lower, so entry is uphill",
+   "Glucose is nonpolar, so it diffuses freely through the basal membrane without any protein",
+   "Na+ in the blood drives glucose out of the cell through the basal uniporter by symport",
+   "The apical membrane has no transport proteins, so only the basal exit step needs one"
+  ],
+  "answerIndex": 1,
+  "explanation": "Direction relative to the gradient decides the mechanism: lumen (low) → cell (high) needs secondary active transport, while cell (high) → blood (lower) is facilitated diffusion through a uniporter.",
+  "links": "Symporter vs uniporter · Facilitated diffusion · Glucose absorption",
+  "diagram": "intestinal_glucose_transport"
+ },
+ {
+  "id": 1107,
+  "type": "match",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 3,
+  "title": "Who moves what, and on whose energy?",
+  "prompt": "Match each transport protein to its correct classification.",
+  "leftLabel": "Transport protein",
+  "rightLabel": "Classification",
+  "pairs": [
+   {
+    "left": "Na+/glucose transporter (apical side, intestine)",
+    "right": "Secondary active symporter — both solutes move the same way; the Na+ gradient powers it"
+   },
+   {
+    "left": "Na+/H+ exchanger (animal-cell plasma membrane)",
+    "right": "Secondary active antiporter — solutes move opposite ways; the Na+ gradient powers it"
+   },
+   {
+    "left": "Glucose transporter (basal side, intestine)",
+    "right": "Uniporter — one solute moving down its gradient (facilitated diffusion)"
+   },
+   {
+    "left": "Na+/K+-ATPase",
+    "right": "Primary active antiporter — ATP hydrolysis moves two ions in opposite directions"
+   },
+   {
+    "left": "Lysosomal proton pump",
+    "right": "Primary active pump for a single solute — ATP moves H+ into an organelle against its gradient"
+   }
+  ],
+  "explanation": "Every transporter gets an energy word (primary, secondary, passive) for what powers it; direction words say whether it moves one solute (uniport) or two in the same (symport) or opposite (antiport) directions.",
+  "links": "Symport · Antiport · Uniport · Primary vs secondary"
+ },
+ {
+  "id": 1233,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 1,
+  "box": "A carrier protein for facilitated diffusion and an active transporter both bind their solute and change shape.",
+  "claim": "Because both work by changing shape, both would be expected to move their solute from higher to lower concentration.",
+  "answer": false,
+  "explanation": "Only the carrier follows the gradient. An active transporter couples its shape change to an energy source, so it moves its solute in one direction — against the gradient.",
+  "links": "Carrier vs active transporter"
+ },
+ {
+  "id": 1234,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 2,
+  "box": "Cyanide stops mitochondria from making ATP. In a poisoned cell, the Na+/K+ pumps slow, and the Na+ and K+ gradients across the plasma membrane gradually run down.",
+  "claim": "Secondary active transport in this cell would also decline, even though secondary transporters never use ATP themselves.",
+  "answer": true,
+  "explanation": "Secondary transporters run on ion gradients that primary (ATP-driven) pumps build. When ATP runs out, the gradients fade — and so does everything they drive.",
+  "links": "Primary vs secondary active transport · Real-world: cyanide poisoning"
+ },
+ {
+  "id": 1322,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 2,
+  "stem": "A bacterium uses ATP to pump H+ out of the cell. A drug-efflux antiporter in the same membrane lets H+ flow back in while pushing an antibiotic out — a common cause of antibiotic resistance. Which change would most directly stop the antiporter from expelling the antibiotic?",
+  "options": [
+   "Adding more glucose to the medium so the bacterium can make more ATP",
+   "Raising the antibiotic concentration outside the bacterial cell",
+   "Blocking the bacterium's ribosomes for a few seconds with another drug",
+   "Making the membrane leaky to H+, so the H+ gradient collapses",
+   "Adding a second antibiotic that targets the cell wall"
+  ],
+  "answerIndex": 3,
+  "explanation": "The antiporter is secondary active transport: its energy comes from H+ moving down its electrochemical gradient. Remove the gradient, and the drug can no longer be pushed out against its own gradient.",
+  "links": "Proton gradient · Antiporter · Real-world: antibiotic efflux pumps"
+ },
+ {
+  "id": 1323,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 2,
+  "stem": "Each cycle of the Na+/K+ pump removes one more ion than it brings in, offsetting the Na+ that constantly leaks into an animal cell. What would happen to the volume of a cell whose pumps were completely blocked by the poison ouabain?",
+  "options": [
+   "It would shrink, because K+ stays trapped inside and draws water out of the cell",
+   "It would stay the same size, because Na+ and K+ carry the same positive charge",
+   "It would swell: Na+ that leaks in accumulates, so water follows it in by osmosis",
+   "It would shrink, because a blocked pump can no longer let water into the cell",
+   "It would burst at once, because the pump is also the cell's main route for water"
+  ],
+  "answerIndex": 2,
+  "explanation": "Na+ (with Cl- following) keeps leaking in but is no longer pumped out, so internal solute rises; water follows by osmosis and the cell swells. The pump is part of how wall-less animal cells control their volume.",
+  "links": "Na+/K+ pump · Osmosis · Cell volume"
+ },
+ {
+  "id": 1235,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Active Transport",
+  "points": 2,
+  "box": "The Na+ and K+ gradients across an animal cell's membrane always favour Na+ moving in and K+ moving out, yet the Na+/K+ pump steadily moves Na+ out and K+ in.",
+  "claim": "What keeps the pump's cycle running in this direction is its coupling to ATP: phosphorylation and phosphate release force its shape changes to occur in one fixed order.",
+  "answer": true,
+  "explanation": "An active transporter changes conformation when it binds its solutes; here each change is tied to ATP — phosphorylation after Na+ binds inside, phosphate release after K+ binds outside — so the cycle runs one way, uphill for both ions. ATP hydrolysis supplies more energy than the gradients store.",
+  "links": "Active transporters move solutes one way · Na+/K+ pump cycle"
+ },
+ {
+  "id": 1016,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 3,
+  "title": "When LDL can't get in",
+  "stem": "LDL particles carry cholesterol in the blood and are taken into cells by receptor-mediated endocytosis. In familial hypercholesterolemia, the LDL receptor is defective, and blood cholesterol stays very high. Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Normal cells gather LDL receptors in coated pits and take LDL in efficiently, even at low blood levels.<br><br><b>(나)</b> Patients' cells can still take up small amounts of LDL.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The small uptake in (나) could occur by pinocytosis, which brings in whatever molecules are dissolved in the engulfed fluid without recognizing them.",
+    "correct": true,
+    "explanation": "Pinocytosis is nonspecific 'cell drinking', so some LDL enters with the fluid — far less efficiently than through concentrated receptors."
+   },
+   {
+    "label": "ㄴ",
+    "text": "In normal cells, LDL taken in through coated pits is delivered first to early endosomes near the cell periphery, then to late endosomes deeper inside.",
+    "correct": true,
+    "explanation": "Receptor-mediated cargo goes into a network of endosomes: early (peripheral), then late (interior), which also receive material from the Golgi."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Clathrin on the outer face of the coated pit is what recognizes and binds LDL.",
+    "correct": false,
+    "explanation": "Receptors on the extracellular side bind LDL; clathrin coats the cytoplasmic side and helps bring the vesicle in."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Receptor-mediated endocytosis · Clathrin · Endosomes · Real-world: familial hypercholesterolemia",
+  "diagram": "endocytosis_types"
+ },
+ {
+  "id": 1236,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 2,
+  "box": "Neutrophils engulf bacteria by phagocytosis, and the phagosome then fuses with a lysosome whose contents include lysozyme. The antibiotic penicillin kills bacteria by blocking the construction of their cell walls.",
+  "claim": "Lysozyme attacks the same bacterial structure that penicillin targets.",
+  "answer": true,
+  "explanation": "Lysozyme degrades bacterial cell walls, while penicillin blocks wall construction. Human cells have no wall, so both strategies hit bacteria without harming our own cells.",
+  "links": "Phagocytosis · Lysozyme · Bacterial cell wall",
+  "diagram": "endocytosis_types"
+ },
+ {
+  "id": 1324,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 1,
+  "stem": "A cell takes in a dissolved dye for which it has no receptor. Which process brings the dye in, and must the resulting vesicle fuse with a lysosome?",
+  "options": [
+   "Phagocytosis; yes — every engulfed particle is digested",
+   "Receptor-mediated endocytosis; yes — cargo always goes to lysosomes first",
+   "Pinocytosis; yes — fluid can only be released after digestion",
+   "Exocytosis; no — the dye enters by vesicle fusion",
+   "Pinocytosis; no — the small vesicle need not merge with a lysosome"
+  ],
+  "answerIndex": 4,
+  "explanation": "Without a receptor, uptake is nonspecific pinocytosis ('cell drinking'), which forms small vesicles that don't need to merge with a lysosome; phagocytosis is for large, recognized particles.",
+  "links": "Pinocytosis · Phagocytosis · Endocytosis"
+ },
+ {
+  "id": 1237,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 1,
+  "box": "A cell takes up a fluorescent dye by endocytosis. Moments later, the dye appears inside the cell as small bright dots.",
+  "claim": "At that moment, the dye is still separated from the cytosol by a membrane that came from the plasma membrane.",
+  "answer": true,
+  "explanation": "Endocytosis never breaks membrane continuity: the infolded membrane becomes the vesicle wall, so the cargo stays enclosed — still 'outside' the cytosol.",
+  "links": "Endocytosis · Membrane continuity"
+ },
+ {
+  "id": 1017,
+  "type": "combo",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 2,
+  "title": "Releasing messages by the vesicle-load",
+  "stem": "Which statements in <보기> about exocytosis are correct?",
+  "box": "<b>(가)</b> Nerve cells release chemical messengers (neurotransmitters) stored in vesicles by exocytosis.<br><br><b>(나)</b> During intense activity, a single nerve terminal can release hundreds of vesicles per second.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The messengers reach the outside of the cell without the cytosol ever being exposed to the extracellular fluid.",
+    "correct": true,
+    "explanation": "Fusion keeps membranes continuous; only the vesicle's interior opens to the outside."
+   },
+   {
+    "label": "ㄴ",
+    "text": "A nerve cell releasing many vesicles would steadily gain plasma-membrane area unless it took membrane back in by endocytosis.",
+    "correct": true,
+    "explanation": "Each fusion adds membrane; cells balance this by retrieving membrane through endocytosis."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Vesicles that carry secreted proteins to the cell surface bud from the Golgi, part of the endomembrane system.",
+    "correct": true,
+    "explanation": "Exocytosis delivers the contents of vesicles that bud off the endomembrane system into the extracellular space."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Exocytosis · Membrane continuity · Real-world: neurotransmitter release"
+ },
+ {
+  "id": 1108,
+  "type": "match",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 3,
+  "title": "Disarming a phagocyte",
+  "prompt": "Each neutrophil below has one defect. Match each defect to its most direct consequence.",
+  "leftLabel": "Defect",
+  "rightLabel": "Most direct consequence",
+  "pairs": [
+   {
+    "left": "No surface receptors for a particular bacterium",
+    "right": "The bacterium is never recognized, so it isn't engulfed"
+   },
+   {
+    "left": "Phagosomes that cannot fuse with lysosomes",
+    "right": "Bacteria are enclosed but never exposed to hydrolytic enzymes"
+   },
+   {
+    "left": "Lysosomes lacking lysozyme",
+    "right": "Bacterial cell walls are not broken down"
+   },
+   {
+    "left": "Phagosomes lacking oxidases on their inner surface",
+    "right": "No H2O2 is made to kill bacteria"
+   },
+   {
+    "left": "Lysosomes whose proton pump has failed",
+    "right": "Microorganisms normally killed by acidic pH survive"
+   }
+  ],
+  "explanation": "Phagocytic defense is a chain — recognition, engulfment into a phagosome, fusion with a lysosome, then killing by lysozyme, acidic pH, and H2O2. Breaking any one link leaves a specific gap; in single-celled organisms, the same pathway provides nutrition.",
+  "links": "Phagocytosis · Lysosomes · Immune defense"
+ },
+ {
+  "id": 1325,
+  "type": "mc",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 2,
+  "stem": "Vitamin B12 travels in the blood bound to a carrier protein at very low concentration, yet cells take it in efficiently and selectively. Which feature best explains this?",
+  "options": [
+   "Receptors that bind the carrier gather in coated pits, capturing it even from dilute fluid",
+   "Pinocytosis takes in extracellular fluid, so it collects the vitamin in proportion to its concentration",
+   "The vitamin–carrier complex is small enough to diffuse straight across the lipid bilayer",
+   "Phagocytosis engulfs the vitamin–carrier complexes as large, recognized particles",
+   "Exocytosis pulls the complex into the cell each time a vesicle fuses with the membrane"
+  ],
+  "answerIndex": 0,
+  "explanation": "Receptor-mediated endocytosis concentrates specific cargo: receptors gather in clathrin-coated pits, so the cell takes up far more of the target than nonspecific pinocytosis would at that concentration.",
+  "links": "Receptor-mediated endocytosis · Coated pits · Real-world: vitamin uptake"
+ },
+ {
+  "id": 1238,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 1,
+  "box": "Pinocytic vesicles are smaller than phagosomes and carry dissolved molecules rather than whole cells.",
+  "claim": "Like phagocytosis, pinocytosis begins when the plasma membrane recognizes a specific target.",
+  "answer": false,
+  "explanation": "Pinocytosis takes up extracellular fluid without recognition — whatever is dissolved comes in. Recognition through receptors is a feature of phagocytosis and receptor-mediated endocytosis.",
+  "links": "Pinocytosis vs phagocytosis"
+ },
+ {
+  "id": 1109,
+  "type": "match",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 2,
+  "title": "Which way in or out?",
+  "prompt": "Match each scenario to the bulk-transport process it uses.",
+  "leftLabel": "Scenario",
+  "rightLabel": "Process",
+  "pairs": [
+   {
+    "left": "A macrophage engulfs a worn-out red blood cell and digests it",
+    "right": "Phagocytosis"
+   },
+   {
+    "left": "A cell samples the surrounding fluid, taking in whatever solutes it contains",
+    "right": "Pinocytosis"
+   },
+   {
+    "left": "A liver cell captures cholesterol-carrying LDL particles through clathrin-coated pits",
+    "right": "Receptor-mediated endocytosis"
+   },
+   {
+    "left": "A pancreatic cell releases insulin stored in vesicles",
+    "right": "Exocytosis"
+   }
+  ],
+  "explanation": "Ask what is moving and whether it is recognized: large recognized particles → phagocytosis; fluid with no recognition → pinocytosis; specific cargo through receptors and clathrin → receptor-mediated endocytosis; outward delivery by vesicle fusion → exocytosis.",
+  "links": "Bulk transport modes"
+ },
+ {
+  "id": 1239,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 2,
+  "box": "A newly made lysosomal enzyme leaves the Golgi apparatus. Minutes earlier, LDL particles were taken into the same cell by receptor-mediated endocytosis.",
+  "claim": "The enzyme and the LDL could meet in late endosomes, which receive material both from early endosomes and from the Golgi apparatus.",
+  "answer": true,
+  "explanation": "Endocytosed cargo passes from early endosomes (near the periphery) to late endosomes (deeper inside), which also receive material from the Golgi — a meeting point of the inward and outward routes.",
+  "links": "Early and late endosomes · Golgi delivery"
+ },
+ {
+  "id": 1240,
+  "type": "tf",
+  "mod": 3,
+  "topic": "Bulk Transport",
+  "points": 1,
+  "box": "A macrophage takes in material by endocytosis many times a minute.",
+  "claim": "Each round of endocytosis removes a little membrane from the cell surface — the reverse of what exocytosis does.",
+  "answer": true,
+  "explanation": "The plasma membrane folds inward and pinches off to form each vesicle, so endocytosis takes surface membrane into the cell, while exocytosis adds vesicle membrane back; busy cells balance the two.",
+  "links": "Endocytosis · Exocytosis · Membrane balance"
+ },
+ {
+  "id": 1018,
+  "type": "combo",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 3,
+  "title": "What the mice and the enzymes proved",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Griffith, 1928: heat-killed virulent bacteria alone do not kill a mouse, but mixed with live nonvirulent bacteria they do, and live virulent bacteria are recovered from the mouse.<br><br><b>(나)</b> Avery, MacLeod and McCarty, 1944: an extract of heat-killed virulent cells still transforms nonvirulent cells after RNase or protease treatment, but not after DNase treatment.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "In (가), the virulent cells recovered from the mouse must have come from live nonvirulent cells that picked up something from the dead virulent cells.",
+    "correct": true,
+    "explanation": "Dead cells can't revive, and nonvirulent cells alone are harmless; the only source of live virulent cells is nonvirulent cells transformed by a molecule in the debris."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Griffith's experiment by itself identified DNA as the transforming molecule.",
+    "correct": false,
+    "explanation": "Griffith showed that some molecule in the debris carried the genetic information for virulence, but it wasn't identified until Avery's enzyme experiments. (The notes' opening line credits Griffith with showing that DNA is the genetic material; strictly, his experiment showed only that something transforms, and Avery's team identified it as DNA.)"
+   },
+   {
+    "label": "ㄷ",
+    "text": "If the DNase-treated extract in (나) had still transformed the cells, DNA could not have been the molecule required for transformation.",
+    "correct": true,
+    "explanation": "The logic is elimination: destroying the true genetic material must block transformation, and only destroying DNA did."
+   }
+  ],
+  "choices": [
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Griffith's transformation · Avery's enzyme experiment · Experimental logic",
+  "diagram": "griffith_avery_experiments"
+ },
+ {
+  "id": 1241,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "box": "The virulent bacteria recovered from Griffith's fourth mouse were grown in culture, and their descendants were virulent too.",
+  "claim": "This shows that transformation changed the bacteria's heritable genetic information, rather than just coating them temporarily with material from the dead cells.",
+  "answer": true,
+  "explanation": "A temporary coating would be diluted away as cells divide; virulence passed on for generations means the information was stored and copied — the defining jobs of genetic material.",
+  "links": "Transformation · Genetic material stores and copies information",
+  "diagram": "griffith_avery_experiments"
+ },
+ {
+  "id": 1326,
+  "type": "mc",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 2,
+  "stem": "Suppose Avery's team had found the opposite pattern: the protease-treated extract failed to transform the nonvirulent cells, while the DNase- and RNase-treated extracts still transformed them. What would they have concluded?",
+  "options": [
+   "DNA is the genetic material, since DNase didn't stop transformation",
+   "RNA is the genetic material, since RNase didn't stop transformation",
+   "Protein, not DNA, is the transforming (genetic) material",
+   "Both DNA and protein are required, since some treatments worked",
+   "Nothing can be concluded, since heat-killed cells were used"
+  ],
+  "answerIndex": 2,
+  "explanation": "Each enzyme destroys one candidate; the treatment that blocks transformation identifies the molecule that is required — in this hypothetical, protein. The real result (only DNase blocked it) pointed to DNA.",
+  "links": "Avery, MacLeod & McCarty · Logic of elimination",
+  "diagram": "griffith_avery_experiments"
+ },
+ {
+  "id": 1019,
+  "type": "combo",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 3,
+  "title": "Chargaff by the numbers",
+  "stem": "Two double-stranded DNA samples of equal length are analyzed. Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Sample 1 is 30% adenine.<br><br><b>(나)</b> Sample 2 is 60% G + C.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Chargaff's rule %A = %T would hold just as well for the genome of a virus made of single-stranded DNA.",
+    "correct": false,
+    "explanation": "The rule comes from complementary pairing between two strands; a single strand has no partner forcing A to equal T."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Sample 1 is 20% guanine.",
+    "correct": true,
+    "explanation": "%A = %T = 30%, so A + T = 60% and G + C = 40%; since %G = %C, guanine is 20%."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Sample 2 would need more heat than sample 1 to separate its strands.",
+    "correct": true,
+    "explanation": "Sample 1 is only 40% G + C. Each G–C pair has three hydrogen bonds versus two for A–T, so G–C-rich DNA holds together more strongly."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Chargaff's rules · Hydrogen bonds per base pair · Complementary pairing",
+  "diagram": "dna_double_helix_pairing"
+ },
+ {
+  "id": 1242,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 2,
+  "box": "One strand of a 10-base-pair DNA segment reads 5'-GGCATGCCAT-3'.",
+  "claim": "The two strands of this segment are held together by 25 hydrogen bonds.",
+  "answer": false,
+  "explanation": "Count the pairs: 6 G–C pairs (G, G, C, G, C, C) × 3 = 18, plus 4 A–T pairs × 2 = 8, for 26 hydrogen bonds.",
+  "links": "Hydrogen bonds: G–C = 3, A–T = 2",
+  "diagram": "dna_double_helix_pairing"
+ },
+ {
+  "id": 1327,
+  "type": "mc",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 2,
+  "stem": "What is the complementary strand of 5'-ATGCCT-3', written in the standard 5'→3' direction?",
+  "options": [
+   "5'-TACGGA-3'",
+   "5'-TCCGTA-3'",
+   "3'-AGGCAT-5'",
+   "5'-UACGGA-3'",
+   "5'-AGGCAT-3'"
+  ],
+  "answerIndex": 4,
+  "explanation": "Pair each base (A–T, G–C) to get 3'-TACGGA-5', then rewrite it from its 5' end, because the strands are antiparallel: 5'-AGGCAT-3'.",
+  "links": "Antiparallel strands · Complementary pairing · Writing sequences 5'→3'"
+ },
+ {
+  "id": 1243,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "box": "A DNA sequence is written simply as GATTC, with neither end labeled.",
+  "claim": "By convention, the C at the right-hand end carries the strand's free 5' phosphate.",
+  "answer": false,
+  "explanation": "An unlabeled sequence is written 5'→3', so the left end (G) is the 5' end; the C on the right carries the free 3'-OH.",
+  "links": "Sequence convention · Strand polarity"
+ },
+ {
+  "id": 1020,
+  "type": "combo",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 3,
+  "title": "Reading the ladder",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Every rung joins a two-ring base to a one-ring base.<br><br><b>(나)</b> The sugar-phosphate backbones run along the outside of the ladder, and the bases point inward.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Pairing a purine with a pyrimidine on every rung keeps the helix a constant 2 nm wide.",
+    "correct": true,
+    "explanation": "Two rings (A, G) plus one ring (C, T) always gives the same rung length; two purines would bulge the helix and two pyrimidines would pinch it."
+   },
+   {
+    "label": "ㄴ",
+    "text": "With the backbones outside, the negatively charged phosphates face the surrounding water while the bases are tucked inside.",
+    "correct": true,
+    "explanation": "The ionized phosphates are hydrophilic and sit on the outside; the bases stack in the interior."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Because the strands are antiparallel, the left strand's 5' end sits across from the right strand's 5' end.",
+    "correct": false,
+    "explanation": "Antiparallel means opposite directions: the left strand's 5' end faces the right strand's 3' end, as the diagram shows."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Purine–pyrimidine pairing · Antiparallel strands · Backbone outside",
+  "diagram": "dna_double_helix_pairing"
+ },
+ {
+  "id": 1244,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 2,
+  "box": "A gene is 3,000 base pairs long. Use the helix dimensions given in the diagram.",
+  "claim": "Stretched out as a double helix, this gene makes about 300 complete turns and is about 1 µm (1,000 nm) long.",
+  "answer": true,
+  "explanation": "3,000 bp ÷ 10 bp per turn = 300 turns; 300 × 3.4 nm = 1,020 nm ≈ 1 µm.",
+  "links": "Helix dimensions: 3.4 nm and 10 bp per turn",
+  "diagram": "dna_double_helix_pairing"
+ },
+ {
+  "id": 1328,
+  "type": "mc",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "stem": "About 2 m of DNA must fit inside a human nucleus only a few micrometres across. Which is the first level of packing in the condensation series?",
+  "options": [
+   "The DNA double helix folds directly into a 1,400 nm condensed chromatid",
+   "DNA wraps around histone proteins, forming the 10 nm nucleosome fiber",
+   "The DNA coils into a 30 nm fiber before any proteins bind to it",
+   "RNA molecules wrap around the DNA to shorten it before it folds",
+   "Phospholipids coat the DNA so that it can be folded more tightly"
+  ],
+  "answerIndex": 1,
+  "explanation": "Packing proceeds stepwise: 2 nm DNA → 10 nm nucleosome fiber (DNA wound around histones H2A, H2B, H3, and H4) → 30 nm chromatin fiber → 300 nm → 700 nm → 1,400 nm condensed chromatid.",
+  "links": "Chromosome condensation · Nucleosomes · Histones"
+ },
+ {
+  "id": 1021,
+  "type": "combo",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 3,
+  "title": "Carbon numbers matter",
+  "stem": "Which statements in <보기> about nucleotide structure are correct?",
+  "box": "<b>(가)</b> In a DNA nucleotide, the base attaches to the 1' carbon of deoxyribose and the phosphate to the 5' carbon.<br><br><b>(나)</b> Deoxyribose has no oxygen at its 2' carbon.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The next nucleotide attaches at the 2' carbon, which is why losing the 2' oxygen defines DNA.",
+    "correct": false,
+    "explanation": "Attachment is always at the 3'-OH. The missing 2' oxygen is simply what makes the sugar deoxyribose."
+   },
+   {
+    "label": "ㄴ",
+    "text": "A nucleoside (base + sugar only) can be joined directly into a growing chain, since the base alone decides pairing.",
+    "correct": false,
+    "explanation": "Joining needs phosphates: incoming units are nucleoside triphosphates, whose phosphate forms the phosphodiester link and supplies the energy. A nucleoside has none."
+   },
+   {
+    "label": "ㄷ",
+    "text": "When two nucleotides join, the phosphate on the incoming nucleotide's 5' carbon bonds to the 3'-OH of the previous nucleotide, forming a phosphodiester bond.",
+    "correct": true,
+    "explanation": "That 5'-phosphate-to-3'-OH link is the phosphodiester bond, which is why each strand has a 5' end and a 3' end."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "Nucleotide carbons · Phosphodiester bond · Nucleotide vs nucleoside"
+ },
+ {
+  "id": 1245,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "box": "In gel electrophoresis, DNA fragments are loaded into wells in a gel held at about pH 8, and an electric field is applied across it.",
+  "claim": "The DNA fragments will migrate toward the negative electrode.",
+  "answer": false,
+  "explanation": "Negatively charged DNA is attracted to the positive electrode. The ionized phosphate groups of the backbone give DNA its uniform negative charge.",
+  "links": "Negatively charged backbone · Real-world: gel electrophoresis"
+ },
+ {
+  "id": 1246,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "box": "Many DNA-binding proteins, including transcription factors, recognize specific base sequences without unzipping the double helix.",
+  "claim": "This is possible because the helix's outer surface forms major and minor grooves in which the edges of the paired bases are exposed.",
+  "answer": true,
+  "explanation": "The uneven grooves leave part of each base pair accessible from outside, so proteins can 'read' a sequence such as a promoter while the DNA stays double-stranded.",
+  "links": "Major and minor grooves · DNA-binding proteins"
+ },
+ {
+  "id": 1329,
+  "type": "mc",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "stem": "Which statement best describes what holds the two strands of the double helix together and stabilizes it?",
+  "options": [
+   "Covalent bonds that form between the paired bases on the two strands",
+   "Ionic bonds between the negatively charged phosphate groups of the two strands",
+   "Phosphodiester bonds that cross the middle from one strand to the other",
+   "Many weak H-bonds between paired bases, plus stacking between neighbouring bases",
+   "Hydrogen bonds alone, since neighbouring bases on a strand don't interact"
+  ],
+  "answerIndex": 3,
+  "explanation": "Base pairs are joined by hydrogen bonds — weak one by one but strong in number — and stacking interactions between adjacent bases on each strand add stability. Phosphodiester bonds link nucleotides only within a strand.",
+  "links": "Hydrogen bonds · Base stacking · Phosphodiester bonds"
+ },
+ {
+  "id": 1247,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "box": "In PCR, DNA is heated to about 95 °C so its two strands separate; on cooling, short complementary DNA pieces (primers) pair with the separated strands.",
+  "claim": "Heating separates the strands by breaking the phosphodiester bonds that link the two strands, and these bonds re-form when the sample cools.",
+  "answer": false,
+  "explanation": "Phosphodiester bonds link nucleotides within each strand and stay intact. Heat breaks the weak hydrogen bonds between paired bases (base stacking along each strand adds stability), which is what lets DNA 'unzip' down the middle.",
+  "links": "Unzipping DNA · Real-world: PCR"
+ },
+ {
+  "id": 1330,
+  "type": "mc",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "stem": "Watson and Crick built their double-helix model from other researchers' results. Which pairing of evidence and inference is correct?",
+  "options": [
+   "Franklin and Wilkins' X-ray data revealed the helix's shape and size; Chargaff's ratios pointed to A–T, G–C pairing",
+   "Chargaff's ratios revealed the helical shape and dimensions; Franklin and Wilkins' X-ray data showed which bases pair",
+   "Franklin and Wilkins' X-ray data showed that A pairs with G; Chargaff's ratios showed that the strands run parallel",
+   "Chargaff's ratios showed that the helix is left-handed; Franklin and Wilkins' X-ray data placed the bases on the outside",
+   "Griffith's and Avery's experiments revealed the helical shape; Chargaff's ratios showed that the backbone lies inside"
+  ],
+  "answerIndex": 0,
+  "explanation": "X-ray crystallography (Franklin and Wilkins) gave the helical structure; Chargaff's equal ratios implied complementary pairing. The resulting model: a right-handed, antiparallel double helix with backbones outside and bases inside.",
+  "links": "Watson & Crick · Franklin & Wilkins · Chargaff"
+ },
+ {
+  "id": 1248,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 2,
+  "box": "The two strands of a DNA double helix are complementary.",
+  "claim": "So the two strands have identical sequences when each is read 5'→3'.",
+  "answer": false,
+  "explanation": "Complementary means paired, not identical: the partner of 5'-ATGCCT-3' reads 5'-AGGCAT-3'. Only special palindromic sequences, such as 5'-GAATTC-3', read the same on both strands.",
+  "links": "Complementary vs identical · Antiparallel strands"
+ },
+ {
+  "id": 1249,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "box": "Erwin Chargaff found that %A = %T and %G = %C in DNA from many species; Rosalind Franklin and Maurice Wilkins obtained X-ray crystallography images of DNA.",
+  "claim": "Chargaff's ratios alone were enough for Watson and Crick to conclude that DNA is a helix of two strands.",
+  "answer": false,
+  "explanation": "The ratios suggested which bases pair, but the helical shape and its dimensions came from the X-ray data. Watson and Crick needed both lines of evidence.",
+  "links": "Evidence behind the double helix"
+ },
+ {
+  "id": 1110,
+  "type": "match",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 3,
+  "title": "Structure explains function",
+  "prompt": "Match each feature of DNA structure to the property it explains.",
+  "leftLabel": "Structural feature",
+  "rightLabel": "Property explained",
+  "pairs": [
+   {
+    "left": "Complementary base pairing",
+    "right": "Each strand can serve as a template to rebuild its partner"
+   },
+   {
+    "left": "Weak hydrogen bonds between bases",
+    "right": "The strands can be 'unzipped' without breaking either backbone"
+   },
+   {
+    "left": "A purine always paired with a pyrimidine",
+    "right": "The helix keeps a constant 2 nm width"
+   },
+   {
+    "left": "Sugar-phosphate backbones on the outside",
+    "right": "The charged, hydrophilic part of DNA faces the surrounding water"
+   },
+   {
+    "left": "Uneven major and minor grooves",
+    "right": "Proteins can read base sequences without unwinding the helix"
+   }
+  ],
+  "explanation": "DNA's two jobs — storing information and copying it — follow from its structure: complementary, weakly paired strands make copying possible, while the regular, stable helix protects the stored sequence.",
+  "links": "DNA structure and function"
+ },
+ {
+  "id": 1250,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "box": "A single DNA strand is 12 nucleotides long, and each nucleotide was built with a phosphate on its 5' carbon.",
+  "claim": "The strand therefore has two 5'-phosphate ends, one at each end.",
+  "answer": false,
+  "explanation": "Phosphodiester bonds link each nucleotide's 5' phosphate to the previous one's 3'-OH, so only one end keeps a free 5' phosphate; the other end has a free 3'-OH. That difference gives every strand its polarity.",
+  "links": "Strand polarity · Phosphodiester bonds"
+ },
+ {
+  "id": 1251,
+  "type": "tf",
+  "mod": 4,
+  "topic": "DNA: Evidence & Structure",
+  "points": 1,
+  "box": "A student builds a DNA model whose two strands twist around each other to the left, with the sugar-phosphate backbones running down the middle and the bases pointing outward.",
+  "claim": "Apart from the backbones and bases being swapped, the model is correct, including its left-handed twist.",
+  "answer": false,
+  "explanation": "The twist is wrong too: DNA's two strands form a right-handed helix. So the model has two errors — a left-handed twist, and backbones inside instead of outside with the bases pointing inward.",
+  "links": "Right-handed helix · Backbones outside, bases inside"
+ },
+ {
+  "id": 1252,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 1,
+  "box": "A liver cell and a nerve cell from the same person make very different sets of proteins.",
+  "claim": "As it developed, the nerve cell must have lost the genes for liver proteins from its genome.",
+  "answer": false,
+  "explanation": "Both cells carry the same genome. Gene expression is regulated: each cell type turns on a different subset of genes, so the liver genes are present but switched off in the nerve cell.",
+  "links": "Genome · Regulated gene expression"
+ },
+ {
+  "id": 1331,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 1,
+  "stem": "Why is RNA synthesis called 'transcription' while protein synthesis is called 'translation'?",
+  "options": [
+   "Transcription happens in the nucleus and translation in the cytoplasm, so the two names simply record where each step occurs",
+   "Transcription copies DNA into new DNA before division, while translation converts that DNA into RNA for export",
+   "Transcription is carried out by ribosomes reading DNA, while translation is carried out by RNA polymerase reading mRNA",
+   "Transcription copies within one nucleic-acid 'language'; translation converts it into another: amino acids",
+   "Transcription keeps the two DNA strands together, while translation separates them so each can be read into protein"
+  ],
+  "answerIndex": 3,
+  "explanation": "DNA and RNA are both nucleic acids, so making RNA from DNA is copying in the same language; making protein from mRNA's code changes the language to amino acids. Location differs only in eukaryotes and isn't the reason for the names.",
+  "links": "Central dogma · Transcription vs translation"
+ },
+ {
+  "id": 1253,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 1,
+  "box": "HIV carries its genome as RNA. After infecting a cell, it makes a DNA copy of that RNA, which is inserted into the host's DNA.",
+  "claim": "The host cell's RNA polymerase carries out this step by running in reverse.",
+  "answer": false,
+  "explanation": "RNA polymerase makes RNA from a DNA template. Making DNA from an RNA template — reverse transcription, an exception to the central dogma — requires the virus's own RNA-dependent DNA polymerase, reverse transcriptase.",
+  "links": "Reverse transcription · Central dogma exception"
+ },
+ {
+  "id": 1022,
+  "type": "combo",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 3,
+  "title": "Small differences, big consequences",
+  "stem": "Which statements in <보기> about how RNA differs from DNA are correct?",
+  "box": "<b>(가)</b> Ribose, RNA's sugar, carries an -OH on its 2' carbon, where deoxyribose has only -H.<br><br><b>(나)</b> The 5' end of a newly made RNA typically carries three phosphates, while the 5' end of DNA typically carries one.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The 2'-OH makes RNA less stable than DNA, which suits RNA as a short-lived working copy and DNA as long-term storage.",
+    "correct": true,
+    "explanation": "The extra hydroxyl makes RNA more reactive and less stable — fine for a message that should be temporary."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Uracil has an extra methyl group compared with thymine, which is why it pairs with A.",
+    "correct": false,
+    "explanation": "Uracil has an -H where thymine has a methyl (-CH3); both pair with A."
+   },
+   {
+    "label": "ㄷ",
+    "text": "RNA's 5' triphosphate is left over from the first nucleotide, which was never joined to a previous nucleotide and so never lost its outer phosphates.",
+    "correct": true,
+    "explanation": "Each later nucleotide loses two phosphates (as pyrophosphate) when it is joined to the chain; the first one keeps its full triphosphate at the 5' end."
+   }
+  ],
+  "choices": [
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Ribose vs deoxyribose · RNA 5' triphosphate · Uracil vs thymine"
+ },
+ {
+  "id": 1254,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 1,
+  "box": "A nucleic acid isolated from a cell is 120 nucleotides long, contains ribose, and folds into a compact three-dimensional shape in which several short stretches are base-paired with one another.",
+  "claim": "Because parts of it are base-paired, the molecule must be double-stranded, like DNA.",
+  "answer": false,
+  "explanation": "Ribose identifies RNA, which is usually single-stranded; it folds into complex shapes when stretches of the same strand pair with each other. Base pairing alone doesn't make a molecule double-stranded.",
+  "links": "RNA folding · DNA vs RNA"
+ },
+ {
+  "id": 1332,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 2,
+  "stem": "A purified nucleic acid, 2,000 nucleotides long, has this base composition: 20% A, 30% U, 25% G, 25% C. What is the best conclusion?",
+  "options": [
+   "It is double-stranded RNA, since its G and C percentages are equal",
+   "It is single-stranded DNA, since 2,000 nucleotides is too long for RNA",
+   "It is double-stranded DNA, since its G and C percentages are equal",
+   "It is double-stranded RNA, since in RNA adenine always pairs with uracil",
+   "It is single-stranded RNA: it contains uracil, and A does not equal U"
+  ],
+  "answerIndex": 4,
+  "explanation": "Uracil means RNA. In a double strand every A would pair with a U, forcing %A = %U; 20% ≠ 30%, so it is single-stranded (G = C here is a coincidence).",
+  "links": "RNA vs DNA · Base-pairing ratios"
+ },
+ {
+  "id": 1255,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 1,
+  "box": "Like DNA, each RNA strand has a 5'-phosphate end and a 3'-hydroxyl end.",
+  "claim": "RNA polymerase adds each new nucleotide to the free 3'-OH end, so the 5' end of an RNA is the first part made.",
+  "answer": true,
+  "explanation": "All nucleic acids grow by addition at the 3' end, so the 5' end is where synthesis started — and in RNA it still carries its triphosphate.",
+  "links": "RNA polarity · Growth at the 3' end"
+ },
+ {
+  "id": 1256,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 2,
+  "box": "The notes define a gene as 'the DNA sequence that corresponds to a specific protein'. Muscle cells and liver cells both transcribe gene X, but their mature X mRNAs differ by one exon.",
+  "claim": "The two cells make different but related proteins from gene X, so 'one gene, one specific protein' is an oversimplification.",
+  "answer": true,
+  "explanation": "The same primary transcript is spliced differently in the two cells (alternative splicing), so one gene's DNA sequence corresponds to more than one related protein.",
+  "links": "Gene definition · Alternative splicing"
+ },
+ {
+  "id": 1257,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 1,
+  "box": "A mutation changes one base in the protein-coding part of a gene.",
+  "claim": "For this change to alter the protein's amino-acid sequence, it must first be copied into mRNA by transcription, because ribosomes read mRNA, not DNA.",
+  "answer": true,
+  "explanation": "In the central dogma, protein synthesis depends on the code carried by mRNA; a DNA change reaches the protein only through its RNA copy.",
+  "links": "Central dogma · mRNA carries the code"
+ },
+ {
+  "id": 1258,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 2,
+  "box": "AZT, one of the first HIV drugs, is a thymidine nucleoside whose sugar carries an azide group in place of the 3'-OH. Cells add phosphates to it, and HIV's reverse transcriptase then incorporates it into viral DNA.",
+  "claim": "Once AZT is added to a growing viral DNA strand, no further nucleotide can be attached, so viral DNA synthesis stops at that point.",
+  "answer": true,
+  "explanation": "Nucleotides can only be added to a free 3'-OH. AZT has none, so it ends the chain — which is how it blocks HIV from copying its RNA into DNA.",
+  "links": "3'-OH requirement · Nucleoside vs nucleotide · Real-world: AZT"
+ },
+ {
+  "id": 1111,
+  "type": "match",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 2,
+  "title": "Templates and products",
+  "prompt": "Match each process to its template and product.",
+  "leftLabel": "Process",
+  "rightLabel": "Template → product",
+  "pairs": [
+   {
+    "left": "Transcription",
+    "right": "DNA template → RNA"
+   },
+   {
+    "left": "Translation",
+    "right": "mRNA code → polypeptide"
+   },
+   {
+    "left": "Reverse transcription",
+    "right": "RNA template → DNA"
+   },
+   {
+    "left": "DNA replication",
+    "right": "DNA template → DNA"
+   }
+  ],
+  "explanation": "Transcription, reverse transcription, and replication all copy nucleic-acid information by complementary base pairing (by RNA polymerase, reverse transcriptase, and DNA polymerase), always adding nucleotides at the 3' end; only translation, on ribosomes, changes the 'language'.",
+  "links": "Central dogma · Reverse transcription · Replication"
+ },
+ {
+  "id": 1259,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 1,
+  "box": "A student writes: 'A gene is a protein that determines a trait.'",
+  "claim": "The student's definition is acceptable, because the protein made from a gene is what actually determines the trait.",
+  "answer": false,
+  "explanation": "The protein is the gene's product. A gene is the DNA sequence — the unit of heredity — that corresponds to that protein; making the protein is gene expression.",
+  "links": "Gene vs gene product"
+ },
+ {
+  "id": 1333,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 2,
+  "stem": "RNA polymerase builds a 100-nucleotide RNA from ribonucleoside triphosphates. How many phosphate groups does the finished RNA contain?",
+  "options": [
+   "102",
+   "300",
+   "200",
+   "100",
+   "99"
+  ],
+  "answerIndex": 0,
+  "explanation": "Each nucleotide after the first loses two phosphates (as pyrophosphate) when joined and keeps one in the backbone: 99. The first nucleotide keeps its whole triphosphate at the 5' end: 3. Total = 102.",
+  "links": "RNA 5' triphosphate · Pyrophosphate release"
+ },
+ {
+  "id": 1260,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Gene Expression & RNA",
+  "points": 1,
+  "box": "Adenosine is adenine joined to ribose. ATP is adenosine carrying three phosphate groups.",
+  "claim": "Adenosine and ATP are both nucleotides, since each contains a base and a sugar.",
+  "answer": false,
+  "explanation": "Base + sugar alone is a nucleoside (adenosine); adding phosphate makes a nucleotide, and ATP is one. Only nucleoside triphosphates like ATP can be joined into RNA by RNA polymerase.",
+  "links": "Nucleoside vs nucleotide · ATP"
+ },
+ {
+  "id": 1334,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "stem": "In the diagram, which nucleotide will RNA polymerase add next at the '?' slot?",
+  "options": [
+   "CTP",
+   "dGTP",
+   "GTP",
+   "UTP",
+   "ATP"
+  ],
+  "answerIndex": 2,
+  "explanation": "The template base opposite the slot is C, so the RNA needs G. RNA polymerase builds with ribonucleoside triphosphates, so the building block is GTP, not the DNA precursor dGTP.",
+  "links": "Template reading · Ribonucleotide triphosphates",
+  "diagram": "transcription_bubble_sequence"
+ },
+ {
+  "id": 1023,
+  "type": "combo",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 3,
+  "title": "Reading a transcription bubble",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Top strand: 5'-CATGACCGTA-3'. Bottom strand: 3'-GTACTGGCAT-5'.<br><br><b>(나)</b> The RNA made so far, 5'-CAUGACC, is paired with the bottom strand, and the polymerase moves to the right.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The polymerase reads the bottom (template) strand in the 5'→3' direction as it moves right.",
+    "correct": false,
+    "explanation": "The template runs 3'→5' from left to right, so a polymerase moving right reads it 3'→5' while the RNA grows 5'→3'."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The RNA has the same sequence as the top (nontemplate) strand, with U in place of T.",
+    "correct": true,
+    "explanation": "RNA is complementary to the template, so it matches the nontemplate strand except that U replaces T."
+   },
+   {
+    "label": "ㄷ",
+    "text": "When all 10 positions shown have been transcribed, the RNA will read 5'-CAUGACCGUA-3'.",
+    "correct": true,
+    "explanation": "Copy the nontemplate strand and swap T for U: CATGACCGTA → CAUGACCGUA."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Template vs nontemplate · Read 3'→5', grow 5'→3'",
+  "diagram": "transcription_bubble_sequence"
+ },
+ {
+  "id": 1261,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "box": "The transcription bubble is about 14 base pairs long, but the RNA–DNA duplex inside it is only about 8 base pairs.",
+  "claim": "So, as the polymerase advances, older RNA must peel away from the template and exit, while the two DNA strands re-pair behind the polymerase.",
+  "answer": true,
+  "explanation": "Only the newest ~8 nucleotides stay paired with the template. The polymerase has channels for the RNA to exit and for the DNA to enter and leave, and the unwound DNA rejoins after transcription.",
+  "links": "Transcription bubble · Polymerase channels"
+ },
+ {
+  "id": 1024,
+  "type": "combo",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 3,
+  "title": "Starting a eukaryotic gene",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> A gene's promoter contains 5'-TATAAA-3', and transcription starts about 25 base pairs away from it.<br><br><b>(나)</b> An activator protein bound to an enhancer several thousand base pairs upstream strongly increases transcription of the gene.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "General transcription factors bind the TATA box region of the promoter and help RNA polymerase II assemble there.",
+    "correct": true,
+    "explanation": "At least six general transcription factors bind the promoter; together with Pol II they form the initiation complex."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The distant activator can affect transcription because the DNA loops, letting the activator contact the mediator, the general transcription factors, and Pol II at the promoter.",
+    "correct": true,
+    "explanation": "Looping brings enhancer-bound activators into contact with promoter-bound proteins through the mediator complex."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Deleting the TATA box would leave the start site unchanged, because Pol II recognizes the +1 nucleotide directly.",
+    "correct": false,
+    "explanation": "The +1 site is set by the promoter complex about 25 bp from the TATA box; Pol II does not find it on its own."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "TATA box · General transcription factors · Enhancers and DNA looping",
+  "diagram": "promoter_initiation"
+ },
+ {
+  "id": 1262,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 2,
+  "box": "Bacteria have a single type of RNA polymerase; a sigma factor associated with it recognizes promoter sequences.",
+  "claim": "A bacterium could switch on a different set of genes by making a different sigma factor that recognizes a different promoter sequence.",
+  "answer": true,
+  "explanation": "Since promoter recognition is the sigma factor's job, swapping sigma factors redirects the same polymerase to other promoters — bacteria do exactly this, for example, when responding to heat stress.",
+  "links": "Sigma factor · Promoter recognition · Regulated gene expression",
+  "diagram": "promoter_initiation"
+ },
+ {
+  "id": 1335,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "stem": "Which statement correctly contrasts transcription initiation in bacteria and in eukaryotes?",
+  "options": [
+   "Bacteria: RNA polymerase II with general transcription factors. Eukaryotes: one polymerase guided by a sigma factor",
+   "Bacteria: one RNA polymerase guided by a sigma factor. Eukaryotes: ≥6 general transcription factors plus Pol II for mRNA",
+   "Both use sigma factors to find promoters, but eukaryotes also have three different RNA polymerases",
+   "Eukaryotic Pol II binds the TATA box with no other proteins, while bacteria need activators bound to enhancers",
+   "Bacteria have three RNA polymerases for different genes, while eukaryotes have one, guided by a sigma factor"
+  ],
+  "answerIndex": 1,
+  "explanation": "In bacteria, a sigma factor lets the single RNA polymerase recognize promoters. In eukaryotes, general transcription factors bind the promoter, Pol II makes mRNA, and activators on enhancers act through the mediator.",
+  "links": "Initiation: bacteria vs eukaryotes"
+ },
+ {
+  "id": 1263,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "box": "Genes X and Y lie next to each other on the same chromosome.",
+  "claim": "Because both genes are on the same DNA molecule, they must use the same strand as their template.",
+  "answer": false,
+  "explanation": "Which strand is transcribed can differ from one gene to the next, depending on each gene's promoter orientation — neighbouring genes can be transcribed in opposite directions.",
+  "links": "Template-strand choice · Promoter orientation"
+ },
+ {
+  "id": 1025,
+  "type": "combo",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 3,
+  "title": "Building RNA in a test tube",
+  "stem": "Three test tubes each contain a DNA template with a promoter, RNA polymerase, and any factors it needs. Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Tube 1 also contains ATP, GTP, CTP, and UTP.<br><br><b>(나)</b> Tube 2 contains dATP, dGTP, dCTP, and dTTP instead. Tube 3 is like tube 1 but lacks UTP.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Tube 1 makes RNA; its nucleoside triphosphates supply both the building blocks and the energy for polymerization.",
+    "correct": true,
+    "explanation": "Transcription needs a DNA template, RNA polymerase, and ribonucleoside triphosphates, which provide the monomers and the energy."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Tube 2 also makes RNA, because only base pairing matters to the polymerase.",
+    "correct": false,
+    "explanation": "RNA polymerase builds RNA from ribonucleotides; deoxyribonucleotides are DNA building blocks."
+   },
+   {
+    "label": "ㄷ",
+    "text": "In tube 3, RNA synthesis stalls at the first template position holding A.",
+    "correct": true,
+    "explanation": "An A in the template must be paired with U; without UTP, the polymerase can't add the next nucleotide there."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Transcription requirements · NTPs vs dNTPs · Template pairing"
+ },
+ {
+  "id": 1264,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "box": "The 3'-OH at the end of a growing RNA attacks the innermost phosphate of the incoming nucleotide, and the outer two phosphates leave as pyrophosphate.",
+  "claim": "Because this chemistry needs a free 3'-OH on the growing chain, RNA — like DNA — can only be extended in the 5'→3' direction.",
+  "answer": true,
+  "explanation": "The incoming nucleotide brings the triphosphate (on its 5' carbon) and the chain supplies the 3'-OH, so every nucleic acid grows at its 3' end.",
+  "links": "Polymerization chemistry · 5'→3' growth"
+ },
+ {
+  "id": 1336,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 2,
+  "stem": "Cordycepin triphosphate looks like ATP, but its sugar lacks the 3'-OH (3'-deoxyadenosine triphosphate). Using the diagram, what happens if RNA polymerase uses it opposite a template T?",
+  "options": [
+   "It cannot be added at all, because the incoming nucleotide's own 3'-OH performs the attack",
+   "It can be added, but then nothing more can be attached, so the RNA ends there",
+   "It is added, and elongation then continues normally from the cordycepin's end",
+   "It is released whole as pyrophosphate without ever joining the chain",
+   "It makes the RNA grow in the 3'→5' direction from that point on"
+  ],
+  "answerIndex": 1,
+  "explanation": "Joining uses the chain's 3'-OH and the incoming nucleotide's innermost phosphate, so cordycepin can be added; but it provides no 3'-OH for the next attack, so it terminates the chain.",
+  "links": "3'-OH requirement · Chain termination · Real-world: cordycepin",
+  "diagram": "rna_polymerization_chemistry"
+ },
+ {
+  "id": 1265,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "box": "Each phosphodiester bond in RNA forms as an incoming ribonucleotide releases its outer two phosphates as pyrophosphate.",
+  "claim": "The energy for each new bond comes from a separate ATP molecule hydrolyzed by the polymerase, not from the incoming nucleotide.",
+  "answer": false,
+  "explanation": "The incoming nucleoside triphosphate supplies its own energy: the 3'-OH attacks its innermost phosphate, and splitting off pyrophosphate drives bond formation — which is why the building blocks must be triphosphates.",
+  "links": "NTPs carry their own energy · Polymerization"
+ },
+ {
+  "id": 1026,
+  "type": "combo",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 3,
+  "title": "One nucleotide, three checkpoints",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Read from top to bottom, the template strand shown is 3'-TGAA-5'.<br><br><b>(나)</b> The incoming nucleotide in the diagram is UTP.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The incoming UTP would be joined even if the next template base were G, since the polymerase checks only that it is a ribonucleotide.",
+    "correct": false,
+    "explanation": "An incoming NTP is kept only if it base-pairs correctly with the template base; opposite G, only C fits."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The RNA shown so far reads 5'-ACU-3', and adding the incoming U will make it 5'-ACUU-3'.",
+    "correct": true,
+    "explanation": "Template T, G, and A pair with RNA A, C, and U; the incoming UTP pairs with the next template A."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Releasing pyrophosphate makes this a hydrolysis reaction, since a molecule splits off.",
+    "correct": false,
+    "explanation": "Hydrolysis uses water to split a bond. Here the chain's 3'-OH — not water — attacks the innermost phosphate and a new phosphodiester bond forms, a condensation-type joining. (Module 2 draws this joining as releasing water; in cells the leaving group is pyrophosphate.)"
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "Base-pair checking · Phosphodiester bond formation · Condensation vs hydrolysis",
+  "diagram": "rna_polymerization_chemistry"
+ },
+ {
+  "id": 1266,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "box": "Transcription of a gene begins at its promoter and continues until RNA polymerase reaches a terminator sequence.",
+  "claim": "A mutation that deletes a gene's terminator would be expected to produce abnormally long RNA transcripts that continue into the DNA beyond the gene.",
+  "answer": true,
+  "explanation": "Termination is the third stage, after initiation and elongation, and it happens when the polymerase reaches the terminator; without one, elongation runs on past the gene's normal end.",
+  "links": "Initiation · Elongation · Termination"
+ },
+ {
+  "id": 1337,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "stem": "A mutation narrows the channel through which ribonucleoside triphosphates enter RNA polymerase. Which stage of transcription is most directly slowed?",
+  "options": [
+   "Initiation, because the promoter can no longer be recognized by the polymerase",
+   "Termination, because the terminator sequence can no longer be read",
+   "Splicing, because introns can no longer be removed from the RNA",
+   "Elongation, because each added nucleotide must enter through that channel",
+   "Capping, because the 5' cap can no longer be added to the RNA"
+  ],
+  "answerIndex": 3,
+  "explanation": "During elongation, RNA polymerase unwinds the DNA and adds nucleotides that enter through a dedicated channel; other channels let DNA in and out and let the RNA exit. Promoter recognition and RNA processing don't depend on NTP entry.",
+  "links": "Elongation · RNA polymerase channels"
+ },
+ {
+  "id": 1267,
+  "type": "tf",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 2,
+  "box": "RNA polymerase moves along the template strand as the RNA grows 5'→3'.",
+  "claim": "The polymerase therefore travels toward the 3' end of the template strand.",
+  "answer": false,
+  "explanation": "The template is read 3'→5', so the polymerase travels toward the template's 5' end. Because the strands are antiparallel, that keeps the new RNA growing 5'→3'.",
+  "links": "Template read 3'→5' · RNA grows 5'→3'"
+ },
+ {
+  "id": 1112,
+  "type": "match",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 4,
+  "title": "Knock it out, see what breaks",
+  "prompt": "Match each transcription element to the result of damaging or moving it.",
+  "leftLabel": "Element",
+  "rightLabel": "Result",
+  "pairs": [
+   {
+    "left": "Promoter",
+    "right": "Nothing can bind to start the gene, so it is not transcribed at all"
+   },
+   {
+    "left": "TATA box",
+    "right": "Transcription can still occur but no longer starts at a fixed site about 25 bp downstream"
+   },
+   {
+    "left": "Enhancer",
+    "right": "Moved thousands of bp away, it still boosts transcription as long as the DNA can loop"
+   },
+   {
+    "left": "Mediator complex",
+    "right": "Activator signals no longer reach the general transcription factors and Pol II"
+   },
+   {
+    "left": "Sigma factor",
+    "right": "A bacterium's RNA polymerase can no longer recognize its promoters"
+   },
+   {
+    "left": "Terminator",
+    "right": "Transcripts run on past the end of the gene"
+   }
+  ],
+  "explanation": "A promoter decides whether a gene can be transcribed at all; the TATA box fixes where transcription starts; enhancers and the mediator adjust how much; sigma factors are bacteria's promoter-recognition tool; terminators set where it stops.",
+  "links": "Promoter · TATA box · Enhancer · Mediator · Sigma factor · Terminator"
+ },
+ {
+  "id": 1027,
+  "type": "combo",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 3,
+  "title": "Two poisons, two polymerases",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Rifampin, a tuberculosis drug, blocks bacterial RNA polymerase.<br><br><b>(나)</b> α-Amanitin, the toxin of the death-cap mushroom, blocks eukaryotic RNA polymerase II.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Rifampin stops bacteria from making new mRNA, so production of new bacterial proteins soon stops too.",
+    "correct": true,
+    "explanation": "Bacteria use a single type of RNA polymerase for all transcription; block it and no new mRNA is available for translation."
+   },
+   {
+    "label": "ㄴ",
+    "text": "α-Amanitin halts mRNA production in a victim's liver cells, while RNAs made by the other two RNA polymerases are less directly affected.",
+    "correct": true,
+    "explanation": "Eukaryotes have three distinct RNA polymerases, and Pol II is the one that makes mRNA."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Rifampin can be given to patients because the single bacterial RNA polymerase differs from the RNA polymerases in human nuclei.",
+    "correct": true,
+    "explanation": "Selective toxicity comes from structural differences between bacterial and eukaryotic polymerases."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Bacterial vs eukaryotic RNA polymerases · Real-world: rifampin and death-cap poisoning"
+ },
+ {
+  "id": 1338,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 2,
+  "stem": "Genes A and B lie on the same chromosome, but gene A is transcribed rightward and gene B leftward. Which statement is correct?",
+  "options": [
+   "They use opposite DNA strands as templates, and each RNA still grows 5'→3'",
+   "They use the same template strand, but gene B's RNA grows 3'→5'",
+   "Gene B must lie on a different chromosome, since one chromosome is read in only one direction",
+   "RNA polymerase reads gene A's template 3'→5' and gene B's template 5'→3'",
+   "Both RNAs have the same sequence, since they come from the same DNA molecule"
+  ],
+  "answerIndex": 0,
+  "explanation": "Which strand is the template can differ from gene to gene, set by each promoter's orientation. Because the strands are antiparallel, reading each template 3'→5' sends the polymerases in opposite directions — but every RNA grows 5'→3'.",
+  "links": "Template-strand choice · Antiparallel strands · 5'→3' growth"
+ },
+ {
+  "id": 1339,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 2,
+  "stem": "RNA polymerase has made a 30-nucleotide RNA and is still transcribing the gene. About how many of those 30 nucleotides have already separated from the DNA template?",
+  "options": [
+   "About 8",
+   "About 16",
+   "None",
+   "All 30",
+   "About 22"
+  ],
+  "answerIndex": 4,
+  "explanation": "Inside the transcription bubble (about 14 bp), the RNA–DNA hybrid is only about 8 bp, so just the newest ~8 nucleotides stay paired; the other ~22 have peeled off and left through the exit channel. (16 comes from wrongly subtracting the whole bubble.)",
+  "links": "Transcription bubble · RNA–DNA hybrid"
+ },
+ {
+  "id": 1340,
+  "type": "mc",
+  "mod": 4,
+  "topic": "Transcription Mechanism",
+  "points": 1,
+  "stem": "A drug lets RNA polymerase bind promoters and begin transcribing normally, but the polymerase stalls partway through each gene, long before it reaches the terminator. Which stage of transcription does the drug block?",
+  "options": [
+   "Initiation",
+   "Termination",
+   "Elongation",
+   "Splicing",
+   "Polyadenylation"
+  ],
+  "answerIndex": 2,
+  "explanation": "Initiation (binding at the promoter and starting) works; the failure happens while nucleotides are being added along the gene, which is elongation. Termination would be the problem only if the polymerase reached the terminator but failed to stop there.",
+  "links": "Initiation · Elongation · Termination"
+ },
+ {
+  "id": 1028,
+  "type": "combo",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 3,
+  "title": "Two cells, two timelines",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> In E. coli, ribosomes attach to an mRNA and start translating while RNA polymerase is still transcribing it.<br><br><b>(나)</b> In a human cell, the primary transcript is processed in the nucleus before it is exported.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "In (나), the primary transcript itself is the mRNA that ribosomes translate.",
+    "correct": false,
+    "explanation": "That is true of prokaryotes. A eukaryotic primary transcript must first be processed (cap, splicing, poly(A) tail) into export-ready mRNA."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The overlap in (가) is possible only because no nuclear envelope separates the DNA from the ribosomes.",
+    "correct": true,
+    "explanation": "Prokaryotes lack a nucleus, so transcription and translation share the cytoplasm and can be coupled."
+   },
+   {
+    "label": "ㄷ",
+    "text": "A single E. coli mRNA can carry the information for several genes.",
+    "correct": true,
+    "explanation": "Prokaryotic primary transcripts can be polycistronic, coding for more than one protein."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Coupled transcription–translation · Primary transcript · Polycistronic mRNA"
+ },
+ {
+  "id": 1268,
+  "type": "tf",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 2,
+  "box": "A company copies a human gene directly from genomic DNA — introns included — places it behind a bacterial promoter, and puts it into E. coli to produce a human protein.",
+  "claim": "E. coli would likely make a faulty protein, because bacteria don't splice out introns, so its mRNA would still contain the intron sequences.",
+  "answer": true,
+  "explanation": "In prokaryotes the primary transcript is the mRNA — there is no splicing step — so intron sequences would be translated as if they were coding sequence.",
+  "links": "Introns and splicing · Prokaryotic mRNA · Real-world: recombinant proteins",
+  "diagram": "prok_vs_euk_expression"
+ },
+ {
+  "id": 1341,
+  "type": "mc",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 2,
+  "stem": "To make a human protein in E. coli, biotechnologists want a DNA version of the gene with no introns. Which approach produces it?",
+  "options": [
+   "Use reverse transcriptase to copy the mature, spliced mRNA into DNA",
+   "Use RNA polymerase to copy the primary transcript back into DNA",
+   "Add a 5' cap to the genomic gene so bacteria will process it",
+   "Add a poly(A) tail to the gene so that the bacteria will splice it out",
+   "Use a sigma factor to cut the introns out of the genomic DNA"
+  ],
+  "answerIndex": 0,
+  "explanation": "Mature mRNA has already had its introns spliced out; reverse transcriptase (an RNA-dependent DNA polymerase) turns that RNA into intron-free DNA (cDNA). Placed behind a bacterial promoter, it can be expressed correctly in E. coli.",
+  "links": "Reverse transcriptase · Spliced mRNA · Real-world: cDNA cloning"
+ },
+ {
+  "id": 1029,
+  "type": "combo",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 3,
+  "title": "Caps and tails",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> A 5' cap (7-methylguanosine) is added to the 5' end of the primary transcript.<br><br><b>(나)</b> About 250 adenines are added to the 3' end (polyadenylation).",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The poly(A) tail helps export the mRNA to the cytoplasm and protects its 3' end from exonucleases.",
+    "correct": true,
+    "explanation": "Per the notes, the poly(A) tail aids export to the cytoplasm and protects the 3' end from exonucleases; it also plays a role in transcription termination."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Because it is added to the 5' end, the cap protects the mRNA from exonucleases that attack its 3' end.",
+    "correct": false,
+    "explanation": "The cap guards the 5' end (its unique 5'-to-5' linkage leaves no ordinary free 5' end); the 3' end is protected by the poly(A) tail."
+   },
+   {
+    "label": "ㄷ",
+    "text": "An mRNA lacking its cap would still be translated normally; it would just break down sooner.",
+    "correct": false,
+    "explanation": "Without the cap, the ribosome would not recognize the mRNA, so translation could not occur."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 0,
+  "links": "5' cap · Poly(A) tail · mRNA stability and translation",
+  "diagram": "mrna_processing_splicing"
+ },
+ {
+  "id": 1342,
+  "type": "mc",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 2,
+  "stem": "Using the diagram's gene (exons E1–E4), suppose instead — unlike mRNA 2 in the diagram — that E1 and E4 are always kept, while E2 and E3 can each be included or skipped independently (exon order never changes). How many different mRNAs can be made?",
+  "options": [
+   "2",
+   "4",
+   "3",
+   "6",
+   "8"
+  ],
+  "answerIndex": 1,
+  "explanation": "Two independent include/skip choices give 2 × 2 = 4 mRNAs: E1-E4, E1-E2-E4, E1-E3-E4, and E1-E2-E3-E4 — four different, related proteins from one gene.",
+  "links": "Alternative splicing · Exon combinations",
+  "diagram": "mrna_processing_splicing"
+ },
+ {
+  "id": 1269,
+  "type": "tf",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 1,
+  "box": "In the diagram, mRNA 1 (E1-E2-E4) and mRNA 2 (E1-E2-E3) come from the same primary transcript.",
+  "claim": "Proteins A and B would share the amino-acid sequence encoded by E1 and E2 but differ in the part encoded by E3 versus E4.",
+  "answer": true,
+  "explanation": "Shared exons give shared protein segments, and the swapped exon changes one region — which is why alternative splicing yields different but related proteins.",
+  "links": "Alternative splicing · Related proteins",
+  "diagram": "mrna_processing_splicing"
+ },
+ {
+  "id": 1270,
+  "type": "tf",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 2,
+  "box": "In some forms of β-thalassemia, a single base change at an intron–exon boundary of the β-globin gene stops that intron from being removed correctly.",
+  "claim": "Because the mutation lies partly in an intron, which is cut out of the mRNA anyway, it cannot affect the β-globin protein.",
+  "answer": false,
+  "explanation": "Boundary sequences guide splicing. If an intron is kept or the wrong piece is cut, the mRNA's coding sequence changes, and the protein is abnormal or missing.",
+  "links": "RNA splicing · Real-world: β-thalassemia"
+ },
+ {
+  "id": 1343,
+  "type": "mc",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 1,
+  "stem": "Which best explains why eukaryotic primary transcripts must be processed while prokaryotic transcripts generally are not?",
+  "options": [
+   "Prokaryotes have no RNA polymerase, so their ribosomes read the DNA directly and no transcript needs processing",
+   "Eukaryotic ribosomes can read only DNA, so each RNA must be converted back into DNA before it is exported",
+   "Prokaryotic transcripts are double-stranded, which already protects them from the enzymes that degrade RNA",
+   "Eukaryotes transcribe their genes in the cytoplasm, where unprocessed RNA would be translated too early",
+   "A nuclear envelope separates transcription from translation, so the transcript must be modified before export"
+  ],
+  "answerIndex": 4,
+  "explanation": "The nuclear membrane adds a step between transcription and translation: the message must be processed so it can move from the nucleus to the cytoplasm and be recognized there. Prokaryotic primary transcripts are already mRNA.",
+  "links": "Why RNA processing exists"
+ },
+ {
+  "id": 1113,
+  "type": "match",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 3,
+  "title": "What goes wrong without it?",
+  "prompt": "Match each feature of gene expression to the consequence of losing it.",
+  "leftLabel": "Feature",
+  "rightLabel": "Consequence of losing it",
+  "pairs": [
+   {
+    "left": "5' cap",
+    "right": "Ribosomes fail to recognize the mRNA, and its 5' end is exposed to exonucleases"
+   },
+   {
+    "left": "Poly(A) tail",
+    "right": "Export to the cytoplasm suffers, and the 3' end is exposed to exonucleases"
+   },
+   {
+    "left": "RNA splicing",
+    "right": "Intron sequences stay in the mRNA and are read as if they were coding sequence"
+   },
+   {
+    "left": "Alternative splicing",
+    "right": "Each gene can make only one version of its protein"
+   },
+   {
+    "left": "Nuclear pores",
+    "right": "Processed mRNA cannot leave the nucleus to reach the ribosomes"
+   }
+  ],
+  "explanation": "Each processing step solves a problem created by the nucleus — protecting the message, getting it out, and removing non-coding introns — while alternative splicing adds variety.",
+  "links": "RNA processing · mRNA export"
+ },
+ {
+  "id": 1271,
+  "type": "tf",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 1,
+  "box": "A polycistronic mRNA carries the information for several genes on one molecule.",
+  "claim": "Polycistronic mRNAs are typical of human cells, where alternative splicing produces them.",
+  "answer": false,
+  "explanation": "Polycistronic mRNAs are a prokaryotic feature. Alternative splicing is different: it makes several mRNAs from one gene, not one mRNA from several genes.",
+  "links": "Polycistronic mRNA vs alternative splicing"
+ },
+ {
+  "id": 1030,
+  "type": "combo",
+  "mod": 4,
+  "topic": "RNA Processing: Prok vs Euk",
+  "points": 3,
+  "title": "Designing a vaccine mRNA",
+  "stem": "mRNA vaccines deliver a lab-made mRNA encoding a viral protein into the cytoplasm of human cells, where it is translated. Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Manufacturers give the synthetic mRNA a 5' cap and a poly(A) tail.<br><br><b>(나)</b> The synthetic mRNA contains no introns.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The cap is needed so the cell's ribosomes recognize the mRNA and translate it.",
+    "correct": true,
+    "explanation": "Without a cap, ribosomes would not recognize the mRNA; the cap also protects it from exonucleases."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Leaving out introns makes sense because the mRNA goes straight to the cytoplasm, while splicing happens in the nucleus.",
+    "correct": true,
+    "explanation": "Processing, including intron removal, happens in the nucleus before export, so an mRNA delivered to the cytoplasm must already be mature."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The vaccine mRNA must be converted into DNA and enter the nucleus before any protein can be made.",
+    "correct": false,
+    "explanation": "Ribosomes translate mRNA directly in the cytoplasm; nothing needs to be copied into DNA."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "5' cap · Splicing happens in the nucleus · Real-world: mRNA vaccines"
+ },
+ {
+  "id": 1272,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "box": "Lysosomes keep their interior near pH 5, while the surrounding cytosol stays near pH 7.",
+  "claim": "Since pH 5 is only two units below pH 7, the lysosome holds only about twice the H+ concentration of the cytosol, so maintaining it takes little energy.",
+  "answer": false,
+  "explanation": "pH is a log scale: two units is a 10² = 100-fold difference in [H+]. Keeping H+ 100× more concentrated inside requires the lysosome's proton pump to move H+ against its gradient — active transport powered by ATP.",
+  "links": "pH log scale (Mod 2) · Lysosome proton pump · Active transport"
+ },
+ {
+  "id": 1031,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 3,
+  "title": "Why DNA hugs histones",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Histone proteins are rich in amino acids whose R groups contain amino groups, which are positively charged at cellular pH (Module 2).<br><br><b>(나)</b> DNA wraps around histones to form nucleosomes, the 10 nm fiber (Module 4).",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The binding works through hydrogen bonds to specific bases, so histones wrap only particular DNA sequences.",
+    "correct": false,
+    "explanation": "The attraction is to the backbone phosphates, which are the same along every sequence, so histones package DNA largely regardless of sequence."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Neutralizing DNA's phosphate charges would make it bind histones even more tightly.",
+    "correct": false,
+    "explanation": "Removing the negative charges would remove the electrostatic attraction, loosening the DNA–histone interaction."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Attraction between the histones' positive charges and DNA's negatively charged phosphate backbone helps the DNA wrap tightly.",
+    "correct": true,
+    "explanation": "Opposite charges attract: the ionized phosphates on the outside of the helix meet the positive amino groups of the histones."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "Amino-group charge (Mod 2) · Negative backbone · Nucleosomes"
+ },
+ {
+  "id": 1032,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 3,
+  "title": "Macromolecules in one membrane",
+  "stem": "Using the diagram and Module 2, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Phospholipids and cholesterol, channel and peripheral proteins, and sugar chains all appear in the diagram.<br><br><b>(나)</b> Module 2 grouped biological macromolecules into carbohydrates, lipids, proteins, and nucleic acids.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Three of the four macromolecule classes are structural parts of the plasma membrane; nucleic acids are not.",
+    "correct": true,
+    "explanation": "Membranes are made of lipids, proteins, and carbohydrates."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Cholesterol, a steroid with four fused rings, is completely nonpolar, so it sits entirely inside the hydrophobic core.",
+    "correct": false,
+    "explanation": "Cholesterol has a polar OH group that sits near the phospholipid heads; only its rings and tail are buried among the tails."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The sugar chains are built from monosaccharides linked by glycosidic bonds and are covalently attached to lipids or proteins on the extracellular side.",
+    "correct": true,
+    "explanation": "Glycolipids and glycoproteins carry covalently attached carbohydrates, and all of them face the extracellular fluid."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Membrane components · Glycosidic bonds (Mod 2) · Cholesterol structure",
+  "diagram": "fluid_mosaic_membrane"
+ },
+ {
+  "id": 1273,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "When phospholipids are shaken in water, they spontaneously form closed bilayer vesicles. If the water is replaced by a nonpolar solvent such as hexane, the vesicles fall apart.",
+  "claim": "This shows that the bilayer is held together mainly by water's tendency to exclude the nonpolar tails, not by bonds joining the phospholipids to one another.",
+  "answer": true,
+  "explanation": "In water, the hydrophobic effect pushes the tails together and the heads outward; take the water away and nothing holds the arrangement, because no covalent bonds join neighbouring phospholipids. The same effect makes the bilayer self-healing.",
+  "links": "Hydrophobic effect (Mod 2) · Self-assembly · Self-healing",
+  "diagram": "lipid_self_assembly"
+ },
+ {
+  "id": 1344,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "stem": "During its cycle, the Na+/K+ pump is phosphorylated by ATP. Which description of the energy source fits the Module 1–2 picture of ATP?",
+  "options": [
+   "The bond between adenine and ribose is broken, releasing the base to power the pump",
+   "ATP is added whole to the pump, which then uses all three phosphates at once",
+   "Its outermost phosphate bond breaks, that phosphate goes to the pump, and ADP is released",
+   "ATP transfers two of its phosphates to the pump, leaving AMP behind",
+   "No bond is broken; ATP simply binds the pump and acts as a signal"
+  ],
+  "answerIndex": 2,
+  "explanation": "ATP stores energy in the bonds between its phosphates. Hydrolysis of the terminal bond (ATP → ADP + Pi) releases energy; here the Pi is transferred to the pump, and phosphorylation switches the pump's conformation.",
+  "links": "ATP structure (Mod 1–2) · Na+/K+ pump phosphorylation"
+ },
+ {
+  "id": 1033,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "title": "Cell properties, molecular machinery",
+  "stem": "Module 1 listed basic properties shared by cells. Which statements in <보기> correctly link a property to Module 3–4 machinery?",
+  "box": "<b>(가)</b> Cells respond to stimuli.<br><br><b>(나)</b> Cells acquire and use energy, and they follow a genetic program.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Acquiring and using energy relies on mitochondria, which count as part of the endomembrane system because they are enclosed by membranes.",
+    "correct": false,
+    "explanation": "Mitochondria do convert energy from sugars into ATP, but they are not part of the endomembrane system; membership depends on bridge or vesicle connections, not on having membranes."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Responding to a protein hormone relies on receptor proteins in the plasma membrane, because the hormone cannot cross the bilayer.",
+    "correct": true,
+    "explanation": "Receptors let the cell receive signals from macromolecules that stay outside."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Following a genetic program relies on the central dogma, in which information flows from DNA to RNA to protein.",
+    "correct": true,
+    "explanation": "Genes (DNA) are transcribed into RNA, and mRNA is translated into the proteins that carry out the program."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Basic cell properties (Mod 1) · Receptors · Mitochondria · Central dogma"
+ },
+ {
+  "id": 1274,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "HIV consists of an RNA genome and the enzyme reverse transcriptase, packed inside a protein coat and an outer envelope.",
+  "claim": "Because HIV carries its own genetic material and its own enzyme, it can reproduce on its own outside a host cell.",
+  "answer": false,
+  "explanation": "Viruses are exceptions to the cell theory: outside a host they are inert. HIV must use the host cell's machinery — nucleotides, RNA polymerase, ribosomes — to make new viruses.",
+  "links": "Viruses as exceptions (Mod 1) · Reverse transcription"
+ },
+ {
+  "id": 1345,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "stem": "Both hypotheses in the diagram begin with an archaeon as the host cell. How does that fit Module 1's three-domain tree of life?",
+  "options": [
+   "It conflicts: the tree places Eukarya within Bacteria",
+   "It conflicts: archaea have no membranes that could fold inward",
+   "It fits only if mitochondria came from archaea rather than from proteobacteria",
+   "It fits: the tree has Eukarya branching from within Archaea",
+   "It is irrelevant: the tree includes only prokaryotes"
+  ],
+  "answerIndex": 3,
+  "explanation": "Module 1's tree has Eukarya branching from within Archaea, matching an archaeal host; the mitochondria themselves were added from proteobacteria, which are Bacteria.",
+  "links": "Three-domain tree (Mod 1) · Origin of eukaryotes",
+  "diagram": "endosymbiosis_hypotheses"
+ },
+ {
+  "id": 1275,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "box": "Ribosomal subunits are assembled in the nucleolus (Module 1), a region of the nucleus without its own membrane, from rRNA and proteins.",
+  "claim": "Because ribosomal subunits are large RNA–protein complexes, they must leave the nucleus through nuclear pores by active transport rather than by passive diffusion.",
+  "answer": true,
+  "explanation": "Small molecules and ions diffuse through nuclear pores, but large proteins and RNA — and complexes of the two — require active transport.",
+  "links": "Nucleolus (Mod 1) · Nuclear pores · Ribosomes"
+ },
+ {
+  "id": 1034,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "title": "Why study E. coli?",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Module 1 lists E. coli as a model organism for studying DNA replication, transcription, and translation.<br><br><b>(나)</b> In E. coli, transcription and translation are coupled.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Because E. coli has no nucleus, it has no RNA polymerase and uses its ribosomes to copy DNA into RNA.",
+    "correct": false,
+    "explanation": "E. coli has a single type of RNA polymerase that transcribes all its genes; ribosomes translate."
+   },
+   {
+    "label": "ㄴ",
+    "text": "In E. coli, a researcher could see ribosomes translating an mRNA that is still attached to its DNA through RNA polymerase — something never seen inside a human nucleus.",
+    "correct": true,
+    "explanation": "Coupling is possible only without a nuclear envelope; in human cells translation happens in the cytoplasm after export."
+   },
+   {
+    "label": "ㄷ",
+    "text": "E. coli is a poor model for human transcription, since transcription works completely differently in prokaryotes.",
+    "correct": false,
+    "explanation": "Despite the difference in location, transcription is a similar process in prokaryotes and eukaryotes — which is why E. coli is a useful model."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "Model organisms (Mod 1) · Coupled transcription–translation"
+ },
+ {
+  "id": 1276,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "Soft-stemmed plants wilt when they run short of water, even though their cellulose cell walls remain intact (Module 1).",
+  "claim": "Their upright posture depends on turgor pressure from water-filled vacuoles pushing against the walls, so losing water weakens support even with intact walls.",
+  "answer": true,
+  "explanation": "A wall resists expansion but can't hold a soft plant up by itself; water entering by osmosis keeps the cells turgid, and wilting is the loss of that pressure.",
+  "links": "Plant wall and vacuole (Mod 1) · Turgor"
+ },
+ {
+  "id": 1346,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "stem": "Food chemists hydrogenate vegetable oils, converting C=C double bonds in the fatty acid tails to single bonds (Module 2). If a cell's membrane phospholipids were changed the same way, what would happen?",
+  "options": [
+   "The tails would kink even more, making the membrane more fluid",
+   "The heads would lose their charge, so the bilayer would fall apart in water",
+   "Nothing would change, since fluidity depends only on cholesterol content",
+   "The membrane would become much more permeable to ions such as Na+",
+   "The tails would straighten and pack tightly, making the membrane less fluid"
+  ],
+  "answerIndex": 4,
+  "explanation": "Removing double bonds makes saturated, straight tails that pack tightly and restrict lateral movement — the same reason saturated fats are solid at room temperature.",
+  "links": "Saturated vs unsaturated (Mod 2) · Membrane fluidity · Real-world: hydrogenated oils",
+  "diagram": "membrane_fluidity_factors"
+ },
+ {
+  "id": 1035,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 3,
+  "title": "Building a pore from amino acids",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> In a channel protein, the amino acids lining the pore have polar or charged R groups, while those on the outer surface facing the lipid tails have nonpolar R groups.<br><br><b>(나)</b> A mutation replaces one charged, pore-lining amino acid with a nonpolar one.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The nonpolar outer surface lets the protein sit stably within the hydrophobic interior of the bilayer.",
+    "correct": true,
+    "explanation": "Nonpolar R groups interact favourably with the lipid tails, anchoring the integral protein."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The polar lining creates an aqueous pore through which ions can pass without contacting the lipid tails.",
+    "correct": true,
+    "explanation": "Channels are integral proteins surrounding an aqueous pore — the hydrophilic path that ions need."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Because the changed amino acid lines the pore, the mutant protein can no longer insert into the membrane.",
+    "correct": false,
+    "explanation": "Insertion depends on the nonpolar outer surface, which is unchanged. The swap alters the pore's lining, which could change which ions pass — one R-group change can alter function."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "R groups (Mod 2) · Channel proteins · Structure determines function"
+ },
+ {
+  "id": 1277,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "Lysosomal enzymes break proteins, nucleic acids, lipids, and complex carbohydrates down into smaller building blocks.",
+  "claim": "These digestive reactions are condensation reactions, because each bond broken releases a water molecule.",
+  "answer": false,
+  "explanation": "Breaking polymers apart is hydrolysis: each bond split consumes a water molecule. Condensation is the reverse — it joins monomers and releases water (Module 2).",
+  "links": "Hydrolysis vs condensation (Mod 2) · Lysosomal digestion"
+ },
+ {
+  "id": 1347,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "stem": "The Golgi adds carbohydrate chains to proteins. How are the sugar units within such a chain linked to one another?",
+  "options": [
+   "By peptide bonds formed through hydrolysis reactions",
+   "By glycosidic bonds formed through condensation reactions",
+   "By phosphodiester bonds formed through condensation reactions",
+   "By hydrogen bonds only, so the chain can easily rearrange",
+   "By ionic bonds between charged sugar groups"
+  ],
+  "answerIndex": 1,
+  "explanation": "Monosaccharides join through glycosidic bonds in condensation reactions (Module 2); the Golgi's enzymes build and attach these chains during glycosylation.",
+  "links": "Glycosidic bonds (Mod 2) · Golgi glycosylation"
+ },
+ {
+  "id": 1036,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 3,
+  "title": "One ring or two?",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> A copying error places an A opposite a G at one site in a DNA double helix.<br><br><b>(나)</b> An RNA molecule folds back on itself, so that two stretches of the same strand pair with each other.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "At the A–G site in (가), the helix would bulge outward, because both bases have two rings.",
+    "correct": true,
+    "explanation": "A and G are both purines; every normal rung is two rings plus one ring (purine + pyrimidine), which keeps the width constant."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The paired stretches in (나) would contain A–T pairs, since adenine always pairs with thymine.",
+    "correct": false,
+    "explanation": "RNA has uracil instead of thymine, so its adenines pair with U — and U, like T, is a one-ring pyrimidine."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The folded RNA in (나) would be less chemically stable than a DNA molecule of the same length, because of the 2'-OH on each ribose.",
+    "correct": true,
+    "explanation": "The 2'-hydroxyl makes RNA more reactive, so RNA is less stable than DNA."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Purines vs pyrimidines (Mod 2) · Uracil · Ribose 2'-OH"
+ },
+ {
+  "id": 1278,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "DNA polymerase, RNA polymerase, and reverse transcriptase all build nucleic acids by adding nucleotides to the 3' end.",
+  "claim": "So all three enzymes form phosphodiester bonds between the 3'-OH of the growing strand and the 5' phosphate of the incoming nucleotide (Module 2).",
+  "answer": true,
+  "explanation": "Whatever the template (DNA or RNA) and product, chain growth uses the same chemistry: a 3'-OH attacks the incoming nucleotide's 5' phosphate, so every strand grows 5'→3'.",
+  "links": "Phosphodiester bond (Mod 2) · 5'→3' synthesis"
+ },
+ {
+  "id": 1348,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "stem": "Module 2 listed protein functions such as enzymes, transport, signaling, and support. Which description fits the Na+/K+-ATPase?",
+  "options": [
+   "It is only a transporter; enzymes cannot be embedded in membranes",
+   "It is only an enzyme; it merely speeds up ion diffusion",
+   "It is a structural anchor linking the membrane to the cytoskeleton",
+   "Both a transporter and an enzyme: it moves ions and hydrolyzes ATP",
+   "It is a receptor that signals when Na+ levels change"
+  ],
+  "answerIndex": 3,
+  "explanation": "'ATPase' names its enzyme activity (hydrolyzing ATP), and it pumps Na+ and K+. Enzymes are one of the four membrane-protein functions, so a single protein can play two roles.",
+  "links": "Protein functions (Mod 2) · Membrane protein functions · Na+/K+-ATPase"
+ },
+ {
+  "id": 1279,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "box": "Mitochondria resemble proteobacteria, yet Module 1's tree places Eukarya closer to Archaea than to Bacteria.",
+  "claim": "These facts contradict each other: if mitochondria came from bacteria, eukaryotes must have branched from Bacteria.",
+  "answer": false,
+  "explanation": "Eukaryotic cells are partnerships: the host lineage (nucleus and cytoplasm) is archaeal, while the mitochondria descend from a bacterium that was engulfed or taken in as a partner. Both facts fit the diagram.",
+  "links": "Three-domain tree (Mod 1) · Endosymbiosis",
+  "diagram": "endosymbiosis_hypotheses"
+ },
+ {
+  "id": 1280,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "Most cytosolic proteins fold properly and work near pH 7 (Module 2: pH affects protein structure).",
+  "claim": "If a lysosome leaked, pH-5 fluid could damage nearby cytosolic proteins by changing the charges on ionizable amino and carboxyl groups, disrupting their folding.",
+  "answer": true,
+  "explanation": "Extra H+ changes which groups carry charge, disturbing the ionic and hydrogen bonds that hold a protein's shape — one reason lysosomal contents must stay separated from the cytosol.",
+  "links": "pH and protein structure (Mod 2) · Lysosome compartmentalization"
+ },
+ {
+  "id": 1114,
+  "type": "match",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 3,
+  "title": "Polarity decides the route",
+  "prompt": "Using Module 2's ideas about polarity, size, and charge, match each molecule to how it can cross a plasma membrane.",
+  "leftLabel": "Molecule",
+  "rightLabel": "How it crosses",
+  "pairs": [
+   {
+    "left": "O2",
+    "right": "Small and nonpolar: dissolves straight through the lipid core"
+   },
+   {
+    "left": "Estrogen (a steroid hormone)",
+    "right": "A lipid: crosses by simple diffusion to reach receptors inside the cell"
+   },
+   {
+    "left": "Na+",
+    "right": "Charged: blocked by the hydrophobic core; needs a channel or pump"
+   },
+   {
+    "left": "H2O",
+    "right": "Small and uncharged but polar: crosses the bilayer, and faster through aquaporin channels"
+   },
+   {
+    "left": "Insulin (a protein)",
+    "right": "Too large to cross; acts through a surface receptor instead"
+   }
+  ],
+  "explanation": "The hydrophobic interior lets small or nonpolar molecules through and stops charged and large ones — polarity, charge, and size (Module 2) predict each route.",
+  "links": "Selective permeability · Polarity (Mod 2)"
+ },
+ {
+  "id": 1281,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "Many viruses, including influenza, bind specific receptor molecules on a host cell's surface and are brought inside in coated vesicles.",
+  "claim": "Such a virus is taken up far more efficiently by cells that display its receptor than by cells that could take it in only by pinocytosis.",
+  "answer": true,
+  "explanation": "Receptor-mediated endocytosis concentrates specific cargo in coated pits, while pinocytosis just samples fluid. Which cells carry the receptor largely determines which cells a virus can infect.",
+  "links": "Receptor-mediated endocytosis · Viruses (Mod 1)"
+ },
+ {
+  "id": 1349,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "stem": "In E. coli (Module 1), three genes involved in using the sugar lactose sit side by side and are transcribed from one promoter into a single mRNA. What does this imply?",
+  "options": [
+   "The single mRNA is spliced three different ways to make the three proteins",
+   "Only the first gene's protein is made, since one mRNA can code for only one protein",
+   "The three proteins are switched on together, translated from one polycistronic mRNA",
+   "The mRNA must be exported through nuclear pores before any protein is made",
+   "Each gene still needs its own separate mRNA before its protein can be made"
+  ],
+  "answerIndex": 2,
+  "explanation": "Prokaryotic mRNAs can be polycistronic, carrying several genes; a shared promoter lets the cell turn on a whole pathway at once. E. coli has no nucleus and doesn't splice.",
+  "links": "Polycistronic mRNA · E. coli (Mod 1) · Real-world: the lac genes"
+ },
+ {
+  "id": 1037,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 3,
+  "title": "Energy conversions at membranes",
+  "stem": "Module 3 lists energy transduction among membrane functions. Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Chloroplast thylakoid membranes hold chlorophyll.<br><br><b>(나)</b> The inner mitochondrial membrane holds the electron transport chain and ATP synthase.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Because both organelles have membranes that do this work, both belong to the endomembrane system.",
+    "correct": false,
+    "explanation": "Mitochondria and chloroplasts are membranous but not part of the endomembrane system; membership depends on bridge or vesicle connections."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Thylakoid membranes convert light energy into chemical energy, an example of energy transduction.",
+    "correct": true,
+    "explanation": "Pigments in the thylakoid membrane collect the light energy that the chloroplast uses to make sugars."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The inner mitochondrial membrane converts energy from food molecules into ATP — energy transduction serving the Module 1 property 'acquires and uses energy'.",
+    "correct": true,
+    "explanation": "The ETC and ATP synthase in the inner membrane harness energy from sugars to make ATP."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Energy transduction · Thylakoid · Inner membrane · EMS membership"
+ },
+ {
+  "id": 1282,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "Red blood cells keep their flexible disc shape because membrane proteins tie the plasma membrane to a network of cytoskeleton proteins just beneath it. In hereditary spherocytosis, some of these linking proteins are defective.",
+  "claim": "Patients' red blood cells would be expected to lose their disc shape and become rounder and more fragile, because the membrane is less firmly anchored to the cytoskeleton.",
+  "answer": true,
+  "explanation": "Anchoring — linking the membrane to other proteins such as the cytoskeleton, Module 1's protein scaffold — is one of the four membrane-protein functions. Without it, the membrane rounds up into spheres that break easily.",
+  "links": "Membrane protein functions · Cytoskeleton (Mod 1)"
+ },
+ {
+  "id": 1115,
+  "type": "match",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 4,
+  "title": "Real-world phenomena, cellular explanations",
+  "prompt": "Match each real-world phenomenon to the Module 1–4 mechanism behind it.",
+  "leftLabel": "Phenomenon",
+  "rightLabel": "Mechanism",
+  "pairs": [
+   {
+    "left": "Salting meat keeps bacteria from growing",
+    "right": "A hypertonic environment pulls water out of microbial cells by osmosis"
+   },
+   {
+    "left": "Soap and water destroy enveloped viruses",
+    "right": "Amphipathic molecules break a lipid membrane apart into micelles"
+   },
+   {
+    "left": "Digoxin strengthens heart contractions",
+    "right": "Partial Na+/K+ pump block weakens the Na+ gradient that powers Ca2+ removal"
+   },
+   {
+    "left": "Oral rehydration solution contains both salt and sugar",
+    "right": "Na+/glucose symport draws solute into intestinal cells, and water follows"
+   },
+   {
+    "left": "Death-cap mushroom poisoning destroys liver cells",
+    "right": "A toxin blocks the eukaryotic polymerase that makes mRNA"
+   },
+   {
+    "left": "Rifampin treats tuberculosis without killing human cells",
+    "right": "It blocks the single bacterial RNA polymerase, which differs from human polymerases"
+   }
+  ],
+  "explanation": "Each case turns on one mechanism from this course: osmosis, amphipathic self-assembly, primary vs secondary active transport, co-transport, and the different RNA polymerases of bacteria and eukaryotes.",
+  "links": "Osmosis · Amphipathic lipids · Active transport · RNA polymerases"
+ },
+ {
+  "id": 1116,
+  "type": "match",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 3,
+  "title": "One bond type, many jobs",
+  "prompt": "Match each Module 3–4 structure or process to the Module 2 bond or interaction it depends on.",
+  "leftLabel": "Structure or process",
+  "rightLabel": "Bond or interaction",
+  "pairs": [
+   {
+    "left": "Holding the two DNA strands together",
+    "right": "Hydrogen bonds between complementary bases"
+   },
+   {
+    "left": "Linking nucleotides within an RNA strand",
+    "right": "Phosphodiester bonds, formed as pyrophosphate is released"
+   },
+   {
+    "left": "Keeping phospholipid tails together in the bilayer",
+    "right": "Hydrophobic interactions: water excludes the nonpolar tails"
+   },
+   {
+    "left": "Attaching sugar chains to membrane proteins",
+    "right": "Covalent bonds added by Golgi enzymes (glycosylation)"
+   },
+   {
+    "left": "Holding peripheral proteins to the membrane surface",
+    "right": "Noncovalent bonds that can break without disrupting the bilayer"
+   }
+  ],
+  "explanation": "Strong covalent bonds build each polymer, while weak noncovalent forces hold assemblies together — which is why DNA can unzip, bilayers self-heal, and peripheral proteins come off easily.",
+  "links": "Covalent vs noncovalent (Mod 2) · DNA · Membranes"
+ },
+ {
+  "id": 1038,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "title": "Membranes aren't membership",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Module 1 classified mitochondria, chloroplasts, peroxisomes, ribosomes, the nucleolus, and the cytoskeleton as non-endomembrane structures.<br><br><b>(나)</b> Mitochondria and chloroplasts are semi-autonomous: they grow and divide on their own and contain their own circular genomes.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Mitochondria and chloroplasts are excluded from the endomembrane system because they are not linked to it by membrane bridges or vesicle traffic, not because they lack membranes.",
+    "correct": true,
+    "explanation": "Both have double membranes; what they lack is a physical or vesicle connection to the ER–Golgi network."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Ribosomes and the nucleolus are non-endomembrane for a simpler reason: neither is enclosed by a membrane.",
+    "correct": true,
+    "explanation": "Ribosomes are RNA–protein machines, and the nucleolus is a region of the nucleus with no membrane of its own."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Because both organelles carry their own DNA, they need no proteins or support from the rest of the cell.",
+    "correct": false,
+    "explanation": "'Semi'-autonomous means partly independent: they have their own genomes and divide on their own but still depend on the host cell."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "EMS vs non-EMS (Mod 1) · Semi-autonomous organelles"
+ },
+ {
+  "id": 1039,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "title": "How many genomes in one cell?",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> A genome is the genetic material of an organism — for example, a bacterial genome, a nuclear genome, or a mitochondrial genome.<br><br><b>(나)</b> Gene expression is regulated: genes can be turned on or off.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "A human liver cell contains at least two genomes: the nuclear genome and the mitochondrial genome.",
+    "correct": true,
+    "explanation": "The nucleus holds the nuclear genome, and each mitochondrion carries its own small, circular genome."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Every gene in the nuclear genome is expressed in every cell at all times.",
+    "correct": false,
+    "explanation": "Gene expression is regulated; different cell types turn on different subsets of genes."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The mitochondrial genome is circular like a typical bacterial chromosome — evidence consistent with endosymbiosis.",
+    "correct": true,
+    "explanation": "Circular genomes are one of the bacterial features mitochondria retain."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Genome types · Endosymbiosis · Regulated gene expression"
+ },
+ {
+  "id": 1350,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "stem": "A drug that blocks transport through nuclear pores is added to cultures of two of Module 1's model organisms, Saccharomyces cerevisiae and Escherichia coli. Using the diagram, what is the expected outcome?",
+  "options": [
+   "S. cerevisiae: new mRNA is held in the nucleus and can't be translated; E. coli: unaffected (no nucleus)",
+   "Both organisms stop making proteins, since both must export their mRNA to ribosomes",
+   "E. coli stops making proteins; S. cerevisiae continues because its ribosomes are inside the nucleus",
+   "Neither is affected, because mRNA can diffuse straight through lipid membranes",
+   "S. cerevisiae continues, because its transcription and translation are coupled, as in bacteria"
+  ],
+  "answerIndex": 0,
+  "explanation": "Eukaryotic mRNA is made and processed in the nucleus and must be actively exported through nuclear pores before cytoplasmic ribosomes can translate it. Prokaryotes transcribe and translate in the same compartment.",
+  "links": "Model organisms (Mod 1) · Nuclear pores · Where transcription happens",
+  "diagram": "prok_vs_euk_expression"
+ },
+ {
+  "id": 1283,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "box": "The nucleolus, where rRNA is made and ribosomes are assembled (Module 1), lies inside the nucleus, the innermost organelle of the endomembrane system (Module 3).",
+  "claim": "The nucleolus is therefore part of the endomembrane system.",
+  "answer": false,
+  "explanation": "The nucleolus is a region of the nucleus with no membrane, and Module 1 lists it as non-endomembrane. What belongs to the system is the nuclear envelope, the double membrane continuous with the ER.",
+  "links": "Nucleolus vs nuclear envelope · EMS membership"
+ },
+ {
+  "id": 1284,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 2,
+  "box": "Electron micrographs of an unknown cell show a plasma membrane, a cell wall, and many ribosomes, but no internal membranes of any kind.",
+  "claim": "This cell cannot have a nucleus, ER, Golgi apparatus, or lysosomes, which fits a prokaryote such as a bacterium.",
+  "answer": true,
+  "explanation": "In eukaryotic cells, internal membranes define the organelles; with none, there is no nuclear envelope and no endomembrane compartment. Ribosomes have no membrane, so they can still be present — matching Module 1's prokaryote, which lacks a nucleus and membrane-bound organelles.",
+  "links": "Internal membranes define organelles · Prokaryotes (Mod 1)"
+ },
+ {
+  "id": 1285,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "Influenza virus particles can remain infectious for hours on a doorknob.",
+  "claim": "While on the doorknob, the virus particles slowly carry out metabolism and make new virus particles.",
+  "answer": false,
+  "explanation": "Viruses are exceptions to the cell theory: outside a host cell they are inert, with no metabolism. They make new particles only after entering a host cell and using its machinery.",
+  "links": "Viruses as exceptions (Mod 1)"
+ },
+ {
+  "id": 1286,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–4",
+  "points": 1,
+  "box": "ATP (Modules 1–2) consists of adenine, ribose, and three phosphate groups.",
+  "claim": "ATP has the same parts, attached at the same carbons, as the nucleotides RNA polymerase joins into RNA: the base on ribose's 1' carbon and the phosphates on its 3' carbon.",
+  "answer": false,
+  "explanation": "The phosphates attach at the 5' carbon; the 3' carbon carries the –OH that the next nucleotide bonds to. Otherwise the match is exact: ATP is itself one of RNA polymerase's four building blocks.",
+  "links": "Nucleotide structure · ATP is a nucleotide (Mod 1–2)"
+ }
+]

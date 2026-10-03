@@ -1,0 +1,2897 @@
+[
+ {
+  "id": 2001,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 3,
+  "title": "Reading eight side chains",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> All eight amino acids are drawn as they exist at physiological pH (about 7.4).<br><br><b>(나)</b> Panels A–G share the same backbone; only the side chain below the α carbon differs.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The side chains in panels C and D carry opposite full charges, so they can form an ionic bond if folding brings them together.",
+    "correct": true,
+    "explanation": "C's –COO- is negative (acidic) and D's –NH3+ is positive (basic); opposite charges attract."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The side chain in panel B can hydrogen-bond with water through its –OH, even though it carries no full charge.",
+    "correct": true,
+    "explanation": "Oxygen is electronegative, so the –OH is polar: B is a polar, uncharged, hydrophilic side chain."
+   },
+   {
+    "label": "ㄷ",
+    "text": "In a folded water-soluble protein, the side chain in panel G would most likely be found buried in the interior.",
+    "correct": true,
+    "explanation": "A CH2 plus a benzene ring is all carbon and hydrogen — nonpolar and hydrophobic — so it clusters away from water inside the fold."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "R-group classes · Ionic bonds between side chains · Polarity from electronegativity (Module 2)",
+  "diagram": "r_group_gallery"
+ },
+ {
+  "id": 2101,
+  "type": "match",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 3,
+  "title": "Which side chain fits?",
+  "prompt": "Using the diagram, match each description to the side chain that fits it.",
+  "leftLabel": "Description",
+  "rightLabel": "Side chain",
+  "pairs": [
+   {
+    "left": "Gives the backbone the most freedom to rotate and bend",
+    "right": "Panel F: –H"
+   },
+   {
+    "left": "Restricts rotation of the backbone, limiting folding around it",
+    "right": "Panel H: ring bonded back to the nitrogen"
+   },
+   {
+    "left": "Can form a covalent cross-bridge with another copy of itself",
+    "right": "Panel E: –CH2–SH"
+   },
+   {
+    "left": "Positively charged at physiological pH",
+    "right": "Panel D: –(CH2)4–NH3+"
+   },
+   {
+    "left": "Polar but uncharged; hydrogen-bonds with water",
+    "right": "Panel B: –CH2–OH"
+   }
+  ],
+  "explanation": "Panel F is glycine (side chain H): tiny, so the C–N bond rotates freely. H is proline: its side chain loops back to the amino nitrogen and locks rotation. E is cysteine: two –SH groups can join as an S–S disulfide bridge. D is lysine (basic, +). B is serine: its –OH is polar but uncharged.",
+  "links": "Special amino acids: glycine, proline, cysteine · Charged vs polar side chains",
+  "diagram": "r_group_gallery"
+ },
+ {
+  "id": 2201,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 2,
+  "box": "A protein designer wants to make a floppy loop on a protein's surface more rigid. One of the loop's amino acids is the one in panel F of the diagram.",
+  "claim": "Replacing it with the amino acid in panel H would stiffen the loop more than the amino acid in panel D would, even though D's side chain is much longer.",
+  "answer": true,
+  "explanation": "Rigidity doesn't come from size. D's long chain (lysine) points away from the backbone and has freely rotating bonds of its own, while H's side chain (proline) is bonded to the backbone nitrogen itself, which locks rotation about the C–N bond.",
+  "links": "Proline restricts rotation · Side chain properties, not size · Real-world: protein design",
+  "diagram": "r_group_gallery"
+ },
+ {
+  "id": 2301,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 2,
+  "stem": "A protein engineer replaces a glycine in a tight hairpin turn with alanine (side chain –CH3). The protein no longer folds correctly. Which explanation fits best?",
+  "options": [
+   "Alanine's –CH3 hydrogen-bonds to the backbone, pinning the turn open",
+   "Alanine's side chain bonds back to its own backbone nitrogen, closing a ring",
+   "Alanine's –CH3 limits backbone rotation, so the chain can't bend as sharply",
+   "Alanine lacks the H that glycine's side chain uses to hydrogen-bond across the turn",
+   "Alanine's –CH3 is nonpolar, so the turn is pulled into the protein's interior"
+  ],
+  "answerIndex": 2,
+  "explanation": "Glycine's side chain is just H, so the backbone can rotate freely about the C–N bond — the flexibility a tight turn needs. Even a small –CH3 restricts that rotation. Neither glycine's H nor alanine's –CH3 can hydrogen-bond (both are bonded to carbon), alanine has no ring (that's proline), and one small nonpolar group doesn't drag a whole turn into the core.",
+  "links": "Glycine flexibility · Sequence determines folding"
+ },
+ {
+  "id": 2202,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 2,
+  "box": "Collagen, the main protein of bone and tendon, is a tight triple helix. Every third amino acid is glycine, and each glycine sits at the crowded centre where the three chains meet.",
+  "claim": "A mutation replacing one of these glycines with a bulkier amino acid can weaken collagen, because only glycine's single H atom fits in that central position.",
+  "answer": true,
+  "explanation": "Glycine has the smallest side chain (H). A larger side chain can't pack into the helix centre and distorts the triple helix — the cause of many cases of osteogenesis imperfecta (brittle bone disease).",
+  "links": "Glycine: the smallest side chain · Real-world: brittle bone disease"
+ },
+ {
+  "id": 2203,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 2,
+  "box": "A perm breaks the disulfide bonds in hair keratin with a reducing agent, holds the hair around curlers, then re-forms disulfide bonds with an oxidizing agent.",
+  "claim": "The curl lasts because the disulfide bonds re-form between exactly the same pairs of cysteines as before.",
+  "answer": false,
+  "explanation": "While the hair is held in its new shape, cysteines that weren't partners before sit side by side, and the oxidizer links them into new S–S bridges. Covalent bridges in new positions hold the new shape; re-forming the old pairs would simply restore the original shape.",
+  "links": "Disulfide cross-bridges · Real-world: perms"
+ },
+ {
+  "id": 2302,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 2,
+  "stem": "The peptide Val–Gly–Ala–His–Lys is assembled from free amino acids by condensation reactions. How many water molecules are released, and which amino acid carries the free amino group?",
+  "options": [
+   "5 water molecules; Val",
+   "4 water molecules; Lys",
+   "5 water molecules; Lys",
+   "3 water molecules; Val",
+   "4 water molecules; Val"
+  ],
+  "answerIndex": 4,
+  "explanation": "Five amino acids are joined by 4 peptide bonds, and each dehydration releases one H2O. Sequences are written from the amino (N) end to the carboxyl (C) end, so Val, written first, keeps the free amino group, and Lys keeps the free carboxyl group.",
+  "links": "Peptide bonds form by dehydration · N- and C-terminus · Writing sequences N→C"
+ },
+ {
+  "id": 2204,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 1,
+  "box": "One lab reports a tripeptide as K-G-V. Another lab reports a tripeptide as V-G-K.",
+  "claim": "These are the same molecule: both contain lysine, glycine and valine, just written from opposite ends.",
+  "answer": false,
+  "explanation": "Sequences are written from the N-terminus to the C-terminus. K-G-V has lysine at the free amino end; V-G-K has valine there and lysine at the carboxyl end. A backbone has direction (amino end ≠ carboxyl end), so these are different peptides.",
+  "links": "Primary structure is written N→C · Polypeptides have direction"
+ },
+ {
+  "id": 2303,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 1,
+  "stem": "Using the diagram, a side chain on a protein's surface that forms an ionic bond with a nearby –COO- changes from the one in panel D to the one in panel C. What is the main change at that spot?",
+  "options": [
+   "It becomes nonpolar and tends to move into the folded protein's interior",
+   "The attraction becomes a repulsion, since both groups are now negative",
+   "It gains the ability to form a disulfide bridge with another copy",
+   "Nothing changes, since both side chains are charged and hydrophilic",
+   "The ionic bond gets stronger, since C's group carries the larger charge"
+  ],
+  "answerIndex": 1,
+  "explanation": "D (–(CH2)4–NH3+, lysine) is basic and positive, so it attracts the nearby –COO-; C (–CH2–COO-, aspartate) is acidic and negative, so the two groups now repel and the ionic bond is lost. Both side chains are charged and hydrophilic, so the spot stays at the surface; neither has an –SH, and each carries a single charge.",
+  "links": "Acidic vs basic side chains · Ionic bonds need opposite charges",
+  "diagram": "r_group_gallery"
+ },
+ {
+  "id": 2205,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 2,
+  "box": "A protein drug clumps together in its storage vial. Its designers find two valines (side chain –CH(CH3)2) exposed on its surface and replace them with lysines (side chain –(CH2)4–NH3+).",
+  "claim": "The swap should make the clumping worse, because the new charged side chains will stick to nonpolar patches on neighbouring drug molecules.",
+  "answer": false,
+  "explanation": "The reverse: exposed nonpolar side chains are what make the molecules stick, since water pushes nonpolar groups together. Charged lysines interact with water (and repel each other), so the swap makes the surface more hydrophilic and the drug clumps less.",
+  "links": "Hydrophobic vs charged side chains · Real-world: protein drug formulation"
+ },
+ {
+  "id": 2206,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 1,
+  "box": "Proteins are built from 20 kinds of amino acids, like words built from an alphabet.",
+  "claim": "A chain only 3 amino acids long already has 8,000 possible sequences.",
+  "answer": true,
+  "explanation": "Each of the 3 positions can hold any of 20 amino acids: 20 × 20 × 20 = 8,000. For a 300-amino-acid protein the number is 20^300 — one reason proteins can be so diverse and versatile.",
+  "links": "20 amino acids as an alphabet · Protein diversity"
+ },
+ {
+  "id": 2002,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 3,
+  "title": "One backbone, twenty personalities",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Every amino acid has an amino group, a carboxyl group and an H bonded to its α carbon; only the fourth group, the R group, differs.<br><br><b>(나)</b> At physiological pH, a free amino acid carries H3N+ and COO-.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Because of (나), every amino acid in a folded protein carries both an H3N+ and a COO- on its backbone.",
+    "correct": false,
+    "explanation": "Inside a chain, the amino and carboxyl groups are used up in peptide bonds. Only the first amino acid keeps a free amino group (N-terminus) and only the last keeps a free carboxyl group (C-terminus)."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Two different proteins of the same length share the same repeating backbone (N–C–C–N–C–C…); they differ only in the side chains attached to it.",
+    "correct": true,
+    "explanation": "Peptide bonds always join the same backbone atoms, so sequence differences show up only in the R groups sticking out from the chain."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Proline is the only amino acid whose α carbon carries two identical groups.",
+    "correct": false,
+    "explanation": "That's glycine, whose R group is a second H — so its α carbon isn't asymmetric. Proline's α carbon carries four different groups; its side chain loops back to the nitrogen."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 0,
+  "links": "Amino acid structure · Charged ends at physiological pH · N- and C-terminus"
+ },
+ {
+  "id": 2304,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 1,
+  "stem": "Using the diagram, which pair of side chains, brought together by folding, could join two parts of a protein with a covalent bond?",
+  "options": [
+   "E and E (two –CH2–SH groups)",
+   "C and D (–COO- and –NH3+)",
+   "B and B (two –CH2–OH groups)",
+   "A and G (–CH3 and the ring)",
+   "F and F (two –H atoms)"
+  ],
+  "answerIndex": 0,
+  "explanation": "Two cysteine –SH groups can be joined into an S–S disulfide bond — a covalent cross-bridge, far stronger than the ionic bond C and D can form, the hydrogen bonds between B's –OH groups, or the weak van der Waals contacts between nonpolar A and G.",
+  "links": "Disulfide bonds are covalent · Bond strengths (Module 2)",
+  "diagram": "r_group_gallery"
+ },
+ {
+  "id": 2207,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Amino Acids & Peptide Bonds",
+  "points": 1,
+  "box": "Proteins are built from only 20 kinds of amino acids, yet they do thousands of different jobs. Two proteins turn out to contain exactly the same number of each kind of amino acid.",
+  "claim": "So they will fold into the same shape and do the same job.",
+  "answer": false,
+  "explanation": "What matters is the order of the amino acids, not just which ones are present: the sequence of side chains decides how the chain folds, and the shape decides the job. The same amino acids in a different order make a different protein, just as the same letters can spell different words.",
+  "links": "Proteins are diverse and versatile · Sequence → shape → function"
+ },
+ {
+  "id": 2003,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 3,
+  "title": "Two backbone patterns",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> In each structure, one dashed line is labelled with the two groups it joins.<br><br><b>(나)</b> Each R marks a side chain sticking out from the backbone.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Every dashed bond links a backbone C=O to a backbone N–H; none involves an R group.",
+    "correct": true,
+    "explanation": "Secondary structure comes from hydrogen bonds between backbone groups of nearby amino acids; side chains aren't part of these bonds."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The sheet's two strands are parallel, since they lie side by side.",
+    "correct": false,
+    "explanation": "Side by side doesn't mean the same direction: the top strand runs N→C left to right and the bottom strand right to left, so they're antiparallel. Sheets can be either."
+   },
+   {
+    "label": "ㄷ",
+    "text": "If the helix continued past residue 11, the N–H of residue 12 would bond to the C=O of residue 8.",
+    "correct": true,
+    "explanation": "Each C=O bonds to the N–H four residues along (1–5, 2–6, 3–7…), so residue 12's N–H pairs with residue 8's C=O, tying each turn of the helix to the next."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Secondary structure: backbone H-bonds only · α helix · β sheet",
+  "diagram": "backbone_hbond_patterns"
+ },
+ {
+  "id": 2208,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 2,
+  "box": "An isolated 11-residue segment folds into the helix in the diagram, with residue 1 at its N-terminus.",
+  "claim": "Residues 8–11 have their N–H groups hydrogen-bonded within the segment, but their C=O groups have no partner.",
+  "answer": true,
+  "explanation": "Each C=O of residue n pairs with the N–H of residue n + 4. Residues 8–11 would need partners 12–15, which don't exist, while their own N–H groups receive bonds from residues 4–7. At the other end, residues 1–4 have unpaired N–H groups.",
+  "links": "α helix: residue n bonds to n + 4",
+  "diagram": "backbone_hbond_patterns"
+ },
+ {
+  "id": 2305,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 2,
+  "stem": "Proline's side chain bonds to its own backbone nitrogen, so in a chain that nitrogen carries no H. If residue 7 of the helix in the diagram were proline, which of the helix's hydrogen bonds would be lost?",
+  "options": [
+   "The one between residue 7's C=O and residue 11's N–H",
+   "The one between residue 6's C=O and residue 10's N–H",
+   "The one between residue 4's C=O and residue 8's N–H",
+   "The one between residue 3's C=O and residue 7's N–H",
+   "None, since helix H-bonds involve only backbone atoms"
+  ],
+  "answerIndex": 3,
+  "explanation": "Residue 7's N–H is the partner of residue 3's C=O (n to n + 4). Proline has no N–H to give, so that bond is lost, while its C=O can still bond to residue 11's N–H. Here a side chain matters after all: proline's ring changes a backbone atom itself, one reason proline disrupts helices.",
+  "links": "α helix pattern · Proline restricts the backbone",
+  "diagram": "backbone_hbond_patterns"
+ },
+ {
+  "id": 2004,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 3,
+  "title": "What holds the fold together?",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> One sample is treated with a reducing agent that turns each –S–S– back into two –SH groups.<br><br><b>(나)</b> A second sample is moved from pH 7 into strong acid (pH 1).",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "In (나), contact B gets stronger, because the extra H+ adds positive charge to both of its groups.",
+    "correct": false,
+    "explanation": "COO- picks up H+ and becomes uncharged COOH, so the attraction between opposite charges at B is lost, not strengthened."
+   },
+   {
+    "label": "ㄴ",
+    "text": "In (나), contact D is lost, because its nonpolar groups pick up H+ and become charged.",
+    "correct": false,
+    "explanation": "Nonpolar groups such as –CH3 can't gain or lose H+, so acid doesn't act on D directly; pH acts on ionizable groups like those at B."
+   },
+   {
+    "label": "ㄷ",
+    "text": "(가) breaks contact A but leaves the protein's primary structure unchanged.",
+    "correct": true,
+    "explanation": "A disulfide bridge links two side chains; it isn't part of the backbone, so the amino acid sequence (held by peptide bonds) is untouched."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "Tertiary interactions · Disulfide vs ionic bonds · pH and ionization (Module 2)",
+  "diagram": "tertiary_interactions_map"
+ },
+ {
+  "id": 2102,
+  "type": "match",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 3,
+  "title": "Four ways to unfold a protein",
+  "prompt": "Using the diagram, match each treatment to the contact it most directly disrupts.",
+  "leftLabel": "Treatment",
+  "rightLabel": "Contact",
+  "pairs": [
+   {
+    "left": "A reducing agent that adds H to each sulfur",
+    "right": "A: CH2–S–S–CH2"
+   },
+   {
+    "left": "Concentrated salt, whose ions crowd around charged groups",
+    "right": "B: COO- facing H3N+"
+   },
+   {
+    "left": "Urea, which hydrogen-bonds to polar groups in place of their partners",
+    "right": "C: OH facing O=C"
+   },
+   {
+    "left": "A detergent whose nonpolar tails coat nonpolar groups",
+    "right": "D: the clustered nonpolar groups"
+   }
+  ],
+  "explanation": "Each treatment targets one interaction type: reducing agents split covalent disulfides (A); ions shield the charges of an ionic bond (B); urea competes for hydrogen bonds (C); detergents surround nonpolar groups so they no longer need to hide from water (D).",
+  "links": "Tertiary interactions · Bond types (Module 2) · Denaturation",
+  "diagram": "tertiary_interactions_map"
+ },
+ {
+  "id": 2209,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 2,
+  "box": "In the diagram, contact D sits in the middle of the fold, surrounded by the chain, while water lies outside.",
+  "claim": "D holds together mainly because nonpolar groups attract one another strongly, much as the opposite charges at B do.",
+  "answer": false,
+  "explanation": "Nonpolar groups attract one another only weakly (van der Waals forces). They cluster mainly because water molecules hydrogen-bond with each other and push nonpolar groups aside (Module 2), so the groups end up hidden in the interior.",
+  "links": "Hydrophobic interior · Water drives nonpolar clustering (Module 2)",
+  "diagram": "tertiary_interactions_map"
+ },
+ {
+  "id": 2306,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 2,
+  "stem": "An enzyme is a homodimer: two identical chains held together by side-chain contacts. A mutation changes one amino acid on the surface where the two chains touch. Which outcome is most likely?",
+  "options": [
+   "Nothing changes, since surface amino acids don't affect quaternary structure",
+   "The two chains now differ in sequence, so the enzyme becomes a heterodimer",
+   "Each chain can still fold, but the pair no longer assembles into the enzyme",
+   "The peptide bonds that join the two chains to each other are broken",
+   "The chains form a disulfide bridge at that spot, locking them together"
+  ],
+  "answerIndex": 2,
+  "explanation": "Subunits are held together by the same side-chain interactions as tertiary structure, so a changed contact residue can block pairing. Both chains come from the same mutated gene, so they're still identical (still a homodimer), and subunits aren't joined by peptide bonds.",
+  "links": "Quaternary structure · Homodimer vs heterodimer"
+ },
+ {
+  "id": 2210,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 1,
+  "box": "Insulin's A and B chains are cut from one longer precursor polypeptide after it has folded. In the folded precursor, two cysteines in the A segment are disulfide-bonded to two cysteines in the B segment.",
+  "claim": "Once the connecting segment is cut out, only weak noncovalent interactions hold the A and B chains together.",
+  "answer": false,
+  "explanation": "Cutting out the connecting segment breaks peptide bonds, not disulfides. The two disulfide bonds, each joining a cysteine on chain A to a cysteine on chain B, are covalent and still hold the chains together.",
+  "links": "Disulfide bridges between chains · Post-translational cleavage"
+ },
+ {
+  "id": 2307,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 2,
+  "stem": "An enzyme is unfolded with chemicals that break its hydrogen bonds and disulfide bonds, leaving its peptide bonds intact. When the chemicals are slowly removed, the chain refolds into its active shape. What does this show?",
+  "options": [
+   "The amino acid sequence alone holds the information for the folded shape",
+   "The peptide bonds alone hold the folded shape, since they were never broken",
+   "The chain refolded at random and happened to find the active shape",
+   "Refolding needed a correctly folded copy of the enzyme as a template",
+   "Secondary and tertiary structure don't depend on the sequence"
+  ],
+  "answerIndex": 0,
+  "explanation": "Only the sequence (primary structure) survived, yet the same active shape came back, so the sequence holds the information for secondary and tertiary structure. The peptide bonds just link the chain; the shape itself is held by the interactions that re-formed: hydrogen bonds, ionic bonds, hydrophobic interactions and disulfides.",
+  "links": "Primary structure determines higher levels · Denaturation and refolding"
+ },
+ {
+  "id": 2211,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 2,
+  "box": "A peptide alternates nonpolar valine with charged lysine or glutamate: Val–Lys–Val–Glu–Val–Lys–Val–Glu.",
+  "claim": "If the peptide is stretched out as a strand, replacing the valine at position 3 with lysine would put a charged side chain on the strand's nonpolar face.",
+  "answer": true,
+  "explanation": "R groups alternate sides along an extended chain, so positions 1, 3, 5 and 7 (all Val) share one face and positions 2, 4, 6 and 8 (Lys, Glu) the other. A lysine at position 3 would sit among the valines, on the nonpolar face that would otherwise pack against the protein's interior.",
+  "links": "R groups alternate sides · Nonpolar and charged faces"
+ },
+ {
+  "id": 2212,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 1,
+  "box": "In the diagram's sheet, a third strand is added below the bottom strand, running from N at the left to C at the right.",
+  "claim": "The new strand is antiparallel to the bottom strand and parallel to the top strand.",
+  "answer": true,
+  "explanation": "The bottom strand runs N→C right to left and the top strand left to right. A strand running left to right is opposite to the bottom strand (antiparallel) and matches the top one (parallel). Both arrangements occur in sheets.",
+  "links": "β sheets: parallel and antiparallel strands",
+  "diagram": "backbone_hbond_patterns"
+ },
+ {
+  "id": 2308,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 2,
+  "stem": "In the diagram's sheet, R groups alternate between above the sheet (filled) and below it (hollow). The sheet lies against the protein's nonpolar interior on one face, with water on the other. Which pattern along each strand fits best?",
+  "options": [
+   "Nonpolar side chains at every position along the strand",
+   "Charged side chains at every position along the strand",
+   "Nonpolar side chains on one strand, polar side chains on the other",
+   "Glycine at every position so that the sheet can bend",
+   "Nonpolar and polar side chains alternating along the strand"
+  ],
+  "answerIndex": 4,
+  "explanation": "Consecutive residues point to opposite faces, so alternating nonpolar and polar residues put every nonpolar side chain on the interior face and every polar one on the water face. An all-nonpolar strand would leave half its side chains facing water.",
+  "links": "R groups alternate sides · Faces of a β sheet",
+  "diagram": "backbone_hbond_patterns"
+ },
+ {
+  "id": 2103,
+  "type": "match",
+  "mod": 5,
+  "topic": "Levels of Protein Structure",
+  "points": 3,
+  "title": "Which level of structure?",
+  "prompt": "Match each observation to the level of protein structure it describes.",
+  "leftLabel": "Observation",
+  "rightLabel": "Level",
+  "pairs": [
+   {
+    "left": "A mutation swaps the 6th amino acid of the chain for a different one",
+    "right": "Primary"
+   },
+   {
+    "left": "In a stretch of keratin, each C=O bonds to the N–H four amino acids along",
+    "right": "Secondary"
+   },
+   {
+    "left": "A disulfide bond links cysteine 30 to cysteine 115 of the same chain",
+    "right": "Tertiary"
+   },
+   {
+    "left": "An enzyme works only after its α chain and β chain pair up",
+    "right": "Quaternary"
+   }
+  ],
+  "explanation": "Primary = the sequence; secondary = local backbone H-bond patterns (here, the α helix's n to n + 4 bonds); tertiary = the whole folded shape of one chain, held by bonds between side chains far apart in the sequence; quaternary = how separate chains (subunits) assemble.",
+  "links": "Four levels of protein structure"
+ },
+ {
+  "id": 2005,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 3,
+  "title": "From gene to anticodon",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> The four rows show one codon's worth of a gene, its mRNA and the tRNA that reads it.<br><br><b>(나)</b> Unlabelled sequences are written 5'→3'.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "A tRNA with this anticodon would also pair with the codon 5'-ACG-3'.",
+    "correct": false,
+    "explanation": "Pairing must be antiparallel. Matching 5'-UGC-3' base by base in the same direction gives ACG, but antiparallel pairing matches 3'-CGU-5' to 5'-GCA-3', not to ACG."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Written in the standard 5'→3' direction, the anticodon is UGC.",
+    "correct": true,
+    "explanation": "The anticodon is 3'-CGU-5'; read from its 5' end it is 5'-UGC-3'."
+   },
+   {
+    "label": "ㄷ",
+    "text": "For a different gene whose template strand reads 3'-TAC-5', the tRNA that reads its codon has the anticodon 3'-UAC-5'.",
+    "correct": true,
+    "explanation": "Template 3'-TAC-5' → mRNA codon 5'-AUG-3' → anticodon 3'-UAC-5': the anticodon repeats the template strand, with U for T, because both are complementary to the codon."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Codon–anticodon pairing is antiparallel · Template strand (Module 4)",
+  "diagram": "trna_codon_pairing"
+ },
+ {
+  "id": 2213,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "box": "In the diagram, the middle base of the DNA template strand (G) is mutated to A. (GCA = Ala, GUA = Val, GAA = Glu)",
+  "claim": "The mRNA codon becomes GUA, so the protein carries valine in place of alanine.",
+  "answer": true,
+  "explanation": "The template's middle base pairs with the codon's middle base. Template G → A means the mRNA gets U instead of C: GCA becomes GUA, which codes for Val. One base change in the gene, one amino acid change in the protein.",
+  "links": "Template strand → codon → amino acid",
+  "diagram": "trna_codon_pairing"
+ },
+ {
+  "id": 2309,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 1,
+  "stem": "Using the genetic code table, which single-base change in the mRNA codon CUU would NOT change the amino acid?",
+  "options": [
+   "CUU → CCU",
+   "CUU → CUC",
+   "CUU → AUU",
+   "CUU → CAU",
+   "CUU → UUU"
+  ],
+  "answerIndex": 1,
+  "explanation": "CUU and CUC both code for Leu. The others give Pro (CCU), Ile (AUU), His (CAU) and Phe (UUU). Third-position changes are the ones most often silent, because the code is redundant: many amino acids have codons that differ only in their third base.",
+  "links": "Redundancy of the genetic code · Silent changes",
+  "diagram": "genetic_code_table"
+ },
+ {
+  "id": 2214,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 1,
+  "box": "Using the genetic code table, count the codons for each amino acid.",
+  "claim": "Every amino acid is encoded by at least two codons, which is what makes the code redundant.",
+  "answer": false,
+  "explanation": "Methionine (AUG) and tryptophan (UGG) each have only one codon. The code is still redundant because most amino acids have two to six codons: 61 coding codons for 20 amino acids.",
+  "links": "Redundancy of the genetic code · AUG start codon",
+  "diagram": "genetic_code_table"
+ },
+ {
+  "id": 2310,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "stem": "Using the genetic code table, a ribosome starts at the first AUG of the mRNA 5'-CCAUGGUUCAUUGAGC-3'. What polypeptide is made?",
+  "options": [
+   "Met–Val–His–Trp (4 amino acids)",
+   "Pro–Trp–Phe–Ile–Glu (5 amino acids)",
+   "Met–Val (2 amino acids)",
+   "Met–Val–His (3 amino acids)",
+   "Met–Val–His–Stop (4 amino acids)"
+  ],
+  "answerIndex": 3,
+  "explanation": "Starting at AUG sets the reading frame: AUG (Met) GUU (Val) CAU (His) UGA (stop). A stop codon has no amino acid (and UGA is not UGG, Trp), so the chain is 3 long. Reading from the first base would give a different frame (CCA UGG UUC…) and a different protein.",
+  "links": "Start codon sets the reading frame · Stop codons",
+  "diagram": "genetic_code_table"
+ },
+ {
+  "id": 2311,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "stem": "In a gene of 300 codons, one nucleotide is inserted just after codon 5, and one nucleotide is deleted from codon 9. Assuming no stop codon appears along the way, what protein is made?",
+  "options": [
+   "Every codon after the insertion is misread, so the rest is garbled",
+   "Nothing changes, because the insertion and deletion cancel out",
+   "Only codons 6 and 9 change; the codons between them are normal",
+   "Codons 6–9 are misread, but the frame is restored from codon 10 on",
+   "The chain ends at codon 5, since an extra base acts as a stop signal"
+  ],
+  "answerIndex": 3,
+  "explanation": "Codons are read three at a time from a fixed start. The insertion shifts the frame, so codons 6–9 are read wrongly; the deletion shifts it back, so codon 10 onward is read normally. Crick and Brenner used exactly this kind of experiment in 1961 to show that the code is read as nonoverlapping triplets.",
+  "links": "Reading frame · Nonoverlapping triplets · Real-world: Crick and Brenner's experiment"
+ },
+ {
+  "id": 2006,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 3,
+  "title": "Freeze-frame on a ribosome",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> UGG codes for Trp and AAA for Lys; UAG is a stop codon.<br><br><b>(나)</b> The ribosome will keep translating this mRNA until the polypeptide is finished.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The incoming tRNA marked ? must carry the anticodon 3'-ACC-5' and the amino acid Trp.",
+    "correct": true,
+    "explanation": "The A site holds codon 5'-UGG-3'; its antiparallel partner is 3'-ACC-5', and the tRNA with that anticodon is charged with Trp."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The finished polypeptide will be Met–Ala–Trp–Lys, with Met at its N-terminus.",
+    "correct": true,
+    "explanation": "AUG GCU UGG AAA, then UAG (stop): Met–Ala–Trp–Lys. Met, the first amino acid, keeps the free amino group."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The tRNA in the E site is uncharged and is about to leave the ribosome.",
+    "correct": true,
+    "explanation": "It delivered Met, passed it on when the first peptide bond formed, and now exits empty from the E site."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "A, P and E sites · Codon–anticodon pairing · Start and stop codons",
+  "diagram": "ribosome_snapshot"
+ },
+ {
+  "id": 2312,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "stem": "In the diagram, which way is the ribosome moving along the mRNA, and how can you tell?",
+  "options": [
+   "Toward 5': the empty A site marks where the ribosome has just been",
+   "Toward 5': Met at the chain's free end was the last amino acid added",
+   "Toward 3': the large subunit always sits on the mRNA's 3' side",
+   "It stays put while the mRNA slides back and forth through it",
+   "Toward 3': AUG, the first codon read, is now under the E site"
+  ],
+  "answerIndex": 4,
+  "explanation": "Ribosomes read mRNA 5'→3'. The start codon AUG, read first, is now under the E site, and the unread codons lie on the 3' side. Met at the chain's free end was the first amino acid added, not the last, which also shows the ribosome began at the 5' end.",
+  "links": "Ribosomes move 5'→3' · A, P and E sites · The N-terminus is made first",
+  "diagram": "ribosome_snapshot"
+ },
+ {
+  "id": 2215,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "box": "In a classic experiment, the cysteine already attached to a charged tRNA-Cys was chemically converted to alanine, leaving the tRNA's anticodon unchanged. The tRNA was then added to a protein-making system.",
+  "claim": "Alanine was inserted at cysteine codons, because the ribosome checks only codon–anticodon pairing, not which amino acid the tRNA carries.",
+  "answer": true,
+  "explanation": "tRNAs are adapters: the anticodon reads the codon, and the amino acid simply rides along. That's why the accuracy of aminoacyl tRNA synthetases, which load each tRNA with the right amino acid, matters so much.",
+  "links": "tRNAs as adapters · Accuracy depends on tRNA synthetases"
+ },
+ {
+  "id": 2216,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "box": "A cell runs short of free leucine, so many tRNAs whose anticodons read leucine codons stay uncharged.",
+  "claim": "Ribosomes can skip the leucine codons and keep going in frame, making shorter proteins that lack leucine.",
+  "answer": false,
+  "explanation": "An uncharged tRNA has no amino acid to deliver. A ribosome that reaches a leucine codon waits, with that codon in its A site, until a charged tRNA arrives; it doesn't skip codons.",
+  "links": "Charged vs uncharged tRNA · The A site"
+ },
+ {
+  "id": 2104,
+  "type": "match",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 3,
+  "title": "Which component is responsible?",
+  "prompt": "Match each observation to the translation component that best explains it.",
+  "leftLabel": "Observation",
+  "rightLabel": "Component",
+  "pairs": [
+   {
+    "left": "A mutant tyrosine tRNA inserts tyrosine at UAG stop codons, so some chains run on past them",
+    "right": "The tRNA's anticodon"
+   },
+   {
+    "left": "A tRNA is loaded with the wrong amino acid but still pairs with the correct codon",
+    "right": "An aminoacyl tRNA synthetase"
+   },
+   {
+    "left": "An antibiotic binds rRNA in the large subunit and blocks peptide bond formation",
+    "right": "The peptidyl transferase center"
+   },
+   {
+    "left": "In an extract missing one protein, finished chains stay attached to tRNAs at stop codons",
+    "right": "The release factor"
+   },
+   {
+    "left": "In a human cell extract missing one group of proteins, small subunits never bind capped mRNAs",
+    "right": "Eukaryotic initiation factors"
+   }
+  ],
+  "explanation": "Each component has one job: the anticodon decides which codon a tRNA reads (here, a mutant anticodon pairs with UAG); synthetases load the right amino acid; the rRNA peptidyl transferase center joins amino acids; release factors free the finished chain at a stop codon; eukaryotic initiation factors bring the small subunit to the 5' cap.",
+  "links": "Components of translation"
+ },
+ {
+  "id": 2313,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 1,
+  "stem": "The standard genetic code has 64 codons. How many of them are read by tRNAs carrying an amino acid?",
+  "options": [
+   "64",
+   "61",
+   "20",
+   "60",
+   "63"
+  ],
+  "answerIndex": 1,
+  "explanation": "Three codons (UAA, UAG, UGA) are stop codons: no tRNA reads them, and a release factor binds instead. That leaves 61 codons for 20 amino acids, so most amino acids have several codons.",
+  "links": "Stop codons · A redundant code"
+ },
+ {
+  "id": 2217,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "box": "Suppose codons overlapped, so that bases 1-2-3, then 2-3-4, then 3-4-5 were each read as a codon.",
+  "claim": "A single base substitution would then change up to three neighbouring codons at once, whereas in the real code it changes only the one codon that contains it.",
+  "answer": true,
+  "explanation": "In an overlapping code each base belongs to three codons. Real codons are a nonoverlapping series of triplets, so each base sits in exactly one codon, and a substitution changes only that codon.",
+  "links": "Nonoverlapping triplets"
+ },
+ {
+  "id": 2314,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "stem": "A mutation in a cell's rRNA genes changes the amino acid sequence of no protein, yet it slows protein synthesis throughout the cell. Which explanation fits best?",
+  "options": [
+   "rRNA carries amino acids to the ribosome, so fewer arrive at each codon",
+   "rRNA is the template for every mRNA, so all mRNAs are made more slowly",
+   "rRNA builds the ribosome itself, so every ribosome works more slowly",
+   "rRNA forms the 5' cap of each mRNA, so fewer mRNAs are recognized",
+   "rRNA pairs with each codon in place of tRNA, so codons are read slowly"
+  ],
+  "answerIndex": 2,
+  "explanation": "Only mRNA is translated. rRNA is transcribed from DNA but works as RNA: with ribosomal proteins it builds both ribosomal subunits, and it forms the peptidyl transferase center. A faulty rRNA slows every ribosome without changing any protein's sequence. Carrying amino acids and pairing with codons are tRNA's jobs.",
+  "links": "Central dogma · Noncoding RNAs · Ribosomes are RNA + protein"
+ },
+ {
+  "id": 2218,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 2,
+  "box": "Translation is the last step in the flow of information from DNA to protein.",
+  "claim": "Given a protein's amino acid sequence, you could work out the exact mRNA sequence that coded for it.",
+  "answer": false,
+  "explanation": "The code is redundant: most amino acids have two to six codons, so one protein sequence fits many possible mRNAs. Information can be read from codon to amino acid, but not reconstructed exactly the other way.",
+  "links": "Redundancy of the code · Central dogma"
+ },
+ {
+  "id": 2219,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Machinery & Genetic Code",
+  "points": 1,
+  "box": "A student is asked for the anticodon that pairs with the mRNA codon 5'-CAG-3'.",
+  "claim": "Pairing base by base gives GUC, so written 5'→3' the anticodon is 5'-GUC-3'.",
+  "answer": false,
+  "explanation": "Pairing is antiparallel: the codon's first (5') base pairs with the anticodon's last (3') base. The anticodon is 3'-GUC-5', which written 5'→3' is 5'-CUG-3'.",
+  "links": "Codon–anticodon pairing is antiparallel"
+ },
+ {
+  "id": 2007,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 3,
+  "title": "Where can a ribosome start?",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Each coding bar is read from its AUG to the stop codon that follows.<br><br><b>(나)</b> The inner AUG of mRNA 1 lies in the same reading frame as its first AUG.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "mRNA 2 can yield three separate polypeptides, because a ribosome can bind at each AGGAGGU and start at the AUG after it.",
+    "correct": true,
+    "explanation": "Each coding region has its own Shine-Dalgarno sequence (AGGAGGU) upstream of its AUG, so one bacterial mRNA can code for several polypeptides."
+   },
+   {
+    "label": "ㄴ",
+    "text": "On mRNA 1, translation starts at the first AUG after the cap, and the inner AUG is read as methionine within the same polypeptide.",
+    "correct": true,
+    "explanation": "The initiation complex assembles at the 5' cap and scans to the first AUG; a later AUG in the same frame simply codes for Met inside the chain."
+   },
+   {
+    "label": "ㄷ",
+    "text": "mRNA 1 comes from a bacterium, since it ends in a tail of A's.",
+    "correct": false,
+    "explanation": "A 5' cap and a poly(A) tail are eukaryotic processing marks (Module 4). Bacterial mRNAs have no cap; mRNA 2's Shine-Dalgarno sequences mark it as bacterial."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Cap and scanning vs Shine-Dalgarno · Polycistronic mRNA",
+  "diagram": "translation_start_prok_euk"
+ },
+ {
+  "id": 2220,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 2,
+  "box": "A researcher deletes only the first AGGAGGU sequence of mRNA 2 in the diagram.",
+  "claim": "The first polypeptide stops being made, while the second and third are still translated.",
+  "answer": true,
+  "explanation": "In bacteria, each coding region's own Shine-Dalgarno sequence recruits a ribosome, which starts at the next AUG. Removing the first one blocks only the first region; the other two keep their binding sites.",
+  "links": "Shine-Dalgarno sequence · Polycistronic mRNA",
+  "diagram": "translation_start_prok_euk"
+ },
+ {
+  "id": 2221,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 2,
+  "box": "mRNA 1 in the diagram is added to a bacterial extract containing bacterial ribosomes and translation factors, but no eukaryotic initiation factors.",
+  "claim": "The bacterial ribosomes can bind the cap and start translating at mRNA 1's first AUG.",
+  "answer": false,
+  "explanation": "Bacterial ribosomes find start sites by pairing with Shine-Dalgarno sequences, not caps, and mRNA 1 has none. That's why genes moved into bacteria are given a bacterial ribosome-binding sequence upstream of the AUG.",
+  "links": "Shine-Dalgarno vs cap-dependent initiation",
+  "diagram": "translation_start_prok_euk"
+ },
+ {
+  "id": 2315,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 2,
+  "stem": "Put these events of eukaryotic translation in order: (1) the large subunit joins; (2) the small subunit, initiation factors and Met-tRNA bind at the 5' cap; (3) the complex scans to the first AUG; (4) the first peptide bond forms.",
+  "options": [
+   "2 → 3 → 1 → 4",
+   "3 → 2 → 1 → 4",
+   "2 → 1 → 3 → 4",
+   "1 → 2 → 3 → 4",
+   "2 → 3 → 4 → 1"
+  ],
+  "answerIndex": 0,
+  "explanation": "The small subunit with Met-tRNA and initiation factors loads at the cap and scans; only when it reaches AUG does the large subunit join (and the factors leave). Peptide bonds form in the large subunit, so the first one comes last.",
+  "links": "Eukaryotic initiation · Stages of translation"
+ },
+ {
+  "id": 2222,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 2,
+  "box": "In the diagram, Met–Ala is attached to the tRNA in the P site, and a charged tRNA now enters the A site.",
+  "claim": "When the next peptide bond forms, the new amino acid is added onto the chain, which stays attached to the P-site tRNA.",
+  "answer": false,
+  "explanation": "The reverse: the whole chain is transferred from the P-site tRNA onto the amino acid carried by the A-site tRNA. The chain (now Met–Ala–Trp) hangs from the A-site tRNA until the ribosome shifts one codon and moves that tRNA into the P site.",
+  "links": "Elongation: transfer to the A-site tRNA · Translocation",
+  "diagram": "ribosome_snapshot"
+ },
+ {
+  "id": 2316,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 2,
+  "stem": "In the diagram, a tRNA enters the A site, a peptide bond forms, and the ribosome then shifts one codon. Which codons now sit in the E, P and A sites?",
+  "options": [
+   "E: AUG, P: GCU, A: UGG",
+   "E: GCU, P: UGG, A: AAA",
+   "E: UGG, P: AAA, A: UAG",
+   "E: ACC, P: AUG, A: GCU",
+   "E: GCU, P: UGG, A: UAG"
+  ],
+  "answerIndex": 1,
+  "explanation": "Translocation moves the ribosome one codon toward the 3' end: the tRNA on UGG (now holding the chain) moves to P, the empty tRNA on GCU moves to E, and the next codon, AAA, enters the A site.",
+  "links": "Translocation by one codon · Ribosomes move 5'→3'",
+  "diagram": "ribosome_snapshot"
+ },
+ {
+  "id": 2008,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 3,
+  "title": "Endgame for this mRNA",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> The ribosome continues along the mRNA until it reaches UAG.<br><br><b>(나)</b> At that point, the tRNA in the P site holds the whole chain.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "When UAG reaches the A site, a release factor protein binds there instead of a tRNA.",
+    "correct": true,
+    "explanation": "Stop codons are recognized by a protein release factor, not by a tRNA."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The chain is freed by breaking the peptide bond between its last two amino acids.",
+    "correct": false,
+    "explanation": "Release breaks the bond between the finished chain and the tRNA holding it. All peptide bonds stay intact, and the last amino acid's carboxyl group becomes the C-terminus."
+   },
+   {
+    "label": "ㄷ",
+    "text": "If UAG were mutated to UGA, the chain would run on past Lys, because UGA codes for an amino acid.",
+    "correct": false,
+    "explanation": "UGA is also a stop codon (with UAA and UAG), so a release factor would still end the chain after Lys."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 0,
+  "links": "Termination: release factor · Stop codons · C-terminus",
+  "diagram": "ribosome_snapshot"
+ },
+ {
+  "id": 2223,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 1,
+  "box": "Translation initiation differs between bacteria and eukaryotes.",
+  "claim": "Because bacteria start translation differently (without a cap), they also use different stop codons to end it.",
+  "answer": false,
+  "explanation": "Only initiation differs (cap and scanning vs Shine-Dalgarno sequences). Elongation and termination work the same way in both, ending at the same stop codons (UAA, UAG, UGA), where a release factor binds.",
+  "links": "Elongation and termination are shared · Stop codons"
+ },
+ {
+  "id": 2224,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 1,
+  "box": "Electron micrographs often show several ribosomes spaced along one mRNA at the same time.",
+  "claim": "Each ribosome makes only part of the polypeptide, and the pieces are joined together afterward.",
+  "answer": false,
+  "explanation": "Each ribosome starts at the start codon and runs to the stop codon, making its own complete chain. Several ribosomes on one mRNA simply make several copies at once.",
+  "links": "Many ribosomes per mRNA · Ribosomes read 5'→3'"
+ },
+ {
+  "id": 2225,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 2,
+  "box": "A mutation creates an extra AUG in the 5' untranslated region of a human mRNA, between the cap and the normal start codon, in a different reading frame.",
+  "claim": "Scanning ribosomes can start at this new AUG instead, making a short, wrong polypeptide and less of the normal protein.",
+  "answer": true,
+  "explanation": "Eukaryotic ribosomes start at the first AUG they reach while scanning from the cap. An upstream AUG in another frame diverts them into the wrong reading frame — a known cause of some inherited diseases.",
+  "links": "Scanning from the cap · Reading frame"
+ },
+ {
+  "id": 2226,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 2,
+  "box": "A drug blocks only one step of translation: the large ribosomal subunit joining the small subunit at the start codon.",
+  "claim": "Ribosomes already partway along an mRNA when the drug is added will finish their proteins, but no new proteins will be started.",
+  "answer": true,
+  "explanation": "Joining of the large subunit is part of initiation. Ribosomes already in elongation don't need that step again, so they run on to the stop codon; new rounds of initiation are blocked.",
+  "links": "Three stages of translation"
+ },
+ {
+  "id": 2317,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 2,
+  "stem": "A mutation changes codon 40 of a gene's 300 codons (counting AUG as codon 1) into UAG. What does the cell make from this mRNA?",
+  "options": [
+   "A full-length chain lacking only its 40th amino acid",
+   "A 40-amino-acid chain ending in a special stop amino acid",
+   "No chain at all, since translation can't begin",
+   "A 39-amino-acid chain, freed when a release factor binds UAG",
+   "A full-length chain, since a tRNA reads UAG as an amino acid"
+  ],
+  "answerIndex": 3,
+  "explanation": "Codons 1–39 are translated normally. UAG in the A site is recognized by a release factor (no tRNA reads it), so a shortened 39-amino-acid chain is released — usually nonfunctional.",
+  "links": "Stop codons · Termination by release factor"
+ },
+ {
+  "id": 2105,
+  "type": "match",
+  "mod": 5,
+  "topic": "Translation Stages: Prok vs Euk",
+  "points": 3,
+  "title": "Where does it happen?",
+  "prompt": "Match each event to where it happens.",
+  "leftLabel": "Event",
+  "rightLabel": "Where",
+  "pairs": [
+   {
+    "left": "During elongation, a charged tRNA first pairs with its codon",
+    "right": "The A site"
+   },
+   {
+    "left": "The tRNA holding the growing chain waits for the next amino acid",
+    "right": "The P site"
+   },
+   {
+    "left": "An uncharged tRNA leaves the ribosome",
+    "right": "The E site"
+   },
+   {
+    "left": "A eukaryotic small subunit, with initiation factors, first binds an mRNA",
+    "right": "The 5' cap"
+   },
+   {
+    "left": "A bacterial ribosome first binds an mRNA",
+    "right": "AGGAGGU, upstream of an AUG"
+   }
+  ],
+  "explanation": "A = aminoacyl-tRNA entry, P = peptidyl-tRNA, E = exit. Eukaryotic initiation begins when the small subunit and initiation factors bind the 5' cap and scan to AUG; bacterial ribosomes bind Shine-Dalgarno sequences (AGGAGGU) just upstream of each AUG.",
+  "links": "A, P and E sites · Initiation in eukaryotes vs bacteria"
+ },
+ {
+  "id": 2009,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 3,
+  "title": "Four snapshots at the ER",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Panels 1–4 follow one ribosome making one protein.<br><br><b>(나)</b> In panel 1, the SRP is bound to the signal sequence as it emerges from the ribosome.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Translation pauses while the SRP is bound and resumes once the ribosome is handed to the channel.",
+    "correct": true,
+    "explanation": "The SRP halts translation until the ribosome docks at the ER; when the SRP lets go, synthesis resumes and the chain is threaded through the channel."
+   },
+   {
+    "label": "ㄴ",
+    "text": "To be secreted, the protein in panel 4 must first cross the ER membrane back into the cytosol.",
+    "correct": false,
+    "explanation": "It never re-enters the cytosol: from the lumen it travels in vesicles through the Golgi and leaves by exocytosis (Module 3). Other lumen proteins stay in the ER or go to another organelle's lumen."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The finished protein in panel 4 lacks the stretch of amino acids made first, including its starting Met.",
+    "correct": true,
+    "explanation": "Chains are made N-terminus first, starting with Met, so the ER signal is the first segment out; cutting it off in the lumen removes the protein's original amino end."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "SRP targeting · Fates of rough-ER proteins (Module 3)",
+  "diagram": "srp_targeting_steps"
+ },
+ {
+  "id": 2318,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 2,
+  "stem": "In a mutant cell the SRP receptor is missing, but the SRP and the signal sequence are normal. What happens to a protein destined for secretion?",
+  "options": [
+   "SRP still binds and pauses synthesis, but the ribosome can't dock at the ER",
+   "The SRP can't bind the signal sequence, so translation never pauses",
+   "The protein enters the ER normally, since the channel alone recognizes the signal",
+   "The protein enters the ER, but its signal sequence is never removed",
+   "The protein is redirected to the mitochondria by its signal sequence"
+  ],
+  "answerIndex": 0,
+  "explanation": "The SRP recognizes the signal and halts translation, but docking requires the SRP receptor on the ER membrane. Without it, the ribosome is never handed to the channel, so the protein doesn't enter the ER or follow the secretory route.",
+  "links": "SRP and SRP receptor · Translation starts in the cytosol",
+  "diagram": "srp_targeting_steps"
+ },
+ {
+  "id": 2227,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 1,
+  "box": "A secretory protein's gene is altered so that its ER signal sequence is deleted; nothing else changes.",
+  "claim": "The protein will be made on free ribosomes and stay in the cytosol, since the SRP has nothing to recognize.",
+  "answer": true,
+  "explanation": "Translation always begins in the cytosol. Without a signal, the SRP never binds and the ribosome never goes to the ER; a protein with no signal remains in the cytosol.",
+  "links": "No signal → cytosol · SRP needs the signal sequence"
+ },
+ {
+  "id": 2228,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 1,
+  "box": "The protein in the diagram has an ER signal sequence, which is cut off in panel 4.",
+  "claim": "Deleting the 10 codons just before this protein's stop codon would stop it from entering the ER.",
+  "answer": false,
+  "explanation": "The ER signal is the first part of the chain made, at the amino (N-terminal) end, where the SRP catches it as it emerges. The codons just before the stop codon encode the carboxyl (C-terminal) end, so deleting them leaves the signal, and entry into the ER, unaffected.",
+  "links": "Signal sequence at the N-terminus · Cleavage in the ER",
+  "diagram": "srp_targeting_steps"
+ },
+ {
+  "id": 2010,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 3,
+  "title": "Which end faces out?",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> The protein's orientation in the ER membrane is set while it is being made.<br><br><b>(나)</b> It reaches the plasma membrane in vesicles that bud from one membrane and fuse with the next.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The signal-anchor segment stays in the membrane because its side chains are mostly charged and cling to the phosphate heads.",
+    "correct": false,
+    "explanation": "A segment spanning the membrane sits among the lipid tails, so its side chains are mostly nonpolar — the feature that marks integral membrane proteins (Module 3)."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The signal-anchor segment is cut off in the ER, as an ER signal sequence is, releasing the protein into the lumen.",
+    "correct": false,
+    "explanation": "A signal-anchor sequence isn't removed: the channel releases it sideways into the membrane, where it anchors the protein for good."
+   },
+   {
+    "label": "ㄷ",
+    "text": "In the right panel, the NH3+ end lies in the extracellular fluid.",
+    "correct": true,
+    "explanation": "Budding and fusion never flip a membrane: the side facing the ER lumen stays inside the vesicles and faces outside the cell after fusion (Module 3). So the N-terminus, in the lumen, ends up outside."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "Signal-anchor sequence · The lumen side becomes the outside (Module 3)",
+  "diagram": "signal_anchor_orientation"
+ },
+ {
+  "id": 2229,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 2,
+  "box": "A receptor is inserted into the ER membrane with its NH3+ end in the cytosol and its COO- end in the ER lumen, then reaches the plasma membrane by vesicle traffic. Kinases, enzymes in the cytosol, switch proteins on or off by adding phosphate groups to them.",
+  "claim": "At the plasma membrane, a serine near this receptor's COO- end would be within reach of cytosolic kinases.",
+  "answer": false,
+  "explanation": "Orientation is set when the protein is inserted into the ER, and budding and fusion never flip a membrane: the lumen side becomes the outside of the cell, while the cytosolic side stays cytosolic (Module 3). The COO- end, in the ER lumen, ends up outside the cell, out of the kinases' reach; only the NH3+ end stays in the cytosol.",
+  "links": "Membrane protein orientation (Module 3) · The lumen side becomes the outside"
+ },
+ {
+  "id": 2106,
+  "type": "match",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 3,
+  "title": "Address labels",
+  "prompt": "Match each protein to the sorting signal it needs.",
+  "leftLabel": "Protein",
+  "rightLabel": "Sorting signal",
+  "pairs": [
+   {
+    "left": "A glycolysis enzyme that works in the cytosol",
+    "right": "No signal sequence"
+   },
+   {
+    "left": "A citric acid cycle enzyme in the mitochondrial matrix",
+    "right": "An amino-terminal signal for organelle import (made on free ribosomes)"
+   },
+   {
+    "left": "A DNA polymerase that copies chromosomes",
+    "right": "An internal signal sequence"
+   },
+   {
+    "left": "Albumin, a blood protein secreted by liver cells",
+    "right": "An SRP-recognized ER signal, with no signal-anchor sequence"
+   },
+   {
+    "left": "A receptor that spans the plasma membrane",
+    "right": "An ER signal plus a signal-anchor sequence that keeps it in the membrane"
+   }
+  ],
+  "explanation": "Where a protein works decides its label: none for the cytosol; an amino-terminal signal for mitochondria or chloroplasts; an internal signal for the nucleus; an SRP-recognized amino-terminal signal for the ER and secretory route; and, for a protein that stays in a membrane, a signal-anchor sequence as well.",
+  "links": "Signal sequences and destinations"
+ },
+ {
+  "id": 2319,
+  "type": "mc",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 1,
+  "stem": "Stomach cells secrete pepsin as an inactive precursor, pepsinogen, which becomes active only after part of its chain is cut off in the acidic stomach. Which level of gene-expression control does this illustrate?",
+  "options": [
+   "DNA accessibility",
+   "Transcription factors",
+   "RNA processing",
+   "Translation initiation at the cap",
+   "Post-translational modification"
+  ],
+  "answerIndex": 4,
+  "explanation": "The protein is already made; activating it by cutting the chain is a post-translational modification. Making it inactive protects the cells that produce it from digesting their own proteins.",
+  "links": "Post-translational modification · Real-world: digestive enzymes"
+ },
+ {
+  "id": 2230,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 1,
+  "box": "In a cell, gene Y's DNA is unpacked and its transcription factors are bound, so Y is transcribed at a high rate.",
+  "claim": "How much active protein Y the cell contains can therefore be predicted from how fast gene Y is transcribed.",
+  "answer": false,
+  "explanation": "Transcription is only one checkpoint. The transcript must still be processed and exported, and many proteins are made in an inactive form until they are cleaved or modified (for example, phosphorylated). Regulation at these later levels can keep active Y from appearing.",
+  "links": "Levels of gene regulation beyond transcription"
+ },
+ {
+  "id": 2011,
+  "type": "combo",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 3,
+  "title": "One gene, two cell types",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> In muscle cells, the gene for enzyme Z is wrapped tightly with histones and is never transcribed.<br><br><b>(나)</b> In liver cells, the gene is transcribed and enzyme Z is made in an inactive form, switched on when a kinase phosphorylates it as blood sugar drops.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "In liver, phosphorylation switches Z on by changing its amino acid sequence.",
+    "correct": false,
+    "explanation": "Adding a phosphate group is a post-translational modification: the shape and activity change, but the amino acid sequence stays the same."
+   },
+   {
+    "label": "ㄴ",
+    "text": "In muscle, expression of Z is blocked at the level of DNA accessibility.",
+    "correct": true,
+    "explanation": "Tightly packed DNA can't be reached by the transcription machinery, so the gene stays silent."
+   },
+   {
+    "label": "ㄷ",
+    "text": "In liver, a drug that blocks the kinase would leave enzyme Z inactive even though Z's mRNA is still made.",
+    "correct": true,
+    "explanation": "Phosphorylation is the switch that activates Z after translation; without the kinase, Z is made but stays in its inactive form."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Levels of gene regulation · Post-translational modification"
+ },
+ {
+  "id": 2231,
+  "type": "tf",
+  "mod": 5,
+  "topic": "Regulation & Protein Sorting",
+  "points": 1,
+  "box": "Electron micrographs of a pancreatic cell show some ribosomes free in the cytosol and others bound to the rough ER.",
+  "claim": "A ribosome making a secreted protein is already bound to the ER when it starts translating, since the ER is where that protein is headed.",
+  "answer": false,
+  "explanation": "Every mRNA starts being translated on a ribosome in the cytosol. Only when the ER signal sequence emerges does the SRP bind it and bring the ribosome to the ER; free and ER-bound ribosomes are the same kind, differing only in what they are making.",
+  "links": "Translation starts in the cytosol · SRP targeting"
+ },
+ {
+  "id": 2012,
+  "type": "combo",
+  "mod": 6,
+  "topic": "Energy & Metabolism",
+  "points": 3,
+  "title": "Who goes where?",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Cyanobacteria use light energy to build sugars from CO2.<br><br><b>(나)</b> Sulfur-oxidizing bacteria get energy by oxidizing hydrogen sulfide (H2S) and build sugars from CO2.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Both are phototrophs, since both make sugar from CO2.",
+    "correct": false,
+    "explanation": "Making sugar from CO2 makes them both autotrophs. 'Phototroph' describes the energy source, and only the cyanobacteria use light."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Cyanobacteria belong in cell A and sulfur-oxidizing bacteria in cell B.",
+    "correct": true,
+    "explanation": "Both take their carbon from CO2 (top row); cyanobacteria get energy from light (A), sulfur bacteria from a chemical compound (B)."
+   },
+   {
+    "label": "ㄷ",
+    "text": "A human belongs in cell C, since humans get their carbon from organic molecules.",
+    "correct": false,
+    "explanation": "Humans do get carbon from organic molecules, but their energy comes from chemical compounds in food, not light — cell D."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 0,
+  "links": "Phototroph vs chemotroph · Autotroph vs heterotroph",
+  "diagram": "metabolic_classification_grid"
+ },
+ {
+  "id": 2232,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Energy & Metabolism",
+  "points": 1,
+  "box": "Heliobacteria use light to make ATP but cannot fix CO2; they absorb organic molecules such as pyruvate as their carbon source.",
+  "claim": "Heliobacteria belong in cell C of the diagram.",
+  "answer": true,
+  "explanation": "Energy from light puts them in the left column; carbon from organic molecules puts them in the bottom row: cell C, the photoheterotrophs.",
+  "links": "Photoheterotrophs",
+  "diagram": "metabolic_classification_grid"
+ },
+ {
+  "id": 2320,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Energy & Metabolism",
+  "points": 2,
+  "stem": "A deep-sea vent bacterium builds all its organic molecules from CO2 and gets its energy by oxidizing hydrogen gas (H2). A tapeworm lives in its host's intestine. Using the diagram, which cells do they belong in?",
+  "options": [
+   "The bacterium in A; the tapeworm in D",
+   "The bacterium in B; the tapeworm in C",
+   "The bacterium in B; the tapeworm in D",
+   "Both in D, since neither uses light",
+   "The bacterium in D; the tapeworm in B"
+  ],
+  "answerIndex": 2,
+  "explanation": "The vent bacterium: chemical energy + carbon from CO2 → B (a chemoautotroph, like the notes' hydrogen bacteria). The tapeworm is an animal, so a heterotroph (Module 1): it takes both energy and carbon from organic molecules in its host's digested food → D (a chemoheterotroph).",
+  "links": "Chemoautotrophs vs chemoheterotrophs · Animals are heterotrophs (Module 1)",
+  "diagram": "metabolic_classification_grid"
+ },
+ {
+  "id": 2107,
+  "type": "match",
+  "mod": 6,
+  "topic": "Energy & Metabolism",
+  "points": 3,
+  "title": "Where is the energy?",
+  "prompt": "Match each example to the form of energy it best shows.",
+  "leftLabel": "Example",
+  "rightLabel": "Form of energy",
+  "pairs": [
+   {
+    "left": "Water held behind a dam",
+    "right": "Potential energy of position"
+   },
+   {
+    "left": "A spoonful of table sugar",
+    "right": "Chemical energy stored in bonds"
+   },
+   {
+    "left": "A sperm cell's beating flagellum",
+    "right": "Kinetic energy: movement of a whole structure"
+   },
+   {
+    "left": "Heat given off by a working muscle",
+    "right": "Kinetic energy: random motion of molecules"
+   },
+   {
+    "left": "A high concentration of Na+ outside a cell",
+    "right": "Potential energy stored in a gradient"
+   }
+  ],
+  "explanation": "Potential energy is stored — by position, in the bonds of sugar, or in a concentration difference; kinetic energy is motion, whether of a whole flagellum or of molecules jiggling as heat. One form converts into another: the dam's water spins a turbine, and the Na+ gradient powers transport (Module 3).",
+  "links": "Potential vs kinetic energy · Chemical energy · Gradients (Module 3)"
+ },
+ {
+  "id": 2233,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Energy & Metabolism",
+  "points": 2,
+  "box": "In cellular respiration, glucose reacts with O2 to form CO2 and H2O, molecules held together by stronger bonds.",
+  "claim": "So the products hold less potential energy than the reactants, and the difference is released, part of it captured by the cell as ATP.",
+  "answer": true,
+  "explanation": "Strong bonds hold less potential energy and weak bonds hold more. Replacing weaker bonds with stronger ones releases the difference, which is why breaking down fuel molecules can power the cell.",
+  "links": "Bond strength and potential energy · Catabolism releases energy"
+ },
+ {
+  "id": 2321,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Energy & Metabolism",
+  "points": 2,
+  "stem": "Using the diagram, a mutation inactivates enzyme e2. Which molecule builds up first, and what can happen to it?",
+  "options": [
+   "C builds up, since it can no longer be converted into D",
+   "A builds up, since B can no longer be made from it",
+   "D builds up, since nothing downstream uses it",
+   "B builds up, and more of it may flow to E and F",
+   "Nothing builds up, since each enzyme works independently"
+  ],
+  "answerIndex": 3,
+  "explanation": "In a pathway, each product is the next step's reactant. With e2 gone, B can't become C, so B accumulates (and C and D run low); e4 can still use B, so the excess may flow toward E and F. Inherited diseases such as PKU work this way: a missing enzyme makes its substrate pile up and be diverted into side products.",
+  "links": "Metabolic pathways · Real-world: inherited enzyme defects",
+  "diagram": "branched_pathway"
+ },
+ {
+  "id": 2234,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Energy & Metabolism",
+  "points": 1,
+  "box": "The human brain is about 2% of body mass but uses about 20% of the body's energy at rest. Its neurons don't crawl, contract or divide.",
+  "claim": "Since its neurons don't move, little of that energy goes into cellular work; most is lost directly as heat.",
+  "answer": false,
+  "explanation": "Cellular work isn't only movement: it includes pumping ions across membranes, making molecules such as proteins, and moving vesicles. Neurons spend much of their ATP on Na+/K+ pumps that restore the ion gradients they use to signal (Module 3).",
+  "links": "Kinds of cellular work · ATP-driven pumps (Module 3) · Real-world: the brain's energy use"
+ },
+ {
+  "id": 2013,
+  "type": "combo",
+  "mod": 6,
+  "topic": "Energy & Metabolism",
+  "points": 3,
+  "title": "Build it up, break it down",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> After a meal, liver cells link glucose molecules into glycogen.<br><br><b>(나)</b> During a fast, the same cells break glycogen back down into glucose.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "When glycogen is broken back down, the glucose released contains the same carbon atoms that were linked into the glycogen.",
+    "correct": true,
+    "explanation": "In a chemical reaction atoms keep their identity; only the bonds linking them change. Breaking glycogen down breaks the bonds between glucose units, not the units' carbon atoms."
+   },
+   {
+    "label": "ㄴ",
+    "text": "(가) needs an input of energy, which cells supply by coupling it to ATP or a similar molecule.",
+    "correct": true,
+    "explanation": "Anabolic reactions are endergonic. Linking sugars by condensation (Module 2) is driven by coupling it to the hydrolysis of phosphate bonds."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Since (가) and (나) are reverse processes, running them back to back (glycogen → glucose → glycogen) costs the cell no usable energy.",
+    "correct": false,
+    "explanation": "Every conversion loses some usable energy as heat (second law), so cycling between them always costs energy."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Anabolism needs energy · Atoms keep their identity · Second law"
+ },
+ {
+  "id": 2014,
+  "type": "combo",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 3,
+  "title": "Reading the ATP diagram",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Each numbered bracket encloses one named molecule.<br><br><b>(나)</b> x, y and z mark three bonds.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Bracket 3 encloses ADP, and bracket 2 encloses AMP.",
+    "correct": true,
+    "explanation": "Adenine + ribose is adenosine (1); adding one phosphate gives AMP (2), two gives ADP (3), and three gives ATP (4)."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Bond x, which joins the phosphates to the sugar, holds most of the energy ATP releases for cellular work.",
+    "correct": false,
+    "explanation": "The usable energy is held in the bonds linking phosphate groups to each other (y and z); ATP → ADP + Pi breaks z."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Hydrolyzing ATP to ADP + Pi breaks bond z.",
+    "correct": true,
+    "explanation": "Removing the outermost phosphate breaks the bond between the second and third phosphates: z."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "ATP, ADP and AMP · Energy in the phosphate–phosphate bonds",
+  "diagram": "atp_parts_brackets"
+ },
+ {
+  "id": 2235,
+  "type": "tf",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 2,
+  "box": "Some reactions split ATP into AMP and pyrophosphate (two phosphates still joined together) instead of ADP + Pi.",
+  "claim": "These reactions break bond y in the diagram rather than bond z.",
+  "answer": true,
+  "explanation": "AMP keeps only the phosphate nearest the ribose, so the break must come between the first and second phosphates — bond y — releasing the outer two phosphates together as pyrophosphate. RNA polymerase splits each incoming nucleotide the same way (Module 4).",
+  "links": "ADP vs AMP · Pyrophosphate release (Module 4)",
+  "diagram": "atp_parts_brackets"
+ },
+ {
+  "id": 2322,
+  "type": "mc",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 1,
+  "stem": "Which statement best explains why ATP + H2O → ADP + Pi releases energy in a cell?",
+  "options": [
+   "Water is a high-energy molecule that passes its energy on to ATP",
+   "The bond between adenine and ribose holds most of ATP's energy",
+   "Its negative phosphates repel, so ADP + Pi has less potential energy",
+   "Its phosphates are uncharged and pack tightly, storing energy",
+   "The reaction is endergonic, so it takes in energy that the cell can then use"
+  ],
+  "answerIndex": 2,
+  "explanation": "At physiological pH the phosphates are negatively charged and resist one another; splitting one off relieves that strain, so the products (ADP + Pi) have lower potential energy and the reaction is exergonic (−7.3 kcal/mol).",
+  "links": "ATP hydrolysis is exergonic · Charged phosphates repel"
+ },
+ {
+  "id": 2236,
+  "type": "tf",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 1,
+  "box": "A sprinter's leg muscles hold only enough ATP for a few seconds of contraction, yet they can keep working far longer.",
+  "claim": "So the extra ATP used during the race is made in other organs and delivered to the muscle in the blood.",
+  "answer": false,
+  "explanation": "Each cell keeps only a little ATP and rebuilds it from ADP + Pi as fast as it is spent, using energy from breaking down its own stored fuel, such as muscle glycogen. ATP is a currency spent where it is made, not a fuel shipped around the body.",
+  "links": "ATP is a currency, not long-term storage · Cells regenerate their own ATP"
+ },
+ {
+  "id": 2015,
+  "type": "combo",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 3,
+  "title": "Pushing glucose uphill",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Glucose + Pi → glucose-6-phosphate + H2O, ΔG = +3.3 kcal/mol<br><br><b>(나)</b> ATP + H2O → ADP + Pi, ΔG = −7.3 kcal/mol",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Coupling works because the enzyme lowers (가)'s ΔG from +3.3 to below zero.",
+    "correct": false,
+    "explanation": "Enzymes never change ΔG. Coupling works by adding (가) to the more exergonic (나), so the combined ΔG is negative."
+   },
+   {
+    "label": "ㄴ",
+    "text": "On its own, (가) is endergonic and does not proceed spontaneously.",
+    "correct": true,
+    "explanation": "A positive ΔG means the products have more free energy than the reactants."
+   },
+   {
+    "label": "ㄷ",
+    "text": "If the phosphate passes directly from ATP to glucose, the overall reaction glucose + ATP → glucose-6-phosphate + ADP has ΔG = −4.0 kcal/mol.",
+    "correct": true,
+    "explanation": "ΔG values of coupled reactions add: +3.3 + (−7.3) = −4.0 kcal/mol. The shared phosphate links the two reactions."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Energetic coupling · Enzymes don't change ΔG"
+ },
+ {
+  "id": 2323,
+  "type": "mc",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 2,
+  "stem": "A biosynthetic step has ΔG = +10.0 kcal/mol. It can be coupled to the hydrolysis of ATP (−7.3 kcal/mol each). What is the smallest number of ATP that must be hydrolyzed to make the overall process spontaneous?",
+  "options": [
+   "1 ATP, giving a net ΔG of −2.7 kcal/mol",
+   "2 ATP, giving a net ΔG of −4.6 kcal/mol",
+   "2 ATP, giving a net ΔG of −14.6 kcal/mol",
+   "3 ATP, giving a net ΔG of −11.9 kcal/mol",
+   "None; an enzyme can lower the ΔG instead"
+  ],
+  "answerIndex": 1,
+  "explanation": "One ATP gives +10.0 − 7.3 = +2.7 kcal/mol, still positive. Two give +10.0 − 14.6 = −4.6 kcal/mol, which is negative, so the coupled process can proceed. Enzymes don't change ΔG.",
+  "links": "Energetic coupling arithmetic"
+ },
+ {
+  "id": 2237,
+  "type": "tf",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 1,
+  "box": "A reaction has ΔG = +5.0 kcal/mol. Elsewhere in the same cell, ATP is being hydrolyzed (ΔG = −7.3 kcal/mol).",
+  "claim": "Since the two ΔG values add to −2.3 kcal/mol, this ATP hydrolysis will drive the reaction even though the two reactions share no intermediate.",
+  "answer": false,
+  "explanation": "ΔG values add only for reactions that are actually coupled. In the notes' example, the phosphate passes from ATP to glucose: the shared intermediate links the two reactions. ATP hydrolyzed elsewhere simply releases its energy, mostly as heat.",
+  "links": "Energetic coupling needs a shared intermediate"
+ },
+ {
+  "id": 2324,
+  "type": "mc",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 1,
+  "stem": "Which process does NOT require ATP (or another nucleoside triphosphate) as its energy source?",
+  "options": [
+   "The Na+/K+ pump moving ions against their gradients",
+   "Linking amino acids into a growing polypeptide chain on a ribosome",
+   "Moving vesicles along cytoskeleton tracks",
+   "Adding nucleotides to a growing RNA strand",
+   "Glucose diffusing through a carrier, down its gradient"
+  ],
+  "answerIndex": 4,
+  "explanation": "Facilitated diffusion is passive: glucose moves down its gradient, so no ATP is needed (Module 3). Pumping against a gradient, building proteins and RNA, and moving vesicles are all cellular work powered by ATP or other nucleoside triphosphates.",
+  "links": "Cellular work · Passive vs active transport (Module 3)"
+ },
+ {
+  "id": 2238,
+  "type": "tf",
+  "mod": 6,
+  "topic": "ATP & Energetic Coupling",
+  "points": 1,
+  "box": "Cells regenerate ATP by the reaction ADP + Pi → ATP + H2O.",
+  "claim": "This reaction has ΔG = −7.3 kcal/mol, the same as ATP hydrolysis, so it runs on its own.",
+  "answer": false,
+  "explanation": "Reversing a reaction reverses the sign of ΔG: making ATP is +7.3 kcal/mol, endergonic. It happens only when coupled to another energy source, such as the breakdown of glucose (or, in phototrophs, light).",
+  "links": "Reverse reactions flip the sign of ΔG · Catabolism regenerates ATP"
+ },
+ {
+  "id": 2016,
+  "type": "combo",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 3,
+  "title": "Reading two energy profiles",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Read all values from the free-energy axes.<br><br><b>(나)</b> Both reactions run at the same temperature, with no enzyme.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Reaction I has ΔG = −40 kJ/mol, so it is spontaneous.",
+    "correct": true,
+    "explanation": "ΔG = G(products) − G(reactants) = 20 − 60 = −40 kJ/mol: exergonic and thermodynamically favourable."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Adding an enzyme to reaction II would lower its peak but leave its products 20 kJ/mol above its reactants.",
+    "correct": true,
+    "explanation": "An enzyme lowers the activation barrier, not the starting and ending levels, so ΔG stays +20 kJ/mol (50 − 30) and reaction II is still endergonic."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Reaction II has the lower activation barrier, so it is the spontaneous one.",
+    "correct": false,
+    "explanation": "A low barrier makes a reaction fast, not favourable. Reaction II's products sit above its reactants (ΔG = 50 − 30 = +20 kJ/mol), so it is endergonic."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "ΔG from free-energy profiles · Spontaneous ≠ fast · Enzymes don't change ΔG",
+  "diagram": "reaction_profiles_two"
+ },
+ {
+  "id": 2239,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 1,
+  "box": "Reaction I in the diagram has a large, negative ΔG.",
+  "claim": "So reaction I will proceed rapidly as soon as its reactants are mixed.",
+  "answer": false,
+  "explanation": "ΔG says whether a reaction can run on its own, not how fast. Speed depends on the activation barrier (60 → 110 here), which ΔG doesn't reveal.",
+  "links": "Spontaneous ≠ fast · Activation energy",
+  "diagram": "reaction_profiles_two"
+ },
+ {
+  "id": 2325,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 2,
+  "stem": "Using the diagram, what is reaction I's activation energy in the forward direction, and what would it be for the reverse reaction?",
+  "options": [
+   "50 kJ/mol forward; 90 kJ/mol reverse",
+   "110 kJ/mol forward; 90 kJ/mol reverse",
+   "50 kJ/mol in both directions",
+   "40 kJ/mol forward; 50 kJ/mol reverse",
+   "90 kJ/mol forward; 50 kJ/mol reverse"
+  ],
+  "answerIndex": 0,
+  "explanation": "Activation energy is the climb from the starting level to the peak: forward 110 − 60 = 50 kJ/mol; in reverse, starting from the products, 110 − 20 = 90 kJ/mol. The reverse barrier is larger by exactly the size of ΔG (40 kJ/mol).",
+  "links": "Activation energy · Transition state",
+  "diagram": "reaction_profiles_two"
+ },
+ {
+  "id": 2240,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 2,
+  "box": "A growing cell builds highly ordered proteins and membranes from simpler, more disordered molecules.",
+  "claim": "This doesn't violate the second law, because the cell releases heat and simple waste molecules that increase the entropy of its surroundings by more.",
+  "answer": true,
+  "explanation": "The second law applies to the cell plus its surroundings. Order inside is paid for with energy from food or light, much of it released as heat and as CO2 and water, so total entropy still rises.",
+  "links": "The second law and living systems · Entropy"
+ },
+ {
+  "id": 2326,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 1,
+  "stem": "Muscle converts the chemical energy of glucose into movement with roughly 25% efficiency. What happens to the other 75%?",
+  "options": [
+   "It's destroyed during the conversion, exactly as the second law states",
+   "It stays stored in the muscle as a reserve of extra ATP",
+   "It's converted back into glucose for later use",
+   "It leaves the muscle mostly in the form of light",
+   "It's released mostly as heat, raising entropy; none is destroyed"
+  ],
+  "answerIndex": 4,
+  "explanation": "First law: energy is conserved, only converted. Second law: no conversion is 100% efficient, and the 'lost' energy is mostly heat that increases entropy — which is why exercise warms you and shivering keeps you warm.",
+  "links": "First and second laws · Real-world: body heat"
+ },
+ {
+  "id": 2241,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 2,
+  "box": "Dissolving the salt in an instant cold pack (ammonium nitrate) absorbs heat, with ΔH = +26 kJ/mol, but greatly increases disorder: TΔS = +33 kJ/mol at room temperature.",
+  "claim": "ΔG for dissolving is −7 kJ/mol, so it happens spontaneously even though it absorbs heat.",
+  "answer": true,
+  "explanation": "ΔG = ΔH − TΔS = +26 − 33 = −7 kJ/mol. A large enough increase in entropy can make a heat-absorbing process spontaneous.",
+  "links": "ΔG = ΔH − TΔS · Real-world: cold packs"
+ },
+ {
+  "id": 2327,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 2,
+  "stem": "A reaction has ΔH = −20 kJ/mol and makes things more ordered (ΔS < 0). Using ΔG = ΔH − TΔS, what happens to its ΔG as temperature rises?",
+  "options": [
+   "ΔG becomes more negative, since heat speeds up every reaction",
+   "ΔG doesn't change, since only ΔH determines ΔG",
+   "ΔG becomes less negative and eventually positive",
+   "ΔG becomes more negative, because T is measured in kelvin",
+   "The reaction becomes spontaneous only above some temperature"
+  ],
+  "answerIndex": 2,
+  "explanation": "With ΔS negative, the −TΔS term is positive and grows with T, eating into the favourable ΔH, so the reaction is spontaneous only below some temperature. (Temperature also changes reaction speed, but that's about activation energy, not ΔG.)",
+  "links": "ΔG = ΔH − TΔS · Temperature and entropy"
+ },
+ {
+  "id": 2242,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 1,
+  "box": "In the blood, CO2 + H2O ⇌ H2CO3 (carbonic acid). During hard exercise, working muscles release more CO2 into the blood.",
+  "claim": "The extra CO2 pushes this reaction back toward CO2 and water, raising the blood's pH.",
+  "answer": false,
+  "explanation": "Adding a reactant pushes a reversible reaction forward: more CO2 makes more H2CO3, which releases H+ (Module 2) and lowers the blood's pH slightly. The concentrations of reactants and products set the direction.",
+  "links": "Concentrations set reaction direction · Acids and pH (Module 2)"
+ },
+ {
+  "id": 2243,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 2,
+  "box": "The reaction A → B in a pathway has a positive ΔG when A and B are present at equal concentrations.",
+  "claim": "A cell can still keep A → B running forward by keeping A plentiful and quickly using up B in the next step.",
+  "answer": true,
+  "explanation": "The notes give two ways cells run +ΔG reactions. One is to keep the reactant-to-product ratio above its equilibrium value — here by supplying A and draining B. The other is coupling to an exergonic reaction.",
+  "links": "Running +ΔG reactions: concentrations · Metabolic pathways"
+ },
+ {
+  "id": 2244,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 1,
+  "box": "A gazelle absorbs 1,000 kJ from the grass it eats. It stores 100 kJ in new chemical bonds in its tissues, and its movement accounts for 150 kJ.",
+  "claim": "So the remaining 750 kJ left its body.",
+  "answer": true,
+  "explanation": "First law: energy is neither created nor destroyed, so energy absorbed = energy stored + energy used for movement + energy released: 1,000 − 100 − 150 = 750 kJ. Most of it leaves as heat, which is still energy, even though it can't be used to do work (second law).",
+  "links": "First law: conservation of energy"
+ },
+ {
+  "id": 2245,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 1,
+  "box": "Chlorophyll extracted from leaves glows red when lit in a test tube; chlorophyll in an intact leaf glows far less.",
+  "claim": "In the test tube, energy the chloroplast would normally capture is given off as light as excited electrons fall back to lower energy levels.",
+  "answer": true,
+  "explanation": "Light raises chlorophyll's electrons to a higher energy level. In a chloroplast that energy is captured to make ATP and sugar; without the chloroplast machinery, the electrons fall back and release it as light and heat. The energy is converted, not destroyed (first law).",
+  "links": "Electrons dropping release energy · First law"
+ },
+ {
+  "id": 2328,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 1,
+  "stem": "In CO2 + H2O → H2CO3, which description of the bonds is correct?",
+  "options": [
+   "Every bond in both molecules breaks, and the atoms recombine at random",
+   "Water's bonds stay intact while the whole H2O molecule bonds to the carbon",
+   "Both C=O bonds of CO2 break, and each O gains an H from water",
+   "One C–O bond and one O–H bond break, and new C–O and O–H bonds form",
+   "No bonds break; the two molecules simply cling by hydrogen bonds"
+  ],
+  "answerIndex": 3,
+  "explanation": "Atoms keep their identity; only bonds change. In the notes' example, one of the bonds between C and O in CO2 and one O–H bond in water break, and new bonds form between CO2's carbon and water's oxygen and between a CO2 oxygen and water's hydrogen.",
+  "links": "Chemical reactions rearrange bonds, not atoms"
+ },
+ {
+  "id": 2246,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 1,
+  "box": "In glycolysis, the step fructose-1,6-bisphosphate → two 3-carbon sugar phosphates has a positive ΔG under standard conditions, yet it runs forward inside cells.",
+  "claim": "This is possible only because that step is coupled directly to ATP hydrolysis.",
+  "answer": false,
+  "explanation": "No ATP takes part in this step, so it isn't coupled. Instead the next enzymes keep using up its products, holding the product-to-reactant ratio below its equilibrium value, so the step keeps running forward.",
+  "links": "Two ways to run +ΔG reactions · Metabolic pathways"
+ },
+ {
+  "id": 2329,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 1,
+  "stem": "A firefly's light comes from a reaction that leaves a product molecule with an electron raised to a higher energy level. What actually produces the light?",
+  "options": [
+   "New energy being created as the reaction's product bonds form",
+   "The excited electron falling back, releasing energy as light",
+   "Heat from the reaction making the insect's tissues glow",
+   "ATP being converted directly into light with no energy lost",
+   "Electrons being destroyed, releasing their energy as light"
+  ],
+  "answerIndex": 1,
+  "explanation": "When an electron moves from a higher to a lower energy level, the difference is released as heat or light — here, mostly light. Chemical energy is converted into light energy, not created, and electrons aren't destroyed (first law); some energy is still lost as heat (second law).",
+  "links": "Electrons dropping release energy · First law · Real-world: fireflies"
+ },
+ {
+  "id": 2108,
+  "type": "match",
+  "mod": 6,
+  "topic": "Thermodynamics & Free Energy",
+  "points": 3,
+  "title": "Which way does the energy flow?",
+  "prompt": "Match each process to the description of its energetics.",
+  "leftLabel": "Process",
+  "rightLabel": "Energetics",
+  "pairs": [
+   {
+    "left": "Joining two amino acids by a peptide bond, on its own (uncoupled)",
+    "right": "Endergonic; joins monomers by condensation (anabolic)"
+   },
+   {
+    "left": "Oxidizing glucose to CO2 and water",
+    "right": "Exergonic; catabolic, and its energy is used to remake ATP"
+   },
+   {
+    "left": "ATP + H2O → ADP + Pi",
+    "right": "Exergonic: ΔG = −7.3 kcal/mol"
+   },
+   {
+    "left": "ADP + Pi → ATP + H2O",
+    "right": "Endergonic: ΔG = +7.3 kcal/mol"
+   },
+   {
+    "left": "Glucose + ATP → glucose-6-phosphate + ADP",
+    "right": "Coupled reaction with a negative net ΔG"
+   }
+  ],
+  "explanation": "Anabolic building, on its own, needs energy (+ΔG); catabolic breakdown releases it (−ΔG), and cells capture some of it to remake ATP. ATP hydrolysis (−7.3 kcal/mol) is the exergonic half that cells couple to endergonic steps; running it in reverse flips the sign to +7.3; and adding the coupled ΔG values (+3.3 − 7.3) gives −4.0 kcal/mol.",
+  "links": "Exergonic vs endergonic · Anabolism vs catabolism · Coupling"
+ },
+ {
+  "id": 2017,
+  "type": "combo",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 3,
+  "title": "Two paths, one reaction",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Curves 1 and 2 show the same reaction, with and without an enzyme.<br><br><b>(나)</b> a, b and c mark three energy differences.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Curve 2 is the enzyme-catalyzed path; adding the enzyme replaces barrier a with the smaller barrier b.",
+    "correct": true,
+    "explanation": "Enzymes speed reactions by lowering the activation energy needed to reach the transition state."
+   },
+   {
+    "label": "ㄴ",
+    "text": "c is the same for both curves, so the enzyme doesn't change how much free energy the reaction releases.",
+    "correct": true,
+    "explanation": "c is ΔG, set by the reactant and product levels; it is the same with and without an enzyme."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Heating the enzyme until it unfolds would return the reaction to curve 1, because barrier b exists only while a folded active site binds the substrate and stabilizes the transition state.",
+    "correct": true,
+    "explanation": "The active site lowers the barrier by binding the substrate and stabilizing the transition state; it exists only in the folded protein, so a denatured enzyme no longer catalyzes (Module 5)."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Enzymes lower activation energy · ΔG unchanged · Active site needs folding (Module 5)",
+  "diagram": "enzyme_energy_profile"
+ },
+ {
+  "id": 2247,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 1,
+  "box": "In the diagram, curve 2 is the same reaction with an enzyme added, and c marks the free-energy difference between the reactants and the products.",
+  "claim": "So this reaction is endergonic, and the enzyme supplies the energy it needs to proceed.",
+  "answer": false,
+  "explanation": "Products below reactants means a negative ΔG: the reaction is exergonic. Enzymes don't supply energy or change ΔG; they only lower the barrier (a → b).",
+  "links": "Reading ΔG from a profile · What enzymes do",
+  "diagram": "enzyme_energy_profile"
+ },
+ {
+  "id": 2018,
+  "type": "combo",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 3,
+  "title": "Three encounters at the enzyme",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> X resembles the substrate in shape.<br><br><b>(나)</b> Y binds away from the active site and changes the enzyme's shape.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Adding a large excess of substrate could reduce X's effect, because substrate and X compete for the same site.",
+    "correct": true,
+    "explanation": "X is a competitive inhibitor: the more substrate there is, the more often substrate rather than X wins the active site."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Raising the substrate concentration would overcome Y's effect as well as it overcomes X's.",
+    "correct": false,
+    "explanation": "Y is a noncompetitive inhibitor: it binds elsewhere and distorts the active site, so adding substrate can't push it out."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Washing the enzyme free of X by dialysis would restore its full activity.",
+    "correct": true,
+    "explanation": "Because extra substrate can outcompete X, X must bind and come off again: it is a reversible inhibitor, so washing it away restores activity."
+   }
+  ],
+  "choices": [
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Competitive vs noncompetitive inhibition · Reversible vs irreversible",
+  "diagram": "inhibition_modes"
+ },
+ {
+  "id": 2248,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 2,
+  "box": "Aspirin covalently attaches a small chemical group (an acetyl group) to an amino acid in the active site of the COX enzyme, which helps make inflammatory signals.",
+  "claim": "Aspirin is therefore an irreversible inhibitor: the affected enzyme molecules stay inactive until the cell makes new ones.",
+  "answer": true,
+  "explanation": "A covalent change to the active site doesn't wear off, so the enzyme stays blocked; only newly made COX restores activity. Blood platelets have no nucleus and can't make new COX, which is why one aspirin's effect on them lasts for days.",
+  "links": "Irreversible inhibition · Real-world: aspirin"
+ },
+ {
+  "id": 2330,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 2,
+  "stem": "Methanol poisoning is treated with ethanol. Both are substrates of the same liver enzyme, which turns methanol into a toxic product. Which panel of the diagram best shows how ethanol helps?",
+  "options": [
+   "Panel 2: ethanol competes with methanol for the active site",
+   "Panel 3: ethanol binds elsewhere on the enzyme and reshapes it",
+   "Panel 1: ethanol helps methanol fit into the active site",
+   "Panel 3: ethanol permanently destroys the enzyme",
+   "Panel 2: ethanol binds permanently, so no product forms"
+  ],
+  "answerIndex": 0,
+  "explanation": "Ethanol and methanol fit the same active site, so plenty of ethanol keeps the enzyme busy (competitive inhibition) and slows toxic-product formation while the kidneys clear the methanol. Ethanol eventually leaves the site: the effect is reversible.",
+  "links": "Competitive inhibition · Real-world: methanol poisoning",
+  "diagram": "inhibition_modes"
+ },
+ {
+  "id": 2019,
+  "type": "combo",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 3,
+  "title": "Brakes on a branched pathway",
+  "stem": "Using the diagram, which statements in <보기> are correct?",
+  "box": "<b>(가)</b> D inhibits e2, the first enzyme on D's own branch.<br><br><b>(나)</b> F inhibits e4, the first enzyme on F's own branch.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "When D is plentiful, B can still be used to make E and F instead of being spent on more D.",
+    "correct": true,
+    "explanation": "Blocking e2 shuts only D's branch; B remains available to e4, so making F continues."
+   },
+   {
+    "label": "ㄴ",
+    "text": "If D instead inhibited e1, a surplus of D would leave the making of F unaffected.",
+    "correct": false,
+    "explanation": "e1 makes B, which both branches need. Inhibiting e1 would starve the F branch too — which is why feedback usually targets the first step after a branch."
+   },
+   {
+    "label": "ㄷ",
+    "text": "D must bind e2's active site in place of B, since feedback inhibition is a kind of competitive inhibition.",
+    "correct": false,
+    "explanation": "End products bind a regulatory (allosteric) site separate from the active site and change the enzyme's shape, as isoleucine does to threonine dehydratase; they don't compete with the substrate."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 0,
+  "links": "Feedback inhibition · Allosteric enzymes · Metabolic pathways",
+  "diagram": "branched_pathway"
+ },
+ {
+  "id": 2249,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 1,
+  "box": "Isoleucine, the end product of a five-step pathway that starts from threonine, binds the pathway's first enzyme (threonine dehydratase) at a site separate from its active site.",
+  "claim": "When isoleucine runs low, threonine dehydratase stays inhibited, because this kind of inhibition can't be reversed.",
+  "answer": false,
+  "explanation": "Allosteric feedback inhibition is reversible: as isoleucine is used up, it leaves the enzyme, the enzyme reactivates, and the pathway makes more. That's how the pathway matches supply to demand without wasting energy.",
+  "links": "Feedback inhibition is reversible · Allosteric regulation"
+ },
+ {
+  "id": 2331,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 2,
+  "stem": "In a single-chain enzyme, residues 40, 95 and 210 form the active site. A mutation at residue 150, far from all three, destroys the enzyme's activity. Which explanation fits best?",
+  "options": [
+   "It breaks the peptide bonds that link residues 40, 95 and 210 directly",
+   "It removes the disulfide bonds that join residues 40, 95 and 210",
+   "It changes the folding that brings residues 40, 95 and 210 together",
+   "It stops the substrate from dragging the three residues together",
+   "It breaks the α helix that holds residues 40, 95 and 210 side by side"
+  ],
+  "answerIndex": 2,
+  "explanation": "The active site is formed by residues far apart in the sequence that tertiary folding places side by side. Folding depends on the whole sequence, so a change at residue 150 can alter the fold and pull the three apart. Peptide bonds join only neighbouring residues, a helix brings together residues just a few apart, a disulfide joins only two cysteines, and the active site exists before the substrate binds.",
+  "links": "Active site formed by folding · Sequence determines folding (Module 5)"
+ },
+ {
+  "id": 2250,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 1,
+  "box": "When glucose binds hexokinase, the enzyme's two lobes swing closed around it like a clamp.",
+  "claim": "This fits the lock-and-key model better than induced fit, since the enzyme ends up perfectly shaped around glucose.",
+  "answer": false,
+  "explanation": "In the lock-and-key model the site already has the right shape. Hexokinase changes shape when glucose binds — the defining feature of induced fit.",
+  "links": "Induced fit vs lock-and-key"
+ },
+ {
+  "id": 2332,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 1,
+  "stem": "One molecule of an enzyme can convert thousands of substrate molecules per second. Which feature of the cycle E + S ⇌ ES ⇌ EP ⇌ E + P makes this possible?",
+  "options": [
+   "The enzyme becomes part of each product molecule",
+   "The enzyme is released unchanged at the end of each cycle",
+   "Each cycle transfers energy from the enzyme to the substrate",
+   "The enzyme makes ΔG more negative, so products form instantly",
+   "The ES complex is permanent, so binding never has to repeat"
+  ],
+  "answerIndex": 1,
+  "explanation": "After converting substrate to product in the active site, the enzyme lets the product go (EP → E + P) and is free to bind the next substrate. It is a catalyst: not consumed, not a source of energy, and no change to ΔG.",
+  "links": "The enzyme–substrate cycle · Catalysts aren't consumed"
+ },
+ {
+  "id": 2251,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 2,
+  "box": "Carbonic anhydrase speeds up CO2 + H2O → H2CO3 in body tissues and H2CO3 → CO2 + H2O in the lungs.",
+  "claim": "One enzyme speeds both directions because it lowers the barrier for the forward and reverse reactions alike, while concentrations decide which way the reaction runs.",
+  "answer": true,
+  "explanation": "An enzyme lowers the transition-state peak, which both directions must cross. Where CO2 is high (tissues) the reaction runs forward; where CO2 is being breathed out (lungs) it runs backward.",
+  "links": "Enzymes speed both directions · Concentrations set direction"
+ },
+ {
+  "id": 2109,
+  "type": "match",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 3,
+  "title": "What explains it?",
+  "prompt": "Match each observation about an enzyme to the explanation that fits.",
+  "leftLabel": "Observation",
+  "rightLabel": "Explanation",
+  "pairs": [
+   {
+    "left": "An enzyme heated to 90 °C and cooled again stays inactive",
+    "right": "Its chain unfolded, destroying the active site"
+   },
+   {
+    "left": "Mercury ions bind the enzyme's cysteines, and dialysis doesn't restore its activity",
+    "right": "Irreversible inhibition"
+   },
+   {
+    "left": "A pathway's end product shuts down its first enzyme",
+    "right": "Feedback inhibition of an allosteric enzyme"
+   },
+   {
+    "left": "A substrate look-alike slows the reaction, but extra substrate overcomes it",
+    "right": "Competitive inhibition"
+   },
+   {
+    "left": "A molecule that binds the enzyme doubles its reaction rate",
+    "right": "An activator"
+   }
+  ],
+  "explanation": "Activity depends on the folded active site; here, heating unfolded it and cooling didn't let the chain refold correctly. An inhibitor that can't be washed away = irreversible inhibition; product-triggered shutdown = feedback inhibition at an allosteric site; look-alikes compete for the active site; activators increase activity.",
+  "links": "Enzyme regulation · The active site needs folding"
+ },
+ {
+  "id": 2252,
+  "type": "tf",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 2,
+  "box": "Some drugs are designed to resemble a reaction's transition state rather than its substrate.",
+  "claim": "Such drugs bind an enzyme's active site even more tightly than the substrate does, since the active site is shaped to stabilize the transition state.",
+  "answer": true,
+  "explanation": "Enzymes lower activation energy by binding and stabilizing the transition state. A stable look-alike of that state fits the active site best of all and blocks it — the design idea behind several drugs.",
+  "links": "The active site stabilizes the transition state"
+ },
+ {
+  "id": 2333,
+  "type": "mc",
+  "mod": 6,
+  "topic": "Enzymes & Their Regulation",
+  "points": 1,
+  "stem": "Which observation supports the induced-fit model rather than the lock-and-key model?",
+  "options": [
+   "The substrate already fits the active site exactly before it binds",
+   "The enzyme acts on only one particular substrate",
+   "The enzyme speeds the reaction without being used up",
+   "ΔG is the same with and without the enzyme",
+   "The enzyme's shape changes measurably when the substrate binds"
+  ],
+  "answerIndex": 4,
+  "explanation": "Both models explain specificity and catalysis; what sets induced fit apart is that binding itself reshapes the enzyme around the substrate. A perfect pre-existing fit is the lock-and-key picture.",
+  "links": "Induced fit vs lock-and-key"
+ },
+ {
+  "id": 2020,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "Is every catalyst a protein?",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Module 6: chemical reactions in cells are catalyzed by proteins called enzymes.<br><br><b>(나)</b> Module 5: the peptidyl transferase center that forms each peptide bond is made of rRNA.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Because the peptidyl transferase is made of RNA, the bonds it forms between amino acids are phosphodiester bonds, like those in RNA itself (Module 2).",
+    "correct": false,
+    "explanation": "A catalyst doesn't change its product: the ribosome still joins the carboxyl group of one amino acid to the amino group of the next, forming a peptide (amide) bond. Phosphodiester bonds link nucleotides."
+   },
+   {
+    "label": "ㄴ",
+    "text": "(나) shows that at least one biological catalyst is an RNA molecule rather than a protein.",
+    "correct": true,
+    "explanation": "The catalytic heart of the ribosome is rRNA, so 'enzymes are proteins' has an important exception (catalytic RNAs are called ribozymes)."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Like a protein enzyme, the rRNA catalyst speeds peptide bond formation by lowering its activation energy, without changing its ΔG.",
+    "correct": true,
+    "explanation": "Every catalyst works by lowering the barrier to the transition state; none changes the free-energy difference between reactants and products."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Ribozymes · Catalysts lower activation energy · Peptide vs phosphodiester bonds (Module 2)"
+ },
+ {
+  "id": 2253,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "A protein made of two chains, 60 and 40 amino acids long, joined by one disulfide bond, is digested completely into free amino acids.",
+  "claim": "Breaking its peptide bonds by hydrolysis uses up 98 water molecules (Module 2).",
+  "answer": true,
+  "explanation": "A chain of n amino acids has n − 1 peptide bonds: 59 + 39 = 98. Each was made by releasing one H2O and each hydrolysis consumes one (Module 2). The disulfide bond between the chains joins side chains, so it isn't a peptide bond.",
+  "links": "Peptide bonds and hydrolysis (Module 2) · Disulfides aren't peptide bonds"
+ },
+ {
+  "id": 2254,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 2,
+  "box": "Stomach acid has a pH of about 2. At low pH, ionizable groups pick up H+ (Module 2).",
+  "claim": "At pH 2, a free alanine molecule (side chain –CH3) carries a net positive charge, because its carboxyl group is mostly protonated (–COOH) while its amino group stays –NH3+.",
+  "answer": true,
+  "explanation": "Alanine's only ionizable groups are the amino and carboxyl groups every amino acid carries on its α carbon; its –CH3 side chain has no charge. At physiological pH it carries H3N+ and COO- (no net charge). Lowering the pH adds H+ to the carboxylate and removes its negative charge, so mainly the +1 on the amino group remains.",
+  "links": "Amino acid charges · pH and ionization (Module 2)"
+ },
+ {
+  "id": 2255,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "A folded protein is held together by many hydrogen bonds, ionic bonds and van der Waals contacts, plus a few disulfide bonds.",
+  "claim": "Because each noncovalent contact is weak, together they contribute little; the disulfide bonds do almost all the work of holding the shape.",
+  "answer": false,
+  "explanation": "Each weak interaction is far weaker than a covalent bond (Module 2), but a folded protein has hundreds of them, and together they hold the fold. Many proteins have no disulfide bonds at all.",
+  "links": "Weak bonds add up (Module 2) · Tertiary interactions"
+ },
+ {
+  "id": 2021,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "One gene, two hosts",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> E. coli (Module 1) has no nucleus, and its mRNAs have no 5' cap.<br><br><b>(나)</b> Human mRNAs are capped and processed in the nucleus before export (Module 4).",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "An E. coli ribosome must wait until transcription of an mRNA is complete before it can begin translating it.",
+    "correct": false,
+    "explanation": "With no nuclear envelope in the way, bacterial ribosomes start on the 5' end of an mRNA while RNA polymerase is still making the rest (Module 4)."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Antibiotics that block bacterial ribosomes should block human cytosolic ribosomes just as well, since both have A, P and E sites.",
+    "correct": false,
+    "explanation": "Both share the same stages and sites, but bacterial ribosomes are smaller and structurally different; many antibiotics exploit those differences and spare human cytosolic ribosomes."
+   },
+   {
+    "label": "ㄷ",
+    "text": "A human gene placed in E. coli needs a Shine-Dalgarno-type sequence upstream of its AUG to be translated efficiently.",
+    "correct": true,
+    "explanation": "Bacterial ribosomes find start codons by pairing with Shine-Dalgarno sequences, not caps, so a bacterial ribosome-binding sequence must be supplied."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Translation in prokaryotes vs eukaryotes (Modules 1, 4, 5)"
+ },
+ {
+  "id": 2256,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "A test tube holds a viral mRNA, free amino acids, ATP, GTP and purified ribosomes, but no viral protein is made.",
+  "claim": "The missing ingredients are host-cell parts such as tRNAs, aminoacyl tRNA synthetases and translation factors, which a virus doesn't make for itself (Module 1).",
+  "answer": true,
+  "explanation": "Translation needs more than ribosomes: tRNAs, synthetases to charge them, and initiation, elongation and release factors. Viruses have genes but no translation machinery or metabolism of their own (Module 1), so inside a cell they borrow all of these from the host.",
+  "links": "Components of translation · Viruses aren't cells (Module 1)"
+ },
+ {
+  "id": 2257,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 2,
+  "box": "Euglena, a single-celled protist, photosynthesizes in the light; kept in the dark, it absorbs organic molecules from the water for both energy and carbon.",
+  "claim": "In the dark, Euglena belongs in the same cell of the diagram as fungi (Module 1).",
+  "answer": true,
+  "explanation": "In the dark Euglena gets energy and carbon from organic molecules: cell D, the chemoheterotrophs. Fungi are heterotrophs that absorb organic molecules for both energy and carbon (Module 1), so they belong in D too. In the light, Euglena moves to A (photoautotroph).",
+  "links": "Metabolic classes · Protist nutrition (Module 1)",
+  "diagram": "metabolic_classification_grid"
+ },
+ {
+  "id": 2258,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "Enzymes called kinases switch many proteins on or off by attaching a phosphate group to the –OH of a serine side chain.",
+  "claim": "This adds negative charge where a neutral polar side chain used to be, which can change the protein's shape or what it binds.",
+  "answer": true,
+  "explanation": "A phosphate group is ionized at physiological pH (Module 2), so phosphorylation turns a polar, uncharged side chain into a negatively charged one. New ionic attractions and repulsions can reshape the protein — a post-translational switch.",
+  "links": "Post-translational modification · Phosphate groups are charged (Module 2)"
+ },
+ {
+  "id": 2259,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "A tRNA is a single RNA strand of 70–90 nucleotides folded into a cloverleaf.",
+  "claim": "A mutation that changes one base in a stem, so it can no longer pair with its partner, would weaken the cloverleaf even though the covalent backbone is unchanged (Module 2).",
+  "answer": true,
+  "explanation": "The stems form when complementary stretches of the single strand pair (A–U, G–C) through hydrogen bonds. Losing one pair removes some of those weak bonds and loosens the fold, while the covalent backbone that holds the chain together is untouched.",
+  "links": "tRNA structure · Weak vs covalent bonds (Module 2)"
+ },
+ {
+  "id": 2022,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "What it costs to build a protein",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Each amino acid is attached to its tRNA by a synthetase that spends ATP.<br><br><b>(나)</b> Joining amino acids is a condensation reaction (Module 2).",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Building a protein is anabolic: it forms new bonds between monomers and needs an energy input.",
+    "correct": true,
+    "explanation": "Assembling a polymer from monomers is anabolism, and it is endergonic overall."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Spending ATP to charge tRNAs couples an exergonic reaction to the endergonic job of joining amino acids, making the overall process favourable.",
+    "correct": true,
+    "explanation": "Energy from ATP hydrolysis is stored in the bond between the amino acid and its tRNA and released when the peptide bond forms — energetic coupling."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Peptide bond formation is strongly exergonic on its own, which is why making proteins needs no ATP.",
+    "correct": false,
+    "explanation": "Joining amino acids by condensation needs energy — it's the reverse of exergonic hydrolysis (Module 2). Cells pay with the ATP spent charging tRNAs."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Anabolism · Energetic coupling · Condensation (Module 2)"
+ },
+ {
+  "id": 2334,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 2,
+  "stem": "The Na+/K+ pump (Module 3) uses about a third of a resting cell's ATP. Where does the energy released by that ATP go?",
+  "options": [
+   "Part is stored in the ion gradients and part is released as heat",
+   "It stays in the pump protein's phosphate bond until the next cycle",
+   "It becomes kinetic energy that keeps the pumped ions moving outward",
+   "It is used up and destroyed as the ions are pushed uphill",
+   "It flows straight back into ATP whenever the ions leak back"
+  ],
+  "answerIndex": 0,
+  "explanation": "Pushing ions up their gradients stores potential energy (Module 3), but no energy conversion is 100% efficient (second law), so some of ATP's energy is released as heat. None is destroyed (first law).",
+  "links": "First and second laws · Gradients store energy (Module 3)"
+ },
+ {
+  "id": 2260,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "Histones (Module 4) are proteins that package DNA inside the nucleus.",
+  "claim": "They reach the nucleus in vesicles budding from the rough ER, like proteins headed for secretion.",
+  "answer": false,
+  "explanation": "Histones are made on free ribosomes in the cytosol and carry an internal signal sequence that directs their active import through the nuclear pores (Module 3). The ER and vesicle route serves secreted and endomembrane proteins; it doesn't deliver proteins into the nucleus.",
+  "links": "Internal signal → nucleus · Nuclear pores (Module 3)"
+ },
+ {
+  "id": 2110,
+  "type": "match",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "Module 2 chemistry, Module 5–6 jobs",
+  "prompt": "Match each event to the bond, interaction or reaction (from Module 2) behind it.",
+  "leftLabel": "Event",
+  "rightLabel": "Bond or reaction",
+  "pairs": [
+   {
+    "left": "Joining two amino acids on the ribosome",
+    "right": "A peptide (amide) bond formed by condensation"
+   },
+   {
+    "left": "A lysine and a glutamate side chain holding two parts of a fold together",
+    "right": "An ionic bond between opposite charges"
+   },
+   {
+    "left": "A codon pairing with an anticodon",
+    "right": "Hydrogen bonds between complementary bases"
+   },
+   {
+    "left": "ATP releasing energy to power a pump",
+    "right": "Hydrolysis of a bond between phosphate groups"
+   },
+   {
+    "left": "Holding an α helix in its coil",
+    "right": "Hydrogen bonds between backbone C=O and N–H groups"
+   }
+  ],
+  "explanation": "The same few bond types do every job: condensation builds peptide bonds; opposite charges on side chains form ionic bonds; complementary bases hydrogen-bond in nucleic acids; hydrolysis splits ATP's phosphate bonds; and backbone C=O and N–H groups hydrogen-bond in secondary structure.",
+  "links": "Bond types (Module 2) across Modules 5–6"
+ },
+ {
+  "id": 2335,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 2,
+  "stem": "Most cases of achondroplasia, the most common form of dwarfism, come from one base change in the FGFR3 gene: codon 380 changes from GGG to AGG on the nontemplate strand. Using the genetic code table, what happens to the protein?",
+  "options": [
+   "mRNA codon CCC becomes UCC, so Ser replaces Pro",
+   "mRNA codon GGG becomes AGG, which ribosomes can't read",
+   "The reading frame shifts, changing every later amino acid",
+   "mRNA codon GGG becomes AGG, so Arg replaces Gly",
+   "Nothing, since the genetic code is redundant"
+  ],
+  "answerIndex": 3,
+  "explanation": "The mRNA matches the nontemplate strand with U for T (Module 4): GGG (Gly) → AGG (Arg). A single substitution changes one codon and one amino acid without shifting the frame, and it isn't silent, because AGG codes for a different amino acid.",
+  "links": "Nontemplate strand → mRNA (Module 4) · Reading the code · Real-world: achondroplasia",
+  "diagram": "genetic_code_table"
+ },
+ {
+  "id": 2023,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "From frying pan to stomach",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Cooking a piece of fish unfolds (denatures) its proteins.<br><br><b>(나)</b> In the stomach, the enzyme pepsin hydrolyzes their peptide bonds, working best near pH 2.",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Denatured proteins are easier for pepsin to cut, because unfolding exposes peptide bonds that were buried inside the fold.",
+    "correct": true,
+    "explanation": "An unfolded chain gives the enzyme's active site access to more of the backbone — one reason cooked protein is easier to digest."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Pepsin is itself a protein, so in the small intestine it is eventually digested too.",
+    "correct": true,
+    "explanation": "Pepsin is inactivated at the intestine's higher pH, and its peptide bonds are hydrolyzed by intestinal protein-digesting enzymes."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Pepsin speeds digestion only by lowering the activation energy of peptide-bond hydrolysis, which is already exergonic as the reverse of condensation (Module 2).",
+    "correct": true,
+    "explanation": "Hydrolysis is the reverse of the energy-requiring condensation that formed the peptide bond, so it is favourable on its own; pepsin just makes it fast, without changing ΔG."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 4,
+  "links": "Denaturation · Hydrolysis (Module 2) · Enzymes are proteins · Digestion"
+ },
+ {
+  "id": 2261,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "During a high fever, body temperature rises from 37°C to about 41°C.",
+  "claim": "Because molecules move faster when warmer, the higher a fever climbs, the faster the body's enzymes can work.",
+  "answer": false,
+  "explanation": "Up to a point, more kinetic energy speeds reactions. But extra heat also disrupts the weak hydrogen bonds and other interactions that hold an enzyme's fold (Module 2); some enzymes start to unfold and lose activity at high temperatures.",
+  "links": "Temperature, kinetic energy and protein folding (Modules 2, 5, 6)"
+ },
+ {
+  "id": 2024,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "Supplying the mitochondria",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Mitochondria have their own DNA and bacteria-like ribosomes (Module 3).<br><br><b>(나)</b> Most mitochondrial proteins are nonetheless encoded by genes in the nucleus (Module 5).",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Nuclear-encoded mitochondrial proteins are made on free ribosomes in the cytosol and carry an amino-terminal signal for import.",
+    "correct": true,
+    "explanation": "Proteins for mitochondria and chloroplasts are made in the cytosol and directed by an amino-terminal signal sequence."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Proteins encoded by mitochondrial DNA are made in the cytosol and then imported, using an amino-terminal signal.",
+    "correct": false,
+    "explanation": "Genes in mitochondrial DNA are transcribed and translated inside the mitochondrion, on its own bacteria-like ribosomes (Module 3); only nuclear-encoded proteins need importing."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Attaching a mitochondrial protein's amino-terminal signal to a normally cytosolic protein would send that protein into mitochondria.",
+    "correct": true,
+    "explanation": "The signal sequence is the address label: moved onto another protein, it directs that protein to the mitochondria instead."
+   }
+  ],
+  "choices": [
+   "ㄷ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 2,
+  "links": "Sorting to mitochondria · Semi-autonomous organelles (Module 3)"
+ },
+ {
+  "id": 2262,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "Mature human red blood cells have lost their nucleus and their ribosomes.",
+  "claim": "They therefore can't replace damaged hemoglobin, since making new protein requires ribosomes to translate mRNA.",
+  "answer": true,
+  "explanation": "No ribosomes means no translation (and no nucleus means no new mRNA). A red blood cell works with the hemoglobin it was built with and is replaced after about 120 days.",
+  "links": "Ribosomes are required for translation · Cell structure and function (Module 1)"
+ },
+ {
+  "id": 2025,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "The same push from water",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Phospholipid tails cluster in the interior of the bilayer (Module 3).<br><br><b>(나)</b> Nonpolar side chains cluster in the interior of a folded protein (Module 5).",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "Both are held together by covalent bonds between neighbouring nonpolar groups.",
+    "correct": false,
+    "explanation": "No covalent bonds join the tails or the clustered side chains; the clusters can rearrange, which is why membranes are fluid."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Both clusterings are driven mainly by water molecules hydrogen-bonding with one another and excluding nonpolar groups (Module 2).",
+    "correct": true,
+    "explanation": "Water's network of hydrogen bonds pushes nonpolar groups together; the attraction between the nonpolar groups themselves is weak."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Mild detergents can pull an integral membrane protein out of the bilayer still folded, because their nonpolar tails coat its membrane-spanning segment (Module 3).",
+    "correct": true,
+    "explanation": "The membrane-spanning segment's side chains are mostly nonpolar. Mild detergent tails cover them while the polar heads face water, standing in for the lipids — how membrane proteins are extracted for study. Harsh detergents such as SDS unfold proteins instead."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 3,
+  "links": "Hydrophobic effect (Module 2) · Bilayers (Module 3) · Protein folding (Module 5)"
+ },
+ {
+  "id": 2263,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 2,
+  "box": "RNA polymerase adds each nucleotide using energy from the incoming nucleoside triphosphate, releasing pyrophosphate (Module 4).",
+  "claim": "This is energetic coupling: splitting off pyrophosphate is exergonic and drives the endergonic formation of a phosphodiester bond.",
+  "answer": true,
+  "explanation": "Forming a phosphodiester bond by condensation needs energy; breaking the phosphate–phosphate bond of the incoming triphosphate releases it. The two steps are linked, so the net ΔG is negative — the same strategy ATP-driven reactions use.",
+  "links": "Energetic coupling · Nucleotide polymerization (Module 4)"
+ },
+ {
+  "id": 2264,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "During a long fast, fat cells break their stored triacylglycerols (fats) into glycerol and fatty acids, which other tissues then use for energy.",
+  "claim": "Unlike glycogen, a triacylglycerol isn't a polymer built from repeating monomers, and breaking it down this way counts as catabolism.",
+  "answer": true,
+  "explanation": "Both parts hold. Catabolism is the breakdown of molecules into smaller units, releasing energy, and the notes' figure on anabolism and catabolism includes lipids → fatty acids. And unlike glycogen, a chain of glucose monomers, a triacylglycerol is glycerol plus three fatty acids, not a repeating chain: lipids are the only macromolecule that isn't a polymer (Module 2).",
+  "links": "Catabolism · Lipids aren't polymers (Module 2) · Real-world: fasting"
+ },
+ {
+  "id": 2336,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 2,
+  "stem": "Becker and Duchenne muscular dystrophy are often caused by deletions in the dystrophin gene. In patient A, the missing exon held 150 nucleotides of coding sequence; in patient B, it held 151. A has mild Becker disease and makes a shorter but partly working dystrophin; B has severe Duchenne disease. Which explanation fits best?",
+  "options": [
+   "A loses a multiple of 3 nucleotides and keeps its frame; B's frame shifts",
+   "B loses one more nucleotide than A, so its protein is just one amino acid shorter",
+   "Only B's deletion removes the start codon, so no translation can begin at all",
+   "A's deletion is silent because the code is redundant, but B's deletion is not",
+   "B's exon held the stop codon, so its ribosomes run off the end of the mRNA"
+  ],
+  "answerIndex": 0,
+  "explanation": "A missing exon simply drops its nucleotides from the spliced mRNA (Module 4). 150 is a multiple of 3, so after the gap A's ribosomes keep reading in the normal frame: the protein lacks about 50 amino acids but still partly works. 151 is not, so every codon after B's gap is read in the wrong frame, and a stop codon soon ends the chain.",
+  "links": "Reading frame · Nonoverlapping triplets · Exons and splicing (Module 4) · Real-world: muscular dystrophy"
+ },
+ {
+  "id": 2026,
+  "type": "combo",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "An antibiotic that garbles proteins",
+  "stem": "Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Streptomycin binds the small subunit of bacterial ribosomes and makes them misread codons.<br><br><b>(나)</b> In bacteria, genes are transcribed by RNA polymerase and translated by ribosomes (Module 4).",
+  "statements": [
+   {
+    "label": "ㄱ",
+    "text": "The bacterium's mRNAs would carry altered codons, since the drug changes the genetic message.",
+    "correct": false,
+    "explanation": "The mRNAs are transcribed normally from the DNA; the drug acts on ribosomes, making them misread correct codons."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Misreading puts wrong amino acids at scattered positions, producing many misfolded, nonfunctional proteins.",
+    "correct": true,
+    "explanation": "A wrong codon–anticodon match inserts the wrong amino acid; changed primary structure can derail folding across the cell's proteins."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Because codons are read in triplets, each misreading shifts the reading frame for the rest of the protein.",
+    "correct": false,
+    "explanation": "Misreading a codon substitutes one amino acid; the ribosome still moves three bases at a time, so the frame is kept."
+   }
+  ],
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄷ",
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
+  ],
+  "answerIndex": 1,
+  "links": "Ribosome accuracy · Reading frame · Transcription vs translation (Module 4)"
+ },
+ {
+  "id": 2265,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "In a polypeptide backbone, the O of each C=O and the N of each N–H are more electronegative than the atoms they're bonded to (Module 2).",
+  "claim": "This polarity is what allows a C=O of one residue and an N–H of another to form the hydrogen bonds of helices and sheets.",
+  "answer": true,
+  "explanation": "Electronegative O and N pull electrons toward themselves, giving the O a partial negative charge and the H on N a partial positive charge — the ingredients of a hydrogen bond (Module 2). Secondary structure is built from these backbone H-bonds.",
+  "links": "Electronegativity and H-bonds (Module 2) · Secondary structure"
+ },
+ {
+  "id": 2111,
+  "type": "match",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 3,
+  "title": "Where in the cell?",
+  "prompt": "Match each event to where it happens in a human cell.",
+  "leftLabel": "Event",
+  "rightLabel": "Location",
+  "pairs": [
+   {
+    "left": "Adding a 5' cap to a primary transcript",
+    "right": "Nucleus"
+   },
+   {
+    "left": "Charging tRNAs with their amino acids",
+    "right": "Cytosol"
+   },
+   {
+    "left": "Translating the mRNA for a secreted protein once SRP has docked",
+    "right": "Ribosomes on the rough ER"
+   },
+   {
+    "left": "Cutting off the signal sequence of a secreted protein",
+    "right": "ER lumen side of the ER membrane"
+   },
+   {
+    "left": "Moving the finished mRNA out to the cytosol",
+    "right": "Nuclear pores"
+   }
+  ],
+  "explanation": "RNA processing happens in the nucleus, and the finished mRNA leaves through nuclear pores (Module 3); tRNA charging and the start of translation of nuclear-encoded mRNAs happen in the cytosol; SRP moves a secretory protein's translation to the rough ER, where the signal sequence is removed on the lumen side.",
+  "links": "Where each step of gene expression happens (Modules 3, 4, 5)"
+ },
+ {
+  "id": 2266,
+  "type": "tf",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 1,
+  "box": "Module 1 lists acquiring and using energy as a property of every cell, including plant cells.",
+  "claim": "Even a photoautotroph's cells need ATP, because light cannot directly power processes such as protein synthesis.",
+  "answer": true,
+  "explanation": "Light energy is first captured as chemical energy (ATP and sugars). ATP is the currency that actually drives cellular work everywhere in the plant, including root cells that never see light.",
+  "links": "ATP as universal currency · Cells acquire and use energy (Module 1)"
+ },
+ {
+  "id": 2337,
+  "type": "mc",
+  "mod": 0,
+  "topic": "Connecting Modules 1–6",
+  "points": 2,
+  "stem": "If a cell's Na+/K+ pumps stop (Module 3), its Na+ gradient runs down within minutes. Which principle explains why the gradient doesn't simply stay put?",
+  "options": [
+   "Energy can be neither created nor destroyed, only converted to new forms",
+   "Enzymes lower the activation energy that a reaction has to overcome",
+   "A reaction run in reverse has a ΔG of the same size but opposite sign",
+   "Spontaneous change runs downhill in energy, toward more disorder",
+   "Coupled reactions must share an intermediate, such as a phosphate"
+  ],
+  "answerIndex": 3,
+  "explanation": "A gradient is an ordered, high-energy state, and the second law says events run from higher to lower energy and toward more disorder, so ions leak back until the gradient is gone. The other statements are true principles, but none explains why the gradient runs down; only continual pumping, paid for with ATP, holds it in place.",
+  "links": "Second law · Gradients store potential energy (Module 3)"
+ }
+]

@@ -1,0 +1,3879 @@
+[
+  {
+    "id": 1,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Gene to protein, bond by bond",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> A gene is the DNA sequence that codes for a functional product.<br><br><b>(나)</b> The central dogma describes how that DNA sequence becomes a protein.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Transcription builds the RNA strand via phosphodiester bonds formed 5'→3'.",
+        "correct": true,
+        "explanation": "Phosphodiester bonds link one nucleotide's phosphate to the next's 3'-OH, so synthesis always extends 5'→3'."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Translation builds the polypeptide via peptide bonds, which form by condensation, releasing water.",
+        "correct": true,
+        "explanation": "Peptide bond formation is a condensation reaction: each new bond releases one water molecule as amino acids join."
+      },
+      {
+        "label": "ㄷ",
+        "text": "E. coli is convenient for studying this whole pathway because its DNA isn't separated from its ribosomes by a nuclear envelope.",
+        "correct": true,
+        "explanation": "As a prokaryote, E. coli has no nucleus, so transcription and translation can occur in the same compartment, even on the same mRNA."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 4,
+    "links": "Central dogma · Gene definition · E. coli",
+    "diagram": "central_dogma_flowchart"
+  },
+  {
+    "id": 2,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "ATP's double identity",
+    "stem": "Read (A) and (B) below. Which statements in <보기> are correct?",
+    "box": "<b>(A)</b> ATP: adenine + ribose + three phosphate groups.<br><br><b>(B)</b> cAMP and NAD are also built on a base + sugar + phosphate scaffold.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "ATP counts as a nucleotide structurally, even though it's never incorporated into a nucleic acid strand.",
+        "correct": true,
+        "explanation": "The base+sugar+phosphate architecture is the structural definition of a nucleotide — nothing requires polymerization into DNA/RNA."
+      },
+      {
+        "label": "ㄴ",
+        "text": "The \"high energy\" in ATP resides in the bonds between its second and third phosphate groups.",
+        "correct": true,
+        "explanation": "The high-energy bonds are between the 2nd and 3rd phosphate groups (AMP→ADP→ATP) — this is exactly why hydrolyzing off a phosphate releases usable energy."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Because (B) shares ATP's scaffold, \"nucleotide\" is a structural classification, not a statement about function.",
+        "correct": true,
+        "explanation": "ATP, cAMP, and NAD are repurposed for energy transfer, signaling, and catalysis support respectively — all while remaining structural nucleotides."
+      }
+    ],
+    "choices": [
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 4,
+    "links": "ATP structure · Nucleotide as scaffold"
+  },
+  {
+    "id": 3,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "One reaction pair, three macromolecules",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Peptide bond formation between two amino acids.<br><br><b>(나)</b> Phosphodiester bond formation between two nucleotides.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Both (가) and (나) release one water molecule as they form.",
+        "correct": true,
+        "explanation": "Both are condensation reactions — the defining feature of condensation is releasing water as monomers join."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Hydrolyzing the bond in (가) would release energy, since hydrolysis is the reverse of the energy-requiring condensation reaction.",
+        "correct": true,
+        "explanation": "Hydrolysis is the reverse reaction: it consumes water and releases energy, rather than requiring it."
+      },
+      {
+        "label": "ㄷ",
+        "text": "If a polysaccharide were built the same way as (가) and (나), a glycosidic bond would also form by releasing water.",
+        "correct": true,
+        "explanation": "Glycosidic bonds form between monosaccharides by the same condensation logic, releasing water."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 4,
+    "links": "Condensation vs hydrolysis across macromolecules"
+  },
+  {
+    "id": 4,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Why a phospholipid and not a triacylglycerol",
+    "stem": "Read (가)–(다) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Property 1 of a cell: membrane-enclosed cytoplasm.<br><br><b>(나)</b> A phospholipid: glycerol + two fatty acid tails + one phosphate head group.<br><br><b>(다)</b> A triacylglycerol: glycerol + three fatty acid tails.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(나) is amphipathic, which is why it self-assembles into a bilayer rather than a droplet like (다).",
+        "correct": true,
+        "explanation": "Two hydrophobic tails plus one hydrophilic head makes (나) amphipathic; (다)'s three tails make it uniformly hydrophobic."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(다) would work just as well as (나) for satisfying (가), since both contain glycerol.",
+        "correct": false,
+        "explanation": "(다) has no polar head group, so it just clumps into a droplet — it can't wrap around an aqueous cytoplasm the way a bilayer does."
+      },
+      {
+        "label": "ㄷ",
+        "text": "The hydrophilic behavior of (나)'s head group would still occur even in a nonpolar solvent, since it's an inherent property of the head group alone.",
+        "correct": false,
+        "explanation": "This is backwards — \"hydrophilic\" specifically describes favorable interaction with water's own polar/charged nature; the term is defined relative to water, not an isolated inherent property."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 0,
+    "links": "Amphipathic phospholipids · Membrane property",
+    "diagram": "phospholipid_bilayer"
+  },
+  {
+    "id": 5,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "pH, charge, and the active site",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> An enzyme's active site depends on the protein's precise 3D fold.<br><br><b>(나)</b> Amino and carboxyl R-groups are ionizable functional groups.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Moving the enzyme from its optimal pH into a strongly acidic solution changes the charge on the groups in (나).",
+        "correct": true,
+        "explanation": "Ionizable groups' protonation state depends on H+ concentration — that's what pH measures."
+      },
+      {
+        "label": "ㄴ",
+        "text": "That charge change only affects surface-exposed groups, never residues that form the active site itself.",
+        "correct": false,
+        "explanation": "Active-site residues are frequently ionizable and directly involved in catalysis (e.g. proton transfer) — they are especially, not immune to, pH-driven charge changes."
+      },
+      {
+        "label": "ㄷ",
+        "text": "This means an enzyme's function depends only on its amino acid sequence, never on the surrounding solution.",
+        "correct": false,
+        "explanation": "The scenario itself shows the opposite — the surrounding solution's pH can disrupt function even with the sequence unchanged."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄷ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 0,
+    "links": "pH · Functional group charge · Protein folding"
+  },
+  {
+    "id": 6,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "What an enzyme actually changes",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Glycolysis and the citric acid cycle are metabolic reactions (property 5).<br><br><b>(나)</b> Enzymes catalyze these reactions.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(나) lowers the activation energy needed to reach the transition state.",
+        "correct": true,
+        "explanation": "This is exactly what a catalyst does — it speeds the rate of reaching equilibrium."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나) speeds the reaction by stabilizing the transition state, without being consumed itself.",
+        "correct": true,
+        "explanation": "A catalyst lowers the energy barrier and emerges from the reaction unchanged, ready to catalyze again."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Without (나), reactions in (가) would still reach the same equilibrium eventually, just more slowly.",
+        "correct": true,
+        "explanation": "Since the enzyme doesn't change the energetics, the same equilibrium is reached — only the rate differs."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄱ, ㄴ, ㄷ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 1,
+    "links": "Enzymes: rate vs energetics"
+  },
+  {
+    "id": 7,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Two kinds of reproduction, one tenet",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> A bacterium reproducing by binary fission.<br><br><b>(나)</b> A virus replicating inside a host cell.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) satisfies tenet 3 as long as the cell eventually splits in two, regardless of whether its DNA was duplicated first.",
+        "correct": false,
+        "explanation": "Tenet 3 specifically requires DNA duplication before division — division alone, without a complete duplicated genome for each daughter cell, wouldn't satisfy it."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나) also satisfies tenet 3, since new virus particles are produced from an existing one.",
+        "correct": false,
+        "explanation": "The virus itself was never a cell, and no cell-to-cell division occurs — it hijacks host machinery instead."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(나) is treated as an exception to cell theory specifically because it isn't a cell and cannot replicate without a host.",
+        "correct": true,
+        "explanation": "This is exactly why viruses sit outside cell theory rather than being classified as unusual minimal cells."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄷ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 1,
+    "links": "Tenet 3 · Binary fission · Virus exception"
+  },
+  {
+    "id": 8,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Cytoskeleton and centrosome, non-EMS partners",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> The cytoskeleton: a protein filament network, no membrane.<br><br><b>(나)</b> The centrosome: organizes cytoskeletal filaments during division.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) is classified as EMS, unlike (나), because it physically contacts vesicles during transport.",
+        "correct": false,
+        "explanation": "Contact isn't the criterion, and this is factually backwards — (가), the cytoskeleton, is classified non-EMS, exactly like (나)."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Both fail the EMS criterion because neither participates in membrane-based vesicle trafficking.",
+        "correct": true,
+        "explanation": "This is the actual EMS criterion — not \"has a membrane,\" but participation in the trafficking network."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(가) is the one that organizes and directs the process, while (나) supplies the mechanical apparatus itself.",
+        "correct": false,
+        "explanation": "The roles are reversed: the cytoskeleton supplies the mechanical apparatus; the centrosome organizes and directs it."
+      }
+    ],
+    "choices": [
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 0,
+    "links": "Cytoskeleton · Centrosome · Non-EMS"
+  },
+  {
+    "id": 9,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Where molecular diversity actually comes from",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Only six elements (C, H, N, O, P, S) make up nearly all biological molecules.<br><br><b>(나)</b> Carbon can form up to four covalent bonds.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "The huge diversity of biological molecules comes mainly from having many different elements to combine.",
+        "correct": false,
+        "explanation": "The diversity comes from combinatorial arrangement (chains, rings, branches) enabled by (나), not from elemental variety — (가) explicitly says it's only six elements."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나) is what lets carbon build the chains, rings, and branches underlying all four macromolecule classes.",
+        "correct": true,
+        "explanation": "Four bonding sites give carbon an essentially unlimited structural scaffold."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Lipids don't qualify as organic molecules, since they aren't built from a repeating monomer.",
+        "correct": false,
+        "explanation": "\"Organic\" just means \"contains carbon\" — lipids still contain carbon, they're simply the one macromolecule class that isn't a polymer."
+      }
+    ],
+    "choices": [
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 0,
+    "links": "CHNOPS · Carbon bonding · Organic definition"
+  },
+  {
+    "id": 10,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Matching the model organism to the job",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> A researcher needs to trace the fate of every single cell from embryo to adult.<br><br><b>(나)</b> A researcher needs a simple system with authentic eukaryotic cell-cycle machinery.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) is best served by C. elegans, because its transparent body and invariant lineage let every division be tracked directly.",
+        "correct": true,
+        "explanation": "This transparency and fixed lineage is exactly why C. elegans was the first animal with a fully sequenced genome."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나) is best served by E. coli, since it's the fastest-growing model organism available.",
+        "correct": false,
+        "explanation": "E. coli is prokaryotic and has no nucleus-based cell cycle at all — S. cerevisiae, the \"minimal model eukaryote,\" is the fit for (나)."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Mus musculus would be preferred over both (가) and (나) whenever findings need to translate to mammalian biology.",
+        "correct": true,
+        "explanation": "As the \"model mammal,\" mouse findings translate to mammalian (including human) biology in a way C. elegans and yeast findings don't as directly."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 3,
+    "links": "Model organisms matched to purpose"
+  },
+  {
+    "id": 11,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "What Hooke's cork couldn't show",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Hooke (1665): observed empty cell walls in dead cork.<br><br><b>(나)</b> Leeuwenhoek (1670s–1700): observed living \"animalcules\" in pond water.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) alone was sufficient evidence for \"all life is made of cells,\" since he identified the walled compartments.",
+        "correct": false,
+        "explanation": "Empty walls in dead tissue show structure, not life — a theory about living units needs evidence cells are alive."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나) supplied what (가) was missing: direct visual evidence that cells contain a nucleus.",
+        "correct": false,
+        "explanation": "Leeuwenhoek's contribution was observing live, moving organisms — direct evidence cells are living units — not resolving internal structures like the nucleus."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Electron microscopy would have revealed finer detail in both (가) and (나), because it uses a shorter-wavelength beam than light.",
+        "correct": true,
+        "explanation": "A shorter wavelength gives electron microscopy far higher resolution than the light microscopes Hooke and Leeuwenhoek used."
+      }
+    ],
+    "choices": [
+      "ㄷ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 0,
+    "links": "Hooke · Leeuwenhoek · Electron microscopy"
+  },
+  {
+    "id": 12,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Three scientists, three separate gaps",
+    "stem": "Read (가)–(다) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Schleiden (botanist): plant tissue is made of cells, embryos arise from one cell.<br><br><b>(나)</b> Schwann (zoologist): confirmed the same pattern in animal tissue.<br><br><b>(다)</b> Virchow (physician): cells arise only from pre-existing cells.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) alone was enough to establish tenets 1 and 2 for all of life, plant and animal alike.",
+        "correct": false,
+        "explanation": "One kingdom's observations don't generalize — that's exactly why (나)'s independent animal confirmation was still needed."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(다) addressed a logically separate question from (가) and (나): origin, not composition.",
+        "correct": true,
+        "explanation": "Whether cells are made of cells (composition) is a different question from where new cells come from (origin)."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Because both unicellular and multicellular organisms needed confirming, (가)+(나)+(다) together were needed to establish the theory's claimed universality.",
+        "correct": true,
+        "explanation": "No single scientist's observations at one complexity level or kingdom could generalize to the others."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 3,
+    "links": "Cell theory founders · Unicellular vs multicellular"
+  },
+  {
+    "id": 13,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Structure doesn't always track ancestry",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Archaea: isoprenoid cell membrane, often extreme environments.<br><br><b>(나)</b> The three-domain tree places Eukarya as having descended from within Archaea.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Based on (나), Archaea is evolutionarily closer to Eukarya than Bacteria is.",
+        "correct": true,
+        "explanation": "Branching from within Archaea means Eukarya shares more recent common ancestry with Archaea than with Bacteria."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Despite this close relatedness, Archaea still shares the defining prokaryotic trait of having no nucleus, just like Bacteria.",
+        "correct": true,
+        "explanation": "Archaea remains structurally prokaryotic (no nucleus) even though it's evolutionarily closer to Eukarya than Bacteria is — relatedness and structure are separate axes."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Gross structural similarity is therefore not a reliable guide to evolutionary relatedness in this case.",
+        "correct": true,
+        "explanation": "Eukarya's very different structure from Archaea, despite close relatedness, demonstrates exactly this."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄱ, ㄴ, ㄷ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 1,
+    "links": "Eukarya from within Archaea"
+  },
+  {
+    "id": 14,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "Two boundaries, one universal",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Prokaryotes lack a cytoskeleton.<br><br><b>(나)</b> The plasma membrane is present in every cell across all three domains of life.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Because of (가), prokaryotes rely on their cell wall for structural support instead.",
+        "correct": true,
+        "explanation": "Without a cytoskeleton, the rigid protein-based cell wall provides mechanical support."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Since (나) says the plasma membrane is universal, the cell wall must be universal too.",
+        "correct": false,
+        "explanation": "The cell wall is not universal — many eukaryotic cells (e.g. animal cells) have no cell wall at all."
+      },
+      {
+        "label": "ㄷ",
+        "text": "An animal cell is an example of a eukaryotic cell that has (나) but not a cell wall.",
+        "correct": true,
+        "explanation": "This is the direct counterexample showing the plasma membrane and cell wall are not equally universal."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 3,
+    "links": "Cell wall vs plasma membrane universality"
+  },
+  {
+    "id": 15,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Why protists don't get a checklist",
+    "stem": "Read (가)–(다) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Fungi: chitin walls, heterotrophic by absorption.<br><br><b>(나)</b> Plants: cellulose walls, chloroplasts, autotrophic.<br><br><b>(다)</b> Protists: unified by exclusion.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "A photosynthetic, unicellular alga that doesn't fit (가) or (나)'s full checklist would be classified under (다).",
+        "correct": true,
+        "explanation": "Protists absorb whatever eukaryotes don't fit the specific criteria of fungi, plants, or animals."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(다) has its own positive checklist of shared traits, just like (가) and (나) do.",
+        "correct": false,
+        "explanation": "This is exactly backwards — protists are defined by exclusion, with no unifying positive trait."
+      },
+      {
+        "label": "ㄷ",
+        "text": "This is why protists are far more structurally and functionally diverse than fungi or plants.",
+        "correct": true,
+        "explanation": "With no shared positive trait constraining the group, protists span photosynthetic, heterotrophic, unicellular, and multicellular forms."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 3,
+    "links": "Protists by exclusion"
+  },
+  {
+    "id": 16,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "The double-membrane trap",
+    "stem": "Read (가)–(다) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Mitochondria: double membrane.<br><br><b>(나)</b> Chloroplast: double membrane.<br><br><b>(다)</b> The EMS is defined by membrane-based vesicle trafficking, not just \"having a membrane.\"",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Since (가) and (나) both have a double membrane, they should be classified as EMS.",
+        "correct": false,
+        "explanation": "Having multiple membranes is not the criterion — (다) says participation in the trafficking network is."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Based on (다), neither (가) nor (나)'s membranes are derived from or connected to the ER–Golgi trafficking network.",
+        "correct": true,
+        "explanation": "Their membranes instead reflect endosymbiotic bacterial origin, not the vesicle-trafficking pathway."
+      },
+      {
+        "label": "ㄷ",
+        "text": "This makes (가) and (나) non-EMS despite being membrane-bound organelles.",
+        "correct": true,
+        "explanation": "Membrane-bound but not trafficking-connected — exactly why both are classified non-EMS."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Mitochondria/chloroplast vs EMS criterion"
+  },
+  {
+    "id": 17,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Location inside the nucleus isn't the criterion",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> The nucleolus: dense region inside the nucleus, no membrane of its own, site of rRNA synthesis.<br><br><b>(나)</b> The nuclear envelope: double-membrane boundary of the nucleus.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) is part of the EMS because it's located inside the nucleus.",
+        "correct": false,
+        "explanation": "Location doesn't matter — (가) has no membrane of its own, so it fails the EMS's membrane-trafficking criterion."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나) is part of the EMS because it has a membrane continuous with the ER.",
+        "correct": true,
+        "explanation": "The nuclear envelope's membrane connects to the trafficking network, unlike the nucleolus."
+      },
+      {
+        "label": "ㄷ",
+        "text": "By the same whole/boundary/region logic, cytosol relates to cytoplasm the way (가) relates to the nucleus.",
+        "correct": true,
+        "explanation": "Nucleolus is a sub-region within the nucleus; cytosol is the fluid sub-portion within the broader cytoplasm — the same part-of-a-whole pattern."
+      }
+    ],
+    "choices": [
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Nucleolus vs nuclear envelope · Cytoplasm vs cytosol"
+  },
+  {
+    "id": 18,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "Why only plant cells get turgor",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> The vacuole: membrane-bound, formed via vesicle trafficking.<br><br><b>(나)</b> A plant cell's vacuole fills with water and pushes against the cell wall.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) means the vacuole is classified as EMS.",
+        "correct": true,
+        "explanation": "A membrane-bound compartment continuous with the ER/Golgi trafficking pathway meets the EMS criterion."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나) describes turgor pressure, an example of property 6 (mechanical activities).",
+        "correct": true,
+        "explanation": "This is a membrane-trafficked organelle producing a direct, whole-cell mechanical effect."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(나) could also occur in an animal cell, since animal cells have vacuoles too.",
+        "correct": false,
+        "explanation": "Animal cells lack a rigid cell wall to push against, so there's no comparable turgor-pressure effect."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄷ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Vacuole · Turgor pressure",
+    "diagram": "plant_vs_animal_cell"
+  },
+  {
+    "id": 19,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "Two shapes, two outcomes",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Methane (CH4): tetrahedral, symmetric.<br><br><b>(나)</b> Water (H2O): bent, asymmetric.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "O–H bonds in (나) are more polar than C–H bonds in (가).",
+        "correct": true,
+        "explanation": "O is more electronegative than C relative to H, making O–H bonds more polar than C–H bonds."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(가)'s symmetric geometry cancels out its (already weak) bond dipoles, leaving no net dipole.",
+        "correct": true,
+        "explanation": "Four dipoles pointing outward symmetrically in a tetrahedron sum to zero."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(나)'s bent geometry prevents its bond dipoles from cancelling, leaving a net dipole.",
+        "correct": true,
+        "explanation": "Two genuinely polar O–H bonds at a bent angle don't cancel — a net dipole remains."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 4,
+    "links": "Methane vs water · Molecular geometry"
+  },
+  {
+    "id": 20,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "One bond, two structural roles",
+    "stem": "Read (가)–(다) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Cysteine's sulfhydryl group (-SH) can react with another cysteine's -SH to form a disulfide bond.<br><br><b>(나)</b> Two cysteines sit on the same polypeptide chain.<br><br><b>(다)</b> Two cysteines sit on separate polypeptide chains.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Under (나), the resulting disulfide bond stabilizes tertiary (3D) folding.",
+        "correct": true,
+        "explanation": "A disulfide bond within one chain pulls that region together, stabilizing the fold."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Under (다), the resulting disulfide bond contributes to quaternary structure by linking the two chains.",
+        "correct": true,
+        "explanation": "Covalently linking two separate polypeptide chains is exactly what quaternary structure means."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(가) could just as well occur between a cysteine's -SH and a hydroxyl group.",
+        "correct": false,
+        "explanation": "Disulfide bonds are specifically S–S bonds, formed sulfhydryl-to-sulfhydryl — hydroxyl doesn't have the sulfur needed."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 1,
+    "links": "Disulfide bonds · Tertiary vs quaternary"
+  },
+  {
+    "id": 21,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "A swapped base, an unswapped class",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> DNA uses thymine; RNA uses uracil instead.<br><br><b>(나)</b> Both thymine and uracil are single-ring bases.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Because of (나), thymine and uracil are both classified as pyrimidines, so the swap in (가) does not change the base-class present.",
+        "correct": true,
+        "explanation": "Both thymine and uracil are single-ring pyrimidines — the swap changes the specific base, not the structural class."
+      },
+      {
+        "label": "ㄴ",
+        "text": "RNA's ribose sugar carries an extra -OH compared to DNA's deoxyribose, making RNA's backbone more reactive.",
+        "correct": true,
+        "explanation": "That 2'-OH is the defining chemical difference between ribose and deoxyribose."
+      },
+      {
+        "label": "ㄷ",
+        "text": "This greater reactivity fits RNA's role as a disposable working copy, versus DNA's role as stable long-term storage.",
+        "correct": true,
+        "explanation": "A more reactive, less stable backbone suits a molecule that isn't meant to last, unlike DNA."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 4,
+    "links": "Thymine/uracil swap · Ribose vs deoxyribose"
+  },
+  {
+    "id": 22,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Why a strand has a direction at all",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> A phosphodiester bond links one nucleotide's phosphate to the next nucleotide's 3'-OH.<br><br><b>(나)</b> A nucleic acid strand has a free 5' end and a free 3' end.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Because of (가), new nucleotides are added onto the free 3' end of a growing strand.",
+        "correct": true,
+        "explanation": "New nucleotides attach at the free 3'-OH end — this is exactly why synthesis always proceeds 5'→3'."
+      },
+      {
+        "label": "ㄴ",
+        "text": "This means both DNA replication and transcription proceed 5'→3'.",
+        "correct": true,
+        "explanation": "Both processes build new strands by the same phosphodiester-bond mechanism, always extending toward the 3' end."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(나)'s directionality exists because (가) always attaches at the same asymmetric location on each nucleotide.",
+        "correct": true,
+        "explanation": "Because the bond always links phosphate-to-3'-OH, the two ends of the resulting strand are chemically distinct."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 4,
+    "links": "5' to 3' directionality",
+    "diagram": "strand_directionality"
+  },
+  {
+    "id": 23,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Same formula, specific bond",
+    "stem": "Read (가)–(다) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Glucose: aldehyde group.<br><br><b>(나)</b> Fructose: ketone group.<br><br><b>(다)</b> Both share the molecular formula C6H12O6.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Based on (다), glucose and fructose have identical numbers of carbon, hydrogen, and oxygen atoms, despite differing in functional group.",
+        "correct": true,
+        "explanation": "Sharing the formula C6H12O6 means identical atom counts — (가) and (나) differ in how those atoms are arranged (aldehyde vs ketone), not in how many there are."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Sucrose forms by a glycosidic bond specifically between glucose's C1 and fructose's C2 hydroxyl.",
+        "correct": true,
+        "explanation": "This specific carbon-to-carbon linkage is what makes sucrose a defined, non-arbitrary structure."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(가) and (나) are isomers of each other.",
+        "correct": true,
+        "explanation": "Same molecular formula, different atomic arrangement — exactly the definition of isomers."
+      }
+    ],
+    "choices": [
+      "ㄴ",
+      "ㄷ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 4,
+    "links": "Glucose/fructose isomers · Glycosidic bond"
+  },
+  {
+    "id": 24,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Same monomer, three different jobs",
+    "stem": "Read (가)–(다) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Starch: branched glucose polymer, plant energy storage.<br><br><b>(나)</b> Glycogen: branched glucose polymer + central protein, animal energy storage.<br><br><b>(다)</b> Cellulose: glucose polymer, plant structural support.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가), (나), and (다) share the same monomer, but (다) has a different C:H:O ratio because its role is structural rather than storage.",
+        "correct": false,
+        "explanation": "Elemental composition is tied to monomer identity, not biological role — all three share the same glucose monomer and therefore the same 1:2:1 ratio regardless of function."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Since they share a monomer, (가), (나), and (다) must also share the same biological role.",
+        "correct": false,
+        "explanation": "The box itself states three different roles — storage in two different kingdoms, plus structural support."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Their different roles must therefore come from a variable other than monomer identity — specifically, how the monomers are linked and branched.",
+        "correct": true,
+        "explanation": "Linkage and branching pattern, not monomer choice, is what determines a polysaccharide's biological role."
+      }
+    ],
+    "choices": [
+      "ㄷ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 0,
+    "links": "Starch vs glycogen vs cellulose"
+  },
+  {
+    "id": 25,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "No shared structure, still both lipids",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Cholesterol: four fused carbon rings.<br><br><b>(나)</b> Triacylglycerol: glycerol + three fatty acid tails.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) and (나) share no structural similarity at all, yet both are classified as lipids.",
+        "correct": true,
+        "explanation": "No glycerol backbone in (가), no ring system in (나) — structurally unrelated."
+      },
+      {
+        "label": "ㄴ",
+        "text": "This is possible because lipids are classified by a shared physical property (hydrophobicity), not shared structure.",
+        "correct": true,
+        "explanation": "Hydrophobicity, not structure, is what unites the lipid class."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(가) cannot serve as a precursor to any other molecule, unlike (나).",
+        "correct": false,
+        "explanation": "Cholesterol is specifically the precursor to steroid hormones like cortisol."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Steroids · Lipid classification"
+  },
+  {
+    "id": 26,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "What a double bond changes, and what it doesn't",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> A saturated fatty acid: no carbon–carbon double bonds.<br><br><b>(나)</b> An unsaturated fatty acid: one or more carbon–carbon double bonds.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "A triacylglycerol built purely from (나) would have the same 3-tail, glycerol-backbone architecture as one built from (가).",
+        "correct": true,
+        "explanation": "Saturation only affects the fatty acid tails themselves, not the overall triacylglycerol architecture."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나)'s double bonds introduce a kink, since a double bond doesn't allow free rotation.",
+        "correct": true,
+        "explanation": "Restricted rotation at each double bond produces a bend in the chain."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Swapping one of (가) or (나)'s tails for a phosphate head group would turn the molecule into a steroid.",
+        "correct": false,
+        "explanation": "That substitution produces a phospholipid, not a steroid — steroids have an entirely different four-ring architecture."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 1,
+    "links": "Saturated vs unsaturated fatty acids"
+  },
+  {
+    "id": 27,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "What makes a group hydrophilic, precisely",
+    "stem": "Read (가)–(다) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Water: partial negative charge on O, partial positive on each H.<br><br><b>(나)</b> A hydroxyl group (-OH): polar.<br><br><b>(다)</b> A methyl group (-CH3): nonpolar.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(나) can hydrogen-bond with (가), which is what makes it hydrophilic.",
+        "correct": true,
+        "explanation": "A polar group interacting with water's partial charges is exactly what \"hydrophilic\" means."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(다) cannot hydrogen-bond with (가), which is why it is hydrophobic instead.",
+        "correct": true,
+        "explanation": "Methyl is nonpolar — it has no charge for water to interact with, so it can't engage in the same interactions as (나)."
+      },
+      {
+        "label": "ㄷ",
+        "text": "\"Hydrophilic\" is therefore defined by whether a group can engage in the same polarity-driven interactions that (가) itself exhibits.",
+        "correct": true,
+        "explanation": "Hydrophilicity isn't independent — it's defined relative to water's own polarity."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄱ, ㄴ, ㄷ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄴ, ㄷ"
+    ],
+    "answerIndex": 1,
+    "links": "Water polarity · Hydrophilic functional groups"
+  },
+  {
+    "id": 28,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Why E. coli beats yeast for this one job",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> E. coli: no nucleus, single circular chromosome.<br><br><b>(나)</b> S. cerevisiae: true nucleus, chromatin packaging.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Property 2 (genetic program) is physically implemented at the nucleotide level in both (가) and (나).",
+        "correct": true,
+        "explanation": "Both are DNA-based organisms — the genetic program property applies universally at the nucleotide level."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(가) is the more tractable system for studying that nucleotide-level chemistry directly, mainly because it replicates its DNA faster than (나) does.",
+        "correct": false,
+        "explanation": "The tractability comes from structural simplicity — no nuclear envelope or chromatin packaging to navigate — not from replication speed."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(나) is therefore never used as a model organism for anything related to DNA.",
+        "correct": false,
+        "explanation": "Overreach — yeast is the standard model for the cell cycle, which is itself deeply tied to DNA replication and segregation."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 0,
+    "links": "E. coli vs yeast tractability"
+  },
+  {
+    "id": 29,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "One molecule, two charges at once",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> An amino acid has 4 groups on its alpha carbon: -COOH, -NH2, H, and R.<br><br><b>(나)</b> At physiological pH, -NH2 gains a proton and -COOH loses one.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(나) describes the amino acid existing as a zwitterion — both a positive and negative charge at once.",
+        "correct": true,
+        "explanation": "Simultaneously protonated amino and deprotonated carboxyl is exactly the zwitterion state."
+      },
+      {
+        "label": "ㄴ",
+        "text": "All 20 amino acids have identical R groups, differing only in how (가)'s COOH and NH2 are arranged.",
+        "correct": false,
+        "explanation": "This is backwards — COOH, NH2, and H are the shared, invariant groups across all 20 amino acids; R is specifically the one group that varies."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(나) means the amino acid has zero net charge overall at physiological pH, regardless of R group.",
+        "correct": false,
+        "explanation": "Zwitterion means both charges are present, not that they always cancel — a charged R group would shift the net charge."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 0,
+    "links": "Zwitterion · Amino acid structure",
+    "diagram": "amino_acid_and_peptide_bond"
+  },
+  {
+    "id": 30,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "Support, transport, and what they're not",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> A structural protein in the extracellular matrix.<br><br><b>(나)</b> A membrane protein that transports glucose into the cell.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) is an example of the \"support\" function of proteins.",
+        "correct": true,
+        "explanation": "Extracellular-matrix structural proteins are a textbook example of the support function."
+      },
+      {
+        "label": "ㄴ",
+        "text": "(나) is an example of the \"transport\" function of proteins.",
+        "correct": true,
+        "explanation": "Moving a specific molecule across the membrane is the transport function by definition."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Both (가) and (나) are also, by definition, enzymes.",
+        "correct": false,
+        "explanation": "Support and transport are separate functional categories from the enzymatic (catalytic) function — neither example catalyzes a reaction."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Protein functional categories"
+  },
+  {
+    "id": 31,
+    "type": "combo",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "title": "Two properties, not one",
+    "stem": "Read (가) and (나) below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Property 2: genetic program based on DNA.<br><br><b>(나)</b> Property 8: self-regulation.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "(가) is implemented through the central dogma: DNA → RNA → protein.",
+        "correct": true,
+        "explanation": "This is exactly the molecular mechanism behind the genetic-program property."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Loss of (나) is specifically linked to uncontrolled cell growth, i.e. cancer.",
+        "correct": true,
+        "explanation": "Self-regulation failing is the basis for uncontrolled growth described in the notes."
+      },
+      {
+        "label": "ㄷ",
+        "text": "(가) and (나) are actually the same property described two different ways.",
+        "correct": false,
+        "explanation": "They're two distinct, independently listed properties in the list of 8 — one about information, one about growth control."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Genetic program vs self-regulation"
+  },
+  {
+    "id": 100,
+    "type": "match",
+    "mod": 1,
+    "topic": "History & Microscopy / Cell Theory",
+    "points": 3,
+    "title": "Founders of cell theory",
+    "prompt": "Match each scientist to their specific, documented contribution.",
+    "leftLabel": "Scientist",
+    "rightLabel": "Contribution",
+    "pairs": [
+      {
+        "left": "Hooke (1665)",
+        "right": "Observed empty cell walls in dead cork and coined the term \"cells\""
+      },
+      {
+        "left": "Leeuwenhoek (1673–1700)",
+        "right": "First observed living \"animalcules\" moving in pond water"
+      },
+      {
+        "left": "Schleiden (botanist)",
+        "right": "Showed all plant tissue is made of cells and embryos arise from one cell"
+      },
+      {
+        "left": "Schwann (zoologist)",
+        "right": "Independently confirmed the same cellular organization in animal tissue"
+      },
+      {
+        "left": "Virchow (physician)",
+        "right": "Added that cells arise only from pre-existing cells (tenet 3)"
+      }
+    ],
+    "explanation": "Note the order matters: Hooke's dead-cell observation came roughly two centuries before the formal theory; Leeuwenhoek's living cells filled the gap Hooke couldn't; Schleiden and Schwann each covered one kingdom; Virchow closed the theory with the origin question neither had addressed.",
+    "links": "Hooke · Leeuwenhoek · Schleiden · Schwann · Virchow"
+  },
+  {
+    "id": 101,
+    "type": "match",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 2,
+    "title": "Domains and cell-type roots",
+    "prompt": "Match each term to its defining feature.",
+    "leftLabel": "Term",
+    "rightLabel": "Defining feature",
+    "pairs": [
+      {
+        "left": "Prokaryote",
+        "right": "Literally \"before nucleus\" — no nucleus, no membrane-bound organelles"
+      },
+      {
+        "left": "Eukaryote",
+        "right": "Literally \"true nucleus\" — membrane-bound nucleus and organelles"
+      },
+      {
+        "left": "Bacteria",
+        "right": "Prokaryotic domain: cell wall, often plasmids, single circular chromosome"
+      },
+      {
+        "left": "Archaea",
+        "right": "Prokaryotic domain: isoprenoid cell membrane, often extreme environments"
+      }
+    ],
+    "explanation": "Eukarya is hypothesized to have evolutionarily descended from within Archaea, making Archaea our closer prokaryotic relative despite the huge structural gap between prokaryotes and eukaryotes.",
+    "links": "Tree of Life · Prokaryote vs eukaryote · Bacteria vs Archaea",
+    "diagram": "three_domain_tree"
+  },
+  {
+    "id": 102,
+    "type": "match",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 4,
+    "title": "Sort every organelle: EMS or non-EMS?",
+    "prompt": "Classify each structure by the EMS's actual criterion — membrane-based vesicle trafficking — not just \"has a membrane.\"",
+    "leftLabel": "Structure",
+    "rightLabel": "Category",
+    "pairs": [
+      {
+        "left": "Nuclear envelope",
+        "right": "EMS"
+      },
+      {
+        "left": "Rough ER",
+        "right": "EMS"
+      },
+      {
+        "left": "Smooth ER",
+        "right": "EMS"
+      },
+      {
+        "left": "Golgi apparatus",
+        "right": "EMS"
+      },
+      {
+        "left": "Lysosomes",
+        "right": "EMS"
+      },
+      {
+        "left": "Vesicles",
+        "right": "EMS"
+      },
+      {
+        "left": "Plasma membrane",
+        "right": "EMS"
+      },
+      {
+        "left": "Vacuole",
+        "right": "EMS"
+      },
+      {
+        "left": "Mitochondria",
+        "right": "Non-EMS"
+      },
+      {
+        "left": "Chloroplast",
+        "right": "Non-EMS"
+      },
+      {
+        "left": "Peroxisomes",
+        "right": "Non-EMS"
+      },
+      {
+        "left": "Ribosomes",
+        "right": "Non-EMS"
+      },
+      {
+        "left": "Nucleolus",
+        "right": "Non-EMS"
+      },
+      {
+        "left": "Cytoskeleton",
+        "right": "Non-EMS"
+      },
+      {
+        "left": "Centrosomes",
+        "right": "Non-EMS"
+      },
+      {
+        "left": "Cilia / flagella",
+        "right": "Non-EMS"
+      }
+    ],
+    "explanation": "The trap: mitochondria and chloroplast both have a double membrane, but neither membrane is continuous with, or trafficked by, the ER–Golgi vesicle network — so \"has a membrane\" is not the criterion. The nucleolus and cytoskeleton have no membrane at all, which is a separate reason they're non-EMS.",
+    "links": "EMS criterion · Mitochondria/chloroplast trap · Vacuole",
+    "diagram": "ems_trafficking_network"
+  },
+  {
+    "id": 103,
+    "type": "match",
+    "mod": 1,
+    "topic": "Model Organisms",
+    "points": 3,
+    "title": "Model organisms and what they're used for",
+    "prompt": "Match each model organism to what it is principally used to study.",
+    "leftLabel": "Organism",
+    "rightLabel": "Principally used to study",
+    "pairs": [
+      {
+        "left": "E. coli",
+        "right": "DNA replication, transcription, translation"
+      },
+      {
+        "left": "S. cerevisiae (yeast)",
+        "right": "The cell cycle — \"minimal model eukaryote\""
+      },
+      {
+        "left": "Arabidopsis thaliana",
+        "right": "Flowering-plant biology (closely related to many crop plants)"
+      },
+      {
+        "left": "Drosophila melanogaster",
+        "right": "Genetics and development"
+      },
+      {
+        "left": "C. elegans",
+        "right": "Cell lineage and fate — every cell's fate from embryo to adult is known"
+      },
+      {
+        "left": "Mus musculus",
+        "right": "Mammalian genetics — the \"model mammal\""
+      }
+    ],
+    "explanation": "The common thread: every one of these is small, fast-breeding, and easy to manipulate — the trait that actually makes something a good model organism, not any species-specific property.",
+    "links": "Model organisms · Selection logic"
+  },
+  {
+    "id": 104,
+    "type": "match",
+    "mod": 1,
+    "topic": "Eukaryotic Diversity",
+    "points": 2,
+    "title": "The four eukaryotic kingdoms",
+    "prompt": "Match each kingdom to its defining combination of traits.",
+    "leftLabel": "Kingdom",
+    "rightLabel": "Defining traits",
+    "pairs": [
+      {
+        "left": "Fungi",
+        "right": "Chitin cell walls; heterotrophic by absorption"
+      },
+      {
+        "left": "Plants",
+        "right": "Cellulose walls, central vacuole (turgor), plasmodesmata, chloroplasts, autotrophic"
+      },
+      {
+        "left": "Animals",
+        "right": "No cell wall; heterotrophic; multicellular with distinct development"
+      },
+      {
+        "left": "Protists",
+        "right": "Defined by exclusion — whatever doesn't fit fungi, plants, or animals"
+      }
+    ],
+    "explanation": "Protists are the odd one out: fungi, plants, and animals each have a positive checklist of shared traits, but \"protist\" has no such checklist — it's a catch-all, which is exactly why the group is so internally diverse.",
+    "links": "Eukaryotic kingdoms · Protists by exclusion"
+  },
+  {
+    "id": 105,
+    "type": "match",
+    "mod": 1,
+    "topic": "Cell Theory",
+    "points": 2,
+    "title": "Exceptions to the cell theory",
+    "prompt": "Match each exception to what it is actually made of.",
+    "leftLabel": "Exception",
+    "rightLabel": "Composition",
+    "pairs": [
+      {
+        "left": "Virus",
+        "right": "Nucleic acid + protein coat; inert outside a host"
+      },
+      {
+        "left": "Viroid",
+        "right": "Circular RNA only, no protein coat"
+      },
+      {
+        "left": "Prion",
+        "right": "Infectious protein only — no nucleic acid at all"
+      }
+    ],
+    "explanation": "They form a gradient of \"how little can still spread\": a virus keeps genetic material and a coat; a viroid drops the coat; a prion drops genetic material entirely and spreads by inducing misfolding, not replication.",
+    "links": "Virus · Viroid · Prion"
+  },
+  {
+    "id": 106,
+    "type": "match",
+    "mod": 1,
+    "topic": "Basic Cell Properties",
+    "points": 4,
+    "title": "The 8 basic properties of a cell",
+    "prompt": "Match each property to what it actually means.",
+    "leftLabel": "Property",
+    "rightLabel": "What it means",
+    "pairs": [
+      {
+        "left": "1. Membrane-enclosed",
+        "right": "Cytoplasm and cytosol are bounded by a plasma membrane"
+      },
+      {
+        "left": "2. Genetic program",
+        "right": "DNA directs the cell via the central dogma"
+      },
+      {
+        "left": "3. Self-reproduction",
+        "right": "The cell duplicates its own DNA before dividing"
+      },
+      {
+        "left": "4. Acquires/uses energy",
+        "right": "Bioenergetics — e.g. building and spending ATP"
+      },
+      {
+        "left": "5. Carries out chemical reactions",
+        "right": "Metabolism — e.g. glycolysis, the citric acid cycle"
+      },
+      {
+        "left": "6. Mechanical activities",
+        "right": "Transport and movement, largely via the cytoskeleton"
+      },
+      {
+        "left": "7. Responds to stimuli",
+        "right": "Detects and reacts to signals via receptors"
+      },
+      {
+        "left": "8. Self-regulation",
+        "right": "Controls its own growth; loss of this property underlies cancer"
+      }
+    ],
+    "explanation": "These 8 aren't independent — they interlock: property 2's genetic program is what specifies the enzymes that carry out property 5, and losing property 8 (regulation) is specifically what happens when growth control fails.",
+    "links": "8 basic cell properties"
+  },
+  {
+    "id": 107,
+    "type": "match",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 3,
+    "title": "Nucleus, cytoplasm, and cell-boundary terminology",
+    "prompt": "Match each term to its precise definition — several are easy to confuse with a neighboring term.",
+    "leftLabel": "Term",
+    "rightLabel": "Precise definition",
+    "pairs": [
+      {
+        "left": "Nucleus",
+        "right": "The whole membrane-bound organelle containing the chromosomes"
+      },
+      {
+        "left": "Nuclear envelope",
+        "right": "Specifically the nucleus's double-membrane boundary (part of the EMS)"
+      },
+      {
+        "left": "Nucleolus",
+        "right": "A dense, non-membrane region inside the nucleus — rRNA synthesis / ribosome assembly"
+      },
+      {
+        "left": "Cytoplasm",
+        "right": "Everything inside the plasma membrane, organelles included"
+      },
+      {
+        "left": "Cytosol",
+        "right": "Just the fluid portion of the cytoplasm, excluding organelles"
+      },
+      {
+        "left": "Cell wall",
+        "right": "Rigid external layer — NOT universal (absent in animal cells)"
+      },
+      {
+        "left": "Plasma membrane",
+        "right": "Universal boundary present in every cell, all three domains"
+      }
+    ],
+    "explanation": "The recurring pattern here is whole-vs-boundary-vs-region: nucleus/nuclear envelope/nucleolus and cytoplasm/cytosol both follow it. Cell wall vs plasma membrane is a different distinction entirely — universality, not scale.",
+    "links": "Nucleus vs nuclear envelope vs nucleolus · Cytoplasm vs cytosol · Cell wall vs plasma membrane"
+  },
+  {
+    "id": 108,
+    "type": "match",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 4,
+    "title": "Functional groups and their charge behavior",
+    "prompt": "Match each functional group to its charge / polarity behavior.",
+    "leftLabel": "Functional group",
+    "rightLabel": "Charge / polarity",
+    "pairs": [
+      {
+        "left": "Amino (-NH2)",
+        "right": "Acts as a base; positively charged at cellular pH"
+      },
+      {
+        "left": "Carboxyl (-COOH)",
+        "right": "Acts as an acid; negatively charged at cellular pH"
+      },
+      {
+        "left": "Phosphate",
+        "right": "Negatively charged"
+      },
+      {
+        "left": "Hydroxyl (-OH)",
+        "right": "Polar, uncharged — hydrophilic"
+      },
+      {
+        "left": "Sulfhydryl (-SH)",
+        "right": "Polar; forms S–S disulfide bonds"
+      },
+      {
+        "left": "Methyl (-CH3)",
+        "right": "Nonpolar — hydrophobic"
+      },
+      {
+        "left": "Carbonyl (aldehyde/ketone)",
+        "right": "Polar; links monomers (e.g. cyclizes sugars)"
+      }
+    ],
+    "explanation": "Notice the pattern: every group that's polar or charged is hydrophilic (can hydrogen-bond or electrostatically interact with water's own partial charges); methyl is the one group here with neither property, which is exactly why it's the odd one out — hydrophobic.",
+    "links": "Functional groups · Hydrophilic vs hydrophobic"
+  },
+  {
+    "id": 109,
+    "type": "match",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 3,
+    "title": "The four macromolecule classes",
+    "prompt": "Match each macromolecule class to its monomer and primary biological role.",
+    "leftLabel": "Macromolecule",
+    "rightLabel": "Monomer & role",
+    "pairs": [
+      {
+        "left": "Proteins",
+        "right": "Amino acids → structure and catalysis (enzymes)"
+      },
+      {
+        "left": "Nucleic acids",
+        "right": "Nucleotides → encode and transmit genetic information"
+      },
+      {
+        "left": "Carbohydrates",
+        "right": "Monosaccharides → structure and energy source"
+      },
+      {
+        "left": "Lipids",
+        "right": "Not a polymer — grouped by hydrophobicity, not a monomer"
+      }
+    ],
+    "explanation": "Lipids break the pattern on purpose: the other three are monomer-built polymers via condensation, but lipids are the one macromolecule class that isn't a polymer at all — they're united by a shared physical property instead of a shared structure.",
+    "links": "Four macromolecule classes · Lipids as the exception"
+  },
+  {
+    "id": 110,
+    "type": "match",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 3,
+    "title": "Purines vs. pyrimidines",
+    "prompt": "Sort each nitrogenous base by its ring structure.",
+    "leftLabel": "Base",
+    "rightLabel": "Ring structure",
+    "pairs": [
+      {
+        "left": "Adenine",
+        "right": "Purine (double ring)"
+      },
+      {
+        "left": "Guanine",
+        "right": "Purine (double ring)"
+      },
+      {
+        "left": "Cytosine",
+        "right": "Pyrimidine (single ring)"
+      },
+      {
+        "left": "Thymine",
+        "right": "Pyrimidine (single ring)"
+      },
+      {
+        "left": "Uracil",
+        "right": "Pyrimidine (single ring)"
+      }
+    ],
+    "explanation": "The DNA↔RNA thymine/uracil swap doesn't change ring class — both are pyrimidines, so the purine/pyrimidine split (2 purines, 3 pyrimidines) holds identically in DNA and RNA.",
+    "links": "Purine vs pyrimidine"
+  },
+  {
+    "id": 111,
+    "type": "match",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 3,
+    "title": "DNA vs. RNA, feature by feature",
+    "prompt": "Sort each feature by which nucleic acid it belongs to.",
+    "leftLabel": "Feature",
+    "rightLabel": "Belongs to",
+    "pairs": [
+      {
+        "left": "Deoxyribose sugar",
+        "right": "DNA"
+      },
+      {
+        "left": "Ribose sugar",
+        "right": "RNA"
+      },
+      {
+        "left": "Thymine",
+        "right": "DNA"
+      },
+      {
+        "left": "Uracil",
+        "right": "RNA"
+      },
+      {
+        "left": "Long-term genetic storage",
+        "right": "DNA"
+      },
+      {
+        "left": "Protein synthesis & gene regulation",
+        "right": "RNA"
+      }
+    ],
+    "explanation": "These aren't independent facts — they're causally linked: ribose's extra 2'-OH makes RNA's backbone more reactive and less stable than DNA's deoxyribose backbone, which is exactly why RNA suits a disposable working copy and DNA suits long-term archival storage.",
+    "links": "DNA vs RNA"
+  },
+  {
+    "id": 112,
+    "type": "match",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 4,
+    "title": "Nucleotide chemistry vocabulary",
+    "prompt": "Match each term to its precise meaning.",
+    "leftLabel": "Term",
+    "rightLabel": "Meaning",
+    "pairs": [
+      {
+        "left": "Nucleoside",
+        "right": "Base + sugar only"
+      },
+      {
+        "left": "Nucleotide",
+        "right": "Base + sugar + one or more phosphates"
+      },
+      {
+        "left": "Phosphodiester bond",
+        "right": "Links one nucleotide's phosphate to the next's 3'-OH"
+      },
+      {
+        "left": "ATP",
+        "right": "Nucleotide repurposed as the cell's energy currency"
+      },
+      {
+        "left": "cAMP",
+        "right": "Nucleotide repurposed as a signaling molecule"
+      },
+      {
+        "left": "NAD",
+        "right": "Nucleotide repurposed as an electron-carrying coenzyme"
+      }
+    ],
+    "explanation": "ATP, cAMP, and NAD are all structurally nucleotides (base+sugar+phosphate) even though none of them ever gets incorporated into a DNA or RNA strand — \"nucleotide\" is a structural classification, not a statement about function.",
+    "links": "Nucleoside vs nucleotide · ATP/cAMP/NAD"
+  },
+  {
+    "id": 113,
+    "type": "match",
+    "mod": 2,
+    "topic": "Carbohydrates",
+    "points": 4,
+    "title": "Monosaccharides and polysaccharides",
+    "prompt": "Match each carbohydrate to its identifying feature.",
+    "leftLabel": "Carbohydrate",
+    "rightLabel": "Identifying feature",
+    "pairs": [
+      {
+        "left": "Glucose",
+        "right": "Aldehyde group; product of photosynthesis"
+      },
+      {
+        "left": "Galactose",
+        "right": "Aldehyde group; found in dairy products"
+      },
+      {
+        "left": "Fructose",
+        "right": "Ketone group; commercial sweetener"
+      },
+      {
+        "left": "Starch",
+        "right": "Branched glucose polymer; plant energy storage"
+      },
+      {
+        "left": "Glycogen",
+        "right": "Branched glucose polymer attached to a central protein; animal energy storage"
+      },
+      {
+        "left": "Cellulose",
+        "right": "Glucose polymer; plant structural support"
+      }
+    ],
+    "explanation": "Glucose, galactose, and fructose are all isomers of C6H12O6 — same formula, different arrangement. Starch, glycogen, and cellulose are all glucose polymers too, yet one is storage in plants, one in animals, and one is structural — proof that a polysaccharide's role comes from its linkage pattern, not its monomer.",
+    "links": "Glucose/galactose/fructose · Starch vs glycogen vs cellulose"
+  },
+  {
+    "id": 114,
+    "type": "match",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 4,
+    "title": "Lipid types and their structural features",
+    "prompt": "Match each lipid-related term to its structural feature.",
+    "leftLabel": "Term",
+    "rightLabel": "Structural feature",
+    "pairs": [
+      {
+        "left": "Triacylglycerol",
+        "right": "Glycerol + three fatty acid tails"
+      },
+      {
+        "left": "Phospholipid",
+        "right": "Glycerol + two fatty acid tails + one phosphate head group"
+      },
+      {
+        "left": "Steroid",
+        "right": "Many carbons fused into four rings — no glycerol at all"
+      },
+      {
+        "left": "Saturated fatty acid",
+        "right": "No carbon–carbon double bonds"
+      },
+      {
+        "left": "Unsaturated fatty acid",
+        "right": "One or more carbon–carbon double bonds"
+      },
+      {
+        "left": "Cholesterol",
+        "right": "The specific steroid that's also a precursor to steroid hormones"
+      }
+    ],
+    "explanation": "Phospholipid vs triacylglycerol is a one-substitution difference — swap one fatty acid tail for a phosphate head — but that swap is what turns a hydrophobic storage molecule into an amphipathic, membrane-forming one.",
+    "links": "Triacylglycerol vs phospholipid · Steroids · Saturated vs unsaturated",
+    "diagram": "lipid_family_comparison"
+  },
+  {
+    "id": 115,
+    "type": "match",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 4,
+    "title": "Bond types on the electronegativity spectrum",
+    "prompt": "Match each bond type / molecule to its position on the electronegativity-difference spectrum.",
+    "leftLabel": "Bond / molecule",
+    "rightLabel": "Position on the spectrum",
+    "pairs": [
+      {
+        "left": "Nonpolar covalent (e.g. C–H in methane)",
+        "right": "~0 electronegativity difference — equal sharing"
+      },
+      {
+        "left": "Polar covalent (e.g. O–H in water)",
+        "right": "Moderate difference — unequal sharing, partial charges"
+      },
+      {
+        "left": "Ionic (e.g. Na–Cl)",
+        "right": "Large difference — full electron transfer"
+      },
+      {
+        "left": "Methane (CH4)",
+        "right": "Nonpolar overall: weak bond dipoles cancel in a symmetric tetrahedron"
+      },
+      {
+        "left": "Water (H2O)",
+        "right": "Polar overall: bent shape prevents the O–H dipoles from cancelling"
+      },
+      {
+        "left": "NaCl in water",
+        "right": "Dissolves as water's δ− oxygen surrounds Na+ and δ+ hydrogens surround Cl−"
+      }
+    ],
+    "explanation": "Nonpolar, polar, and ionic aren't three different mechanisms — they're one continuum (electronegativity difference) at three different magnitudes.",
+    "links": "Electronegativity spectrum · Methane vs water geometry",
+    "diagram": "electronegativity_spectrum"
+  },
+  {
+    "id": 116,
+    "type": "match",
+    "mod": 2,
+    "topic": "Water Chemistry & pH / Condensation & Hydrolysis",
+    "points": 3,
+    "title": "Reaction and water-chemistry vocabulary",
+    "prompt": "Match each term to its precise definition.",
+    "leftLabel": "Term",
+    "rightLabel": "Definition",
+    "pairs": [
+      {
+        "left": "Reactants",
+        "right": "The starting materials of a chemical reaction"
+      },
+      {
+        "left": "Products",
+        "right": "What a chemical reaction converts the reactants into"
+      },
+      {
+        "left": "Condensation",
+        "right": "Joins two monomers; releases water; requires energy"
+      },
+      {
+        "left": "Hydrolysis",
+        "right": "Breaks a bond; consumes water; releases energy"
+      },
+      {
+        "left": "Hydrogen bond",
+        "right": "Weak attraction between an electronegative atom and an H bonded elsewhere"
+      },
+      {
+        "left": "pH scale",
+        "right": "Logarithmic 0–14 scale of H+ concentration"
+      }
+    ],
+    "explanation": "Condensation and hydrolysis are exact opposites of each other, both defined by what happens to water — one produces it, the other consumes it — which is why the same reaction pair can both build and break every polymer class.",
+    "links": "Condensation vs hydrolysis · Hydrogen bonds · pH scale"
+  },
+  {
+    "id": 200,
+    "type": "tf",
+    "mod": 1,
+    "topic": "History & Microscopy",
+    "points": 1,
+    "box": "A researcher wants to visualize a live neuron's mitochondria without killing the cell, using a fluorescent dye that binds only mitochondrial membranes.",
+    "claim": "This approach relies on fluorescence microscopy's ability to selectively label one structure while leaving the rest of the cell dark.",
+    "answer": true,
+    "explanation": "Fluorescence microscopy uses molecule-specific labels so only the tagged structure lights up against a dark background — exactly the selective-labeling advantage it offers over standard light microscopy.",
+    "links": "Fluorescence microscopy",
+    "diagram": "microscopy_comparison"
+  },
+  {
+    "id": 201,
+    "type": "tf",
+    "mod": 1,
+    "topic": "History & Microscopy",
+    "points": 2,
+    "box": "A student examines a sample under electron microscopy and finds far greater structural detail than a colleague sees on the same sample under light microscopy.",
+    "claim": "This difference in resolution occurs because electron microscopy uses a shorter-wavelength beam, which is why living cells can be imaged this way in real time.",
+    "answer": false,
+    "explanation": "The shorter wavelength does give EM higher resolution, but EM requires a vacuum and typically a fixed/dead sample — it cannot image living cells in real time, unlike light microscopy.",
+    "links": "Electron vs light microscopy"
+  },
+  {
+    "id": 202,
+    "type": "tf",
+    "mod": 1,
+    "topic": "History & Microscopy",
+    "points": 1,
+    "box": "Robert Hooke examined a thin slice of cork in 1665 and described empty box-like compartments; Anton van Leeuwenhoek later observed moving \"animalcules\" in pond water.",
+    "claim": "Hooke's observation alone was enough to demonstrate tenet 1 of cell theory, since he had already identified that life is organized into discrete units.",
+    "answer": false,
+    "explanation": "Hooke observed dead, empty cell walls in cork — structure without evidence of life. Tenet 1 (all life is made of cells) needed evidence those units are alive, which Leeuwenhoek's living, moving cells supplied.",
+    "links": "Hooke · Leeuwenhoek · Tenet 1"
+  },
+  {
+    "id": 203,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Cell Theory",
+    "points": 1,
+    "box": "A scientist examines a tissue sample and confirms every cell within it arose by division from a pre-existing cell, with no evidence of spontaneous generation.",
+    "claim": "This observation, by itself, is what Virchow's contribution to cell theory specifically established.",
+    "answer": true,
+    "explanation": "\"Cells arise only from pre-existing cells\" (rejecting spontaneous generation) is precisely Virchow's tenet 3 contribution.",
+    "links": "Virchow · Tenet 3"
+  },
+  {
+    "id": 204,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Cell Theory",
+    "points": 2,
+    "box": "A viroid consists of a short circular RNA molecule with no protein coat, and it can still cause disease in an infected plant.",
+    "claim": "Because a viroid contains genetic material (RNA) capable of directing disease, it satisfies the basic cell definition and should be counted as a minimal cell.",
+    "answer": false,
+    "explanation": "Having genetic material isn't sufficient — a viroid has no membrane-enclosed cytoplasm, no ribosomes, and no independent metabolism. It's an exception to cell theory precisely because it isn't a cell despite carrying genetic material.",
+    "links": "Viroid exception"
+  },
+  {
+    "id": 205,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Cell Theory",
+    "points": 2,
+    "box": "A prion is a misfolded protein that can induce normal copies of the same protein to also misfold, with no nucleic acid involved in the process at all.",
+    "claim": "A prion's ability to \"reproduce\" its misfolded shape means it satisfies cell theory's tenet 3 in a protein-only form.",
+    "answer": false,
+    "explanation": "Tenet 3 concerns cells arising from pre-existing cells via DNA-based division — a prion isn't a cell, and its spread is a conformational templating effect, not cellular reproduction. It's classified as an exception to cell theory.",
+    "links": "Prion exception"
+  },
+  {
+    "id": 206,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Basic Cell Properties",
+    "points": 2,
+    "box": "A cell is treated with a drug that specifically blocks its ability to duplicate its DNA before division, but leaves all other cellular machinery untouched.",
+    "claim": "This cell would still satisfy property 3 (self-reproduction) as long as it can still physically pinch into two cells.",
+    "answer": false,
+    "explanation": "Property 3 specifically requires duplicating DNA before division so each daughter cell gets a complete genome — physical division alone, without duplicated DNA, doesn't satisfy self-reproduction.",
+    "links": "Property 3: self-reproduction"
+  },
+  {
+    "id": 207,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Basic Cell Properties",
+    "points": 1,
+    "box": "A tumor cell has lost the normal checkpoints that would otherwise stop it from dividing when it shouldn't.",
+    "claim": "This is a direct example of a failure in property 8 (self-regulation), which is specifically linked to uncontrolled growth like cancer.",
+    "answer": true,
+    "explanation": "Loss of self-regulation (property 8) causing uncontrolled division is exactly the cancer link described among the 8 basic cell properties.",
+    "links": "Property 8: self-regulation"
+  },
+  {
+    "id": 208,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Basic Cell Properties",
+    "points": 2,
+    "box": "A cell converts glucose into usable cellular energy through glycolysis and the citric acid cycle.",
+    "claim": "This process demonstrates property 4 (acquire and use energy) but not property 5 (chemical reactions/metabolism), since those are two separate, unrelated properties.",
+    "answer": false,
+    "explanation": "Glycolysis and the citric acid cycle are themselves the metabolic chemical reactions referenced in property 5 — energy acquisition/use (property 4) and metabolism (property 5) are closely linked, not unrelated; this scenario illustrates both together.",
+    "links": "Property 4 vs property 5"
+  },
+  {
+    "id": 209,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 2,
+    "box": "A newly discovered single-celled organism has a circular chromosome, no membrane-bound nucleus, and plasmids, and it thrives in a boiling hydrothermal vent using an isoprenoid-based membrane.",
+    "claim": "Based on these features together, this organism is best classified as Bacteria rather than Archaea.",
+    "answer": false,
+    "explanation": "The isoprenoid membrane and extreme-environment tolerance are specifically Archaea's hallmark features; Bacteria typically have ester-linked membrane lipids. This organism fits Archaea.",
+    "links": "Archaea vs Bacteria features"
+  },
+  {
+    "id": 210,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 1,
+    "box": "The three-domain tree of life places Eukarya as branching from within Archaea, rather than as a sibling group equally distant from both Bacteria and Archaea.",
+    "claim": "This placement means Bacteria is the domain most distantly related to Eukarya.",
+    "answer": true,
+    "explanation": "If Eukarya branches from within Archaea, Bacteria diverged earlier from that lineage — making Bacteria the most distant of the three domains from Eukarya.",
+    "links": "Three-domain tree",
+    "diagram": "three_domain_tree"
+  },
+  {
+    "id": 211,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 1,
+    "box": "A prokaryotic cell has no cytoskeleton, yet it maintains a defined shape and resists bursting under osmotic pressure.",
+    "claim": "This is possible because the cell wall provides the structural support that a cytoskeleton would otherwise provide in a eukaryotic cell.",
+    "answer": true,
+    "explanation": "Lacking a cytoskeleton, prokaryotes rely on their rigid protein-based cell wall for mechanical/structural support instead.",
+    "links": "Prokaryote structural support"
+  },
+  {
+    "id": 212,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Eukaryotic Diversity",
+    "points": 1,
+    "box": "A newly identified unicellular eukaryote is photosynthetic, has no cell wall at all, and doesn't fit the specific criteria for Fungi, Plants, or Animals.",
+    "claim": "By the exclusion-based definition used in this course, this organism would be classified as a protist.",
+    "answer": true,
+    "explanation": "Protists are unified by exclusion — anything eukaryotic that doesn't meet the specific criteria of fungi, plants, or animals falls into this catch-all group.",
+    "links": "Protists by exclusion"
+  },
+  {
+    "id": 213,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Eukaryotic Diversity",
+    "points": 1,
+    "box": "A fungal cell absorbs nutrients from its environment through its cell wall rather than ingesting food particles.",
+    "claim": "Since fungi absorb nutrients rather than photosynthesizing, their cell walls must be made of cellulose, just like plant cell walls.",
+    "answer": false,
+    "explanation": "Fungi are heterotrophic by absorption, but their cell walls are made of chitin, not cellulose — cellulose walls are specifically a plant feature.",
+    "links": "Fungi vs plants: cell wall material"
+  },
+  {
+    "id": 214,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Eukaryotic Diversity",
+    "points": 1,
+    "box": "An animal cell and a plant cell are compared side by side.",
+    "claim": "The animal cell can be distinguished from the plant cell by the presence of a cell wall in the animal cell and its absence in the plant cell.",
+    "answer": false,
+    "explanation": "This is exactly backwards — plant cells have a cellulose cell wall; animal cells characteristically lack a cell wall entirely.",
+    "links": "Animal vs plant cell walls",
+    "diagram": "plant_vs_animal_cell"
+  },
+  {
+    "id": 215,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 1,
+    "box": "A protein is synthesized on a ribosome attached to the rough ER, folded and modified as it passes through the Golgi, and packaged into a vesicle for secretion.",
+    "claim": "Every structure this protein passes through during its journey (rough ER, Golgi, vesicle) is classified as EMS.",
+    "answer": true,
+    "explanation": "Rough ER, Golgi, and the transport vesicle are all part of the membrane-trafficking pathway — the defining criterion for EMS classification.",
+    "links": "EMS: secretory pathway",
+    "diagram": "ems_trafficking_network"
+  },
+  {
+    "id": 216,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 2,
+    "box": "Mitochondria and peroxisomes are both membrane-bound organelles found in the same eukaryotic cell.",
+    "claim": "Because both are membrane-bound, both must be classified as EMS.",
+    "answer": false,
+    "explanation": "Having a membrane isn't the criterion — EMS specifically means participation in membrane-trafficking (the ER–Golgi–vesicle pathway). Neither mitochondria nor peroxisomes participate in that pathway, so both are non-EMS despite being membrane-bound.",
+    "links": "Non-EMS: membrane ≠ EMS"
+  },
+  {
+    "id": 217,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 2,
+    "box": "A cell's cilia beat rhythmically to move fluid across its surface, and its centrosome organizes microtubules during division.",
+    "claim": "Both structures are classified as EMS because they are essential to the cell's mechanical activity (property 6).",
+    "answer": false,
+    "explanation": "Cilia and centrosomes are both non-EMS — mechanical/structural importance isn't the EMS criterion; only participation in membrane-based vesicle trafficking is, and neither structure does that.",
+    "links": "Non-EMS: cilia & centrosome"
+  },
+  {
+    "id": 218,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Model Organisms",
+    "points": 1,
+    "box": "A researcher wants to study flower development and needs a fast-growing plant with a fully sequenced genome and well-established genetic tools.",
+    "claim": "Arabidopsis thaliana is the standard model organism for this purpose.",
+    "answer": true,
+    "explanation": "Arabidopsis is the standard flowering-plant model organism, chosen for its fast life cycle, small genome, and extensive genetic toolkit.",
+    "links": "Arabidopsis"
+  },
+  {
+    "id": 219,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Model Organisms",
+    "points": 2,
+    "box": "A geneticist wants to study how a single gene mutation affects development and behavior, using an organism with a short generation time, easily visible mutant phenotypes, and a century of established genetic techniques.",
+    "claim": "Mus musculus (the mouse) is the best-suited model organism for this purpose, since it's the most extensively studied model organism overall.",
+    "answer": false,
+    "explanation": "Drosophila melanogaster (fruit fly) is the classic choice for classical genetics — short generation time, easy visible mutations, and a huge genetic toolkit built up over a century. Mice are preferred when findings need to translate to mammalian biology specifically, not for rapid genetic screening.",
+    "links": "Drosophila vs mouse"
+  },
+  {
+    "id": 220,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Model Organisms",
+    "points": 1,
+    "box": "A model organism is chosen specifically because it is small, fast-reproducing, and representative of broader biological principles — not because it's the most complex organism available.",
+    "claim": "This selection logic explains why E. coli, despite being one of the structurally simplest organisms studied, remains one of the most widely used model organisms in molecular biology.",
+    "answer": true,
+    "explanation": "Simplicity and tractability, not complexity, drive model-organism selection — E. coli's simple structure is exactly why it's so useful for studying fundamental DNA/RNA/protein processes directly.",
+    "links": "Model organism selection logic"
+  },
+  {
+    "id": 221,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Atoms & Valence Electrons",
+    "points": 2,
+    "box": "Nearly all biological molecules are built from just six elements: carbon, hydrogen, nitrogen, oxygen, phosphorus, and sulfur.",
+    "claim": "This small elemental \"alphabet\" is possible because every element's outermost electron shell holds a maximum of 8 electrons, giving every element identical bonding behavior.",
+    "answer": false,
+    "explanation": "Bonding behavior comes from how many valence electrons an atom needs to complete its outer shell, which differs by element (carbon needs 4, oxygen needs 2, etc.) — elements do not have identical bonding behavior.",
+    "links": "CHNOPS · Valence electrons"
+  },
+  {
+    "id": 222,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Atoms & Valence Electrons",
+    "points": 1,
+    "box": "A carbon atom has 4 valence electrons and an oxygen atom has 6 valence electrons in its outer shell.",
+    "claim": "Because oxygen's outer shell is closer to full, it typically forms fewer covalent bonds than carbon does.",
+    "answer": true,
+    "explanation": "Oxygen needs only 2 more electrons to complete its outer shell (forming 2 bonds), while carbon needs 4 more (forming up to 4 bonds) — fewer electrons needed means fewer bonds typically formed.",
+    "links": "Valence electrons and bond count"
+  },
+  {
+    "id": 223,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Atoms & Valence Electrons",
+    "points": 1,
+    "box": "An atom's electrons are organized into orbitals, each of which can hold a maximum of 2 electrons.",
+    "claim": "This 2-electron-per-orbital limit is what ultimately constrains how many covalent bonds an atom can form.",
+    "answer": true,
+    "explanation": "The number of unpaired (bonding-available) electrons an atom has sets its bonding capacity — carbon's four singly-occupied orbitals are exactly why it forms up to four bonds.",
+    "links": "Orbitals and bonding capacity"
+  },
+  {
+    "id": 224,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 1,
+    "box": "Sodium (Na) has 1 valence electron; chlorine (Cl) has 7 valence electrons. When they react, sodium transfers its electron to chlorine.",
+    "claim": "This electron transfer, rather than sharing, is what makes NaCl an example of a covalent bond.",
+    "answer": false,
+    "explanation": "Full electron transfer (not sharing) between atoms of very different electronegativity is the definition of an ionic bond — NaCl is a textbook ionic bond, not covalent.",
+    "links": "Ionic bond · NaCl"
+  },
+  {
+    "id": 225,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 1,
+    "box": "Water is placed in a beaker with table salt (NaCl), and the salt fully dissolves.",
+    "claim": "This happens because water molecules, being polar, surround each Na+ and Cl- ion with oppositely-charged ends, forming hydration shells that pull the ions apart.",
+    "answer": true,
+    "explanation": "Water's partial charges orient toward the ions' opposite charges, forming hydration shells that stabilize separated ions — exactly why water is a strong solvent for ionic compounds.",
+    "links": "Water dissolving NaCl",
+    "diagram": "nacl_hydration_shells"
+  },
+  {
+    "id": 226,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 2,
+    "box": "A carbon atom forms a bond with another carbon atom, and a separate carbon atom forms a bond with an oxygen atom.",
+    "claim": "Both bonds are equally nonpolar, since both involve carbon.",
+    "answer": false,
+    "explanation": "C–C bonds are nonpolar (identical electronegativity), but C–O bonds are polar covalent, since oxygen is more electronegative than carbon and pulls shared electrons toward itself unequally.",
+    "links": "Polar vs nonpolar covalent bonds"
+  },
+  {
+    "id": 227,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 1,
+    "box": "A solution has a pH of 3, and another solution has a pH of 6.",
+    "claim": "The pH-3 solution has 1,000 times more H+ ions than the pH-6 solution.",
+    "answer": true,
+    "explanation": "pH is a negative log scale, so each whole-number drop means a 10-fold increase in H+ concentration; a 3-unit difference (6→3) is 10³ = 1,000-fold.",
+    "links": "pH scale is logarithmic",
+    "diagram": "ph_scale_real_world"
+  },
+  {
+    "id": 228,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 2,
+    "box": "An enzyme normally functions at pH 7. It's placed into a solution at pH 2.",
+    "claim": "This change cannot affect the enzyme's shape, since pH only affects small molecules, not large proteins like enzymes.",
+    "answer": false,
+    "explanation": "Proteins contain ionizable functional groups (like -NH2 and -COOH) whose charge depends on pH; a large pH shift changes these charges, which can disrupt the folded structure and impair function.",
+    "links": "pH and protein structure"
+  },
+  {
+    "id": 229,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 2,
+    "box": "Two water molecules are near each other, with a partially positive hydrogen on one weakly attracted to a partially negative oxygen on the other.",
+    "claim": "This weak attraction is a hydrogen bond, and it depends on both atoms involved being electronegative.",
+    "answer": false,
+    "explanation": "A hydrogen bond forms between a hydrogen (already bonded to an electronegative atom) and a separate electronegative atom with a lone pair — the hydrogen itself isn't electronegative; it's the atom pulling on the hydrogen's electron density that must be electronegative.",
+    "links": "Hydrogen bond definition",
+    "diagram": "water_polarity_hbonds"
+  },
+  {
+    "id": 230,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 1,
+    "box": "A molecule contains an -NH2 group attached to its backbone.",
+    "claim": "At physiological pH, this group tends to gain a proton and carry a positive charge.",
+    "answer": true,
+    "explanation": "The amino group is basic — it readily accepts a proton (H+) at physiological pH, becoming positively charged (-NH3+).",
+    "links": "Amino functional group"
+  },
+  {
+    "id": 231,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 1,
+    "box": "A molecule has a -COOH group and a separate molecule has a -CH3 group.",
+    "claim": "Both groups are hydrophilic, since both are common functional groups found in biological molecules.",
+    "answer": false,
+    "explanation": "Being a common functional group doesn't make something hydrophilic — -COOH is polar/ionizable and hydrophilic, but -CH3 (methyl) is nonpolar and hydrophobic.",
+    "links": "Carboxyl vs methyl: hydrophilic?"
+  },
+  {
+    "id": 232,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 2,
+    "box": "Two amino acids join together, and separately, two monosaccharides join together.",
+    "claim": "Only the amino acid reaction forms a bond through a specific functional-group linkage (the amide/peptide bond); the sugar-sugar reaction doesn't involve any specific functional group.",
+    "answer": false,
+    "explanation": "Both are functional-group-mediated condensation reactions — amino acids link via the amide (peptide) bond between carboxyl and amino groups, while monosaccharides link via a glycosidic bond formed from a hydroxyl group; both are specific, not generic.",
+    "links": "Peptide bond vs glycosidic bond"
+  },
+  {
+    "id": 233,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 1,
+    "box": "A carbonyl group (C=O) appears in the middle of a carbon chain in one molecule, and at the end of a carbon chain in another molecule.",
+    "claim": "Both are still built around the same core carbonyl group, but the two positions give the group different names (ketone vs. aldehyde respectively).",
+    "answer": true,
+    "explanation": "A carbonyl (C=O) at an internal carbon is a ketone; at a terminal carbon it's an aldehyde — same core functional group, positional difference gives it a more specific name (exactly the fructose/ketone vs. glucose/aldehyde distinction).",
+    "links": "Carbonyl: aldehyde vs ketone"
+  },
+  {
+    "id": 234,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Condensation & Hydrolysis",
+    "points": 1,
+    "box": "A cell needs to break down a stored polysaccharide into individual glucose monomers for energy.",
+    "claim": "This breakdown reaction consumes a water molecule for each bond broken, and releases energy.",
+    "answer": true,
+    "explanation": "Hydrolysis (breaking a polymer) consumes water and releases energy — the reverse of the energy-requiring, water-releasing condensation reaction that built the polymer.",
+    "links": "Hydrolysis"
+  },
+  {
+    "id": 235,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Condensation & Hydrolysis",
+    "points": 2,
+    "box": "An enzyme catalyzes a reaction, lowering the activation energy required.",
+    "claim": "Because the enzyme lowers activation energy, the reaction also becomes more energetically favorable overall (releases more net energy) than it would without the enzyme.",
+    "answer": false,
+    "explanation": "Enzymes change the rate of a reaction (how fast equilibrium is reached) by lowering activation energy — they do not change the overall energy difference between reactants and products.",
+    "links": "Enzymes: rate vs energetics"
+  },
+  {
+    "id": 236,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Proteins",
+    "points": 1,
+    "box": "A polypeptide chain folds into a specific 3D shape based on interactions between its R groups.",
+    "claim": "If a single amino acid in the sequence is changed, the protein's 3D shape and function could be altered, even though only one R group changed.",
+    "answer": true,
+    "explanation": "Amino acid sequence determines 3D shape — even a single R-group change can disrupt the pattern of interactions (charge, hydrophobic, disulfide, etc.) that stabilizes the fold, altering shape and function.",
+    "links": "Sequence determines shape"
+  },
+  {
+    "id": 237,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Proteins",
+    "points": 1,
+    "box": "A functional protein is composed of four separate polypeptide chains held together by non-covalent interactions and disulfide bonds.",
+    "claim": "This description specifically matches the definition of quaternary structure.",
+    "answer": true,
+    "explanation": "Quaternary structure is exactly the association of multiple separate polypeptide chains into one functional protein.",
+    "links": "Quaternary structure",
+    "diagram": "protein_structure_levels"
+  },
+  {
+    "id": 238,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Proteins",
+    "points": 2,
+    "box": "A protein acts as an enzyme in the cytoplasm, but the same protein also has a separate moonlighting role providing structural support to the cytoskeleton.",
+    "claim": "Because it can act as an enzyme AND provide support, this contradicts the idea that proteins are classified by discrete functional categories (enzyme, transport, signal, movement, support, defense).",
+    "answer": false,
+    "explanation": "A single protein having more than one function doesn't invalidate the functional categories themselves — the categories describe what a protein can do, and one protein can occupy more than one category at once.",
+    "links": "Protein functional categories"
+  },
+  {
+    "id": 239,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 1,
+    "box": "A nucleotide consists of a nitrogenous base, a five-carbon sugar, and one or more phosphate groups. A nucleoside consists of just the base and the sugar.",
+    "claim": "Removing the phosphate group(s) from a nucleotide would leave a nucleoside.",
+    "answer": true,
+    "explanation": "This is exactly the structural difference — a nucleoside is a nucleotide minus its phosphate group(s).",
+    "links": "Nucleoside vs nucleotide"
+  },
+  {
+    "id": 240,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 1,
+    "box": "DNA contains the bases adenine, thymine, guanine, and cytosine; RNA contains adenine, uracil, guanine, and cytosine.",
+    "claim": "Adenine and guanine are purines (double-ring), while thymine, uracil, and cytosine are all pyrimidines (single-ring).",
+    "answer": true,
+    "explanation": "This is the correct purine/pyrimidine split — two purines (A, G) and three pyrimidines (T, U, C) across DNA and RNA.",
+    "links": "Purines vs pyrimidines",
+    "diagram": "nucleotide_and_bases"
+  },
+  {
+    "id": 241,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 2,
+    "box": "A phosphodiester bond links the phosphate group of one nucleotide to a specific carbon on the sugar of the next nucleotide.",
+    "claim": "This linkage always connects to the 5' carbon of the next nucleotide's sugar, which is why strands grow in the 3'→5' direction.",
+    "answer": false,
+    "explanation": "The phosphodiester bond links to the next nucleotide's 3'-OH, not 5' — which is exactly why strands grow 5'→3', the reverse of this claim.",
+    "links": "Phosphodiester bond direction",
+    "diagram": "strand_directionality"
+  },
+  {
+    "id": 242,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbohydrates",
+    "points": 1,
+    "box": "Glucose and galactose share the exact same molecular formula (C6H12O6) but differ in the 3D arrangement of one hydroxyl group.",
+    "claim": "This relationship makes glucose and galactose isomers of each other, just like glucose and fructose are.",
+    "answer": true,
+    "explanation": "Same molecular formula, different atomic/spatial arrangement is the definition of isomers — this applies to glucose/galactose just as it does to glucose/fructose.",
+    "links": "Six-carbon sugar isomers"
+  },
+  {
+    "id": 243,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbohydrates",
+    "points": 1,
+    "box": "A cell links three glucose molecules together into a short chain via glycosidic bonds.",
+    "claim": "Because it contains only three monomers, this molecule is correctly classified as a polysaccharide.",
+    "answer": false,
+    "explanation": "A chain of only a few monomers (here, three) is an oligosaccharide; \"polysaccharide\" refers to much longer chains — classification here depends specifically on monomer count.",
+    "links": "Disaccharide vs oligo vs polysaccharide"
+  },
+  {
+    "id": 244,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbohydrates",
+    "points": 2,
+    "box": "Starch (plant storage), glycogen (animal storage), and cellulose (plant structural support) are all polymers built entirely from glucose monomers.",
+    "claim": "Despite sharing the same monomer, they serve different biological roles because of differences in how the glucose units are linked and branched.",
+    "answer": true,
+    "explanation": "Same monomer, different linkage/branching pattern — this is exactly what determines each polysaccharide's distinct biological role.",
+    "links": "Starch vs glycogen vs cellulose"
+  },
+  {
+    "id": 245,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 2,
+    "box": "A steroid hormone like testosterone is built from four fused carbon rings, with no glycerol backbone or fatty acid tail anywhere in its structure.",
+    "claim": "Because it lacks the glycerol-and-fatty-acid architecture typical of other lipids, testosterone should not be classified as a lipid at all.",
+    "answer": false,
+    "explanation": "Lipids are grouped by a shared physical property (hydrophobicity), not shared structure — a steroid's ring structure is just as valid a lipid architecture as a glycerol-based one.",
+    "links": "Steroids as lipids"
+  },
+  {
+    "id": 246,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 1,
+    "box": "A fatty acid tail contains two carbon-carbon double bonds along its chain.",
+    "claim": "These double bonds prevent free rotation at those points, introducing kinks that make the molecule it's part of pack less tightly than a fully saturated version would.",
+    "answer": true,
+    "explanation": "Double bonds restrict rotation and introduce a bend in the chain — exactly why unsaturated fats pack more loosely (and tend to be liquid at room temperature) compared to saturated fats.",
+    "links": "Saturated vs unsaturated fatty acids",
+    "diagram": "lipid_family_comparison"
+  },
+  {
+    "id": 247,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 2,
+    "box": "A lipid molecule has a glycerol backbone attached to two fatty acid tails and one phosphate-containing head group.",
+    "claim": "This structure is amphipathic, and would spontaneously arrange itself in water with its tails facing outward, toward the water.",
+    "answer": false,
+    "explanation": "The molecule (a phospholipid) is amphipathic, but the hydrophobic tails orient away from water (facing inward, toward each other), while the hydrophilic phosphate heads face outward, toward the water — the claim reverses the orientation.",
+    "links": "Phospholipid orientation in water",
+    "diagram": "phospholipid_bilayer"
+  },
+  {
+    "id": 248,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Cell Theory",
+    "points": 1,
+    "box": "Cell theory states that (1) all living things are composed of cells, and (2) the cell is the basic structural and functional unit of life. A bacterium is a single cell that performs every life function alone; a human liver is made of billions of cells, each performing its own functions as part of the larger organism.",
+    "claim": "Both the bacterium and the human liver illustrate tenets 1 and 2 together — life is cellular, and the cell (whether alone or as part of a larger body) is the basic functional unit — applying equally to unicellular and multicellular organisms.",
+    "answer": true,
+    "explanation": "Tenet 1 (all life is cellular) and tenet 2 (the cell is the basic structural/functional unit) hold regardless of whether an organism is a single cell (unicellular) or built from many cooperating cells (multicellular) — both examples satisfy both tenets.",
+    "links": "Tenets 1 & 2 · Unicellular vs multicellular"
+  },
+  {
+    "id": 249,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 2,
+    "box": "A drop of vegetable oil is added to a glass of water and does not mix in, clumping into a separate layer; a spoonful of sugar added to the same glass dissolves completely and disappears.",
+    "claim": "Both outcomes are explained by water's behavior as a \"universal solvent\" — it dissolves the oil via the hydrophobic effect and dissolves the sugar via hydrophilic interactions.",
+    "answer": false,
+    "explanation": "Water does NOT dissolve the oil — the hydrophobic effect describes exactly why nonpolar molecules like oil clump together and separate from water, rather than being dissolved by it. Water's strength as a solvent (shown by the dissolved sugar) applies specifically to polar/hydrophilic substances, not universally to everything.",
+    "links": "Water as solvent: hydrophilic vs hydrophobic"
+  },
+  {
+    "id": 250,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Basic Cell Properties",
+    "points": 1,
+    "box": "A particular stretch of DNA contains the instructions to build a functional enzyme, and this stretch is passed down from parent to offspring.",
+    "claim": "This stretch of DNA fits the definition of a gene, since a gene is specifically defined as a DNA sequence that codes for a functional product.",
+    "answer": true,
+    "explanation": "This is exactly the definition of a gene used in this course — a DNA sequence that codes for a functional product (here, an enzyme).",
+    "links": "Gene definition"
+  },
+  {
+    "id": 251,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 1,
+    "box": "A bacterial cell duplicates its single circular chromosome, then elongates and pinches inward at its midpoint, splitting into two genetically identical daughter cells.",
+    "claim": "This process is called binary fission, and it is the standard mode of reproduction for prokaryotic cells.",
+    "answer": true,
+    "explanation": "This is exactly binary fission — chromosome duplication followed by division into two identical cells — the standard prokaryotic reproduction method.",
+    "links": "Binary fission"
+  },
+  {
+    "id": 252,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 1,
+    "box": "A student claims that \"organic,\" in the biological/chemical sense used in this course, means \"naturally occurring\" or \"healthy,\" similar to how the word is used on food packaging.",
+    "claim": "In this course, \"organic molecule\" simply means any molecule that contains carbon — unrelated to the food-packaging sense of the word.",
+    "answer": true,
+    "explanation": "In this context, \"organic\" has a specific chemical meaning — containing carbon — unrelated to the \"natural/healthy\" connotation from food marketing.",
+    "links": "\"Organic\" = contains carbon"
+  },
+  {
+    "id": 253,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Proteins",
+    "points": 1,
+    "box": "An amino acid's alpha carbon is bonded to four groups: an amino group (-NH2), a carboxyl group (-COOH), a hydrogen atom, and a variable R group.",
+    "claim": "At physiological pH, this same amino acid typically exists as a zwitterion, with both the amino and carboxyl groups carrying opposite charges simultaneously.",
+    "answer": true,
+    "explanation": "The standard amino acid structure (alpha carbon + NH2 + COOH + H + R) is correct, and at physiological pH the amino group is protonated (positive) while the carboxyl group is deprotonated (negative) — the simultaneous-charge zwitterion state.",
+    "links": "Amino acid structure · Zwitterion",
+    "diagram": "amino_acid_and_peptide_bond"
+  },
+  {
+    "id": 254,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Cell Theory",
+    "points": 1,
+    "box": "A single neuron embedded in the human brain and a single amoeba living independently in a pond both carry out digestion, energy production, and response to stimuli using the same basic cellular toolkit.",
+    "claim": "This shared capability across such different cells — one embedded in a multicellular brain, one living alone — is exactly what tenet 2 of cell theory (the cell as the basic structural and functional unit of life) describes.",
+    "answer": true,
+    "explanation": "Tenet 2 states the cell — regardless of whether it's embedded in a multicellular organism or living independently — is the basic unit carrying out life's functions; both examples show this.",
+    "links": "Tenet 2: the cell as basic unit"
+  },
+  {
+    "id": 255,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 1,
+    "box": "A biology textbook describes water as the \"universal solvent\" of life, noting that most of the biochemistry inside a cell happens in an aqueous (water-based) environment.",
+    "claim": "This label reflects water's ability to dissolve a very wide range of polar and ionic (hydrophilic) substances, not a literal ability to dissolve absolutely everything, including nonpolar substances.",
+    "answer": true,
+    "explanation": "\"Universal solvent\" describes water's unusually broad ability to dissolve hydrophilic substances via hydrogen bonding and charge interactions — it does not mean water dissolves nonpolar (hydrophobic) substances, which instead clump together via the hydrophobic effect.",
+    "links": "\"Universal solvent\" — what it actually means"
+  },
+  {
+    "id": 300,
+    "type": "mc",
+    "mod": 1,
+    "topic": "History & Microscopy",
+    "points": 1,
+    "stem": "A researcher needs to observe the general shape and arrangement of cells in a tissue sample quickly and cheaply, without needing to resolve internal organelle structure. Which technique best fits this need?",
+    "options": [
+      "Electron microscopy",
+      "Fluorescence microscopy with organelle-specific antibody labeling",
+      "X-ray crystallography",
+      "Light microscopy",
+      "Mass spectrometry"
+    ],
+    "answerIndex": 3,
+    "explanation": "Light microscopy is the fastest, cheapest option and is sufficient when only gross cell shape/arrangement is needed; EM and fluorescence labeling are reserved for finer detail or specific structures, and the other two techniques aren't microscopy methods at all.",
+    "links": "Choosing a microscopy technique",
+    "diagram": "microscopy_comparison"
+  },
+  {
+    "id": 301,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Cell Theory",
+    "points": 2,
+    "stem": "An infectious particle consists only of nucleic acid enclosed in a protein coat. It has no ribosomes, no metabolism, and cannot reproduce without hijacking a host cell's machinery. Which of the following best classifies this particle under cell theory?",
+    "options": [
+      "An exception to cell theory (not a cell)",
+      "A minimal prokaryotic cell",
+      "A eukaryotic cell lacking EMS organelles",
+      "An example of tenet 3 in action",
+      "A cell missing only property 1"
+    ],
+    "answerIndex": 0,
+    "explanation": "No ribosomes, no independent metabolism, and no ability to reproduce without a host means this particle fails the basic cell definition entirely — it's a virus, treated as an exception to cell theory rather than an unusual minimal cell.",
+    "links": "Virus as cell theory exception"
+  },
+  {
+    "id": 302,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Basic Cell Properties",
+    "points": 1,
+    "stem": "Which of the following is the best example of property 7 (respond to stimuli)?",
+    "options": [
+      "A cell duplicating its DNA before dividing",
+      "A cell breaking down glucose via glycolysis",
+      "A cell's ribosome translating mRNA into protein",
+      "A cell's checkpoint halting division after DNA damage",
+      "A cell's receptor binding a hormone and triggering an internal signaling cascade"
+    ],
+    "answerIndex": 4,
+    "explanation": "Property 7 specifically concerns detecting and reacting to external signals via receptors — a receptor binding a hormone and triggering a response is the textbook example; the other options illustrate reproduction, metabolism, the genetic program, and self-regulation instead.",
+    "links": "Property 7: respond to stimuli"
+  },
+  {
+    "id": 303,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 1,
+    "stem": "A microbiologist finds an organism with a single circular chromosome, plasmids, a peptidoglycan-based cell wall, and standard ester-linked membrane lipids, living in ordinary soil. Which domain does this organism most likely belong to?",
+    "options": [
+      "Archaea",
+      "Bacteria",
+      "Eukarya",
+      "Protista",
+      "It cannot be a member of any of the three domains"
+    ],
+    "answerIndex": 1,
+    "explanation": "Peptidoglycan cell walls and ordinary ester-linked membrane lipids (rather than isoprenoid) in a non-extreme environment are hallmarks of Bacteria, not Archaea.",
+    "links": "Identifying Bacteria vs Archaea"
+  },
+  {
+    "id": 304,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Eukaryotic Diversity",
+    "points": 1,
+    "stem": "Which combination of features would correctly identify an organism as belonging to Fungi rather than Plantae?",
+    "options": [
+      "Cellulose cell wall, autotrophic, chloroplasts present",
+      "No cell wall, heterotrophic by ingestion",
+      "Chitin cell wall, heterotrophic by absorption, no chloroplasts",
+      "Cellulose cell wall, heterotrophic by absorption",
+      "Chitin cell wall, autotrophic, chloroplasts present"
+    ],
+    "answerIndex": 2,
+    "explanation": "Chitin walls plus heterotrophic absorption (no chloroplasts) is the defining fungal combination; cellulose walls and chloroplasts belong to plants, while \"no wall, ingestion\" describes animals instead.",
+    "links": "Fungi vs Plantae identification"
+  },
+  {
+    "id": 305,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 1,
+    "stem": "Which of the following organelles is correctly classified as EMS?",
+    "options": [
+      "Mitochondria",
+      "Peroxisome",
+      "Centrosome",
+      "Ribosome (free in cytosol)",
+      "Smooth ER"
+    ],
+    "answerIndex": 4,
+    "explanation": "Smooth ER is directly part of the membrane-trafficking network and is classified EMS; the other four are all non-EMS structures despite some being membrane-bound (mitochondria, peroxisome) or essential to the cell (centrosome, ribosome).",
+    "links": "Identifying an EMS organelle"
+  },
+  {
+    "id": 306,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Model Organisms",
+    "points": 1,
+    "stem": "A lab wants to observe, in real time, every single cell division from a fertilized egg to a fully developed adult body, using a transparent organism with an invariant developmental lineage. Which model organism is designed for exactly this kind of study?",
+    "options": [
+      "Escherichia coli",
+      "Saccharomyces cerevisiae",
+      "Mus musculus",
+      "Caenorhabditis elegans",
+      "Arabidopsis thaliana"
+    ],
+    "answerIndex": 3,
+    "explanation": "C. elegans' transparent body and fixed (invariant) cell lineage make it uniquely suited to tracking every division from embryo to adult — exactly why it was the first animal with a fully mapped cell lineage and sequenced genome.",
+    "links": "C. elegans as a lineage-tracking model"
+  },
+  {
+    "id": 307,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Basic Cell Properties",
+    "points": 1,
+    "stem": "Which pairing correctly matches a basic cell property with its molecular-level explanation?",
+    "options": [
+      "Property 2 (genetic program) — explained by the central dogma (DNA→RNA→protein)",
+      "Property 5 (metabolism) — explained by receptor-mediated signaling",
+      "Property 6 (mechanical activity) — explained by DNA duplication",
+      "Property 1 (membrane-enclosed cytoplasm) — explained by glycolysis",
+      "Property 8 (self-regulation) — explained by ATP structure"
+    ],
+    "answerIndex": 0,
+    "explanation": "Property 2 (the genetic program) is implemented through the central dogma at the molecular level; the other four pairings mismatch the property with an unrelated mechanism.",
+    "links": "Matching properties to mechanisms"
+  },
+  {
+    "id": 308,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 1,
+    "stem": "Which statement correctly distinguishes a prokaryotic cell from a eukaryotic cell?",
+    "options": [
+      "Prokaryotes have no plasma membrane",
+      "Prokaryotes have no membrane-bound nucleus or organelles",
+      "Prokaryotes have no ribosomes",
+      "Prokaryotes cannot metabolize glucose",
+      "Prokaryotes lack DNA entirely"
+    ],
+    "answerIndex": 1,
+    "explanation": "The defining prokaryote/eukaryote distinction is the absence of a membrane-bound nucleus and membrane-bound organelles — prokaryotes still have a plasma membrane, ribosomes, DNA, and metabolism.",
+    "links": "Prokaryote vs eukaryote definition",
+    "diagram": "prokaryote_vs_eukaryote"
+  },
+  {
+    "id": 309,
+    "type": "mc",
+    "mod": 1,
+    "topic": "History & Microscopy",
+    "points": 2,
+    "stem": "Schleiden concluded plant tissue is made of cells; Schwann independently confirmed the same pattern in animal tissue. Why was Schwann's independent confirmation in a second kingdom necessary, rather than just extending Schleiden's conclusion to all of life?",
+    "options": [
+      "Because animal cells are structurally identical to plant cells, so confirmation was a formality",
+      "Because Schleiden's microscope was less powerful than Schwann's",
+      "Because one kingdom's observations don't establish a universal biological theory",
+      "Because plant cells don't actually contain a nucleus",
+      "Because animal tissue doesn't contain cells at all"
+    ],
+    "answerIndex": 2,
+    "explanation": "A theory claiming universality across all life can't rest on evidence from a single kingdom — Schwann's independent animal-tissue confirmation was necessary precisely because Schleiden's plant-only observations couldn't generalize on their own.",
+    "links": "Why Schwann's confirmation was needed"
+  },
+  {
+    "id": 310,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 2,
+    "stem": "A cell biologist wants to determine whether an organelle is EMS or non-EMS. Which single question is the correct test to apply?",
+    "options": [
+      "Does the organelle participate in the membrane-based vesicle trafficking pathway?",
+      "Does the organelle have a membrane?",
+      "Is the organelle located near the nucleus?",
+      "Is the organelle essential for the cell to survive?",
+      "Does the organelle contain its own DNA?"
+    ],
+    "answerIndex": 0,
+    "explanation": "EMS classification hinges specifically on participation in membrane trafficking (the ER–Golgi–vesicle pathway) — not merely having a membrane, proximity to the nucleus, essentiality, or containing DNA (which would actually flag mitochondria/chloroplast, both non-EMS).",
+    "links": "The correct EMS test",
+    "diagram": "ems_trafficking_network"
+  },
+  {
+    "id": 311,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Eukaryotic Diversity",
+    "points": 1,
+    "stem": "Which feature is shared by protists, fungi, plants, and animals alike, despite their many other differences?",
+    "options": [
+      "A cellulose cell wall",
+      "Chloroplasts",
+      "Heterotrophic nutrition",
+      "A eukaryotic (true) nucleus",
+      "Multicellularity"
+    ],
+    "answerIndex": 3,
+    "explanation": "All four eukaryotic kingdoms share a true, membrane-bound nucleus by definition — the other options are each true of only some of the four kingdoms.",
+    "links": "What unites the eukaryotic kingdoms"
+  },
+  {
+    "id": 312,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Atoms & Valence Electrons",
+    "points": 1,
+    "stem": "An atom has 6 valence electrons in its outer shell. Based on the octet rule, how many covalent bonds would this atom typically form to complete its outer shell?",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "2"
+    ],
+    "answerIndex": 4,
+    "explanation": "An atom needs 8 valence electrons for a full outer shell; with 6 already present, it needs 2 more, typically forming 2 covalent bonds (e.g. oxygen).",
+    "links": "Valence electrons → bonds formed"
+  },
+  {
+    "id": 313,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 2,
+    "stem": "Which of the following best explains why water (H2O) is a polar molecule while methane (CH4) is nonpolar, despite both molecules containing some individually polar-ish bonds?",
+    "options": [
+      "Water has more atoms than methane",
+      "Water's bent shape prevents its bond dipoles from cancelling, while methane's symmetric tetrahedral shape cancels its dipoles",
+      "Methane contains no covalent bonds at all",
+      "Water molecules are larger than methane molecules",
+      "Oxygen cannot form polar bonds"
+    ],
+    "answerIndex": 1,
+    "explanation": "Molecular geometry, not just bond polarity, determines overall molecular polarity — water's bent shape leaves a net dipole, while methane's symmetric tetrahedral shape cancels its (weaker) bond dipoles entirely.",
+    "links": "Water vs methane polarity",
+    "diagram": "methane_vs_water_dipoles"
+  },
+  {
+    "id": 314,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 1,
+    "stem": "Which of the following is the correct definition of a chemical reaction?",
+    "options": [
+      "The physical movement of a molecule from one location to another",
+      "The folding of a protein into its 3D shape",
+      "The process of breaking and/or forming chemical bonds to convert reactants into products",
+      "The diffusion of a solute across a concentration gradient",
+      "The replication of a DNA molecule only"
+    ],
+    "answerIndex": 2,
+    "explanation": "A chemical reaction is specifically defined as bond-breaking and/or bond-forming that converts reactants into products — physical movement, folding, and diffusion don't involve breaking/forming bonds, and DNA replication is only one specific example, not the general definition.",
+    "links": "Defining a chemical reaction"
+  },
+  {
+    "id": 315,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 1,
+    "stem": "Which set of functional groups would you expect to find on a fully hydrophilic region of a biological molecule?",
+    "options": [
+      "Hydroxyl and phosphate",
+      "Methyl and methyl",
+      "Methyl and hydroxyl",
+      "Methyl and carbonyl (nonpolar context)",
+      "None of the above — all functional groups are equally hydrophobic"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hydroxyl and phosphate groups are both polar/charged and interact favorably with water, making them hydrophilic; methyl is nonpolar/hydrophobic and wouldn't belong in a \"fully hydrophilic\" set.",
+    "links": "Identifying hydrophilic functional groups"
+  },
+  {
+    "id": 316,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Condensation & Hydrolysis",
+    "points": 1,
+    "stem": "Which of the following correctly completes this statement: \"A condensation reaction ___, while a hydrolysis reaction ___.\"",
+    "options": [
+      "consumes water and releases energy / releases water and requires energy input",
+      "requires no water at all / also requires no water",
+      "releases energy without involving water / consumes energy without involving water",
+      "releases water and requires energy input / consumes water and releases energy",
+      "only occurs in carbohydrates / only occurs in proteins"
+    ],
+    "answerIndex": 3,
+    "explanation": "Condensation joins monomers by releasing a water molecule and requires energy input; hydrolysis is the reverse — it consumes water and releases energy as it breaks a bond.",
+    "links": "Condensation vs hydrolysis, precisely"
+  },
+  {
+    "id": 317,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Proteins",
+    "points": 2,
+    "stem": "A mutation changes one amino acid's R group from a nonpolar, hydrophobic one to a charged, hydrophilic one, in a region normally buried in the protein's hydrophobic core. What is the most likely consequence?",
+    "options": [
+      "No effect, since all amino acids are interchangeable",
+      "The protein's overall amino acid count changes",
+      "The protein automatically gains a new enzymatic function",
+      "The primary structure becomes undefined",
+      "The protein may misfold, since a charged R group is unstable in a hydrophobic core environment"
+    ],
+    "answerIndex": 4,
+    "explanation": "R-group chemistry drives folding — placing a charged, hydrophilic group into a hydrophobic core disrupts the interactions stabilizing that fold, making misfolding the most likely consequence; amino acid identity/count are unrelated to this change, and new function or \"undefined\" sequence aren't real consequences of a single substitution.",
+    "links": "R-group substitution and folding"
+  },
+  {
+    "id": 318,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 1,
+    "stem": "Which of the following correctly lists all three structural components of a single nucleotide?",
+    "options": [
+      "A nitrogenous base, an amino acid, and a phosphate group",
+      "A nitrogenous base, a five-carbon sugar, and a phosphate group",
+      "A five-carbon sugar, a fatty acid tail, and a phosphate group",
+      "A nitrogenous base, a five-carbon sugar, and a glycosidic bond",
+      "Two nitrogenous bases and one sugar"
+    ],
+    "answerIndex": 1,
+    "explanation": "A nucleotide is defined by exactly these three parts — base, sugar, phosphate; the other options substitute in components (amino acid, fatty acid tail) or relationships (glycosidic bond, a second base) that don't belong in this structural definition.",
+    "links": "The three parts of a nucleotide",
+    "diagram": "nucleotide_and_bases"
+  },
+  {
+    "id": 319,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Carbohydrates",
+    "points": 1,
+    "stem": "Glucose and fructose are combined to form sucrose. Which term correctly describes the resulting molecule, and which reaction type formed it?",
+    "options": [
+      "Polysaccharide, formed by hydrolysis",
+      "Monosaccharide, formed by condensation",
+      "Disaccharide, formed by condensation",
+      "Disaccharide, formed by hydrolysis",
+      "Oligosaccharide, formed by hydrolysis"
+    ],
+    "answerIndex": 2,
+    "explanation": "Two monosaccharides joined together form a disaccharide, and joining monomers together (releasing water) is a condensation reaction.",
+    "links": "Sucrose: disaccharide by condensation"
+  },
+  {
+    "id": 320,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 1,
+    "stem": "Which of the following best explains why lipids, unlike carbohydrates, proteins, and nucleic acids, are not classified as polymers?",
+    "options": [
+      "Lipids are not built from a single repeating monomer joined by a consistent bond type",
+      "Lipids don't contain carbon",
+      "Lipids are too large to be polymers",
+      "Lipids don't participate in condensation or hydrolysis reactions at all",
+      "Lipids only exist inside membranes"
+    ],
+    "answerIndex": 0,
+    "explanation": "The other three macromolecule classes are polymers of a repeating monomer (amino acids, nucleotides, monosaccharides); lipids are grouped by a shared property (hydrophobicity) rather than being built from one consistent repeating monomer, so they don't fit the polymer definition.",
+    "links": "Why lipids aren't polymers"
+  },
+  {
+    "id": 321,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Atoms & Valence Electrons",
+    "points": 1,
+    "stem": "Which of the following correctly describes why carbon, rather than another element, forms the structural backbone of nearly all biological macromolecules?",
+    "options": [
+      "Carbon is the most abundant element in the universe",
+      "Carbon cannot form double bonds, which makes its structures more stable",
+      "Carbon only bonds with oxygen",
+      "Carbon's four valence electrons let it form up to four stable covalent bonds, enabling chains, rings, and branches",
+      "Carbon has no valence electrons, so it doesn't need to bond at all"
+    ],
+    "answerIndex": 3,
+    "explanation": "Carbon's four valence electrons give it up to four bonding sites, enabling the vast structural diversity (chains, rings, branches) that underlies biological macromolecules — none of the other statements are accurate.",
+    "links": "Why carbon is the backbone element"
+  },
+  {
+    "id": 322,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 1,
+    "stem": "Which of the following pairs would most likely form an ionic bond rather than a covalent bond?",
+    "options": [
+      "Two carbon atoms",
+      "A carbon atom and a hydrogen atom",
+      "Two oxygen atoms",
+      "A carbon atom and an oxygen atom",
+      "A sodium atom and a chlorine atom"
+    ],
+    "answerIndex": 4,
+    "explanation": "Ionic bonds form between atoms with a very large electronegativity difference, where electrons transfer rather than share — sodium (very low electronegativity) and chlorine (very high) is the classic case; the other pairs share electrons covalently.",
+    "links": "Identifying an ionic pair"
+  },
+  {
+    "id": 323,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 1,
+    "stem": "A solution's pH drops from 8 to 5. What has happened to the H+ ion concentration?",
+    "options": [
+      "It decreased 3-fold",
+      "It increased 1,000-fold",
+      "It decreased 1,000-fold",
+      "It increased 3-fold",
+      "It stayed the same, since pH only measures OH- concentration"
+    ],
+    "answerIndex": 1,
+    "explanation": "pH is a negative log scale; dropping 3 units (8→5) means H+ concentration increased by 10³ = 1,000-fold.",
+    "links": "pH drop → H+ fold-change",
+    "diagram": "ph_scale_real_world"
+  },
+  {
+    "id": 324,
+    "type": "mc",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 1,
+    "stem": "A researcher studying E. coli wants to directly observe the coupling between transcription and translation — both processes happening on the same mRNA, at the same time, in the same compartment. Which feature of E. coli's cell biology makes this observable?",
+    "options": [
+      "Its cell wall is made of peptidoglycan",
+      "It reproduces by binary fission",
+      "It lacks a nuclear envelope separating DNA from ribosomes",
+      "It has plasmids in addition to its main chromosome",
+      "It thrives in extreme environments"
+    ],
+    "answerIndex": 2,
+    "explanation": "Without a nuclear envelope, E. coli's DNA and ribosomes share the same compartment, allowing transcription and translation to occur simultaneously on the same mRNA — a hallmark of prokaryotic gene expression not possible in a eukaryotic cell with a nucleus.",
+    "links": "E. coli: coupled transcription/translation"
+  },
+  {
+    "id": 325,
+    "type": "mc",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "stem": "Mitochondria and chloroplasts both have a double membrane, yet both are classified as non-EMS organelles. Which principle best explains why?",
+    "options": [
+      "EMS classification depends specifically on participation in the ER–Golgi–vesicle trafficking pathway, not on possessing a membrane",
+      "EMS classification depends on the number of membranes an organelle has",
+      "Mitochondria and chloroplasts don't actually have any membrane at all",
+      "Only organelles found in plant cells can be EMS",
+      "EMS status depends on whether the organelle contains DNA"
+    ],
+    "answerIndex": 0,
+    "explanation": "The EMS criterion is trafficking-pathway participation, not membrane count — mitochondria and chloroplasts have membranes (two each, in fact) but no connection to the ER–Golgi–vesicle network, and their membranes instead reflect endosymbiotic bacterial origin.",
+    "links": "Double membrane ≠ EMS"
+  },
+  {
+    "id": 326,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Atoms & Valence Electrons",
+    "points": 1,
+    "stem": "Which of the following correctly describes both the basic structure of an atom and how a covalent bond forms between two atoms?",
+    "options": [
+      "An atom has protons and electrons only (no neutrons); a covalent bond forms when one atom fully donates an electron to another",
+      "An atom has a nucleus of electrons surrounded by protons and neutrons; a covalent bond forms when atoms repel each other's electrons",
+      "An atom has a nucleus of protons and neutrons surrounded by electrons; a covalent bond forms when two atoms share a pair of valence electrons",
+      "An atom has no internal structure; a covalent bond forms only between identical atoms",
+      "An atom's mass comes entirely from its electrons; a covalent bond forms by transferring neutrons"
+    ],
+    "answerIndex": 2,
+    "explanation": "An atom's nucleus (protons + neutrons) is surrounded by electrons in shells/orbitals; a covalent bond specifically forms when two atoms share a pair of valence electrons, as opposed to the full transfer that defines an ionic bond.",
+    "links": "Atomic structure · Covalent bonding"
+  },
+  {
+    "id": 327,
+    "type": "mc",
+    "mod": 1,
+    "topic": "History & Microscopy",
+    "points": 1,
+    "stem": "A scientist wants to track the location of a specific protein inside living cells over time, distinguishing it from every other protein in the cell. Which imaging approach is best suited to this, and why?",
+    "options": [
+      "Standard light microscopy, because it requires no special preparation",
+      "Electron microscopy, because it has the highest possible resolution",
+      "X-ray crystallography, because it reveals atomic-level detail",
+      "None of these — individual proteins cannot be visualized by any microscopy technique",
+      "Fluorescence microscopy, because a fluorescent tag can selectively label just that one protein against a dark background"
+    ],
+    "answerIndex": 4,
+    "explanation": "Fluorescence microscopy's key advantage is selective labeling — tagging one specific molecule so it lights up while everything else stays dark — exactly what's needed to track one protein among many; the other techniques either lack this specificity or aren't suited to live, protein-level tracking.",
+    "links": "Fluorescence microscopy: selective tracking"
+  },
+  {
+    "id": 328,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Basic Cell Properties",
+    "points": 1,
+    "stem": "ATP is built from adenine, ribose, and three phosphate groups. Which part of this structure is specifically where the \"high energy\" of ATP is stored?",
+    "options": [
+      "The bonds between the second and third phosphate groups",
+      "The bond between adenine and ribose",
+      "The ribose sugar ring itself",
+      "The bond between the first phosphate and ribose",
+      "ATP does not actually store any usable energy"
+    ],
+    "answerIndex": 0,
+    "explanation": "ATP's structure is adenine + ribose + three phosphates, and the high-energy bonds specifically linking the 2nd and 3rd phosphates are what release usable energy when hydrolyzed (ATP→ADP).",
+    "links": "ATP structure and high-energy bonds"
+  },
+  {
+    "id": 329,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 1,
+    "stem": "Which of the following best describes the cytoskeleton's primary role in a eukaryotic cell?",
+    "options": [
+      "It synthesizes proteins from mRNA",
+      "It stores the cell's genetic material",
+      "It generates ATP through cellular respiration",
+      "It provides structural support and enables mechanical activities like transport and movement",
+      "It packages proteins for secretion"
+    ],
+    "answerIndex": 3,
+    "explanation": "The cytoskeleton is a protein filament network that provides structural support and drives mechanical activities (transport, movement, division) — not protein synthesis, genetic storage, ATP generation, or secretion packaging, which are other structures' jobs.",
+    "links": "Cytoskeleton's role"
+  },
+  {
+    "id": 330,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Carbon & Functional Groups",
+    "points": 1,
+    "stem": "The amide functional group is specifically responsible for which biologically important linkage?",
+    "options": [
+      "The glycosidic bond between two monosaccharides",
+      "The peptide bond between two amino acids",
+      "The phosphodiester bond between two nucleotides",
+      "The disulfide bond between two cysteines",
+      "The ester bond between glycerol and a fatty acid"
+    ],
+    "answerIndex": 1,
+    "explanation": "The amide functional group is exactly what forms the peptide bond linking amino acids together into a polypeptide chain.",
+    "links": "Amide group → peptide bond"
+  },
+  {
+    "id": 331,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Carbohydrates",
+    "points": 1,
+    "stem": "In aqueous solution, glucose predominantly exists not as an open chain but as a ring. Which bond formation is responsible for this cyclization?",
+    "options": [
+      "A glycosidic bond between two separate glucose molecules",
+      "A peptide bond within the glucose molecule",
+      "A disulfide bond between two carbons in the chain",
+      "A phosphodiester bond linking C1 to a phosphate group",
+      "A bond forming between glucose's C1 and C5 (via its oxygen), closing the chain into a ring"
+    ],
+    "answerIndex": 4,
+    "explanation": "Cyclic monosaccharide formation happens when the aldehyde carbon (C1) reacts intramolecularly with the hydroxyl on C5, closing the chain into a ring — a different, intramolecular event from the (intermolecular) glycosidic bond that later links separate sugars.",
+    "links": "Glucose ring formation",
+    "diagram": "glucose_ring_and_glycosidic_bond"
+  },
+  {
+    "id": 332,
+    "type": "mc",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "stem": "A polypeptide chain and a strand of RNA are both broken down into their monomers. Which statement correctly describes what these two breakdown reactions have in common?",
+    "options": [
+      "Both are hydrolysis reactions that consume water, reversing the same type of condensation reaction that built each polymer",
+      "Neither reaction involves water",
+      "Both are condensation reactions that release water",
+      "Only the polypeptide breakdown involves water; RNA breakdown does not",
+      "Both reactions require the addition of a phosphate group"
+    ],
+    "answerIndex": 0,
+    "explanation": "Both proteins and nucleic acids are polymers built by condensation (releasing water) and broken down by hydrolysis (consuming water) — the same reversible condensation/hydrolysis logic applies across all macromolecule classes, not just one.",
+    "links": "Condensation/hydrolysis across macromolecules"
+  },
+  {
+    "id": 333,
+    "type": "mc",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "stem": "Property 1 (membrane-enclosed cytoplasm) and an enzyme's ability to fold correctly both depend on a chemistry principle that spans Modules 1 and 2. Which principle is it?",
+    "options": [
+      "The number of chromosomes in the cell's nucleus",
+      "The rate of ATP production during glycolysis",
+      "How specific functional groups interact with water — polarity and charge — which governs both phospholipid self-assembly into a membrane and R-group interactions that stabilize protein folding",
+      "Whether the organism is unicellular or multicellular",
+      "The presence or absence of a cell wall"
+    ],
+    "answerIndex": 2,
+    "explanation": "Both phenomena trace back to functional-group chemistry — polarity and charge relative to water. Phospholipids self-assemble into a membrane because they're amphipathic (polar head, nonpolar tails), and a protein's fold is stabilized by charge/polarity interactions between R groups, which pH can disrupt.",
+    "links": "Functional-group chemistry: membranes and folding"
+  },
+  {
+    "id": 334,
+    "type": "mc",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "stem": "Which of the following pairs correctly links a Module 1 concept to the specific mechanism or classification that explains it?",
+    "options": [
+      "Tenet 3 ↔ explained by the cytoskeleton's membrane structure",
+      "Tenet 3 (cells from pre-existing cells) ↔ explained at the prokaryotic level by binary fission, which duplicates DNA before dividing",
+      "The cytoskeleton's mechanical role ↔ explained by its classification as EMS",
+      "Binary fission ↔ explained by the cytoskeleton organizing vesicle trafficking",
+      "The cytoskeleton's non-EMS classification ↔ explained by its role in DNA replication"
+    ],
+    "answerIndex": 1,
+    "explanation": "Binary fission — DNA duplication followed by division into two cells — is the prokaryotic-level instance of tenet 3. The cytoskeleton, by contrast, has no membrane and is classified non-EMS despite its essential mechanical/support role; the other pairings mismatch cause and explanation.",
+    "links": "Tenet 3/fission · Cytoskeleton/non-EMS"
+  },
+  {
+    "id": 335,
+    "type": "mc",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 2,
+    "stem": "Which statement correctly connects a basic cell property (from Module 1) to a Module 2 chemistry concept?",
+    "options": [
+      "Property 1 (membrane) is explained by all four macromolecule classes being organic — i.e., carbon-containing",
+      "Property 2 (genetic program) has nothing to do with nucleotide-level chemistry, since it operates only at the whole-cell level",
+      "The central dogma explains property 6 (mechanical activity), not property 2",
+      "All four macromolecule classes (carbohydrates, lipids, proteins, nucleic acids) are organic because each contains carbon, which is why \"organic molecule\" simply means \"contains carbon\"",
+      "Carbon content is irrelevant to whether a molecule counts as a macromolecule"
+    ],
+    "answerIndex": 3,
+    "explanation": "All four macromolecule classes qualify as organic specifically because each contains carbon — the literal definition of \"organic\" used here. Property 2 (the genetic program), in turn, is implemented through the central dogma at the nucleotide level — DNA→RNA→protein — connecting the cell-level property directly to Module 2's chemistry.",
+    "links": "Organic definition · Genetic program/central dogma"
+  },
+  {
+    "id": 336,
+    "type": "mc",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 1,
+    "stem": "A course covers seven model organisms, each chosen to make a specific biological process easier to study. Which reasoning correctly matches a model organism to what it's used for?",
+    "options": [
+      "Mus musculus is used mainly to study rapid genetic screening because of its short generation time",
+      "E. coli is used to study the eukaryotic cell cycle because it has the simplest genome",
+      "S. cerevisiae is used to study a minimal, tractable model of the eukaryotic cell cycle",
+      "C. elegans is used mainly to study mammalian-specific development",
+      "Arabidopsis is used to study prokaryotic gene expression"
+    ],
+    "answerIndex": 2,
+    "explanation": "Each model organism is chosen for a specific fit: yeast (S. cerevisiae) as a minimal eukaryote for cell-cycle study; mouse for rapid genetic screening/mammalian translation; E. coli for prokaryotic DNA/RNA/protein processes; C. elegans for cell lineage tracking; Arabidopsis for flowering-plant biology — matching organism to purpose, not interchangeably.",
+    "links": "Model organism ↔ purpose"
+  },
+  {
+    "id": 337,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Atoms & Valence Electrons",
+    "points": 1,
+    "stem": "Which of the following correctly describes where an atom's protons and neutrons are located relative to its electrons?",
+    "options": [
+      "Protons and neutrons orbit around a central cloud of electrons",
+      "Protons, neutrons, and electrons are all located in the nucleus",
+      "Protons and neutrons make up the nucleus, while electrons occupy the surrounding space in shells",
+      "Only electrons exist in an atom; protons and neutrons are found in molecules, not atoms",
+      "Protons are in the nucleus, but neutrons and electrons both orbit outside it"
+    ],
+    "answerIndex": 2,
+    "explanation": "The nucleus (protons + neutrons) sits at the atom's center, while electrons occupy the surrounding space in shells/orbitals — the standard atomic structure.",
+    "links": "Atomic structure: nucleus vs electron shells"
+  },
+  {
+    "id": 338,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 1,
+    "stem": "Two hydrogen atoms come together to form H2. Which statement correctly describes the resulting bond?",
+    "options": [
+      "Each hydrogen atom fully transfers its electron to the other",
+      "No bond forms, since hydrogen has no valence electrons to share",
+      "The two atoms share a pair of valence electrons between them, forming a covalent bond",
+      "The atoms form an ionic bond due to their different electronegativities",
+      "The bond forms from proton-to-proton attraction alone"
+    ],
+    "answerIndex": 2,
+    "explanation": "A covalent bond is defined by two atoms sharing a pair of valence electrons — exactly what happens as two hydrogen atoms each contribute one electron to a shared pair in H2.",
+    "links": "Covalent bond: shared electron pair"
+  },
+  {
+    "id": 339,
+    "type": "mc",
+    "mod": 1,
+    "topic": "History & Microscopy",
+    "points": 1,
+    "diagram": "microscopy_comparison",
+    "stem": "The diagram shows three circular fields of view side by side. The fluorescence panel is almost entirely black except for one small glowing spot near the center. A student argues this means fluorescence microscopy has worse resolution than electron microscopy, since \"you can barely see anything.\" What is wrong with that reasoning?",
+    "options": [
+      "Fluorescence microscopy really does have worse resolution than EM, so the student is correct",
+      "The dark field isn't a resolution limit — it's the point: only the tagged structure emits light, so everything else is invisible by design",
+      "EM images are always false-color, so the two panels can't be fairly compared",
+      "Fluorescence microscopy can only be performed on tissue that has already been sectioned by EM, so the comparison is circular",
+      "The three panels must be at different magnifications, which is the actual reason less is visible"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fluorescence microscopy's \"mostly dark\" appearance comes from selective labeling — only molecules bound to the fluorescent tag glow, so an unlabeled structure stays invisible even though it's physically there. That's a deliberate trade for specificity, not a resolution failure. EM's fine ultrastructure detail comes from a different trade-off entirely: a much shorter effective wavelength, but only on a fixed (dead) sample.",
+    "links": "Fluorescence microscopy · Light microscopy · Electron microscopy"
+  },
+  {
+    "id": 256,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Organelles: EMS vs Non-EMS",
+    "points": 1,
+    "diagram": "ems_trafficking_network",
+    "box": "In the diagram, an arrow traces a path from the rough ER through the Golgi to a vesicle budding toward the plasma membrane. The mitochondrion and chloroplast are drawn off to the side, each with a visibly doubled outline, next to the note \"double membrane, but no vesicle traffic with the EMS.\"",
+    "claim": "Mitochondria and chloroplasts are excluded from the EMS specifically because their membranes are structurally too different (double vs. single) to physically fuse with EMS vesicles.",
+    "answer": false,
+    "explanation": "The diagram's note names the real criterion: whether a compartment participates in the traced vesicle-trafficking pathway — not how many membranes it has. Mitochondria and chloroplasts are excluded because they're topologically disconnected from that pathway (most of their proteins are made on free ribosomes and imported directly), not because a double membrane is somehow incompatible with vesicle fusion.",
+    "links": "EMS definition · Mitochondria/chloroplast double-membrane exception"
+  },
+  {
+    "id": 32,
+    "type": "combo",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 3,
+    "diagram": "prokaryote_vs_eukaryote",
+    "title": "Reading the two cell diagrams side by side",
+    "stem": "Study the Prokaryote and Eukaryote diagrams below. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> The prokaryote diagram shows small circles labeled \"plasmids\" near the nucleoid, plus a thick outer boundary labeled \"cell wall + plasma membrane.\"<br><br><b>(나)</b> The eukaryote diagram shows a labeled \"nucleus\" region and several thin unlabeled lines in the cytoplasm.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "The plasmids shown in the prokaryote diagram are separate from the cell's main chromosome and are not required for the cell's basic survival.",
+        "correct": true,
+        "explanation": "Plasmids carry supplementary genes (e.g., antibiotic resistance) — useful under certain conditions but not essential to core survival, unlike the main circular chromosome."
+      },
+      {
+        "label": "ㄴ",
+        "text": "The thin lines drawn in the eukaryote diagram most likely represent cytoskeletal filaments, a structural feature the prokaryote diagram doesn't include.",
+        "correct": true,
+        "explanation": "Prokaryotes lack a true cytoskeleton and rely on the cell wall for structural support instead; the eukaryote diagram's internal lines represent the cytoskeleton that eukaryotic cells use."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Because the eukaryote diagram shows a membrane-enclosed nucleus, the diagram indicates eukaryotic cells are evolutionarily superior to prokaryotic cells.",
+        "correct": false,
+        "explanation": "A nuclear envelope is a structural difference in compartmentalization, not a claim about evolutionary \"superiority\" — prokaryotes are not an incomplete version of eukaryotes; they're an independently successful domain-level lineage."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Prokaryote vs eukaryote · Plasmids · Cytoskeleton · Cell wall"
+  },
+  {
+    "id": 257,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 1,
+    "diagram": "three_domain_tree",
+    "box": "In the diagram, the branch point for Eukarya sits ON the Archaea branch, partway between the Bacteria/Archaea split and the Archaea tip — not on its own separate branch straight from the root.",
+    "claim": "This branching pattern shown in the diagram means Eukarya and Bacteria are the two domains most distantly related to each other.",
+    "answer": true,
+    "explanation": "Since Eukarya branches from within Archaea (a genuinely surprising, well-supported modern finding), Eukarya and Archaea share a more recent common ancestor than either does with Bacteria — making Bacteria the domain most distantly related to both. This contradicts a naive \"three equally-spaced branches\" reading, which is exactly why the diagram draws the branch point where it does rather than as three separate lines from one root.",
+    "links": "Three-domain tree · Eukarya from within Archaea"
+  },
+  {
+    "id": 340,
+    "type": "mc",
+    "mod": 1,
+    "topic": "Eukaryotic Diversity",
+    "points": 1,
+    "diagram": "plant_vs_animal_cell",
+    "stem": "In the diagram, the plant cell is drawn as a rigid square with arrows pushing outward from the central vacuole against the outer wall, while the animal cell is drawn as an irregular rounded shape with no such outward arrows. What does this visual contrast best illustrate?",
+    "options": [
+      "Plant cells are simply larger than animal cells",
+      "Only plant cells contain a nucleus",
+      "The plant cell's rigid shape comes from turgor pressure (the vacuole pushing outward against the wall), while the animal cell's rounded, flexible shape is held by its cytoskeleton instead, with no wall to push against",
+      "Animal cells cannot survive in water, unlike plant cells",
+      "The vacuole shown in the plant cell is an EMS structure absent from all animal cells"
+    ],
+    "answerIndex": 2,
+    "explanation": "The outward arrows in the plant-cell diagram represent turgor pressure — water entering the central vacuole pushes the plasma membrane against the rigid cell wall, keeping the cell firm. Animal cells have neither a wall nor a large central vacuole, so they can't develop turgor pressure; their shape is instead maintained by the cytoskeleton, which is why the diagram draws them as flexible and rounded rather than boxy.",
+    "links": "Plant cell turgor pressure · Animal cell shape · Cytoskeleton"
+  },
+  {
+    "id": 33,
+    "type": "combo",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 3,
+    "diagram": "electronegativity_spectrum",
+    "title": "Placing real bonds on the spectrum",
+    "stem": "The diagram places three example bonds — C–H, O–H (water), and Na–Cl — at different points along one continuous spectrum from \"nonpolar covalent\" to \"ionic.\" Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> C–H sits at the far left of the spectrum, in the nonpolar covalent zone.<br><br><b>(나)</b> Na–Cl sits at the far right, in the ionic zone.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Placing these three bonds on ONE continuous spectrum, rather than in three separate unconnected boxes, reflects that polarity and ionic character differ in degree (ΔEN), not in kind.",
+        "correct": true,
+        "explanation": "Bond character is a continuum based on the electronegativity difference between the two atoms — there's no sharp cutoff, just increasing charge separation as ΔEN grows, which is why one continuous spectrum is the accurate way to draw it."
+      },
+      {
+        "label": "ㄴ",
+        "text": "O–H in water sits in the middle \"polar covalent\" zone because oxygen and hydrogen still share their bonding electrons, just unequally, unlike Na–Cl where an electron is essentially fully transferred.",
+        "correct": true,
+        "explanation": "Polar covalent bonds are still bonds of shared electrons — just with unequal sharing due to a real but moderate ΔEN. Ionic bonds involve a large enough ΔEN that an electron is essentially transferred rather than shared."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Since C–H and Na–Cl fall at opposite ends of the same spectrum, C–H must also be capable of dissolving in water via hydration shells, the same way NaCl does.",
+        "correct": false,
+        "explanation": "Hydration shells form around charged/highly polar species because water's partial charges can orient toward them; C–H's near-zero ΔEN means the bond carries no meaningful partial charge for water to interact with electrostatically, so nonpolar C–H-rich molecules do NOT dissolve this way."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Electronegativity spectrum · Polar vs nonpolar covalent · Hydration shells"
+  },
+  {
+    "id": 258,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 1,
+    "diagram": "water_polarity_hbonds",
+    "box": "The diagram draws solid lines for the two O–H bonds inside a single water molecule, and dashed lines connecting that molecule's H atoms to O atoms on two neighboring (partial) molecules.",
+    "claim": "If you boiled away all of a water sample's hydrogen bonds while leaving every covalent O–H bond intact, you would be left with intact water molecules that are simply no longer clustered together — not a pile of separated hydrogen and oxygen atoms.",
+    "answer": true,
+    "explanation": "This is exactly the solid-vs-dashed distinction the diagram encodes: the solid covalent O–H bonds (strong, inside one molecule) are what make something \"a water molecule\" at all, while the dashed hydrogen bonds (weak, between molecules) are what hold separate water molecules to each other. Boiling breaks hydrogen bonds, not covalent bonds — steam is still made of intact H2O molecules, just no longer hydrogen-bonded into a liquid network.",
+    "links": "Hydrogen bonds vs covalent bonds · Water polarity"
+  },
+  {
+    "id": 341,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 1,
+    "diagram": "nacl_hydration_shells",
+    "stem": "In the diagram, the water molecules surrounding Na+ all point their oxygen (δ–) end inward, while the water molecules surrounding Cl– all point a hydrogen (δ+) end inward. Why does the diagram orient them this way, rather than randomly?",
+    "options": [
+      "Water molecules always orient the same way regardless of what they're surrounding",
+      "Opposite charges attract: an ion's charge orients the nearest partial charge on each water molecule toward it, so oxygen's δ– faces the cation and hydrogen's δ+ faces the anion",
+      "The orientation shown is arbitrary and has no chemical basis",
+      "Na+ and Cl– are both attracted to the same end of the water molecule",
+      "This orientation only occurs at very low temperatures"
+    ],
+    "answerIndex": 1,
+    "explanation": "Water's polarity (oxygen slightly negative, hydrogens slightly positive) means each water molecule acts like a tiny magnet. Electrostatic attraction dictates the orientation: the electron-rich oxygen end is drawn toward the positively charged Na+, while a hydrogen end is drawn toward the negatively charged Cl–. This ordered shell of oriented water molecules is exactly what \"dissolving\" an ionic compound means at the molecular level.",
+    "links": "Hydration shells · Water dissolves NaCl · Ion–dipole attraction"
+  },
+  {
+    "id": 259,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 1,
+    "diagram": "methane_vs_water_dipoles",
+    "box": "The diagram shows methane's four C–H pulls as arrows pointing symmetrically outward in four directions from a central carbon, versus water's two O–H pulls both pointing away from oxygen on the same side, summing into one net downward arrow.",
+    "claim": "If methane's four C–H bonds were rearranged to point in only two directions instead of four (like water's bent shape), methane would become a polar molecule even though each individual C–H bond stayed exactly as nonpolar as before.",
+    "answer": true,
+    "explanation": "This is the diagram's central point: whether a molecule is polar depends on molecular geometry (how individual bond dipoles are arranged in space), not only on how polar each individual bond is. Water's bent shape lets its two O–H dipoles sum rather than cancel; methane's symmetric shape lets its four C–H dipoles cancel exactly. Change the geometry to something asymmetric and even weakly polar bonds would stop canceling, producing a net dipole.",
+    "links": "Molecular geometry and polarity · Methane symmetric cancellation · Water net dipole"
+  },
+  {
+    "id": 34,
+    "type": "combo",
+    "mod": 2,
+    "topic": "Water Chemistry & pH",
+    "points": 3,
+    "diagram": "ph_scale_real_world",
+    "title": "Reading the pH scale quantitatively",
+    "stem": "The diagram places gastric acid (~pH 2), coffee (~pH 5), blood (~pH 7.4), baking soda (~pH 9), and bleach (~pH 13) along a 0–14 scale, with a note that each whole step is a 10× change in [H+]. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Gastric acid sits at ~pH 2.<br><br><b>(나)</b> Coffee sits at ~pH 5, three whole steps higher on the scale.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Based on the diagram's own note, gastric acid's H+ concentration is approximately 1,000 times higher than coffee's.",
+        "correct": true,
+        "explanation": "3 pH units apart = 10³ = 1,000× difference in [H+], exactly as the diagram's caption states."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Blood's position on the diagram, just above the exact center of the 0–14 scale, means blood is on the basic side of neutral, the same general direction as baking soda.",
+        "correct": true,
+        "explanation": "pH 7.4 is slightly above neutral (7), placing blood on the basic side of neutral, same general direction as baking soda (~9), even though blood's H+ concentration is far closer to neutral than baking soda's."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Because bleach is drawn near the opposite end of the scale from gastric acid, bleach and gastric acid must have roughly the same magnitude of [H+] difference from pure water (pH 7).",
+        "correct": false,
+        "explanation": "Gastric acid (pH 2) is 5 units from neutral; bleach (pH 13) is 6 units from neutral — close but not equal, and since the scale is logarithmic that's a 10-fold difference in how far each one's [H+] actually sits from water's."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄱ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "pH scale · Logarithmic H+ concentration · Real-world pH reference points"
+  },
+  {
+    "id": 342,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Proteins",
+    "points": 1,
+    "diagram": "amino_acid_and_peptide_bond",
+    "stem": "In the diagram's right-hand panel, one amino acid's –COOH group and a second amino acid's H2N– group are joined by an arrow labeled \"peptide bond,\" with \"+ H2O released\" written below. Which of the following correctly identifies what happened to the atoms at the reaction site?",
+    "options": [
+      "The –COOH group's –OH and one H from the –NH2 group left together as part of the released water molecule, and the remaining carbon and nitrogen are now directly bonded",
+      "An entire water molecule was inserted between the two amino acids to link them",
+      "The peptide bond forms by transferring an electron from nitrogen to carbon, making it an ionic bond",
+      "Both R groups were consumed in the reaction, which is why they aren't shown in this panel",
+      "The reaction shown is hydrolysis, not condensation, since a small molecule (water) is a product"
+    ],
+    "answerIndex": 0,
+    "explanation": "Peptide bond formation is a condensation (dehydration synthesis) reaction: the –OH from the carboxyl group and one H from the amino group are removed and combine to form the released H2O, while the remaining carbonyl carbon and amine nitrogen form the new C–N peptide bond. (Option E correctly names water as a product but wrongly calls the reaction hydrolysis — hydrolysis consumes water to break a bond; this reaction releases water to form one, which is condensation.)",
+    "links": "Peptide bond formation · Condensation reaction · Zwitterion"
+  },
+  {
+    "id": 260,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Proteins",
+    "points": 1,
+    "diagram": "protein_structure_levels",
+    "box": "The diagram draws four panels in sequence: a beaded chain (Primary), a coiled ribbon (Secondary), a single folded blob (Tertiary), and two differently-shaded blobs touching each other (Quaternary).",
+    "claim": "Based on how the diagram progresses, a protein must pass through all four levels in order, and a single-chain protein that never forms multi-subunit assemblies is therefore an \"incomplete\" or defective protein.",
+    "answer": false,
+    "explanation": "The four levels describe increasing layers of structural organization that build on each other conceptually (sequence → local folding → overall 3D shape → assembly with other chains), but quaternary structure only applies to proteins made of multiple polypeptide chains. A fully functional single-chain protein (like myoglobin) simply has no quaternary level to reach — it is not defective or incomplete for stopping at tertiary structure.",
+    "links": "Levels of protein structure · Quaternary structure requires multiple chains"
+  },
+  {
+    "id": 35,
+    "type": "combo",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 3,
+    "diagram": "nucleotide_and_bases",
+    "title": "Ring structure and nucleotide anatomy together",
+    "stem": "The diagram shows one nucleotide's three parts (phosphate–sugar–base) alongside a separate comparison of purine (double-ring) vs. pyrimidine (single-ring) bases. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> The nucleotide panel shows the base attached to the sugar, with the phosphate attached to the sugar on the opposite side.<br><br><b>(나)</b> The purine panel shows two fused rings; the pyrimidine panel shows one ring.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Removing only the base shown in the nucleotide panel, while keeping the phosphate and sugar attached to each other, would leave a molecule that is neither a nucleoside nor a nucleotide in the standard sense.",
+        "correct": true,
+        "explanation": "A nucleotide is specifically base + sugar + phosphate together; a nucleoside is base + sugar (no phosphate). Sugar + phosphate with no base isn't standard nucleotide terminology — the base is required for either term to apply."
+      },
+      {
+        "label": "ㄴ",
+        "text": "If the base drawn in the nucleotide panel were adenine, the diagram's purine panel (double ring) would be the correct structural category for it, not the pyrimidine panel.",
+        "correct": true,
+        "explanation": "Adenine and guanine are purines (double-ring); cytosine, thymine, and uracil are pyrimidines (single-ring) — adenine belongs in the double-ring category the diagram draws."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Because both purines and pyrimidines are drawn as rings in the diagram, both categories contain the same number of nitrogen atoms per ring.",
+        "correct": false,
+        "explanation": "The diagram deliberately draws purines with two fused rings and pyrimidines with one specifically because they differ in ring structure — this is a structural classification, and it does not imply identical atom counts between the two categories."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Nucleotide anatomy · Purines vs pyrimidines · Nucleoside vs nucleotide"
+  },
+  {
+    "id": 343,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 1,
+    "diagram": "strand_directionality",
+    "stem": "The diagram shows a backbone of alternating phosphate and sugar units, labeled 5' at the left end and 3' at the right end, with an arrow below reading \"synthesis always proceeds 5'→3'.\" If a new nucleotide is added to extend this strand, at which end does the diagram indicate it must be added, and why?",
+    "options": [
+      "At the 5' end, because that's where the existing phosphates are",
+      "At the 3' end, because each new nucleotide's phosphate bonds to the free 3'-OH already at that end of the growing chain",
+      "At either end equally, since the diagram shows the backbone as symmetric",
+      "In the middle of the strand, since that's the most chemically accessible position",
+      "At the 3' end, because that end lacks a phosphate group entirely"
+    ],
+    "answerIndex": 1,
+    "explanation": "The diagram's labeled 5'→3' arrow reflects the chemistry of the phosphodiester bond itself: each new nucleotide's 5'-phosphate bonds to the free 3'-OH at the growing strand's end. That consumes the free 3'-OH and creates a new one on the just-added nucleotide's sugar, so growth can only continue at that end — which is why synthesis direction is always described as 5'→3', never the reverse.",
+    "links": "Phosphodiester bonds · Strand directionality · 5' to 3' synthesis"
+  },
+  {
+    "id": 261,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Carbohydrates",
+    "points": 1,
+    "diagram": "glucose_ring_and_glycosidic_bond",
+    "box": "The diagram's left panel shows a dashed curved line connecting C1 to the C5-OH of the same linear sugar, closing it into a ring. The right panel shows two rings connected by a single bond labeled \"glycosidic bond,\" with \"condensation → +H2O released\" written below.",
+    "claim": "The ring-closing step in the left panel and the ring-joining step in the right panel are the same type of reaction — condensation — just occurring within one molecule instead of between two.",
+    "answer": true,
+    "explanation": "Both are condensation reactions: intramolecular ring closure (C1's carbonyl reacting with C5's hydroxyl within the same glucose molecule) and intermolecular glycosidic bond formation (C1 of one ringed sugar reacting with an –OH of a second sugar) both form a new C–O bond while releasing a water molecule. The diagram's right-panel caption describes a reaction that is mechanistically the same category as the ring closure shown on the left, just between two separate monosaccharides instead of within one.",
+    "links": "Cyclic monosaccharide formation · Glycosidic bond · Condensation reaction"
+  },
+  {
+    "id": 36,
+    "type": "combo",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 3,
+    "diagram": "lipid_family_comparison",
+    "title": "Three lipids, one diagram",
+    "stem": "The diagram places triacylglycerol, phospholipid, and cholesterol side by side, then adds a bottom panel contrasting a straight saturated tail with a kinked unsaturated tail. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> The phospholipid icon is the only one of the three drawn with a distinct \"head\" shape separate from its tails.<br><br><b>(나)</b> The bottom panel shows the unsaturated tail bending sharply at one point, unlike the saturated tail's straight line.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "The distinct head shown only on the phospholipid icon represents the phosphate-containing group, which is what makes phospholipids amphipathic while triacylglycerol (all tails, no head) is not.",
+        "correct": true,
+        "explanation": "Triacylglycerol is 3 fatty acid tails on a glycerol backbone — uniformly hydrophobic, no polar head. Phospholipids swap one fatty acid for a phosphate-containing head group, creating a molecule with both a hydrophilic head and hydrophobic tails: amphipathic."
+      },
+      {
+        "label": "ㄴ",
+        "text": "The kink drawn in the unsaturated tail is caused by a double bond, which prevents free rotation at that point in the carbon chain.",
+        "correct": true,
+        "explanation": "A C=C double bond is rigid and doesn't rotate the way a single bond does, which forces a fixed bend in the chain at that point — exactly the kink the diagram draws."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Because cholesterol is drawn with fused rings instead of a glycerol-and-tails structure like the other two, cholesterol is not classified as a lipid in this diagram's scheme.",
+        "correct": false,
+        "explanation": "Lipids are grouped by a shared property — hydrophobicity — not by shared structure, which is exactly why cholesterol (rings), triacylglycerol (glycerol + 3 tails), and phospholipid (glycerol + 2 tails + head) can all sit in the same \"lipid family\" comparison despite having no structural blueprint in common."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Lipid family comparison · Amphipathic phospholipids · Saturated vs unsaturated · Lipids grouped by hydrophobicity"
+  },
+  {
+    "id": 262,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 1,
+    "diagram": "phospholipid_bilayer",
+    "box": "The diagram shows two rows of head circles (top and bottom), each row's tails pointing inward toward a shared middle region labeled \"hydrophobic tails hidden inside,\" with \"water (outside)\" above and \"water (cytoplasm)\" below.",
+    "claim": "This arrangement is the direct, predictable consequence of phospholipids being amphipathic and placed in a watery environment on both sides — no additional cellular machinery is required to assemble this basic structure.",
+    "answer": true,
+    "explanation": "This is spontaneous self-assembly: amphipathic phospholipids placed in water will spontaneously orient their hydrophilic heads toward the water on each side and cluster their hydrophobic tails away from water in the middle, because that arrangement minimizes unfavorable contact between the tails and water. The diagram's two-row, tails-inward structure is exactly the energetically favorable outcome amphipathic molecules fall into on their own — cells don't need to actively build this geometry piece by piece.",
+    "links": "Amphipathic self-assembly · Phospholipid bilayer · Membrane needs amphipathic phospholipids"
+  },
+  {
+    "id": 344,
+    "type": "mc",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 1,
+    "diagram": "central_dogma_flowchart",
+    "stem": "The diagram labels the arrow from Gene (DNA) to RNA as \"transcription / phosphodiester bonds\" and the arrow from RNA to Protein as \"translation / peptide bonds,\" with a note that both steps are condensation reactions. What single underlying chemical fact does this diagram use to connect two otherwise separate topics — nucleic acid chemistry and protein chemistry — into one story?",
+    "options": [
+      "DNA and protein are made of the same monomers",
+      "Both transcription and translation happen in the same cellular location",
+      "Both steps build a polymer by the same general reaction type — condensation, forming a new covalent bond and releasing water — even though the specific bond formed (phosphodiester vs. peptide) and the monomer involved (nucleotide vs. amino acid) are completely different",
+      "Both arrows in the diagram represent hydrolysis reactions",
+      "RNA and protein have identical monomer-to-monomer bond geometry"
+    ],
+    "answerIndex": 2,
+    "explanation": "The diagram's real point isn't that nucleic acids and proteins are chemically similar in their building blocks — they aren't. It's that the same abstract reaction category, condensation polymerization, underlies both processes: monomers join by forming a new bond while releasing a water molecule, whether the monomers are nucleotides (phosphodiester bonds, transcription) or amino acids (peptide bonds, translation). This is a mechanism-level bridge between Module 2's chemistry and Module 1's central-dogma property, not a claim that the molecules themselves are alike.",
+    "links": "Central dogma at the molecular level · Condensation reactions link nucleic acids and proteins"
+  },
+  {
+    "id": 117,
+    "type": "match",
+    "mod": 0,
+    "topic": "Connecting Modules 1 & 2",
+    "points": 3,
+    "title": "Everyday phenomena, molecular explanations",
+    "prompt": "Match each everyday phenomenon to the molecular-level concept it actually demonstrates.",
+    "leftLabel": "Phenomenon",
+    "rightLabel": "Concept",
+    "pairs": [
+      {
+        "left": "Egg white turning solid and opaque when cooked",
+        "right": "Heat disrupts the weak bonds (H-bonds, ionic interactions) holding tertiary structure — not the peptide bonds of the primary sequence"
+      },
+      {
+        "left": "Dish soap lifting grease off a pan",
+        "right": "Amphipathic molecules surround hydrophobic grease with their tails, forming micelles with hydrophilic heads facing the water"
+      },
+      {
+        "left": "DNA strands separating when heated during PCR",
+        "right": "Breaking hydrogen bonds between complementary bases — the phosphodiester backbone within each strand stays intact"
+      },
+      {
+        "left": "Meat becoming tender when treated with a protease-based tenderizer",
+        "right": "Enzymatic hydrolysis breaking peptide bonds, cutting long polypeptides into shorter fragments"
+      },
+      {
+        "left": "Antacid tablets relieving stomach discomfort",
+        "right": "Raising the stomach's pH by neutralizing excess H+, moving it back toward a range that denatures the stomach's own proteins less aggressively"
+      }
+    ],
+    "explanation": "All five are real-world instances of the same handful of Module 2 mechanisms — weak vs. strong bonds, amphipathic self-assembly, hydrolysis, and pH — showing up far outside a biology classroom.",
+    "links": "Protein denaturation · Amphipathic molecules · Hydrogen bonds · Hydrolysis · pH"
+  },
+  {
+    "id": 37,
+    "type": "combo",
+    "mod": 2,
+    "topic": "Proteins",
+    "points": 3,
+    "title": "What actually happens when you cook an egg white",
+    "stem": "Raw egg white is a clear, runny solution of the protein albumin, each molecule correctly folded into its normal tertiary structure. When heated, it turns white, opaque, and solid — and stays that way even after cooling back down. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> The change is irreversible: cooling the cooked egg white does not return it to its original clear, runny state.<br><br><b>(나)</b> The protein's amino acid sequence (primary structure) is identical before and after cooking.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "Heat energy disrupted the weak interactions (hydrogen bonds, ionic interactions, hydrophobic clustering) holding the folded tertiary structure together, causing the protein to unfold and re-tangle into a disordered aggregate — this is denaturation.",
+        "correct": true,
+        "explanation": "Denaturation is the loss of higher-order structure (secondary/tertiary/quaternary) without necessarily breaking the primary covalent backbone."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Because statement (나) says the primary structure is unchanged, the peptide bonds linking amino acids together were not broken by the heat.",
+        "correct": true,
+        "explanation": "Peptide bonds are strong covalent bonds; ordinary cooking temperatures disrupt only the much weaker non-covalent interactions that maintain higher-order folding, leaving the covalent primary sequence intact."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Since the amino acid sequence is unchanged, the cooked protein could spontaneously refold back into its original functional shape if given enough time.",
+        "correct": false,
+        "explanation": "Denaturation by heat typically causes irreversible aggregation — unfolded hydrophobic regions from many different protein molecules clump together randomly into a tangled solid mass that generally cannot spontaneously find its way back to the single correct folded structure."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Protein denaturation · Weak bonds vs. peptide bonds · Real-world: cooking"
+  },
+  {
+    "id": 345,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Nucleic Acids",
+    "points": 1,
+    "stem": "PCR (a lab technique for copying DNA) begins by heating a DNA sample to ~95°C, which causes the double helix to separate into two single strands. The reaction then cools, and new strands are synthesized using each original strand as a template. What does the initial heating step break, and what does it leave intact?",
+    "options": [
+      "It breaks the phosphodiester bonds within each strand, cutting the DNA into short fragments",
+      "It breaks the hydrogen bonds holding the two complementary strands together, while the phosphodiester bonds within each individual strand remain intact",
+      "It breaks the glycosidic bonds between each base and its sugar, releasing free bases",
+      "It has no chemical effect; the strands separate purely from physical agitation",
+      "It converts the DNA's deoxyribose sugars into ribose, temporarily turning it into RNA"
+    ],
+    "answerIndex": 1,
+    "explanation": "The two strands of a DNA double helix are held together only by hydrogen bonds between complementary base pairs — comparatively weak interactions that heat energy can break. Each individual strand's own backbone (sugars linked by phosphodiester bonds) is held together by strong covalent bonds that ordinary heating does not touch, which is exactly why each separated strand survives intact and can serve as a template afterward.",
+    "links": "Hydrogen bonds vs. phosphodiester bonds · Real-world: PCR"
+  },
+  {
+    "id": 263,
+    "type": "tf",
+    "mod": 1,
+    "topic": "Prokaryotes & Tree of Life",
+    "points": 1,
+    "box": "Penicillin works by blocking the enzyme that cross-links peptidoglycan strands, preventing bacteria from building a functional cell wall.",
+    "claim": "Penicillin can selectively kill bacterial cells without directly damaging human cells because human cells have a plasma membrane but lack the peptidoglycan cell wall that penicillin's target enzyme acts on.",
+    "answer": true,
+    "explanation": "Bacterial (prokaryotic) cells rely on a rigid peptidoglycan cell wall for structural support and protection against osmotic pressure. Human cells are eukaryotic animal cells, which never have a cell wall at all — only a plasma membrane — so a drug that specifically disrupts cell-wall construction has no equivalent target in human cells, making it selectively toxic to bacteria.",
+    "links": "Bacterial cell wall · Animal cells lack a wall · Real-world: selective antibiotics"
+  },
+  {
+    "id": 264,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 1,
+    "box": "Fish that live in near-freezing water tend to have a higher proportion of unsaturated fatty acids in their membrane phospholipids compared to mammals or warm-water species.",
+    "claim": "This is an adaptive advantage because the kinks introduced by double bonds in unsaturated tails prevent the phospholipids from packing tightly together, which keeps the membrane fluid rather than freezing solid at low temperatures.",
+    "answer": true,
+    "explanation": "Saturated fatty acid tails are straight and pack tightly, tending to make membranes more rigid, especially as temperature drops. Unsaturated tails' kinks (from C=C double bonds) prevent that tight packing, keeping the membrane fluid enough to function even in cold water — the same structural principle tested elsewhere in this deck, now applied to a real evolutionary trade-off.",
+    "links": "Saturated vs. unsaturated fatty acids · Membrane fluidity · Real-world: cold-adapted organisms"
+  },
+  {
+    "id": 38,
+    "type": "combo",
+    "mod": 2,
+    "topic": "Condensation & Hydrolysis",
+    "points": 3,
+    "title": "Why undigested lactose causes discomfort",
+    "stem": "Lactose is a disaccharide (glucose + galactose) that must be broken down by the enzyme lactase before it can be absorbed in the small intestine. People with lactose intolerance produce too little lactase, so much of the lactose they consume reaches the large intestine undigested, where gut bacteria ferment it, producing gas and drawing in water. Which statements in <보기> are correct?",
+    "box": "<b>(가)</b> Lactase catalyzes the breakdown of lactose into its two monosaccharides.<br><br><b>(나)</b> This breakdown reaction requires water as a reactant, not a product.",
+    "statements": [
+      {
+        "label": "ㄱ",
+        "text": "The reaction lactase catalyzes is hydrolysis, since a bond is broken by consuming a water molecule rather than releasing one.",
+        "correct": true,
+        "explanation": "Splitting a disaccharide into two monosaccharides by consuming a water molecule to break the glycosidic bond is the definition of hydrolysis — the reverse of the condensation reaction that built the bond in the first place."
+      },
+      {
+        "label": "ㄴ",
+        "text": "Lactase speeds up this reaction as a catalyst, but doesn't change whether the reaction is energetically favorable — hydrolysis of lactose would still release energy even without the enzyme present, just far too slowly to matter physiologically.",
+        "correct": true,
+        "explanation": "Enzymes lower activation energy to increase reaction rate; they don't change the underlying energetics (favorability) of a reaction."
+      },
+      {
+        "label": "ㄷ",
+        "text": "Since lactose intolerance means lactase is completely absent, no lactose at all can ever be broken down in these individuals.",
+        "correct": false,
+        "explanation": "Lactose intolerance is typically a matter of reduced lactase levels or activity, not necessarily complete absence — most lactose-intolerant individuals can still digest small amounts, which is why symptoms are often dose-dependent."
+      }
+    ],
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄱ, ㄴ",
+      "ㄴ, ㄷ",
+      "ㄱ, ㄴ, ㄷ"
+    ],
+    "answerIndex": 2,
+    "links": "Hydrolysis · Enzymes as catalysts · Real-world: lactose intolerance"
+  },
+  {
+    "id": 346,
+    "type": "mc",
+    "mod": 2,
+    "topic": "Lipids",
+    "points": 1,
+    "stem": "Dish soap molecules have a long nonpolar hydrocarbon tail and a charged, polar head. When soap is added to a greasy pan full of water, the soap molecules arrange themselves into spherical clusters called micelles, with grease trapped in the center. Which arrangement of the soap molecules within a micelle correctly explains why this works?",
+    "options": [
+      "Polar heads cluster in the center, facing away from both the water and the grease",
+      "Nonpolar tails face outward into the water, since like dissolves like",
+      "Nonpolar tails point inward, dissolving into the trapped grease, while polar heads face outward into the surrounding water",
+      "The soap molecules form a rigid crystal lattice around the grease, similar to how NaCl forms a solid",
+      "Soap chemically reacts with the grease, converting it into a water-soluble molecule"
+    ],
+    "answerIndex": 2,
+    "explanation": "This is the same amphipathic self-assembly principle behind a phospholipid bilayer, applied to a single-layer sphere instead of a two-layer sheet: soap's hydrophobic tails avoid water by clustering around and dissolving into the grease at the center, while its hydrophilic heads stay in contact with the surrounding water on the micelle's outer surface. That arrangement is what lets the whole grease-filled micelle rinse away in water, even though grease alone is insoluble in water.",
+    "links": "Amphipathic molecules · Micelle formation · Real-world: soap and grease"
+  },
+  {
+    "id": 265,
+    "type": "tf",
+    "mod": 2,
+    "topic": "Covalent & Ionic Bonds",
+    "points": 1,
+    "box": "Intravenous (IV) saline solution is prepared by dissolving solid NaCl in sterile water until it reaches a specific concentration before being administered into a patient's bloodstream.",
+    "claim": "This dissolving process works because water's partially negative oxygen atoms surround and stabilize each Na+ ion, while water's partially positive hydrogen atoms surround and stabilize each Cl– ion, pulling the ionic lattice apart into individual hydrated ions.",
+    "answer": true,
+    "explanation": "This is water acting as the \"universal solvent\" for ionic compounds: water's polarity lets it form hydration shells around each separated ion — oxygen (δ–) facing cations like Na+, hydrogen (δ+) facing anions like Cl– — which stabilizes the separated ions in solution and is exactly why an ionic solid like NaCl dissolves in water, whether in a beaker or in an IV bag.",
+    "links": "Hydration shells · Water as universal solvent · Real-world: IV saline"
+  }
+]

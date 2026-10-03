@@ -1,0 +1,2161 @@
+=================== NOTES PAGE 68
+MODULE
+
+PROTEINSTRUCTURE,FUNCTION,
+AND SYNTHESIS
+
+5
+
+The properties of amino acids will be discussed in this module followed by an examination of the four
+levels of protein structure. The process of translation where mRNA is used to synthesize proteins will
+be examined including a comparison of prokaryotes and eukaryotes. This will be followed by an
+
+overview of protein sorting in the cell.
+Learning Outcomes:
+• Describe the properties of amino acids and how linear polymers of amino acids form three-dimensional
+
+structures of proteins with specific functions.
+• Describe the process of translation to create a newly synthesized peptide in prokaryotes and eukaryotes.
+• Explain the Central Dogma of molecular biology, the role of mRNA and tRNA to the process of translation.
+• Explain how protein synthesis relates to protein sorting in the cell.
+
+Scanned with
+
+CS CamScanner
+
+=================== NOTES PAGE 69
+AMINO ACIDS
+
+5-1
+•
+
+PROPERTIES OF AMINO AcIDS
+
+A. Introduction
+- Proteins are ubiquitous, diverse, and versatile
+- Many of the cellular activities and reactions that are involved in cellular function are
+
+mediated by proteins
+- Recall that proteins are linear polymers of a combination of 20 amino acids ￫ like
+letters in an alphabet
+ball-and-stick model
+
+Space-filling model
+
+ribbon model
+
+Figure 5.7
+
+Biology: How Life Works
+owacmulan Lcarang
+
+Figure 5.1 Three Models of Protein Structure (Tubulin).
+
+(Figure 5.7 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+a.
+B. Amino Acids
+
+a carbon
+
+a carbon
+
+- Recall that amino acids are the building
+
+blocks of proteins ￫ this is key as
+protein function is related to structure
+- There are four components of an amino
+
+acid
+
+Amino
+
+group
+
+Carboxyl
+group
+
+Charged
+
+amino
+
+group
+
+Charged
+carboxyl
+group
+
+- Each component is bound to the alpha (a) carbon
+
+Figure 5.2 Amino Acid Structure.
+
+- Three components are identical for all amino acids:
+
+(Figure 5.1 from Morris et al., Biology: How Life Works, 4th
+Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York)
+
+a. the carboxyl group
+
+b. the amino group
+c. a hydrogen
+
+- At physiological pH, the amino & carboxyl groups are charged
+- The fourth component is the side chain ￫
+
+- The R groups make each amino acid unique
+- Are responsible for the chemical and physical properties of each amino acid
+monomer
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 70
+Biol 130
+
+70
+
+Module 5 - Protein Structure, Function and Synthesis
+
+C. Amino Acid Classification
+
+- The R groups of amino acids are grouped according to their properties
+- Polarity ￫ polar or nonpolar
+- Interaction with water ￫ hydrophilic or hydrophobic
+- Charge at physiological pH ￫ acidic (-ve), basic (+ve), or neutral (uncharged)
+
+1.
+
+Hydrophobic Amino Acids
+- Hydrophobic amino acids tend to be buried in the interior of folded proteins
+- The hydrophobic R groups aggregate together away from the water
+- Weak van der Waals forces help with stability ￫ by causing the hydrophobic
+
+R groups to be attracted to each other
+2. Hydrophilic Amino Acids
+- Recall that polar molecules contain electronegative elements ￫
+
+- Results in an unequal charge ￫ allows the R groups to interact with each other
+or with HO via H-bonding
+- Basic amino acids tend to be ￫
+
+- Acidic amino acids tend to be ￫
+
+- Charged groups can form ionic bonds ￫ with one another & with other
+charged molecules
+- Hydrophilic amino acids are typically found on the "outer" surface of proteins
+SPECIAL AMINO ACIDS
+
+HYDROPHOBIC A
+
+MN-CH-COO
+
+M,N-CH- COO
+
+HN-CH- COO
+
+H,N-CH - COO
+
+"HN-CH-COO
+
+CHA
+CH,
+
+CH
+
+Alanine
+(Ala, A)
+
+(Val, V)
+
+Leucine
+(Leu, L)
+
+Isoleucine
+
+H -N - C H = 6 0 O
+
+*HN-CH-COO
+
+"HN-CH -COO
+
+Valine
+
+Glycine
+
+(Gly, G)
+
+н,с CH,
+
+(Ile, D
+
+HN-CH- COO
+CH,
+
+,
+
+Proline
+
+(Pro, P)
+
+"H,N-CH- COO
+
+s-CH,
+Methionine
+
+Phenylalanine
+
+(Phe, F)
+
+HYDROPHILIC AMINO ACIDS
+Polar
+HAN-CH- COO HN-O- C00
+CH,
+
+Tryptophan
+
+steine
+
+(Cys, C)
+
+Acidic
+
+Basic
+
+HIN- CH - COO
+
+H,N-0- C001
+
+"HN-CH- COO
+
+CH,
+
+CH,
+
+CH,
+
+C- NH,
+,
+
+HAN CH,
+HN-C-N-H
+
+Asparagine
+
+Glutamine
+(Gin, Q)
+
+Lysine
+
+(Asn, N)
+
+H,N-CH-COO
+
+*H,N-CH—COO
+
+HN-CH-COO
+
+,
+
+H- C-CH,
+
+(Lys, K)
+
+Arginine
+
+(Arg, R)
+
+Aspartic acid
+
+(Asp, D).
+
+"HN-CH-COO
+CH,
+
+CHA
+
+Serine
+
+(Ser, S)
+
+Threonine
+
+(Thr, T)
+
+Histidine
+(His, H)
+
+Glutamic acid
+(Glu, E)
+
+Figure 5.3 Amino Acids.
+(Figure 5.2 from Morris et al., Biology: How Life Works, 4th
+Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York)
+
+Figure 5.2
+
+Biology: How Life Works
+
+© Macmillan Learning
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 71
+Biol 130
+
+71
+
+Module 5 - Protein Structure, Function and Synthesis
+
+3. Special Amino Acids
+
+- Three amino acids stand out because of how they affect the structure of
+proteins
+a. Glycine ￫
+
+- The a carbon is bonded to two H atoms ￫ not an asymmetric carbon
+
+- It is small and nonpolar ￫ allows free rotation around the C-N bond
+- This increases the flexibility of the polypeptide backbone
+
+b. Proline ￫ R group links back to the amino group
+- Linkage restricts rotation of the C-N bond ￫ this limits the amount of
+protein folding around proline
+c. Cysteine ￫ R group contains a
+- This allows two cysteines to form a S-S disulfide bond ￫ forms a cross-bridge
+- The cross-bridges can connect different parts of the same protein or
+
+different proteins together
+
+D. Linking Amino Acids
+
+Amino group
+Carboxyl
+group
+
+- Adjacent amino acids are joined together in a
+peptide bond
+
+a carbon
+
+- This is a dehydration reaction where the
+carboxyl group of one amino acid reacts with
+the amino group of another amino acid
+
+Amino acid
+
+Amino acid
+
+- Releases a molecule of H20
+
+- The free amino group is at the amino end of
+the peptide ￫forms the
+
+Amino
+end.
+
+- The carboxyl group is at the carboxyl end
+
+Peptide
+bond
+
+￫ forms the
+- A polymer of amino acids connected by
+
+peptide bonds is a polypeptide ￫ used
+synonymously with protein
+
+Carboxyl
+end
+Figure 5.3
+
+Peptide
+
+© Macmillan Learning
+
+Figure 5.4 Peptide Bond Formation.
+(Figure 5.3 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner
+
+=================== NOTES PAGE 72
+PROTEINS
+
+5-2
+
+& PROTEIN STRUCTURE
+A. Introduction
+
+- Each amino acid in a protein gives the structure and thus the function of the protein
+- The proteins will fold in a particular way based on the sequence of amino acids
+and thus the order of the R groups
+- Protein structure has four levels of organization ￫ primary (1°), secondary (2°),
+tertiary (3°), and quaternary (2°)
+- The three-dimensional structure of a protein is the protein conformation ￫ this is
+
+described by 2°, 3°, and 4°
+
+B. Primary Structure
+
+- The primary structure is the specific linear sequence of amino acids that make up the polypeptide
+chain ￫ from amino end to carboxyl end
+- Most polypeptides contain many amino acids￫
+
+these are coded for by the genome
+
+- The primary structure determines 2°, 3°, and 4° structure of the protein
+
+- The sequence of the primary structure can be written as a sequence of the three letter or one-letter
+abbreviations
+- e.g. Val-Gly-Ala-His
+
+or V-G-A-H
+
+- The R groups alternate position on either side of the chain of amino acids
+
+- This affects protein folding and the interaction of R groups
+
+B sheet
+
+a helix
+
+The primary
+structure is the
+sequence of
+amino acids.
+Figure 5.4
+Biology: How Life Works
+© Macmillan Learning
+
+The secondary
+
+structure results
+from interactions of
+nearby amino acids.
+
+The tertiary structure is
+
+the three-dimensional
+shape of a polypeptide.
+
+The quaternary
+
+structure results from
+interactions of
+polypeptide subunits.
+
+Figure 5.5 Levels of Protein Structure.
+
+(Figure 5.4 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 73
+Biol 130
+
+73
+
+Module 5 - Protein Structure, Function and Synthesis
+
+Each carbonyl
+group in the
+
+C. Secondary Structure
+
+backbone forms
+
+- Secondary structure describes the
+
+a hydrogen bond
+
+conformation of portions of the
+polypeptide chain
+
+with an amide
+group four amino
+acids away.
+
+- Two types ￫
+
+Note: between
+functional groups
+
+- Results from hydrogen bonding between
+neighbouring amino acids of the
+
+a carbon
+
+polypeptide backbone ￫ occur between
+
+Carbonyl group (C=O)
+Amide group (N-H)
+
+functional groups
+- R groups are not involved
+
+R group (side chain)
+• Hatom
+- Single bond
+
+- It is a fixed configuration of the
+polypeptide backbone
+i. Alpha Helix
+- The alpha (a) helix is a very stable
+structure
+
+Figure
+opyS.5
+How Life Works
+
+© Macmilan Learning
+
+Depicted
+as helical
+ribbons
+
+- Peptide bond
+•.. Hydrogen bond
+
+- They are right-handed helices ￫ let molecules that are not nearby in the main structure
+to interact with one another
+- Form due to H-bonds to the 4th amino acid neighbour above & below in the spiral
+￫ the carbonyl group of one amino acid and the amide group of the 4t amino acid
+
+ii. Beta Sheet
+
+- Segments of the polypeptide lying side-by-side ￫ assumes a pleated (folding)
+
+conformation
+- Can be parallel or antiparallel
+
+- Structure is stabilized by H-bonds formed between carbonyl groups in one chain &
+amide groups in the other chain within the same polypeptide
+Hydrogen bonds form between
+
+Adjacent strands can run in
+the same direction (parallel)
+
+carbonyl groups in one polypeptide
+and amide groups in a different part
+of the polypeptide.
+
+Note: between
+
+functional groups
+
+or in opposite directions
+
+(antiparallel).
+
+Depicted as
+flattened
+
+• a carbon
+• Carbonyl group (C=O)
+• Amide group (N-H)
+
+• Rgroup (side chain)
+• Hatom
+- Single bond
+- Peptide bond
+
+arrows
+
+•.. Hydrogen bond
+Pigure 3.0
+
+Biology: How Life Works
+
+c Macmilan Learning
+
+Figure 5.6 Alpha Helix (top) and Beta Sheet (bottom) Structure.
+(Figures 5.5 and 5.6 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 74
+Biol 130
+
+Module 5 - Protein Structure, Function and Synthesis
+
+D. Tertiary
+
+74
+
+Structure
+
+- The tertiary structure describes the conformation of the entire protein ￫ this is a single
+
+polypeptide chain folded into 3° structure
+- Ultimately this is how regions of 2° conformations are oriented
+- Results in its functional form ￫ unless it is part of a protein that has multiple subunits
+- Tertiary structure is determined by the following:
+- Spatial distribution of the hydrophilic and hydrophobic R groups
+- Chemical bonds and interactions that form between the R groups
+- Includes:
+
+- Hydrogen bonds, hydrophobic bonds & ionic bonds
+- Disulfide bonds ￫ covalent bond between two cysteine residues
+- Recall that the structure of a protein determines its function
+- The sequence of the primary structure governs the secondary and tertiary structure of a
+protein
+- The overall shape (3° structure) of a functional protein may result in
+- Areas of the protein that form active sites for enzymes
+
+- Exterior R groups that may impact how a protein interacts with other molecules or
+proteins
+
+E. Quaternary Structure
+
+- Many proteins are made up of more than one polypeptide chain ￫
+- The spatial arrangement of these subunits is the 4° structure
+
+- These arise due to the same bonds as found in 3° structure
+- The polypeptide chains in each subunit may be:
+- Identical ￫ e.g. protein containing two identical subunits is known as a homodimer
+- Non-identical ￫ e.g. protein containing two non-identical subunits is known as a
+
+heterodimer
+
+Figure 5.7 Levels of Protein Structure.
+
+The primary
+
+The secondary
+
+sequence of
+
+from interactions of
+
+structure is the
+
+(Figure 5.4 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. amino acids.
+
+structure results
+
+nearby amino acids
+
+The tertiary structure is
+the three dimensional
+shape of a polypeptide
+
+The quaternary
+
+structure results from
+intHactions of
+poly Depude suourt
+
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 75
+5-3
+
+PROTEIN
+
+SYNTHESIS
+
+X OVERVIEW
+
+A. Introduction
+- Recall, the Central Dogma
+
+T
+
+C G
+
+A
+
+A
+-
+
+used as a template
+
+T
+
+Gene
+
+DNA
+
+- Transcription - sequence of DNA is
+
+GA
+
+A
+
+- Translation - sequence of bases in
+mRNA is used to specify the order
+
+mRNA
+
+Al
+
+of amino acids to be added in the
+
+G
+
+U
+
+G
+
+Start
+
+A A Codons
+
+Expression
+
+- Makes the mRNA
+
+Stop
+
+growing polypeptide
+- Final stage of the Central Dogma Protein
+
+Amino Acids
+
+Figure 5.8 The Central Dogma.
+
+B. Translation
+
+(University of Waterloo (2026) CC-BY-NC-SA)|
+
+- Translation requires several components:
+- mRNA
+- Ribosome
+- Transfer RNAs ￫
+
+- Aminoacyl tRNA synthetases
+
+Messenger RNA
+
+- Initiation factors, elongation
+
+(mRNA)
+
+DNA
+
+factors & release factors
+
+Transcription
+
+RNA
+
+C. Ribosomes
+-
+
+Ribosomes ￫
+
+Translation
+
+- This is where translation takes
+place
+
+Transfer
+RNAS
+
+(tRNAs)
+
+Aminoacyl
+
+tRNA
+
+Protein
+
+- Ribosomes are a complex
+
+structure of RNA and protein
+
+Ribosome
+
+synthetases
+
+The central dogma
+
+- They consist of a small
+
+Initiation factors
+
+subunit and a large subunit
+
+Elongation factors
+
+- Eukaryotic ribosomes are larger
+than prokaryotic ribosomes
+
+Release factors
+Cellular components required for translation
+Figure S.11
+
+ology: How Life Works
+
+wichian
+
+Learning
+
+Figure 5.9 Translation Components.
+(Figure 5.11 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by
+permission of Macmillan Learning, New York, New York) |
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 76
+Module 5 - Protein Structure, Function and Synthesis
+
+Biol 130
+
+76
+
+Large subunit
+
+- The mRNA is bound by the large and small
+ribosomal subunits ￫ it then moves through the
+center of the ribosome
+- There are three functional sites within the
+
+ribosome
+- Aminoacyl tRNA entry in the ￫
+
+Small subunit
+
+- Growing peptide held in the >
+- Empty tRNA exits in the >
+- The ribosome moves down the mRNA
+from
+5' to 3' and reads individual codons to incorporate
+the appropriate amino acids
+
+Exit
+
+Peptidyl
+
+site
+
+site
+
+Aminoacyl
+site
+
+The large subunit includes
+three binding sites for
+
+tRNAs.
+
+Question: What is a codon?
+
+Answer: A codon is a nucleotide combination
+that specifies the placement of an
+amino acid ￫ codes for the amino acid
+placement
+
+(Figure 5.12from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+
+- Each group of three adjacent nucleotides ￫
+
+ZWT HEB IGB OYS AWT HEM ANR UN
+
+arranged as a nonoverlapping series of
+nucleotide triplets
+- The reading frame is where the ribosome
+begins reading the sequence of nucleotides
+
+Figure 5.10 Ribosome Structure.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+Z WTH EBI GBO YSA WTH EMA NRU N
+ZW THE BIG BOY SAW THE MAN RUN
+
+- How would you read the following?
+ZWTHEBIGBOYSAWTHEMANRUN
+D. Transfer RNAs
+
+- Translation needs the transfer
+
+a.
+
+end
+
+Amino acid
+
+b.
+
+attachment
+
+RNA molecules ￫
+
+site
+
+:CA
+
+- They are small molecules
+containing 70-90 nucleotides
+
+- Amino ad
+
+attachmen
+site
+
+- Each tRNA bonds with itself
+￫ forms base pairs
+- Results in a structure that looks
+like a cloverleaf
+
+- Two important sites on each
+IRNA
+- The 3' hydroxyl site on the
+5'-CCA-3' end of the tRNA ￫ where
+
+the specific amino acid attaches
+
+- Three bases in the anticodon loop make
+up the ￫
+
+•Anticodon loop
+Anticolon
+
+Anticodon
+
+Figure 5.11 Transfer RNA
+(Figure 5.13 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 77
+Biol 130
+
+Module 5 - Protein Structure, Function and Synthesis
+
+77
+
+Question: How are amino acids attached to the tRNA?
+Answer: Specific amino acids are connected to specific tRNA molecules by enzymes
+called ￫ aminoacyl tRNA synthetases
+
+- A tRNA without an amino acid attached ￫
+- A tRNA with an amino acid attached ￫
+
+- tRNA synthetases are very accurate
+Aminoacyl
+
+tRNA
+
+synthetase
+Each aminoacyl
+
+Free amino acids
+
+tRNA synthetase
+binds to one
+
+uncharged tRNA
+
+GU
+
+U AG
+
+U
+
+and its corresponding amino
+acid.
+
+Uncharged tRNAs
+
+GU U
+
+U AG
+
+The enzyme attaches
+the amino acid to the
+3' end of the tRNA.
+
+Charged tRNA
+Figure 5.14
+Biology: How Life Works
+© Macmillan Learning
+
+Figure 5.12 Aminoacyl tRNA Synthetases.
+(Figure 5.14 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner
+
+=================== NOTES PAGE 78
+Biol 130
+
+Module 5 - Protein Structure, Function and Synthesis
+
+78
+
+& TRANSLATION PROCESS
+A. The Genetic Code
+
+- During translation, the anticodon of the RNA base pairs with the codon on the mRNA
+- Recall base paring is the
+
+Table 5.1 The Genetic Code.
+specificity of DNA-RNA or
+(Table 5.1 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+codon-anticodon interactions
+- Like all nucleotide sequences, TABLE 5.1 The Standard Genetic Code.
+the anticodon of tRNAs base
+First
+Second
+position
+
+pair in an antiparallel fashion
+
+Third
+
+position
+
+(5' end)
+
+position
+
+(3' end)
+
+- So, the first base of the
+
+codon pairs with the last
+base of the anti-codon
+
+VUU Phe F
+
+- Genetic code ￫ 64 codons
+
+specify 20 amino acids
+- Many of the amino acids are
+
+CUA
+
+A
+
+- Bases are read 5'-3' on the
+
+G
+
+mRNA using the standard
+genetic code
+
+UCG Ser
+CCU Pro
+CCC
+
+CAU His
+
+Pro
+CCA Pro
+
+CGU Arg
+CGC Arg
+CGA Arg
+CGG Arg
+
+CAC His
+
+CAA Gin
+CAG Gin J
+
+CUG Leu
+
+CCG Pro
+
+AUU lle
+
+AUC lle
+AUA lle
+
+AAU
+Asn ]
+AAC Asn_
+
+AUG Met M
+
+ACU Thr
+ACC Thr
+ACA Thr
+ACG Thr
+
+GUU Val
+GUC Val
+GUA Val
+GUG Val
+
+GCU Ala
+GCC Ala
+GCA Ala
+GCG Ala
+
+GAUAsp]
+GACAsp]
+GAA Glu
+GAG Glu
+
+Nonpolar
+
+UGA Stop
+
+UGG Trp
+
+AGU Ser
+AGC Ser
+AGA Arg
+
+AAALys
+
+AAGLys
+
+] Polar
+
+C A
+
+specified by more than one
+codon ￫ makes the genetic
+code redundant or degenerate
+
+Leu
+
+UGUCys
+UGC Cys
+
+UAU Tyr L
+UAC Tyr
+UAA Stop
+UAG Stop
+
+C
+
+CUU Leu
+CUC Leu
+
+UCU Ser
+UCC Ser
+UCA Ser
+
+G
+A
+C
+
+UUCPhe
+UUA Leu
+UUG Leu_
+
+U
+
+AGG Arg J
+
+GGU Gly
+GGC Gly
+GGA Gly
+
+GGG: Gly
+
+] Acidic
+
+Basic
+
+Table 5.1
+
+Stop codon
+
+sology: How tile Work
+
+B. Translation Stages
+
+- Translation has three stages:
+1.
+
+￫
+
+Nontemplate strand
+AUG
+
+5'
+A
+
+codon is recognized &
+methionine is the first amino acid
+2.
+
+￫
+
+TG
+
+DNA
+
+TAC
+
+31
+
+5'
+
+•Template strand
+
+each
+
+successive amino acid is added
+
+Transcription
+
+to the growing polypeptide chain
+
+Mey
+
+￫ adding
+
+amino acids stops & the
+polypeptide chain is released
+from the ribosome
+
+CodonA
+
+UG
+
+5'
+
+mRNA
+
+Translation
+
+Note that the first base
+
+Amino acid
+
+in the codon (5' end)
+
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+5
+
+Figure 5.13 Role of Base Pairing.
+
+(Figure 5.15 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+
+Charged tRNA
+
+pairs with the last base
+(3' end) in the anticodon.
+
+UA C
+
+Codon-anticodon
+pairing
+
+A UG
+
+5'
+
+3'
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 79
+Biol 130
+
+79
+
+Module 5 - Protein Structure, Function and Synthesis
+
+Initiation
+factor
+C. Eukaryotic Translation Initiation
+
+- Stages 2 & 3 of translation are
+
+similar
+
+between prokaryotes &
+
+tRNA
+
+1 Initiation
+
+Small
+
+ribosomal
+subunit
+
+VAC
+
+nannan AHGUAAAnar
+
+eukaryotes ￫ however there are
+
+differences in step 1
+
+factors recruit the
+small ribosomal
+subunit and
+tRNAMet and scan
+the mRNA for and
+
+AUG codon.
+
+MRNA
+
+- In eukaryotes the initiation complex
+
+forms at the 5' cap of the mRNA
+- The small ribosomal subunit and
+initiation factors will then "scan"
+
+When the
+complex reaches
+
+Large ribosomal
+subunit
+
+Met
+
+the mRNA ￫ for the start codon
+on the mRNA - AUG
+- Once the start codon is reached the
+large ribosomal subunit is then
+recruited ￫ translation can start
+
+an AUG, the large
+ribosomal subunit
+joins and
+
+initiation factors
+are released.
+
+ology: How Lfe Works
+c Macmillan Learning
+
+- The initiation factors are released
+
+Figure 5.14 Translational Initiation.
+
+(Figure 5.17 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+D. Translation Elongation
+
+A tRNA comple-
+
+- After ribosomal assembly, an
+aminoacyl-tRNA enters the A site and
+
+mentary to the next
+codon binds to the
+
+A site
+
+base-pairs with the next codon
+- The growing polypeptide chain is
+
+transferred from the P site tRNA to the
+Peptide bond
+
+amino acid attached to the A site tRNA
+
+A reaction transfers
+the Met to the amino
+
+- Peptide bond formation is catalyzed
+
+by the peptidyl transferase center
+￫ located between the A and P sites
+
+acid on the tRNA in
+the A site, forming a
+peptide bond.
+
+of the large ribosomal subunit and
+composed of rRNA
+
+3 The ribosome
+
+moves down one
+codon, which puts
+the tRNA carrying the
+polypeptide into the
+
+- The ribosome then shifts one codon to
+
+the right
+
+P site and the nowuncharged tRNA into
+
+- This moves the uncharged tRNA (Met)
+to the E site
+
+the E site, where it is
+
+released. A new tRNA
+complementary to
+
+- The peptide-bearing tRNA moves to
+the P site
+
+the next codon binds
+
+to the A site.
+
+- This frees the A site for the next charged
+
+The polypeptide
+
+tRNA in line to enter based on the next
+
+transfers to the
+
+codon
+
+tRNA in the A site.
+
+amino acid on the
+
+AUGGUA AGA
+
+and 4.
+
+Figure 5.15 Translational Elongation.
+(Figure 5.18 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+The polypeptide is
+elongated by
+repeating steps 3
+
+Figure 5.18
+
+Biology: How Life Works
+© Macmillan Learning
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 80
+Biol 130
+
+Module 5 - Protein Structure, Function and Synthesis
+
+80
+
+E. Translation Termination
+
+-
+
+The process continues
+
+until one of three
+
+codons are reached ￫ UAA, UAG, or
+UGA ￫ these are
+
+Release
+factor
+
+- A protein release factor binds to the A site
+
+site
+
+of the ribosome at the stop codon
+
+site
+
+- This causes the bond that is connected to
+
+the polypeptide of the tRNA to break
+
+5'2
+
+• mRNA
+
+- This creates the carboxyl terminus of the
+polypeptide ￫ completes the chain
+
+Figure 5.16 Translational Termination.
+(Figure 5.19 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmilian Learning, New York, New York)
+F. Prokaryotic Translation Initiation
+
+- Recall the mRNA molecules have no 5' cap in prokaryotes
+- Thus, the initiation complex is formed at one or more internal sequences present in
+
+the mRNA ￫
+- Elongation and termination occur as in eukaryotes
+a. Eukaryotes
+The ribosome binds the 5' cap,
+with translation beginning at the
+first downstream AUG start codon.
+
+AUG codon / Stop codon
+5' cap
+
+3'
+
+D COOH
+
+Figure 5.20
+
+Biology: How Life Works
+© Macmillan Learning
+
+b. Prokaryotes
+The ribosome binds to any Shine-Dalgarno sequence, with
+translation beginning at the first downstream AUG start
+codon, so one mRNA can code for several polypeptides.
+Shine-Dalgarno sequence
+(5'-AGGAGGU-3')|
+
+AUG codon
+
+Stop codon
+
+5'
+
+NH, -
+
+•
+
+-COOH NH,
+
+-COOH NH,
+
+3'
+
+COOH
+
+Figure 5.17 Translational In Eukaryotes & Prokaryotes.
+(Figure 5.20 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner
+
+=================== NOTES PAGE 81
+81
+
+Module 5 - Protein Structure, Function and Synthesis
+
+Biol 130
+
+a. DNA accessibility
+
+& POST TRANSLATION
+
+Special proteins are required
+
+A. Regulating Protein Synthesis
+
+proteins and make it
+accessible to the
+transcriptional machinery.
+
+- Not all genes are expressed
+
+to displace other DNA-binding
+
+in the cell all the time
+- There are many levels of
+regulation in the cell
+including:
+- DNA accessibility
+
+b. Transcription
+Transcription factors gain
+access to the protein-coding
+gene and transcribe an
+RNA strand with the
+complementary sequence.
+
+- Transcription factors
+- RNA processing
+- Post-translational
+
+modifications
+
+c. RNA processing
+
+The RNA transcript is modified
+in the nucleus by various
+
+types of processing and then
+
+transported to the cytoplasm
+
+-AAAAA
+
+for translation into protein.
+
+d. Posttranslational modification
+Many proteins are produced in
+an inactive form and must be
+
+activated by cleavage or other
+
+types of posttranslational
+
+modification (in this example,
+phosphorylation).
+
+Figure 5.21
+Biology: How Life Works
+© Macmillan Learning
+
+Figure 5.18 Regulation of Gene Expression.
+(Figure 5.21 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+B. Protein Sorting
+
+- Remember, mRNA is bound to a ribosome in
+the cytosol ￫ where translation begins
+- What happens to the protein after translation depends on how it will be sorted ￫
+specific signal sequences
+- No signal ￫ stay in cytosol
+- Amino terminal signal ￫ to
+chloroplast or mitochondria
+
+a. No signal sequence
+
+D￫18
+
+- Internal signal ￫ to nucleus
+
+Remainsi
+
+ncytosol
+
+b. Amino-terminal signal sequence
+
+To chloroplast
+D ￫ 8
+Tomitochondion
+c. Internal signal sequence
+
+Figure 5.19 Signal Sequences on Proteins
+Synthesized by Free Ribosomes.
+
+(Figure 5.22 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+
+cl
+Tonu
+
+eus
+
+￫ 08
+
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 82
+Biol 130
+
+Module 5 - Protein Structure, Function and Synthesis
+
+- Some proteins have a specific
+
+amino-terminal
+
+82
+
+signal sequence for transport to the
+
+ER
+- This specific amino-terminal sequence signal is bound by the signal recognition
+particle >
+
+- The ribosome with associated mRNA and newly formed polypeptide is
+
+transported to the ER
+The signal-recognition particle
+(SP) binds to a signal sequence
+
+in the amino-terminal end of the
+growing polypeptide and halts
+translation.
+
+The SRP binds
+
+to the SRP
+receptor on the
+
+ER membrane.
+
+The SRP receptor brings the
+ribosome to a transmembrane
+
+channel; the SRP dissociates;
+
+The protein ends up in the
+4lumen
+of the ER, where it may
+
+remain, be transported to the
+
+protein synthesis resumes; and
+
+lumen of another organelle, or
+
+the growing polypeptide chain
+
+be secreted out of the cell.
+
+is threaded through the channel.
+
+Cytosol
+Ribosome
+SRP
+
+Signal
+
+SECUCTICe
+
+Rough
+ER lumen
+
+SRPreceptor
+
+Channel in
+rough ER
+
+Cleaved
+
+signal sequence
+
+Figure 5.23
+
+Biology: How Life Works
+© Macmillan Learning
+
+Figure 5.20 SRP & SRP Receptor Interaction.
+(Figure 5.23 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+
+- Proteins produced by ribosomes on the rough ER could be found:
+- Embedded in the ER membrane ￫ inserted as it is synthesized
+- Within the lumen of the endomembrane system
+
+- Secreted out of the cell
+
+COO
+
+Cytosol
+
+33039
+Channel in
+
+rough ER
+
+Signa
+l-anch
+sequence or
+Rough
+
+6NH3
+
+ER lumen
+
+Figure 5.21 A Signal Anchor
+Sequence.
+(Figure 5.24 from Morris et al., Biology: How Life
+Works, 4th Ed., © 2023. Reprinted by permission of
+Macmillan Learning, New York, New York)
+
+Proteins with signal-anchor
+sequences are threaded through
+
+a channel in the ER membrane
+until the signal-anchor sequence
+is encountered.
+
+The ER channel
+
+releases the protein
+
+into the membrane.
+
+When translation is
+completed, the protein
+remains in the membrane.
+Figure 5.24
+
+Biology: How Life Works
+• Macmilan Learning
+
+Scanned with
+
+CS CamScanner™
+
+=================== NOTES PAGE 83
+DNA
+
+©Macmillan
+
+(RNA)
+
+transcript
+
+Primary
+
+Polymerase
+
+sequence
+is
+
+movement
+
+continues untila
+terminator
+
+promoter
+region
+
+Gene
+
+Synthesis
+1
+
+Learning
+
+Biology:How Life
+Works
+
+Visual
+
+Nucleus
+
+egior
+
+ANA
+
+polymerase
+
+Gene
+
+Terminator
+
+at
+
+Transcription
+During
+transcription,
+RNA
+polymerase
+reads
+a DNA sequence
+and llelof produces
+a
+comple
+RNA
+mentary, antiparastrand
+
+"
+
+Visual
+
+Synthesis
+
+nucleus.
+of
+travels
+then
+tail,
+poly(A)
+a
+and
+
+RNA
+processing
+
+the
+from
+excised
+introns
+processing,
+
+(Figure
+Chapter
+5
+
+RNAS
+arel
+
+Morriset al.,
+
+Learnina. New
+
+York.
+
+How Life
+
+Overviewof
+Biology:
+
+Works,
+
+codon.
+
+rytoolasm
+
+Gene
+
+New
+York)
+
+Transport
+
+The
+
+synthesizes
+
+mRNA travels
+through
+nuclearporesinto
+the
+
+and
+that
+translation
+
+polypeptide
+chain
+
+codon.
+
+the
+of
+the
+based
+
+ribosome
+
+mRNA
+the
+A
+AUG
+for
+the
+and
+
+Riboso
+
+›olypeptide chains.
+
+These
+
+in
+S'3'direction.
+
+Codon
+
+polypeptide
+
+IRNA
+
+Cytosol
+
+the
+chain
+
+K
+
+o
+d
+
+the
+codon
+available
+the
+bringing
+mRNA,
+acid
+
+amino
+next
+
+anticodon
+matchel
+
+chain
+
+to
+
+polypeptide
+
+cellular
+functions
+
+chains fold
+intol
+
+Ribosomes
+read mRNA
+to
+produce
+
+proteins
+that carryout vital
+
+Translation
+
+Extracellular
+fluid
+
+structural
+e
+
+Module 5 - Protein Structure, Function and Synthesis
+
+from
+
+These
+
+mRNA
+
+13
+Figure 5.22
+
+receives
+mRNA
+The
+together.
+spliced
+
+rRNA
+the
+in
+found
+DNA
+from
+transcribed
+
+encode
+do
+RNAs
+Noncoding
+nclude IRNA and
+
+In
+eukaryotes,
+the
+primaryRNA
+transcript
+Is
+modified
+in the nucleus, creating
+mature
+mRNAand
+noncoding
+RNA.
+
+Biol 130
+83
+
+CS CamScanner™
+
+Scanned with
+
+=================== NOTES PAGE 84
+MODULE
+
+5
+
+IMPORTANT TERMS AND CONCEPTS
+
+IMPORTANT TERMS (you should be able to define
+
+these terms)
+
+- Amino acid
+
+- Peptide bond
+
+- Primary structure
+
+- Secondary structu
+re
+
+- Alpha helix
+
+- Beta sheet
+
+- Tertiary structure
+
+- Quaternary structure
+
+- Translation
+
+- Messenger RNA (mRNA)
+
+- Ribosomes
+
+- A site, P site, E site
+
+- Codon
+
+- Anticodon
+
+- Reading frame
+
+- Transfer RNA (tRNA)
+
+- Aminoacyl tRNA synthetases
+
+- Genetic code
+
+- Start codon
+
+- Stop codon
+
+- Translation initiation, elongation,
+and termination
+
+- Initiation factors
+
+- Release factor
+
+- Shine-Dalgarno sequence
+
+- Polycistronic mRNA
+
+- Gene regulation
+
+- Post-translational modification
+
+- Protein sorting
+
+- Signal-recognition particle (SP)
+
+- Signal sequences
+
+IMPORTANT CONCEPTS (you should understand these concepts)
+- Amino acid structure and properties of amino acids
+- Molecular structure of proteins
+
+- Protein synthesis
+- Regulation of protein synthesis and sorting
+
+Scanned with
+
+CS CamScanner
+
+
