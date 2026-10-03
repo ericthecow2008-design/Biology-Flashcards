@@ -1907,8 +1907,7 @@
   "concepts": [
    "anabolism_vs_catabolism",
    "chemical_reaction_bonds_change",
-   "second_law_direction_entropy",
-   "m2_condensation_hydrolysis"
+   "second_law_direction_entropy"
   ]
  },
  {
@@ -2121,7 +2120,7 @@
   "box": "Cells regenerate ATP by the reaction ADP + Pi → ATP + H2O.",
   "claim": "This reaction has ΔG = −7.3 kcal/mol, the same as ATP hydrolysis, so it runs on its own.",
   "answer": false,
-  "explanation": "Reversing a reaction reverses the sign of ΔG: making ATP is +7.3 kcal/mol, endergonic. It happens only when coupled to energy released by catabolism, such as the breakdown of glucose.",
+  "explanation": "Reversing a reaction reverses the sign of ΔG: making ATP is +7.3 kcal/mol, endergonic. It happens only when coupled to another energy source, such as the breakdown of glucose (or, in phototrophs, light).",
   "links": "Reverse reactions flip the sign of ΔG · Catabolism regenerates ATP",
   "concepts": [
    "exergonic_vs_endergonic",
@@ -2325,10 +2324,10 @@
   "mod": 6,
   "topic": "Thermodynamics & Free Energy",
   "points": 1,
-  "box": "A gazelle absorbs energy from the grass it eats. That energy ends up as movement, body heat, and chemical bonds in its tissues.",
-  "claim": "Measured carefully, the movement, body heat and new chemical bonds would add up to less than the energy absorbed, because heat is energy that has been used up.",
-  "answer": false,
-  "explanation": "First law: energy is neither created nor destroyed, so movement + heat + stored chemical energy add up to everything absorbed. Heat is still energy; it just can't be used to do work (second law).",
+  "box": "A gazelle absorbs 1,000 kJ from the grass it eats. It stores 100 kJ in new chemical bonds in its tissues, and its movement accounts for 150 kJ.",
+  "claim": "The remaining 750 kJ left its body, mostly as heat.",
+  "answer": true,
+  "explanation": "First law: energy is neither created nor destroyed, so energy absorbed = energy stored + energy used for movement + energy released: 1,000 − 100 − 150 = 750 kJ. Heat is still energy; it just can't be used to do work (second law).",
   "links": "First law: conservation of energy",
   "concepts": [
    "first_law_conservation"
@@ -3363,13 +3362,14 @@
   "mod": 0,
   "topic": "Connecting Modules 1–6",
   "points": 1,
-  "box": "Dew forms on a cold glass as water vapour turns to liquid.",
-  "claim": "Dew forming absorbs heat from the surroundings, because water molecules form hydrogen bonds with one another as they condense (Module 2), and forming bonds requires energy.",
+  "box": "During a long fast, fat cells break their stored triacylglycerols (fats) into glycerol and fatty acids, which other tissues then use for energy.",
+  "claim": "This can't count as catabolism, because triacylglycerols aren't polymers built from repeating monomers (Module 2).",
   "answer": false,
-  "explanation": "Forming bonds releases energy; breaking them requires it. Vapour turning to liquid releases heat (which is why steam burns are so severe), just as forming stronger bonds in a reaction's products releases energy.",
-  "links": "Bond formation releases energy · Hydrogen bonds in water (Module 2)",
+  "explanation": "Catabolism is the breakdown of molecules into smaller units, releasing energy; it doesn't require a polymer. A triacylglycerol isn't a polymer (Module 2), but splitting it into glycerol and three fatty acids is still a breakdown into smaller units, as the notes' figure on anabolism and catabolism shows for lipids.",
+  "links": "Catabolism · Lipids aren't polymers (Module 2) · Real-world: fasting",
   "concepts": [
-   "chemical_energy_bond_strength"
+   "anabolism_vs_catabolism",
+   "m2_macromolecule_monomers"
   ]
  },
  {
@@ -3532,7 +3532,6 @@
   "links": "Second law · Gradients store potential energy (Module 3)",
   "concepts": [
    "second_law_direction_entropy",
-   "potential_vs_kinetic_energy",
    "m3_active_transport_atp"
   ]
  }

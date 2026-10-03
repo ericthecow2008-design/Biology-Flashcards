@@ -205,12 +205,12 @@ tf(BR, "RNA polymerase adds each nucleotide using energy from the incoming nucle
   ["energetic_coupling_atp", "atp_phosphate_bonds_energy", "m4_ntp_energy_polymerization", "m2_condensation_hydrolysis"],
   points=2),
 
-tf(BR, "Dew forms on a cold glass as water vapour turns to liquid.",
-  "Dew forming absorbs heat from the surroundings, because water molecules form hydrogen bonds with one another as they condense (Module 2), and forming bonds requires energy.",
+tf(BR, "During a long fast, fat cells break their stored triacylglycerols (fats) into glycerol and fatty acids, which other tissues then use for energy.",
+  "This can't count as catabolism, because triacylglycerols aren't polymers built from repeating monomers (Module 2).",
   False,
-  "Forming bonds releases energy; breaking them requires it. Vapour turning to liquid releases heat (which is why steam burns are so severe), just as forming stronger bonds in a reaction's products releases energy.",
-  "Bond formation releases energy · Hydrogen bonds in water (Module 2)",
-  ["chemical_energy_bond_strength"],
+  "Catabolism is the breakdown of molecules into smaller units, releasing energy; it doesn't require a polymer. A triacylglycerol isn't a polymer (Module 2), but splitting it into glycerol and three fatty acids is still a breakdown into smaller units, as the notes' figure on anabolism and catabolism shows for lipids.",
+  "Catabolism · Lipids aren't polymers (Module 2) · Real-world: fasting",
+  ["anabolism_vs_catabolism", "m2_macromolecule_monomers"],
   points=1),
 
 mc(BR, "Becker and Duchenne muscular dystrophy are often caused by deletions in the dystrophin gene. In patient A, the missing exon held 150 nucleotides of coding sequence; in patient B, it held 151. A has mild Becker disease and makes a shorter but partly working dystrophin; B has severe Duchenne disease. Which explanation fits best?",
@@ -274,7 +274,7 @@ mc(BR, "If a cell's Na+/K+ pumps stop (Module 3), its Na+ gradient runs down wit
    "Coupled reactions must share an intermediate, such as a phosphate"],
   "A gradient is an ordered, high-energy state, and the second law says events run from higher to lower energy and toward more disorder, so ions leak back until the gradient is gone. The other statements are true principles, but none explains why the gradient runs down; only continual pumping, paid for with ATP, holds it in place.",
   "Second law · Gradients store potential energy (Module 3)",
-  ["second_law_direction_entropy", "potential_vs_kinetic_energy", "m3_active_transport_atp"],
+  ["second_law_direction_entropy", "m3_active_transport_atp"],
   points=2),
 ]
 
