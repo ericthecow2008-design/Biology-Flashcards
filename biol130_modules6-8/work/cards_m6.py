@@ -76,7 +76,7 @@ CARDS = with_mod(6, [
     mc("Thermodynamics & Free Energy",
        "Refrigerating food slows its spoilage, which depends on enzyme-catalyzed reactions in microbes and in the food "
        "itself. Which explanation fits best?",
-       "The cold leaves fewer molecules with enough kinetic energy to cross the activation barrier",
+       "The cold leaves fewer molecules energetic enough to cross the activation barrier",
        ["The cold makes the spoilage reactions endergonic, so they can no longer proceed",
         "The cold unfolds the enzymes, so their active sites can no longer bind substrates",
         "The cold raises the activation energy that each spoilage reaction needs",
@@ -142,7 +142,7 @@ CARDS = with_mod(6, [
        "ATP inhibits the enzyme, and AMP activates it",
        ["ATP activates the enzyme, and AMP inhibits it",
         "ATP and AMP both activate the enzyme",
-        "AMP inhibits the enzyme, and ADP activates it",
+        "AMP inhibits the enzyme, while ADP activates it",
         "ATP and AMP both inhibit the enzyme"],
        "Plenty of ATP means the pathway's product is in surplus, so inhibition saves fuel (feedback); a build-up of AMP "
        "signals that ATP has been spent, so activation speeds ATP production.",

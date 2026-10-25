@@ -7,10 +7,10 @@ DIAG = "Using the diagram, which statements in <보기> are correct?"
 
 CARDS = with_mod(0, [
     # ---------------------------------------------------------------- 보기 combination
-    combo(T, "Why electrons fall toward oxygen",
+    combo(T, "Fuel electrons meet oxygen",
           "Cellular respiration moves electrons from the C-H bonds of fuel molecules to oxygen. " + DIAG,
           box("Oxygen is far more electronegative than carbon or hydrogen.",
-              "In respiration, glucose's carbons end up in CO2, and the oxygen atoms of O2 end up in H2O."),
+              "In respiration, glucose's carbons end up in CO2."),
           [S("As electrons pass from glucose's C-H bonds into the O-H bonds of water, they end up held more tightly by a "
              "more electronegative atom, which releases energy.", True,
              "Electrons shared nearly equally in C-H bonds have high potential energy; pulled toward oxygen in polar O-H "
@@ -35,9 +35,9 @@ CARDS = with_mod(0, [
              "Each half is a base + ribose + phosphate, and the two phosphates link the halves, which is why it is called a dinucleotide."),
            S("Without enough niacin, as in (나), cells run short of NAD+, slowing glycolysis and the citric acid cycle, which need it to accept electrons.", True,
              "Both pathways stall without an oxidized carrier to accept electrons, so tissues with high energy demand suffer."),
-           S("Extra dietary adenine would cure pellagra, since an adenine nucleotide makes up half of NAD+.", False,
-             "The missing part is nicotinamide, which comes from niacin (or the amino acid tryptophan); cells can make "
-             "adenine nucleotides themselves."),
+           S("In NADH, the two extra electrons are held by the adenine half, the part that cells can make for themselves.", False,
+             "The niacin-derived nicotinamide ring takes the electrons, so a niacin shortage disables the carrier, and extra "
+             "adenine can't help."),
            ],
           "Nucleotide structure (Module 2) · NAD+ as an electron carrier (Module 7) · Real-world: pellagra",
           ["m2_nucleotide_structure", "m7_carriers_nad_fad"], points=3, diagram="br_nad_structure"),
@@ -50,7 +50,8 @@ CARDS = with_mod(0, [
            S("In both organelles, ATP is released into the compartment where H+ is high.", False,
              "H+ flows from the high-H+ side through ATP synthase, and ATP is made on the other side: the matrix (4) and the stroma (F)."),
            S("Membranes 3 and C each hold an electron transport chain and ATP synthase.", True,
-             "The inner mitochondrial membrane (3) and the thylakoid membrane (C) are the energy-converting membranes; the outer membranes are leaky."),
+             "The inner mitochondrial membrane (3) and the thylakoid membrane (C) are the energy-converting membranes. In the "
+             "chloroplast the chain and ATP synthase sit in the thylakoid membrane (C), not in the inner envelope (B)."),
            ],
           "Double-membrane organelles (Module 3) · H+ gradients in mitochondria and chloroplasts (Modules 7-8)",
           ["m3_mito_chloro_membranes", "m7_proton_gradient", "m8_thylakoid_proton_gradient", "m8_photophosphorylation"],
@@ -63,8 +64,10 @@ CARDS = with_mod(0, [
              "With no mitochondria (나), the cycle runs in the cytoplasm, the low-H+ side where ATP is made, as in the matrix."),
            S("Its electron transport chain and ATP synthase sit in its plasma membrane, which plays the part of the inner mitochondrial membrane.", True,
              "The chain needs a membrane that H+ can't cross; in a bacterium that is the plasma membrane."),
-           S("Its pumps move H+ into the cytoplasm, which then plays the part of the intermembrane space as the high-H+ side.", False,
-             "As in mitochondria, H+ is pumped out across the membrane; the cytoplasm, like the matrix, is the low-H+ side where ATP is made."),
+           S("Its electron transport chain pumps H+ from outside the cell into the cytoplasm, and ATP synthase makes ATP on "
+             "the outer face of the plasma membrane.", False,
+             "As in mitochondria, H+ is pumped out across the membrane, and ATP synthase makes ATP on the inner face, in the "
+             "cytoplasm, which plays the part of the matrix."),
            ],
           "Prokaryotes lack organelles (Module 1) · ETC location and proton pumping (Module 7)",
           ["m1_prokaryote_no_organelles", "m7_etc_location_components", "m7_proton_pumping", "m7_mito_compartments"], points=2),
@@ -74,10 +77,9 @@ CARDS = with_mod(0, [
               "Inside the neuron, hexokinase phosphorylates glucose as soon as it arrives."),
           [S("(나) keeps the concentration of free glucose inside the neuron low, so glucose keeps diffusing in down its gradient.", True,
              "Converting glucose to glucose 6-phosphate removes it from the pool GLUT3 sees, so the inward gradient is maintained."),
-           S("If blood glucose fell sharply, glucose would enter the neuron more slowly, even though hexokinase keeps the "
-             "inside concentration low.", True,
-             "The inward rate depends on the size of the gradient, which also depends on the outside concentration; with "
-             "less glucose outside, facilitated diffusion slows, which is why low blood sugar soon affects the brain."),
+           S("Since GLUT3 carriers keep working, a sharp fall in blood glucose would not slow glucose entry into the neuron.", False,
+             "Facilitated diffusion slows as the outside concentration, and so the gradient, falls, which is why low blood "
+             "sugar soon affects the brain."),
            S("The phosphate added in (나) is the first of the two ATP investments of glycolysis's first phase.", True,
              "Hexokinase spends one ATP (step 1) and phosphofructokinase a second (step 3) before the sugar is split."),
            ],
@@ -93,10 +95,10 @@ CARDS = with_mod(0, [
            S("Which way ATP synthase runs depends on which releases more free energy under the conditions: H+ flowing down "
              "its gradient or ATP hydrolysis.", True,
              "The direction with a negative overall ΔG wins: a steep gradient drives synthesis; plenty of ATP and a weak gradient drive hydrolysis."),
-           S("In the fermenting E. coli of (나), a drug that blocks ATP synthase would let the H+ gradient across its "
-             "membrane run down.", True,
-             "Here ATP synthase is what builds the gradient, spending ATP from glycolysis; blocked, it stops pumping, and "
-             "the gradient leaks away."),
+           S("In the fermenting E. coli of (나), a drug that blocks ATP synthase would make the H+ gradient across its "
+             "membrane grow, since H+ could no longer flow back in through it.", False,
+             "Here the enzyme builds the gradient by spending ATP from glycolysis; once blocked, it stops pumping, and the "
+             "gradient leaks away."),
            ],
           "Primary active transport (Module 3) · ΔG sets the direction (Module 6) · ATP synthase and the H+ gradient (Module 7)",
           ["m3_primary_active_transport", "m7_atp_synthase", "m6_delta_g_sign", "m7_proton_gradient"], points=3,
@@ -111,12 +113,12 @@ CARDS = with_mod(0, [
            S("Both chains end by passing their electrons to O2.", False,
              "Only the mitochondrial chain ends at O2; the chloroplast chain ends at NADP+, and O2 is a by-product of "
              "splitting water at its start."),
-           S("As in (가), the electrons in (나) end with less energy than they had at the start.", False,
-             "Water's electrons start low and are raised by light at PSII and PSI, ending in NADPH with more energy than "
-             "they had in water; only (가) runs downhill throughout."),
+           S("As in (가), the chain in (나) pumps H+ into the compartment that its own membrane encloses.", False,
+             "The thylakoid chain pumps H+ into the lumen it encloses, but the mitochondrial chain pumps H+ out of the matrix "
+             "it encloses, into the intermembrane space."),
            ],
-          "O2 is the final acceptor (Module 7) · NADP+ is the final acceptor and the Z scheme (Module 8)",
-          ["m7_o2_final_acceptor", "m8_psi_nadph", "m8_z_scheme"], points=2),
+          "O2 is the final acceptor and proton pumping (Module 7) · NADP+ and the thylakoid H+ gradient (Module 8)",
+          ["m7_o2_final_acceptor", "m8_psi_nadph", "m7_proton_pumping", "m8_thylakoid_proton_gradient"], points=2),
     combo(T, "Three glucose polymers on one plate",
           "A plate of bread, oysters and lettuce contains three different glucose polymers. " + READ,
           box("Starch (bread), glycogen (oysters, which store a lot of it) and cellulose (lettuce) are all polymers of "
@@ -154,20 +156,20 @@ CARDS = with_mod(0, [
           "Match each molecule to its job in energy metabolism.",
           "Molecule", "Job",
           [("ATP", "Spent by hexokinase and phosphofructokinase in glycolysis's first phase"),
-           ("NAD+", "Regenerated from NADH by fermentation so glycolysis can continue"),
+           ("NAD+", "Regenerated by fermentation so glycolysis can continue"),
            ("FAD", "Accepts electrons in the citric acid cycle and delivers them at complex II"),
-           ("NADP+", "Accepts electrons at the end of the light reactions"),
-           ("Coenzyme A", "Carries acetyl groups into the citric acid cycle")],
-          "ATP is the energy currency; NAD+, FAD and NADP+ are electron carriers; and coenzyme A carries acetyl groups. "
-          "All five are built on a nucleotide.",
-          "ATP (Module 6) · Electron carriers and fermentation (Module 7) · NADP+ (Module 8)",
-          ["m6_atp_currency", "m7_glycolysis_phase1", "m7_fermentation_purpose", "m7_carriers_nad_fad", "m8_psi_nadph"], points=3),
+           ("NADP+", "Its reduced form supplies the electrons that turn 1,3-bisphosphoglycerate into triose phosphate"),
+           ("Coenzyme A", "Is set free again when the acetyl group joins oxaloacetate, so it can be reused")],
+          "ATP pays for glycolysis's first phase; NAD+, FAD and NADP+ are electron carriers; and coenzyme A hands its "
+          "acetyl group to oxaloacetate and is reused. All five are built on a nucleotide.",
+          "Glycolysis, fermentation and electron carriers (Module 7) · NADPH in the Calvin cycle (Module 8)",
+          ["m7_glycolysis_phase1", "m7_fermentation_purpose", "m7_carriers_nad_fad", "m8_reduction_step"], points=3),
     match(T, "Energy changes form",
           "Match each process to the energy conversion it carries out.", "Process", "Energy conversion",
-          [("Light absorption by a photosystem", "Light energy → energy of an excited electron"),
-           ("Mitochondrial electron transport chain", "Energy of electron transfer → potential energy of an H+ gradient"),
-           ("ATP synthase", "Potential energy of an H+ gradient → chemical energy of ATP"),
-           ("Na+/glucose symporter", "Potential energy of a Na+ gradient → potential energy of a glucose gradient"),
+          [("A photosystem absorbing light", "Energy of a photon → energy of an excited electron"),
+           ("Complexes I, III and IV", "Energy released in redox reactions → potential energy of an H+ gradient"),
+           ("ATP synthase", "Potential energy of an H+ gradient → chemical energy of a new phosphate bond"),
+           ("Na+/glucose symporter", "Potential energy of one solute's gradient → potential energy of another solute's gradient"),
            ("Calvin cycle", "Chemical energy of ATP and NADPH → chemical energy of sugar")],
           "Each process converts energy from one form to another; none creates energy, and each loses some as heat.",
           "Forms of energy (Module 6) · Secondary active transport (Module 3) · Chemiosmosis (Module 7) · Light capture and the Calvin cycle (Module 8)",
@@ -197,10 +199,10 @@ CARDS = with_mod(0, [
        "Mitochondrial ribosomes (Module 5) · Fermentation regenerates NAD+ (Module 7) · Real-world: linezolid",
        ["m5_translation_ribosomes", "m7_fermentation_purpose", "m7_lactic_acid_fermentation"], points=2,
        box="Linezolid, an antibiotic that blocks bacterial ribosomes, can cause lactic acidosis (lactate building up in the blood) when taken for many weeks."),
-    tf(T, "The faulty subunits are made on ribosomes inside the mitochondria, and the affected cells can still make some "
-          "ATP from FADH2, whose electrons enter the chain after complex I.", True,
-       "Genes in mitochondrial DNA are transcribed and translated inside the mitochondrion. FADH2 hands its electrons to "
-       "complex II, so they bypass the faulty complex I, though NADH's electrons can't.",
+    tf(T, "The faulty subunits are made on ribosomes inside the mitochondria, and the affected cells can get around the "
+          "defect by passing NADH's electrons to complex II instead.", False,
+       "Genes in mitochondrial DNA are translated inside the mitochondrion, but NADH can unload its electrons only at "
+       "complex I; only FADH2's electrons bypass it, at complex II.",
        "Mitochondrial DNA (Module 4) · Mitochondrial ribosomes (Module 5) · ETC entry points (Module 7) · Real-world: LHON",
        ["m4_mtdna_genome", "m5_translation_ribosomes", "m7_fadh2_enters_complex_ii"], points=2,
        box="Leber hereditary optic neuropathy (LHON) is caused by mutations in mitochondrial DNA genes for subunits of complex I; "
@@ -210,7 +212,7 @@ CARDS = with_mod(0, [
        "Small subunits are made on cytosolic ribosomes and imported using their targeting signal; without it they can't "
        "reach the stroma to join the large subunits, so less working rubisco forms.",
        "Protein targeting (Module 5) · The Calvin cycle runs in the stroma (Module 8)",
-       ["m5_protein_targeting", "m8_stage_locations"], points=2,
+       ["m5_protein_targeting", "m8_carboxylation_rubisco"], points=2,
        box="In plants, rubisco is built from large subunits encoded in chloroplast DNA and small subunits encoded in the "
            "nucleus. The diagram shows a chloroplast.", diagram="m8_chloroplast"),
     tf(T, "Their photosystems sit in their plasma membrane, since a prokaryote has no membranes inside the cell.", False,
@@ -219,17 +221,19 @@ CARDS = with_mod(0, [
        "Prokaryote structure (Module 1) · Thylakoids hold the light reactions (Module 8)",
        ["m1_prokaryote_no_organelles", "m8_stage_locations"], points=2,
        box="Cyanobacteria carry out photosynthesis that releases O2, though like other prokaryotes they have no chloroplasts."),
-    tf(T, "This suits cytochrome c to shuttling electrons between complexes III and IV, while chlorophyll's ring is suited to absorbing light.", True,
-       "An iron ion can switch between Fe3+ and Fe2+, so cytochrome c can accept and pass on one electron at a time; "
-       "chlorophyll's Mg-containing ring is tuned to capture photons.",
-       "Chlorophyll structure (Module 8) · ETC components (Module 7)",
-       ["m8_chlorophyll_structure", "m7_etc_location_components"], points=1,
+    tf(T, "Like the iron-containing heme of cytochrome c, the antenna chlorophylls of a photosystem pass electrons from one "
+          "molecule to the next.", False,
+       "Cytochrome c's iron switches between Fe3+ and Fe2+ to carry one electron at a time from complex III to complex IV; "
+       "antenna chlorophylls pass absorbed energy, not electrons, to the reaction center.",
+       "ETC components (Module 7) · Antenna energy transfer (Module 8)",
+       ["m7_etc_location_components", "m8_antenna_transfer"], points=1,
        box="Chlorophyll's porphyrin ring holds a magnesium ion; the similar heme ring in cytochrome c holds an iron ion."),
-    tf(T, "This lets the cell slow glycolysis when ATP, which the pathway produces, is already plentiful.", True,
-       "ATP binding at an allosteric site lowers PFK's activity. PFK isn't step 1, but its step commits sugar to "
-       "glycolysis, so it acts as the pathway's control point and fuel isn't broken down when ATP is plentiful.",
-       "Feedback inhibition of an allosteric enzyme (Module 6) · Glycolysis makes ATP (Module 7)",
-       ["m6_feedback_inhibition", "m7_glycolysis_net_yield"], points=1,
+    tf(T, "When ATP is plentiful, this inhibition makes fructose 6-phosphate, the substrate of step 3, build up rather "
+          "than fructose 1,6-bisphosphate.", True,
+       "With PFK held back, its substrate, fructose 6-phosphate, is used more slowly and builds up, while less fructose "
+       "1,6-bisphosphate is made; the cell breaks down less fuel while ATP is plentiful.",
+       "Allosteric inhibition (Module 6) · Glycolysis phase 1 (Module 7)",
+       ["m6_feedback_inhibition", "m7_glycolysis_phase1"], points=2,
        box="Phosphofructokinase (PFK), the enzyme for step 3 of glycolysis, catalyzes the first step committed only to "
            "glycolysis; it is inhibited when ATP binds a site away from its active site."),
     tf(T, "Respiration captures more than 90% of glucose's free energy as ATP, losing less than a tenth as heat.", False,
@@ -257,27 +261,30 @@ CARDS = with_mod(0, [
        ["m2_protein_folding_bonds", "m6_enzymes_lower_ea", "m7_respiration_fuels"], points=2,
        box="Germinating seeds in a vacuum flask plugged with cotton wool warm up by several degrees over a day, while boiled, "
            "disinfected seeds in a second flask stay at room temperature."),
-    tf(T, "Its glycolysis enzymes must be held in shape by more stabilizing interactions than ours, since each active site depends on a fold held by weak bonds that heat disrupts.", True,
+    tf(T, "Its enzymes stay folded at 70 °C because extra stabilizing interactions, such as more ionic bonds, hold them in "
+          "shape and keep each active site intact.", True,
        "Heat breaks the weak bonds that hold a protein's fold, and the active site with it; enzymes from heat-loving microbes "
        "have extra stabilizing interactions.",
        "Protein folding (Module 2) · Active site (Module 6) · Real-world: Thermus aquaticus",
        ["m2_protein_folding_bonds", "m6_active_site"], points=2,
        box="Thermus aquaticus, a bacterium from hot springs, grows best at about 70 °C, a temperature that unfolds most human enzymes."),
-    tf(T, "Most of the energy a fat supplies comes from its glycerol, since glycerol enters respiration through glycolysis.", False,
-       "Each fat holds three long fatty acid chains rich in C-H bonds, which beta-oxidation turns into many acetyl-CoA; "
-       "the single three-carbon glycerol supplies only a small share.",
-       "Lipid structure (Module 2) · Fats as fuel (Module 7)",
-       ["m2_lipid_structure", "m7_lipids_energy_rich", "m7_beta_oxidation"], points=1,
+    tf(T, "Gram for gram, a fat's glycerol supplies as much energy as its fatty acids, since both are oxidized completely to CO2.", False,
+       "Glycerol carries an O on every carbon, like a sugar, so it yields about 4 kcal/g; fatty acid chains are mostly C-H "
+       "and yield about 9 kcal/g.",
+       "Lipid structure (Module 2) · Lipids are energy-rich (Module 7)",
+       ["m2_lipid_structure", "m7_lipids_energy_rich"], points=2,
        box="Lipases in fat cells break stored fats down by hydrolyzing the bonds that join each fatty acid to glycerol."),
-    tf(T, "A plant cell respiring its own sugar at night is acting as a heterotroph.", False,
-       "Autotroph and heterotroph describe where an organism gets its carbon. The plant made that sugar from CO2, so "
-       "respiring it doesn't make the plant a heterotroph, even though it releases energy the same way the deer does.",
-       "Autotrophs and heterotrophs (Module 6) · Respiration of stored fuel (Module 7)",
-       ["m6_autotroph_heterotroph", "m7_respiration_fuels"], points=1,
+    tf(T, "A leaf cell respiring its own starch at night releases, as CO2, carbon atoms it fixed during the day, yet the "
+          "plant is still an autotroph.", True,
+       "Starch made by day is broken down at night and respired, returning its carbon as CO2; autotroph describes where an "
+       "organism gets its carbon, and the plant made that starch from CO2 itself.",
+       "Autotrophs and heterotrophs (Module 6) · Starch is used at night (Module 8)",
+       ["m6_autotroph_heterotroph", "m8_starch_for_night"], points=1,
        box="Plants are autotrophs; the deer that eat them are heterotrophs."),
-    tf(T, "Some of the 14C will end up built into the caterpillar's own body rather than breathed out as 14CO2.", True,
-       "The caterpillar respires part of the leaf's sugar, releasing its carbon as CO2, but it uses other parts to build "
-       "its own molecules as it grows (anabolism).",
+    tf(T, "All of the 14C the caterpillar takes in will eventually be breathed out as 14CO2, since animals get their energy "
+          "by respiring their food.", False,
+       "The caterpillar respires part of the leaf's sugar, releasing its carbon as CO2, but it builds other parts into its "
+       "own body as it grows (anabolism), and some leaves in its droppings.",
        "Anabolism and catabolism (Module 6) · Respiration (Module 7) · Carbon fixation (Module 8)",
        ["m6_anabolism_catabolism", "m7_respiration_fuels", "m8_photosynthesis_definition"], points=1,
        box="A bean plant is given 14CO2 for an hour in the light; the next day a caterpillar eats one of its leaves."),
@@ -286,8 +293,9 @@ CARDS = with_mod(0, [
        "flow back through Fo, so the gradient builds up (and electron transport slows).",
        "Chloroplast ATP stays in the chloroplast (Module 8) · ATP synthase and the H+ gradient (Module 7)",
        ["m8_chloroplast_atp_stays", "m7_atp_synthase", "m7_proton_gradient"], points=2,
-       box="Oligomycin blocks the Fo channel of mitochondrial ATP synthase but not of the chloroplast's. A treated leaf is "
-           "kept in bright light."),
+       box="Oligomycin blocks the Fo channel of mitochondrial ATP synthase but not of the chloroplast's. A leaf cell like "
+           "the one whose organelles are shown in the diagram is treated and kept in bright light.",
+       diagram="mito_chloro_compartments"),
 
     # ---------------------------------------------------------------- multiple choice
     mc(T, "Which of these molecules is NOT built on a nucleotide (base + sugar + phosphate), as the NAD+ in the diagram is?",
@@ -296,15 +304,15 @@ CARDS = with_mod(0, [
        "acceptor, is a five-carbon sugar with two phosphates but no base.",
        "Nucleotide structure (Module 2) · RuBP (Module 8)", ["m2_nucleotide_structure", "m8_carboxylation_rubisco"],
        points=1, diagram="br_nad_structure"),
-    mc(T, "Pyruvate kinase catalyzes step 10 of glycolysis. People who inherit two faulty copies of the gene for the "
-          "pyruvate kinase made in red blood cells and liver mainly suffer anemia, because their red blood cells break "
-          "down early. Why are their muscle and brain cells largely unaffected?",
+    mc(T, "Pyruvate kinase catalyzes step 10 of glycolysis. People who inherit two faulty copies of PKLR, a gene for "
+          "pyruvate kinase, mainly suffer anemia because their red blood cells break down early. Why are their muscle and "
+          "brain cells largely unaffected?",
        "Those cells make their pyruvate kinase from a different gene",
        ["Their mitochondria make pyruvate from glucose without glycolysis",
         "Those cells get step 10's ATP from steps 1 and 3 instead",
         "Those cells make all their ATP in mitochondria and don't need glycolysis",
         "Those cells make no ATP at step 10, so losing the enzyme changes nothing"],
-       "The faulty gene makes only the red-cell and liver form of the enzyme; other tissues make pyruvate kinase from a "
+       "PKLR makes only the red-cell and liver form of the enzyme; other tissues make pyruvate kinase from a "
        "separate gene, so their glycolysis is normal. Mature red blood cells, with no mitochondria, rely on glycolysis "
        "alone, so they are hit hardest.",
        "Genes and enzymes (Module 5) · Glycolysis payoff phase (Module 7) · Real-world: pyruvate kinase deficiency",
@@ -312,7 +320,7 @@ CARDS = with_mod(0, [
     mc(T, "Taking electrons from water, as photosystem II does, needs far more energy than taking them from the C-H bonds "
           "of glucose. Which fact best explains why?",
        "Oxygen is highly electronegative, so water holds its electrons tightly",
-       ["Water has fewer electrons than glucose, so each one is harder to find",
+       ["Water's O-H bonds are hydrogen bonds, which hold electrons more tightly than covalent bonds",
         "Water's electrons sit at a higher energy level than glucose's do",
         "Water must first be split into H2 and O2 gases before its electrons can be used",
         "Glucose's electrons are held in bonds to oxygen, which give them up easily"],
@@ -320,8 +328,9 @@ CARDS = with_mod(0, [
        "equally in C-H bonds sit higher. Light energy at PSII pulls them away from water.",
        "Electronegativity (Module 2) · PSII takes electrons from water (Module 8)",
        ["m2_electronegativity_redox", "m8_psii_water"], points=2),
-    mc(T, "The body builds both FAD and FMN, a cofactor inside complex I, from riboflavin (vitamin B2). Using the diagram, "
-          "in severe riboflavin deficiency, which entries of electrons into the mitochondrial chain would be weakened?",
+    mc(T, "The body builds both FAD and FMN from riboflavin (vitamin B2); FMN is the first carrier to take electrons from "
+          "NADH in the mitochondrial chain. In severe riboflavin deficiency, which entries of electrons into the chain "
+          "would be weakened?",
        "Entry at both complex I and complex II",
        ["Entry at complex I only",
         "Entry at complex II only",
@@ -331,8 +340,7 @@ CARDS = with_mod(0, [
        "complex II, so with less riboflavin both entries weaken. FMN is riboflavin with a phosphate, and FAD adds an "
        "adenine nucleotide.",
        "Nucleotide carriers (Module 2) · FADH2 enters at complex II (Module 7)",
-       ["m2_nucleotide_structure", "m7_fadh2_enters_complex_ii", "m7_carriers_nad_fad"], points=2,
-       diagram="m7_etc_membrane"),
+       ["m2_nucleotide_structure", "m7_fadh2_enters_complex_ii", "m7_carriers_nad_fad"], points=2),
     mc(T, "Using the diagram, a carbon atom is fixed from 14CO2 in a leaf cell and later released as 14CO2 by the same "
           "cell's respiration. Which route does it most likely take?",
        "Stroma (F), then the cytosol, then the matrix (4)",
@@ -347,7 +355,7 @@ CARDS = with_mod(0, [
     mc(T, "How is ATP synthase like the Na+/glucose symporter that intestinal cells use to absorb glucose?",
        "Both are driven by an ion flowing down its gradient",
        ["Both hydrolyze ATP to move ions against a gradient",
-        "Both use the energy of electron transport directly",
+        "Both use the energy of electron transport directly to do their work",
         "Both carry two different solutes across together",
         "Both move every solute they carry down its gradient"],
        "The symporter uses Na+ flowing in to move glucose uphill; ATP synthase uses H+ flowing down its gradient to make "
@@ -365,35 +373,40 @@ CARDS = with_mod(0, [
        "Hydrolysis (Module 2) · O2 is reduced to water (Module 7) · Water is split at PSII (Module 8)",
        ["m2_condensation_hydrolysis", "m7_o2_final_acceptor", "m8_psii_water"], points=1),
     mc(T, "Why must the inner mitochondrial membrane be almost impermeable to H+?",
-       "So H+ flows back through ATP synthase instead of leaking across",
+       "So H+ returns through ATP synthase, not across the bilayer",
        ["So the matrix becomes the high-H+ side of the membrane",
         "So H+ can't reach complex IV to form water",
         "So the gradient's energy is released as heat",
-        "So the gradient forms without any energy input"],
+        "So electron transport keeps running, since H+ leaking back would stop the chain"],
        "A gradient stores energy only if H+ can't leak back across the bilayer; then H+ returns mostly through ATP synthase, "
        "which captures the energy as ATP. (A little leaks back anyway, and DNP or UCP1 makes the leak much bigger.)",
        "Membrane permeability (Module 3) · Proton gradient and chemiosmosis (Module 7)",
        ["m3_membrane_permeability", "m7_proton_gradient", "m7_chemiosmotic_coupling"], points=1),
-    mc(T, "Both a cyanobacterium and a plant leaf cell carry out photosynthesis and cellular respiration. Which of these is "
-          "found in the leaf cell but not in the cyanobacterium?",
-       "Mitochondria", ["Ribosomes", "Chlorophyll a", "A respiratory electron transport chain", "Photosystem II"],
-       "Cyanobacteria have ribosomes, chlorophyll a, photosystem II and a respiratory electron transport chain in their own "
-       "membranes, but no membrane-bound organelles such as mitochondria.",
-       "Prokaryotes lack organelles (Module 1) · The respiratory chain (Module 7)",
-       ["m1_prokaryote_no_organelles", "m7_etc_location_components"], points=1),
-    mc(T, "Which of these reductions uses electrons that came from water?",
-       "NADP+ → NADPH at the end of the light reactions",
+    mc(T, "A plant leaf cell and a cyanobacterium both carry out photosynthesis and cellular respiration. Which statement "
+          "is true of both?",
+       "Each makes ATP by letting H+ flow back through ATP synthase",
+       ["Each runs its respiratory electron transport chain in mitochondria",
+        "Each keeps its photosystems inside chloroplasts",
+        "Each can make ATP only while it is in the light",
+        "Each makes most of its ATP by substrate-level phosphorylation"],
+       "Both use chemiosmosis: electron transport builds an H+ gradient that ATP synthase uses, in the cyanobacterium's own "
+       "membranes and in the plant cell's mitochondria and chloroplasts. Only the plant cell has organelles, and both make "
+       "ATP in the dark by respiration.",
+       "Prokaryotes lack organelles (Module 1) · Chemiosmosis (Module 7) · Photophosphorylation (Module 8)",
+       ["m1_prokaryote_no_organelles", "m7_chemiosmotic_coupling", "m8_photophosphorylation"], points=2),
+    mc(T, "Which of these reductions uses electrons taken directly from water in the same chain of reactions?",
+       "NADP+ → NADPH in the light reactions",
        ["NAD+ → NADH in glycolysis",
         "FAD → FADH2 in the citric acid cycle",
         "O2 → H2O at complex IV",
-        "NAD+ → NADH in pyruvate oxidation"],
+        "NAD+ → NADH as pyruvate is oxidized to acetyl-CoA"],
        "The light reactions take electrons from water at photosystem II and deliver them to NADP+; the other reductions use "
        "electrons taken from fuel molecules, and the water made at complex IV is a product, not the source.",
        "Electron carriers (Module 7) · Water splitting and NADPH (Module 8)",
        ["m7_carriers_nad_fad", "m8_psii_water", "m8_psi_nadph"], points=1),
     mc(T, "Earth's air held almost no O2 until about 2.4 billion years ago, after cyanobacteria became widespread. Which "
           "statement best links that event to the O2 a maple tree releases today?",
-       "Its chloroplasts descend from cyanobacteria and split water the same way",
+       "Its chloroplasts descend from cyanobacteria and split water as they do",
        ["Its mitochondria descend from cyanobacteria and release the O2 instead",
         "It splits CO2 to release O2, a process that cyanobacteria never used",
         "Its O2 is released when its cells break down glucose in respiration",
@@ -402,8 +415,7 @@ CARDS = with_mod(0, [
        "water, as cyanobacterial O2 does. Mitochondria came from proteobacteria and use O2 rather than release it.",
        "Endosymbiosis (Modules 1, 3) · Water is the electron donor (Module 8)",
        ["m1_endosymbiosis", "m8_water_electron_donor"], points=2),
-    mc(T, "The citric acid cycle needs only a little oxaloacetate to process a great deal of acetyl-CoA. Which Module 6 idea is "
-          "the closest parallel?",
+    mc(T, "Which Module 6 idea is the closest parallel to oxaloacetate's role in the citric acid cycle?",
        "An enzyme is released unchanged and used again",
        ["A catalyst lowers the activation energy barrier",
         "A pathway's end product shuts off its first enzyme",

@@ -204,7 +204,7 @@ def m8_z_scheme():
     A = f"{K}_a"
     y_of = lambda e: 230 - e * 190  # e from 0 (low) to 1 (high)
     pts = [("H2O", 50, 0.17), ("PSII", 110, 0.08), ("PSII*", 160, 0.70), ("PQ", 215, 0.55), ("b6f", 270, 0.42),
-           ("PC", 325, 0.32), ("PSI", 380, 0.26), ("PSI*", 430, 0.97), ("Fd", 490, 0.65), ("NADP+", 560, 0.58)]
+           ("PC", 325, 0.32), ("PSI", 380, 0.26), ("PSI*", 430, 0.86), ("Fd", 490, 0.65), ("NADP+", 560, 0.58)]
     p = [line(20, 236, 20, 22, stroke=SOFT, width=1.2, end=A),
          f'<text x="12" y="140" text-anchor="middle" font-size="10" fill="{SOFT}" transform="rotate(-90 12 140)">electron energy</text>']
     for (a, xa, ea), (b, xb, eb) in zip(pts, pts[1:]):

@@ -9,26 +9,38 @@ def m7_cell_compartments():
     p = [rect(10, 10, 620, 250, rx=28, fill=MOD2, fill_opacity=0.05, stroke=MOD2, width=2.4)]
     cx, cy = 330, 140
     p.append(ellipse(cx, cy, 170, 82, fill=ACCENT, fill_opacity=0.10, stroke=ACCENT, width=2.2))
-    p.append(ellipse(cx, cy, 148, 62, fill=ACCENT, fill_opacity=0.14, stroke=ACCENT, width=2))
+    # the inner membrane is one closed outline with inward folds (cristae); each fold's inside is intermembrane space
+    rx, ry, depth = 148, 62, 30
+    yt = lambda x: cy - ry * math.sqrt(max(0.0, 1 - ((x - cx) / rx) ** 2))
+    yb = lambda x: cy + ry * math.sqrt(max(0.0, 1 - ((x - cx) / rx) ** 2))
+    d = [f"M{cx - rx},{cy}"]
     for x in (230, 300, 370):
-        p.append(path(f"M{x},{cy-61} L{x},{cy-28} Q{x+9},{cy-20} {x+18},{cy-28} L{x+18},{cy-60}", stroke=ACCENT, width=2))
-    for x in (265, 335, 405):
-        p.append(path(f"M{x},{cy+61} L{x},{cy+28} Q{x+9},{cy+20} {x+18},{cy+28} L{x+18},{cy+60}", stroke=ACCENT, width=2))
-    p.append(text(cx - 5, cy + 4, "matrix", size=11, weight="700"))
+        low = max(yt(x), yt(x + 18)) + depth
+        d += [f"A{rx},{ry} 0 0 1 {n(x)},{n(yt(x))}", f"L{x},{n(low)}", f"Q{x + 9},{n(low + 8)} {x + 18},{n(low)}",
+              f"L{x + 18},{n(yt(x + 18))}"]
+    d.append(f"A{rx},{ry} 0 0 1 {cx + rx},{cy}")
+    for x in (405, 335, 265):
+        high = min(yb(x), yb(x + 18)) - depth
+        d += [f"A{rx},{ry} 0 0 1 {x + 18},{n(yb(x + 18))}", f"L{x + 18},{n(high)}", f"Q{x + 9},{n(high - 8)} {x},{n(high)}",
+              f"L{x},{n(yb(x))}"]
+    d.append(f"A{rx},{ry} 0 0 1 {cx - rx},{cy} Z")
+    p.append(path(" ".join(d), fill=ACCENT, fill_opacity=0.14, stroke=ACCENT, width=2))
+    p.append(text(cx - 5, cy + 4, "mitochondrial matrix", size=11, weight="700"))
     p.append(text(80, 60, "cytosol", size=12, weight="700"))
     # leader-lined labels
-    p.append(line(470, 92, 516, 72, stroke=SOFT, width=1))
-    p.append(text(520, 76, "outer membrane", size=10.5, anchor="start"))
+    p.append(line(470, 92, 516, 70, stroke=SOFT, width=1))
+    p.append(lines(520, 66, ["outer mitochondrial", "membrane"], size=10.5, anchor="start"))
     p.append(line(478, 140, 516, 140, stroke=SOFT, width=1))
-    p.append(text(520, 144, "inner membrane", size=10.5, anchor="start"))
+    p.append(lines(520, 136, ["inner mitochondrial", "membrane"], size=10.5, anchor="start"))
     p.append(line(475, 180, 516, 196, stroke=SOFT, width=1))
     p.append(lines(520, 200, ["intermembrane", "space"], size=10.5, anchor="start"))
     p.append(line(60, 230, 30, 246, stroke=SOFT, width=1))
     p.append(text(64, 232, "plasma membrane", size=10.5, anchor="start"))
     return ("A cell's cytosol and one mitochondrion", svg(640, 270,
             "A cell bounded by its plasma membrane, with the cytosol labelled and one mitochondrion drawn inside. "
-            "The mitochondrion's outer membrane, its folded inner membrane, the intermembrane space between them and "
-            "the matrix inside the inner membrane are labelled.", p))
+            "Labels mark the outer mitochondrial membrane; the inner mitochondrial membrane, whose inward folds open onto "
+            "the intermembrane space; the intermembrane space between the two membranes; and the mitochondrial matrix "
+            "inside the inner membrane.", p))
 
 
 def m7_glycolysis_map():
@@ -73,8 +85,8 @@ def m7_fdg_cell():
         p.append(text(181, y + 4, "GLUT", size=9, weight="700"))
     p += [node(14, 62, 90, 40, "glucose", color=MOD1),
           node(14, 162, 90, 40, "FDG", color=REVIEW),
-          line(108, 82, 154, 82, start=A, end=A), line(108, 182, 154, 182, start=A, end=A),
-          line(208, 82, 234, 82, start=A, end=A), line(208, 182, 234, 182, start=A, end=A),
+          line(108, 82, 154, 82, stroke=INK, width=1.6), line(108, 182, 154, 182, stroke=INK, width=1.6),
+          line(208, 82, 234, 82, stroke=INK, width=1.6), line(208, 182, 234, 182, stroke=INK, width=1.6),
           node(238, 62, 88, 40, "glucose", color=MOD1),
           node(238, 162, 88, 40, "FDG", color=REVIEW),
           node(402, 62, 150, 40, "glucose 6-phosphate", color=MOD1, size=10.5),
@@ -86,8 +98,8 @@ def m7_fdg_cell():
           text(20, 240, "FDG: glucose with 18F (radioactive fluorine) in place of the -OH on carbon 2", size=9.5,
                anchor="start", fill=SOFT)]
     return ("Glucose and FDG at a cell", svg(640, 252,
-            "Glucose and FDG in the blood can each cross the plasma membrane in either direction through a GLUT carrier "
-            "(two-headed arrows). Inside the cell, hexokinase with ATP converts free glucose to glucose 6-phosphate, which "
+            "Glucose and FDG in the blood each cross the plasma membrane through a GLUT carrier. Inside the cell, "
+            "hexokinase with ATP converts free glucose to glucose 6-phosphate, which "
             "continues into the rest of glycolysis, and free FDG to FDG 6-phosphate, which has no further arrow. A note says "
             "FDG is glucose with radioactive fluorine-18 in place of the -OH on carbon 2.", p, defs=[arrow_marker(A)]))
 
