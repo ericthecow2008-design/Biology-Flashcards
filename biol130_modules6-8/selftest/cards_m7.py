@@ -1,0 +1,31 @@
+"""SELFTEST ONLY: throwaway cards in every format that exercise the pipeline. Never ship these."""
+from cardkit import S, combo, case, tf, mc, match, box, with_mod, STEM_TAIL
+
+CARDS = with_mod(7, [
+    case("Glycolysis", "SELFTEST glycolysis case card", "Selftest case stem for Module 7." + STEM_TAIL,
+         box("Selftest fact A.", "Selftest fact B."),
+         [S("Selftest statement one.", False, "Selftest explanation one."),
+          S("Selftest statement two.", True, "Selftest explanation two."),
+          S("Selftest statement three.", False, "Selftest explanation three.")],
+         "Selftest link", ["selftest_glycolysis_net_atp"], points=2, diagram="selftest_atp_tally"),
+    combo("Glycolysis", "SELFTEST regular combo card", "Read (가) and (나). Which statements in <보기> are correct?",
+          box("Selftest fact C.", "Selftest fact D."),
+          [S("Selftest statement four.", True, "Selftest explanation four."),
+           S("Selftest statement five.", True, "Selftest explanation five."),
+           S("Selftest statement six.", False, "Selftest explanation six.")],
+          "Selftest link", ["selftest_glycolysis_net_atp"], points=3),
+    tf("Anaerobic Conditions & Fermentation", "Selftest claim that is true.", True, "Selftest explanation.",
+       "Selftest link", ["selftest_fermentation_regenerates_nad"], points=1, box="Selftest scenario one."),
+    tf("Anaerobic Conditions & Fermentation", "Selftest claim that is false.", False, "Selftest explanation.",
+       "Selftest link", ["selftest_fermentation_regenerates_nad"], points=2, box="Selftest scenario two.", diagram="selftest_atp_tally"),
+    mc("Glycolysis", "Selftest question with a placed key?", "the selftest key",
+       ["selftest distractor one", "selftest distractor two", "selftest distractor three", "selftest distractor four"],
+       "Selftest explanation.", "Selftest link", ["selftest_glycolysis_net_atp"], points=1),
+    mc("Glycolysis", "Selftest question with ordered numeric options?", "4",
+       ["1", "2", "4", "6", "8"], "Selftest explanation.", "Selftest link", ["selftest_glycolysis_net_atp"],
+       points=2, ordered=True, key_index=2),
+    match("Anaerobic Conditions & Fermentation", "SELFTEST matching card", "Match each selftest item.", "Item", "Partner",
+          [("selftest left 1", "selftest right 1"), ("selftest left 2", "selftest right 2"),
+           ("selftest left 3", "selftest right 3"), ("selftest left 4", "selftest right 4")],
+          "Selftest explanation.", "Selftest link", ["selftest_fermentation_regenerates_nad"], points=3),
+])
