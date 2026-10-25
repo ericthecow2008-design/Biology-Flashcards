@@ -12,11 +12,11 @@ CARDS = with_mod(6, [
             "for the route to melanin.", True,
             "Linked pathways mean a failed step cuts the supply to everything after it: less tyrosine is made from "
             "phenylalanine for the melanin route, and the excess phenylalanine also blocks tyrosinase, the first enzyme on "
-            "that route, so less pigment is made."),
-          S("Since tyrosine lies beyond the broken step, a PKU diet should cut tyrosine as well as phenylalanine, so that "
-            "it doesn't build up as in (가).", False,
-            "Tyrosine is the product of the broken step, so it can no longer be made from phenylalanine; it must come "
-            "from the diet, and PKU medical formulas are in fact supplemented with tyrosine."),
+            "that route, so less pigment is made. (PKU medical formulas are supplemented with tyrosine for this reason.)"),
+          S("Since the side route's enzyme works normally in PKU, phenylpyruvate is made at its usual low rate even as "
+            "phenylalanine builds up as in (가).", False,
+            "That enzyme is unchanged, but far more phenylalanine reaches it, so far more phenylpyruvate is made; these "
+            "phenylketones spill into the urine and give PKU its name."),
           S("The warning in (나) matters because the phenylalanine released when aspartame is digested enters the same "
             "pathway as phenylalanine from dietary protein.", True,
             "Aspartame is built from aspartate and phenylalanine; digesting it frees phenylalanine, which adds to the "
@@ -25,31 +25,30 @@ CARDS = with_mod(6, [
          "Metabolic pathways are linked: a product of one step is the next step's reactant · Real-world: phenylketonuria (PKU)",
          ["m6_metabolic_pathways_linked"], points=3, diagram="m6_pku_pathway"),
     tf("Energy & Metabolism",
-       "The body's slow route releases less total energy from those fats and carbohydrates than burning them does, "
-       "because much of the energy is captured as ATP instead of being given off as heat.", False,
-       "Energy is neither created nor destroyed: the same starting molecules ending as the same products release the same "
-       "total energy by either route. The body captures part of it as ATP for a while, but the total is unchanged.",
+       "So the body gets less energy from the peanut than the calorimeter measures, even though no energy is destroyed.", True,
+       "The calorimeter oxidizes everything, but the undigested fat leaves the body with its energy still in its bonds: "
+       "energy is conserved; it just isn't released inside the body.",
        "First law of thermodynamics · Catabolism releases energy",
        ["m6_first_law"], points=2,
-       box="A food lab burns a peanut completely in a calorimeter and measures the heat released. In the body, the same "
-           "peanut's fats and digestible carbohydrates (starch and sugars) are oxidized to the same end products, CO2 and H2O, over many enzyme-catalyzed steps."),
+       box="A food lab burns a whole peanut completely in a calorimeter and measures the heat released. In the body, part "
+           "of a peanut's fat passes through the gut undigested; the rest, with the digestible carbohydrates, is oxidized to CO2 and H2O."),
 
     # ---------------------------------------------------------------- ATP & Energetic Coupling
-    case("ATP & Energetic Coupling", "The phosphate bank in a sprinter's muscle",
-         "Creatine is one of the most popular sports supplements: it raises the amount of phosphocreatine stored in "
-         "muscle and modestly improves performance in repeated short sprints." + STEM_TAIL,
+    case("ATP & Energetic Coupling", "Creatine in a sprinter's muscle",
+         "Creatine is one of the most popular sports supplements and modestly improves performance in repeated short "
+         "sprints." + STEM_TAIL,
          box("In the first seconds of intense exercise, phosphocreatine passes its phosphate directly to ADP, making ATP and creatine.",
              "Each value in the diagram is for removing one phosphate from that molecule."),
-         [S("Under standard conditions the transfer in (가) has a ΔG of about −3.0 kcal/mol, so it can run forward without any other energy source.", True,
+         [S("Under standard conditions the transfer in (가) has a ΔG of about −3.0 kcal/mol, so it runs forward without any other energy source.", True,
             "Coupling phosphocreatine hydrolysis (−10.3) with ATP synthesis from ADP + Pi (+7.3) gives −10.3 + 7.3 = −3.0 kcal/mol."),
-          S("Creatine supplements help because muscle cells oxidize the extra creatine itself for energy, the way they "
-            "oxidize glucose.", False,
+          S("Creatine supplements help because muscle cells oxidize the extra creatine itself for energy, in the same way "
+            "that they oxidize glucose and fatty acids.", False,
             "Creatine is a phosphate carrier, not a fuel: at rest it is recharged to phosphocreatine, and during effort "
             "phosphocreatine hands the phosphate to ADP. Extra creatine means a bigger phosphocreatine store for remaking ATP quickly."),
-          S("Recharging creatine at rest (creatine + ATP → phosphocreatine + ADP) can't happen in muscle, since this "
-            "reaction's standard ΔG is positive.", False,
-            "Its standard ΔG is indeed +10.3 − 7.3 = +3.0 kcal/mol, but resting muscle keeps the ATP/ADP ratio very high "
-            "and has plenty of creatine after exercise, which pushes the reaction away from equilibrium toward phosphocreatine."),
+          S("The reaction creatine + ATP → phosphocreatine + ADP can't run forward in muscle, since its standard ΔG is positive.", False,
+            "Its standard ΔG is indeed +10.3 − 7.3 = +3.0 kcal/mol, but resting muscle keeps ATP high and ADP very low, and "
+            "creatine is plentiful after exercise; with reactants held above their equilibrium ratio to products, the actual "
+            "ΔG is negative, so phosphocreatine is rebuilt."),
           ],
          "Energetic coupling through a shared phosphate · ATP hydrolysis is exergonic · Real-world: creatine supplements",
          ["m6_energetic_coupling", "m6_atp_hydrolysis_exergonic", "m6_driving_positive_dg"], points=3, diagram="m6_phosphate_ladder"),
@@ -60,14 +59,15 @@ CARDS = with_mod(6, [
          "more dissolved salt than would normally stay dissolved." + STEM_TAIL,
          box("Clicking a small metal disc inside the pack starts crystals forming, and the pack warms to about 50-55 °C as it turns solid.",
              "To reuse the pack, it is boiled in water until the crystals dissolve, then left to cool without crystallizing."),
-         [S("Clicking the disc supplies the energy that makes the crystallization's ΔG negative.", False,
+         [S("Clicking the disc supplies the energy that makes the crystallization's ΔG negative, which is why the solution "
+            "stays liquid until the disc is clicked.", False,
             "ΔG is set by the gap between the two plateaus, which the click doesn't change. The click only gets the first "
             "crystals past the activation-energy barrier; after that, crystallization carries on by itself."),
           S("Crystallizing makes the sodium acetate more ordered, so it is spontaneous only because the heat it releases "
             "(negative ΔH) outweighs the drop in entropy.", True,
             "In ΔG = ΔH − TΔS, a negative ΔS makes −TΔS positive; ΔG is still negative because ΔH is more negative."),
-          S("Overall, resetting the pack in (나) takes an energy input: going from crystals back to the room-temperature "
-            "solution has a positive ΔG, and the stove's heat supplies that energy.", True,
+          S("Resetting the pack in (나) takes an energy input, since going from crystals back to the room-temperature solution "
+            "has a positive ΔG.", True,
             "At room temperature, crystals → solution is the reverse of an exergonic change, so ΔG is positive. Boiling works "
             "because at high T the −TΔS term makes dissolving spontaneous; careful cooling then leaves the solution on the higher plateau."),
           ],
@@ -127,15 +127,15 @@ CARDS = with_mod(6, [
          "Enzymes lower activation energy · Heat destroys the active site · ΔG vs rate · Real-world: gelatin and fresh pineapple",
          ["m6_enzymes_lower_ea", "m6_active_site", "m6_delta_g_sign"], points=3, diagram="m6_gelatin_tubes"),
     tf("Enzymes & Their Regulation",
-       "So dorzagliatin must bind glucokinase's active site in place of glucose, since it changes how fast glucose is "
+       "So dorzagliatin binds glucokinase's active site in place of glucose, since it changes how fast glucose is "
        "phosphorylated.", False,
-       "If the drug sat in the active site, glucose couldn't bind at the same time. It binds a separate pocket and changes the enzyme's shape so the active site works better, the opposite of a "
-       "noncompetitive inhibitor. A molecule needn't occupy the active site to change the rate; only a competitive "
-       "inhibitor works by competing with the substrate there.",
+       "A drug that took glucose's place would be pushed off by extra glucose, as a competitive inhibitor is. Dorzagliatin "
+       "binds a separate pocket and changes the enzyme's shape so the active site works better, the opposite of a "
+       "noncompetitive inhibitor; a molecule needn't occupy the active site to change the rate.",
        "Enzyme activators · Competitive inhibition",
        ["m6_enzyme_activators", "m6_competitive_inhibition"], points=2,
        box="Dorzagliatin, a diabetes drug approved in China in 2022, makes glucokinase (the liver and pancreas form of "
-           "hexokinase) phosphorylate glucose faster. Glucose and the drug can both be bound to one enzyme molecule at the same time."),
+           "hexokinase) phosphorylate glucose faster. Raising the glucose concentration doesn't push the drug off the enzyme."),
     mc("Enzymes & Their Regulation",
        "An enzyme early in an ATP-producing pathway is controlled by small molecules that bind away from its active site. "
        "Which pair of controls would best match the cell's energy needs?",

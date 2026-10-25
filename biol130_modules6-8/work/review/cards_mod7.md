@@ -242,8 +242,8 @@ Box:
 - ㄱ. Tumours in (나) show up brightest because more FDG enters their cells and is phosphorylated there, so more radioactivity builds up.
 - ㄴ. FDG collects in cells because GLUT carriers move it inward only and can never carry it back out.
 - ㄷ. If a drug blocked hexokinase, FDG would stop building up inside the cells even though it could still enter through GLUT.
-Choices: ① ㄱ   ② ㄴ   ③ ㄷ   ④ ㄱ, ㄴ   ⑤ ㄱ, ㄷ
-**Key**: ⑤ ㄱ, ㄷ
+Choices: ① ㄱ   ② ㄷ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
+**Key**: ③ ㄱ, ㄷ
 - ㄱ TRUE: More uptake through GLUT plus trapping by hexokinase means FDG 6-phosphate accumulates fastest in those cells.
 - ㄴ FALSE: GLUT carriers work by facilitated diffusion in either direction. FDG is held in the cell because FDG 6-phosphate is charged and no longer fits GLUT, as (가) explains.
 - ㄷ TRUE: Unphosphorylated FDG can diffuse back out through GLUT; phosphorylation in step 1 is what traps it.
@@ -287,8 +287,8 @@ Box:
 - ㄱ. The bacteria would still net 2 ATP per glucose, because step 7 lies before the block and still makes ATP.
 - ㄴ. With enolase blocked, 2-phosphoglycerate would pile up and the bacteria would make less ATP from each glucose.
 - ㄷ. Blocking step 9 also cuts acid production, since less pyruvate is formed for the bacteria to turn into lactic acid.
-Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄴ, ㄷ
-**Key**: ⑤ ㄴ, ㄷ
+Choices: ① ㄱ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
+**Key**: ④ ㄴ, ㄷ
 - ㄱ FALSE: Step 7 makes 2 ATP per glucose, exactly offsetting the 2 spent in steps 1 and 3, so the net is 0 without step 10.
 - ㄴ TRUE: Step 9's substrate accumulates, and step 10, which makes 2 ATP per glucose, is starved of phosphoenolpyruvate.
 - ㄷ TRUE: Lactic acid comes from pyruvate (나), and pyruvate is made only after steps 9 and 10.
@@ -504,8 +504,8 @@ Box:
 - ㄱ. Blood lactate rises because pyruvate that can't be converted to acetyl-CoA is reduced to lactate instead.
 - ㄴ. The brain in (나) suffers because, with pyruvate oxidation slowed, each glucose yields closer to glycolysis's 2 ATP than to about 32.
 - ㄷ. Without thiamine, the cell releases less CO2 from glycolysis.
-Choices: ① ㄴ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ② ㄱ, ㄴ
+Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄴ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
+**Key**: ③ ㄱ, ㄴ
 - ㄱ TRUE: With the pyruvate dehydrogenase complex slowed (가), pyruvate piles up in the cytosol and is diverted to lactate.
 - ㄴ TRUE: Without acetyl-CoA from pyruvate, the citric acid cycle and oxidative phosphorylation can't extract most of glucose's energy.
 - ㄷ FALSE: Glycolysis releases no CO2 at all; the CO2 that falls is from pyruvate oxidation and the citric acid cycle.
@@ -1170,8 +1170,8 @@ Box:
 - ㄱ. Without O2, the cells' mitochondria keep making ATP by oxidative phosphorylation, with pyruvate as the final electron acceptor.
 - ㄴ. (나) fits the yields: fermentation gives 2 ATP per glucose versus about 32 with O2, so far more glucose is needed for the same ATP.
 - ㄷ. Without O2, the cells stop producing NADH, since NADH is made only in the mitochondria.
-Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ② ㄴ
+Choices: ① ㄴ   ② ㄷ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄴ, ㄷ
+**Key**: ① ㄴ
 - ㄱ FALSE: Pyruvate accepts electrons in fermentation in the cytosol, which makes no ATP; oxidative phosphorylation needs O2 at complex IV.
 - ㄴ TRUE: At 2 instead of about 32 ATP per glucose, the cells must use roughly 16 times as much glucose to make the same amount of ATP.
 - ㄷ FALSE: Glycolysis in the cytosol keeps reducing NAD+ to NADH; fermentation then reoxidizes it.

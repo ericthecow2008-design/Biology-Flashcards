@@ -9,12 +9,12 @@ Box:
 > (가) Untreated, phenylalanine builds up in the blood to levels that harm the developing brain.
 > (나) Drinks sweetened with aspartame carry the warning "Phenylketonurics: contains phenylalanine".
 - ㄱ. Untreated children with PKU often have lighter skin and hair than their relatives, since less tyrosine is made for the route to melanin.
-- ㄴ. Since tyrosine lies beyond the broken step, a PKU diet should cut tyrosine as well as phenylalanine, so that it doesn't build up as in (가).
+- ㄴ. Since the side route's enzyme works normally in PKU, phenylpyruvate is made at its usual low rate even as phenylalanine builds up as in (가).
 - ㄷ. The warning in (나) matters because the phenylalanine released when aspartame is digested enters the same pathway as phenylalanine from dietary protein.
 Choices: ① ㄷ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ③ ㄱ, ㄷ
-- ㄱ TRUE: Linked pathways mean a failed step cuts the supply to everything after it: less tyrosine is made from phenylalanine for the melanin route, and the excess phenylalanine also blocks tyrosinase, the first enzyme on that route, so less pigment is made.
-- ㄴ FALSE: Tyrosine is the product of the broken step, so it can no longer be made from phenylalanine; it must come from the diet, and PKU medical formulas are in fact supplemented with tyrosine.
+- ㄱ TRUE: Linked pathways mean a failed step cuts the supply to everything after it: less tyrosine is made from phenylalanine for the melanin route, and the excess phenylalanine also blocks tyrosinase, the first enzyme on that route, so less pigment is made. (PKU medical formulas are supplemented with tyrosine for this reason.)
+- ㄴ FALSE: That enzyme is unchanged, but far more phenylalanine reaches it, so far more phenylpyruvate is made; these phenylketones spill into the urine and give PKU its name.
 - ㄷ TRUE: Aspartame is built from aspartate and phenylalanine; digesting it frees phenylalanine, which adds to the load the blocked pathway can't clear.
 Links line (answer side): Metabolic pathways are linked: a product of one step is the next step's reactant · Real-world: phenylketonuria (PKU)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -23,10 +23,10 @@ Concept tags claimed (each should be genuinely tested by this card):
 ---
 
 ### #3401 · TRUE/FALSE · Module 6 · Energy & Metabolism · 2 pt
-Scenario: A food lab burns a peanut completely in a calorimeter and measures the heat released. In the body, the same peanut's fats and digestible carbohydrates (starch and sugars) are oxidized to the same end products, CO2 and H2O, over many enzyme-catalyzed steps.
-Claim: The body's slow route releases less total energy from those fats and carbohydrates than burning them does, because much of the energy is captured as ATP instead of being given off as heat.
-**Key**: FALSE
-Explanation: Energy is neither created nor destroyed: the same starting molecules ending as the same products release the same total energy by either route. The body captures part of it as ATP for a while, but the total is unchanged.
+Scenario: A food lab burns a whole peanut completely in a calorimeter and measures the heat released. In the body, part of a peanut's fat passes through the gut undigested; the rest, with the digestible carbohydrates, is oxidized to CO2 and H2O.
+Claim: So the body gets less energy from the peanut than the calorimeter measures, even though no energy is destroyed.
+**Key**: TRUE
+Explanation: The calorimeter oxidizes everything, but the undigested fat leaves the body with its energy still in its bonds: energy is conserved; it just isn't released inside the body.
 Links line (answer side): First law of thermodynamics · Catabolism releases energy
 Concept tags claimed (each should be genuinely tested by this card):
   - `m6_first_law`: p89: energy is neither created nor destroyed, only converted from one form to another
@@ -34,19 +34,19 @@ Concept tags claimed (each should be genuinely tested by this card):
 ---
 
 ### #3102 · 보기 COMBINATION · CASE STUDY · Module 6 · ATP & Energetic Coupling · 3 pt · diagram `m6_phosphate_ladder` ("Energy released by removing a phosphate"; image: work/gallery/m6_phosphate_ladder__light.png)
-Title: The phosphate bank in a sprinter's muscle
-Stem: Creatine is one of the most popular sports supplements: it raises the amount of phosphocreatine stored in muscle and modestly improves performance in repeated short sprints. Using the diagram, which statements in <보기> are correct?
+Title: Creatine in a sprinter's muscle
+Stem: Creatine is one of the most popular sports supplements and modestly improves performance in repeated short sprints. Using the diagram, which statements in <보기> are correct?
 Box:
 > (가) In the first seconds of intense exercise, phosphocreatine passes its phosphate directly to ADP, making ATP and creatine.
 > (나) Each value in the diagram is for removing one phosphate from that molecule.
-- ㄱ. Creatine supplements help because muscle cells oxidize the extra creatine itself for energy, the way they oxidize glucose.
-- ㄴ. Under standard conditions the transfer in (가) has a ΔG of about −3.0 kcal/mol, so it can run forward without any other energy source.
-- ㄷ. Recharging creatine at rest (creatine + ATP → phosphocreatine + ADP) can't happen in muscle, since this reaction's standard ΔG is positive.
-Choices: ① ㄴ   ② ㄷ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
+- ㄱ. Creatine supplements help because muscle cells oxidize the extra creatine itself for energy, in the same way that they oxidize glucose and fatty acids.
+- ㄴ. Under standard conditions the transfer in (가) has a ΔG of about −3.0 kcal/mol, so it runs forward without any other energy source.
+- ㄷ. The reaction creatine + ATP → phosphocreatine + ADP can't run forward in muscle, since its standard ΔG is positive.
+Choices: ① ㄴ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ① ㄴ
 - ㄱ FALSE: Creatine is a phosphate carrier, not a fuel: at rest it is recharged to phosphocreatine, and during effort phosphocreatine hands the phosphate to ADP. Extra creatine means a bigger phosphocreatine store for remaking ATP quickly.
 - ㄴ TRUE: Coupling phosphocreatine hydrolysis (−10.3) with ATP synthesis from ADP + Pi (+7.3) gives −10.3 + 7.3 = −3.0 kcal/mol.
-- ㄷ FALSE: Its standard ΔG is indeed +10.3 − 7.3 = +3.0 kcal/mol, but resting muscle keeps the ATP/ADP ratio very high and has plenty of creatine after exercise, which pushes the reaction away from equilibrium toward phosphocreatine.
+- ㄷ FALSE: Its standard ΔG is indeed +10.3 − 7.3 = +3.0 kcal/mol, but resting muscle keeps ATP high and ADP very low, and creatine is plentiful after exercise; with reactants held above their equilibrium ratio to products, the actual ΔG is negative, so phosphocreatine is rebuilt.
 Links line (answer side): Energetic coupling through a shared phosphate · ATP hydrolysis is exergonic · Real-world: creatine supplements
 Concept tags claimed (each should be genuinely tested by this card):
   - `m6_energetic_coupling`: p92: coupling an endergonic reaction to ATP hydrolysis through a shared intermediate gives a negative net delta G
@@ -61,9 +61,9 @@ Stem: A reusable hand warmer holds a sodium acetate solution that stays liquid a
 Box:
 > (가) Clicking a small metal disc inside the pack starts crystals forming, and the pack warms to about 50-55 °C as it turns solid.
 > (나) To reuse the pack, it is boiled in water until the crystals dissolve, then left to cool without crystallizing.
-- ㄱ. Clicking the disc supplies the energy that makes the crystallization's ΔG negative.
+- ㄱ. Clicking the disc supplies the energy that makes the crystallization's ΔG negative, which is why the solution stays liquid until the disc is clicked.
 - ㄴ. Crystallizing makes the sodium acetate more ordered, so it is spontaneous only because the heat it releases (negative ΔH) outweighs the drop in entropy.
-- ㄷ. Overall, resetting the pack in (나) takes an energy input: going from crystals back to the room-temperature solution has a positive ΔG, and the stove's heat supplies that energy.
+- ㄷ. Resetting the pack in (나) takes an energy input, since going from crystals back to the room-temperature solution has a positive ΔG.
 Choices: ① ㄴ   ② ㄷ   ③ ㄱ, ㄴ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ④ ㄴ, ㄷ
 - ㄱ FALSE: ΔG is set by the gap between the two plateaus, which the click doesn't change. The click only gets the first crystals past the activation-energy barrier; after that, crystallization carries on by itself.
@@ -102,8 +102,8 @@ Box:
 - ㄱ. The statin cuts the rate by about a fifth at 20 units of HMG-CoA but by nearly half at 5 units, because more substrate outcompetes the drug for the active site.
 - ㄴ. Compound N's curve levels off near 45% because it takes the same share of enzyme molecules out of action at every HMG-CoA concentration.
 - ㄷ. Because the statin curve lies below compound N's at low HMG-CoA, the statin is the stronger inhibitor at every HMG-CoA concentration shown.
-Choices: ① ㄷ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ② ㄱ, ㄴ
+Choices: ① ㄴ   ② ㄷ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄴ, ㄷ
+**Key**: ③ ㄱ, ㄴ
 - ㄱ TRUE: At 20 units the rates are about 95% vs 77%; at 5 units about 83% vs 45%. As (가) suggests, the statin and the substrate compete for the same site.
 - ㄴ TRUE: Compound N binds a separate site (나), so substrate can't compete it off; the share of enzyme it disables is the same at any HMG-CoA level, which caps the rate.
 - ㄷ FALSE: The curves cross near 3-4 units; above that, compound N holds the rate lower, because substrate increasingly outcompetes the statin but can't displace compound N.
@@ -137,10 +137,10 @@ Concept tags claimed (each should be genuinely tested by this card):
 ---
 
 ### #3402 · TRUE/FALSE · Module 6 · Enzymes & Their Regulation · 2 pt
-Scenario: Dorzagliatin, a diabetes drug approved in China in 2022, makes glucokinase (the liver and pancreas form of hexokinase) phosphorylate glucose faster. Glucose and the drug can both be bound to one enzyme molecule at the same time.
-Claim: So dorzagliatin must bind glucokinase's active site in place of glucose, since it changes how fast glucose is phosphorylated.
+Scenario: Dorzagliatin, a diabetes drug approved in China in 2022, makes glucokinase (the liver and pancreas form of hexokinase) phosphorylate glucose faster. Raising the glucose concentration doesn't push the drug off the enzyme.
+Claim: So dorzagliatin binds glucokinase's active site in place of glucose, since it changes how fast glucose is phosphorylated.
 **Key**: FALSE
-Explanation: If the drug sat in the active site, glucose couldn't bind at the same time. It binds a separate pocket and changes the enzyme's shape so the active site works better, the opposite of a noncompetitive inhibitor. A molecule needn't occupy the active site to change the rate; only a competitive inhibitor works by competing with the substrate there.
+Explanation: A drug that took glucose's place would be pushed off by extra glucose, as a competitive inhibitor is. Dorzagliatin binds a separate pocket and changes the enzyme's shape so the active site works better, the opposite of a noncompetitive inhibitor; a molecule needn't occupy the active site to change the rate.
 Links line (answer side): Enzyme activators · Competitive inhibition
 Concept tags claimed (each should be genuinely tested by this card):
   - `m6_enzyme_activators`: p93: activators bind an enzyme and increase its activity

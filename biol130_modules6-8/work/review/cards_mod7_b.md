@@ -394,8 +394,8 @@ Box:
 - ㄱ. Without O2, the cells' mitochondria keep making ATP by oxidative phosphorylation, with pyruvate as the final electron acceptor.
 - ㄴ. (나) fits the yields: fermentation gives 2 ATP per glucose versus about 32 with O2, so far more glucose is needed for the same ATP.
 - ㄷ. Without O2, the cells stop producing NADH, since NADH is made only in the mitochondria.
-Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ② ㄴ
+Choices: ① ㄴ   ② ㄷ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄴ, ㄷ
+**Key**: ① ㄴ
 - ㄱ FALSE: Pyruvate accepts electrons in fermentation in the cytosol, which makes no ATP; oxidative phosphorylation needs O2 at complex IV.
 - ㄴ TRUE: At 2 instead of about 32 ATP per glucose, the cells must use roughly 16 times as much glucose to make the same amount of ATP.
 - ㄷ FALSE: Glycolysis in the cytosol keeps reducing NAD+ to NADH; fermentation then reoxidizes it.

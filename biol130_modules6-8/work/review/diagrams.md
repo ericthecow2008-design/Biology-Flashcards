@@ -1,3 +1,39 @@
+## `br_food_chain`: Energy along a food chain
+
+Description: Four boxes in a row joined by arrows: sunlight on the grass 1,000,000 kJ; stored in grass 10,000 kJ; stored in rabbits 1,000 kJ; stored in foxes 100 kJ. Values are per square metre of meadow per year and are illustrative.
+
+All visible text: sunlight on the grass | 1,000,000 kJ | stored in grass | 10,000 kJ | stored in rabbits | 1,000 kJ | stored in foxes | 100 kJ | Energy per square metre of meadow per year (illustrative values)
+
+## `br_nad_structure`: The parts of NAD+
+
+Description: Schematic of NAD+: adenine joined to a ribose, which is joined to a phosphate; that phosphate is joined to a second phosphate, which is joined to a second ribose carrying nicotinamide. A note says that in NADH the nicotinamide ring carries two extra electrons and one hydrogen.
+
+All visible text: adenine | ribose | P | P | ribose | nicotinamide | NAD+ (oxidized form). In NADH, the nicotinamide ring carries two extra electrons and one H.
+
+## `br_ph_map`: pH inside two organelles
+
+Description: Two organelles with approximate pH values. A respiring mitochondrion: matrix about pH 7.8, intermembrane space about pH 7.0. A chloroplast in bright light: stroma about pH 8, thylakoid lumen about pH 5.
+
+All visible text: mitochondrion (respiring) | matrix | pH about 7.8 | intermembrane space: pH about 7.0 | chloroplast (in bright light) | stroma: pH about 8 | lumen: pH about 5
+
+## `electronegativity_spectrum`: The electronegativity-difference spectrum
+
+Description: Spectrum from zero to large electronegativity difference, showing nonpolar covalent, polar covalent, and ionic bonds as one continuum with example bonds placed along it
+
+All visible text: nonpolar covalent | polar covalent | ionic | C–H | O–H (water) | Na–Cl | no ΔEN — equal sharing | large ΔEN — full transfer
+
+## `glucose_ring_and_glycosidic_bond`: Ring formation and the glycosidic bond
+
+Description: Linear glucose folding into a ring by bonding C1 to C5, then two rings joining through a glycosidic bond releasing water
+
+All visible text: Linear → ring (C1 to C5) | C1 | C5–OH | carbonyl (C1) + hydroxyl (C5) close the ring | Two rings join: glycosidic bond | glycosidic bond | condensation → +H2O released
+
+## `lipid_family_comparison`: Triacylglycerol, phospholipid, and cholesterol side by side
+
+Description: Triacylglycerol with three fatty acid tails, a phospholipid with two tails and a phosphate head, and cholesterol's four fused rings, shown side by side, with a saturated versus unsaturated tail inset
+
+All visible text: Triacylglycerol | 3 fatty-acid tails | uniformly hydrophobic | Phospholipid | polar head + 2 tails | amphipathic | Cholesterol | four fused rings | hormone precursor | Fatty-acid tails: saturated vs. unsaturated | saturated — straight, packs tightly | unsaturated — kinked at C=C
+
 ## `m6_gelatin_tubes`: Four gelatin tubes after chilling
 
 Description: Four test tubes of gelatin mix after 4 hours in the fridge. Tube 1, gelatin only: set. Tube 2, with fresh pineapple: stays liquid. Tube 3, with canned pineapple: set. Tube 4, with fresh pineapple that was boiled 5 minutes and cooled: set.
@@ -99,4 +135,94 @@ All visible text: cytosol | mitochondrial matrix | glucose | glycolysis | pyruva
 Description: Table of products per glucose for the first three stages of respiration. Glycolysis: 2 ATP (net), 2 NADH, 0 FADH2, 0 CO2. Pyruvate oxidation: 0 ATP, 2 NADH, 0 FADH2, 2 CO2. Citric acid cycle: 2 ATP, 6 NADH, 2 FADH2, 4 CO2. The ATP column counts ATP made directly by substrate-level phosphorylation.
 
 All visible text: stage (per glucose) | ATP | NADH | FADH2 | CO2 | glycolysis | 2 (net) | 2 | 0 | 0 | pyruvate oxidation | 0 | 2 | 0 | 2 | citric acid cycle | 2 | 6 | 2 | 4 | ATP column: ATP made directly by substrate-level phosphorylation
+
+## `m8_absorption_spectra`: Absorption by three leaf pigments
+
+Description: Absorption spectra from 400 to 700 nm. Chlorophyll a peaks near 430 nm and near 662 nm. Chlorophyll b peaks near 455 nm and near 642 nm. A carotenoid absorbs only between about 400 and 520 nm, with peaks near 425, 450 and 478 nm. All three absorb little between about 520 and 600 nm, the green-yellow region.
+
+All visible text: 0 | 0.5 | 1.0 | 400 | 450 | 500 | 550 | 600 | 650 | 700 | wavelength (nm) | absorbance (relative) | violet-blue | green | yellow-orange-red | chlorophyll a | chlorophyll b | a carotenoid
+
+## `m8_c14_timecourse`: Where the 14C label goes
+
+Description: Line graph of the share of radioactive carbon-14 found in two kinds of compound in algae at times after 14CO2 was added (illustrative). 3-phosphoglycerate holds about 88% at 2 seconds, falling to about 26% at 60 seconds. Sugar phosphates hold about 6% at 2 seconds, rising to about 58% at 60 seconds.
+
+All visible text: 0 | 25 | 50 | 75 | 100 | 0 | 10 | 20 | 30 | 40 | 50 | 60 | seconds after 14CO2 was added | % of the 14C in the cells | 3-phosphoglycerate | sugar phosphates | Illustrative values; the rest of the label is in other compounds
+
+## `m8_calvin_cycle`: The Calvin cycle
+
+Description: The Calvin cycle in three numbered steps. Step 1, carboxylation by rubisco: CO2 (1 carbon) joins RuBP (5 carbons) to give 3-phosphoglycerate (3 carbons). Step 2, reduction: ATP converts 3-phosphoglycerate to 1,3-bisphosphoglycerate, and NADPH reduces that to triose phosphate (3 carbons). Some triose phosphate leaves as carbohydrate; step 3, regeneration, uses ATP to turn the rest back into RuBP.
+
+All visible text: RuBP (5C) | 3-phosphoglycerate (3C) | 1,3-bisphosphoglycerate | triose phosphate (3C) | 1 carboxylation (rubisco) | CO2 (1C) in | 2 reduction | ATP → ADP | NADPH → NADP+ | 3 regeneration | ATP → ADP | carbohydrate out
+
+## `m8_chlorophyll`: Chlorophyll's two parts
+
+Description: Schematic of a chlorophyll molecule: a flat porphyrin ring of four linked five-membered rings around a central Mg ion, and a long zigzag hydrocarbon (phytol) tail attached to the ring.
+
+All visible text: Mg | porphyrin ring | hydrocarbon (phytol) tail | N atoms of the ring hold the | Mg ion at the centre
+
+## `m8_chloroplast`: A chloroplast
+
+Description: A chloroplast drawn as two nested rounded outlines, the outer and inner membranes. Inside, the fluid stroma surrounds three stacks of flattened thylakoid sacs (grana) joined by short connecting membranes. Labels point to a thylakoid membrane, the thylakoid lumen inside one sac, a granum, the inner membrane and the outer membrane.
+
+All visible text: stroma | thylakoid membrane | thylakoid lumen | granum (stack) | inner membrane | outer membrane
+
+## `m8_co2_curves`: Photosynthesis rate vs CO2 level
+
+Description: Line graph of a crop's photosynthesis rate (as % of maximum) against CO2 in the air from 0 to 1200 ppm, at two light levels (illustrative). In bright light the rate is about 65% at outdoor air (420 ppm) and about 93% at an enriched greenhouse level (1000 ppm). In dim light the rate levels off near 37-40% from about 400 ppm on.
+
+All visible text: 0 | 25 | 50 | 75 | 100 | 0 | 300 | 600 | 900 | 1200 | CO2 in the air (ppm) | photosynthesis rate (% of maximum) | outdoor air (420) | enriched greenhouse (1000) | bright light | dim light
+
+## `m8_herbicide_site`: Where PSII herbicides bind
+
+Description: Photosystem II in the thylakoid membrane, with its QB pocket, where a plastoquinone molecule normally docks, drawn on the right of the complex. A herbicide molecule (atrazine or diuron) sits in the QB pocket. Free plastoquinone molecules form a pool in the membrane to the right, leading on toward the b6f complex.
+
+All visible text: stroma | thylakoid lumen | photosystem II | QB pocket | plastoquinone (PQ) pool | → to b6f | herbicide (atrazine or diuron) bound in the QB pocket
+
+## `m8_led_bands`: Chlorophyll and three LED colours
+
+Description: The combined absorption spectrum of chlorophylls a and b from 400 to 700 nm, high in the blue (peak near 440 nm) and red (near 650-660 nm) and low between about 520 and 600 nm. Three shaded bands mark LEDs: blue at 450 nm, green at 530 nm and red at 660 nm.
+
+All visible text: 0 | 0.5 | 1.0 | 400 | 450 | 500 | 550 | 600 | 650 | 700 | wavelength (nm) | absorbance (relative) | violet-blue | green | yellow-orange-red | blue LED (450 nm) | green LED (530 nm) | red LED (660 nm) | chlorophyll a + b | (combined absorption)
+
+## `m8_o18_table`: Two oxygen-labelling experiments
+
+Description: Table of two experiments with photosynthesizing algae, giving the percentage of oxygen atoms that are 18O. Experiment 1: water 0.85%, CO2 0.20%, O2 released 0.84%. Experiment 2: water 0.20%, CO2 0.68%, O2 released 0.20%. The natural level is about 0.20%.
+
+All visible text: experiment | 18O in water | 18O in CO2 | 18O in O2 released | 1 | 0.85% | 0.20% | 0.84% | 2 | 0.20% | 0.68% | 0.20% | Values are the % of oxygen atoms that are the heavy isotope 18O (natural level: about 0.20%). | Algae photosynthesizing in light; CO2 supplied as bicarbonate. Based on Ruben and colleagues, 1941.
+
+## `m8_photosystem`: Inside one photosystem
+
+Description: Schematic of one photosystem: many antenna chlorophylls (green circles) surround a central reaction-center pair of chlorophylls. Light arrives from above. Dashed lines connect the reaction-center pair to an electron acceptor and to an electron donor drawn beside the complex.
+
+All visible text: electron acceptor | electron donor | light | reaction-center pair | green circles: antenna chlorophylls (with accessory pigments)
+
+## `m8_sunlight_budget`: Where a leaf's sunlight goes
+
+Description: Horizontal bar chart of the sunlight reaching a leaf: 60% is outside the range plants can use, 8% is reflected or transmitted, 8% is converted into heat, 20% is lost during carbohydrate synthesis (including photorespiration), and at most 4% is stored in carbohydrate.
+
+All visible text: Share of the sunlight that reaches a leaf (100%) | outside the range plants can use | 60% | reflected or transmitted | 8% | converted into heat | 8% | lost during carbohydrate synthesis | 20% | stored in carbohydrate (maximum) | 4% | "Lost during carbohydrate synthesis" includes photorespiration.
+
+## `m8_thylakoid_membrane`: The thylakoid membrane
+
+Description: The thylakoid membrane with the stroma above and the thylakoid lumen below. From left: photosystem II (light arrives; water is converted to O2 on the lumen side), plastoquinone in the membrane, the cytochrome b6f complex, plastocyanin on the lumen side, photosystem I (light arrives), ferredoxin and NADP+ reductase on the stroma side (NADP+ to NADPH), and ATP synthase with CFo in the membrane and CF1 in the stroma (ADP + Pi to ATP).
+
+All visible text: stroma | thylakoid lumen | PSII | PQ | b6f | PC | PSI | Fd | NADP+ | reductase | CFo | CF1 | ATP synthase | H2O → O2 | NADP+ → NADPH | ADP + Pi → ATP | thylakoid membrane | light | light
+
+## `m8_z_scheme`: Electron energy in the light reactions
+
+Description: Energy diagram of the light reactions, shaped like a Z. From low to high energy: water at the bottom left, then photosystem II, which light raises to an excited, high-energy state; the path then steps down through plastoquinone, the cytochrome b6f complex and plastocyanin to photosystem I, which light raises again to the highest level, then steps down through ferredoxin to NADP+.
+
+All visible text: electron energy | H2O | PSII | PSII* | PQ | b6f | PC | PSI | PSI* | Fd | NADP+ | light | light | PQ = plastoquinone · PC = plastocyanin · Fd = ferredoxin · * = excited by light
+
+## `mito_chloro_compartments`: Mitochondrion vs. chloroplast: membranes and compartments
+
+Description: Side-by-side mitochondrion and chloroplast with labelled compartments. Mitochondrion: 1 outer membrane, 2 intermembrane space, 3 inner membrane folded inward, 4 matrix. Chloroplast: A outer membrane, B inner membrane, C thylakoid membrane, D lumen inside a thylakoid, E granum (a stack of thylakoids), F stroma around the thylakoids
+
+All visible text: Mitochondrion | Chloroplast | 1 | 2 | 3 | 4 | 1 | outer membrane | 2 | intermembrane space | 3 | inner membrane | 4 | matrix | A | B | C | D | E | F | A | outer membrane | B | inner membrane | C | thylakoid membrane | D | lumen | E | granum | F | stroma
+
+## `na_k_pump_cycle`: The Na⁺/K⁺ pump cycle: 3 Na⁺ out, 2 K⁺ in per ATP
+
+Description: Four-step cycle of the Na+/K+ pump; the outside stays high in Na+ and the inside high in K+. Step 1: three Na+ bind from the cytoplasm while the pump is open inward. Step 2: ATP phosphorylates the pump (ATP to ADP), which opens outward and releases the Na+ outside. Step 3: two K+ bind from outside while the pump is still phosphorylated. Step 4: the phosphate is released, the pump resets to face inward, and the K+ enter the cytoplasm
+
+All visible text: P | P | P | 1 | 2 | 3 | 4 | ATP → ADP | 3 Na+ bind inside | pump open to cytoplasm | ATP phosphorylates pump | opens outward: Na+ out | 2 K+ bind outside | still phosphorylated | phosphate released | resets inward: K+ in | outside: Na+ high, K+ low | inside: K+ high, Na+ low | Na+ | K+ | P | phosphate attached to the pump
 
