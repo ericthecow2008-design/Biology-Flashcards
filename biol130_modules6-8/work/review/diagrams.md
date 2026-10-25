@@ -60,9 +60,9 @@ All visible text: citrate (6C) | isocitrate (6C) | α-ketoglutarate (5C) | succi
 
 ## `m7_cell_compartments`: A cell's cytosol and one mitochondrion
 
-Description: A cell bounded by its plasma membrane, with the cytosol labelled and one mitochondrion drawn inside. The mitochondrion's outer membrane, its folded inner membrane, the intermembrane space between them and the matrix inside the inner membrane are labelled.
+Description: A cell bounded by its plasma membrane, with the cytosol labelled and one mitochondrion drawn inside. Labels mark the outer mitochondrial membrane; the inner mitochondrial membrane, whose inward folds open onto the intermembrane space; the intermembrane space between the two membranes; and the mitochondrial matrix inside the inner membrane.
 
-All visible text: matrix | cytosol | outer membrane | inner membrane | intermembrane | space | plasma membrane
+All visible text: mitochondrial matrix | cytosol | outer mitochondrial | membrane | inner mitochondrial | membrane | intermembrane | space | plasma membrane
 
 ## `m7_dnp_bars`: Mitochondria with and without DNP
 
@@ -90,7 +90,7 @@ All visible text: intermembrane space | matrix | I | II | Q | III | cyt c | IV |
 
 ## `m7_fdg_cell`: Glucose and FDG at a cell
 
-Description: Glucose and FDG in the blood can each cross the plasma membrane in either direction through a GLUT carrier (two-headed arrows). Inside the cell, hexokinase with ATP converts free glucose to glucose 6-phosphate, which continues into the rest of glycolysis, and free FDG to FDG 6-phosphate, which has no further arrow. A note says FDG is glucose with radioactive fluorine-18 in place of the -OH on carbon 2.
+Description: Glucose and FDG in the blood each cross the plasma membrane through a GLUT carrier. Inside the cell, hexokinase with ATP converts free glucose to glucose 6-phosphate, which continues into the rest of glycolysis, and free FDG to FDG 6-phosphate, which has no further arrow. A note says FDG is glucose with radioactive fluorine-18 in place of the -OH on carbon 2.
 
 All visible text: blood | cell (cytosol) | GLUT | GLUT | glucose | FDG | glucose | FDG | glucose 6-phosphate | FDG 6-phosphate | hexokinase | + ATP | hexokinase | + ATP | rest of | glycolysis | FDG: glucose with 18F (radioactive fluorine) in place of the -OH on carbon 2
 

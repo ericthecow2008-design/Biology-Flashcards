@@ -42,8 +42,8 @@ Box:
 - ㄱ. Creatine supplements help because muscle cells oxidize the extra creatine itself for energy, in the same way that they oxidize glucose and fatty acids.
 - ㄴ. Under standard conditions the transfer in (가) has a ΔG of about −3.0 kcal/mol, so it runs forward without any other energy source.
 - ㄷ. The reaction creatine + ATP → phosphocreatine + ADP can't run forward in muscle, since its standard ΔG is positive.
-Choices: ① ㄴ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ① ㄴ
+Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
+**Key**: ② ㄴ
 - ㄱ FALSE: Creatine is a phosphate carrier, not a fuel: at rest it is recharged to phosphocreatine, and during effort phosphocreatine hands the phosphate to ADP. Extra creatine means a bigger phosphocreatine store for remaking ATP quickly.
 - ㄴ TRUE: Coupling phosphocreatine hydrolysis (−10.3) with ATP synthesis from ADP + Pi (+7.3) gives −10.3 + 7.3 = −3.0 kcal/mol.
 - ㄷ FALSE: Its standard ΔG is indeed +10.3 − 7.3 = +3.0 kcal/mol, but resting muscle keeps ATP high and ADP very low, and creatine is plentiful after exercise; with reactants held above their equilibrium ratio to products, the actual ΔG is negative, so phosphocreatine is rebuilt.
@@ -83,7 +83,7 @@ Stem: Refrigerating food slows its spoilage, which depends on enzyme-catalyzed r
 ② The cold makes the spoilage reactions endergonic, so they can no longer proceed
 ③ The cold raises the activation energy that each spoilage reaction needs
 ④ The cold unfolds the enzymes, so their active sites can no longer bind substrates
-⑤ The cold leaves fewer molecules with enough kinetic energy to cross the activation barrier
+⑤ The cold leaves fewer molecules energetic enough to cross the activation barrier
 **Key**: ⑤
 Explanation: Reactants must have enough kinetic energy to reach the transition state; cooling slows molecules, so fewer succeed per second. ΔG shifts only slightly and stays negative, the barrier's height is unchanged, and fridge temperatures don't denature enzymes.
 Links line (answer side): Activation energy · Kinetic energy · Real-world: refrigeration
@@ -150,7 +150,7 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3702 · MULTIPLE CHOICE · Module 6 · Enzymes & Their Regulation · 2 pt
 Stem: An enzyme early in an ATP-producing pathway is controlled by small molecules that bind away from its active site. Which pair of controls would best match the cell's energy needs?
-① AMP inhibits the enzyme, and ADP activates it
+① AMP inhibits the enzyme, while ADP activates it
 ② ATP inhibits the enzyme, and AMP activates it
 ③ ATP activates the enzyme, and AMP inhibits it
 ④ ATP and AMP both activate the enzyme

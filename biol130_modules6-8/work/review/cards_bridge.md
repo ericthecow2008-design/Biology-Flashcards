@@ -3,15 +3,15 @@
 40 cards. Diagram descriptions and every visible label: work/review/diagrams.md. Open each card's image before judging the card.
 
 ### #3141 · 보기 COMBINATION · Bridge · Connecting Modules 1–8 · 3 pt · diagram `electronegativity_spectrum` ("The electronegativity-difference spectrum"; image: work/gallery/electronegativity_spectrum__light.png)
-Title: Why electrons fall toward oxygen
+Title: Fuel electrons meet oxygen
 Stem: Cellular respiration moves electrons from the C-H bonds of fuel molecules to oxygen. Using the diagram, which statements in <보기> are correct?
 Box:
 > (가) Oxygen is far more electronegative than carbon or hydrogen.
-> (나) In respiration, glucose's carbons end up in CO2, and the oxygen atoms of O2 end up in H2O.
+> (나) In respiration, glucose's carbons end up in CO2.
 - ㄱ. As electrons pass from glucose's C-H bonds into the O-H bonds of water, they end up held more tightly by a more electronegative atom, which releases energy.
 - ㄴ. Fats need more O2 per gram to oxidize than sugars do, because their chains carry many C-H bonds and few oxygen atoms.
 - ㄷ. If the chain's final acceptor pulled on electrons less strongly than O2 does, less energy would be released per pair of electrons passed along it.
-Choices: ① ㄱ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
+Choices: ① ㄱ   ② ㄷ   ③ ㄱ, ㄴ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ⑤ ㄱ, ㄴ, ㄷ
 - ㄱ TRUE: Electrons shared nearly equally in C-H bonds have high potential energy; pulled toward oxygen in polar O-H bonds, they have less, and the difference is released.
 - ㄴ TRUE: Sugars already hold many O atoms, so they are partly oxidized; fatty acid chains are mostly C-H, so more O2 is needed to accept their electrons, which is also why fats yield more energy per gram.
@@ -31,12 +31,12 @@ Box:
 > (가) The body makes the nicotinamide part of NAD+ from the vitamin niacin (B3).
 > (나) Pellagra, caused by severe niacin deficiency, damages the skin, the gut and the brain.
 - ㄱ. NAD+ is built from two nucleotides joined through their phosphate groups, one carrying adenine and one carrying nicotinamide.
-- ㄴ. Extra dietary adenine would cure pellagra, since an adenine nucleotide makes up half of NAD+.
+- ㄴ. In NADH, the two extra electrons are held by the adenine half, the part that cells can make for themselves.
 - ㄷ. Without enough niacin, as in (나), cells run short of NAD+, slowing glycolysis and the citric acid cycle, which need it to accept electrons.
 Choices: ① ㄱ   ② ㄴ   ③ ㄷ   ④ ㄱ, ㄴ   ⑤ ㄱ, ㄷ
 **Key**: ⑤ ㄱ, ㄷ
 - ㄱ TRUE: Each half is a base + ribose + phosphate, and the two phosphates link the halves, which is why it is called a dinucleotide.
-- ㄴ FALSE: The missing part is nicotinamide, which comes from niacin (or the amino acid tryptophan); cells can make adenine nucleotides themselves.
+- ㄴ FALSE: The niacin-derived nicotinamide ring takes the electrons, so a niacin shortage disables the carrier, and extra adenine can't help.
 - ㄷ TRUE: Both pathways stall without an oxidized carrier to accept electrons, so tissues with high energy demand suffer.
 Links line (answer side): Nucleotide structure (Module 2) · NAD+ as an electron carrier (Module 7) · Real-world: pellagra
 Concept tags claimed (each should be genuinely tested by this card):
@@ -58,7 +58,7 @@ Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄴ, ㄷ
 **Key**: ⑤ ㄴ, ㄷ
 - ㄱ FALSE: H+ flows from the high-H+ side through ATP synthase, and ATP is made on the other side: the matrix (4) and the stroma (F).
 - ㄴ TRUE: The ETC pumps H+ from the matrix (4) into the intermembrane space (2); in chloroplasts H+ moves from the stroma (F) into the lumen (D).
-- ㄷ TRUE: The inner mitochondrial membrane (3) and the thylakoid membrane (C) are the energy-converting membranes; the outer membranes are leaky.
+- ㄷ TRUE: The inner mitochondrial membrane (3) and the thylakoid membrane (C) are the energy-converting membranes. In the chloroplast the chain and ATP synthase sit in the thylakoid membrane (C), not in the inner envelope (B).
 Links line (answer side): Double-membrane organelles (Module 3) · H+ gradients in mitochondria and chloroplasts (Modules 7-8)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m3_mito_chloro_membranes`: Module 3: mitochondria and chloroplasts are double-membrane organelles with their own compartments
@@ -76,12 +76,12 @@ Box:
 > (나) As a prokaryote, it has no mitochondria or other membrane-bound organelles.
 - ㄱ. Its citric acid cycle enzymes work in the cytoplasm, the region that plays the part of the mitochondrial matrix.
 - ㄴ. Its electron transport chain and ATP synthase sit in its plasma membrane, which plays the part of the inner mitochondrial membrane.
-- ㄷ. Its pumps move H+ into the cytoplasm, which then plays the part of the intermembrane space as the high-H+ side.
+- ㄷ. Its electron transport chain pumps H+ from outside the cell into the cytoplasm, and ATP synthase makes ATP on the outer face of the plasma membrane.
 Choices: ① ㄱ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ② ㄱ, ㄴ
 - ㄱ TRUE: With no mitochondria (나), the cycle runs in the cytoplasm, the low-H+ side where ATP is made, as in the matrix.
 - ㄴ TRUE: The chain needs a membrane that H+ can't cross; in a bacterium that is the plasma membrane.
-- ㄷ FALSE: As in mitochondria, H+ is pumped out across the membrane; the cytoplasm, like the matrix, is the low-H+ side where ATP is made.
+- ㄷ FALSE: As in mitochondria, H+ is pumped out across the membrane, and ATP synthase makes ATP on the inner face, in the cytoplasm, which plays the part of the matrix.
 Links line (answer side): Prokaryotes lack organelles (Module 1) · ETC location and proton pumping (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m1_prokaryote_no_organelles`: Module 1: prokaryotes lack membrane-bound organelles, so their respiration chain sits in the plasma membrane
@@ -98,12 +98,12 @@ Box:
 > (가) Neurons take up glucose through GLUT3 carriers, by facilitated diffusion.
 > (나) Inside the neuron, hexokinase phosphorylates glucose as soon as it arrives.
 - ㄱ. (나) keeps the concentration of free glucose inside the neuron low, so glucose keeps diffusing in down its gradient.
-- ㄴ. If blood glucose fell sharply, glucose would enter the neuron more slowly, even though hexokinase keeps the inside concentration low.
+- ㄴ. Since GLUT3 carriers keep working, a sharp fall in blood glucose would not slow glucose entry into the neuron.
 - ㄷ. The phosphate added in (나) is the first of the two ATP investments of glycolysis's first phase.
-Choices: ① ㄴ   ② ㄷ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ⑤ ㄱ, ㄴ, ㄷ
+Choices: ① ㄱ   ② ㄴ   ③ ㄷ   ④ ㄱ, ㄴ   ⑤ ㄱ, ㄷ
+**Key**: ⑤ ㄱ, ㄷ
 - ㄱ TRUE: Converting glucose to glucose 6-phosphate removes it from the pool GLUT3 sees, so the inward gradient is maintained.
-- ㄴ TRUE: The inward rate depends on the size of the gradient, which also depends on the outside concentration; with less glucose outside, facilitated diffusion slows, which is why low blood sugar soon affects the brain.
+- ㄴ FALSE: Facilitated diffusion slows as the outside concentration, and so the gradient, falls, which is why low blood sugar soon affects the brain.
 - ㄷ TRUE: Hexokinase spends one ATP (step 1) and phosphofructokinase a second (step 3) before the sugar is split.
 Links line (answer side): Facilitated diffusion (Module 3) · Phosphorylation traps glucose · Glycolysis phase 1 (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -119,14 +119,14 @@ Stem: ATP synthase and the Na+/K+ pump are both membrane proteins that link ATP 
 Box:
 > (가) The Na+/K+ pump in the diagram uses ATP hydrolysis to move Na+ and K+ against their gradients.
 > (나) When E. coli ferments sugar with no O2 or other electron acceptor (such as nitrate) available, its ATP synthase runs backward, splitting ATP to pump H+ out across the plasma membrane.
-- ㄱ. Running backward as in (나), ATP synthase works as primary active transport, like the pump in (가).
-- ㄴ. Which way ATP synthase runs depends on which releases more free energy under the conditions: H+ flowing down its gradient or ATP hydrolysis.
-- ㄷ. In the fermenting E. coli of (나), a drug that blocks ATP synthase would let the H+ gradient across its membrane run down.
-Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ⑤ ㄱ, ㄴ, ㄷ
-- ㄱ TRUE: It then uses energy from ATP hydrolysis directly to move ions against their gradient, the definition of primary active transport.
-- ㄴ TRUE: The direction with a negative overall ΔG wins: a steep gradient drives synthesis; plenty of ATP and a weak gradient drive hydrolysis.
-- ㄷ TRUE: Here ATP synthase is what builds the gradient, spending ATP from glycolysis; blocked, it stops pumping, and the gradient leaks away.
+- ㄱ. In the fermenting E. coli of (나), a drug that blocks ATP synthase would make the H+ gradient across its membrane grow, since H+ could no longer flow back in through it.
+- ㄴ. Running backward as in (나), ATP synthase works as primary active transport, like the pump in (가).
+- ㄷ. Which way ATP synthase runs depends on which releases more free energy under the conditions: H+ flowing down its gradient or ATP hydrolysis.
+Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄴ, ㄷ
+**Key**: ⑤ ㄴ, ㄷ
+- ㄱ FALSE: Here the enzyme builds the gradient by spending ATP from glycolysis; once blocked, it stops pumping, and the gradient leaks away.
+- ㄴ TRUE: It then uses energy from ATP hydrolysis directly to move ions against their gradient, the definition of primary active transport.
+- ㄷ TRUE: The direction with a negative overall ΔG wins: a steep gradient drives synthesis; plenty of ATP and a weak gradient drive hydrolysis.
 Links line (answer side): Primary active transport (Module 3) · ΔG sets the direction (Module 6) · ATP synthase and the H+ gradient (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m3_primary_active_transport`: Module 3: primary active transport (pumps) uses energy to move ions against their gradient, building a gradient
@@ -142,19 +142,20 @@ Stem: Plant cells run two electron transport chains, one in their mitochondria a
 Box:
 > (가) In mitochondria, electrons flow from NADH to O2.
 > (나) In chloroplasts, electrons taken from H2O pass through photosystems II and I.
-- ㄱ. In the dark, a leaf cell can keep the chain in (가) running but not the chain in (나).
-- ㄴ. Both chains end by passing their electrons to O2.
-- ㄷ. As in (가), the electrons in (나) end with less energy than they had at the start.
-Choices: ① ㄱ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ① ㄱ
-- ㄱ TRUE: The mitochondrial chain runs on electrons from food day and night; the chloroplast chain needs light at both photosystems to move water's electrons.
-- ㄴ FALSE: Only the mitochondrial chain ends at O2; the chloroplast chain ends at NADP+, and O2 is a by-product of splitting water at its start.
-- ㄷ FALSE: Water's electrons start low and are raised by light at PSII and PSI, ending in NADPH with more energy than they had in water; only (가) runs downhill throughout.
-Links line (answer side): O2 is the final acceptor (Module 7) · NADP+ is the final acceptor and the Z scheme (Module 8)
+- ㄱ. Both chains end by passing their electrons to O2.
+- ㄴ. As in (가), the chain in (나) pumps H+ into the compartment that its own membrane encloses.
+- ㄷ. In the dark, a leaf cell can keep the chain in (가) running but not the chain in (나).
+Choices: ① ㄷ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
+**Key**: ① ㄷ
+- ㄱ FALSE: Only the mitochondrial chain ends at O2; the chloroplast chain ends at NADP+, and O2 is a by-product of splitting water at its start.
+- ㄴ FALSE: The thylakoid chain pumps H+ into the lumen it encloses, but the mitochondrial chain pumps H+ out of the matrix it encloses, into the intermembrane space.
+- ㄷ TRUE: The mitochondrial chain runs on electrons from food day and night; the chloroplast chain needs light at both photosystems to move water's electrons.
+Links line (answer side): O2 is the final acceptor and proton pumping (Module 7) · NADP+ and the thylakoid H+ gradient (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_o2_final_acceptor`: p105: O2 is the final electron acceptor and is reduced to water
   - `m8_psi_nadph`: p116: a second light input at photosystem I raises electrons high enough to reduce NADP+ to NADPH
-  - `m8_z_scheme`: p116: the electrons' energy rises at PSII, falls along the chain, rises again at PSI: the Z scheme
+  - `m7_proton_pumping`: p105: electron flow through complexes I, III and IV pumps protons from the matrix to the intermembrane space
+  - `m8_thylakoid_proton_gradient`: p117: electron flow moves H+ from the stroma into the lumen, so H+ is high in the lumen
 
 ---
 
@@ -165,13 +166,13 @@ Box:
 > (가) Starch (bread), glycogen (oysters, which store a lot of it) and cellulose (lettuce) are all polymers of glucose linked by glycosidic bonds.
 > (나) Humans digest starch and glycogen but not cellulose.
 - ㄱ. The lettuce's cellulose passes through us undigested because, as a structural polymer, it holds no usable chemical energy.
-- ㄴ. The energy released when starch's glycosidic bonds are hydrolyzed in the gut is what powers the ATP that cells later make from its glucose.
-- ㄷ. Glycogen's many branches let an animal's enzymes free glucose from many chain ends at once when it needs fuel quickly.
-Choices: ① ㄱ   ② ㄷ   ③ ㄱ, ㄴ   ④ ㄱ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
-**Key**: ② ㄷ
+- ㄴ. Glycogen's many branches let an animal's enzymes free glucose from many chain ends at once when it needs fuel quickly.
+- ㄷ. The energy released when starch's glycosidic bonds are hydrolyzed in the gut is what powers the ATP that cells later make from its glucose.
+Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄴ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
+**Key**: ② ㄴ
 - ㄱ FALSE: Cellulose's glucose holds as much energy as starch's (cows live on it, thanks to gut microbes that break it down); we lack enzymes for its linkages, so our own cells can't release its glucose.
-- ㄴ FALSE: Hydrolysis releases little energy; the ATP comes from oxidizing the released glucose in glycolysis, the citric acid cycle and oxidative phosphorylation.
-- ㄷ TRUE: Enzymes remove glucose units from chain ends, so a highly branched polymer can release glucose quickly, which suits an animal's fuel store.
+- ㄴ TRUE: Enzymes remove glucose units from chain ends, so a highly branched polymer can release glucose quickly, which suits an animal's fuel store.
+- ㄷ FALSE: Hydrolysis releases little energy; the ATP comes from oxidizing the released glucose in glycolysis, the citric acid cycle and oxidative phosphorylation.
 Links line (answer side): Polysaccharides, condensation and hydrolysis (Module 2) · Stored glucose fuels respiration (Module 7) · Real-world: glycogen in oysters
 Concept tags claimed (each should be genuinely tested by this card):
   - `m2_polysaccharides_storage`: Module 2: starch and glycogen are branched glucose polymers built by glycosidic bonds; cellulose is structural
@@ -206,18 +207,17 @@ Title: Nucleotides at work
 Prompt: Match each molecule to its job in energy metabolism.
 Pairs (Molecule → Job):
 - ATP → Spent by hexokinase and phosphofructokinase in glycolysis's first phase
-- NAD+ → Regenerated from NADH by fermentation so glycolysis can continue
+- NAD+ → Regenerated by fermentation so glycolysis can continue
 - FAD → Accepts electrons in the citric acid cycle and delivers them at complex II
-- NADP+ → Accepts electrons at the end of the light reactions
-- Coenzyme A → Carries acetyl groups into the citric acid cycle
-Explanation: ATP is the energy currency; NAD+, FAD and NADP+ are electron carriers; and coenzyme A carries acetyl groups. All five are built on a nucleotide.
-Links line (answer side): ATP (Module 6) · Electron carriers and fermentation (Module 7) · NADP+ (Module 8)
+- NADP+ → Its reduced form supplies the electrons that turn 1,3-bisphosphoglycerate into triose phosphate
+- Coenzyme A → Is set free again when the acetyl group joins oxaloacetate, so it can be reused
+Explanation: ATP pays for glycolysis's first phase; NAD+, FAD and NADP+ are electron carriers; and coenzyme A hands its acetyl group to oxaloacetate and is reused. All five are built on a nucleotide.
+Links line (answer side): Glycolysis, fermentation and electron carriers (Module 7) · NADPH in the Calvin cycle (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m6_atp_currency`: p88: ATP stores energy in an accessible form that all cells use for cellular work
   - `m7_glycolysis_phase1`: p100: phase 1 (preparatory) spends 2 ATP to make fructose 1,6-bisphosphate
   - `m7_fermentation_purpose`: p107: without O2, fermentation regenerates NAD+ so glycolysis can keep making ATP
   - `m7_carriers_nad_fad`: p98: NAD+ and FAD are the oxidized carriers; NADH and FADH2 are the reduced, high-energy forms
-  - `m8_psi_nadph`: p116: a second light input at photosystem I raises electrons high enough to reduce NADP+ to NADPH
+  - `m8_reduction_step`: p119: PGA is phosphorylated by ATP to 1,3-bisphosphoglycerate, which NADPH reduces to triose phosphate
 
 ---
 
@@ -225,10 +225,10 @@ Concept tags claimed (each should be genuinely tested by this card):
 Title: Energy changes form
 Prompt: Match each process to the energy conversion it carries out.
 Pairs (Process → Energy conversion):
-- Light absorption by a photosystem → Light energy → energy of an excited electron
-- Mitochondrial electron transport chain → Energy of electron transfer → potential energy of an H+ gradient
-- ATP synthase → Potential energy of an H+ gradient → chemical energy of ATP
-- Na+/glucose symporter → Potential energy of a Na+ gradient → potential energy of a glucose gradient
+- A photosystem absorbing light → Energy of a photon → energy of an excited electron
+- Complexes I, III and IV → Energy released in redox reactions → potential energy of an H+ gradient
+- ATP synthase → Potential energy of an H+ gradient → chemical energy of a new phosphate bond
+- Na+/glucose symporter → Potential energy of one solute's gradient → potential energy of another solute's gradient
 - Calvin cycle → Chemical energy of ATP and NADPH → chemical energy of sugar
 Explanation: Each process converts energy from one form to another; none creates energy, and each loses some as heat.
 Links line (answer side): Forms of energy (Module 6) · Secondary active transport (Module 3) · Chemiosmosis (Module 7) · Light capture and the Calvin cycle (Module 8)
@@ -281,9 +281,9 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3484 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 2 pt
 Scenario: Leber hereditary optic neuropathy (LHON) is caused by mutations in mitochondrial DNA genes for subunits of complex I; it mainly damages the energy-hungry nerve cells of the eye.
-Claim: The faulty subunits are made on ribosomes inside the mitochondria, and the affected cells can still make some ATP from FADH2, whose electrons enter the chain after complex I.
-**Key**: TRUE
-Explanation: Genes in mitochondrial DNA are transcribed and translated inside the mitochondrion. FADH2 hands its electrons to complex II, so they bypass the faulty complex I, though NADH's electrons can't.
+Claim: The faulty subunits are made on ribosomes inside the mitochondria, and the affected cells can get around the defect by passing NADH's electrons to complex II instead.
+**Key**: FALSE
+Explanation: Genes in mitochondrial DNA are translated inside the mitochondrion, but NADH can unload its electrons only at complex I; only FADH2's electrons bypass it, at complex II.
 Links line (answer side): Mitochondrial DNA (Module 4) · Mitochondrial ribosomes (Module 5) · ETC entry points (Module 7) · Real-world: LHON
 Concept tags claimed (each should be genuinely tested by this card):
   - `m4_mtdna_genome`: Module 4: mitochondria and chloroplasts carry their own small circular genomes
@@ -300,7 +300,7 @@ Explanation: Small subunits are made on cytosolic ribosomes and imported using t
 Links line (answer side): Protein targeting (Module 5) · The Calvin cycle runs in the stroma (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m5_protein_targeting`: Module 5: nuclear-encoded organelle proteins are made in the cytosol and imported using targeting signals
-  - `m8_stage_locations`: p113: light-dependent reactions occur in the thylakoid membranes; the Calvin cycle occurs in the stroma
+  - `m8_carboxylation_rubisco`: p119: rubisco adds CO2 to five-carbon RuBP; the six-carbon product splits into two 3-phosphoglycerate (PGA)
 
 ---
 
@@ -318,25 +318,25 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3487 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 1 pt
 Scenario: Chlorophyll's porphyrin ring holds a magnesium ion; the similar heme ring in cytochrome c holds an iron ion.
-Claim: This suits cytochrome c to shuttling electrons between complexes III and IV, while chlorophyll's ring is suited to absorbing light.
-**Key**: TRUE
-Explanation: An iron ion can switch between Fe3+ and Fe2+, so cytochrome c can accept and pass on one electron at a time; chlorophyll's Mg-containing ring is tuned to capture photons.
-Links line (answer side): Chlorophyll structure (Module 8) · ETC components (Module 7)
+Claim: Like the iron-containing heme of cytochrome c, the antenna chlorophylls of a photosystem pass electrons from one molecule to the next.
+**Key**: FALSE
+Explanation: Cytochrome c's iron switches between Fe3+ and Fe2+ to carry one electron at a time from complex III to complex IV; antenna chlorophylls pass absorbed energy, not electrons, to the reaction center.
+Links line (answer side): ETC components (Module 7) · Antenna energy transfer (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m8_chlorophyll_structure`: p114: chlorophyll's porphyrin ring (Mg at its centre) absorbs light; its hydrocarbon (phytol) tail anchors it in the thylakoid membrane
   - `m7_etc_location_components`: p105: the ETC sits in the inner mitochondrial membrane: complexes I-IV, coenzyme Q and cytochrome c
+  - `m8_antenna_transfer`: p115: antenna chlorophylls pass absorbed energy (not electrons) to the reaction center
 
 ---
 
-### #3488 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 1 pt
+### #3488 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 2 pt
 Scenario: Phosphofructokinase (PFK), the enzyme for step 3 of glycolysis, catalyzes the first step committed only to glycolysis; it is inhibited when ATP binds a site away from its active site.
-Claim: This lets the cell slow glycolysis when ATP, which the pathway produces, is already plentiful.
+Claim: When ATP is plentiful, this inhibition makes fructose 6-phosphate, the substrate of step 3, build up rather than fructose 1,6-bisphosphate.
 **Key**: TRUE
-Explanation: ATP binding at an allosteric site lowers PFK's activity. PFK isn't step 1, but its step commits sugar to glycolysis, so it acts as the pathway's control point and fuel isn't broken down when ATP is plentiful.
-Links line (answer side): Feedback inhibition of an allosteric enzyme (Module 6) · Glycolysis makes ATP (Module 7)
+Explanation: With PFK held back, its substrate, fructose 6-phosphate, is used more slowly and builds up, while less fructose 1,6-bisphosphate is made; the cell breaks down less fuel while ATP is plentiful.
+Links line (answer side): Allosteric inhibition (Module 6) · Glycolysis phase 1 (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m6_feedback_inhibition`: p93: the end product of a pathway inhibits its first enzyme (allosteric enzyme), saving energy and materials
-  - `m7_glycolysis_net_yield`: p101: glycolysis nets 2 ATP and 2 NADH per glucose
+  - `m7_glycolysis_phase1`: p100: phase 1 (preparatory) spends 2 ATP to make fructose 1,6-bisphosphate
 
 ---
 
@@ -392,7 +392,7 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3493 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 2 pt
 Scenario: Thermus aquaticus, a bacterium from hot springs, grows best at about 70 °C, a temperature that unfolds most human enzymes.
-Claim: Its glycolysis enzymes must be held in shape by more stabilizing interactions than ours, since each active site depends on a fold held by weak bonds that heat disrupts.
+Claim: Its enzymes stay folded at 70 °C because extra stabilizing interactions, such as more ionic bonds, hold them in shape and keep each active site intact.
 **Key**: TRUE
 Explanation: Heat breaks the weak bonds that hold a protein's fold, and the active site with it; enzymes from heat-loving microbes have extra stabilizing interactions.
 Links line (answer side): Protein folding (Module 2) · Active site (Module 6) · Real-world: Thermus aquaticus
@@ -402,36 +402,35 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3494 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 1 pt
+### #3494 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 2 pt
 Scenario: Lipases in fat cells break stored fats down by hydrolyzing the bonds that join each fatty acid to glycerol.
-Claim: Most of the energy a fat supplies comes from its glycerol, since glycerol enters respiration through glycolysis.
+Claim: Gram for gram, a fat's glycerol supplies as much energy as its fatty acids, since both are oxidized completely to CO2.
 **Key**: FALSE
-Explanation: Each fat holds three long fatty acid chains rich in C-H bonds, which beta-oxidation turns into many acetyl-CoA; the single three-carbon glycerol supplies only a small share.
-Links line (answer side): Lipid structure (Module 2) · Fats as fuel (Module 7)
+Explanation: Glycerol carries an O on every carbon, like a sugar, so it yields about 4 kcal/g; fatty acid chains are mostly C-H and yield about 9 kcal/g.
+Links line (answer side): Lipid structure (Module 2) · Lipids are energy-rich (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m2_lipid_structure`: Module 2: a triacylglycerol is glycerol plus three fatty acids, rich in C-H bonds
   - `m7_lipids_energy_rich`: p109: lipids are excellent fuels because they are rich in C-C and C-H bonds
-  - `m7_beta_oxidation`: p109: beta-oxidation cuts fatty acids into acetyl-CoA, making NADH and FADH2 but no ATP directly; glycerol enters glycolysis
 
 ---
 
 ### #3495 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 1 pt
 Scenario: Plants are autotrophs; the deer that eat them are heterotrophs.
-Claim: A plant cell respiring its own sugar at night is acting as a heterotroph.
-**Key**: FALSE
-Explanation: Autotroph and heterotroph describe where an organism gets its carbon. The plant made that sugar from CO2, so respiring it doesn't make the plant a heterotroph, even though it releases energy the same way the deer does.
-Links line (answer side): Autotrophs and heterotrophs (Module 6) · Respiration of stored fuel (Module 7)
+Claim: A leaf cell respiring its own starch at night releases, as CO2, carbon atoms it fixed during the day, yet the plant is still an autotroph.
+**Key**: TRUE
+Explanation: Starch made by day is broken down at night and respired, returning its carbon as CO2; autotroph describes where an organism gets its carbon, and the plant made that starch from CO2 itself.
+Links line (answer side): Autotrophs and heterotrophs (Module 6) · Starch is used at night (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m6_autotroph_heterotroph`: p86: autotrophs make organic carbon from CO2; heterotrophs must take in organic carbon
-  - `m7_respiration_fuels`: p96: cellular respiration can use carbohydrates, lipids and proteins and converts their energy into ATP
+  - `m8_starch_for_night`: p119: excess carbohydrate is stored as starch by day and used at night
 
 ---
 
 ### #3496 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 1 pt
 Scenario: A bean plant is given 14CO2 for an hour in the light; the next day a caterpillar eats one of its leaves.
-Claim: Some of the 14C will end up built into the caterpillar's own body rather than breathed out as 14CO2.
-**Key**: TRUE
-Explanation: The caterpillar respires part of the leaf's sugar, releasing its carbon as CO2, but it uses other parts to build its own molecules as it grows (anabolism).
+Claim: All of the 14C the caterpillar takes in will eventually be breathed out as 14CO2, since animals get their energy by respiring their food.
+**Key**: FALSE
+Explanation: The caterpillar respires part of the leaf's sugar, releasing its carbon as CO2, but it builds other parts into its own body as it grows (anabolism), and some leaves in its droppings.
 Links line (answer side): Anabolism and catabolism (Module 6) · Respiration (Module 7) · Carbon fixation (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m6_anabolism_catabolism`: p87: anabolism builds molecules and needs energy (ATP); catabolism breaks them down and releases energy
@@ -440,8 +439,8 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3497 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 2 pt
-Scenario: Oligomycin blocks the Fo channel of mitochondrial ATP synthase but not of the chloroplast's. A treated leaf is kept in bright light.
+### #3497 · TRUE/FALSE · Bridge · Connecting Modules 1–8 · 2 pt · diagram `mito_chloro_compartments` ("Mitochondrion vs. chloroplast: membranes and compartments"; image: work/gallery/mito_chloro_compartments__light.png)
+Scenario: Oligomycin blocks the Fo channel of mitochondrial ATP synthase but not of the chloroplast's. A leaf cell like the one whose organelles are shown in the diagram is treated and kept in bright light.
 Claim: The leaf's Calvin cycle keeps running, while the H+ gradient across its mitochondria's inner membrane builds up.
 **Key**: TRUE
 Explanation: Chloroplast ATP synthase still makes ATP in the stroma for carbon fixation. In the mitochondria, H+ can no longer flow back through Fo, so the gradient builds up (and electron transport slows).
@@ -455,12 +454,12 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3751 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 1 pt · diagram `br_nad_structure` ("The parts of NAD+"; image: work/gallery/br_nad_structure__light.png)
 Stem: Which of these molecules is NOT built on a nucleotide (base + sugar + phosphate), as the NAD+ in the diagram is?
-① FAD
-② GTP
-③ NADP+
-④ RuBP
+① RuBP
+② FAD
+③ GTP
+④ NADP+
 ⑤ Coenzyme A
-**Key**: ④
+**Key**: ①
 Explanation: Coenzyme A, FAD, GTP and NADP+ each contain a nucleotide; RuBP (ribulose 1,5-bisphosphate), the Calvin cycle's CO2 acceptor, is a five-carbon sugar with two phosphates but no base.
 Links line (answer side): Nucleotide structure (Module 2) · RuBP (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -470,14 +469,14 @@ Concept tags claimed (each should be genuinely tested by this card):
 ---
 
 ### #3752 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 2 pt
-Stem: Pyruvate kinase catalyzes step 10 of glycolysis. People who inherit two faulty copies of the gene for the pyruvate kinase made in red blood cells and liver mainly suffer anemia, because their red blood cells break down early. Why are their muscle and brain cells largely unaffected?
-① Those cells make all their ATP in mitochondria and don't need glycolysis
-② Those cells make no ATP at step 10, so losing the enzyme changes nothing
-③ Those cells make their pyruvate kinase from a different gene
-④ Those cells get step 10's ATP from steps 1 and 3 instead
+Stem: Pyruvate kinase catalyzes step 10 of glycolysis. People who inherit two faulty copies of PKLR, a gene for pyruvate kinase, mainly suffer anemia because their red blood cells break down early. Why are their muscle and brain cells largely unaffected?
+① Those cells get step 10's ATP from steps 1 and 3 instead
+② Those cells make all their ATP in mitochondria and don't need glycolysis
+③ Those cells make no ATP at step 10, so losing the enzyme changes nothing
+④ Those cells make their pyruvate kinase from a different gene
 ⑤ Their mitochondria make pyruvate from glucose without glycolysis
-**Key**: ③
-Explanation: The faulty gene makes only the red-cell and liver form of the enzyme; other tissues make pyruvate kinase from a separate gene, so their glycolysis is normal. Mature red blood cells, with no mitochondria, rely on glycolysis alone, so they are hit hardest.
+**Key**: ④
+Explanation: PKLR makes only the red-cell and liver form of the enzyme; other tissues make pyruvate kinase from a separate gene, so their glycolysis is normal. Mature red blood cells, with no mitochondria, rely on glycolysis alone, so they are hit hardest.
 Links line (answer side): Genes and enzymes (Module 5) · Glycolysis payoff phase (Module 7) · Real-world: pyruvate kinase deficiency
 Concept tags claimed (each should be genuinely tested by this card):
   - `m5_gene_mutation_protein`: Module 5: a mutation in a gene can leave its enzyme missing or nonfunctional
@@ -489,11 +488,11 @@ Concept tags claimed (each should be genuinely tested by this card):
 ### #3753 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 2 pt
 Stem: Taking electrons from water, as photosystem II does, needs far more energy than taking them from the C-H bonds of glucose. Which fact best explains why?
 ① Glucose's electrons are held in bonds to oxygen, which give them up easily
-② Oxygen is highly electronegative, so water holds its electrons tightly
-③ Water must first be split into H2 and O2 gases before its electrons can be used
+② Water must first be split into H2 and O2 gases before its electrons can be used
+③ Oxygen is highly electronegative, so water holds its electrons tightly
 ④ Water's electrons sit at a higher energy level than glucose's do
-⑤ Water has fewer electrons than glucose, so each one is harder to find
-**Key**: ②
+⑤ Water's O-H bonds are hydrogen bonds, which hold electrons more tightly than covalent bonds
+**Key**: ③
 Explanation: Oxygen's pull holds the shared electrons of O-H bonds close, so they sit low in energy; electrons shared nearly equally in C-H bonds sit higher. Light energy at PSII pulls them away from water.
 Links line (answer side): Electronegativity (Module 2) · PSII takes electrons from water (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -502,14 +501,14 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3754 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 2 pt · diagram `m7_etc_membrane` ("The inner mitochondrial membrane"; image: work/gallery/m7_etc_membrane__light.png)
-Stem: The body builds both FAD and FMN, a cofactor inside complex I, from riboflavin (vitamin B2). Using the diagram, in severe riboflavin deficiency, which entries of electrons into the mitochondrial chain would be weakened?
-① Entry at complex II only
-② Neither, since electrons enter the chain only from NADH
-③ Entry at complex I only
-④ Neither, since riboflavin isn't part of a nucleotide
-⑤ Entry at both complex I and complex II
-**Key**: ⑤
+### #3754 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 2 pt
+Stem: The body builds both FAD and FMN from riboflavin (vitamin B2); FMN is the first carrier to take electrons from NADH in the mitochondrial chain. In severe riboflavin deficiency, which entries of electrons into the chain would be weakened?
+① Neither, since riboflavin isn't part of a nucleotide
+② Entry at both complex I and complex II
+③ Entry at complex II only
+④ Entry at complex I only
+⑤ Neither, since electrons enter the chain only from NADH
+**Key**: ②
 Explanation: NADH's electrons go first to the FMN in complex I, and FADH2 from the citric acid cycle hands its electrons in at complex II, so with less riboflavin both entries weaken. FMN is riboflavin with a phosphate, and FAD adds an adenine nucleotide.
 Links line (answer side): Nucleotide carriers (Module 2) · FADH2 enters at complex II (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -540,10 +539,10 @@ Concept tags claimed (each should be genuinely tested by this card):
 Stem: How is ATP synthase like the Na+/glucose symporter that intestinal cells use to absorb glucose?
 ① Both hydrolyze ATP to move ions against a gradient
 ② Both carry two different solutes across together
-③ Both are driven by an ion flowing down its gradient
-④ Both use the energy of electron transport directly
-⑤ Both move every solute they carry down its gradient
-**Key**: ③
+③ Both use the energy of electron transport directly to do their work
+④ Both move every solute they carry down its gradient
+⑤ Both are driven by an ion flowing down its gradient
+**Key**: ⑤
 Explanation: The symporter uses Na+ flowing in to move glucose uphill; ATP synthase uses H+ flowing down its gradient to make ATP. The symporter never hydrolyzes ATP, and ATP synthase normally makes ATP rather than spending it.
 Links line (answer side): Secondary active transport (Module 3) · ATP synthase and chemiosmosis (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -556,11 +555,11 @@ Concept tags claimed (each should be genuinely tested by this card):
 ### #3757 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 1 pt
 Stem: Water takes part in many reactions in Modules 6-8. In which process is water a product rather than a reactant?
 ① Digestion of starch into glucose
-② Electron transport at complex IV
-③ Breaking a fat into glycerol and fatty acids
+② Breaking a fat into glycerol and fatty acids
+③ Electron transport at complex IV
 ④ ATP powering the Na+/K+ pump
 ⑤ Photosystem II replacing its lost electrons
-**Key**: ②
+**Key**: ③
 Explanation: At complex IV, O2 accepts electrons and H+ and becomes water; the other processes all use water up (ATP, starch and fat are hydrolyzed, and PSII takes its electrons from water).
 Links line (answer side): Hydrolysis (Module 2) · O2 is reduced to water (Module 7) · Water is split at PSII (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -572,12 +571,12 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3758 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 1 pt
 Stem: Why must the inner mitochondrial membrane be almost impermeable to H+?
-① So the gradient forms without any energy input
-② So the gradient's energy is released as heat
-③ So the matrix becomes the high-H+ side of the membrane
-④ So H+ flows back through ATP synthase instead of leaking across
+① So electron transport keeps running, since H+ leaking back would stop the chain
+② So H+ returns through ATP synthase, not across the bilayer
+③ So the gradient's energy is released as heat
+④ So the matrix becomes the high-H+ side of the membrane
 ⑤ So H+ can't reach complex IV to form water
-**Key**: ④
+**Key**: ②
 Explanation: A gradient stores energy only if H+ can't leak back across the bilayer; then H+ returns mostly through ATP synthase, which captures the energy as ATP. (A little leaks back anyway, and DNP or UCP1 makes the leak much bigger.)
 Links line (answer side): Membrane permeability (Module 3) · Proton gradient and chemiosmosis (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -587,30 +586,31 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3759 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 1 pt
-Stem: Both a cyanobacterium and a plant leaf cell carry out photosynthesis and cellular respiration. Which of these is found in the leaf cell but not in the cyanobacterium?
-① Mitochondria
-② Chlorophyll a
-③ A respiratory electron transport chain
-④ Ribosomes
-⑤ Photosystem II
-**Key**: ①
-Explanation: Cyanobacteria have ribosomes, chlorophyll a, photosystem II and a respiratory electron transport chain in their own membranes, but no membrane-bound organelles such as mitochondria.
-Links line (answer side): Prokaryotes lack organelles (Module 1) · The respiratory chain (Module 7)
+### #3759 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 2 pt
+Stem: A plant leaf cell and a cyanobacterium both carry out photosynthesis and cellular respiration. Which statement is true of both?
+① Each runs its respiratory electron transport chain in mitochondria
+② Each can make ATP only while it is in the light
+③ Each makes most of its ATP by substrate-level phosphorylation
+④ Each makes ATP by letting H+ flow back through ATP synthase
+⑤ Each keeps its photosystems inside chloroplasts
+**Key**: ④
+Explanation: Both use chemiosmosis: electron transport builds an H+ gradient that ATP synthase uses, in the cyanobacterium's own membranes and in the plant cell's mitochondria and chloroplasts. Only the plant cell has organelles, and both make ATP in the dark by respiration.
+Links line (answer side): Prokaryotes lack organelles (Module 1) · Chemiosmosis (Module 7) · Photophosphorylation (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
   - `m1_prokaryote_no_organelles`: Module 1: prokaryotes lack membrane-bound organelles, so their respiration chain sits in the plasma membrane
-  - `m7_etc_location_components`: p105: the ETC sits in the inner mitochondrial membrane: complexes I-IV, coenzyme Q and cytochrome c
+  - `m7_chemiosmotic_coupling`: p106: the proton gradient couples electron transport to ATP synthesis
+  - `m8_photophosphorylation`: p117: H+ flowing from the lumen through thylakoid ATP synthase makes ATP on the stroma side (photophosphorylation)
 
 ---
 
 ### #3760 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 1 pt
-Stem: Which of these reductions uses electrons that came from water?
-① O2 → H2O at complex IV
-② NAD+ → NADH in pyruvate oxidation
-③ NADP+ → NADPH at the end of the light reactions
+Stem: Which of these reductions uses electrons taken directly from water in the same chain of reactions?
+① NADP+ → NADPH in the light reactions
+② O2 → H2O at complex IV
+③ FAD → FADH2 in the citric acid cycle
 ④ NAD+ → NADH in glycolysis
-⑤ FAD → FADH2 in the citric acid cycle
-**Key**: ③
+⑤ NAD+ → NADH as pyruvate is oxidized to acetyl-CoA
+**Key**: ①
 Explanation: The light reactions take electrons from water at photosystem II and deliver them to NADP+; the other reductions use electrons taken from fuel molecules, and the water made at complex IV is a product, not the source.
 Links line (answer side): Electron carriers (Module 7) · Water splitting and NADPH (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -624,10 +624,10 @@ Concept tags claimed (each should be genuinely tested by this card):
 Stem: Earth's air held almost no O2 until about 2.4 billion years ago, after cyanobacteria became widespread. Which statement best links that event to the O2 a maple tree releases today?
 ① Its mitochondria descend from cyanobacteria and release the O2 instead
 ② Its O2 is released when its cells break down glucose in respiration
-③ Living cyanobacteria inside every leaf cell still release the O2
-④ Its chloroplasts descend from cyanobacteria and split water the same way
+③ Its chloroplasts descend from cyanobacteria and split water as they do
+④ Living cyanobacteria inside every leaf cell still release the O2
 ⑤ It splits CO2 to release O2, a process that cyanobacteria never used
-**Key**: ④
+**Key**: ③
 Explanation: Chloroplasts arose from engulfed cyanobacteria and kept their water-splitting photosystems, so plant O2 comes from water, as cyanobacterial O2 does. Mitochondria came from proteobacteria and use O2 rather than release it.
 Links line (answer side): Endosymbiosis (Modules 1, 3) · Water is the electron donor (Module 8)
 Concept tags claimed (each should be genuinely tested by this card):
@@ -637,13 +637,13 @@ Concept tags claimed (each should be genuinely tested by this card):
 ---
 
 ### #3762 · MULTIPLE CHOICE · Bridge · Connecting Modules 1–8 · 2 pt
-Stem: The citric acid cycle needs only a little oxaloacetate to process a great deal of acetyl-CoA. Which Module 6 idea is the closest parallel?
-① A catalyst lowers the activation energy barrier
-② ATP hydrolysis drives endergonic reactions forward
-③ A pathway's end product shuts off its first enzyme
-④ A competitive inhibitor occupies the active site
-⑤ An enzyme is released unchanged and used again
-**Key**: ⑤
+Stem: Which Module 6 idea is the closest parallel to oxaloacetate's role in the citric acid cycle?
+① A pathway's end product shuts off its first enzyme
+② A catalyst lowers the activation energy barrier
+③ ATP hydrolysis drives endergonic reactions forward
+④ An enzyme is released unchanged and used again
+⑤ A competitive inhibitor occupies the active site
+**Key**: ④
 Explanation: Oxaloacetate is regenerated at the end of each turn, just as an enzyme is regenerated after each E + S → E + P cycle, so a small amount of either can process many molecules.
 Links line (answer side): Enzymes are reused (Module 6) · Oxaloacetate is regenerated (Module 7)
 Concept tags claimed (each should be genuinely tested by this card):
