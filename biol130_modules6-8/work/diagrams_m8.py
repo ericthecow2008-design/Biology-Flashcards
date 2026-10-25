@@ -13,7 +13,7 @@ def _chl_a(w):
 
 
 def _chl_b(w):
-    return 1.0 * _g(w, 455, 15) + 0.58 * _g(w, 642, 11) + 0.12 * _g(w, 595, 14) + 0.03
+    return 1.0 * _g(w, 455, 15) + 0.33 * _g(w, 642, 11) + 0.12 * _g(w, 595, 14) + 0.03
 
 
 def _carot(w):
@@ -48,8 +48,8 @@ def m8_chloroplast():
           line(382, 98, 470, 60, stroke=SOFT, width=1), text(474, 60, "thylakoid membrane", size=10.5, anchor="start"),
           line(366, 132, 470, 112, stroke=SOFT, width=1), text(474, 116, "thylakoid lumen", size=10.5, anchor="start"),
           line(386, 152, 470, 162, stroke=SOFT, width=1), text(474, 166, "granum (stack)", size=10.5, anchor="start"),
-          line(404, 210, 470, 212, stroke=SOFT, width=1), text(474, 216, "inner membrane", size=10.5, anchor="start"),
-          line(420, 228, 470, 246, stroke=SOFT, width=1), text(474, 250, "outer membrane", size=10.5, anchor="start")]
+          line(400, 204, 470, 212, stroke=SOFT, width=1), text(474, 216, "inner membrane", size=10.5, anchor="start"),
+          line(388, 224, 470, 246, stroke=SOFT, width=1), text(474, 250, "outer membrane", size=10.5, anchor="start")]
     return ("A chloroplast", svg(600, 262,
             "A chloroplast drawn as two nested rounded outlines, the outer and inner membranes. Inside, the fluid stroma "
             "surrounds three stacks of flattened thylakoid sacs (grana) joined by short connecting membranes. Labels point "
@@ -131,25 +131,44 @@ def m8_chlorophyll():
     K = "m8_chlorophyll"
     cx, cy = 130, 110
     p = []
+    rings = {}
     for ang in (45, 135, 225, 315):
         a = math.radians(ang)
         px, py = cx + 48 * math.cos(a), cy + 48 * math.sin(a)
-        pts = [(px + 18 * math.cos(a + math.radians(72 * k)), py + 18 * math.sin(a + math.radians(72 * k))) for k in range(5)]
+        # one vertex (the N atom) points at the Mg in the centre
+        pts = [(px + 18 * math.cos(a + math.pi + math.radians(72 * k)), py + 18 * math.sin(a + math.pi + math.radians(72 * k)))
+               for k in range(5)]
+        rings[ang] = pts
         p.append(polygon(pts, fill=MOD2, fill_opacity=0.25, stroke=MOD2, width=1.6))
-    p.append(circle(cx, cy, 64, stroke=MOD2, width=1.4, dash="4 3"))
+    for ang in (45, 135, 225, 315):
+        # a one-carbon bridge joins each pyrrole to the next, closing the big ring
+        m = math.radians(ang + 45)
+        mx, my = cx + 60 * math.cos(m), cy + 60 * math.sin(m)
+        va = min(rings[ang], key=lambda v: (v[0] - mx) ** 2 + (v[1] - my) ** 2)
+        vb = min(rings[(ang + 90) % 360], key=lambda v: (v[0] - mx) ** 2 + (v[1] - my) ** 2)
+        p.append(polyline([va, (mx, my), vb], stroke=MOD2, width=1.6))
+    for ang in (45, 135, 225, 315):
+        nx, ny = rings[ang][0]
+        a = math.radians(ang)
+        p.append(line(nx, ny, cx + 15 * math.cos(a), cy + 15 * math.sin(a), stroke=INK, width=1.4))
+        p.append(label_box(nx, ny + 3.2, "N", size=9, pad=1.5, weight="700"))
     p.append(circle(cx, cy, 15, fill=SURFACE, stroke=ACCENT, width=1.6))
     p.append(text(cx, cy + 4, "Mg", size=11, weight="700"))
-    zig = [(cx + 34, cy + 66)]
-    for k in range(1, 15):
-        zig.append((cx + 34 + 26 * k, cy + 66 + (10 if k % 2 else 0)))
+    # the tail is bonded to the lower-right pyrrole
+    a = math.radians(45)
+    tx, ty = min(rings[45], key=lambda v: (v[0] - 172) ** 2 + (v[1] - 182) ** 2)
+    zig = [(tx, ty), (172, 182)]
+    for k in range(1, 14):
+        zig.append((172 + 26 * k, 182 + (10 if k % 2 else 0)))
     p.append(polyline(zig, stroke=ACCENT, width=2.4))
     p += [text(cx, 26, "porphyrin ring", size=11, weight="700"),
           text(300, 214, "hydrocarbon (phytol) tail", size=11, weight="700"),
           text(250, 92, "N atoms of the ring hold the", size=9.5, anchor="start", fill=SOFT),
           text(250, 106, "Mg ion at the centre", size=9.5, anchor="start", fill=SOFT)]
     return ("Chlorophyll's two parts", svg(560, 230,
-            "Schematic of a chlorophyll molecule: a flat porphyrin ring of four linked five-membered rings around a central "
-            "Mg ion, and a long zigzag hydrocarbon (phytol) tail attached to the ring.", p))
+            "Schematic of a chlorophyll molecule: a flat porphyrin ring made of four five-membered rings joined by short "
+            "bridges into one large ring, whose four N atoms are bonded to a central Mg ion, and a long zigzag hydrocarbon "
+            "(phytol) tail bonded to one of the small rings.", p))
 
 
 def m8_photosystem():
@@ -185,22 +204,22 @@ def m8_z_scheme():
     A = f"{K}_a"
     y_of = lambda e: 230 - e * 190  # e from 0 (low) to 1 (high)
     pts = [("H2O", 50, 0.17), ("PSII", 110, 0.08), ("PSII*", 160, 0.70), ("PQ", 215, 0.55), ("b6f", 270, 0.42),
-           ("PC", 325, 0.32), ("PSI", 380, 0.26), ("PSI*", 430, 0.97), ("Fd", 490, 0.80), ("NADP+", 560, 0.62)]
+           ("PC", 325, 0.32), ("PSI", 380, 0.26), ("PSI*", 430, 0.97), ("Fd", 490, 0.65), ("NADP+", 560, 0.58)]
     p = [line(20, 236, 20, 22, stroke=SOFT, width=1.2, end=A),
          f'<text x="12" y="140" text-anchor="middle" font-size="10" fill="{SOFT}" transform="rotate(-90 12 140)">electron energy</text>']
     for (a, xa, ea), (b, xb, eb) in zip(pts, pts[1:]):
         p.append(line(xa, y_of(ea), xb, y_of(eb), stroke=MOD2, width=2, dash="5 3" if a in ("PSII", "PSI") else None))
     for lab, x, e in pts:
-        p.append(label_box(x, y_of(e) + 4, lab, size=10.5, weight="700"))
+        p.append(label_box(x, y_of(e) + 4, lab, size=10.5, weight="700", pad=6))
     for x, e0 in ((110, 0.08), (380, 0.26)):
         p.append(path(f"M{x-34},{y_of(e0)-6} q6,-8 0,-16 q-6,-8 0,-16 q6,-8 0,-16", stroke=ACCENT, width=1.8, end=f"{K}_b"))
         p.append(text(x - 34, y_of(e0) - 58, "light", size=10, fill=ACCENT, weight="700"))
     p.append(text(330, 250, "PQ = plastoquinone · PC = plastocyanin · Fd = ferredoxin · * = excited by light", size=9.5, fill=SOFT))
     return ("Electron energy in the light reactions", svg(620, 260,
-            "Energy diagram of the light reactions, shaped like a Z. From low to high energy: water at the bottom left, then "
-            "photosystem II, which light raises to an excited, high-energy state; the path then steps down through "
-            "plastoquinone, the cytochrome b6f complex and plastocyanin to photosystem I, which light raises again to the "
-            "highest level, then steps down through ferredoxin to NADP+.", p,
+            "Energy diagram of the light reactions, shaped like a Z. Electrons from water drop slightly to photosystem II, "
+            "which light raises to an excited state (PSII*); they step down through plastoquinone, the cytochrome b6f "
+            "complex and plastocyanin to photosystem I, which light raises to PSI*, the highest level; then they step down "
+            "through ferredoxin to NADP+.", p,
             defs=[arrow_marker(A, color=SOFT), arrow_marker(f"{K}_b", color=ACCENT)]))
 
 
@@ -273,7 +292,7 @@ def m8_calvin_cycle():
     A = f"{K}_a"
     B = f"{K}_b"
     p = [node(60, 40, 170, 40, "RuBP (5C)", color=MOD2),
-         node(410, 40, 200, 40, "3-phosphoglycerate (3C)", color=MOD2, size=10.5),
+         node(410, 40, 200, 40, "2 × 3-phosphoglycerate (3C)", color=MOD2, size=10.5),
          node(410, 210, 200, 40, "1,3-bisphosphoglycerate", color=MOD2, size=10.5),
          node(60, 210, 170, 40, "triose phosphate (3C)", color=MOD2, size=10.5),
          arrow(230, 60, 406, 60, A), label_box(318, 56, "1 carboxylation (rubisco)", size=10, weight="700"),
@@ -287,7 +306,7 @@ def m8_calvin_cycle():
          text(156, 284, "carbohydrate out", size=10.5, anchor="start", weight="700", fill=ACCENT)]
     return ("The Calvin cycle", svg(640, 296,
             "The Calvin cycle in three numbered steps. Step 1, carboxylation by rubisco: CO2 (1 carbon) joins RuBP (5 "
-            "carbons) to give 3-phosphoglycerate (3 carbons). Step 2, reduction: ATP converts 3-phosphoglycerate to "
+            "carbons) to give two 3-phosphoglycerate (3 carbons each). Step 2, reduction: ATP converts 3-phosphoglycerate to "
             "1,3-bisphosphoglycerate, and NADPH reduces that to triose phosphate (3 carbons). Some triose phosphate leaves as "
             "carbohydrate; step 3, regeneration, uses ATP to turn the rest back into RuBP.", p,
             defs=[arrow_marker(A), arrow_marker(B, color=ACCENT)]))
@@ -299,7 +318,7 @@ def m8_co2_curves():
     X = lambda c: x0 + c / 1200 * w
     Y = lambda v: y0 - v / 100 * h
     hi = lambda c: max(0.0, 100 * (1 - math.exp(-(c - 50) / 350)))
-    lo = lambda c: max(0.0, 40 * (1 - math.exp(-(c - 50) / 150)))
+    lo = lambda c: max(0.0, 40.5 * (1 - math.exp(-(c - 50) / 220)))
     p = [axes(x0, y0, w, h, [(X(c) - x0, c) for c in (0, 300, 600, 900, 1200)], [(v / 100 * h, v) for v in (0, 25, 50, 75, 100)],
               "CO2 in the air (ppm)", "photosynthesis rate (% of maximum)", ylab_dx=40)]
     for c, lab in ((420, "outdoor air"), (1000, "enriched greenhouse")):
@@ -310,10 +329,12 @@ def m8_co2_curves():
         p.append(path("M" + " L".join(f"{n(a)},{n(b)}" for a, b in pts), stroke=col, width=2.4, dash=dash))
     p.append(text(x0 + w + 8, Y(hi(1200)) + 4, "bright light", size=10.5, anchor="start", fill=MOD2, weight="700"))
     p.append(text(x0 + w + 8, Y(lo(1200)) + 4, "dim light", size=10.5, anchor="start", fill=ACCENT, weight="700"))
-    return ("Photosynthesis rate vs CO2 level", svg(590, 262,
+    p.append(text(x0 + w / 2, y0 + 50, "Illustrative values for a C3 crop", size=9.5, fill=SOFT))
+    return ("Photosynthesis rate vs CO2 level", svg(590, 282,
             "Line graph of a crop's photosynthesis rate (as % of maximum) against CO2 in the air from 0 to 1200 ppm, at two "
             "light levels (illustrative). In bright light the rate is about 65% at outdoor air (420 ppm) and about 93% at "
-            "an enriched greenhouse level (1000 ppm). In dim light the rate levels off near 37-40% from about 400 ppm on.", p))
+            "an enriched greenhouse level (1000 ppm). In dim light the rate rises only gently, from about 33% at 420 ppm to "
+            "about 40% at 1000 ppm. Illustrative values for a C3 crop.", p))
 
 
 def m8_c14_timecourse():

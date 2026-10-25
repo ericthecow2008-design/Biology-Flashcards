@@ -6,9 +6,9 @@ All visible text: sunlight on the grass | 1,000,000 kJ | stored in grass | 10,00
 
 ## `br_nad_structure`: The parts of NAD+
 
-Description: Schematic of NAD+: adenine joined to a ribose, which is joined to a phosphate; that phosphate is joined to a second phosphate, which is joined to a second ribose carrying nicotinamide. A note says that in NADH the nicotinamide ring carries two extra electrons and one hydrogen.
+Description: Schematic of NAD+: adenine joined to a ribose, which is joined to a phosphate; that phosphate is joined to a second phosphate, which is joined to a second ribose carrying nicotinamide. A note says NAD+ is the oxidized form of the carrier and NADH the reduced form.
 
-All visible text: adenine | ribose | P | P | ribose | nicotinamide | NAD+ (oxidized form). In NADH, the nicotinamide ring carries two extra electrons and one H.
+All visible text: adenine | ribose | P | P | ribose | nicotinamide | NAD+ is the oxidized form of the carrier; NADH is the reduced form.
 
 ## `br_ph_map`: pH inside two organelles
 
@@ -21,18 +21,6 @@ All visible text: mitochondrion (respiring) | matrix | pH about 7.8 | intermembr
 Description: Spectrum from zero to large electronegativity difference, showing nonpolar covalent, polar covalent, and ionic bonds as one continuum with example bonds placed along it
 
 All visible text: nonpolar covalent | polar covalent | ionic | C–H | O–H (water) | Na–Cl | no ΔEN — equal sharing | large ΔEN — full transfer
-
-## `glucose_ring_and_glycosidic_bond`: Ring formation and the glycosidic bond
-
-Description: Linear glucose folding into a ring by bonding C1 to C5, then two rings joining through a glycosidic bond releasing water
-
-All visible text: Linear → ring (C1 to C5) | C1 | C5–OH | carbonyl (C1) + hydroxyl (C5) close the ring | Two rings join: glycosidic bond | glycosidic bond | condensation → +H2O released
-
-## `lipid_family_comparison`: Triacylglycerol, phospholipid, and cholesterol side by side
-
-Description: Triacylglycerol with three fatty acid tails, a phospholipid with two tails and a phosphate head, and cholesterol's four fused rings, shown side by side, with a saturated versus unsaturated tail inset
-
-All visible text: Triacylglycerol | 3 fatty-acid tails | uniformly hydrophobic | Phospholipid | polar head + 2 tails | amphipathic | Cholesterol | four fused rings | hormone precursor | Fatty-acid tails: saturated vs. unsaturated | saturated — straight, packs tightly | unsaturated — kinked at C=C
 
 ## `m6_gelatin_tubes`: Four gelatin tubes after chilling
 
@@ -80,13 +68,13 @@ All visible text: matrix | cytosol | outer membrane | inner membrane | intermemb
 
 Description: Grouped bar chart, as a percentage of the untreated value, for mitochondria given the same fuel with and without DNP: O2 used 100 versus 180, ATP made 100 versus 35, heat released 100 versus 230. Illustrative values.
 
-All visible text: 0 | 50 | 100 | 150 | 200 | 250 | % of untreated value | 100 | 180 | O2 used | 100 | 35 | ATP made | 100 | 230 | heat released | untreated | with DNP | Illustrative values for mitochondria given the same fuel
+All visible text: 0 | 50 | 100 | 150 | 200 | 250 | % of untreated value | 100 | 180 | O2 used | 100 | 35 | ATP made | 100 | 230 | heat released | untreated | with DNP | Illustrative rates per minute for mitochondria given the same fuel supply
 
 ## `m7_dough_sprint`: Two cells short of O2
 
-Description: Two panels of measurements. Yeast in covered bread dough with little O2 for 2 hours: fuel is sugars from flour; CO2 gas bubbles; ethanol detected; no lactate. A sprinter's thigh muscle during a 30-second all-out effort: fuel is glucose from glycogen; no gas bubbles; no ethanol; lactate rises sharply.
+Description: Two panels of measurements. Yeast in covered bread dough with little O2 for 2 hours: fuel is sugars from flour; CO2 gas bubbles; ethanol detected; no lactate. A sprinter's thigh muscle during a 30-second all-out effort: fuel is glucose from glycogen; pH in the fibres falls; no ethanol; lactate rises sharply.
 
-All visible text: yeast in bread dough | covered, little O2, 2 hours | fuel: sugars from flour | gas bubbles: CO2 | ethanol: detected | lactate: none | sprinter's thigh muscle | 30-second all-out effort | fuel: glucose from glycogen | gas bubbles: none | ethanol: none | lactate: rises sharply
+All visible text: yeast in bread dough | covered, little O2, 2 hours | fuel: sugars from flour | gas bubbles: CO2 | ethanol: detected | lactate: none | sprinter's thigh muscle | 30-second all-out effort | fuel: glucose from glycogen | pH in the fibres: falls | ethanol: none | lactate: rises sharply
 
 ## `m7_energy_staircase`: Oxidizing glucose: one drop or many steps
 
@@ -102,9 +90,9 @@ All visible text: intermembrane space | matrix | I | II | Q | III | cyt c | IV |
 
 ## `m7_fdg_cell`: Glucose and FDG at a cell
 
-Description: Glucose and FDG in the blood each enter a cell through a GLUT carrier in the plasma membrane. Inside, hexokinase with ATP converts glucose to glucose 6-phosphate, which continues into the rest of glycolysis, and FDG to FDG 6-phosphate, which has no further arrow. A note says FDG is glucose with radioactive fluorine-18 in place of the -OH on carbon 2.
+Description: Glucose and FDG in the blood can each cross the plasma membrane in either direction through a GLUT carrier (two-headed arrows). Inside the cell, hexokinase with ATP converts free glucose to glucose 6-phosphate, which continues into the rest of glycolysis, and free FDG to FDG 6-phosphate, which has no further arrow. A note says FDG is glucose with radioactive fluorine-18 in place of the -OH on carbon 2.
 
-All visible text: blood | cell (cytosol) | GLUT | GLUT | glucose | FDG | glucose 6-phosphate | FDG 6-phosphate | hexokinase | + ATP | rest of | glycolysis | FDG: glucose with 18F (radioactive fluorine) in place of the -OH on carbon 2
+All visible text: blood | cell (cytosol) | GLUT | GLUT | glucose | FDG | glucose | FDG | glucose 6-phosphate | FDG 6-phosphate | hexokinase | + ATP | hexokinase | + ATP | rest of | glycolysis | FDG: glucose with 18F (radioactive fluorine) in place of the -OH on carbon 2
 
 ## `m7_fuel_map`: How different fuels enter respiration
 
@@ -126,9 +114,9 @@ All visible text: 40 | 60 | 80 | 100 | 0 | 2 | 4 | 6 | 8 | 10 | time (minutes) |
 
 ## `m7_pyruvate_fates`: Where pyruvate can go
 
-Description: In the cytosol, glycolysis turns glucose into pyruvate (3 carbons). One arrow takes pyruvate to lactate (3 carbons) while NADH becomes NAD+. Another takes pyruvate into the mitochondrial matrix to the pyruvate dehydrogenase complex, whose cofactor TPP is made from thiamine, giving acetyl-CoA (2 carbons) and CO2 while NAD+ becomes NADH; acetyl-CoA goes on to the citric acid cycle.
+Description: In the cytosol, glycolysis turns glucose into pyruvate (3 carbons). One arrow takes pyruvate to lactate (3 carbons) while NADH becomes NAD+. Another takes pyruvate into the mitochondrial matrix to the pyruvate dehydrogenase complex, whose cofactor TPP is made from thiamine; it gives acetyl-CoA (2 carbons) and CO2 as NAD+ becomes NADH in the matrix; acetyl-CoA goes on to the citric acid cycle.
 
-All visible text: cytosol | mitochondrial matrix | glucose | glycolysis | pyruvate (3C) | NADH → NAD+ | lactate (3C) | pyruvate dehydrogenase | complex (its cofactor TPP | is made from thiamine) | acetyl-CoA (2C) + CO2 | → citric acid cycle | NAD+ → NADH
+All visible text: cytosol | mitochondrial matrix | glucose | glycolysis | pyruvate (3C) | NADH → NAD+ | lactate (3C) | pyruvate dehydrogenase | complex (its cofactor TPP | is made from thiamine) | acetyl-CoA (2C) + CO2 | NAD+ → NADH | → citric acid cycle
 
 ## `m7_yield_table`: Products of the first three stages
 
@@ -150,15 +138,15 @@ All visible text: 0 | 25 | 50 | 75 | 100 | 0 | 10 | 20 | 30 | 40 | 50 | 60 | sec
 
 ## `m8_calvin_cycle`: The Calvin cycle
 
-Description: The Calvin cycle in three numbered steps. Step 1, carboxylation by rubisco: CO2 (1 carbon) joins RuBP (5 carbons) to give 3-phosphoglycerate (3 carbons). Step 2, reduction: ATP converts 3-phosphoglycerate to 1,3-bisphosphoglycerate, and NADPH reduces that to triose phosphate (3 carbons). Some triose phosphate leaves as carbohydrate; step 3, regeneration, uses ATP to turn the rest back into RuBP.
+Description: The Calvin cycle in three numbered steps. Step 1, carboxylation by rubisco: CO2 (1 carbon) joins RuBP (5 carbons) to give two 3-phosphoglycerate (3 carbons each). Step 2, reduction: ATP converts 3-phosphoglycerate to 1,3-bisphosphoglycerate, and NADPH reduces that to triose phosphate (3 carbons). Some triose phosphate leaves as carbohydrate; step 3, regeneration, uses ATP to turn the rest back into RuBP.
 
-All visible text: RuBP (5C) | 3-phosphoglycerate (3C) | 1,3-bisphosphoglycerate | triose phosphate (3C) | 1 carboxylation (rubisco) | CO2 (1C) in | 2 reduction | ATP → ADP | NADPH → NADP+ | 3 regeneration | ATP → ADP | carbohydrate out
+All visible text: RuBP (5C) | 2 × 3-phosphoglycerate (3C) | 1,3-bisphosphoglycerate | triose phosphate (3C) | 1 carboxylation (rubisco) | CO2 (1C) in | 2 reduction | ATP → ADP | NADPH → NADP+ | 3 regeneration | ATP → ADP | carbohydrate out
 
 ## `m8_chlorophyll`: Chlorophyll's two parts
 
-Description: Schematic of a chlorophyll molecule: a flat porphyrin ring of four linked five-membered rings around a central Mg ion, and a long zigzag hydrocarbon (phytol) tail attached to the ring.
+Description: Schematic of a chlorophyll molecule: a flat porphyrin ring made of four five-membered rings joined by short bridges into one large ring, whose four N atoms are bonded to a central Mg ion, and a long zigzag hydrocarbon (phytol) tail bonded to one of the small rings.
 
-All visible text: Mg | porphyrin ring | hydrocarbon (phytol) tail | N atoms of the ring hold the | Mg ion at the centre
+All visible text: N | N | N | N | Mg | porphyrin ring | hydrocarbon (phytol) tail | N atoms of the ring hold the | Mg ion at the centre
 
 ## `m8_chloroplast`: A chloroplast
 
@@ -168,9 +156,9 @@ All visible text: stroma | thylakoid membrane | thylakoid lumen | granum (stack)
 
 ## `m8_co2_curves`: Photosynthesis rate vs CO2 level
 
-Description: Line graph of a crop's photosynthesis rate (as % of maximum) against CO2 in the air from 0 to 1200 ppm, at two light levels (illustrative). In bright light the rate is about 65% at outdoor air (420 ppm) and about 93% at an enriched greenhouse level (1000 ppm). In dim light the rate levels off near 37-40% from about 400 ppm on.
+Description: Line graph of a crop's photosynthesis rate (as % of maximum) against CO2 in the air from 0 to 1200 ppm, at two light levels (illustrative). In bright light the rate is about 65% at outdoor air (420 ppm) and about 93% at an enriched greenhouse level (1000 ppm). In dim light the rate rises only gently, from about 33% at 420 ppm to about 40% at 1000 ppm. Illustrative values for a C3 crop.
 
-All visible text: 0 | 25 | 50 | 75 | 100 | 0 | 300 | 600 | 900 | 1200 | CO2 in the air (ppm) | photosynthesis rate (% of maximum) | outdoor air (420) | enriched greenhouse (1000) | bright light | dim light
+All visible text: 0 | 25 | 50 | 75 | 100 | 0 | 300 | 600 | 900 | 1200 | CO2 in the air (ppm) | photosynthesis rate (% of maximum) | outdoor air (420) | enriched greenhouse (1000) | bright light | dim light | Illustrative values for a C3 crop
 
 ## `m8_herbicide_site`: Where PSII herbicides bind
 
@@ -210,7 +198,7 @@ All visible text: stroma | thylakoid lumen | PSII | PQ | b6f | PC | PSI | Fd | N
 
 ## `m8_z_scheme`: Electron energy in the light reactions
 
-Description: Energy diagram of the light reactions, shaped like a Z. From low to high energy: water at the bottom left, then photosystem II, which light raises to an excited, high-energy state; the path then steps down through plastoquinone, the cytochrome b6f complex and plastocyanin to photosystem I, which light raises again to the highest level, then steps down through ferredoxin to NADP+.
+Description: Energy diagram of the light reactions, shaped like a Z. Electrons from water drop slightly to photosystem II, which light raises to an excited state (PSII*); they step down through plastoquinone, the cytochrome b6f complex and plastocyanin to photosystem I, which light raises to PSI*, the highest level; then they step down through ferredoxin to NADP+.
 
 All visible text: electron energy | H2O | PSII | PSII* | PQ | b6f | PC | PSI | PSI* | Fd | NADP+ | light | light | PQ = plastoquinone · PC = plastocyanin · Fd = ferredoxin · * = excited by light
 

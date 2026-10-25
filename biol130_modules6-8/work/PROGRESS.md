@@ -7,9 +7,9 @@ Branch: `claude/elegant-johnson-nwn5tg`.
 - [x] Phase 1: concept ledger → `work/concept_ledger_m68.json`
 - [x] Phase 2: plan → `work/PLAN.md`
 - [x] Phase 3a: Module 6 case studies (+ 4 gap cards): 5 diagrams, 9 cards; 3 review rounds (round 3: 0 MAJOR), fixes applied
-- [ ] Phase 3b: Module 7: diagrams ✓ (12), cards ✓ (100), review round 1 running (4 reviewers)
-- [ ] Phase 3c: Module 8: diagrams ✓ (13), cards ✓ (75), review round 1 running (4 reviewers)
-- [ ] Phase 3d: Bridge: diagrams ✓ (3 new + 5 reused from the study page), cards ✓ (40), review round 1 running (2 reviewers)
+- [ ] Phase 3b: Module 7: diagrams ✓ (12), cards ✓ (100), review round 1 done (4 reviewers, ~20 MAJOR), fixes applied; round 2 running
+- [ ] Phase 3c: Module 8: diagrams ✓ (13), cards ✓ (75), review round 1 done (4 reviewers, 10 MAJOR), fixes applied; round 2 running
+- [ ] Phase 3d: Bridge: diagrams ✓ (3 new + reused study-page and M7/M8 diagrams), cards ✓ (40), review round 1 done (2 reviewers, 11 MAJOR), fixes applied; round 2 running
 - [ ] Phase 4.1: final checks (no WARNING, coverage 2+)
 - [ ] Phase 4.2: Anki deck built + verified
 - [ ] Phase 4.3: study page updated, tested, published

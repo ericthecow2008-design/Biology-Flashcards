@@ -8,19 +8,19 @@ Stem: Glucose can be oxidized by O2 in a flame or inside a cell. Using the diagr
 Box:
 > (가) Burning releases glucose's energy almost entirely as heat and light.
 > (나) Cells capture part of the same energy as ATP and reduced electron carriers.
-- ㄱ. Because the cell's route has many enzyme-catalyzed steps, its total ΔG is less negative than the flame's.
+- ㄱ. In B, O2 accepts electrons at each small step of the staircase rather than all at once as in A.
 - ㄴ. The total free-energy change from glucose + 6 O2 to 6 CO2 + 6 H2O is the same in A and B.
-- ㄷ. Releasing the energy in small steps, as in B, lets the cell trap part of each step's energy in carriers and ATP instead of losing it all at once as heat.
+- ㄷ. Releasing the energy in small steps, as in B, lets the cell trap much of it in carriers and ATP instead of losing it all at once as heat.
 Choices: ① ㄷ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ④ ㄴ, ㄷ
-- ㄱ FALSE: Enzymes change the path and the activation energy, never the overall ΔG between the same start and end.
+- ㄱ FALSE: Glucose's electrons go first to NAD+ and FAD; O2 takes them only at the very end of the electron transport chain.
 - ㄴ TRUE: Both routes start and end with the same molecules, so the overall ΔG is identical; only the path differs.
-- ㄷ TRUE: Small steps release amounts that enzymes can couple to reducing NAD+ or making ATP, as (나) describes.
-Links line (answer side): Energy is released in steps · Glucose is oxidized to CO2 · First law
+- ㄷ TRUE: Small steps release amounts that enzymes can couple to reducing NAD+ or making ATP; the share that isn't trapped is still released as heat.
+Links line (answer side): Energy is released in steps · O2 is the final electron acceptor · Electron carriers
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_stepwise_energy_release`: p98: glucose's free energy is released step by step and stored as ATP and reduced carriers
-  - `m7_glucose_oxidized_o2_reduced`: p97: in respiration glucose is oxidized to CO2 and O2 is reduced to H2O
-  - `m6_first_law`: p89: energy is neither created nor destroyed, only converted from one form to another
+  - `m7_o2_final_acceptor`: p105: O2 is the final electron acceptor and is reduced to water
+  - `m7_carriers_nad_fad`: p98: NAD+ and FAD are the oxidized carriers; NADH and FADH2 are the reduced, high-energy forms
 
 ---
 
@@ -53,12 +53,12 @@ Box:
 > (가) In glycolysis, an enzyme moves a phosphate group from 1,3-bisphosphoglycerate directly onto ADP.
 > (나) In the mitochondrion, ATP synthase makes ATP using a proton gradient built by the electron transport chain.
 - ㄱ. Per glucose, the process in (가) makes most of the cell's ATP, since it happens in more than one stage.
-- ㄴ. A poison that stopped the electron transport chain would shut down (가) just as quickly as it shuts down (나).
+- ㄴ. A poison that stopped the electron transport chain would also halt (가) within seconds, because (가) depends on the proton gradient.
 - ㄷ. (가) is substrate-level phosphorylation, and it needs neither O2 nor a membrane.
 Choices: ① ㄷ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ① ㄷ
 - ㄱ FALSE: Substrate-level phosphorylation gives only about 4 of roughly 32 ATP per glucose; (나), oxidative phosphorylation, makes about 28.
-- ㄴ FALSE: (나) stops at once because the gradient collapses; (가) in glycolysis can keep going if fermentation regenerates NAD+.
+- ㄴ FALSE: (가) uses no gradient; glycolysis's substrate-level steps keep going if fermentation regenerates NAD+, while (나) stops at once.
 - ㄷ TRUE: The phosphate goes straight from a substrate to ADP in one enzyme reaction, so no gradient, membrane or O2 is involved.
 Links line (answer side): Substrate-level vs oxidative phosphorylation
 Concept tags claimed (each should be genuinely tested by this card):
@@ -76,23 +76,27 @@ Pairs (Event → Stage):
 - Oxaloacetate is remade after accepting a two-carbon group → Citric acid cycle
 - O2 accepts electrons and becomes water → Oxidative phosphorylation
 - Pyruvate is reduced so NAD+ is regenerated without O2 → Fermentation
-Explanation: The four stages run glycolysis → pyruvate oxidation → citric acid cycle → oxidative phosphorylation; fermentation is the alternative fate of pyruvate when O2 is absent.
-Links line (answer side): Four stages of respiration · Fermentation
+Explanation: Glycolysis splits glucose, pyruvate oxidation makes acetyl-CoA and CO2, the cycle regenerates oxaloacetate, oxidative phosphorylation ends at O2, and fermentation is pyruvate's fate when O2 is absent.
+Links line (answer side): Stages of respiration · Fermentation
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m7_four_stages_order`: p96: the four stages in order: glycolysis, pyruvate oxidation, citric acid cycle, oxidative phosphorylation
+  - `m7_glycolysis_overview`: p99: glycolysis: ten reactions split six-carbon glucose into two three-carbon pyruvates in the cytosol
+  - `m7_pyruvate_oxidation_step`: p102: in the matrix, pyruvate is oxidized to CO2 and an acetyl group, which joins coenzyme A; NADH forms (pyruvate dehydrogenase complex)
+  - `m7_cac_cycle_regenerates`: p103: the citric acid cycle is a cycle because oxaloacetate, which accepts acetyl-CoA, is regenerated
+  - `m7_o2_final_acceptor`: p105: O2 is the final electron acceptor and is reduced to water
   - `m7_fermentation_purpose`: p107: without O2, fermentation regenerates NAD+ so glycolysis can keep making ATP
 
 ---
 
-### #3403 · TRUE/FALSE · Module 7 · Overview of Cellular Respiration · 1 pt · diagram `m7_cell_compartments` ("A cell's cytosol and one mitochondrion"; image: work/gallery/m7_cell_compartments__light.png)
-Scenario: The diagram shows a liver cell's cytosol and one of its mitochondria.
-Claim: Pyruvate made in this cell has to cross both the outer and the inner membrane of the mitochondrion before it can be oxidized to acetyl-CoA.
+### #3403 · TRUE/FALSE · Module 7 · Overview of Cellular Respiration · 2 pt · diagram `m7_cell_compartments` ("A cell's cytosol and one mitochondrion"; image: work/gallery/m7_cell_compartments__light.png)
+Scenario: A liver cell like the one in the diagram is given glucose whose carbons are all radioactive.
+Claim: The first radioactive CO2 is made in the mitochondrial matrix, not in the cytosol where the glucose is first broken down.
 **Key**: TRUE
-Explanation: Glycolysis makes pyruvate in the cytosol, but pyruvate oxidation happens in the matrix, inside both membranes.
-Links line (answer side): Stage locations · Mitochondrial compartments
+Explanation: Glycolysis in the cytosol releases no CO2; the first CO2 is released when pyruvate is oxidized to acetyl-CoA in the matrix.
+Links line (answer side): Stage locations · Source of CO2
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_stage_locations`: p101: glycolysis happens in the cytosol; stages 2-4 happen in the mitochondria
-  - `m7_mito_compartments`: p102: mitochondria have an outer and inner membrane, an intermembrane space and a matrix
+  - `m7_exhaled_co2`: p104: the CO2 we exhale comes from pyruvate oxidation and the citric acid cycle
+  - `m7_pyruvate_oxidation_step`: p102: in the matrix, pyruvate is oxidized to CO2 and an acetyl group, which joins coenzyme A; NADH forms (pyruvate dehydrogenase complex)
 
 ---
 
@@ -100,7 +104,7 @@ Concept tags claimed (each should be genuinely tested by this card):
 Scenario: Respiration is often summarized as C6H12O6 + 6 O2 → 6 CO2 + 6 H2O.
 Claim: The six O2 molecules end up in the six CO2 molecules the cell releases.
 **Key**: FALSE
-Explanation: O2 is the final electron acceptor and is reduced to water. The oxygen in exhaled CO2 comes from glucose and water.
+Explanation: O2 is the final electron acceptor and is reduced to water. The oxygen in exhaled CO2 comes from glucose and water: the equation is a net summary in which the 6 O2 are reduced to 12 H2O while 6 H2O are used up along the way.
 Links line (answer side): O2 is reduced to H2O · Glucose is oxidized to CO2
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_glucose_oxidized_o2_reduced`: p97: in respiration glucose is oxidized to CO2 and O2 is reduced to H2O
@@ -113,10 +117,10 @@ Scenario: A long-distance runner's muscles oxidize a mix of glucose, fatty acids
 Claim: All three fuels feed the same final stage, oxidative phosphorylation, through reduced electron carriers.
 **Key**: TRUE
 Explanation: Carbohydrates, fats and proteins all yield NADH and FADH2 on their way through respiration, and those carriers deliver electrons to the same electron transport chain.
-Links line (answer side): Respiration uses several fuels · Most ATP comes from oxidative phosphorylation
+Links line (answer side): Respiration uses several fuels · Electron carriers
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_respiration_fuels`: p96: cellular respiration can use carbohydrates, lipids and proteins and converts their energy into ATP
-  - `m7_oxphos_most_atp`: p97: most ATP is made by oxidative phosphorylation, powered by electrons the carriers deliver to the ETC
+  - `m7_carriers_nad_fad`: p98: NAD+ and FAD are the oxidized carriers; NADH and FADH2 are the reduced, high-energy forms
 
 ---
 
@@ -132,50 +136,48 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3407 · TRUE/FALSE · Module 7 · Overview of Cellular Respiration · 1 pt · diagram `m7_energy_staircase` ("Oxidizing glucose: one drop or many steps"; image: work/gallery/m7_energy_staircase__light.png)
-Scenario: The diagram compares burning glucose with oxidizing it inside a cell.
-Claim: In panel B, all the energy released at each small step is captured as ATP, so the cell's route gives off no heat.
-**Key**: FALSE
-Explanation: No energy transformation is 100% efficient: part of every step's energy is lost as heat, which is why we stay warm.
-Links line (answer side): Stepwise energy release · Second law
+### #3407 · TRUE/FALSE · Module 7 · Overview of Cellular Respiration · 1 pt
+Scenario: In the electron transport chain, NADH hands two electrons to complex I and becomes NAD+.
+Claim: In this step NADH is oxidized and complex I is reduced.
+**Key**: TRUE
+Explanation: NADH loses electrons (oxidation) and complex I gains them (reduction); complex I is then oxidized in turn as it passes them on to coenzyme Q.
+Links line (answer side): Oxidation is loss, reduction is gain · Electron carriers
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m7_stepwise_energy_release`: p98: glucose's free energy is released step by step and stored as ATP and reduced carriers
-  - `m6_second_law`: p89: energy transformations are not 100% efficient; some energy is lost as heat, raising entropy
+  - `m7_redox_definitions`: p97: oxidation is loss of electrons, reduction is gain; the two always occur together
+  - `m7_carriers_nad_fad`: p98: NAD+ and FAD are the oxidized carriers; NADH and FADH2 are the reduced, high-energy forms
 
 ---
 
 ### #3408 · TRUE/FALSE · Module 7 · Overview of Cellular Respiration · 2 pt · diagram `m7_yield_table` ("Products of the first three stages"; image: work/gallery/m7_yield_table__light.png)
-Scenario: Complete oxidation of one glucose yields about 32 ATP; the table lists what the first three stages make.
-Claim: If oxidative phosphorylation stopped, the cell would lose about seven-eighths of its ATP yield from each glucose.
-**Key**: TRUE
-Explanation: About 28 of 32 ATP come from oxidative phosphorylation; only the 4 from substrate-level phosphorylation would remain.
-Links line (answer side): Most ATP comes from oxidative phosphorylation · ATP yield
+Scenario: The table lists what the first three stages of respiration make from each glucose.
+Claim: If a poison blocked the electron transport chain, the cell would still get the 4 ATP per glucose that the table lists for substrate-level phosphorylation.
+**Key**: FALSE
+Explanation: With the chain blocked, NADH isn't reoxidized, so pyruvate oxidation and the cycle stop once their NAD+ runs out; only glycolysis's 2 ATP remain, and only if fermentation regenerates NAD+.
+Links line (answer side): Substrate-level phosphorylation · Carriers must be reoxidized
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m7_oxphos_most_atp`: p97: most ATP is made by oxidative phosphorylation, powered by electrons the carriers deliver to the ETC
   - `m7_substrate_level`: p97: substrate-level phosphorylation makes a small amount of ATP directly in an enzyme reaction
-  - `m7_atp_yield_total`: p106: complete oxidation of glucose yields about 32 ATP: 2 glycolysis, 2 cycle, about 28 oxidative phosphorylation
+  - `m7_carriers_nad_fad`: p98: NAD+ and FAD are the oxidized carriers; NADH and FADH2 are the reduced, high-energy forms
 
 ---
 
 ### #3409 · TRUE/FALSE · Module 7 · Overview of Cellular Respiration · 1 pt
-Scenario: In the citric acid cycle, most of the energy released by oxidizing acetyl groups goes into NADH and FADH2 rather than ATP.
-Claim: This energy isn't lost: it is used later, when these carriers hand their electrons to the electron transport chain.
+Scenario: A student lists the stages of aerobic respiration as: pyruvate oxidation, glycolysis, oxidative phosphorylation, citric acid cycle.
+Claim: Swapping the first two stages and swapping the last two puts the list in the order that glucose's carbon and electrons pass through them.
 **Key**: TRUE
-Explanation: Reduced carriers have high potential energy; at the ETC their electrons drive proton pumping, which powers ATP synthase.
-Links line (answer side): Reduced carriers store energy · Oxidative phosphorylation
+Explanation: The order is glycolysis, pyruvate oxidation, the citric acid cycle, then oxidative phosphorylation; both swaps fix the student's list.
+Links line (answer side): Order of the four stages
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m7_carriers_nad_fad`: p98: NAD+ and FAD are the oxidized carriers; NADH and FADH2 are the reduced, high-energy forms
-  - `m7_oxphos_most_atp`: p97: most ATP is made by oxidative phosphorylation, powered by electrons the carriers deliver to the ETC
+  - `m7_four_stages_order`: p96: the four stages in order: glycolysis, pyruvate oxidation, citric acid cycle, oxidative phosphorylation
 
 ---
 
 ### #3703 · MULTIPLE CHOICE · Module 7 · Overview of Cellular Respiration · 1 pt · diagram `m7_cell_compartments` ("A cell's cytosol and one mitochondrion"; image: work/gallery/m7_cell_compartments__light.png)
-Stem: Using the diagram, a cell is given radioactive glucose. In which compartment will radioactive pyruvate first appear?
+Stem: A cell is given radioactive glucose. Using the diagram, where will radioactive pyruvate first appear?
 ① Cytosol
 ② Inner mitochondrial membrane
-③ Mitochondrial matrix
-④ Outer mitochondrial membrane
-⑤ Intermembrane space
+③ Outer mitochondrial membrane
+④ Intermembrane space
+⑤ Mitochondrial matrix
 **Key**: ①
 Explanation: Glycolysis, which makes pyruvate, runs in the cytosol; pyruvate only later enters the matrix for oxidation.
 Links line (answer side): Stage locations · Glycolysis
@@ -203,26 +205,25 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3705 · MULTIPLE CHOICE · Module 7 · Overview of Cellular Respiration · 2 pt
 Stem: Why do cells pass glucose's electrons through NADH and a chain of carriers instead of straight to O2?
-① Because glucose's electrons must first be turned into protons
-② Because the carrier reactions need no enzymes to proceed
-③ So the energy comes out in steps small enough to capture
-④ Because NADH holds more energy than the glucose it came from
-⑤ Because O2 can't accept electrons at body temperature
+① Because O2 accepts electrons from NADH but not from glucose
+② Because NADH holds more energy than the glucose it came from
+③ Because small steps release energy in amounts cells can capture
+④ Because carriers let the reactions run with no activation energy
+⑤ Because a longer path releases more total energy from each glucose
 **Key**: ③
-Explanation: A single drop would release the energy as heat; stepwise transfers let the cell trap it in carriers, a gradient and ATP.
-Links line (answer side): Stepwise energy release · Electron carriers
+Explanation: A single drop would release the energy as heat; stepwise transfers let the cell trap it in carriers, a gradient and ATP. The total released is the same by either path.
+Links line (answer side): Stepwise energy release
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_stepwise_energy_release`: p98: glucose's free energy is released step by step and stored as ATP and reduced carriers
-  - `m7_carriers_nad_fad`: p98: NAD+ and FAD are the oxidized carriers; NADH and FADH2 are the reduced, high-energy forms
 
 ---
 
 ### #3706 · MULTIPLE CHOICE · Module 7 · Overview of Cellular Respiration · 1 pt
 Stem: A carbon atom from glucose ends up in exhaled CO2. In which order could it pass through the stages of respiration?
 ① Glycolysis → pyruvate oxidation → citric acid cycle
-② Glycolysis → oxidative phosphorylation → citric acid cycle
-③ Pyruvate oxidation → glycolysis → citric acid cycle
-④ Citric acid cycle → glycolysis → pyruvate oxidation
+② Glycolysis → citric acid cycle → oxidative phosphorylation
+③ Glycolysis → pyruvate oxidation → oxidative phosphorylation
+④ Pyruvate oxidation → glycolysis → citric acid cycle
 ⑤ Glycolysis → citric acid cycle → pyruvate oxidation
 **Key**: ①
 Explanation: Glucose becomes pyruvate, pyruvate becomes acetyl-CoA (releasing CO2), and the cycle releases the rest as CO2; oxidative phosphorylation handles electrons, not carbon.
@@ -239,18 +240,17 @@ Stem: FDG-PET scans find many cancers by imaging where FDG, a radioactive look-a
 Box:
 > (가) Hexokinase phosphorylates FDG just as it phosphorylates glucose, but the next glycolysis enzyme can't act on FDG 6-phosphate.
 > (나) Many tumours take up far more glucose than most of the tissue around them.
-- ㄱ. Tumours in (나) show up brightest because more FDG enters their cells and is phosphorylated there, so more radioactivity builds up.
-- ㄴ. FDG collects in cells because GLUT carriers move it inward only and can never carry it back out.
+- ㄱ. Tumours in (나) show up as bright spots against the tissue around them, because more FDG enters their cells and is phosphorylated there.
+- ㄴ. FDG collects in cells because GLUT carriers move it into cells but not back out of them.
 - ㄷ. If a drug blocked hexokinase, FDG would stop building up inside the cells even though it could still enter through GLUT.
 Choices: ① ㄱ   ② ㄷ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ③ ㄱ, ㄷ
 - ㄱ TRUE: More uptake through GLUT plus trapping by hexokinase means FDG 6-phosphate accumulates fastest in those cells.
-- ㄴ FALSE: GLUT carriers work by facilitated diffusion in either direction. FDG is held in the cell because FDG 6-phosphate is charged and no longer fits GLUT, as (가) explains.
+- ㄴ FALSE: GLUT carriers work by facilitated diffusion in either direction. FDG is held in the cell because FDG 6-phosphate is charged and no longer fits GLUT; (가) adds that glycolysis can't use it up either.
 - ㄷ TRUE: Unphosphorylated FDG can diffuse back out through GLUT; phosphorylation in step 1 is what traps it.
 Links line (answer side): Phosphorylation traps glucose in the cell · GLUT facilitated diffusion · Real-world: FDG-PET scans
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_phosphorylation_traps_glucose`: p100: phosphorylating glucose traps it in the cell and destabilizes it for splitting
-  - `m7_glycolysis_phase1`: p100: phase 1 (preparatory) spends 2 ATP to make fructose 1,6-bisphosphate
   - `m3_facilitated_diffusion_glut`: Module 3: glucose enters cells down its gradient through GLUT carrier proteins
 
 ---
@@ -263,7 +263,7 @@ Box:
 > (나) She then repeats the tally starting from fructose 1,6-bisphosphate instead of glucose.
 - ㄱ. Glycolysis nets 2 ATP per glucose: 4 are made in steps 7 and 10 and 2 are spent in steps 1 and 3.
 - ㄴ. Starting from fructose 1,6-bisphosphate as in (나), the net yield would rise to 4 ATP, since the phase 1 cost has already been paid.
-- ㄷ. Steps 7 and 10 are substrate-level phosphorylation: an enzyme moves a phosphate from a sugar intermediate straight onto ADP.
+- ㄷ. Steps 7 and 10 are substrate-level phosphorylation: an enzyme moves a phosphate from 1,3-bisphosphoglycerate or phosphoenolpyruvate straight onto ADP.
 Choices: ① ㄱ   ② ㄴ   ③ ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ⑤ ㄱ, ㄴ, ㄷ
 - ㄱ TRUE: Steps 7 and 10 each make 2 ATP per glucose (4 in all); steps 1 and 3 each spend 1.
@@ -280,7 +280,7 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3111 · 보기 COMBINATION · Module 7 · Glycolysis · 3 pt · diagram `m7_glycolysis_map` ("Glycolysis, step by step"; image: work/gallery/m7_glycolysis_map__light.png)
 Title: What fluoride does to mouth bacteria
-Stem: Mouth bacteria such as Streptococcus mutans ferment sugars and release acid that dissolves tooth enamel. Using the diagram, which statements in <보기> are correct?
+Stem: Mouth bacteria such as Streptococcus mutans ferment sugars and release acid that dissolves tooth enamel. Assume they run glycolysis exactly as in the diagram. Using the diagram, which statements in <보기> are correct?
 Box:
 > (가) Fluoride from toothpaste inhibits enolase, step 9 in the diagram, inside these bacteria.
 > (나) The acid these bacteria make is lactic acid, formed from pyruvate.
@@ -290,26 +290,25 @@ Box:
 Choices: ① ㄱ   ② ㄱ, ㄴ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ④ ㄴ, ㄷ
 - ㄱ FALSE: Step 7 makes 2 ATP per glucose, exactly offsetting the 2 spent in steps 1 and 3, so the net is 0 without step 10.
-- ㄴ TRUE: Step 9's substrate accumulates, and step 10, which makes 2 ATP per glucose, is starved of phosphoenolpyruvate.
+- ㄴ TRUE: Step 9's substrate accumulates, and step 10, which makes 2 ATP per glucose, is starved of phosphoenolpyruvate; with no pyruvate to reduce to lactate, NAD+ isn't regenerated either, so even steps 6 and 7 soon stall.
 - ㄷ TRUE: Lactic acid comes from pyruvate (나), and pyruvate is made only after steps 9 and 10.
-Links line (answer side): Glycolysis payoff phase · Net yield · Lactic acid fermentation · Real-world: fluoride toothpaste
+Links line (answer side): Glycolysis payoff phase · Net yield · Real-world: fluoride toothpaste
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_glycolysis_phase3`: p101: phase 3 (payoff) makes 4 ATP, 2 NADH and 2 pyruvate from 2 G3P
   - `m7_glycolysis_net_yield`: p101: glycolysis nets 2 ATP and 2 NADH per glucose
-  - `m7_lactic_acid_fermentation`: p107: in animal cells and bacteria pyruvate is reduced to lactic acid; no CO2 is released
 
 ---
 
 ### #3302 · MATCHING · Module 7 · Glycolysis · 3 pt
-Title: Ten steps, five jobs
-Prompt: Match each glycolysis step to what happens there.
-Pairs (Step → What happens):
-- Step 1 (hexokinase) → A phosphate from ATP traps glucose inside the cell
-- Step 4 → A six-carbon sugar is split into two three-carbon sugars
-- Step 5 → DHAP is rearranged into a second G3P
-- Step 6 → An electron carrier is reduced as G3P is oxidized
-- Step 10 → ATP is made as pyruvate forms
-Explanation: Phase 1 (steps 1-3) invests ATP, phase 2 (steps 4-5) splits the sugar into two G3P, and phase 3 (steps 6-10) makes NADH and ATP.
+Title: Five reactions, five jobs
+Prompt: Match each glycolysis reaction to what it achieves.
+Pairs (Reaction → What it achieves):
+- Glucose → glucose 6-phosphate → A phosphate from ATP traps the sugar inside the cell
+- Fructose 1,6-bisphosphate → G3P + DHAP → A six-carbon sugar is split into two three-carbon sugars
+- DHAP → G3P → Lets both halves of glucose enter the payoff phase
+- G3P → 1,3-bisphosphoglycerate → An electron carrier is reduced as the sugar is oxidized
+- Phosphoenolpyruvate → pyruvate → ATP is made as the final product forms
+Explanation: Phase 1 invests ATP to trap and destabilize the sugar, phase 2 splits it into two G3P, and phase 3 makes NADH and ATP.
 Links line (answer side): Three phases of glycolysis
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_glycolysis_phase1`: p100: phase 1 (preparatory) spends 2 ATP to make fructose 1,6-bisphosphate
@@ -342,11 +341,11 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3412 · TRUE/FALSE · Module 7 · Glycolysis · 2 pt
+### #3412 · TRUE/FALSE · Module 7 · Glycolysis · 2 pt · diagram `m7_glycolysis_map` ("Glycolysis, step by step"; image: work/gallery/m7_glycolysis_map__light.png)
 Scenario: In phase 1, glucose gets two phosphate groups from ATP before it is split.
-Claim: Spending 2 ATP in phase 1 is wasteful: a cell that skipped those steps would net more ATP from each glucose.
+Claim: Spending 2 ATP in phase 1 is wasteful: a cell that split glucose without first phosphorylating it would net more ATP per glucose.
 **Key**: FALSE
-Explanation: The phosphates added in phase 1 trap glucose and destabilize it so it can be split; without them the payoff phase can't happen at all.
+Explanation: The phosphates added in phase 1 trap glucose and destabilize it so it can be split; unphosphorylated glucose isn't split, and the payoff phase can't happen at all.
 Links line (answer side): Glycolysis phase 1 · Phosphorylation traps and destabilizes glucose
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_glycolysis_phase1`: p100: phase 1 (preparatory) spends 2 ATP to make fructose 1,6-bisphosphate
@@ -354,33 +353,33 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3413 · TRUE/FALSE · Module 7 · Glycolysis · 2 pt · diagram `m7_glycolysis_map` ("Glycolysis, step by step"; image: work/gallery/m7_glycolysis_map__light.png)
-Scenario: In phase 2, fructose 1,6-bisphosphate is split between its carbons 3 and 4.
-Claim: Each of the two products carries one of the phosphate groups added in phase 1.
-**Key**: TRUE
-Explanation: Fructose 1,6-bisphosphate has a phosphate at each end (carbons 1 and 6), so splitting it in the middle gives two phosphorylated three-carbon sugars, G3P and DHAP.
-Links line (answer side): Glycolysis phase 2 · Phase 1 adds two phosphates
+### #3413 · TRUE/FALSE · Module 7 · Glycolysis · 2 pt
+Scenario: Phosphofructokinase (step 3) adds a second phosphate before the six-carbon sugar is split in step 4.
+Claim: If step 3 were skipped and fructose 6-phosphate could be split directly, both three-carbon products would still carry a phosphate.
+**Key**: FALSE
+Explanation: Fructose 6-phosphate has only one phosphate, so only one of the two pieces would carry it; adding the second phosphate in step 3 is what lets both halves continue.
+Links line (answer side): Glycolysis phases 1 and 2
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m7_glycolysis_phase2`: p100: phase 2 cleaves fructose 1,6-bisphosphate into G3P and DHAP; DHAP becomes a second G3P
   - `m7_glycolysis_phase1`: p100: phase 1 (preparatory) spends 2 ATP to make fructose 1,6-bisphosphate
+  - `m7_glycolysis_phase2`: p100: phase 2 cleaves fructose 1,6-bisphosphate into G3P and DHAP; DHAP becomes a second G3P
 
 ---
 
-### #3414 · TRUE/FALSE · Module 7 · Glycolysis · 1 pt
+### #3414 · TRUE/FALSE · Module 7 · Glycolysis · 2 pt
 Scenario: A mitochondrial disease leaves a patient's muscle mitochondria working poorly.
-Claim: Because glycolysis happens in the cytosol, a cell whose mitochondria were damaged could still make some ATP from glucose.
+Claim: After mild exercise, this patient's blood lactate would be expected to rise more than a healthy person's.
 **Key**: TRUE
-Explanation: Glycolysis runs in the cytosol and nets 2 ATP per glucose without any help from mitochondria.
-Links line (answer side): Glycolysis location · Glycolysis overview
+Explanation: With oxidative phosphorylation impaired, muscle leans on glycolysis and regenerates NAD+ by reducing pyruvate to lactate.
+Links line (answer side): Glycolysis works without mitochondria · Lactic acid fermentation · Real-world: mitochondrial disease
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m7_stage_locations`: p101: glycolysis happens in the cytosol; stages 2-4 happen in the mitochondria
-  - `m7_glycolysis_overview`: p99: glycolysis: ten reactions split six-carbon glucose into two three-carbon pyruvates in the cytosol
+  - `m7_lactic_acid_fermentation`: p107: in animal cells and bacteria pyruvate is reduced to lactic acid; no CO2 is released
+  - `m7_fermentation_purpose`: p107: without O2, fermentation regenerates NAD+ so glycolysis can keep making ATP
 
 ---
 
 ### #3415 · TRUE/FALSE · Module 7 · Glycolysis · 2 pt · diagram `m7_glycolysis_map` ("Glycolysis, step by step"; image: work/gallery/m7_glycolysis_map__light.png)
-Scenario: Glucose units cut from muscle glycogen enter glycolysis already phosphorylated, as glucose 6-phosphate, without using ATP.
-Claim: Glucose units from muscle glycogen therefore net 3 ATP in glycolysis instead of 2.
+Scenario: Most glucose units cut from muscle glycogen are released as glucose 1-phosphate, which becomes glucose 6-phosphate without using ATP.
+Claim: Each of these units therefore nets 3 ATP in glycolysis instead of 2.
 **Key**: TRUE
 Explanation: Skipping step 1 saves the ATP that hexokinase would spend, so the tally becomes 4 made − 1 spent = 3.
 Links line (answer side): Glycolysis net yield · Glycogen as stored glucose
@@ -390,11 +389,11 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3416 · TRUE/FALSE · Module 7 · Glycolysis · 1 pt · diagram `m7_glycolysis_map` ("Glycolysis, step by step"; image: work/gallery/m7_glycolysis_map__light.png)
-Scenario: Step 6 of glycolysis converts NAD+ to NADH.
-Claim: If a cell ran out of NAD+, glycolysis would stop at step 6 even with plenty of glucose and ADP available.
+### #3416 · TRUE/FALSE · Module 7 · Glycolysis · 1 pt
+Scenario: Step 6 of glycolysis converts G3P to 1,3-bisphosphoglycerate.
+Claim: If a cell ran out of NAD+, G3P would build up, because step 6 needs NAD+ to accept G3P's electrons.
 **Key**: TRUE
-Explanation: Step 6 oxidizes G3P by passing electrons to NAD+; with no NAD+ to accept them, the pathway halts there.
+Explanation: Step 6 oxidizes G3P by passing its electrons to NAD+; with no NAD+ to accept them, G3P can't be converted and accumulates.
 Links line (answer side): Glycolysis phase 3 · NAD+ as electron acceptor
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_glycolysis_phase3`: p101: phase 3 (payoff) makes 4 ATP, 2 NADH and 2 pyruvate from 2 G3P
@@ -409,7 +408,6 @@ Claim: Most of glucose's chemical energy has already been released by the end of
 Explanation: Glycolysis releases only a small share of the energy; most is still held in the two pyruvates and is released later in the mitochondria.
 Links line (answer side): Glycolysis releases a small amount of energy · Stepwise release
 Concept tags claimed (each should be genuinely tested by this card):
-  - `m7_glycolysis_overview`: p99: glycolysis: ten reactions split six-carbon glucose into two three-carbon pyruvates in the cytosol
   - `m7_stepwise_energy_release`: p98: glucose's free energy is released step by step and stored as ATP and reduced carriers
 
 ---
@@ -446,19 +444,19 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3709 · MULTIPLE CHOICE · Module 7 · Glycolysis · 1 pt
-Stem: Glycolysis is often called an 'invest, then collect' pathway. Which steps are the investment?
-① Steps 1 and 10, each moving a phosphate from ATP onto a sugar
-② Step 4, where splitting the six-carbon sugar uses up ATP
-③ Steps 1 and 3, each moving a phosphate from ATP onto a sugar
-④ Steps 7 and 10, each moving a phosphate from a sugar onto ADP
-⑤ Step 6, where the energy of ATP is used to reduce NAD+
-**Key**: ③
-Explanation: Phase 1 (hexokinase in step 1, phosphofructokinase in step 3) spends 2 ATP; steps 7 and 10 are the payoff.
-Links line (answer side): Glycolysis phase 1
+### #3709 · MULTIPLE CHOICE · Module 7 · Glycolysis · 2 pt · diagram `m7_glycolysis_map` ("Glycolysis, step by step"; image: work/gallery/m7_glycolysis_map__light.png)
+Stem: Using the diagram, if step 4 of glycolysis were blocked, what would the net ATP yield per glucose be?
+① −2
+② −1
+③ 0
+④ 1
+⑤ 2
+**Key**: ①
+Explanation: Steps 1 and 3 have already spent 2 ATP before the split, and no ATP is made until step 7, so each glucose costs the cell 2 ATP.
+Links line (answer side): Glycolysis phases 1 and 2
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_glycolysis_phase1`: p100: phase 1 (preparatory) spends 2 ATP to make fructose 1,6-bisphosphate
-  - `m7_glycolysis_phase3`: p101: phase 3 (payoff) makes 4 ATP, 2 NADH and 2 pyruvate from 2 G3P
+  - `m7_glycolysis_phase2`: p100: phase 2 cleaves fructose 1,6-bisphosphate into G3P and DHAP; DHAP becomes a second G3P
 
 ---
 
@@ -466,28 +464,27 @@ Concept tags claimed (each should be genuinely tested by this card):
 Stem: Where is the NADH from glycolysis made, and where must its electrons go in a cell with O2?
 ① Matrix; to the ETC in the outer mitochondrial membrane
 ② Matrix; back to step 6 of glycolysis to be reused there
-③ Intermembrane space; to ATP synthase in the inner membrane
-④ Cytosol; straight to O2 dissolved in the cytosol
-⑤ Cytosol; to the ETC in the inner mitochondrial membrane
-**Key**: ⑤
+③ Cytosol; to the ETC in the inner mitochondrial membrane
+④ Intermembrane space; to ATP synthase in the inner membrane
+⑤ Cytosol; straight to O2 dissolved in the cytosol
+**Key**: ③
 Explanation: Glycolysis runs in the cytosol; with O2 present, NADH's electrons are ultimately passed to the ETC in the inner membrane.
 Links line (answer side): Stage locations · ETC location
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_stage_locations`: p101: glycolysis happens in the cytosol; stages 2-4 happen in the mitochondria
-  - `m7_glycolysis_phase3`: p101: phase 3 (payoff) makes 4 ATP, 2 NADH and 2 pyruvate from 2 G3P
   - `m7_etc_location_components`: p105: the ETC sits in the inner mitochondrial membrane: complexes I-IV, coenzyme Q and cytochrome c
 
 ---
 
 ### #3711 · MULTIPLE CHOICE · Module 7 · Glycolysis · 1 pt
 Stem: Glycolysis is thought to be one of the oldest metabolic pathways. Which of its features best fits an origin before Earth's air held much O2?
-① It uses O2 as the final acceptor for its electrons
-② It runs in the cytosol and consumes no O2
-③ It releases CO2 as its main waste product
-④ It makes most of a cell's ATP from each glucose
-⑤ It needs the folded inner membrane of mitochondria
-**Key**: ②
-Explanation: Glycolysis needs no O2 and no organelle, so it could run in the earliest cells; the other features are false or belong to later stages.
+① It has ten enzyme-catalyzed steps
+② It splits a six-carbon sugar into two three-carbon molecules
+③ It spends 2 ATP before it makes any
+④ It makes NADH as well as ATP
+⑤ It runs in the cytosol and consumes no O2
+**Key**: ⑤
+Explanation: All five are true of glycolysis, but only needing no O2 (and no organelle) fits a world with little O2.
 Links line (answer side): Glycolysis needs no O2 · Location
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_glycolysis_no_o2`: p99: glycolysis consumes no O2 and runs with or without it
@@ -501,14 +498,14 @@ Stem: Thiamine (vitamin B1) deficiency is common in people with long-term heavy 
 Box:
 > (가) Thiamine is needed to make TPP, a cofactor of the pyruvate dehydrogenase complex.
 > (나) The brain gets nearly all of its energy by oxidizing glucose.
-- ㄱ. Blood lactate rises because pyruvate that can't be converted to acetyl-CoA is reduced to lactate instead.
-- ㄴ. The brain in (나) suffers because, with pyruvate oxidation slowed, each glucose yields closer to glycolysis's 2 ATP than to about 32.
-- ㄷ. Without thiamine, the cell releases less CO2 from glycolysis.
+- ㄱ. Because of (가), blood lactate rises: pyruvate that can't be converted to acetyl-CoA is reduced to lactate instead.
+- ㄴ. The brain in (나) suffers because each glucose whose pyruvate becomes lactate yields only glycolysis's 2 ATP instead of about 32.
+- ㄷ. Giving these patients extra glucose without thiamine would restore the brain's ATP supply, since more glucose means more pyruvate.
 Choices: ① ㄱ   ② ㄴ   ③ ㄱ, ㄴ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ③ ㄱ, ㄴ
-- ㄱ TRUE: With the pyruvate dehydrogenase complex slowed (가), pyruvate piles up in the cytosol and is diverted to lactate.
+- ㄱ TRUE: With the pyruvate dehydrogenase complex slowed, pyruvate piles up in the cytosol and is diverted to lactate.
 - ㄴ TRUE: Without acetyl-CoA from pyruvate, the citric acid cycle and oxidative phosphorylation can't extract most of glucose's energy.
-- ㄷ FALSE: Glycolysis releases no CO2 at all; the CO2 that falls is from pyruvate oxidation and the citric acid cycle.
+- ㄷ FALSE: Without TPP the extra pyruvate still can't become acetyl-CoA and mostly becomes lactate, which is why thiamine is given before or with glucose to at-risk patients.
 Links line (answer side): Pyruvate dehydrogenase complex · Lactate as pyruvate's other fate · ATP yield · Real-world: thiamine deficiency
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_pyruvate_oxidation_step`: p102: in the matrix, pyruvate is oxidized to CO2 and an acetyl group, which joins coenzyme A; NADH forms (pyruvate dehydrogenase complex)
@@ -524,7 +521,7 @@ Box:
 > (가) The two carbons of acetyl-CoA join oxaloacetate to form citrate.
 > (나) Each turn of the cycle releases two CO2.
 - ㄱ. The two CO2 leave at isocitrate → α-ketoglutarate and α-ketoglutarate → succinyl-CoA, where the carbon count drops.
-- ㄴ. Because each turn releases two CO2, new oxaloacetate must be supplied from outside the cycle for every acetyl-CoA.
+- ㄴ. Because each turn releases two CO2, the oxaloacetate pool shrinks by one molecule each time an acetyl-CoA enters.
 - ㄷ. One glucose drives two turns of the cycle, so the cycle releases 4 CO2 per glucose.
 Choices: ① ㄴ   ② ㄷ   ③ ㄱ, ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ③ ㄱ, ㄷ
@@ -544,7 +541,7 @@ Title: Borrowing from the cycle
 Stem: Using the diagram, which statements in <보기> are correct?
 Box:
 > (가) Cells draw α-ketoglutarate out of the cycle to make the amino acid glutamate.
-> (나) Unless something else tops the cycle up, oxaloacetate levels then fall.
+> (나) In these cells, oxaloacetate levels then fall.
 - ㄱ. (나) happens because every α-ketoglutarate removed is one less molecule that can go on to be converted back into oxaloacetate.
 - ㄴ. If oxaloacetate runs short, acetyl-CoA enters the cycle more slowly, even when plenty of acetyl-CoA is available.
 - ㄷ. Supplying extra oxaloacetate, or a molecule that becomes it, could keep the cycle turning while α-ketoglutarate is drawn off.
@@ -562,23 +559,23 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ### #3115 · 보기 COMBINATION · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt
 Title: Where your breath comes from
-Stem: Read (가) and (나). Which statements in <보기> are correct?
+Stem: Breath tests follow labelled carbon from a swallowed fuel into exhaled CO2. Read (가) and (나). Which statements in <보기> are correct?
 Box:
-> (가) A resting adult breathes out roughly 1 kg of CO2 a day.
-> (나) In a breath test, a volunteer drinks glucose labelled with carbon-13 in all six carbons.
+> (가) Fatty acids are cut into acetyl-CoA by beta-oxidation.
+> (나) In one test, a volunteer drinks glucose labelled with carbon-13 in all six carbons.
 - ㄱ. The carbon-13 will appear in exhaled CO2, released during pyruvate oxidation and the citric acid cycle.
-- ㄴ. The oxygen atoms in exhaled CO2 come from the O2 breathed in, which combines directly with glucose's carbons.
-- ㄷ. Labelled CO2 would still appear in breath if every mitochondrion were blocked, because glycolysis releases CO2 too.
+- ㄴ. If the volunteer drank carbon-13-labelled fatty acids instead, the label would stay out of exhaled CO2, because fatty acids bypass glycolysis and pyruvate oxidation.
+- ㄷ. Of the six labelled carbons in each glucose, four leave as CO2 in pyruvate oxidation and two in the citric acid cycle.
 Choices: ① ㄱ   ② ㄴ   ③ ㄷ   ④ ㄴ, ㄷ   ⑤ ㄱ, ㄴ, ㄷ
 **Key**: ① ㄱ
-- ㄱ TRUE: Those two stages release glucose's carbons as CO2 (2 + 4 per glucose), which the blood carries to the lungs.
-- ㄴ FALSE: O2 is reduced to water at the end of the electron transport chain; the oxygen in CO2 comes from glucose and water.
-- ㄷ FALSE: Glycolysis releases no CO2; all of respiration's CO2 comes from the mitochondrial stages.
-Links line (answer side): Source of exhaled CO2 · Glucose is oxidized · Real-world: carbon-13 breath tests
+- ㄱ TRUE: Those two stages release glucose's carbons as CO2, which the blood carries to the lungs.
+- ㄴ FALSE: Their acetyl-CoA (가) is oxidized in the citric acid cycle, which releases the label as CO2.
+- ㄷ FALSE: It is the other way round: pyruvate oxidation releases 2 (one per pyruvate) and the cycle releases 4 (two per turn, two turns).
+Links line (answer side): Source of exhaled CO2 · Beta-oxidation feeds the cycle · CO2 per stage · Real-world: carbon-13 breath tests
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_exhaled_co2`: p104: the CO2 we exhale comes from pyruvate oxidation and the citric acid cycle
-  - `m7_glucose_oxidized_o2_reduced`: p97: in respiration glucose is oxidized to CO2 and O2 is reduced to H2O
-  - `m7_cac_completes_oxidation`: p103: the citric acid cycle completes the oxidation of the fuel; its carbons leave as CO2
+  - `m7_beta_oxidation`: p109: beta-oxidation cuts fatty acids into acetyl-CoA, making NADH and FADH2 but no ATP directly; glycerol enters glycolysis
+  - `m7_pyruvate_oxidation_totals`: p103: per glucose, pyruvate oxidation gives 2 CO2, 2 NADH and 2 acetyl-CoA
 
 ---
 
@@ -586,12 +583,12 @@ Concept tags claimed (each should be genuinely tested by this card):
 Title: Where it happens
 Prompt: Match each event to the place where it happens. The diagram shows the compartments.
 Pairs (Event → Place):
+- Glucose enters the cell through GLUT carriers → Plasma membrane
 - Glucose is split into two pyruvate → Cytosol
 - Pyruvate becomes acetyl-CoA → Mitochondrial matrix
 - Electrons pass from carrier to carrier toward O2 → Inner mitochondrial membrane
 - Pumped protons accumulate → Intermembrane space
-- Small molecules pass freely through large channels (porins) → Outer mitochondrial membrane
-Explanation: Glycolysis runs in the cytosol; pyruvate oxidation and the cycle in the matrix; the ETC and ATP synthase sit in the inner membrane and pump H+ into the intermembrane space; the outer membrane is the leaky one.
+Explanation: Glycolysis runs in the cytosol; pyruvate oxidation and the cycle in the matrix; the ETC in the inner membrane pumps H+ into the intermembrane space, and ATP synthase, also in the inner membrane, lets it flow back into the matrix.
 Links line (answer side): Mitochondrial compartments · Stage locations
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_mito_compartments`: p102: mitochondria have an outer and inner membrane, an intermembrane space and a matrix
@@ -600,7 +597,7 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3304 · MATCHING · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 4 pt
+### #3304 · MATCHING · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 3 pt
 Title: Who does what
 Prompt: Match each molecule or enzyme to its role in pyruvate oxidation and the citric acid cycle.
 Pairs (Molecule or enzyme → Role):
@@ -608,9 +605,8 @@ Pairs (Molecule or enzyme → Role):
 - Oxaloacetate → Accepts the acetyl group and is remade at the end of each turn
 - NAD+ → Accepts electrons as pyruvate and cycle intermediates are oxidized
 - Pyruvate dehydrogenase complex → Removes CO2 from pyruvate and joins what is left to coenzyme A
-- α-Ketoglutarate → Can be drawn off to make amino acids and purine bases
-- GTP → Made in the cycle by substrate-level phosphorylation
-Explanation: Each of these has a distinct job: carrier, regenerated acceptor, electron carrier, the converting enzyme, a biosynthetic branch point and the cycle's one substrate-level product.
+- α-Ketoglutarate → Can be drawn off to make the amino acid glutamate
+Explanation: Each of these has a distinct job: carrier, regenerated acceptor, electron carrier, the converting enzyme and a biosynthetic branch point.
 Links line (answer side): Pyruvate oxidation · Cycle intermediates · Electron carriers
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_pyruvate_oxidation_step`: p102: in the matrix, pyruvate is oxidized to CO2 and an acetyl group, which joins coenzyme A; NADH forms (pyruvate dehydrogenase complex)
@@ -620,19 +616,20 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3418 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 1 pt · diagram `m7_pyruvate_fates` ("Where pyruvate can go"; image: work/gallery/m7_pyruvate_fates__light.png)
-Scenario: Pyruvate has three carbons; the acetyl group of acetyl-CoA has two.
-Claim: Converting one pyruvate to acetyl-CoA releases one CO2 and reduces one NAD+.
+### #3418 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 1 pt
+Scenario: In the matrix, pyruvate gives up CO2 and two electrons (with an H+) as it becomes an acetyl group, and NAD+ becomes NADH.
+Claim: In this step pyruvate is oxidized and NAD+ is reduced.
 **Key**: TRUE
-Explanation: The carboxyl carbon leaves as CO2, the remaining two-carbon acetyl group joins coenzyme A, and the oxidation reduces NAD+ to NADH.
-Links line (answer side): Pyruvate oxidation
+Explanation: Pyruvate loses electrons as it becomes CO2 and an acetyl group (oxidation); NAD+ gains them, becoming NADH (reduction).
+Links line (answer side): Pyruvate oxidation · Redox
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_pyruvate_oxidation_step`: p102: in the matrix, pyruvate is oxidized to CO2 and an acetyl group, which joins coenzyme A; NADH forms (pyruvate dehydrogenase complex)
+  - `m7_redox_definitions`: p97: oxidation is loss of electrons, reduction is gain; the two always occur together
 
 ---
 
-### #3419 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt
-Scenario: A cell completely oxidizes 3 glucose molecules.
+### #3419 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt · diagram `m7_yield_table` ("Products of the first three stages"; image: work/gallery/m7_yield_table__light.png)
+Scenario: A cell completely oxidizes 3 glucose molecules; the table lists what each glucose gives.
 Claim: Pyruvate oxidation in this cell produces 6 acetyl-CoA, 6 NADH and 6 CO2.
 **Key**: TRUE
 Explanation: Each glucose gives 2 pyruvate, and each pyruvate gives 1 acetyl-CoA, 1 NADH and 1 CO2: 3 × 2 = 6 of each.
@@ -646,7 +643,7 @@ Concept tags claimed (each should be genuinely tested by this card):
 Scenario: In the matrix, the citric acid cycle oxidizes each acetyl group to 2 CO2.
 Claim: The cycle captures most of that energy as ATP, with only a small share going to NADH and FADH2.
 **Key**: FALSE
-Explanation: Per glucose the cycle makes just 2 ATP (as GTP) but 6 NADH and 2 FADH2; most of the energy goes into the carriers.
+Explanation: Per glucose the cycle makes just 2 ATP (as GTP) but 6 NADH and 2 FADH2; most of the energy goes into the carriers, while the carbons leave as CO2.
 Links line (answer side): Citric acid cycle yield · Electron carriers
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_cac_yield`: p106: per glucose the cycle makes 6 NADH, 2 FADH2 and 2 ATP (as GTP), plus 4 CO2
@@ -654,38 +651,38 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3421 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt
+### #3421 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt · diagram `m7_cell_compartments` ("A cell's cytosol and one mitochondrion"; image: work/gallery/m7_cell_compartments__light.png)
 Scenario: Mitochondria isolated from liver cells are placed in a buffer with glucose and O2, but with no cytosol.
 Claim: They will consume O2 rapidly, since glucose can fuel all four stages.
 **Key**: FALSE
 Explanation: Glycolysis happens in the cytosol, so isolated mitochondria can't use glucose; they need pyruvate (or another mitochondrial fuel) to make NADH and use O2.
-Links line (answer side): Stage locations · Pyruvate oxidation in the matrix
+Links line (answer side): Stage locations · Mitochondrial compartments
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_stage_locations`: p101: glycolysis happens in the cytosol; stages 2-4 happen in the mitochondria
-  - `m7_pyruvate_oxidation_step`: p102: in the matrix, pyruvate is oxidized to CO2 and an acetyl group, which joins coenzyme A; NADH forms (pyruvate dehydrogenase complex)
+  - `m7_mito_compartments`: p102: mitochondria have an outer and inner membrane, an intermembrane space and a matrix
 
 ---
 
-### #3422 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 1 pt
-Scenario: The citric acid cycle is also called the Krebs cycle or the tricarboxylic acid (TCA) cycle.
-Claim: Because oxaloacetate is used in the first step and remade in the last, a small amount of it can process many acetyl groups.
+### #3422 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt · diagram `m7_cac_cycle` ("The citric acid cycle's carbon skeletons"; image: work/gallery/m7_cac_cycle__light.png)
+Scenario: In 1930s experiments, adding a small amount of a four-carbon cycle intermediate to minced pigeon breast muscle raised its O2 use far more than oxidizing that intermediate alone could explain.
+Claim: This fits the cycle remaking oxaloacetate every turn, so a small amount of it can process many acetyl groups.
 **Key**: TRUE
-Explanation: The cycle regenerates its starting acceptor each turn, so oxaloacetate works like a reusable carrier.
-Links line (answer side): Oxaloacetate is regenerated
+Explanation: The added intermediate is recycled turn after turn rather than used up, so it keeps acetyl groups flowing into the cycle.
+Links line (answer side): Oxaloacetate is regenerated · Real-world: Krebs's pigeon muscle experiments
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_cac_cycle_regenerates`: p103: the citric acid cycle is a cycle because oxaloacetate, which accepts acetyl-CoA, is regenerated
 
 ---
 
-### #3423 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt
-Scenario: By the end of the citric acid cycle, all six carbons of the original glucose have been released as CO2.
-Claim: After the citric acid cycle, the remaining energy from glucose is held mainly in NADH and FADH2, not in carbon compounds.
+### #3423 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 1 pt
+Scenario: During moderate exercise, a person breathes out more CO2 than at rest.
+Claim: The extra CO2 comes mainly from faster pyruvate oxidation and citric acid cycle activity in the working muscles.
 **Key**: TRUE
-Explanation: All six carbons have left as CO2, which holds little usable energy; the energy has been transferred to reduced carriers (and a little ATP).
-Links line (answer side): The cycle completes oxidation · Cycle yield
+Explanation: Working muscle oxidizes more fuel; the CO2-releasing steps are pyruvate oxidation and the citric acid cycle.
+Links line (answer side): Source of exhaled CO2 · The cycle completes oxidation
 Concept tags claimed (each should be genuinely tested by this card):
+  - `m7_exhaled_co2`: p104: the CO2 we exhale comes from pyruvate oxidation and the citric acid cycle
   - `m7_cac_completes_oxidation`: p103: the citric acid cycle completes the oxidation of the fuel; its carbons leave as CO2
-  - `m7_cac_yield`: p106: per glucose the cycle makes 6 NADH, 2 FADH2 and 2 ATP (as GTP), plus 4 CO2
 
 ---
 
@@ -694,15 +691,14 @@ Scenario: Per glucose, the citric acid cycle yields 2 ATP (made as GTP).
 Claim: That ATP is made by ATP synthase, using a proton gradient across the inner membrane.
 **Key**: FALSE
 Explanation: The cycle's ATP (as GTP) is made by substrate-level phosphorylation, directly in one enzyme reaction.
-Links line (answer side): Substrate-level phosphorylation · Cycle yield
+Links line (answer side): Substrate-level phosphorylation
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_substrate_level`: p97: substrate-level phosphorylation makes a small amount of ATP directly in an enzyme reaction
-  - `m7_cac_yield`: p106: per glucose the cycle makes 6 NADH, 2 FADH2 and 2 ATP (as GTP), plus 4 CO2
 
 ---
 
-### #3425 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt · diagram `m7_pyruvate_fates` ("Where pyruvate can go"; image: work/gallery/m7_pyruvate_fates__light.png)
-Scenario: In cells, pyruvate is oxidized to acetyl-CoA only when O2 is present.
+### #3425 · TRUE/FALSE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt
+Scenario: In human cells, pyruvate is converted to acetyl-CoA mainly when O2 is available.
 Claim: This is because the pyruvate dehydrogenase complex uses O2 as a reactant when it oxidizes pyruvate.
 **Key**: FALSE
 Explanation: NAD+ is the oxidizing agent. O2 is needed indirectly: without it the ETC can't reoxidize NADH, so NAD+ runs out.
@@ -713,7 +709,7 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3712 · MULTIPLE CHOICE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt
+### #3712 · MULTIPLE CHOICE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt · diagram `m7_cac_cycle` ("The citric acid cycle's carbon skeletons"; image: work/gallery/m7_cac_cycle__light.png)
 Stem: Per glucose, how many CO2 are released between pyruvate and the end of the citric acid cycle?
 ① 2
 ② 4
@@ -730,15 +726,15 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3713 · MULTIPLE CHOICE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 1 pt
-Stem: Over many turns, the citric acid cycle oxidizes acetyl groups but its own carbon skeletons are not used up. Which molecule is the reusable acceptor that each acetyl group joins?
-① Pyruvate
-② Acetyl-CoA
-③ α-Ketoglutarate
-④ Oxaloacetate
-⑤ Coenzyme A
-**Key**: ④
-Explanation: Acetyl groups join oxaloacetate to form citrate, and oxaloacetate is regenerated at the end of the turn. Coenzyme A only delivers the acetyl group.
+### #3713 · MULTIPLE CHOICE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 1 pt · diagram `m7_cac_cycle` ("The citric acid cycle's carbon skeletons"; image: work/gallery/m7_cac_cycle__light.png)
+Stem: Over a long run, how many oxaloacetate molecules does the citric acid cycle use up, net, while oxidizing 100 acetyl-CoA?
+① 0
+② 1
+③ 50
+④ 100
+⑤ 200
+**Key**: ①
+Explanation: Each turn uses one oxaloacetate and regenerates one, so the net use is zero; that is what makes it a cycle.
 Links line (answer side): Oxaloacetate is regenerated
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_cac_cycle_regenerates`: p103: the citric acid cycle is a cycle because oxaloacetate, which accepts acetyl-CoA, is regenerated
@@ -746,14 +742,14 @@ Concept tags claimed (each should be genuinely tested by this card):
 ---
 
 ### #3714 · MULTIPLE CHOICE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt
-Stem: A high-fat (ketogenic) diet is the standard treatment for children who lack a working pyruvate dehydrogenase complex. Why does it help?
-① Fats supply NAD+, which restores the missing enzyme's activity
-② Fats are fermented to lactate, which then feeds the cycle
+Stem: A high-fat (ketogenic) diet is the standard treatment for children whose pyruvate dehydrogenase complex works poorly. Why does it help?
+① Fats supply NAD+, which restores the faulty enzyme's activity
+② Fatty acids are broken into acetyl-CoA, bypassing the faulty step
 ③ Fats are broken down into glucose, which then skips glycolysis entirely
-④ Fatty acids are broken into acetyl-CoA, bypassing the missing step
+④ Fats are fermented to lactate, which then feeds the cycle
 ⑤ Fats are converted to pyruvate, which the cells can then oxidize
-**Key**: ④
-Explanation: Beta-oxidation makes acetyl-CoA directly, so fat's carbons reach the citric acid cycle without going through pyruvate.
+**Key**: ②
+Explanation: Beta-oxidation turns fatty acids into acetyl-CoA (the liver sends much of it to the brain as ketone bodies), so fat's carbons reach the citric acid cycle without going through pyruvate.
 Links line (answer side): Pyruvate dehydrogenase complex · Beta-oxidation · Real-world: pyruvate dehydrogenase deficiency
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_pyruvate_oxidation_step`: p102: in the matrix, pyruvate is oxidized to CO2 and an acetyl group, which joins coenzyme A; NADH forms (pyruvate dehydrogenase complex)
@@ -761,19 +757,18 @@ Concept tags claimed (each should be genuinely tested by this card):
 
 ---
 
-### #3715 · MULTIPLE CHOICE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt
+### #3715 · MULTIPLE CHOICE · Module 7 · Pyruvate Oxidation & Citric Acid Cycle · 2 pt · diagram `m7_cell_compartments` ("A cell's cytosol and one mitochondrion"; image: work/gallery/m7_cell_compartments__light.png)
 Stem: A drug blocks the carrier protein that moves pyruvate across the inner mitochondrial membrane. What happens first?
-① Pyruvate builds up in the cytosol
-② Acetyl-CoA builds up in the matrix
-③ Glycolysis stops making pyruvate at all
-④ Oxaloacetate builds up in the cytosol
-⑤ Glycolysis starts releasing CO2
-**Key**: ①
-Explanation: Pyruvate is made in the cytosol but oxidized in the matrix; with the carrier blocked it piles up on the cytosol side, and less acetyl-CoA is made.
-Links line (answer side): Mitochondrial compartments · Pyruvate oxidation in the matrix · Membrane permeability
+① Acetyl-CoA builds up in the matrix
+② Glycolysis stops making pyruvate at all
+③ More NADH is made in the matrix
+④ Pyruvate builds up in the cytosol
+⑤ Pyruvate builds up in the mitochondrial matrix
+**Key**: ④
+Explanation: Pyruvate is made in the cytosol but oxidized in the matrix; with the carrier blocked it piles up on the cytosol side, and less acetyl-CoA and NADH are made in the matrix.
+Links line (answer side): Mitochondrial compartments · Pyruvate oxidation in the matrix
 Concept tags claimed (each should be genuinely tested by this card):
   - `m7_mito_compartments`: p102: mitochondria have an outer and inner membrane, an intermembrane space and a matrix
   - `m7_pyruvate_oxidation_step`: p102: in the matrix, pyruvate is oxidized to CO2 and an acetyl group, which joins coenzyme A; NADH forms (pyruvate dehydrogenase complex)
-  - `m3_membrane_permeability`: Module 3: the lipid bilayer blocks ions such as H+; they cross only through proteins
 
 ---
