@@ -313,9 +313,9 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Because the cell's route has many enzyme-catalyzed steps, its total ΔG is less negative than the flame's.",
+    "text": "In B, O2 accepts electrons at each small step of the staircase rather than all at once as in A.",
     "correct": false,
-    "explanation": "Enzymes change the path and the activation energy, never the overall ΔG between the same start and end."
+    "explanation": "Glucose's electrons go first to NAD+ and FAD; O2 takes them only at the very end of the electron transport chain."
    },
    {
     "label": "ㄴ",
@@ -325,9 +325,9 @@
    },
    {
     "label": "ㄷ",
-    "text": "Releasing the energy in small steps, as in B, lets the cell trap part of each step's energy in carriers and ATP instead of losing it all at once as heat.",
+    "text": "Releasing the energy in small steps, as in B, lets the cell trap much of it in carriers and ATP instead of losing it all at once as heat.",
     "correct": true,
-    "explanation": "Small steps release amounts that enzymes can couple to reducing NAD+ or making ATP, as (나) describes."
+    "explanation": "Small steps release amounts that enzymes can couple to reducing NAD+ or making ATP; the share that isn't trapped is still released as heat."
    }
   ],
   "choices": [
@@ -338,12 +338,12 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 3,
-  "links": "Energy is released in steps · Glucose is oxidized to CO2 · First law",
+  "links": "Energy is released in steps · O2 is the final electron acceptor · Electron carriers",
   "diagram": "m7_energy_staircase",
   "concepts": [
    "m7_stepwise_energy_release",
-   "m7_glucose_oxidized_o2_reduced",
-   "m6_first_law"
+   "m7_o2_final_acceptor",
+   "m7_carriers_nad_fad"
   ]
  },
  {
@@ -408,9 +408,9 @@
    },
    {
     "label": "ㄴ",
-    "text": "A poison that stopped the electron transport chain would shut down (가) just as quickly as it shuts down (나).",
+    "text": "A poison that stopped the electron transport chain would also halt (가) within seconds, because (가) depends on the proton gradient.",
     "correct": false,
-    "explanation": "(나) stops at once because the gradient collapses; (가) in glycolysis can keep going if fermentation regenerates NAD+."
+    "explanation": "(가) uses no gradient; glycolysis's substrate-level steps keep going if fermentation regenerates NAD+, while (나) stops at once."
    },
    {
     "label": "ㄷ",
@@ -465,10 +465,13 @@
     "right": "Fermentation"
    }
   ],
-  "explanation": "The four stages run glycolysis → pyruvate oxidation → citric acid cycle → oxidative phosphorylation; fermentation is the alternative fate of pyruvate when O2 is absent.",
-  "links": "Four stages of respiration · Fermentation",
+  "explanation": "Glycolysis splits glucose, pyruvate oxidation makes acetyl-CoA and CO2, the cycle regenerates oxaloacetate, oxidative phosphorylation ends at O2, and fermentation is pyruvate's fate when O2 is absent.",
+  "links": "Stages of respiration · Fermentation",
   "concepts": [
-   "m7_four_stages_order",
+   "m7_glycolysis_overview",
+   "m7_pyruvate_oxidation_step",
+   "m7_cac_cycle_regenerates",
+   "m7_o2_final_acceptor",
    "m7_fermentation_purpose"
   ]
  },
@@ -477,16 +480,17 @@
   "type": "tf",
   "mod": 7,
   "topic": "Overview of Cellular Respiration",
-  "points": 1,
-  "box": "The diagram shows a liver cell's cytosol and one of its mitochondria.",
-  "claim": "Pyruvate made in this cell has to cross both the outer and the inner membrane of the mitochondrion before it can be oxidized to acetyl-CoA.",
+  "points": 2,
+  "box": "A liver cell like the one in the diagram is given glucose whose carbons are all radioactive.",
+  "claim": "The first radioactive CO2 is made in the mitochondrial matrix, not in the cytosol where the glucose is first broken down.",
   "answer": true,
-  "explanation": "Glycolysis makes pyruvate in the cytosol, but pyruvate oxidation happens in the matrix, inside both membranes.",
-  "links": "Stage locations · Mitochondrial compartments",
+  "explanation": "Glycolysis in the cytosol releases no CO2; the first CO2 is released when pyruvate is oxidized to acetyl-CoA in the matrix.",
+  "links": "Stage locations · Source of CO2",
   "diagram": "m7_cell_compartments",
   "concepts": [
    "m7_stage_locations",
-   "m7_mito_compartments"
+   "m7_exhaled_co2",
+   "m7_pyruvate_oxidation_step"
   ]
  },
  {
@@ -498,7 +502,7 @@
   "box": "Respiration is often summarized as C6H12O6 + 6 O2 → 6 CO2 + 6 H2O.",
   "claim": "The six O2 molecules end up in the six CO2 molecules the cell releases.",
   "answer": false,
-  "explanation": "O2 is the final electron acceptor and is reduced to water. The oxygen in exhaled CO2 comes from glucose and water.",
+  "explanation": "O2 is the final electron acceptor and is reduced to water. The oxygen in exhaled CO2 comes from glucose and water: the equation is a net summary in which the 6 O2 are reduced to 12 H2O while 6 H2O are used up along the way.",
   "links": "O2 is reduced to H2O · Glucose is oxidized to CO2",
   "concepts": [
    "m7_glucose_oxidized_o2_reduced",
@@ -515,10 +519,10 @@
   "claim": "All three fuels feed the same final stage, oxidative phosphorylation, through reduced electron carriers.",
   "answer": true,
   "explanation": "Carbohydrates, fats and proteins all yield NADH and FADH2 on their way through respiration, and those carriers deliver electrons to the same electron transport chain.",
-  "links": "Respiration uses several fuels · Most ATP comes from oxidative phosphorylation",
+  "links": "Respiration uses several fuels · Electron carriers",
   "concepts": [
    "m7_respiration_fuels",
-   "m7_oxphos_most_atp"
+   "m7_carriers_nad_fad"
   ]
  },
  {
@@ -543,15 +547,14 @@
   "mod": 7,
   "topic": "Overview of Cellular Respiration",
   "points": 1,
-  "box": "The diagram compares burning glucose with oxidizing it inside a cell.",
-  "claim": "In panel B, all the energy released at each small step is captured as ATP, so the cell's route gives off no heat.",
-  "answer": false,
-  "explanation": "No energy transformation is 100% efficient: part of every step's energy is lost as heat, which is why we stay warm.",
-  "links": "Stepwise energy release · Second law",
-  "diagram": "m7_energy_staircase",
+  "box": "In the electron transport chain, NADH hands two electrons to complex I and becomes NAD+.",
+  "claim": "In this step NADH is oxidized and complex I is reduced.",
+  "answer": true,
+  "explanation": "NADH loses electrons (oxidation) and complex I gains them (reduction); complex I is then oxidized in turn as it passes them on to coenzyme Q.",
+  "links": "Oxidation is loss, reduction is gain · Electron carriers",
   "concepts": [
-   "m7_stepwise_energy_release",
-   "m6_second_law"
+   "m7_redox_definitions",
+   "m7_carriers_nad_fad"
   ]
  },
  {
@@ -560,16 +563,15 @@
   "mod": 7,
   "topic": "Overview of Cellular Respiration",
   "points": 2,
-  "box": "Complete oxidation of one glucose yields about 32 ATP; the table lists what the first three stages make.",
-  "claim": "If oxidative phosphorylation stopped, the cell would lose about seven-eighths of its ATP yield from each glucose.",
-  "answer": true,
-  "explanation": "About 28 of 32 ATP come from oxidative phosphorylation; only the 4 from substrate-level phosphorylation would remain.",
-  "links": "Most ATP comes from oxidative phosphorylation · ATP yield",
+  "box": "The table lists what the first three stages of respiration make from each glucose.",
+  "claim": "If a poison blocked the electron transport chain, the cell would still get the 4 ATP per glucose that the table lists for substrate-level phosphorylation.",
+  "answer": false,
+  "explanation": "With the chain blocked, NADH isn't reoxidized, so pyruvate oxidation and the cycle stop once their NAD+ runs out; only glycolysis's 2 ATP remain, and only if fermentation regenerates NAD+.",
+  "links": "Substrate-level phosphorylation · Carriers must be reoxidized",
   "diagram": "m7_yield_table",
   "concepts": [
-   "m7_oxphos_most_atp",
    "m7_substrate_level",
-   "m7_atp_yield_total"
+   "m7_carriers_nad_fad"
   ]
  },
  {
@@ -578,14 +580,13 @@
   "mod": 7,
   "topic": "Overview of Cellular Respiration",
   "points": 1,
-  "box": "In the citric acid cycle, most of the energy released by oxidizing acetyl groups goes into NADH and FADH2 rather than ATP.",
-  "claim": "This energy isn't lost: it is used later, when these carriers hand their electrons to the electron transport chain.",
+  "box": "A student lists the stages of aerobic respiration as: pyruvate oxidation, glycolysis, oxidative phosphorylation, citric acid cycle.",
+  "claim": "Swapping the first two stages and swapping the last two puts the list in the order that glucose's carbon and electrons pass through them.",
   "answer": true,
-  "explanation": "Reduced carriers have high potential energy; at the ETC their electrons drive proton pumping, which powers ATP synthase.",
-  "links": "Reduced carriers store energy · Oxidative phosphorylation",
+  "explanation": "The order is glycolysis, pyruvate oxidation, the citric acid cycle, then oxidative phosphorylation; both swaps fix the student's list.",
+  "links": "Order of the four stages",
   "concepts": [
-   "m7_carriers_nad_fad",
-   "m7_oxphos_most_atp"
+   "m7_four_stages_order"
   ]
  },
  {
@@ -594,13 +595,13 @@
   "mod": 7,
   "topic": "Overview of Cellular Respiration",
   "points": 1,
-  "stem": "Using the diagram, a cell is given radioactive glucose. In which compartment will radioactive pyruvate first appear?",
+  "stem": "A cell is given radioactive glucose. Using the diagram, where will radioactive pyruvate first appear?",
   "options": [
    "Cytosol",
    "Inner mitochondrial membrane",
-   "Mitochondrial matrix",
    "Outer mitochondrial membrane",
-   "Intermembrane space"
+   "Intermembrane space",
+   "Mitochondrial matrix"
   ],
   "answerIndex": 0,
   "explanation": "Glycolysis, which makes pyruvate, runs in the cytosol; pyruvate only later enters the matrix for oxidation.",
@@ -641,18 +642,17 @@
   "points": 2,
   "stem": "Why do cells pass glucose's electrons through NADH and a chain of carriers instead of straight to O2?",
   "options": [
-   "Because glucose's electrons must first be turned into protons",
-   "Because the carrier reactions need no enzymes to proceed",
-   "So the energy comes out in steps small enough to capture",
+   "Because O2 accepts electrons from NADH but not from glucose",
    "Because NADH holds more energy than the glucose it came from",
-   "Because O2 can't accept electrons at body temperature"
+   "Because small steps release energy in amounts cells can capture",
+   "Because carriers let the reactions run with no activation energy",
+   "Because a longer path releases more total energy from each glucose"
   ],
   "answerIndex": 2,
-  "explanation": "A single drop would release the energy as heat; stepwise transfers let the cell trap it in carriers, a gradient and ATP.",
-  "links": "Stepwise energy release · Electron carriers",
+  "explanation": "A single drop would release the energy as heat; stepwise transfers let the cell trap it in carriers, a gradient and ATP. The total released is the same by either path.",
+  "links": "Stepwise energy release",
   "concepts": [
-   "m7_stepwise_energy_release",
-   "m7_carriers_nad_fad"
+   "m7_stepwise_energy_release"
   ]
  },
  {
@@ -664,9 +664,9 @@
   "stem": "A carbon atom from glucose ends up in exhaled CO2. In which order could it pass through the stages of respiration?",
   "options": [
    "Glycolysis → pyruvate oxidation → citric acid cycle",
-   "Glycolysis → oxidative phosphorylation → citric acid cycle",
+   "Glycolysis → citric acid cycle → oxidative phosphorylation",
+   "Glycolysis → pyruvate oxidation → oxidative phosphorylation",
    "Pyruvate oxidation → glycolysis → citric acid cycle",
-   "Citric acid cycle → glycolysis → pyruvate oxidation",
    "Glycolysis → citric acid cycle → pyruvate oxidation"
   ],
   "answerIndex": 0,
@@ -689,15 +689,15 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Tumours in (나) show up brightest because more FDG enters their cells and is phosphorylated there, so more radioactivity builds up.",
+    "text": "Tumours in (나) show up as bright spots against the tissue around them, because more FDG enters their cells and is phosphorylated there.",
     "correct": true,
     "explanation": "More uptake through GLUT plus trapping by hexokinase means FDG 6-phosphate accumulates fastest in those cells."
    },
    {
     "label": "ㄴ",
-    "text": "FDG collects in cells because GLUT carriers move it inward only and can never carry it back out.",
+    "text": "FDG collects in cells because GLUT carriers move it into cells but not back out of them.",
     "correct": false,
-    "explanation": "GLUT carriers work by facilitated diffusion in either direction. FDG is held in the cell because FDG 6-phosphate is charged and no longer fits GLUT, as (가) explains."
+    "explanation": "GLUT carriers work by facilitated diffusion in either direction. FDG is held in the cell because FDG 6-phosphate is charged and no longer fits GLUT; (가) adds that glycolysis can't use it up either."
    },
    {
     "label": "ㄷ",
@@ -719,7 +719,6 @@
   "caseStudy": true,
   "concepts": [
    "m7_phosphorylation_traps_glucose",
-   "m7_glycolysis_phase1",
    "m3_facilitated_diffusion_glut"
   ]
  },
@@ -747,7 +746,7 @@
    },
    {
     "label": "ㄷ",
-    "text": "Steps 7 and 10 are substrate-level phosphorylation: an enzyme moves a phosphate from a sugar intermediate straight onto ADP.",
+    "text": "Steps 7 and 10 are substrate-level phosphorylation: an enzyme moves a phosphate from 1,3-bisphosphoglycerate or phosphoenolpyruvate straight onto ADP.",
     "correct": true,
     "explanation": "No membrane or gradient is involved; the phosphate is transferred within one enzyme reaction."
    }
@@ -776,7 +775,7 @@
   "topic": "Glycolysis",
   "points": 3,
   "title": "What fluoride does to mouth bacteria",
-  "stem": "Mouth bacteria such as Streptococcus mutans ferment sugars and release acid that dissolves tooth enamel. Using the diagram, which statements in <보기> are correct?",
+  "stem": "Mouth bacteria such as Streptococcus mutans ferment sugars and release acid that dissolves tooth enamel. Assume they run glycolysis exactly as in the diagram. Using the diagram, which statements in <보기> are correct?",
   "box": "<b>(가)</b> Fluoride from toothpaste inhibits enolase, step 9 in the diagram, inside these bacteria.<br><br><b>(나)</b> The acid these bacteria make is lactic acid, formed from pyruvate.",
   "statements": [
    {
@@ -789,7 +788,7 @@
     "label": "ㄴ",
     "text": "With enolase blocked, 2-phosphoglycerate would pile up and the bacteria would make less ATP from each glucose.",
     "correct": true,
-    "explanation": "Step 9's substrate accumulates, and step 10, which makes 2 ATP per glucose, is starved of phosphoenolpyruvate."
+    "explanation": "Step 9's substrate accumulates, and step 10, which makes 2 ATP per glucose, is starved of phosphoenolpyruvate; with no pyruvate to reduce to lactate, NAD+ isn't regenerated either, so even steps 6 and 7 soon stall."
    },
    {
     "label": "ㄷ",
@@ -806,12 +805,11 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 3,
-  "links": "Glycolysis payoff phase · Net yield · Lactic acid fermentation · Real-world: fluoride toothpaste",
+  "links": "Glycolysis payoff phase · Net yield · Real-world: fluoride toothpaste",
   "diagram": "m7_glycolysis_map",
   "concepts": [
    "m7_glycolysis_phase3",
-   "m7_glycolysis_net_yield",
-   "m7_lactic_acid_fermentation"
+   "m7_glycolysis_net_yield"
   ]
  },
  {
@@ -820,33 +818,33 @@
   "mod": 7,
   "topic": "Glycolysis",
   "points": 3,
-  "title": "Ten steps, five jobs",
-  "prompt": "Match each glycolysis step to what happens there.",
-  "leftLabel": "Step",
-  "rightLabel": "What happens",
+  "title": "Five reactions, five jobs",
+  "prompt": "Match each glycolysis reaction to what it achieves.",
+  "leftLabel": "Reaction",
+  "rightLabel": "What it achieves",
   "pairs": [
    {
-    "left": "Step 1 (hexokinase)",
-    "right": "A phosphate from ATP traps glucose inside the cell"
+    "left": "Glucose → glucose 6-phosphate",
+    "right": "A phosphate from ATP traps the sugar inside the cell"
    },
    {
-    "left": "Step 4",
+    "left": "Fructose 1,6-bisphosphate → G3P + DHAP",
     "right": "A six-carbon sugar is split into two three-carbon sugars"
    },
    {
-    "left": "Step 5",
-    "right": "DHAP is rearranged into a second G3P"
+    "left": "DHAP → G3P",
+    "right": "Lets both halves of glucose enter the payoff phase"
    },
    {
-    "left": "Step 6",
-    "right": "An electron carrier is reduced as G3P is oxidized"
+    "left": "G3P → 1,3-bisphosphoglycerate",
+    "right": "An electron carrier is reduced as the sugar is oxidized"
    },
    {
-    "left": "Step 10",
-    "right": "ATP is made as pyruvate forms"
+    "left": "Phosphoenolpyruvate → pyruvate",
+    "right": "ATP is made as the final product forms"
    }
   ],
-  "explanation": "Phase 1 (steps 1-3) invests ATP, phase 2 (steps 4-5) splits the sugar into two G3P, and phase 3 (steps 6-10) makes NADH and ATP.",
+  "explanation": "Phase 1 invests ATP to trap and destabilize the sugar, phase 2 splits it into two G3P, and phase 3 makes NADH and ATP.",
   "links": "Three phases of glycolysis",
   "concepts": [
    "m7_glycolysis_phase1",
@@ -893,10 +891,11 @@
   "topic": "Glycolysis",
   "points": 2,
   "box": "In phase 1, glucose gets two phosphate groups from ATP before it is split.",
-  "claim": "Spending 2 ATP in phase 1 is wasteful: a cell that skipped those steps would net more ATP from each glucose.",
+  "claim": "Spending 2 ATP in phase 1 is wasteful: a cell that split glucose without first phosphorylating it would net more ATP per glucose.",
   "answer": false,
-  "explanation": "The phosphates added in phase 1 trap glucose and destabilize it so it can be split; without them the payoff phase can't happen at all.",
+  "explanation": "The phosphates added in phase 1 trap glucose and destabilize it so it can be split; unphosphorylated glucose isn't split, and the payoff phase can't happen at all.",
   "links": "Glycolysis phase 1 · Phosphorylation traps and destabilizes glucose",
+  "diagram": "m7_glycolysis_map",
   "concepts": [
    "m7_glycolysis_phase1",
    "m7_phosphorylation_traps_glucose"
@@ -908,15 +907,14 @@
   "mod": 7,
   "topic": "Glycolysis",
   "points": 2,
-  "box": "In phase 2, fructose 1,6-bisphosphate is split between its carbons 3 and 4.",
-  "claim": "Each of the two products carries one of the phosphate groups added in phase 1.",
-  "answer": true,
-  "explanation": "Fructose 1,6-bisphosphate has a phosphate at each end (carbons 1 and 6), so splitting it in the middle gives two phosphorylated three-carbon sugars, G3P and DHAP.",
-  "links": "Glycolysis phase 2 · Phase 1 adds two phosphates",
-  "diagram": "m7_glycolysis_map",
+  "box": "Phosphofructokinase (step 3) adds a second phosphate before the six-carbon sugar is split in step 4.",
+  "claim": "If step 3 were skipped and fructose 6-phosphate could be split directly, both three-carbon products would still carry a phosphate.",
+  "answer": false,
+  "explanation": "Fructose 6-phosphate has only one phosphate, so only one of the two pieces would carry it; adding the second phosphate in step 3 is what lets both halves continue.",
+  "links": "Glycolysis phases 1 and 2",
   "concepts": [
-   "m7_glycolysis_phase2",
-   "m7_glycolysis_phase1"
+   "m7_glycolysis_phase1",
+   "m7_glycolysis_phase2"
   ]
  },
  {
@@ -924,15 +922,15 @@
   "type": "tf",
   "mod": 7,
   "topic": "Glycolysis",
-  "points": 1,
+  "points": 2,
   "box": "A mitochondrial disease leaves a patient's muscle mitochondria working poorly.",
-  "claim": "Because glycolysis happens in the cytosol, a cell whose mitochondria were damaged could still make some ATP from glucose.",
+  "claim": "After mild exercise, this patient's blood lactate would be expected to rise more than a healthy person's.",
   "answer": true,
-  "explanation": "Glycolysis runs in the cytosol and nets 2 ATP per glucose without any help from mitochondria.",
-  "links": "Glycolysis location · Glycolysis overview",
+  "explanation": "With oxidative phosphorylation impaired, muscle leans on glycolysis and regenerates NAD+ by reducing pyruvate to lactate.",
+  "links": "Glycolysis works without mitochondria · Lactic acid fermentation · Real-world: mitochondrial disease",
   "concepts": [
-   "m7_stage_locations",
-   "m7_glycolysis_overview"
+   "m7_lactic_acid_fermentation",
+   "m7_fermentation_purpose"
   ]
  },
  {
@@ -941,8 +939,8 @@
   "mod": 7,
   "topic": "Glycolysis",
   "points": 2,
-  "box": "Glucose units cut from muscle glycogen enter glycolysis already phosphorylated, as glucose 6-phosphate, without using ATP.",
-  "claim": "Glucose units from muscle glycogen therefore net 3 ATP in glycolysis instead of 2.",
+  "box": "Most glucose units cut from muscle glycogen are released as glucose 1-phosphate, which becomes glucose 6-phosphate without using ATP.",
+  "claim": "Each of these units therefore nets 3 ATP in glycolysis instead of 2.",
   "answer": true,
   "explanation": "Skipping step 1 saves the ATP that hexokinase would spend, so the tally becomes 4 made − 1 spent = 3.",
   "links": "Glycolysis net yield · Glycogen as stored glucose",
@@ -958,12 +956,11 @@
   "mod": 7,
   "topic": "Glycolysis",
   "points": 1,
-  "box": "Step 6 of glycolysis converts NAD+ to NADH.",
-  "claim": "If a cell ran out of NAD+, glycolysis would stop at step 6 even with plenty of glucose and ADP available.",
+  "box": "Step 6 of glycolysis converts G3P to 1,3-bisphosphoglycerate.",
+  "claim": "If a cell ran out of NAD+, G3P would build up, because step 6 needs NAD+ to accept G3P's electrons.",
   "answer": true,
-  "explanation": "Step 6 oxidizes G3P by passing electrons to NAD+; with no NAD+ to accept them, the pathway halts there.",
+  "explanation": "Step 6 oxidizes G3P by passing its electrons to NAD+; with no NAD+ to accept them, G3P can't be converted and accumulates.",
   "links": "Glycolysis phase 3 · NAD+ as electron acceptor",
-  "diagram": "m7_glycolysis_map",
   "concepts": [
    "m7_glycolysis_phase3",
    "m7_carriers_nad_fad"
@@ -981,7 +978,6 @@
   "explanation": "Glycolysis releases only a small share of the energy; most is still held in the two pyruvates and is released later in the mitochondria.",
   "links": "Glycolysis releases a small amount of energy · Stepwise release",
   "concepts": [
-   "m7_glycolysis_overview",
    "m7_stepwise_energy_release"
   ]
  },
@@ -1035,21 +1031,22 @@
   "type": "mc",
   "mod": 7,
   "topic": "Glycolysis",
-  "points": 1,
-  "stem": "Glycolysis is often called an 'invest, then collect' pathway. Which steps are the investment?",
+  "points": 2,
+  "stem": "Using the diagram, if step 4 of glycolysis were blocked, what would the net ATP yield per glucose be?",
   "options": [
-   "Steps 1 and 10, each moving a phosphate from ATP onto a sugar",
-   "Step 4, where splitting the six-carbon sugar uses up ATP",
-   "Steps 1 and 3, each moving a phosphate from ATP onto a sugar",
-   "Steps 7 and 10, each moving a phosphate from a sugar onto ADP",
-   "Step 6, where the energy of ATP is used to reduce NAD+"
+   "−2",
+   "−1",
+   "0",
+   "1",
+   "2"
   ],
-  "answerIndex": 2,
-  "explanation": "Phase 1 (hexokinase in step 1, phosphofructokinase in step 3) spends 2 ATP; steps 7 and 10 are the payoff.",
-  "links": "Glycolysis phase 1",
+  "answerIndex": 0,
+  "explanation": "Steps 1 and 3 have already spent 2 ATP before the split, and no ATP is made until step 7, so each glucose costs the cell 2 ATP.",
+  "links": "Glycolysis phases 1 and 2",
+  "diagram": "m7_glycolysis_map",
   "concepts": [
    "m7_glycolysis_phase1",
-   "m7_glycolysis_phase3"
+   "m7_glycolysis_phase2"
   ]
  },
  {
@@ -1062,16 +1059,15 @@
   "options": [
    "Matrix; to the ETC in the outer mitochondrial membrane",
    "Matrix; back to step 6 of glycolysis to be reused there",
+   "Cytosol; to the ETC in the inner mitochondrial membrane",
    "Intermembrane space; to ATP synthase in the inner membrane",
-   "Cytosol; straight to O2 dissolved in the cytosol",
-   "Cytosol; to the ETC in the inner mitochondrial membrane"
+   "Cytosol; straight to O2 dissolved in the cytosol"
   ],
-  "answerIndex": 4,
+  "answerIndex": 2,
   "explanation": "Glycolysis runs in the cytosol; with O2 present, NADH's electrons are ultimately passed to the ETC in the inner membrane.",
   "links": "Stage locations · ETC location",
   "concepts": [
    "m7_stage_locations",
-   "m7_glycolysis_phase3",
    "m7_etc_location_components"
   ]
  },
@@ -1083,14 +1079,14 @@
   "points": 1,
   "stem": "Glycolysis is thought to be one of the oldest metabolic pathways. Which of its features best fits an origin before Earth's air held much O2?",
   "options": [
-   "It uses O2 as the final acceptor for its electrons",
-   "It runs in the cytosol and consumes no O2",
-   "It releases CO2 as its main waste product",
-   "It makes most of a cell's ATP from each glucose",
-   "It needs the folded inner membrane of mitochondria"
+   "It has ten enzyme-catalyzed steps",
+   "It splits a six-carbon sugar into two three-carbon molecules",
+   "It spends 2 ATP before it makes any",
+   "It makes NADH as well as ATP",
+   "It runs in the cytosol and consumes no O2"
   ],
-  "answerIndex": 1,
-  "explanation": "Glycolysis needs no O2 and no organelle, so it could run in the earliest cells; the other features are false or belong to later stages.",
+  "answerIndex": 4,
+  "explanation": "All five are true of glycolysis, but only needing no O2 (and no organelle) fits a world with little O2.",
   "links": "Glycolysis needs no O2 · Location",
   "concepts": [
    "m7_glycolysis_no_o2",
@@ -1109,21 +1105,21 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Blood lactate rises because pyruvate that can't be converted to acetyl-CoA is reduced to lactate instead.",
+    "text": "Because of (가), blood lactate rises: pyruvate that can't be converted to acetyl-CoA is reduced to lactate instead.",
     "correct": true,
-    "explanation": "With the pyruvate dehydrogenase complex slowed (가), pyruvate piles up in the cytosol and is diverted to lactate."
+    "explanation": "With the pyruvate dehydrogenase complex slowed, pyruvate piles up in the cytosol and is diverted to lactate."
    },
    {
     "label": "ㄴ",
-    "text": "The brain in (나) suffers because, with pyruvate oxidation slowed, each glucose yields closer to glycolysis's 2 ATP than to about 32.",
+    "text": "The brain in (나) suffers because each glucose whose pyruvate becomes lactate yields only glycolysis's 2 ATP instead of about 32.",
     "correct": true,
     "explanation": "Without acetyl-CoA from pyruvate, the citric acid cycle and oxidative phosphorylation can't extract most of glucose's energy."
    },
    {
     "label": "ㄷ",
-    "text": "Without thiamine, the cell releases less CO2 from glycolysis.",
+    "text": "Giving these patients extra glucose without thiamine would restore the brain's ATP supply, since more glucose means more pyruvate.",
     "correct": false,
-    "explanation": "Glycolysis releases no CO2 at all; the CO2 that falls is from pyruvate oxidation and the citric acid cycle."
+    "explanation": "Without TPP the extra pyruvate still can't become acetyl-CoA and mostly becomes lactate, which is why thiamine is given before or with glucose to at-risk patients."
    }
   ],
   "choices": [
@@ -1161,7 +1157,7 @@
    },
    {
     "label": "ㄴ",
-    "text": "Because each turn releases two CO2, new oxaloacetate must be supplied from outside the cycle for every acetyl-CoA.",
+    "text": "Because each turn releases two CO2, the oxaloacetate pool shrinks by one molecule each time an acetyl-CoA enters.",
     "correct": false,
     "explanation": "The two carbons lost balance the two that entered, and oxaloacetate is regenerated at the end of each turn."
    },
@@ -1196,7 +1192,7 @@
   "points": 3,
   "title": "Borrowing from the cycle",
   "stem": "Using the diagram, which statements in <보기> are correct?",
-  "box": "<b>(가)</b> Cells draw α-ketoglutarate out of the cycle to make the amino acid glutamate.<br><br><b>(나)</b> Unless something else tops the cycle up, oxaloacetate levels then fall.",
+  "box": "<b>(가)</b> Cells draw α-ketoglutarate out of the cycle to make the amino acid glutamate.<br><br><b>(나)</b> In these cells, oxaloacetate levels then fall.",
   "statements": [
    {
     "label": "ㄱ",
@@ -1239,26 +1235,26 @@
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
   "points": 2,
   "title": "Where your breath comes from",
-  "stem": "Read (가) and (나). Which statements in <보기> are correct?",
-  "box": "<b>(가)</b> A resting adult breathes out roughly 1 kg of CO2 a day.<br><br><b>(나)</b> In a breath test, a volunteer drinks glucose labelled with carbon-13 in all six carbons.",
+  "stem": "Breath tests follow labelled carbon from a swallowed fuel into exhaled CO2. Read (가) and (나). Which statements in <보기> are correct?",
+  "box": "<b>(가)</b> Fatty acids are cut into acetyl-CoA by beta-oxidation.<br><br><b>(나)</b> In one test, a volunteer drinks glucose labelled with carbon-13 in all six carbons.",
   "statements": [
    {
     "label": "ㄱ",
     "text": "The carbon-13 will appear in exhaled CO2, released during pyruvate oxidation and the citric acid cycle.",
     "correct": true,
-    "explanation": "Those two stages release glucose's carbons as CO2 (2 + 4 per glucose), which the blood carries to the lungs."
+    "explanation": "Those two stages release glucose's carbons as CO2, which the blood carries to the lungs."
    },
    {
     "label": "ㄴ",
-    "text": "The oxygen atoms in exhaled CO2 come from the O2 breathed in, which combines directly with glucose's carbons.",
+    "text": "If the volunteer drank carbon-13-labelled fatty acids instead, the label would stay out of exhaled CO2, because fatty acids bypass glycolysis and pyruvate oxidation.",
     "correct": false,
-    "explanation": "O2 is reduced to water at the end of the electron transport chain; the oxygen in CO2 comes from glucose and water."
+    "explanation": "Their acetyl-CoA (가) is oxidized in the citric acid cycle, which releases the label as CO2."
    },
    {
     "label": "ㄷ",
-    "text": "Labelled CO2 would still appear in breath if every mitochondrion were blocked, because glycolysis releases CO2 too.",
+    "text": "Of the six labelled carbons in each glucose, four leave as CO2 in pyruvate oxidation and two in the citric acid cycle.",
     "correct": false,
-    "explanation": "Glycolysis releases no CO2; all of respiration's CO2 comes from the mitochondrial stages."
+    "explanation": "It is the other way round: pyruvate oxidation releases 2 (one per pyruvate) and the cycle releases 4 (two per turn, two turns)."
    }
   ],
   "choices": [
@@ -1269,11 +1265,11 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 0,
-  "links": "Source of exhaled CO2 · Glucose is oxidized · Real-world: carbon-13 breath tests",
+  "links": "Source of exhaled CO2 · Beta-oxidation feeds the cycle · CO2 per stage · Real-world: carbon-13 breath tests",
   "concepts": [
    "m7_exhaled_co2",
-   "m7_glucose_oxidized_o2_reduced",
-   "m7_cac_completes_oxidation"
+   "m7_beta_oxidation",
+   "m7_pyruvate_oxidation_totals"
   ]
  },
  {
@@ -1287,6 +1283,10 @@
   "leftLabel": "Event",
   "rightLabel": "Place",
   "pairs": [
+   {
+    "left": "Glucose enters the cell through GLUT carriers",
+    "right": "Plasma membrane"
+   },
    {
     "left": "Glucose is split into two pyruvate",
     "right": "Cytosol"
@@ -1302,13 +1302,9 @@
    {
     "left": "Pumped protons accumulate",
     "right": "Intermembrane space"
-   },
-   {
-    "left": "Small molecules pass freely through large channels (porins)",
-    "right": "Outer mitochondrial membrane"
    }
   ],
-  "explanation": "Glycolysis runs in the cytosol; pyruvate oxidation and the cycle in the matrix; the ETC and ATP synthase sit in the inner membrane and pump H+ into the intermembrane space; the outer membrane is the leaky one.",
+  "explanation": "Glycolysis runs in the cytosol; pyruvate oxidation and the cycle in the matrix; the ETC in the inner membrane pumps H+ into the intermembrane space, and ATP synthase, also in the inner membrane, lets it flow back into the matrix.",
   "links": "Mitochondrial compartments · Stage locations",
   "diagram": "m7_cell_compartments",
   "concepts": [
@@ -1322,7 +1318,7 @@
   "type": "match",
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
-  "points": 4,
+  "points": 3,
   "title": "Who does what",
   "prompt": "Match each molecule or enzyme to its role in pyruvate oxidation and the citric acid cycle.",
   "leftLabel": "Molecule or enzyme",
@@ -1346,14 +1342,10 @@
    },
    {
     "left": "α-Ketoglutarate",
-    "right": "Can be drawn off to make amino acids and purine bases"
-   },
-   {
-    "left": "GTP",
-    "right": "Made in the cycle by substrate-level phosphorylation"
+    "right": "Can be drawn off to make the amino acid glutamate"
    }
   ],
-  "explanation": "Each of these has a distinct job: carrier, regenerated acceptor, electron carrier, the converting enzyme, a biosynthetic branch point and the cycle's one substrate-level product.",
+  "explanation": "Each of these has a distinct job: carrier, regenerated acceptor, electron carrier, the converting enzyme and a biosynthetic branch point.",
   "links": "Pyruvate oxidation · Cycle intermediates · Electron carriers",
   "concepts": [
    "m7_pyruvate_oxidation_step",
@@ -1368,14 +1360,14 @@
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
   "points": 1,
-  "box": "Pyruvate has three carbons; the acetyl group of acetyl-CoA has two.",
-  "claim": "Converting one pyruvate to acetyl-CoA releases one CO2 and reduces one NAD+.",
+  "box": "In the matrix, pyruvate gives up CO2 and two electrons (with an H+) as it becomes an acetyl group, and NAD+ becomes NADH.",
+  "claim": "In this step pyruvate is oxidized and NAD+ is reduced.",
   "answer": true,
-  "explanation": "The carboxyl carbon leaves as CO2, the remaining two-carbon acetyl group joins coenzyme A, and the oxidation reduces NAD+ to NADH.",
-  "links": "Pyruvate oxidation",
-  "diagram": "m7_pyruvate_fates",
+  "explanation": "Pyruvate loses electrons as it becomes CO2 and an acetyl group (oxidation); NAD+ gains them, becoming NADH (reduction).",
+  "links": "Pyruvate oxidation · Redox",
   "concepts": [
-   "m7_pyruvate_oxidation_step"
+   "m7_pyruvate_oxidation_step",
+   "m7_redox_definitions"
   ]
  },
  {
@@ -1384,11 +1376,12 @@
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
   "points": 2,
-  "box": "A cell completely oxidizes 3 glucose molecules.",
+  "box": "A cell completely oxidizes 3 glucose molecules; the table lists what each glucose gives.",
   "claim": "Pyruvate oxidation in this cell produces 6 acetyl-CoA, 6 NADH and 6 CO2.",
   "answer": true,
   "explanation": "Each glucose gives 2 pyruvate, and each pyruvate gives 1 acetyl-CoA, 1 NADH and 1 CO2: 3 × 2 = 6 of each.",
   "links": "Pyruvate oxidation totals",
+  "diagram": "m7_yield_table",
   "concepts": [
    "m7_pyruvate_oxidation_totals"
   ]
@@ -1402,7 +1395,7 @@
   "box": "In the matrix, the citric acid cycle oxidizes each acetyl group to 2 CO2.",
   "claim": "The cycle captures most of that energy as ATP, with only a small share going to NADH and FADH2.",
   "answer": false,
-  "explanation": "Per glucose the cycle makes just 2 ATP (as GTP) but 6 NADH and 2 FADH2; most of the energy goes into the carriers.",
+  "explanation": "Per glucose the cycle makes just 2 ATP (as GTP) but 6 NADH and 2 FADH2; most of the energy goes into the carriers, while the carbons leave as CO2.",
   "links": "Citric acid cycle yield · Electron carriers",
   "concepts": [
    "m7_cac_yield",
@@ -1419,10 +1412,11 @@
   "claim": "They will consume O2 rapidly, since glucose can fuel all four stages.",
   "answer": false,
   "explanation": "Glycolysis happens in the cytosol, so isolated mitochondria can't use glucose; they need pyruvate (or another mitochondrial fuel) to make NADH and use O2.",
-  "links": "Stage locations · Pyruvate oxidation in the matrix",
+  "links": "Stage locations · Mitochondrial compartments",
+  "diagram": "m7_cell_compartments",
   "concepts": [
    "m7_stage_locations",
-   "m7_pyruvate_oxidation_step"
+   "m7_mito_compartments"
   ]
  },
  {
@@ -1430,12 +1424,13 @@
   "type": "tf",
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
-  "points": 1,
-  "box": "The citric acid cycle is also called the Krebs cycle or the tricarboxylic acid (TCA) cycle.",
-  "claim": "Because oxaloacetate is used in the first step and remade in the last, a small amount of it can process many acetyl groups.",
+  "points": 2,
+  "box": "In 1930s experiments, adding a small amount of a four-carbon cycle intermediate to minced pigeon breast muscle raised its O2 use far more than oxidizing that intermediate alone could explain.",
+  "claim": "This fits the cycle remaking oxaloacetate every turn, so a small amount of it can process many acetyl groups.",
   "answer": true,
-  "explanation": "The cycle regenerates its starting acceptor each turn, so oxaloacetate works like a reusable carrier.",
-  "links": "Oxaloacetate is regenerated",
+  "explanation": "The added intermediate is recycled turn after turn rather than used up, so it keeps acetyl groups flowing into the cycle.",
+  "links": "Oxaloacetate is regenerated · Real-world: Krebs's pigeon muscle experiments",
+  "diagram": "m7_cac_cycle",
   "concepts": [
    "m7_cac_cycle_regenerates"
   ]
@@ -1445,15 +1440,15 @@
   "type": "tf",
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
-  "points": 2,
-  "box": "By the end of the citric acid cycle, all six carbons of the original glucose have been released as CO2.",
-  "claim": "After the citric acid cycle, the remaining energy from glucose is held mainly in NADH and FADH2, not in carbon compounds.",
+  "points": 1,
+  "box": "During moderate exercise, a person breathes out more CO2 than at rest.",
+  "claim": "The extra CO2 comes mainly from faster pyruvate oxidation and citric acid cycle activity in the working muscles.",
   "answer": true,
-  "explanation": "All six carbons have left as CO2, which holds little usable energy; the energy has been transferred to reduced carriers (and a little ATP).",
-  "links": "The cycle completes oxidation · Cycle yield",
+  "explanation": "Working muscle oxidizes more fuel; the CO2-releasing steps are pyruvate oxidation and the citric acid cycle.",
+  "links": "Source of exhaled CO2 · The cycle completes oxidation",
   "concepts": [
-   "m7_cac_completes_oxidation",
-   "m7_cac_yield"
+   "m7_exhaled_co2",
+   "m7_cac_completes_oxidation"
   ]
  },
  {
@@ -1466,10 +1461,9 @@
   "claim": "That ATP is made by ATP synthase, using a proton gradient across the inner membrane.",
   "answer": false,
   "explanation": "The cycle's ATP (as GTP) is made by substrate-level phosphorylation, directly in one enzyme reaction.",
-  "links": "Substrate-level phosphorylation · Cycle yield",
+  "links": "Substrate-level phosphorylation",
   "concepts": [
-   "m7_substrate_level",
-   "m7_cac_yield"
+   "m7_substrate_level"
   ]
  },
  {
@@ -1478,12 +1472,11 @@
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
   "points": 2,
-  "box": "In cells, pyruvate is oxidized to acetyl-CoA only when O2 is present.",
+  "box": "In human cells, pyruvate is converted to acetyl-CoA mainly when O2 is available.",
   "claim": "This is because the pyruvate dehydrogenase complex uses O2 as a reactant when it oxidizes pyruvate.",
   "answer": false,
   "explanation": "NAD+ is the oxidizing agent. O2 is needed indirectly: without it the ETC can't reoxidize NADH, so NAD+ runs out.",
   "links": "Pyruvate oxidation · O2 as the final acceptor",
-  "diagram": "m7_pyruvate_fates",
   "concepts": [
    "m7_pyruvate_oxidation_step",
    "m7_o2_final_acceptor"
@@ -1506,6 +1499,7 @@
   "answerIndex": 2,
   "explanation": "Pyruvate oxidation releases 2 (one per pyruvate) and the cycle releases 4 (two per turn, two turns): 6 in all, accounting for every carbon of glucose.",
   "links": "Pyruvate oxidation totals · Cycle yield · Exhaled CO2",
+  "diagram": "m7_cac_cycle",
   "concepts": [
    "m7_pyruvate_oxidation_totals",
    "m7_cac_yield",
@@ -1518,17 +1512,18 @@
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
   "points": 1,
-  "stem": "Over many turns, the citric acid cycle oxidizes acetyl groups but its own carbon skeletons are not used up. Which molecule is the reusable acceptor that each acetyl group joins?",
+  "stem": "Over a long run, how many oxaloacetate molecules does the citric acid cycle use up, net, while oxidizing 100 acetyl-CoA?",
   "options": [
-   "Pyruvate",
-   "Acetyl-CoA",
-   "α-Ketoglutarate",
-   "Oxaloacetate",
-   "Coenzyme A"
+   "0",
+   "1",
+   "50",
+   "100",
+   "200"
   ],
-  "answerIndex": 3,
-  "explanation": "Acetyl groups join oxaloacetate to form citrate, and oxaloacetate is regenerated at the end of the turn. Coenzyme A only delivers the acetyl group.",
+  "answerIndex": 0,
+  "explanation": "Each turn uses one oxaloacetate and regenerates one, so the net use is zero; that is what makes it a cycle.",
   "links": "Oxaloacetate is regenerated",
+  "diagram": "m7_cac_cycle",
   "concepts": [
    "m7_cac_cycle_regenerates"
   ]
@@ -1539,16 +1534,16 @@
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
   "points": 2,
-  "stem": "A high-fat (ketogenic) diet is the standard treatment for children who lack a working pyruvate dehydrogenase complex. Why does it help?",
+  "stem": "A high-fat (ketogenic) diet is the standard treatment for children whose pyruvate dehydrogenase complex works poorly. Why does it help?",
   "options": [
-   "Fats supply NAD+, which restores the missing enzyme's activity",
-   "Fats are fermented to lactate, which then feeds the cycle",
+   "Fats supply NAD+, which restores the faulty enzyme's activity",
+   "Fatty acids are broken into acetyl-CoA, bypassing the faulty step",
    "Fats are broken down into glucose, which then skips glycolysis entirely",
-   "Fatty acids are broken into acetyl-CoA, bypassing the missing step",
+   "Fats are fermented to lactate, which then feeds the cycle",
    "Fats are converted to pyruvate, which the cells can then oxidize"
   ],
-  "answerIndex": 3,
-  "explanation": "Beta-oxidation makes acetyl-CoA directly, so fat's carbons reach the citric acid cycle without going through pyruvate.",
+  "answerIndex": 1,
+  "explanation": "Beta-oxidation turns fatty acids into acetyl-CoA (the liver sends much of it to the brain as ketone bodies), so fat's carbons reach the citric acid cycle without going through pyruvate.",
   "links": "Pyruvate dehydrogenase complex · Beta-oxidation · Real-world: pyruvate dehydrogenase deficiency",
   "concepts": [
    "m7_pyruvate_oxidation_step",
@@ -1563,19 +1558,19 @@
   "points": 2,
   "stem": "A drug blocks the carrier protein that moves pyruvate across the inner mitochondrial membrane. What happens first?",
   "options": [
-   "Pyruvate builds up in the cytosol",
    "Acetyl-CoA builds up in the matrix",
    "Glycolysis stops making pyruvate at all",
-   "Oxaloacetate builds up in the cytosol",
-   "Glycolysis starts releasing CO2"
+   "More NADH is made in the matrix",
+   "Pyruvate builds up in the cytosol",
+   "Pyruvate builds up in the mitochondrial matrix"
   ],
-  "answerIndex": 0,
-  "explanation": "Pyruvate is made in the cytosol but oxidized in the matrix; with the carrier blocked it piles up on the cytosol side, and less acetyl-CoA is made.",
-  "links": "Mitochondrial compartments · Pyruvate oxidation in the matrix · Membrane permeability",
+  "answerIndex": 3,
+  "explanation": "Pyruvate is made in the cytosol but oxidized in the matrix; with the carrier blocked it piles up on the cytosol side, and less acetyl-CoA and NADH are made in the matrix.",
+  "links": "Mitochondrial compartments · Pyruvate oxidation in the matrix",
+  "diagram": "m7_cell_compartments",
   "concepts": [
    "m7_mito_compartments",
-   "m7_pyruvate_oxidation_step",
-   "m3_membrane_permeability"
+   "m7_pyruvate_oxidation_step"
   ]
  },
  {
@@ -1590,9 +1585,9 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "DNP works by blocking the electron transport chain, which is why ATP output falls.",
+    "text": "With DNP, the mitochondria make more ATP for each O2 they use, since electrons flow faster.",
     "correct": false,
-    "explanation": "O2 use rises with DNP, so electron transport is running faster, not blocked; ATP falls because H+ bypasses ATP synthase."
+    "explanation": "In the diagram ATP made falls to 35 while O2 use rises to 180, so ATP per O2 drops to about a fifth of the untreated value."
    },
    {
     "label": "ㄴ",
@@ -1602,9 +1597,9 @@
    },
    {
     "label": "ㄷ",
-    "text": "The weight loss in (나) happens because cells oxidize more fuel in an attempt to make up for the ATP they fail to make.",
+    "text": "A DNP user who ate enough extra food to cover the extra fuel burned would stop losing weight but would still overheat.",
     "correct": true,
-    "explanation": "With each NADH giving little ATP, the cell burns more fat and sugar (and uses more O2) to meet its ATP needs."
+    "explanation": "The heat comes from uncoupled fuel oxidation (가), whatever the energy balance; eating more only replaces the fat in (나)."
    }
   ],
   "choices": [
@@ -1648,19 +1643,19 @@
    },
    {
     "label": "ㄷ",
-    "text": "Oligomycin slows O2 use because it binds O2 itself, leaving less for complex IV.",
+    "text": "Between minutes 6 and 8, when O2 is used fastest, the mitochondria are also making ATP fastest.",
     "correct": false,
-    "explanation": "Oligomycin blocks ATP synthase (가); H+ can't flow back, the gradient builds up, and electron transport slows as a result."
+    "explanation": "Oligomycin still blocks ATP synthase (가), and DNP lets H+ bypass it, so almost no ATP is made while O2 use races."
    }
   ],
   "choices": [
+   "ㄱ",
    "ㄷ",
    "ㄱ, ㄴ",
-   "ㄱ, ㄷ",
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 1,
+  "answerIndex": 2,
   "links": "Chemiosmotic coupling · O2 is the final acceptor · ATP synthase",
   "diagram": "m7_o2_trace",
   "concepts": [
@@ -1675,21 +1670,21 @@
   "mod": 7,
   "topic": "Oxidative Phosphorylation",
   "points": 3,
-  "title": "Two doors into the chain",
+  "title": "Rotenone and succinate",
   "stem": "Using the diagram, which statements in <보기> are correct?",
-  "box": "<b>(가)</b> Rotenone, a plant toxin once used to kill fish, blocks complex I.<br><br><b>(나)</b> Succinate, a citric acid cycle intermediate, is oxidized at complex II, which reduces FAD to FADH2.",
+  "box": "<b>(가)</b> Rotenone, a plant toxin used to kill unwanted fish in lakes, blocks complex I.<br><br><b>(나)</b> Succinate, a citric acid cycle intermediate, is oxidized at complex II, which reduces FAD to FADH2.",
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Rotenone would also stop FADH2 from passing electrons to complex II.",
-    "correct": false,
-    "explanation": "Complex II is a separate entry point; rotenone acts only at complex I."
+    "text": "Rotenone-poisoned mitochondria given only pyruvate soon stop using O2, even though complex II still works.",
+    "correct": true,
+    "explanation": "NADH can't be reoxidized at complex I, so NAD+ runs out and the citric acid cycle, which feeds complex II, stops too."
    },
    {
     "label": "ㄴ",
-    "text": "Electrons from FADH2 drive as many protons across the membrane as electrons from NADH, since both end up on O2.",
+    "text": "Since complex II pumps no H+, rotenone-poisoned mitochondria given succinate make no ATP at all.",
     "correct": false,
-    "explanation": "FADH2's electrons skip complex I, one of the three proton-pumping complexes, so fewer H+ are pumped and less ATP is made."
+    "explanation": "Electrons from complex II still pass through complexes III and IV, which pump H+, so ATP is still made, just less."
    },
    {
     "label": "ㄷ",
@@ -1705,8 +1700,8 @@
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 0,
-  "links": "FADH2 enters at complex II · Proton pumping by I, III and IV · ETC components",
+  "answerIndex": 2,
+  "links": "FADH2 enters at complex II · Proton pumping by I, III and IV · ETC components · Real-world: rotenone",
   "diagram": "m7_etc_membrane",
   "concepts": [
    "m7_fadh2_enters_complex_ii",
@@ -1726,32 +1721,32 @@
   "statements": [
    {
     "label": "ㄱ",
+    "text": "Given ADP and Pi instead of ATP, the isolated F1 parts in (나) would spin the other way and make ATP.",
+    "correct": false,
+    "explanation": "With no Fo and no H+ gradient, nothing drives the rotor; isolated F1 can only split ATP, not make it."
+   },
+   {
+    "label": "ㄴ",
     "text": "In (나), the isolated F1 ran in reverse, using ATP hydrolysis to turn the rotor.",
     "correct": true,
     "explanation": "With no membrane or gradient, F1 can only split ATP; that hydrolysis drives the rotation the researchers saw."
    },
    {
-    "label": "ㄴ",
+    "label": "ㄷ",
     "text": "In mitochondria, H+ flowing through Fo from the intermembrane space into the matrix turns the rotor, and F1 uses that rotation to join ADP and Pi.",
     "correct": true,
     "explanation": "H+ flows down its gradient through Fo; the rotation changes the shape of F1's catalytic sites, which make ATP."
-   },
-   {
-    "label": "ㄷ",
-    "text": "In a respiring mitochondrion, ATP synthase spends the H+ gradient rather than building it; the complexes of the ETC build it.",
-    "correct": true,
-    "explanation": "Complexes I, III and IV pump H+ out of the matrix; ATP synthase lets H+ flow back in and captures that energy as ATP."
    }
   ],
   "choices": [
-   "ㄱ",
-   "ㄴ",
+   "ㄷ",
    "ㄱ, ㄴ",
    "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 4,
-  "links": "ATP synthase is a rotary machine · Proton gradient",
+  "answerIndex": 3,
+  "links": "ATP synthase is a rotary machine · Proton gradient · Real-world: watching single ATP synthase molecules",
   "concepts": [
    "m7_atp_synthase",
    "m7_proton_gradient"
@@ -1762,37 +1757,38 @@
   "type": "match",
   "mod": 7,
   "topic": "Oxidative Phosphorylation",
-  "points": 3,
-  "title": "Poisons of the power plant",
-  "prompt": "Match each poison to where it acts in oxidative phosphorylation.",
-  "leftLabel": "Poison",
-  "rightLabel": "Target",
+  "points": 4,
+  "title": "Diagnosing a poison",
+  "prompt": "Match each poison's observed effect on isolated mitochondria to where it acts.",
+  "leftLabel": "Observed effect",
+  "rightLabel": "Site of action",
   "pairs": [
    {
-    "left": "Rotenone",
+    "left": "Stops O2 use with NADH-linked fuels, but adding succinate restores it",
     "right": "Complex I"
    },
    {
-    "left": "Antimycin A",
+    "left": "Stops O2 use with every fuel, and cytochrome c stays oxidized",
     "right": "Complex III"
    },
    {
-    "left": "Carbon monoxide",
-    "right": "Complex IV, competing with O2"
+    "left": "Competes with O2 at the chain's last step",
+    "right": "Complex IV"
    },
    {
-    "left": "Oligomycin",
-    "right": "The proton channel (Fo) of ATP synthase"
+    "left": "Stops ATP synthesis and slows O2 use, but DNP restores O2 use",
+    "right": "The Fo channel of ATP synthase"
    },
    {
-    "left": "DNP",
-    "right": "No protein: it ferries H+ across the bilayer, bypassing ATP synthase"
+    "left": "Speeds O2 use while ATP synthesis falls",
+    "right": "No protein: it carries H+ across the bilayer"
    }
   ],
-  "explanation": "Rotenone, antimycin A and carbon monoxide block electron flow at complexes I, III and IV; oligomycin blocks H+ flow through ATP synthase; DNP uncouples by carrying H+ through the membrane itself.",
-  "links": "ETC components · ATP synthase · Chemiosmotic coupling",
+  "explanation": "These are rotenone (complex I), antimycin A (complex III), carbon monoxide (complex IV), oligomycin (Fo) and DNP (an uncoupler). Where a block sits decides which fuels still work and whether DNP can restore O2 use.",
+  "links": "ETC components · FADH2 enters at complex II · ATP synthase · Chemiosmotic coupling · Real-world: mitochondrial poisons",
   "concepts": [
    "m7_etc_location_components",
+   "m7_fadh2_enters_complex_ii",
    "m7_atp_synthase",
    "m7_chemiosmotic_coupling"
   ]
@@ -1802,44 +1798,40 @@
   "type": "match",
   "mod": 7,
   "topic": "Oxidative Phosphorylation",
-  "points": 4,
-  "title": "Along the chain",
-  "prompt": "Match each component to its job in oxidative phosphorylation.",
-  "leftLabel": "Component",
-  "rightLabel": "Job",
+  "points": 3,
+  "title": "If one part were missing",
+  "prompt": "Match each missing or blocked component to what happens in respiring mitochondria.",
+  "leftLabel": "Missing or blocked",
+  "rightLabel": "What happens",
   "pairs": [
    {
-    "left": "NADH",
-    "right": "Donates electrons to complex I"
-   },
-   {
-    "left": "FADH2",
-    "right": "Donates electrons to complex II"
-   },
-   {
     "left": "Coenzyme Q",
-    "right": "Carries electrons within the membrane to complex III"
+    "right": "Neither complex I nor complex II can pass electrons on"
    },
    {
     "left": "Cytochrome c",
-    "right": "Carries electrons along the intermembrane-space side to complex IV"
+    "right": "Complex III stays loaded with electrons, but complex IV gets none"
    },
    {
     "left": "O2",
-    "right": "Accepts electrons at complex IV and becomes water"
+    "right": "Every carrier in the chain stays reduced"
    },
    {
-    "left": "Fo subunit",
-    "right": "A channel that rotates as H+ flows through it"
+    "left": "The Fo channel of ATP synthase",
+    "right": "H+ piles up in the intermembrane space and electron flow slows"
+   },
+   {
+    "left": "Complex II",
+    "right": "Succinate can't be oxidized, but NADH's electrons still reach O2"
    }
   ],
-  "explanation": "Electrons enter from NADH (complex I) or FADH2 (complex II), are carried by Q and cytochrome c, and end on O2; the H+ gradient they build turns ATP synthase's Fo rotor.",
-  "links": "ETC components · FADH2 at complex II · O2 the final acceptor",
+  "explanation": "Q collects electrons from complexes I and II, cytochrome c links III to IV, O2 is the final acceptor, and Fo is the only path back for H+, so each gap stops the chain at a different place.",
+  "links": "ETC components · FADH2 at complex II · O2 the final acceptor · Chemiosmotic coupling",
   "concepts": [
    "m7_etc_location_components",
    "m7_fadh2_enters_complex_ii",
    "m7_o2_final_acceptor",
-   "m7_atp_synthase"
+   "m7_chemiosmotic_coupling"
   ]
  },
  {
@@ -1865,10 +1857,10 @@
   "topic": "Oxidative Phosphorylation",
   "points": 2,
   "box": "Besides blocking O2 transport by hemoglobin, carbon monoxide binds complex IV in place of O2.",
-  "claim": "In these cells NADH builds up, because electrons back up behind the block and the chain can't accept more from NADH.",
+  "claim": "In cells where CO occupies complex IV, NADH builds up, because electrons back up behind the block and the chain accepts fewer of them from NADH.",
   "answer": true,
-  "explanation": "With complex IV blocked, every carrier upstream stays reduced; NADH can't hand off its electrons, so NAD+ runs short.",
-  "links": "O2 the final acceptor · ETC components · Electron carriers",
+  "explanation": "With complex IV blocked, carriers upstream stay reduced; NADH can't hand off its electrons as fast, so NAD+ runs short.",
+  "links": "O2 the final acceptor · ETC components · Electron carriers · Real-world: carbon monoxide poisoning",
   "concepts": [
    "m7_o2_final_acceptor",
    "m7_etc_location_components",
@@ -1882,10 +1874,11 @@
   "topic": "Oxidative Phosphorylation",
   "points": 2,
   "box": "A toxin makes the inner mitochondrial membrane leaky to H+.",
-  "claim": "Electron transport would stop, since there would no longer be a gradient for it to work against.",
+  "claim": "Electron transport would stop, since the H+ it pumps would leak straight back and no gradient could build.",
   "answer": false,
   "explanation": "Without a gradient to push against, pumping becomes easier and electron transport speeds up, as with DNP; ATP synthesis is what fails.",
   "links": "Proton gradient · Proton pumping",
+  "diagram": "m7_etc_membrane",
   "concepts": [
    "m7_proton_gradient",
    "m7_proton_pumping"
@@ -1896,11 +1889,11 @@
   "type": "tf",
   "mod": 7,
   "topic": "Oxidative Phosphorylation",
-  "points": 1,
-  "box": "Complexes I, III and IV pump H+ as electrons pass through them.",
-  "claim": "These complexes move H+ from the intermembrane space into the matrix, so the matrix becomes the more acidic side.",
-  "answer": false,
-  "explanation": "They pump H+ out of the matrix into the intermembrane space, which becomes the high-H+ (more acidic) side.",
+  "points": 2,
+  "box": "Inside-out vesicles made from inner mitochondrial membrane have their matrix face on the outside.",
+  "claim": "Given NADH, these vesicles make the surrounding solution less acidic.",
+  "answer": true,
+  "explanation": "The complexes pump H+ away from the matrix face, which is now outside, into the vesicles, so H+ falls outside and the pH rises.",
   "links": "Proton pumping · Gradient direction",
   "diagram": "m7_etc_membrane",
   "concepts": [
@@ -1915,9 +1908,9 @@
   "topic": "Oxidative Phosphorylation",
   "points": 2,
   "box": "Textbook estimates: each NADH yields about 2.5 ATP and each FADH2 about 1.5 ATP by oxidative phosphorylation.",
-  "claim": "FADH2 yields less ATP because its electrons enter at complex II, so they skip the H+ pumping at complex I.",
+  "claim": "A mutant complex I that still passed electrons to Q but pumped no H+ would cut NADH's yield to about that of FADH2.",
   "answer": true,
-  "explanation": "Fewer protons pumped per electron pair means less flow through ATP synthase and so less ATP.",
+  "explanation": "The 1-ATP gap between NADH and FADH2 comes from complex I's pumping; without it, NADH's electrons drive pumping only at complexes III and IV, as FADH2's do.",
   "links": "FADH2 enters at complex II · Proton pumping",
   "diagram": "m7_etc_membrane",
   "concepts": [
@@ -1932,12 +1925,13 @@
   "topic": "Oxidative Phosphorylation",
   "points": 2,
   "box": "Per glucose, about 10 NADH and 2 FADH2 reach the electron transport chain. Use 2.5 ATP per NADH and 1.5 per FADH2.",
-  "claim": "With these numbers, oxidative phosphorylation makes about 28 ATP per glucose.",
+  "claim": "With these numbers, oxidative phosphorylation makes about 28 ATP per glucose, about seven times as many as substrate-level phosphorylation.",
   "answer": true,
-  "explanation": "10 × 2.5 + 2 × 1.5 = 25 + 3 = 28 ATP, which with 4 from substrate-level phosphorylation gives about 32.",
-  "links": "ATP yield",
+  "explanation": "10 × 2.5 + 2 × 1.5 = 25 + 3 = 28 ATP, against 4 from substrate-level phosphorylation (2 in glycolysis, 2 in the cycle): 28 / 4 = 7.",
+  "links": "ATP yield · Most ATP comes from oxidative phosphorylation",
   "concepts": [
-   "m7_atp_yield_total"
+   "m7_atp_yield_total",
+   "m7_oxphos_most_atp"
   ]
  },
  {
@@ -1947,9 +1941,9 @@
   "topic": "Oxidative Phosphorylation",
   "points": 1,
   "box": "Complete oxidation of one glucose yields about 32 ATP.",
-  "claim": "Roughly half of them come from substrate-level phosphorylation.",
+  "claim": "The citric acid cycle makes more of these ATP by substrate-level phosphorylation than glycolysis does.",
   "answer": false,
-  "explanation": "Only 4 (2 in glycolysis, 2 in the cycle) are substrate-level; about 28 come from oxidative phosphorylation.",
+  "explanation": "Per glucose the cycle makes 2 ATP (as GTP); glycolysis makes 4 (2 net). The rest, about 28, come from oxidative phosphorylation.",
   "links": "ATP yield · Substrate-level phosphorylation",
   "concepts": [
    "m7_atp_yield_total",
@@ -1961,15 +1955,15 @@
   "type": "tf",
   "mod": 7,
   "topic": "Oxidative Phosphorylation",
-  "points": 1,
-  "box": "At complex IV, each O2 gains 4 electrons and 4 H+.",
-  "claim": "So the water a person makes by respiration contains oxygen atoms that came from the air they breathed in.",
+  "points": 2,
+  "box": "At complex IV, each O2 gains 4 electrons and 4 H+, forming 2 H2O.",
+  "claim": "The 10 NADH and 2 FADH2 made from one glucose carry exactly enough electrons to reduce the 6 O2 that respiration uses per glucose.",
   "answer": true,
-  "explanation": "O2 from the air is the final electron acceptor and is reduced to H2O at complex IV.",
-  "links": "O2 is the final acceptor · O2 is reduced to water",
+  "explanation": "Each carrier brings 2 electrons: 12 × 2 = 24, and 6 O2 × 4 electrons = 24.",
+  "links": "O2 is the final acceptor · Electron carriers",
   "concepts": [
    "m7_o2_final_acceptor",
-   "m7_glucose_oxidized_o2_reduced"
+   "m7_carriers_nad_fad"
   ]
  },
  {
@@ -1979,9 +1973,9 @@
   "topic": "Oxidative Phosphorylation",
   "points": 1,
   "box": "Electrons lose energy at each step as they pass from NADH to O2.",
-  "claim": "The energy released by these redox steps is used directly by ATP synthase to join ADP and Pi, with no intermediate.",
+  "claim": "ATP synthase gets its energy from electrons that complex IV hands on to it.",
   "answer": false,
-  "explanation": "The energy first pumps H+ to build a gradient; ATP synthase then uses the gradient. The gradient is the link.",
+  "explanation": "The electrons' energy first pumps H+ to build a gradient; ATP synthase then uses the gradient. The gradient is the link.",
   "links": "Chemiosmotic coupling",
   "concepts": [
    "m7_chemiosmotic_coupling"
@@ -1994,9 +1988,9 @@
   "topic": "Oxidative Phosphorylation",
   "points": 2,
   "box": "Oligomycin blocks the proton channel of ATP synthase.",
-  "claim": "O2 use slows after oligomycin is added, even though oligomycin never touches the electron transport chain.",
-  "answer": true,
-  "explanation": "With ATP synthase blocked, H+ can't flow back, the gradient becomes steep, and pumping, and so electron flow to O2, slows.",
+  "claim": "Adding extra ADP at minute 5 would make O2 use speed up again, as it did at minute 2.",
+  "answer": false,
+  "explanation": "Oligomycin blocks Fo, so H+ can't flow back through ATP synthase however much ADP is present; the gradient stays steep and keeps holding electron transport back.",
   "links": "Chemiosmotic coupling · ATP synthase",
   "diagram": "m7_o2_trace",
   "concepts": [
@@ -2009,19 +2003,18 @@
   "type": "mc",
   "mod": 7,
   "topic": "Oxidative Phosphorylation",
-  "points": 1,
-  "stem": "Using the diagram, which component would a drug have to block to stop electrons from FADH2 but not those from NADH?",
+  "points": 2,
+  "stem": "A drug stops O2 use by mitochondria given succinate but not by mitochondria given NADH-linked fuel. Where does it most likely act?",
   "options": [
+   "Complex III",
+   "Complex I",
    "Complex IV",
    "Complex II",
-   "Cytochrome c",
-   "Complex III",
-   "Complex I"
+   "Cytochrome c"
   ],
-  "answerIndex": 1,
-  "explanation": "FADH2's electrons enter at complex II and join NADH's route at Q; blocking III, IV or cytochrome c would stop both, and blocking I would stop only NADH's.",
+  "answerIndex": 3,
+  "explanation": "Succinate's electrons enter at complex II (as FADH2) and join NADH's route at Q; blocking III, IV or cytochrome c would stop both fuels, and blocking I would stop only NADH-linked fuel.",
   "links": "FADH2 enters at complex II · ETC components",
-  "diagram": "m7_etc_membrane",
   "concepts": [
    "m7_fadh2_enters_complex_ii",
    "m7_etc_location_components"
@@ -2032,21 +2025,21 @@
   "type": "mc",
   "mod": 7,
   "topic": "Oxidative Phosphorylation",
-  "points": 1,
-  "stem": "A cell fully oxidizes 2 glucose molecules, making about 32 ATP from each. How many of those ATP come from oxidative phosphorylation?",
+  "points": 2,
+  "stem": "In some muscle and brain cells, the 2 NADH from glycolysis pass their electrons into the mitochondria as 2 FADH2 instead. Using 2.5 ATP per NADH and 1.5 per FADH2, about how many ATP does each glucose yield in total?",
   "options": [
-   "8",
+   "26",
    "28",
-   "56",
-   "60",
-   "64"
+   "30",
+   "32",
+   "34"
   ],
   "answerIndex": 2,
-  "explanation": "About 28 of the 32 ATP per glucose come from oxidative phosphorylation, so 2 × 28 = 56; the other 8 are substrate-level.",
-  "links": "ATP yield",
+  "explanation": "8 NADH × 2.5 = 20 and 4 FADH2 × 1.5 = 6 from oxidative phosphorylation, plus 4 by substrate-level phosphorylation: 30.",
+  "links": "ATP yield · FADH2 enters at complex II",
   "concepts": [
    "m7_atp_yield_total",
-   "m7_oxphos_most_atp"
+   "m7_fadh2_enters_complex_ii"
   ]
  },
  {
@@ -2057,14 +2050,14 @@
   "points": 2,
   "stem": "In the trace, why does O2 use jump after DNP is added, even though oligomycin is still present?",
   "options": [
+   "DNP lets H+ back into the matrix, so the chain can pump freely again",
    "DNP makes ATP synthase pump H+ outward, so the gradient grows",
    "DNP supplies extra electrons to complex I, so more reach O2",
-   "DNP lets H+ back into the matrix, so the chain can pump freely again",
    "DNP replaces O2 as the final acceptor, so the chain speeds up",
-   "DNP pulls oligomycin off ATP synthase, so that ATP synthesis restarts"
+   "DNP lets H+ through ATP synthase despite oligomycin, so ATP synthesis restarts"
   ],
-  "answerIndex": 2,
-  "explanation": "Oligomycin still blocks ATP synthase, but DNP gives H+ another way back; the gradient falls and electron transport, no longer held back, speeds up.",
+  "answerIndex": 0,
+  "explanation": "Oligomycin still blocks ATP synthase, but DNP gives H+ another way back across the bilayer; the gradient falls and electron transport, no longer held back, speeds up.",
   "links": "Chemiosmotic coupling · Proton gradient",
   "diagram": "m7_o2_trace",
   "concepts": [
@@ -2077,20 +2070,21 @@
   "type": "mc",
   "mod": 7,
   "topic": "Oxidative Phosphorylation",
-  "points": 1,
-  "stem": "What directly turns the rotor of ATP synthase in a respiring mitochondrion?",
+  "points": 2,
+  "stem": "Brown fat's UCP1 and the drug DNP both make mitochondria release energy as heat. How do they differ?",
   "options": [
-   "NADH binding to the rotor",
-   "Electrons flowing through Fo from complex IV",
-   "ATP being split by the F1 part",
-   "O2 binding to the F1 part",
-   "H+ flowing down its gradient through Fo"
+   "UCP1 pumps H+ out, while DNP pumps H+ into the matrix",
+   "UCP1 is a protein the body controls; DNP crosses the bilayer itself",
+   "UCP1 blocks complex IV, while DNP blocks the Fo channel",
+   "UCP1 makes ATP faster, while DNP makes only heat",
+   "UCP1 works in the cytosol, while DNP works in the matrix"
   ],
-  "answerIndex": 4,
-  "explanation": "The Fo channel rotates as protons pass through it into the matrix; F1 uses the rotation to make ATP. Splitting ATP turns it only when the machine runs in reverse.",
-  "links": "ATP synthase",
+  "answerIndex": 1,
+  "explanation": "Both let H+ back into the matrix without passing through ATP synthase; UCP1 is a regulated channel protein in the inner membrane, while DNP ferries H+ through the lipid bilayer.",
+  "links": "Chemiosmotic coupling · Proton gradient · Real-world: brown fat and DNP",
   "concepts": [
-   "m7_atp_synthase"
+   "m7_chemiosmotic_coupling",
+   "m7_proton_gradient"
   ]
  },
  {
@@ -2101,14 +2095,14 @@
   "points": 2,
   "stem": "Which observation best shows that electron transport and ATP synthesis are linked by a gradient, not by direct contact?",
   "options": [
-   "A leaky inner membrane stops ATP synthesis but not electron transport",
    "Mitochondria use more O2 when they are given more fuel",
    "Blocking complex IV stops both electron transport and ATP synthesis at once",
+   "An imposed H+ gradient drives ATP synthesis with no electron transport",
    "ATP synthase and complex I sit in the very same membrane",
    "Cells without O2 make their ATP only by glycolysis"
   ],
-  "answerIndex": 0,
-  "explanation": "Only a gradient explains why destroying it uncouples the two: the chain keeps running, but ATP synthase loses its power source.",
+  "answerIndex": 2,
+  "explanation": "Membrane vesicles with ATP synthase but no working chain make ATP when given an artificial H+ gradient, so the gradient alone is enough to power the synthase.",
   "links": "Chemiosmotic coupling · Proton gradient",
   "concepts": [
    "m7_chemiosmotic_coupling",
@@ -2123,14 +2117,14 @@
   "points": 2,
   "stem": "No step of the citric acid cycle uses O2, yet the cycle stops within minutes when O2 runs out. Why?",
   "options": [
-   "Oxaloacetate can no longer be regenerated at the end of each turn",
+   "Glycolysis stops without O2, so no pyruvate reaches the cycle",
    "Acetyl groups can't be carried from the cytosol into the matrix",
-   "The ETC can't reoxidize NADH and FADH2, so NAD+ and FAD run out",
    "GDP can't be phosphorylated, so the cycle loses its energy input",
-   "There is no source for the carbon in the CO2 the cycle releases"
+   "There is no source for the carbon in the CO2 the cycle releases",
+   "The ETC can't reoxidize NADH and FADH2, so NAD+ and FAD run out"
   ],
-  "answerIndex": 2,
-  "explanation": "The cycle needs NAD+ and FAD as electron acceptors; only the ETC, ending at O2, turns NADH and FADH2 back into them.",
+  "answerIndex": 4,
+  "explanation": "The cycle needs NAD+ and FAD as electron acceptors; only the ETC, ending at O2, turns NADH and FADH2 back into them. Glycolysis itself needs no O2.",
   "links": "O2 the final acceptor · Electron carriers",
   "concepts": [
    "m7_o2_final_acceptor",
@@ -2149,21 +2143,21 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "The two cells make different end products for the same reason: reducing pyruvate or acetaldehyde regenerates the NAD+ that glycolysis needs.",
+    "text": "Both cells make their end products for the same reason: to regenerate the NAD+ that glycolysis needs.",
     "correct": true,
     "explanation": "Fermentation's job is to turn the NADH from (가) back into NAD+, so glycolysis, the only ATP source, can continue."
    },
    {
     "label": "ㄴ",
-    "text": "Both the dough and the muscle release CO2 as they ferment, since both start from pyruvate.",
-    "correct": false,
-    "explanation": "Only ethanol fermentation removes a carbon as CO2; lactic acid fermentation reduces pyruvate directly, so the muscle releases none."
-   },
-   {
-    "label": "ㄷ",
     "text": "With air, as in (나), the yeast release more CO2 per glucose than when they ferment.",
     "correct": true,
     "explanation": "Aerobic respiration releases all 6 carbons as CO2; ethanol fermentation releases only 2."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Both the dough and the muscle release CO2 as they ferment, since both start from pyruvate.",
+    "correct": false,
+    "explanation": "Only ethanol fermentation removes a carbon as CO2; lactic acid fermentation reduces pyruvate directly, so the fermentation itself releases none."
    }
   ],
   "choices": [
@@ -2173,7 +2167,7 @@
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 2,
+  "answerIndex": 1,
   "links": "Fermentation regenerates NAD+ · Ethanol vs lactic acid fermentation · Real-world: bread and sprinting",
   "diagram": "m7_dough_sprint",
   "caseStudy": true,
@@ -2191,7 +2185,7 @@
   "points": 3,
   "title": "Fish that survive the winter without O2",
   "stem": "Read (가) and (나). Which statements in <보기> are correct?",
-  "box": "<b>(가)</b> Crucian carp and goldfish can survive months without O2 in frozen ponds by turning glucose into ethanol and releasing it through their gills.<br><br><b>(나)</b> In most vertebrates, muscle working without O2 makes lactate, which builds up in the body.",
+  "box": "<b>(가)</b> Crucian carp and goldfish can survive days to months without O2 under the ice of frozen-over ponds by turning glucose into ethanol and releasing it through their gills.<br><br><b>(나)</b> In most vertebrates, muscle working without O2 makes lactate, which builds up in the body.",
   "statements": [
    {
     "label": "ㄱ",
@@ -2201,15 +2195,15 @@
    },
    {
     "label": "ㄴ",
-    "text": "Making ethanol lets the fish get rid of fermentation's end product, whereas lactate would build up and acidify the body as in (나).",
-    "correct": true,
-    "explanation": "Ethanol diffuses out across the gills; lactic acid stays in the body, so a months-long fermentation would be fatal."
+    "text": "Since the fish release their fermentation product as ethanol, none of glucose's carbon leaves them as CO2.",
+    "correct": false,
+    "explanation": "Ethanol fermentation removes one carbon from each pyruvate as CO2 before NADH reduces acetaldehyde to ethanol: 2 CO2 per glucose."
    },
    {
     "label": "ㄷ",
-    "text": "Each glucose they ferment releases two CO2, one as each pyruvate becomes acetaldehyde.",
+    "text": "Making ethanol lets the fish get rid of fermentation's end product, whereas lactate would build up and acidify the body as in (나).",
     "correct": true,
-    "explanation": "Ethanol fermentation removes one carbon from each pyruvate as CO2 before NADH reduces acetaldehyde to ethanol."
+    "explanation": "Ethanol diffuses out across the gills; lactic acid stays in the body, so a long fermentation would be fatal."
    }
   ],
   "choices": [
@@ -2219,8 +2213,8 @@
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 3,
-  "links": "Ethanol fermentation · Fermentation yield · Lactic acid fermentation · Real-world: goldfish under ice",
+  "answerIndex": 0,
+  "links": "Ethanol fermentation · Fermentation yield · Lactic acid fermentation · Real-world: crucian carp and goldfish under ice",
   "concepts": [
    "m7_ethanol_fermentation",
    "m7_fermentation_yield",
@@ -2245,13 +2239,13 @@
    },
    {
     "label": "ㄴ",
-    "text": "(나) fits the yields: fermentation gives 2 ATP per glucose versus about 32 with O2, so far more glucose is needed for the same ATP.",
+    "text": "Fermentation's far lower ATP yield per glucose explains (나).",
     "correct": true,
     "explanation": "At 2 instead of about 32 ATP per glucose, the cells must use roughly 16 times as much glucose to make the same amount of ATP."
    },
    {
     "label": "ㄷ",
-    "text": "Without O2, the cells stop producing NADH, since NADH is made only in the mitochondria.",
+    "text": "Without O2, the cells stop producing NADH, since NADH is made only by pyruvate oxidation and the citric acid cycle in the mitochondria.",
     "correct": false,
     "explanation": "Glycolysis in the cytosol keeps reducing NAD+ to NADH; fermentation then reoxidizes it."
    }
@@ -2264,11 +2258,11 @@
    "ㄴ, ㄷ"
   ],
   "answerIndex": 0,
-  "links": "Fermentation yield · Fermentation regenerates NAD+ · O2 the final acceptor",
+  "links": "Fermentation yield · O2 the final acceptor · Glycolysis makes NADH in the cytosol",
   "concepts": [
    "m7_fermentation_yield",
-   "m7_fermentation_purpose",
-   "m7_o2_final_acceptor"
+   "m7_o2_final_acceptor",
+   "m7_stage_locations"
   ]
  },
  {
@@ -2322,8 +2316,7 @@
   "claim": "These bacteria regenerate NAD+ by passing NADH's electrons to pyruvate.",
   "answer": true,
   "explanation": "In lactic acid fermentation, NADH reduces pyruvate to lactate, and the NAD+ formed goes back to glycolysis.",
-  "links": "Lactic acid fermentation · Fermentation regenerates NAD+",
-  "diagram": "m7_pyruvate_fates",
+  "links": "Lactic acid fermentation · Fermentation regenerates NAD+ · Real-world: yogurt",
   "concepts": [
    "m7_lactic_acid_fermentation",
    "m7_fermentation_purpose"
@@ -2335,11 +2328,11 @@
   "mod": 7,
   "topic": "Anaerobic Conditions & Fermentation",
   "points": 1,
-  "box": "Wine yeast in a sealed tank ferment the sugar in grape juice.",
-  "claim": "Each glucose the yeast ferment gives 2 ethanol, 2 CO2 and a net 2 ATP.",
-  "answer": true,
-  "explanation": "Glycolysis gives 2 pyruvate and nets 2 ATP; each pyruvate loses one CO2 and becomes one ethanol.",
-  "links": "Ethanol fermentation · Fermentation yield",
+  "box": "Wine yeast ferment the sugar in grape juice in a tank closed to air.",
+  "claim": "The yeast's net 2 ATP per glucose are made in the step that releases CO2.",
+  "answer": false,
+  "explanation": "The ATP comes from glycolysis; converting pyruvate to acetaldehyde (which releases CO2) and then to ethanol makes none.",
+  "links": "Ethanol fermentation · Fermentation yield · Real-world: winemaking",
   "concepts": [
    "m7_ethanol_fermentation",
    "m7_fermentation_yield"
@@ -2355,7 +2348,7 @@
   "claim": "Fermentation powers the sprint because it makes more ATP per glucose than aerobic respiration.",
   "answer": false,
   "explanation": "Fermentation makes only 2 ATP per glucose; it helps because glycolysis can run very fast without waiting for O2.",
-  "links": "Fermentation yield",
+  "links": "Fermentation yield · Real-world: sprinting",
   "concepts": [
    "m7_fermentation_yield"
   ]
@@ -2369,11 +2362,10 @@
   "box": "The steps after pyruvate in fermentation make no ATP of their own.",
   "claim": "A cell without O2 could skip the fermentation steps and still keep glycolysis running.",
   "answer": false,
-  "explanation": "Without fermentation, NADH would pile up and NAD+ would run out, stopping glycolysis at step 6.",
+  "explanation": "Without fermentation, NADH would pile up and NAD+ would run out, stopping glycolysis.",
   "links": "Fermentation regenerates NAD+",
   "concepts": [
-   "m7_fermentation_purpose",
-   "m7_glycolysis_phase3"
+   "m7_fermentation_purpose"
   ]
  },
  {
@@ -2381,14 +2373,15 @@
   "type": "tf",
   "mod": 7,
   "topic": "Anaerobic Conditions & Fermentation",
-  "points": 1,
+  "points": 2,
   "box": "Bottle-conditioned beer gets its fizz when yeast ferment a little extra sugar after the bottle is sealed.",
-  "claim": "The bubbles come from the step that converts pyruvate to acetaldehyde.",
-  "answer": true,
-  "explanation": "In ethanol fermentation, pyruvate loses one carbon as CO2 when it becomes acetaldehyde; trapped in the bottle, it carbonates the beer.",
-  "links": "Ethanol fermentation",
+  "claim": "The CO2 that carbonates the beer is released in the same step that regenerates NAD+.",
+  "answer": false,
+  "explanation": "CO2 leaves when pyruvate becomes acetaldehyde; NAD+ is regenerated in the next step, when NADH reduces acetaldehyde to ethanol.",
+  "links": "Ethanol fermentation · Real-world: bottle-conditioned beer",
   "concepts": [
-   "m7_ethanol_fermentation"
+   "m7_ethanol_fermentation",
+   "m7_fermentation_purpose"
   ]
  },
  {
@@ -2398,10 +2391,10 @@
   "topic": "Anaerobic Conditions & Fermentation",
   "points": 2,
   "box": "Lactate made by sprinting muscle is carried by the blood to other organs.",
-  "claim": "Because lactate is fermentation's end product, it holds none of glucose's remaining energy and can never be used as fuel again.",
+  "claim": "This lactate is of little use as fuel, since fermentation has already released most of glucose's energy.",
   "answer": false,
-  "explanation": "Fermentation extracts only 2 ATP per glucose, so lactate still holds most of the energy; it can be oxidized back to pyruvate and used, for example by the liver or heart.",
-  "links": "Fermentation yield · Lactic acid fermentation",
+  "explanation": "Fermentation releases only about 7% of glucose's free energy, so the two lactates keep over 90%; the heart can oxidize lactate, and the liver can turn it back into glucose.",
+  "links": "Fermentation yield · Lactic acid fermentation · Real-world: lactate after exercise",
   "concepts": [
    "m7_fermentation_yield",
    "m7_lactic_acid_fermentation"
@@ -2412,21 +2405,21 @@
   "type": "mc",
   "mod": 7,
   "topic": "Anaerobic Conditions & Fermentation",
-  "points": 1,
-  "stem": "Why must cells regenerate NAD+ when O2 is absent?",
+  "points": 2,
+  "stem": "A yeast mutant lacks the enzyme that turns pyruvate into acetaldehyde. Grown without O2, it soon stops making ATP. Why?",
   "options": [
-   "NAD+ is needed to split fructose 1,6-bisphosphate",
-   "NAD+ carries pyruvate into the mitochondria",
-   "NAD+ is converted into ATP when O2 runs out",
-   "Glycolysis needs NAD+ at step 6, or it stops",
-   "NAD+ is the final acceptor of the electron transport chain"
+   "NADH from glycolysis can't be reoxidized, so glycolysis halts",
+   "Acetaldehyde is the molecule that adds phosphate to ADP",
+   "Ethanol is needed to keep the yeast's membranes intact",
+   "Pyruvate must reach the mitochondria to make any ATP",
+   "Without CO2 release, glycolysis loses its energy source"
   ],
-  "answerIndex": 3,
-  "explanation": "Step 6 oxidizes G3P by passing electrons to NAD+; fermentation reoxidizes NADH so this step, and glycolysis's ATP, continue.",
-  "links": "Fermentation regenerates NAD+",
+  "answerIndex": 0,
+  "explanation": "Ethanol fermentation makes no ATP itself; its job is to reoxidize NADH. Blocking it leaves NAD+ unregenerated, so glycolysis, the only ATP source without O2, stops.",
+  "links": "Fermentation regenerates NAD+ · Ethanol fermentation",
   "concepts": [
    "m7_fermentation_purpose",
-   "m7_glycolysis_phase3"
+   "m7_ethanol_fermentation"
   ]
  },
  {
@@ -2439,11 +2432,11 @@
   "options": [
    "2 lactate, 2 ATP and 2 CO2",
    "2 ethanol, 2 ATP and 2 CO2",
+   "2 lactate and 2 ATP",
    "2 lactate and about 32 ATP",
-   "2 pyruvate, 2 ATP and 2 NADH",
-   "2 lactate and 2 ATP"
+   "2 pyruvate, 2 ATP and 2 NADH"
   ],
-  "answerIndex": 4,
+  "answerIndex": 2,
   "explanation": "Glycolysis nets 2 ATP and 2 NADH; reducing the 2 pyruvate to 2 lactate uses up the NADH and releases no CO2.",
   "links": "Lactic acid fermentation · Fermentation yield",
   "concepts": [
@@ -2460,14 +2453,14 @@
   "stem": "Which of these releases CO2 as it ferments glucose?",
   "options": [
    "Bacteria turning milk into yogurt",
-   "Baker's yeast in rising bread dough",
    "Tumour cells in an oxygen-poor core",
    "Human leg muscle during an all-out sprint",
+   "Rice seeds germinating under floodwater",
    "Bacteria fermenting sugar on teeth"
   ],
-  "answerIndex": 1,
-  "explanation": "Yeast carry out ethanol fermentation, which releases CO2 as pyruvate becomes acetaldehyde. The others carry out lactic acid fermentation, which releases none.",
-  "links": "Ethanol vs lactic acid fermentation",
+  "answerIndex": 3,
+  "explanation": "Plant cells short of O2 carry out ethanol fermentation, like yeast, releasing CO2 as pyruvate becomes acetaldehyde; the others make lactic acid and release none.",
+  "links": "Ethanol vs lactic acid fermentation · Real-world: rice under floodwater",
   "concepts": [
    "m7_ethanol_fermentation",
    "m7_lactic_acid_fermentation"
@@ -2478,20 +2471,21 @@
   "type": "mc",
   "mod": 7,
   "topic": "Anaerobic Conditions & Fermentation",
-  "points": 1,
-  "stem": "A yeast cell with no O2 needs to make 64 ATP. How many glucose molecules must it ferment?",
+  "points": 2,
+  "stem": "A yeast cell with no O2 makes 64 ATP by fermentation. How many CO2 does it release?",
   "options": [
    "2",
-   "4",
-   "16",
+   "12",
    "32",
-   "64"
+   "64",
+   "128"
   ],
   "answerIndex": 3,
-  "explanation": "Fermentation nets 2 ATP per glucose, so 64 / 2 = 32. With O2, about 2 glucose would do.",
-  "links": "Fermentation yield",
+  "explanation": "Fermentation nets 2 ATP per glucose, so 32 glucose were used, and each releases 2 CO2: 32 × 2 = 64.",
+  "links": "Fermentation yield · Ethanol fermentation",
   "concepts": [
-   "m7_fermentation_yield"
+   "m7_fermentation_yield",
+   "m7_ethanol_fermentation"
   ]
  },
  {
@@ -2506,31 +2500,31 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Fatty acids reach the citric acid cycle without passing through glycolysis or pyruvate oxidation.",
+    "text": "A drug that blocked beta-oxidation would also stop the liver making most of the brain fuel in (나), even though the dieter still has plenty of stored fat.",
     "correct": true,
-    "explanation": "They enter as acetyl-CoA, below pyruvate, as the diagram shows."
+    "explanation": "Ketone bodies are made from the acetyl-CoA that beta-oxidation produces (가); with it blocked, the fat can't be turned into brain fuel."
    },
    {
     "label": "ㄴ",
-    "text": "The ketone bodies in (나) serve the brain because they carry carbon that its cells can turn back into acetyl-CoA for their own citric acid cycle.",
-    "correct": true,
-    "explanation": "Ketone bodies are a transport form of acetyl-CoA; the brain converts them back and oxidizes them in its mitochondria."
-   },
-   {
-    "label": "ㄷ",
     "text": "Beta-oxidation is itself a major source of ATP, made by substrate-level phosphorylation.",
     "correct": false,
     "explanation": "Beta-oxidation makes no ATP directly; it makes acetyl-CoA, NADH and FADH2, and the ATP comes later from the cycle and oxidative phosphorylation."
+   },
+   {
+    "label": "ㄷ",
+    "text": "The brain can use the ketone bodies in (나) because its cells turn them back into acetyl-CoA.",
+    "correct": true,
+    "explanation": "Ketone bodies are a transport form of acetyl-CoA; the brain converts them back and oxidizes them in its mitochondria."
    }
   ],
   "choices": [
    "ㄴ",
+   "ㄷ",
    "ㄱ, ㄴ",
    "ㄱ, ㄷ",
-   "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 1,
+  "answerIndex": 3,
   "links": "Beta-oxidation · Fuels converge on acetyl-CoA · Real-world: ketogenic diets",
   "diagram": "m7_fuel_map",
   "caseStudy": true,
@@ -2544,42 +2538,43 @@
   "type": "combo",
   "mod": 7,
   "topic": "Metabolic Integration",
-  "points": 2,
+  "points": 3,
   "title": "Two glycogen stores, two jobs",
   "stem": "Read (가) and (나). Which statements in <보기> are correct?",
-  "box": "<b>(가)</b> Between meals, liver cells break down glycogen and release glucose into the blood.<br><br><b>(나)</b> During exercise, muscle cells break down their own glycogen but release almost no glucose into the blood.",
+  "box": "<b>(가)</b> Liver and muscle cells both cut glucose units off glycogen as glucose phosphate.<br><br><b>(나)</b> Muscle cells lack the enzyme that removes that phosphate; liver cells have it.",
   "statements": [
    {
     "label": "ㄱ",
-    "text": "After an overnight fast, mainly liver glycogen, not muscle glycogen, keeps blood glucose up.",
-    "correct": true,
-    "explanation": "Only the liver releases the glucose from its glycogen into the blood, as (가) and (나) show."
+    "text": "Glycogen makes a good store because all of its glucose can be released at once when it is needed.",
+    "correct": false,
+    "explanation": "Glucose units are cut off one at a time and enter glycolysis as glucose 6-phosphate, past step 1."
    },
    {
     "label": "ㄴ",
-    "text": "Glycogen makes a good store because each glucose unit released from it enters glycolysis already as pyruvate.",
-    "correct": false,
-    "explanation": "Glucose units are released one at a time and enter at the start of glycolysis, as glucose phosphate, not as pyruvate."
+    "text": "A person whose liver can't break down glycogen would have low blood glucose between meals, even with normal muscle glycogen.",
+    "correct": true,
+    "explanation": "Only the liver can remove the phosphate (나) and release free glucose into the blood, so muscle glycogen can't stand in for it."
    },
    {
     "label": "ㄷ",
-    "text": "Muscle glycogen in (나) serves that muscle's own contraction, feeding its own glycolysis.",
+    "text": "Muscle glycogen serves that muscle's own contraction, because the glucose phosphate it releases can't leave the cell.",
     "correct": true,
-    "explanation": "Muscle keeps its glycogen's glucose for itself, as a ready fuel for contraction."
+    "explanation": "Phosphorylated sugar is trapped inside the cell, so muscle keeps its glycogen's glucose for itself."
    }
   ],
   "choices": [
-   "ㄱ",
    "ㄴ",
+   "ㄷ",
    "ㄱ, ㄴ",
-   "ㄱ, ㄷ",
+   "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 3,
-  "links": "Liver vs muscle glycogen · Glycogen releases glucose one unit at a time",
+  "links": "Liver vs muscle glycogen · Glycogen releases glucose one unit at a time · Phosphorylation traps glucose",
   "concepts": [
    "m7_liver_vs_muscle_glycogen",
-   "m7_glycogen_starch_storage"
+   "m7_glycogen_starch_storage",
+   "m7_phosphorylation_traps_glucose"
   ]
  },
  {
@@ -2600,9 +2595,9 @@
    },
    {
     "label": "ㄴ",
-    "text": "Because of (나), storing a day's energy as glycogen would weigh about the same as storing it as fat, since both are built from C, H and O.",
+    "text": "Storing a day's energy as glycogen would weigh only about twice as much as storing it as fat, since fat gives about twice the energy per gram.",
     "correct": false,
-    "explanation": "Hydrated glycogen gives about 4 kcal per 4 g, roughly 1 kcal/g, against about 9 kcal/g for fat: around nine times the mass."
+    "explanation": "9/4 ≈ 2.25 is the dry ratio; with its water (나), glycogen gives about 1 kcal per gram stored, so it weighs about nine times as much as fat."
    },
    {
     "label": "ㄷ",
@@ -2619,10 +2614,9 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 0,
-  "links": "Lipids are energy-rich · Glycogen storage · Beta-oxidation",
+  "links": "Lipids are energy-rich · Beta-oxidation",
   "concepts": [
    "m7_lipids_energy_rich",
-   "m7_glycogen_starch_storage",
    "m7_beta_oxidation"
   ]
  },
@@ -2639,7 +2633,7 @@
   "pairs": [
    {
     "left": "Glucose from digested starch",
-    "right": "At the first step of glycolysis"
+    "right": "As free glucose, at the first step of glycolysis"
    },
    {
     "left": "Glycerol from fats",
@@ -2654,8 +2648,8 @@
     "right": "At several points, such as pyruvate, acetyl-CoA and cycle intermediates"
    },
    {
-    "left": "Liver glycogen",
-    "right": "As glucose units cut one at a time from a branched polymer"
+    "left": "Muscle glycogen",
+    "right": "As glucose phosphate cut off one unit at a time, joining glycolysis after its first step"
    }
   ],
   "explanation": "Every fuel feeds the same central pathway, entering wherever its carbon skeleton fits; fatty acids skip glycolysis entirely.",
@@ -2672,13 +2666,14 @@
   "type": "tf",
   "mod": 7,
   "topic": "Metabolic Integration",
-  "points": 1,
-  "box": "A potato tuber stores starch; a human liver stores glycogen.",
-  "claim": "Both stores release glucose units one at a time that can enter glycolysis.",
+  "points": 2,
+  "box": "In McArdle disease, muscle cells can't break down their glycogen, while the liver's glycogen use is normal.",
+  "claim": "These patients tire quickly in intense exercise, but their blood glucose between meals stays normal.",
   "answer": true,
-  "explanation": "Starch and glycogen are both branched glucose polymers; glucose units are cleaved off one at a time and enter glycolysis.",
-  "links": "Glycogen and starch storage",
+  "explanation": "Muscle glycogen fuels the muscle itself, so losing it limits hard exercise; blood glucose depends on liver glycogen, which works normally.",
+  "links": "Liver vs muscle glycogen · Real-world: McArdle disease",
   "concepts": [
+   "m7_liver_vs_muscle_glycogen",
    "m7_glycogen_starch_storage"
   ]
  },
@@ -2692,7 +2687,7 @@
   "claim": "Only the glucose half can be used for energy, because glycolysis begins with glucose.",
   "answer": false,
   "explanation": "Fructose is converted into glycolysis intermediates and enters partway along, so both halves are used.",
-  "links": "Other sugars enter glycolysis",
+  "links": "Other sugars enter glycolysis · Real-world: table sugar",
   "concepts": [
    "m7_other_sugars_enter"
   ]
@@ -2702,15 +2697,16 @@
   "type": "tf",
   "mod": 7,
   "topic": "Metabolic Integration",
-  "points": 1,
-  "box": "During prolonged starvation, the body breaks down muscle proteins.",
-  "claim": "The amino acids released can serve as fuel, entering respiration at points such as pyruvate and acetyl-CoA.",
-  "answer": true,
-  "explanation": "Proteins are broken into amino acids whose carbon skeletons feed into several stages of respiration.",
-  "links": "Proteins as fuel",
+  "points": 2,
+  "box": "During prolonged starvation, the body breaks down muscle proteins for fuel.",
+  "claim": "If a poison blocked glycolysis, the amino acids from muscle protein could no longer be used as fuel.",
+  "answer": false,
+  "explanation": "Amino acids enter at pyruvate, acetyl-CoA and cycle intermediates, all after glycolysis, so they can still be oxidized.",
+  "links": "Proteins as fuel · Real-world: starvation",
   "diagram": "m7_fuel_map",
   "concepts": [
-   "m7_proteins_as_fuel"
+   "m7_proteins_as_fuel",
+   "m7_respiration_fuels"
   ]
  },
  {
@@ -2724,6 +2720,7 @@
   "answer": false,
   "explanation": "Beta-oxidation's acetyl-CoA, NADH and FADH2 feed the citric acid cycle and oxidative phosphorylation, which make large amounts of ATP; per gram, fat yields more than carbohydrate.",
   "links": "Beta-oxidation · Lipids are energy-rich",
+  "diagram": "m7_fuel_map",
   "concepts": [
    "m7_beta_oxidation",
    "m7_lipids_energy_rich"
@@ -2734,11 +2731,11 @@
   "type": "tf",
   "mod": 7,
   "topic": "Metabolic Integration",
-  "points": 1,
-  "box": "Breaking down a fat releases glycerol and three fatty acids.",
-  "claim": "Glycerol can enter glycolysis, but fatty acids can't; they enter as acetyl-CoA instead.",
+  "points": 2,
+  "box": "A fat with three 16-carbon fatty acids (plus its 3-carbon glycerol) is fully broken down.",
+  "claim": "Most of this fat's carbon enters respiration as acetyl-CoA rather than through glycolysis.",
   "answer": true,
-  "explanation": "Glycerol becomes a three-carbon glycolysis intermediate, while fatty acids are cut into two-carbon acetyl-CoA units.",
+  "explanation": "48 of its 51 carbons are in the three fatty acids, which give 24 acetyl-CoA; only glycerol's 3 carbons enter glycolysis.",
   "links": "Beta-oxidation · Fuels enter at different points",
   "diagram": "m7_fuel_map",
   "concepts": [
@@ -2753,10 +2750,10 @@
   "topic": "Metabolic Integration",
   "points": 1,
   "box": "After a large meal, the liver converts excess glucose into fatty acids, which are stored as fat.",
-  "claim": "So fatty acids burned later, during a fast, may have started out as dietary sugar.",
-  "answer": true,
-  "explanation": "Fatty acids can be made from excess glucose and stored; when they are later oxidized, that carbon re-enters respiration as acetyl-CoA.",
-  "links": "Lipids as fuel · Fuels interconvert",
+  "claim": "Fat made this way stores less energy per gram than fat eaten in food, since it started out as sugar.",
+  "answer": false,
+  "explanation": "The new fatty acids are the same C-H-rich chains as dietary ones and yield about 9 kcal/g when oxidized.",
+  "links": "Lipids are energy-rich · Fuels interconvert",
   "concepts": [
    "m7_lipids_energy_rich",
    "m7_respiration_fuels"
@@ -2767,17 +2764,17 @@
   "type": "mc",
   "mod": 7,
   "topic": "Metabolic Integration",
-  "points": 1,
-  "stem": "At which molecule do carbohydrates, fats and many amino acids converge before entering the citric acid cycle?",
+  "points": 2,
+  "stem": "Carbon atoms are labelled in glucose, in a fatty acid and in alanine (an amino acid that becomes pyruvate), in three separate experiments. In which molecule could label from all three first appear together?",
   "options": [
-   "Oxaloacetate",
-   "Pyruvate",
    "Glycerol",
-   "Acetyl-CoA",
-   "Glucose"
+   "Pyruvate",
+   "Oxaloacetate",
+   "Glucose",
+   "Acetyl-CoA"
   ],
-  "answerIndex": 3,
-  "explanation": "Pyruvate from sugars, fatty acids by beta-oxidation and many amino acids all become acetyl-CoA, which enters the cycle.",
+  "answerIndex": 4,
+  "explanation": "Glucose and alanine reach acetyl-CoA through pyruvate, and fatty acids reach it by beta-oxidation; it is the first molecule all three pass through.",
   "links": "Fuels converge on acetyl-CoA",
   "concepts": [
    "m7_respiration_fuels",
@@ -2793,17 +2790,17 @@
   "points": 2,
   "stem": "Marathon runners 'hit the wall' around km 30, when muscle glycogen runs out, even though their fat stores could fuel many more kilometres. Which explanation fits best?",
   "options": [
+   "Oxidizing fat produces lactate, which builds up and tires the muscle",
    "Fat is oxidized more slowly, so ATP comes at a lower rate",
+   "Fat yields less ATP per gram than glycogen does",
    "Fat must first be converted into glycogen before use",
-   "Muscle cells can't take up or use fat as a fuel at all",
-   "Fatty acids can only be fermented in muscle, never respired",
-   "Fat yields less ATP per gram than glycogen does"
+   "Fatty acids enter respiration through glycolysis, which stalls once glycogen is gone"
   ],
-  "answerIndex": 0,
+  "answerIndex": 1,
   "explanation": "Fat holds more energy per gram, but its breakdown and oxidation supply ATP more slowly than glycogen's glucose, so pace drops once muscle glycogen is gone.",
-  "links": "Muscle glycogen as fuel · Lipids as fuel · Real-world: hitting the wall",
+  "links": "Glycogen and fat as fuels · Real-world: hitting the wall",
   "concepts": [
-   "m7_liver_vs_muscle_glycogen",
+   "m7_glycogen_starch_storage",
    "m7_lipids_energy_rich"
   ]
  },
@@ -2813,20 +2810,19 @@
   "mod": 7,
   "topic": "Metabolic Integration",
   "points": 1,
-  "stem": "Malted barley is rich in maltose, a disaccharide of two glucose units. How does yeast get energy from it?",
+  "stem": "Brewers mash malted barley to make wort, which is rich in maltose. How does yeast get energy from the maltose?",
   "options": [
-   "It passes maltose's electrons directly to the ETC",
-   "It splits maltose into glucose, which enters glycolysis",
-   "It turns maltose into fat before using any of it",
-   "It sends maltose straight into the citric acid cycle intact",
-   "It ferments maltose without breaking it down first"
+   "It ferments maltose without breaking it down first",
+   "It splits maltose into glucose and galactose, which enter glycolysis",
+   "It splits maltose into glucose and fructose, which enter glycolysis",
+   "It splits maltose into two glucose, which enter glycolysis",
+   "It sends maltose intact into the citric acid cycle"
   ],
-  "answerIndex": 1,
-  "explanation": "Disaccharides are hydrolyzed into monosaccharides that feed glycolysis; no separate pathway is needed.",
-  "links": "Other sugars enter glycolysis",
+  "answerIndex": 3,
+  "explanation": "Maltose is two glucose units; hydrolyzing it gives glucose, which feeds glycolysis (and, without O2, fermentation).",
+  "links": "Other sugars enter glycolysis · Real-world: brewing",
   "concepts": [
-   "m7_other_sugars_enter",
-   "m7_glycogen_starch_storage"
+   "m7_other_sugars_enter"
   ]
  },
  {
@@ -2834,20 +2830,22 @@
   "type": "mc",
   "mod": 7,
   "topic": "Metabolic Integration",
-  "points": 1,
-  "stem": "Beta-oxidation cuts fatty acids into two-carbon acetyl units. About how many acetyl-CoA does one 16-carbon fatty acid (palmitate) yield?",
+  "points": 2,
+  "stem": "How many CO2 does the citric acid cycle release in oxidizing all the acetyl-CoA from one 16-carbon fatty acid (palmitate)?",
   "options": [
    "2",
-   "4",
    "8",
    "16",
+   "24",
    "32"
   ],
   "answerIndex": 2,
-  "explanation": "Sixteen carbons in two-carbon pieces gives 16 / 2 = 8 acetyl-CoA, each of which can drive one turn of the cycle.",
-  "links": "Beta-oxidation",
+  "explanation": "Palmitate gives 8 acetyl-CoA; each drives one turn of the cycle releasing 2 CO2: 8 × 2 = 16.",
+  "links": "Beta-oxidation · The cycle completes oxidation",
+  "diagram": "m7_cac_cycle",
   "concepts": [
-   "m7_beta_oxidation"
+   "m7_beta_oxidation",
+   "m7_cac_completes_oxidation"
   ]
  },
  {
@@ -2862,21 +2860,21 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Experiment 2 shows that the O2 comes from CO2, since CO2 was the labelled molecule in that experiment.",
-    "correct": false,
-    "explanation": "In experiment 2 the O2 stayed at the natural 0.20% even though the CO2 was enriched, so the O2 can't come from CO2."
-   },
-   {
-    "label": "ㄴ",
     "text": "The O2 released matches the label in the water because water is the electron donor that is oxidized in the light reactions.",
     "correct": true,
     "explanation": "Oxidizing water releases electrons, protons and O2, so the O2 carries water's oxygen atoms (experiment 1)."
    },
    {
-    "label": "ㄷ",
+    "label": "ㄴ",
     "text": "In experiment 2, the extra 18O from the CO2 would end up in the sugar and in the water on the right side of (나).",
     "correct": true,
     "explanation": "CO2's oxygen atoms go into the carbohydrate and the product water; that is why the equation lists water on both sides."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Experiment 2 shows that the O2 comes from CO2, since CO2 was the labelled molecule in that experiment.",
+    "correct": false,
+    "explanation": "In experiment 2 the O2 stayed at the natural 0.20% even though the CO2 was enriched, so the O2 can't come from CO2."
    }
   ],
   "choices": [
@@ -2886,7 +2884,7 @@
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 3,
+  "answerIndex": 1,
   "links": "Water is the electron donor · Overall equation · Real-world: Ruben and Kamen's 18O experiments",
   "diagram": "m8_o18_table",
   "caseStudy": true,
@@ -2959,25 +2957,25 @@
    },
    {
     "label": "ㄴ",
-    "text": "Overall, (가) has a positive ΔG, which is why it needs light energy, while (나) has a negative ΔG.",
-    "correct": true,
-    "explanation": "Building high-energy carbohydrate from CO2 is endergonic; light supplies the energy that respiration later releases."
-   },
-   {
-    "label": "ㄷ",
     "text": "Because (가) and (나) are reverse reactions, cells run (나) using the enzymes of (가) working backward.",
     "correct": false,
     "explanation": "The two processes use different pathways, enzymes and compartments: chloroplast thylakoids and stroma vs cytosol and mitochondria."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Overall, (가) has a positive ΔG, which is why it needs light energy, while (나) has a negative ΔG.",
+    "correct": true,
+    "explanation": "Building high-energy carbohydrate from CO2 is endergonic; light supplies the energy that respiration later releases."
    }
   ],
   "choices": [
    "ㄱ",
+   "ㄴ",
    "ㄱ, ㄴ",
    "ㄱ, ㄷ",
-   "ㄴ, ㄷ",
-   "ㄱ, ㄴ, ㄷ"
+   "ㄴ, ㄷ"
   ],
-  "answerIndex": 1,
+  "answerIndex": 3,
   "links": "Photosynthesis is a redox process · Overall equation · Endergonic vs exergonic",
   "concepts": [
    "m8_photosynthesis_redox",
@@ -3221,13 +3219,13 @@
   "points": 1,
   "stem": "Using the diagram, where in the chloroplast are the enzymes that split water and release O2?",
   "options": [
+   "Thylakoid membrane",
    "Stroma",
    "Outer membrane",
    "Space between the envelope membranes",
-   "Inner membrane",
-   "Thylakoid membrane"
+   "Inner membrane"
   ],
-  "answerIndex": 4,
+  "answerIndex": 0,
   "explanation": "Water is split by photosystem II in the thylakoid membrane, the site of the light-dependent reactions.",
   "links": "Stage locations · Chloroplast structure",
   "diagram": "m8_chloroplast",
@@ -3245,12 +3243,12 @@
   "stem": "Which pair of molecules links the two stages of photosynthesis, being made in one stage and used up in the other?",
   "options": [
    "O2 and glucose",
-   "ATP and NADH",
    "ATP and NADPH",
+   "ATP and NADH",
    "NADP+ and O2",
    "CO2 and H2O"
   ],
-  "answerIndex": 2,
+  "answerIndex": 1,
   "explanation": "The light reactions make ATP and NADPH; the Calvin cycle spends them and returns ADP and NADP+. NADH is respiration's carrier.",
   "links": "The two stages are linked",
   "concepts": [
@@ -3287,13 +3285,13 @@
   "points": 2,
   "stem": "The O2 in a weedy pond rises during a sunny day and falls overnight. Which explanation fits best?",
   "options": [
-   "By day photosynthesis outpaces respiration; at night only respiration runs",
    "The pond's animals sleep at night, so less of the O2 is carried away",
    "Sunlight splits water by itself, releasing O2 without help from organisms",
    "Plants respire only at night, when they use up the O2 that they made by day",
-   "At night, photosynthesis runs in reverse and takes O2 back up from water"
+   "At night, photosynthesis runs in reverse and takes O2 back up from water",
+   "By day photosynthesis outpaces respiration; at night only respiration runs"
   ],
-  "answerIndex": 0,
+  "answerIndex": 4,
   "explanation": "Photosynthesis releases O2 only in light, while all organisms, plants included, respire day and night.",
   "links": "Photosynthesis releases O2 from water · Photosynthesis needs light",
   "concepts": [
@@ -3311,11 +3309,11 @@
   "options": [
    "Energy is destroyed each time a pigment absorbs light",
    "Building carbohydrate releases more energy than it stores",
+   "Most of the energy is in wavelengths the pigments can't use",
    "Leaves reflect or transmit nearly all of the light that reaches them",
-   "Chlorophyll absorbs every wavelength but stores none",
-   "Most of the energy is in wavelengths the pigments can't use"
+   "Chlorophyll absorbs every wavelength but stores none"
   ],
-  "answerIndex": 4,
+  "answerIndex": 2,
   "explanation": "60% of the sunlight is outside the usable range, by far the biggest loss; reflection and heat take 8% each, synthesis losses 20%.",
   "links": "Efficiency of photosynthesis",
   "diagram": "m8_sunlight_budget",
@@ -3335,15 +3333,15 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Red and blue LEDs are chosen because their wavelengths fall near the peaks of chlorophyll's absorption.",
-    "correct": true,
-    "explanation": "The blue (450 nm) and red (660 nm) bands sit on the two absorption peaks, so most of their photons are absorbed."
-   },
-   {
-    "label": "ㄴ",
     "text": "Green LEDs of the same power would drive photosynthesis just as well, since every visible photon carries energy.",
     "correct": false,
     "explanation": "A photon's energy can be used only if it is absorbed; chlorophyll absorbs little at 530 nm, so most green light isn't captured."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Red and blue LEDs are chosen because their wavelengths fall near the peaks of chlorophyll's absorption.",
+    "correct": true,
+    "explanation": "The blue (450 nm) and red (660 nm) bands sit on the two absorption peaks, so most of their photons are absorbed."
    },
    {
     "label": "ㄷ",
@@ -3359,7 +3357,7 @@
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 2,
+  "answerIndex": 3,
   "links": "Chlorophyll absorbs blue and red · Only absorbed light excites pigments · Real-world: LED grow lights",
   "diagram": "m8_led_bands",
   "caseStudy": true,
@@ -3424,31 +3422,31 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "At depth, light absorbed by chlorophyll's red peak is these algae's main energy source.",
-    "correct": false,
-    "explanation": "Red light is absorbed by the water near the surface (가), so very little reaches deep algae; they rely on blue-green light."
-   },
-   {
-    "label": "ㄴ",
     "text": "These algae look red because their pigments absorb the blue-green light and more of the red light is reflected.",
     "correct": true,
     "explanation": "An object's colour is the light it doesn't absorb; phycoerythrins absorb blue-green, leaving red to be reflected."
    },
    {
-    "label": "ㄷ",
+    "label": "ㄴ",
     "text": "The pigments in (나) pass on absorbed energy, not electrons, to chlorophyll, as antenna pigments do.",
     "correct": true,
     "explanation": "Accessory pigments act like antenna pigments, transferring excitation energy toward the reaction center."
+   },
+   {
+    "label": "ㄷ",
+    "text": "At depth, light absorbed by chlorophyll's red peak is these algae's main energy source.",
+    "correct": false,
+    "explanation": "Red light is absorbed by the water near the surface (가), so very little reaches deep algae; they rely on blue-green light."
    }
   ],
   "choices": [
-   "ㄱ",
    "ㄷ",
+   "ㄱ, ㄴ",
    "ㄱ, ㄷ",
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 3,
+  "answerIndex": 1,
   "links": "Accessory pigments · Antenna energy transfer · Light limits where photosynthesis can occur · Real-world: deep red algae",
   "concepts": [
    "m8_accessory_pigments",
@@ -3671,13 +3669,13 @@
   "points": 1,
   "stem": "In 1882, Theodor Engelmann lit a strand of green alga with light spread into a spectrum and watched O2-seeking bacteria gather along it. Where did most bacteria gather?",
   "options": [
+   "At the blue and red parts of the strand",
    "At the yellow part of the strand, and nowhere else",
    "Past the red end, in the infrared",
    "At the green part of the strand",
-   "At the blue and red parts of the strand",
    "Evenly along the whole strand"
   ],
-  "answerIndex": 3,
+  "answerIndex": 0,
   "explanation": "O2 is released fastest where photosynthesis is fastest, where chlorophyll absorbs best: blue and red.",
   "links": "Chlorophyll absorbs blue and red · O2 comes from water",
   "concepts": [
@@ -3716,11 +3714,11 @@
   "options": [
    "It keeps chlorophyll dissolved in the stroma",
    "It holds the magnesium ion in the ring",
-   "It anchors chlorophyll in the thylakoid membrane",
    "It carries electrons to the reaction center",
-   "It absorbs the red light that the porphyrin ring misses"
+   "It absorbs the red light that the porphyrin ring misses",
+   "It anchors chlorophyll in the thylakoid membrane"
   ],
-  "answerIndex": 2,
+  "answerIndex": 4,
   "explanation": "The tail is hydrocarbon and hydrophobic, so it sits in the membrane's lipid bilayer; the ring does the absorbing and holds the Mg.",
   "links": "Chlorophyll structure",
   "diagram": "m8_chlorophyll",
@@ -3737,12 +3735,12 @@
   "stem": "An antenna chlorophyll in an intact leaf absorbs a photon. What usually happens next?",
   "options": [
    "The chlorophyll loses its Mg ion and must be rebuilt",
-   "The energy passes from pigment to pigment to a reaction center",
    "The photon is converted directly into an ATP molecule",
    "An electron leaves it and travels straight on to NADP+ in the stroma",
+   "The energy passes from pigment to pigment to a reaction center",
    "Most of the energy is given off again as red fluorescence"
   ],
-  "answerIndex": 1,
+  "answerIndex": 3,
   "explanation": "In a photosystem the excitation is handed between antenna pigments until it reaches the reaction center; little is lost as fluorescence.",
   "links": "Antenna energy transfer · Fates of an excited state",
   "concepts": [
@@ -3759,12 +3757,12 @@
   "stem": "A corn mutant can't make carotenoids. In bright sunlight its seedlings turn white and die. Which explanation fits best?",
   "options": [
    "Without carotenoids, the seedlings can no longer absorb any red light at all",
-   "Without carotenoids, excess light damages the photosynthetic machinery",
    "Carotenoids carry the electrons from photosystem II across to photosystem I",
+   "Without carotenoids, excess light damages the photosynthetic machinery",
    "Carotenoids form the porphyrin ring at the core of every chlorophyll molecule",
    "Without carotenoids, the leaves reflect all of the blue light falling on them"
   ],
-  "answerIndex": 1,
+  "answerIndex": 2,
   "explanation": "Carotenoids protect the photosynthetic components from damage; without them, bright light destroys chlorophyll (photobleaching).",
   "links": "Accessory pigments protect",
   "concepts": [
@@ -3789,25 +3787,25 @@
    },
    {
     "label": "ㄴ",
-    "text": "In a resistant weed from (나), plastoquinone can still dock in the pocket, so electrons keep flowing even when the herbicide is present.",
-    "correct": true,
-    "explanation": "If the herbicide can't bind, the pocket stays open to plastoquinone, and the chain works normally."
-   },
-   {
-    "label": "ㄷ",
     "text": "Treated plants starve because the herbicide stops their chlorophyll from absorbing light.",
     "correct": false,
     "explanation": "The pigments still absorb light; what stops is electron flow out of photosystem II, so the absorbed energy can't be used."
+   },
+   {
+    "label": "ㄷ",
+    "text": "In a resistant weed from (나), plastoquinone can still dock in the pocket, so electrons keep flowing even when the herbicide is present.",
+    "correct": true,
+    "explanation": "If the herbicide can't bind, the pocket stays open to plastoquinone, and the chain works normally."
    }
   ],
   "choices": [
-   "ㄴ",
+   "ㄱ",
    "ㄱ, ㄴ",
    "ㄱ, ㄷ",
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 1,
+  "answerIndex": 2,
   "links": "Plastoquinone carries electrons from PSII · Photosystems in series · NADPH from PSI · Real-world: PSII herbicides",
   "diagram": "m8_herbicide_site",
   "caseStudy": true,
@@ -3874,15 +3872,15 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "(나) shows that an H+ gradient alone, with more H+ inside the lumen, can drive ATP synthase.",
-    "correct": true,
-    "explanation": "With no light and no electron flow, the only energy source was the imposed gradient."
-   },
-   {
-    "label": "ㄴ",
     "text": "The ATP was made as H+ flowed from the pH 8 buffer into the acidic lumen.",
     "correct": false,
     "explanation": "H+ flows down its gradient, from the acidic lumen (high H+) out to the pH 8 buffer (low H+), through ATP synthase."
+   },
+   {
+    "label": "ㄴ",
+    "text": "(나) shows that an H+ gradient alone, with more H+ inside the lumen, can drive ATP synthase.",
+    "correct": true,
+    "explanation": "With no light and no electron flow, the only energy source was the imposed gradient."
    },
    {
     "label": "ㄷ",
@@ -3894,11 +3892,11 @@
   "choices": [
    "ㄱ",
    "ㄷ",
-   "ㄱ, ㄷ",
+   "ㄱ, ㄴ",
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 2,
+  "answerIndex": 3,
   "links": "Photophosphorylation · Thylakoid H+ gradient · Real-world: Jagendorf's acid-bath experiment",
   "concepts": [
    "m8_photophosphorylation",
@@ -4182,12 +4180,12 @@
   "stem": "Thylakoids treated with diuron (which blocks electron flow from PSII to plastoquinone) are given an artificial donor that feeds electrons straight into plastocyanin. In light, what happens?",
   "options": [
    "NADPH forms, and O2 release doubles",
-   "Neither O2 release nor NADPH formation resumes",
    "NADPH forms again, but no O2 is released",
+   "Neither O2 release nor NADPH formation resumes",
    "O2 is released again, but no NADPH forms",
    "Both O2 release and NADPH formation resume"
   ],
-  "answerIndex": 2,
+  "answerIndex": 1,
   "explanation": "The donor feeds PSI, which can still reduce NADP+; PSII stays blocked, so it stops splitting water and no O2 is released.",
   "links": "Photosystems in series · PSII splits water · PSI makes NADPH",
   "diagram": "m8_z_scheme",
@@ -4206,12 +4204,12 @@
   "stem": "Which compartment has the lowest pH in a chloroplast in bright light?",
   "options": [
    "Space between the envelope membranes",
+   "Thylakoid lumen",
    "Cytosol around the chloroplast",
    "Matrix of a nearby mitochondrion",
-   "Thylakoid lumen",
    "Stroma"
   ],
-  "answerIndex": 3,
+  "answerIndex": 1,
   "explanation": "Electron flow moves H+ from the stroma into the lumen, so the lumen has the highest H+ concentration and the lowest pH.",
   "links": "Thylakoid H+ gradient",
   "concepts": [
@@ -4228,11 +4226,11 @@
   "options": [
    "One photosystem absorbs only blue light and the other only red",
    "Each photosystem makes a different sugar for the Calvin cycle",
+   "Energy lost along the chain must be restored by a second light input",
    "PSII makes all of the ATP, while PSI releases all of the O2",
-   "PSI splits water, while PSII reduces NADP+ at the very end of the chain",
-   "Energy lost along the chain must be restored by a second light input"
+   "PSI splits water, while PSII reduces NADP+ at the very end of the chain"
   ],
-  "answerIndex": 4,
+  "answerIndex": 2,
   "explanation": "Electrons lose energy from PSII through PQ, b6f and PC; PSI's second boost lifts them high enough to reduce NADP+ (the Z scheme).",
   "links": "Z scheme · Two photosystems in series",
   "concepts": [
@@ -4270,13 +4268,13 @@
   "points": 2,
   "stem": "A plant's Calvin cycle needs more ATP for each NADPH than linear electron flow supplies. Which process makes up the difference?",
   "options": [
-   "Cyclic electron flow around photosystem I",
    "Splitting extra water molecules at photosystem II",
    "Running ATP synthase in reverse in the thylakoid",
    "Converting spare NADPH directly into ATP",
+   "Cyclic electron flow around photosystem I",
    "Running the Calvin cycle backward for a time"
   ],
-  "answerIndex": 0,
+  "answerIndex": 3,
   "explanation": "Cyclic flow pumps H+ and makes ATP without reducing NADP+, raising the ATP:NADPH ratio to the 3:2 the cycle needs.",
   "links": "Cyclic electron transport · Calvin cycle stoichiometry",
   "concepts": [
@@ -4292,13 +4290,13 @@
   "points": 1,
   "stem": "The herbicide paraquat takes electrons from photosystem I before they reach ferredoxin. Which process of the light reactions does it stop most directly?",
   "options": [
-   "Reduction of NADP+ to NADPH",
    "Release of H+ into the lumen from water",
    "Splitting of water at photosystem II",
    "Reduction of plastoquinone at photosystem II",
-   "Absorption of light by antenna pigments"
+   "Absorption of light by antenna pigments",
+   "Reduction of NADP+ to NADPH"
   ],
-  "answerIndex": 0,
+  "answerIndex": 4,
   "explanation": "Electrons diverted after PSI never reach ferredoxin and NADP+, so NADPH formation stops; the earlier steps can still run.",
   "links": "PSI makes NADPH · Photosystems in series",
   "diagram": "m8_z_scheme",
@@ -4319,31 +4317,31 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Enrichment raises the rate because the extra CO2 supplies more of the NADPH the Calvin cycle needs.",
-    "correct": false,
-    "explanation": "CO2 is the substrate of carboxylation; NADPH comes from the light reactions."
-   },
-   {
-    "label": "ㄴ",
     "text": "In bright light, enrichment from 420 to 1000 ppm raises the rate from about 65% to over 90% of maximum, because rubisco gets more of its substrate.",
     "correct": true,
     "explanation": "The bright-light curve is still climbing at 420 ppm, so carboxylation is limited by CO2 there (가)."
    },
    {
-    "label": "ㄷ",
+    "label": "ㄴ",
     "text": "On dull days, extra CO2 adds little, because the light reactions limit how fast ATP and NADPH are supplied.",
     "correct": true,
     "explanation": "The dim-light curve is already flat by about 400 ppm; the cycle is short of ATP and NADPH, not CO2 (나)."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Enrichment raises the rate because the extra CO2 supplies more of the NADPH the Calvin cycle needs.",
+    "correct": false,
+    "explanation": "CO2 is the substrate of carboxylation; NADPH comes from the light reactions."
    }
   ],
   "choices": [
-   "ㄱ",
-   "ㄴ",
+   "ㄷ",
    "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 3,
+  "answerIndex": 1,
   "links": "Rubisco carboxylation · Calvin cycle needs ATP and NADPH · Real-world: greenhouse CO2 enrichment",
   "diagram": "m8_co2_curves",
   "caseStudy": true,
@@ -4371,25 +4369,25 @@
    },
    {
     "label": "ㄴ",
-    "text": "(나) happens because, without light-made ATP and NADPH, 3-phosphoglycerate can't be reduced and RuBP can't be regenerated, while carboxylation goes on for a while.",
-    "correct": true,
-    "explanation": "Carboxylation uses up RuBP and makes 3-phosphoglycerate without ATP, but the steps that consume 3-phosphoglycerate and remake RuBP need ATP and NADPH."
-   },
-   {
-    "label": "ㄷ",
     "text": "The first stable labelled compound is a six-carbon sugar, since the cycle's final product is glucose.",
     "correct": false,
     "explanation": "The earliest label is in 3-phosphoglycerate (3C); sugars become labelled only later, as the graph shows."
+   },
+   {
+    "label": "ㄷ",
+    "text": "(나) happens because, without light-made ATP and NADPH, 3-phosphoglycerate can't be reduced and RuBP can't be regenerated, while carboxylation goes on for a while.",
+    "correct": true,
+    "explanation": "Carboxylation uses up RuBP and makes 3-phosphoglycerate without ATP, but the steps that consume 3-phosphoglycerate and remake RuBP need ATP and NADPH."
    }
   ],
   "choices": [
+   "ㄱ",
    "ㄴ",
+   "ㄷ",
    "ㄱ, ㄴ",
-   "ㄱ, ㄷ",
-   "ㄴ, ㄷ",
-   "ㄱ, ㄴ, ㄷ"
+   "ㄱ, ㄷ"
   ],
-  "answerIndex": 1,
+  "answerIndex": 4,
   "links": "Carboxylation by rubisco · Reduction and regeneration need ATP and NADPH · Real-world: Calvin's 14C experiments",
   "diagram": "m8_c14_timecourse",
   "caseStudy": true,
@@ -4456,15 +4454,15 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "The mutants in (나) struggle in long nights because they have no starch to break down for sugar while the Calvin cycle is stopped.",
-    "correct": true,
-    "explanation": "With no light there is no ATP and NADPH for the Calvin cycle; starch made by day is the leaf's night-time sugar supply."
-   },
-   {
-    "label": "ㄴ",
     "text": "At night, the Calvin cycle keeps running on stored starch, which supplies the ATP and NADPH it needs.",
     "correct": false,
     "explanation": "The Calvin cycle's ATP and NADPH come from the light reactions; starch is broken down for respiration, not to run the cycle."
+   },
+   {
+    "label": "ㄴ",
+    "text": "The mutants in (나) struggle in long nights because they have no starch to break down for sugar while the Calvin cycle is stopped.",
+    "correct": true,
+    "explanation": "With no light there is no ATP and NADPH for the Calvin cycle; starch made by day is the leaf's night-time sugar supply."
    },
    {
     "label": "ㄷ",
@@ -4476,9 +4474,9 @@
   "choices": [
    "ㄱ",
    "ㄴ",
-   "ㄷ",
    "ㄱ, ㄴ",
-   "ㄱ, ㄷ"
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
   ],
   "answerIndex": 4,
   "links": "Starch stores carbohydrate for the night · Calvin cycle needs light-made ATP and NADPH · Glucose stores",
@@ -4691,13 +4689,13 @@
   "points": 1,
   "stem": "Why is the carboxylation step also called carbon fixation?",
   "options": [
+   "Inorganic CO2 becomes part of an organic molecule",
    "Carbon is fixed into the thylakoid membrane",
    "CO2 is reduced straight to glucose in one rubisco-catalyzed step",
    "CO2 is split into a carbon atom and O2",
-   "Inorganic CO2 becomes part of an organic molecule",
    "The carbon in CO2 is converted into ATP"
   ],
-  "answerIndex": 3,
+  "answerIndex": 0,
   "explanation": "Rubisco attaches CO2 to RuBP, so the carbon enters an organic compound; the O2 of photosynthesis comes from water, not CO2.",
   "links": "Carboxylation by rubisco",
   "concepts": [
@@ -4713,13 +4711,13 @@
   "points": 1,
   "stem": "Where does rubisco work, and where do the ATP and NADPH used by the Calvin cycle come from?",
   "options": [
+   "Stroma; made on the stroma side of the thylakoids",
    "Envelope space; imported from the cytosol",
    "Stroma; imported into the chloroplast from the mitochondria",
-   "Stroma; made on the stroma side of the thylakoids",
    "Thylakoid lumen; made inside the lumen",
    "Thylakoid membrane; made by rubisco itself"
   ],
-  "answerIndex": 2,
+  "answerIndex": 0,
   "explanation": "The Calvin cycle runs in the stroma, and the light reactions release ATP and NADPH on the stroma side; chloroplast ATP isn't imported.",
   "links": "Stage locations · Chloroplast ATP stays in the chloroplast · Two linked stages",
   "concepts": [
@@ -4737,12 +4735,12 @@
   "stem": "A potato tuber, deep in the soil, fills with starch made from sugar sent down by the leaves. Where did the starch's carbon atoms come from?",
   "options": [
    "Minerals absorbed from the soil by the roots",
-   "CO2 fixed by the Calvin cycle in leaf chloroplasts",
    "O2 taken in from the air through the leaves",
    "Photosynthesis in the tuber's own cells underground",
+   "CO2 fixed by the Calvin cycle in leaf chloroplasts",
    "Glycogen made in the leaves and sent down"
   ],
-  "answerIndex": 1,
+  "answerIndex": 3,
   "explanation": "Leaves fix CO2 into triose phosphate and export sugar; storage organs like tubers turn it into starch.",
   "links": "Calvin cycle makes carbohydrate · Photosynthesis builds biomass from CO2",
   "concepts": [
@@ -4762,31 +4760,31 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Fats yield less energy per gram than sugars, because their many C-H bonds keep electrons far from any oxygen.",
-    "correct": false,
-    "explanation": "That is exactly why fats yield more (about 9 vs 4 kcal/g): their C-H-rich chains carry many high-energy electrons that can be passed to O2."
-   },
-   {
-    "label": "ㄴ",
     "text": "As electrons pass from glucose's C-H bonds into the O-H bonds of water, they end up held more tightly by a more electronegative atom, which releases energy.",
     "correct": true,
     "explanation": "Electrons shared equally in C-H bonds have high potential energy; pulled toward oxygen in polar O-H bonds, they have less, and the difference is released."
    },
    {
-    "label": "ㄷ",
+    "label": "ㄴ",
     "text": "O2 works well as the final electron acceptor because oxygen's high electronegativity gives it a strong pull on electrons.",
     "correct": true,
     "explanation": "Because O2 pulls electrons so strongly, electrons passed down the chain to it release energy along the way."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Fats yield less energy per gram than sugars, because their many C-H bonds keep electrons far from any oxygen.",
+    "correct": false,
+    "explanation": "That is exactly why fats yield more (about 9 vs 4 kcal/g): their C-H-rich chains carry many high-energy electrons that can be passed to O2."
    }
   ],
   "choices": [
-   "ㄱ",
-   "ㄴ",
+   "ㄷ",
    "ㄱ, ㄴ",
    "ㄱ, ㄷ",
-   "ㄴ, ㄷ"
+   "ㄴ, ㄷ",
+   "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 4,
+  "answerIndex": 1,
   "links": "Electronegativity (Module 2) · O2 is the final electron acceptor (Module 7) · Lipids are energy-rich",
   "diagram": "electronegativity_spectrum",
   "concepts": [
@@ -4857,25 +4855,25 @@
    },
    {
     "label": "ㄴ",
-    "text": "Membranes 3 and C each hold an electron transport chain and ATP synthase.",
-    "correct": true,
-    "explanation": "The inner mitochondrial membrane (3) and the thylakoid membrane (C) are the energy-converting membranes; the outer membranes are leaky."
-   },
-   {
-    "label": "ㄷ",
     "text": "In both organelles, ATP is released into the compartment where H+ is high.",
     "correct": false,
     "explanation": "H+ flows from the high-H+ side through ATP synthase, and ATP is made on the other side: the matrix (4) and the stroma (F)."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Membranes 3 and C each hold an electron transport chain and ATP synthase.",
+    "correct": true,
+    "explanation": "The inner mitochondrial membrane (3) and the thylakoid membrane (C) are the energy-converting membranes; the outer membranes are leaky."
    }
   ],
   "choices": [
+   "ㄱ",
    "ㄴ",
+   "ㄷ",
    "ㄱ, ㄴ",
-   "ㄱ, ㄷ",
-   "ㄴ, ㄷ",
-   "ㄱ, ㄴ, ㄷ"
+   "ㄱ, ㄷ"
   ],
-  "answerIndex": 1,
+  "answerIndex": 4,
   "links": "Double-membrane organelles (Module 3) · H+ gradients in mitochondria and chloroplasts (Modules 7-8)",
   "diagram": "mito_chloro_compartments",
   "concepts": [
@@ -4897,15 +4895,15 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Its citric acid cycle enzymes work in the cytoplasm, the region that plays the part of the mitochondrial matrix.",
-    "correct": true,
-    "explanation": "With no mitochondria (나), the cycle runs in the cytoplasm; mitochondria, which descend from bacteria, keep it in the matrix."
-   },
-   {
-    "label": "ㄴ",
     "text": "Its pumps move H+ into the cytoplasm, so the cytoplasm becomes the high-H+ side of the membrane.",
     "correct": false,
     "explanation": "As in mitochondria, H+ is pumped out across the membrane; the cytoplasm, like the matrix, is the low-H+ side where ATP is made."
+   },
+   {
+    "label": "ㄴ",
+    "text": "Its citric acid cycle enzymes work in the cytoplasm, the region that plays the part of the mitochondrial matrix.",
+    "correct": true,
+    "explanation": "With no mitochondria (나), the cycle runs in the cytoplasm; mitochondria, which descend from bacteria, keep it in the matrix."
    },
    {
     "label": "ㄷ",
@@ -4915,11 +4913,11 @@
    }
   ],
   "choices": [
-   "ㄱ",
    "ㄴ",
    "ㄷ",
    "ㄱ, ㄴ",
-   "ㄱ, ㄷ"
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
   ],
   "answerIndex": 4,
   "links": "Prokaryotes lack organelles (Module 1) · Endosymbiosis · ETC location and proton pumping (Module 7)",
@@ -4942,31 +4940,31 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "Because the carriers in (가) use no ATP, glucose uptake would carry on unchanged even if the neuron's hexokinase stopped working.",
-    "correct": false,
-    "explanation": "Free glucose would build up inside until it matched the blood, and facilitated diffusion would stop with no gradient left."
-   },
-   {
-    "label": "ㄴ",
     "text": "(나) keeps the concentration of free glucose inside the neuron low, so glucose keeps diffusing in down its gradient.",
     "correct": true,
     "explanation": "Converting glucose to glucose 6-phosphate removes it from the pool GLUT3 sees, so the inward gradient is maintained."
    },
    {
-    "label": "ㄷ",
+    "label": "ㄴ",
     "text": "The phosphate added in (나) is the first of the two ATP investments of glycolysis's first phase.",
     "correct": true,
     "explanation": "Hexokinase spends one ATP (step 1) and phosphofructokinase a second (step 3) before the sugar is split."
+   },
+   {
+    "label": "ㄷ",
+    "text": "Because the carriers in (가) use no ATP, glucose uptake would carry on unchanged even if the neuron's hexokinase stopped working.",
+    "correct": false,
+    "explanation": "Free glucose would build up inside until it matched the blood, and facilitated diffusion would stop with no gradient left."
    }
   ],
   "choices": [
-   "ㄴ",
+   "ㄱ",
    "ㄱ, ㄴ",
    "ㄱ, ㄷ",
    "ㄴ, ㄷ",
    "ㄱ, ㄴ, ㄷ"
   ],
-  "answerIndex": 3,
+  "answerIndex": 1,
   "links": "Facilitated diffusion (Module 3) · Phosphorylation traps glucose · Glycolysis phase 1 (Module 7)",
   "concepts": [
    "m3_facilitated_diffusion_glut",
@@ -5541,11 +5539,11 @@
   "options": [
    "Coenzyme A",
    "FADH2",
+   "Pyruvate",
    "ATP",
-   "NAD+",
-   "Pyruvate"
+   "NAD+"
   ],
-  "answerIndex": 4,
+  "answerIndex": 2,
   "explanation": "ATP, NAD+, FADH2 and coenzyme A all contain an adenine nucleotide; pyruvate is a small three-carbon acid with no base or sugar.",
   "links": "Nucleotide structure (Module 2) · Electron carriers (Module 7)",
   "concepts": [
@@ -5562,12 +5560,12 @@
   "stem": "Pyruvate kinase catalyzes step 10 of glycolysis. People who inherit a faulty pyruvate kinase gene mainly suffer anemia, because their red blood cells break down early. Why are red blood cells hit hardest?",
   "options": [
    "Their hemoglobin needs pyruvate in order to carry O2",
+   "With no mitochondria, they get all their ATP from glycolysis",
    "Pyruvate kinase builds the lipids of their membranes",
    "Glycolysis in them uses O2, which they carry in plenty",
-   "They are the only cells in the body that run glycolysis",
-   "With no mitochondria, they get all their ATP from glycolysis"
+   "They are the only cells in the body that run glycolysis"
   ],
-  "answerIndex": 4,
+  "answerIndex": 1,
   "explanation": "Other cells can fall back on respiration in mitochondria, but mature red blood cells rely on glycolysis alone, so losing step 10's ATP starves them.",
   "links": "Mutations and enzymes (Module 5) · Glycolysis payoff phase · Real-world: pyruvate kinase deficiency",
   "concepts": [
@@ -5586,11 +5584,11 @@
   "options": [
    "C-H in a fatty acid",
    "C-H in glucose",
-   "O-H in water",
    "C-C in glucose",
-   "C-C in a fatty acid"
+   "C-C in a fatty acid",
+   "O-H in water"
   ],
-  "answerIndex": 2,
+  "answerIndex": 4,
   "explanation": "Oxygen's high electronegativity pulls the O-H electrons toward it; C-H and C-C electrons are shared nearly equally, so they hold more energy.",
   "links": "Electronegativity (Module 2) · Redox in respiration (Module 7)",
   "diagram": "electronegativity_spectrum",
@@ -5609,12 +5607,12 @@
   "stem": "FAD, like NAD+, is a dinucleotide, and the body builds part of it from riboflavin (vitamin B2). In severe riboflavin deficiency, which flow of electrons into the mitochondrial chain would fall most directly?",
   "options": [
    "Electrons passing from cytochrome c to complex IV",
-   "Electrons entering the chain at complex II",
    "Electrons passing from G3P to NAD+ in glycolysis",
    "H+ flowing back in through ATP synthase",
-   "Electrons entering the chain at complex I"
+   "Electrons entering the chain at complex I",
+   "Electrons entering the chain at complex II"
   ],
-  "answerIndex": 1,
+  "answerIndex": 4,
   "explanation": "FAD becomes FADH2 in the citric acid cycle and hands its electrons in at complex II; NADH enters at complex I.",
   "links": "Nucleotide carriers (Module 2) · FADH2 enters at complex II (Module 7)",
   "concepts": [
@@ -5656,11 +5654,11 @@
   "options": [
    "Both hydrolyze ATP to move ions against a gradient",
    "Both are found only in the plasma membrane of cells",
-   "Both carry glucose into the mitochondrial matrix",
    "Both are driven by an ion flowing down its gradient",
+   "Both carry glucose into the mitochondrial matrix",
    "Both move ions from low to high concentration"
   ],
-  "answerIndex": 3,
+  "answerIndex": 2,
   "explanation": "The symporter uses Na+ flowing in to move glucose uphill; ATP synthase uses H+ flowing down its gradient to make ATP. Neither hydrolyzes ATP to work.",
   "links": "Secondary active transport (Module 3) · ATP synthase and chemiosmosis (Module 7)",
   "concepts": [
@@ -5677,13 +5675,13 @@
   "points": 1,
   "stem": "Water takes part in many reactions in Modules 6-8. In which process is water a product rather than a reactant?",
   "options": [
-   "Electron transport at complex IV",
    "Digestion of starch into glucose",
+   "Electron transport at complex IV",
    "Hydrolysis of a triacylglycerol",
    "Hydrolysis of ATP to ADP and Pi",
    "Splitting of water at photosystem II"
   ],
-  "answerIndex": 0,
+  "answerIndex": 1,
   "explanation": "At complex IV, O2 accepts electrons and H+ and becomes water; the other processes all use water up.",
   "links": "Hydrolysis (Module 2) · O2 is reduced to water (Module 7) · Water is split at PSII (Module 8)",
   "concepts": [
@@ -5702,11 +5700,11 @@
   "options": [
    "So NADH can't be oxidized in the intermembrane space",
    "So glucose can't enter the matrix and skip glycolysis",
-   "So H+ returns only through ATP synthase",
    "So O2 can't reach complex IV from the matrix side",
+   "So H+ returns only through ATP synthase",
    "So ATP can't leave the matrix for the cytosol"
   ],
-  "answerIndex": 2,
+  "answerIndex": 3,
   "explanation": "A gradient stores energy only if H+ can't leak back; then the only way back is through ATP synthase, which captures the energy as ATP.",
   "links": "Membrane permeability (Module 3) · Proton gradient and chemiosmosis (Module 7)",
   "concepts": [
@@ -5723,13 +5721,13 @@
   "points": 1,
   "stem": "Both a cyanobacterium and a plant leaf cell carry out photosynthesis and cellular respiration. Which of these is found in the leaf cell but not in the cyanobacterium?",
   "options": [
+   "Mitochondria",
    "Thylakoid membranes",
    "A plasma membrane",
    "Ribosomes",
-   "Mitochondria",
    "Photosystem II"
   ],
-  "answerIndex": 3,
+  "answerIndex": 0,
   "explanation": "Cyanobacteria have ribosomes, thylakoids, a plasma membrane and PSII, but no membrane-bound organelles; they respire using membranes of their own.",
   "links": "Prokaryotes lack organelles (Module 1) · Thylakoids (Module 8)",
   "concepts": [
@@ -5747,11 +5745,11 @@
   "options": [
    "Beta-oxidation of fatty acids",
    "Glycolysis in the cytosol",
+   "The light reactions of photosynthesis",
    "The oxidation of pyruvate to acetyl-CoA",
-   "The citric acid cycle in the matrix",
-   "The light reactions of photosynthesis"
+   "The citric acid cycle in the matrix"
   ],
-  "answerIndex": 4,
+  "answerIndex": 2,
   "explanation": "The light reactions take electrons from water and pass them to NADP+, a nucleotide-based carrier; the other processes reduce NAD+ or FAD with electrons from fuel molecules, not from water.",
   "links": "Nucleotide carriers (Module 2) · Water splitting and NADPH (Module 8)",
   "concepts": [
@@ -5768,13 +5766,13 @@
   "points": 2,
   "stem": "Earth's air held almost no O2 until about 2.4 billion years ago, after cyanobacteria became widespread. Which statement best links that event to the O2 a maple tree releases today?",
   "options": [
-   "Its chloroplasts descend from cyanobacteria and split water the same way",
    "Its mitochondria descend from cyanobacteria and release the O2 instead",
    "Its O2 comes from glucose made long ago by ancient cyanobacteria",
    "Living cyanobacteria inside every leaf cell still release the O2",
+   "Its chloroplasts descend from cyanobacteria and split water the same way",
    "It splits CO2 to release O2, a process that cyanobacteria never used"
   ],
-  "answerIndex": 0,
+  "answerIndex": 3,
   "explanation": "Chloroplasts arose from engulfed cyanobacteria and kept their water-splitting photosystems, so plant O2 comes from water, as cyanobacterial O2 does.",
   "links": "Endosymbiosis (Modules 1, 3) · Water is the electron donor (Module 8)",
   "concepts": [
@@ -5791,12 +5789,12 @@
   "stem": "The citric acid cycle needs only a little oxaloacetate to process a great deal of acetyl-CoA. Which Module 6 idea is the closest parallel?",
   "options": [
    "A catalyst lowers the activation energy barrier",
-   "An enzyme is released unchanged and used again",
    "ATP hydrolysis drives endergonic reactions forward",
    "A pathway's end product shuts off its first enzyme",
-   "A competitive inhibitor occupies the active site"
+   "A competitive inhibitor occupies the active site",
+   "An enzyme is released unchanged and used again"
   ],
-  "answerIndex": 1,
+  "answerIndex": 4,
   "explanation": "Oxaloacetate is regenerated at the end of each turn, just as an enzyme is regenerated after each E + S → E + P cycle, so a small amount of either can process many molecules.",
   "links": "Enzymes are reused (Module 6) · Oxaloacetate is regenerated (Module 7)",
   "concepts": [
