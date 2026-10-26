@@ -2404,7 +2404,7 @@
    },
    {
     "label": "ㄴ",
-    "text": "In experiment 2, the CO2's extra 18O would reach the sugar only after the light was switched off, since sugar is made in the light-independent reactions.",
+    "text": "In experiment 2, the CO2's extra 18O would start reaching the sugar once the light was switched off, since sugar is made in the light-independent reactions.",
     "correct": false,
     "explanation": "The Calvin cycle runs in the light, using ATP and NADPH as the thylakoids make them; 'light-independent' means it doesn't use light directly."
    },
@@ -2445,9 +2445,9 @@
    },
    {
     "label": "ㄴ",
-    "text": "Fixation continues briefly in (나) because RuBP, and the ATP and NADPH made in the light, have not yet run out in the stroma.",
+    "text": "A flash of light every few seconds would keep the leaf in (나) fixing some CO2.",
     "correct": true,
-    "explanation": "Rubisco keeps adding CO2 to the RuBP already present, and leftover ATP and NADPH remake a little more; once they are used up, RuBP can't be regenerated and fixation stops."
+    "explanation": "Each flash runs the light reactions briefly, refilling ATP and NADPH so that RuBP can be regenerated."
    },
    {
     "label": "ㄷ",
@@ -2490,7 +2490,7 @@
    },
    {
     "label": "ㄷ",
-    "text": "The energy that (나) releases from glucose was originally captured from light by a process like (가).",
+    "text": "The energy that (나) releases from the glucose in a slice of bread was originally captured from light by a process like (가).",
     "correct": true,
     "explanation": "Photosynthesis stores light energy in carbohydrate; respiration later releases it, as ATP and heat, by running the reverse overall reaction through different pathways and enzymes."
    }
@@ -2542,7 +2542,7 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 3,
-  "links": "Photosynthesis needs light · Energy entry point for food webs · CO2 is reduced"
+  "links": "Photosynthesis needs light · Energy entry point for food webs"
  },
  {
   "id": 3309,
@@ -2672,9 +2672,9 @@
   "topic": "Overview of Photosynthesis",
   "points": 1,
   "box": "A wolf eats deer, and the deer eat grass.",
-  "claim": "A blight that killed most of the grass would leave the wolves' food supply unchanged, since wolves eat deer rather than grass.",
-  "answer": false,
-  "explanation": "The deer live on the grass, so the energy entering this food chain comes from the grass's photosynthesis; with less grass there are fewer deer, and the wolves go short of food.",
+  "claim": "Shading the meadow so that the grass captured half as much light would, in time, leave less food for the wolves.",
+  "answer": true,
+  "explanation": "Energy enters this chain only when the grass captures light by photosynthesis; with less light captured there is less grass for the deer, and so fewer deer for the wolves.",
   "links": "Photosynthesis is the energy entry point"
  },
  {
@@ -2682,12 +2682,12 @@
   "type": "tf",
   "mod": 8,
   "topic": "Overview of Photosynthesis",
-  "points": 1,
-  "box": "Many caves are home to insects, fish and salamanders but no plants, since no light reaches them.",
-  "claim": "The cave's food web depends on organic matter carried in from outside, such as bat droppings and washed-in leaves.",
-  "answer": true,
-  "explanation": "With no light, nothing in the cave photosynthesizes, so the energy its animals use must come in as food made by photosynthesis outside.",
-  "links": "Photosynthesis needs light · Energy entry point for food webs · Real-world: cave animals"
+  "points": 2,
+  "box": "Movile Cave in Romania has been sealed off from the surface for millions of years, yet spiders, leeches and many other invertebrates live there on mats of bacteria that fix CO2 using energy from oxidizing hydrogen sulfide.",
+  "claim": "As in most food webs, the energy these animals use was first captured from light.",
+  "answer": false,
+  "explanation": "No light reaches the cave; its bacteria are chemotrophs, so this food web runs on chemical energy, a rare exception to photosynthesis as life's main energy entry point.",
+  "links": "Photosynthesis is the main energy entry point · Phototrophs and chemotrophs (Module 6) · Real-world: Movile Cave"
  },
  {
   "id": 3730,
@@ -2899,7 +2899,7 @@
    "ㄴ, ㄷ"
   ],
   "answerIndex": 3,
-  "links": "Accessory pigments · Antenna energy transfer · Light limits where photosynthesis can occur · Real-world: deep red algae"
+  "links": "Accessory pigments · Antenna energy transfer · Real-world: deep red algae"
  },
  {
   "id": 3310,
@@ -3000,7 +3000,7 @@
   "box": "Chlorophylls a and b have the same tail and differ only in one side group on the porphyrin ring shown in the diagram.",
   "claim": "Because the difference lies in the ring rather than the tail, the two absorb different wavelengths but anchor in the membrane the same way.",
   "answer": true,
-  "explanation": "The porphyrin ring is the light-absorbing part, so changing one of its side groups shifts the absorption peaks (chlorophyll a near 430 and 662 nm, chlorophyll b near 455 and 642 nm).",
+  "explanation": "The porphyrin ring is the light-absorbing part, so changing one of its side groups shifts the absorption peaks (chlorophyll a near 430 and 662 nm, chlorophyll b near 455 and 642 nm); both keep the same hydrophobic phytol tail, so both anchor in the thylakoid membrane the same way.",
   "links": "Chlorophyll structure",
   "diagram": "m8_chlorophyll"
  },
@@ -3376,7 +3376,7 @@
    },
    {
     "left": "O2",
-    "right": "Photosynthesis carries on, since O2 is a product, not an input"
+    "right": "Photosynthesis carries on: the chloroplasts make this rather than use it"
    }
   ],
   "explanation": "Light drives both photosystems; NADP+ is the final acceptor of linear electron flow; CO2 is the Calvin cycle's substrate, and the cycle is what spends ATP and NADPH; O2 is released from water, not used.",
@@ -3401,11 +3401,11 @@
   "mod": 8,
   "topic": "Photosystems & Electron Transport",
   "points": 2,
-  "box": "Isolated thylakoids like the membrane in the diagram are lit brightly and given ADP, Pi, ferredoxin and plenty of NADP+. Electron flow keeps their lumens far more acidic than the surrounding buffer.",
-  "claim": "A chemical that lets H+ leak freely across the thylakoid membrane would stop ATP synthesis, but electron flow from water to NADP+ would continue.",
+  "box": "A leaf in bright light is treated with a chemical that lets H+ leak freely across the thylakoid membranes shown in the diagram.",
+  "claim": "Besides stopping ATP synthesis, the chemical would soon slow O2 release, even though electron flow itself doesn't need ATP.",
   "answer": true,
-  "explanation": "ATP synthase runs on the H+ gradient, which the leak collapses; electron flow doesn't depend on making ATP, so with NADP+ supplied it continues (as with DNP in mitochondria). In a leaf it would soon stop, because without ATP the Calvin cycle can't turn NADPH back into NADP+.",
-  "links": "Photophosphorylation · Thylakoid H+ gradient",
+  "explanation": "Without ATP the Calvin cycle can't phosphorylate 3-phosphoglycerate, so NADPH isn't turned back into NADP+; with no acceptor left, electrons back up and PSII stops splitting water.",
+  "links": "Photophosphorylation · Thylakoid H+ gradient · The two stages are linked",
   "diagram": "m8_thylakoid_membrane"
  },
  {
@@ -3415,7 +3415,7 @@
   "topic": "Photosystems & Electron Transport",
   "points": 1,
   "box": "Chloroplast ATP synthase sits in the thylakoid membrane.",
-  "claim": "The ATP made here has to cross the thylakoid membrane before the Calvin cycle can use it.",
+  "claim": "The ATP made here is released into the thylakoid lumen, so it crosses the thylakoid membrane before the Calvin cycle uses it.",
   "answer": false,
   "explanation": "CF1, the part that makes ATP, faces the stroma, so the ATP is released right where the Calvin cycle runs.",
   "links": "Photophosphorylation · Stage locations"
@@ -3439,10 +3439,10 @@
   "topic": "Photosystems & Electron Transport",
   "points": 1,
   "box": "The cells of a carrot root are not green and carry out no photosynthesis.",
-  "claim": "These cells get most of their ATP from respiration in their mitochondria, by oxidizing sugar made in the leaves.",
-  "answer": true,
-  "explanation": "Roots don't photosynthesize; like all plant cells they respire, using sugar carried down from the leaves.",
-  "links": "Non-green cells respire sugar from the leaves · Real-world: carrot roots"
+  "claim": "Because no light reaches them in the soil, these cells make most of their ATP by fermentation rather than aerobic respiration.",
+  "answer": false,
+  "explanation": "Light is needed for photosynthesis, not for respiration: root cells respire aerobically, using O2 from air spaces in the soil and sugar sent down from the leaves, and ferment only when waterlogged soil cuts off O2.",
+  "links": "Non-green cells respire sugar from the leaves · O2 is the final acceptor (Module 7) · Real-world: carrot roots"
  },
  {
   "id": 3470,
@@ -3742,9 +3742,9 @@
    },
    {
     "label": "ㄴ",
-    "text": "Starch stored by day is broken down into sugars at night, which leaf cells respire to make ATP.",
+    "text": "If the mutants in (나) were given sugar through their roots during the long nights, they would grow better.",
     "correct": true,
-    "explanation": "Starch is a glucose polymer; the sugars released feed glycolysis and respiration for the night-time ATP supply."
+    "explanation": "Their problem is a night-time sugar shortage, so sugar supplied at night stands in for the missing starch store."
    },
    {
     "label": "ㄷ",
@@ -3761,7 +3761,7 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 1,
-  "links": "Starch stores carbohydrate for the night · Calvin cycle needs light-made ATP and NADPH · Glucose stores · Real-world: starchless Arabidopsis mutants"
+  "links": "Starch stores carbohydrate for the night · Calvin cycle needs light-made ATP and NADPH · Real-world: starchless Arabidopsis mutants"
  },
  {
   "id": 3314,
@@ -3855,7 +3855,7 @@
   "box": "A chloroplast in bright light runs short of ATP, while its NADPH stays plentiful.",
   "claim": "Both the reduction step and the regeneration of RuBP would slow down.",
   "answer": true,
-  "explanation": "Both steps use ATP: 6 ATP to phosphorylate 3-phosphoglycerate and 3 more to regenerate 3 RuBP. NADPH is spent only in reduction, so plenty of it can't make up for the missing ATP.",
+  "explanation": "Both steps use ATP: per 3 CO2 fixed, 6 ATP phosphorylate the six 3-phosphoglycerate molecules and 3 more regenerate the 3 RuBP. NADPH is spent only in reduction, so plenty of it can't make up for the missing ATP.",
   "links": "Regeneration of RuBP · Reduction step"
  },
  {
@@ -3898,7 +3898,7 @@
    "18"
   ],
   "answerIndex": 3,
-  "explanation": "6 CO2 give 12 3-phosphoglycerate and so 12 triose phosphates; 10 rebuild the 6 RuBP and 2 leave (6 C), enough for one glucose.",
+  "explanation": "6 CO2 give 12 molecules of 3-phosphoglycerate and so 12 triose phosphates; 10 rebuild the 6 RuBP and 2 leave (6 C), enough for one glucose.",
   "links": "Calvin cycle stoichiometry · Regeneration of RuBP",
   "diagram": "m8_calvin_cycle"
  },
@@ -3950,10 +3950,10 @@
    "When triose phosphate leaves the cycle",
    "When rubisco joins CO2 to RuBP",
    "When triose phosphates are rearranged into RuBP",
-   "When NADPH reduces 1,3-bisphosphoglycerate"
+   "When 1,3-bisphosphoglycerate becomes triose phosphate"
   ],
   "answerIndex": 4,
-  "explanation": "Joining CO2 to RuBP fixes carbon but doesn't reduce it, and ATP only adds a phosphate; the electrons come from NADPH in the second part of the reduction step.",
+  "explanation": "Joining CO2 to RuBP fixes carbon but adds no electrons from outside, and ATP only adds a phosphate; the electrons come from NADPH when 1,3-bisphosphoglycerate is reduced to triose phosphate.",
   "links": "Reduction step · Photosynthesis is a redox process"
  },
  {

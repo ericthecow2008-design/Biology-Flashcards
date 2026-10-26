@@ -13,8 +13,8 @@ CARDS = with_mod(8, [
          "released by photosynthesis comes from." + STEM_TAIL,
          box("In each experiment, only one of the two raw materials, water or CO2, was enriched in 18O.",
              "Photosynthesis overall: 6 CO2 + 12 H2O → C6H12O6 + 6 O2 + 6 H2O."),
-         [S("In experiment 2, the CO2's extra 18O would reach the sugar only after the light was switched off, since sugar "
-            "is made in the light-independent reactions.", False,
+         [S("In experiment 2, the CO2's extra 18O would start reaching the sugar once the light was switched off, since "
+            "sugar is made in the light-independent reactions.", False,
             "The Calvin cycle runs in the light, using ATP and NADPH as the thylakoids make them; 'light-independent' means "
             "it doesn't use light directly."),
           S("The O2 released matches the label in the water because water is the electron donor that is oxidized in the light reactions.", True,
@@ -27,10 +27,8 @@ CARDS = with_mod(8, [
     combo(OV, "When the lights go out", READ,
           box("A spinach leaf in bright light is suddenly put in the dark.",
               "CO2 fixation goes on for a few seconds in the dark, then stops."),
-          [S("Fixation continues briefly in (나) because RuBP, and the ATP and NADPH made in the light, have not yet run out "
-             "in the stroma.", True,
-             "Rubisco keeps adding CO2 to the RuBP already present, and leftover ATP and NADPH remake a little more; once they "
-             "are used up, RuBP can't be regenerated and fixation stops."),
+          [S("A flash of light every few seconds would keep the leaf in (나) fixing some CO2.", True,
+             "Each flash runs the light reactions briefly, refilling ATP and NADPH so that RuBP can be regenerated."),
            S("Extra CO2 supplied when the light went off would keep fixation in (나) going much longer.", False,
              "Fixation stops because RuBP can't be regenerated once ATP and NADPH run out; extra CO2 doesn't replace them."),
            S("During the few seconds of fixation in (나), the thylakoids keep releasing O2 at the rate they did in the light.", False,
@@ -47,7 +45,8 @@ CARDS = with_mod(8, [
            S("Turning CO2 and water into carbohydrate and O2 has a positive ΔG, which is why light energy is needed, while "
              "(나) has a negative ΔG.", True,
              "Building high-energy carbohydrate from CO2 is endergonic; light supplies the energy that respiration later releases."),
-           S("The energy that (나) releases from glucose was originally captured from light by a process like (가).", True,
+           S("The energy that (나) releases from the glucose in a slice of bread was originally captured from light by a "
+             "process like (가).", True,
              "Photosynthesis stores light energy in carbohydrate; respiration later releases it, as ATP and heat, by "
              "running the reverse overall reaction through different pathways and enzymes."),
            ],
@@ -63,8 +62,8 @@ CARDS = with_mod(8, [
            S("The chemical energy that the phytoplankton in (나) store in sugar comes from the CO2 they take up from seawater.", False,
              "The energy comes from light; CO2 is a low-energy carbon source that gets reduced to carbohydrate."),
            ],
-          "Photosynthesis needs light · Energy entry point for food webs · CO2 is reduced",
-          ["m8_light_limits_habitat", "m8_photosynthesis_definition", "m8_photosynthesis_redox"], points=2),
+          "Photosynthesis needs light · Energy entry point for food webs",
+          ["m8_light_limits_habitat", "m8_photosynthesis_definition"], points=2),
     match(OV, "Parts of a chloroplast", "Match each part of the chloroplast to the fact that fits it best.", "Part", "Fact",
           [("Thylakoid membrane", "Where the herbicide diuron binds and blocks electron flow"),
            ("Thylakoid lumen", "Where H+ from split water builds up"),
@@ -111,18 +110,18 @@ CARDS = with_mod(8, [
        "Photosynthesis is a redox process · Water is the electron donor",
        ["m8_photosynthesis_redox", "m8_water_electron_donor"], points=1,
        box="In photosynthesis, CO2 is reduced to carbohydrate."),
-    tf(OV, "A blight that killed most of the grass would leave the wolves' food supply unchanged, since wolves eat deer "
-           "rather than grass.", False,
-       "The deer live on the grass, so the energy entering this food chain comes from the grass's photosynthesis; with "
-       "less grass there are fewer deer, and the wolves go short of food.",
+    tf(OV, "Shading the meadow so that the grass captured half as much light would, in time, leave less food for the wolves.", True,
+       "Energy enters this chain only when the grass captures light by photosynthesis; with less light captured there is "
+       "less grass for the deer, and so fewer deer for the wolves.",
        "Photosynthesis is the energy entry point", ["m8_photosynthesis_definition"], points=1,
        box="A wolf eats deer, and the deer eat grass."),
-    tf(OV, "The cave's food web depends on organic matter carried in from outside, such as bat droppings and washed-in leaves.", True,
-       "With no light, nothing in the cave photosynthesizes, so the energy its animals use must come in as food made by "
-       "photosynthesis outside.",
-       "Photosynthesis needs light · Energy entry point for food webs · Real-world: cave animals",
-       ["m8_light_limits_habitat", "m8_photosynthesis_definition"], points=1,
-       box="Many caves are home to insects, fish and salamanders but no plants, since no light reaches them."),
+    tf(OV, "As in most food webs, the energy these animals use was first captured from light.", False,
+       "No light reaches the cave; its bacteria are chemotrophs, so this food web runs on chemical energy, a rare "
+       "exception to photosynthesis as life's main energy entry point.",
+       "Photosynthesis is the main energy entry point · Phototrophs and chemotrophs (Module 6) · Real-world: Movile Cave",
+       ["m8_photosynthesis_definition", "m8_light_limits_habitat", "m6_phototroph_chemotroph"], points=2,
+       box="Movile Cave in Romania has been sealed off from the surface for millions of years, yet spiders, leeches and many "
+           "other invertebrates live there on mats of bacteria that fix CO2 using energy from oxidizing hydrogen sulfide."),
     mc(OV, "Using the diagram, where in the chloroplast are the enzymes that split water and release O2?",
        "Thylakoid membrane", ["Stroma", "Inner membrane, which holds the electron transport chain as in mitochondria",
                               "Outer membrane", "Space between the inner and outer membranes"],
@@ -204,8 +203,8 @@ CARDS = with_mod(8, [
              "Red light is absorbed by the water near the surface (가), so very little reaches deep algae; they rely on green "
              "and blue-green light."),
            ],
-          "Accessory pigments · Antenna energy transfer · Light limits where photosynthesis can occur · Real-world: deep red algae",
-          ["m8_accessory_pigments", "m8_antenna_transfer", "m8_light_limits_habitat"], points=3),
+          "Accessory pigments · Antenna energy transfer · Real-world: deep red algae",
+          ["m8_accessory_pigments", "m8_antenna_transfer"], points=3),
     match(PG, "Across the spectrum", "Match each kind of light to the description that fits it.", "Light", "Description",
           [("Ultraviolet (below 400 nm)", "More energy per photon than any visible light"),
            ("Blue (about 440 nm)", "Absorbed strongly by both chlorophylls and carotenoids"),
@@ -239,7 +238,8 @@ CARDS = with_mod(8, [
     tf(PG, "Because the difference lies in the ring rather than the tail, the two absorb different wavelengths but anchor "
            "in the membrane the same way.", True,
        "The porphyrin ring is the light-absorbing part, so changing one of its side groups shifts the absorption peaks "
-       "(chlorophyll a near 430 and 662 nm, chlorophyll b near 455 and 642 nm).",
+       "(chlorophyll a near 430 and 662 nm, chlorophyll b near 455 and 642 nm); both keep the same hydrophobic phytol tail, "
+       "so both anchor in the thylakoid membrane the same way.",
        "Chlorophyll structure", ["m8_chlorophyll_structure"], points=2,
        box="Chlorophylls a and b have the same tail and differ only in one side group on the porphyrin ring shown in the diagram.",
        diagram="m8_chlorophyll"),
@@ -394,7 +394,7 @@ CARDS = with_mod(8, [
           [("Light", "Neither photosystem's reaction center is excited"),
            ("NADP+", "Electrons leaving PSI have no final acceptor"),
            ("CO2", "Carboxylation stops, so ATP and NADPH stop being used"),
-           ("O2", "Photosynthesis carries on, since O2 is a product, not an input")],
+           ("O2", "Photosynthesis carries on: the chloroplasts make this rather than use it")],
           "Light drives both photosystems; NADP+ is the final acceptor of linear electron flow; CO2 is the Calvin cycle's "
           "substrate, and the cycle is what spends ATP and NADPH; O2 is released from water, not used.",
           "Light excites the photosystems · NADP+ the final acceptor · Two linked stages · Water is the electron donor",
@@ -406,16 +406,16 @@ CARDS = with_mod(8, [
        "Plastoquinone and plastocyanin · Photosystems in series", ["m8_carriers_pq_pc", "m8_two_photosystems_series"], points=2,
        box="In the chain shown in the diagram, a mutant plant's plastocyanin (PC) cannot pass electrons to PSI.",
        diagram="m8_thylakoid_membrane"),
-    tf(PS, "A chemical that lets H+ leak freely across the thylakoid membrane would stop ATP synthesis, but electron flow "
-           "from water to NADP+ would continue.", True,
-       "ATP synthase runs on the H+ gradient, which the leak collapses; electron flow doesn't depend on making ATP, so "
-       "with NADP+ supplied it continues (as with DNP in mitochondria). In a leaf it would soon stop, because without ATP "
-       "the Calvin cycle can't turn NADPH back into NADP+.",
-       "Photophosphorylation · Thylakoid H+ gradient", ["m8_photophosphorylation", "m8_thylakoid_proton_gradient"], points=2,
-       box="Isolated thylakoids like the membrane in the diagram are lit brightly and given ADP, Pi, ferredoxin and plenty "
-           "of NADP+. Electron flow keeps their lumens far more acidic than the surrounding buffer.",
-       diagram="m8_thylakoid_membrane"),
-    tf(PS, "The ATP made here has to cross the thylakoid membrane before the Calvin cycle can use it.", False,
+    tf(PS, "Besides stopping ATP synthesis, the chemical would soon slow O2 release, even though electron flow itself "
+           "doesn't need ATP.", True,
+       "Without ATP the Calvin cycle can't phosphorylate 3-phosphoglycerate, so NADPH isn't turned back into NADP+; with "
+       "no acceptor left, electrons back up and PSII stops splitting water.",
+       "Photophosphorylation · Thylakoid H+ gradient · The two stages are linked",
+       ["m8_photophosphorylation", "m8_thylakoid_proton_gradient", "m8_two_stages_linked"], points=2,
+       box="A leaf in bright light is treated with a chemical that lets H+ leak freely across the thylakoid membranes shown "
+           "in the diagram.", diagram="m8_thylakoid_membrane"),
+    tf(PS, "The ATP made here is released into the thylakoid lumen, so it crosses the thylakoid membrane before the Calvin "
+           "cycle uses it.", False,
        "CF1, the part that makes ATP, faces the stroma, so the ATP is released right where the Calvin cycle runs.",
        "Photophosphorylation · Stage locations", ["m8_photophosphorylation", "m8_stage_locations"], points=1,
        box="Chloroplast ATP synthase sits in the thylakoid membrane."),
@@ -424,10 +424,12 @@ CARDS = with_mod(8, [
        "for much of its ATP, and the mitochondria still work, so it is carbon fixation that stops.",
        "Chloroplast ATP stays in the chloroplast", ["m8_chloroplast_atp_stays"], points=2,
        box="In bright light, a drug blocks only the chloroplasts' ATP synthase in a leaf."),
-    tf(PS, "These cells get most of their ATP from respiration in their mitochondria, by oxidizing sugar made in the leaves.", True,
-       "Roots don't photosynthesize; like all plant cells they respire, using sugar carried down from the leaves.",
-       "Non-green cells respire sugar from the leaves · Real-world: carrot roots",
-       ["m8_photosynthesis_definition"],
+    tf(PS, "Because no light reaches them in the soil, these cells make most of their ATP by fermentation rather than "
+           "aerobic respiration.", False,
+       "Light is needed for photosynthesis, not for respiration: root cells respire aerobically, using O2 from air spaces "
+       "in the soil and sugar sent down from the leaves, and ferment only when waterlogged soil cuts off O2.",
+       "Non-green cells respire sugar from the leaves · O2 is the final acceptor (Module 7) · Real-world: carrot roots",
+       ["m8_photosynthesis_definition", "m7_o2_final_acceptor"],
        points=1, box="The cells of a carrot root are not green and carry out no photosynthesis."),
     tf(PS, "If PSII could not take electrons from water, it would soon stop passing electrons on, even in bright light.", True,
        "An oxidized reaction center must get an electron back from a donor before it can work again, and water is PSII's donor.",
@@ -563,12 +565,12 @@ CARDS = with_mod(8, [
              "the plants starve. In continuous light the Calvin cycle never stops, so no store is needed."),
            S("At night, the Calvin cycle keeps running on stored starch, which supplies the ATP and NADPH it needs.", False,
              "The Calvin cycle's ATP and NADPH come from the light reactions; starch is broken down for respiration, not to run the cycle."),
-           S("Starch stored by day is broken down into sugars at night, which leaf cells respire to make ATP.", True,
-             "Starch is a glucose polymer; the sugars released feed glycolysis and respiration for the night-time ATP supply."),
+           S("If the mutants in (나) were given sugar through their roots during the long nights, they would grow better.", True,
+             "Their problem is a night-time sugar shortage, so sugar supplied at night stands in for the missing starch store."),
            ],
-          "Starch stores carbohydrate for the night · Calvin cycle needs light-made ATP and NADPH · Glucose stores · "
+          "Starch stores carbohydrate for the night · Calvin cycle needs light-made ATP and NADPH · "
           "Real-world: starchless Arabidopsis mutants",
-          ["m8_starch_for_night", "m8_calvin_overview", "m7_glycogen_starch_storage"], points=2),
+          ["m8_starch_for_night", "m8_calvin_overview"], points=2),
     match(CC, "Steps of the Calvin cycle", "Match each step to what happens in it.", "Step", "What happens",
           [("Carboxylation", "A five-carbon sugar gains a carbon from the air"),
            ("Reduction, first part", "3-phosphoglycerate gains a phosphate from ATP"),
@@ -602,8 +604,8 @@ CARDS = with_mod(8, [
        "Calvin cycle stoichiometry", ["m8_calvin_stoichiometry"], points=2,
        box="A chloroplast in steady light exports one triose phosphate."),
     tf(CC, "Both the reduction step and the regeneration of RuBP would slow down.", True,
-       "Both steps use ATP: 6 ATP to phosphorylate 3-phosphoglycerate and 3 more to regenerate 3 RuBP. NADPH is spent "
-       "only in reduction, so plenty of it can't make up for the missing ATP.",
+       "Both steps use ATP: per 3 CO2 fixed, 6 ATP phosphorylate the six 3-phosphoglycerate molecules and 3 more "
+       "regenerate the 3 RuBP. NADPH is spent only in reduction, so plenty of it can't make up for the missing ATP.",
        "Regeneration of RuBP · Reduction step", ["m8_regeneration_rubp", "m8_reduction_step"], points=2,
        box="A chloroplast in bright light runs short of ATP, while its NADPH stays plentiful."),
     tf(CC, "RuBP builds up and 3-phosphoglycerate falls, because carboxylation stops while regeneration continues.", True,
@@ -619,7 +621,7 @@ CARDS = with_mod(8, [
     mc(CC, "Using the diagram, how many triose phosphates must the Calvin cycle make in all, recycled and exported, to "
            "export the carbon for one glucose?",
        "12", ["2", "6", "10", "12", "18"],
-       "6 CO2 give 12 3-phosphoglycerate and so 12 triose phosphates; 10 rebuild the 6 RuBP and 2 leave (6 C), enough "
+       "6 CO2 give 12 molecules of 3-phosphoglycerate and so 12 triose phosphates; 10 rebuild the 6 RuBP and 2 leave (6 C), enough "
        "for one glucose.",
        "Calvin cycle stoichiometry · Regeneration of RuBP", ["m8_calvin_stoichiometry", "m8_regeneration_rubp"], points=2,
        ordered=True, key_index=3, diagram="m8_calvin_cycle"),
@@ -640,13 +642,13 @@ CARDS = with_mod(8, [
        "Starch stores carbohydrate for the night · Storage polysaccharides (Module 2)",
        ["m8_starch_for_night", "m2_polysaccharides_storage"], points=2),
     mc(CC, "Photosynthesis reduces CO2 to carbohydrate. At which point in the Calvin cycle does the carbon actually gain electrons?",
-       "When NADPH reduces 1,3-bisphosphoglycerate",
+       "When 1,3-bisphosphoglycerate becomes triose phosphate",
        ["When rubisco joins CO2 to RuBP",
         "When ATP adds a phosphate to 3-phosphoglycerate",
         "When triose phosphates are rearranged into RuBP",
         "When triose phosphate leaves the cycle"],
-       "Joining CO2 to RuBP fixes carbon but doesn't reduce it, and ATP only adds a phosphate; the electrons come from "
-       "NADPH in the second part of the reduction step.",
+       "Joining CO2 to RuBP fixes carbon but adds no electrons from outside, and ATP only adds a phosphate; the electrons "
+       "come from NADPH when 1,3-bisphosphoglycerate is reduced to triose phosphate.",
        "Reduction step · Photosynthesis is a redox process", ["m8_reduction_step", "m8_photosynthesis_redox"], points=2),
     mc(CC, "A potato tuber grows underground and fills with starch. Which sequence traces one of its carbon atoms from the "
            "air into that starch?",

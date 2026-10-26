@@ -212,8 +212,8 @@ def m8_z_scheme():
     for lab, x, e in pts:
         p.append(label_box(x, y_of(e) + 4, lab, size=10.5, weight="700", pad=6))
     for x, e0 in ((110, 0.08), (380, 0.26)):
-        p.append(path(f"M{x-34},{y_of(e0)-6} q6,-8 0,-16 q-6,-8 0,-16 q6,-8 0,-16", stroke=ACCENT, width=1.8, end=f"{K}_b"))
-        p.append(text(x - 34, y_of(e0) - 58, "light", size=10, fill=ACCENT, weight="700"))
+        p.append(path(f"M{x-22},{n(y_of(e0)-64)} q6,8 0,16 q-6,8 0,16 q6,8 0,16", stroke=ACCENT, width=1.8, end=f"{K}_b"))
+        p.append(text(x - 22, y_of(e0) - 70, "light", size=10, fill=ACCENT, weight="700"))
     p.append(text(330, 250, "PQ = plastoquinone · PC = plastocyanin · Fd = ferredoxin · * = excited by light", size=9.5, fill=SOFT))
     return ("Electron energy in the light reactions", svg(620, 260,
             "Energy diagram of the light reactions, shaped like a Z. Electrons from water drop slightly to photosystem II, "
