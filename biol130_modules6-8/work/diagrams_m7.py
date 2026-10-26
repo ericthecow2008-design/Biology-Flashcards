@@ -32,7 +32,7 @@ def m7_cell_compartments():
     p.append(lines(520, 66, ["outer mitochondrial", "membrane"], size=10.5, anchor="start"))
     p.append(line(478, 140, 516, 140, stroke=SOFT, width=1))
     p.append(lines(520, 136, ["inner mitochondrial", "membrane"], size=10.5, anchor="start"))
-    p.append(line(475, 180, 516, 196, stroke=SOFT, width=1))
+    p.append(line(460, 181, 516, 196, stroke=SOFT, width=1))
     p.append(lines(520, 200, ["intermembrane", "space"], size=10.5, anchor="start"))
     p.append(line(60, 230, 30, 246, stroke=SOFT, width=1))
     p.append(text(64, 232, "plasma membrane", size=10.5, anchor="start"))

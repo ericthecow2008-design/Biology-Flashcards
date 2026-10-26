@@ -313,9 +313,9 @@
   "statements": [
    {
     "label": "ㄱ",
-    "text": "In B, O2 accepts electrons at each small step of the staircase rather than all at once as in A.",
+    "text": "The small size of each drop in B is what lets these reactions run quickly at body temperature.",
     "correct": false,
-    "explanation": "Glucose's electrons go first to NAD+ and FAD; O2 takes them only at the very end of the electron transport chain."
+    "explanation": "A drop's size is its ΔG, which doesn't set the rate; the reactions run quickly at body temperature because enzymes lower their activation energy (나)."
    },
    {
     "label": "ㄴ",
@@ -325,7 +325,7 @@
    },
    {
     "label": "ㄷ",
-    "text": "Releasing the energy in small steps, as in B, lets the cell trap much of it in carriers and ATP instead of losing it all at once as heat.",
+    "text": "Releasing energy in small steps, as in B, lets the cell capture much of it in carriers and ATP rather than as heat.",
     "correct": true,
     "explanation": "Small steps release amounts that enzymes can couple to reducing NAD+ or making ATP; the share that isn't trapped is still released as heat."
    }
@@ -338,11 +338,11 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 0,
-  "links": "Energy is released in steps · O2 is the final electron acceptor",
+  "links": "Energy is released in steps · Enzymes lower activation energy (Module 6)",
   "diagram": "m7_energy_staircase",
   "concepts": [
    "m7_stepwise_energy_release",
-   "m7_o2_final_acceptor"
+   "m6_enzymes_lower_ea"
   ]
  },
  {
@@ -409,7 +409,7 @@
     "label": "ㄴ",
     "text": "Per glucose, the process in (가) makes most of the cell's ATP, since it happens in more than one stage.",
     "correct": false,
-    "explanation": "Substrate-level phosphorylation gives only about 4 of roughly 32 ATP per glucose; (나), oxidative phosphorylation, makes about 28."
+    "explanation": "Substrate-level phosphorylation nets only about 4 of roughly 32 ATP per glucose (a net 2 in glycolysis, 2 in the cycle); (나), oxidative phosphorylation, makes about 28."
    },
    {
     "label": "ㄷ",
@@ -481,7 +481,7 @@
   "topic": "Overview of Cellular Respiration",
   "points": 2,
   "box": "A liver cell like the one in the diagram is given glucose whose carbons are all radioactive.",
-  "claim": "Of the stages of respiration, the first to release radioactive CO2 runs in the mitochondrial matrix, not in the cytosol where glycolysis breaks the glucose down.",
+  "claim": "Of the stages of respiration, the first to release radioactive CO2 runs in the mitochondrial matrix.",
   "answer": true,
   "explanation": "Glycolysis in the cytosol releases no CO2; the first CO2 is released when pyruvate is oxidized to acetyl-CoA in the matrix.",
   "links": "Stage locations · Source of CO2",
@@ -639,19 +639,20 @@
   "mod": 7,
   "topic": "Overview of Cellular Respiration",
   "points": 2,
-  "stem": "If electrons could pass from NADH straight to O2 in one step, what would happen to the energy released?",
+  "stem": "If electrons could pass from NADH straight to O2 in one step, what would the cell lose compared with the normal chain?",
   "options": [
-   "The same total would be passed straight to ATP synthase",
-   "More would be released in total, since no carrier takes a share",
-   "The same total, released as heat, with no H+ pumped",
-   "Less would be released in total, since the path is shorter",
-   "None would be released, since O2 can't take electrons from NADH"
+   "The NAD+ it needs, since NADH could no longer be oxidized",
+   "Some of the total energy, since the path is shorter",
+   "The H+ gradient, since no complex would pump H+",
+   "The water normally made at complex IV",
+   "Nothing, since the same total energy is released"
   ],
   "answerIndex": 2,
-  "explanation": "The start (NADH) and end (H2O) fix the total; passing electrons through the chain's carriers in small steps is what lets complexes I, III and IV use the energy to pump H+ instead of losing it as heat.",
-  "links": "Stepwise energy release",
+  "explanation": "The total released is fixed by NADH and water, but only passing through complexes I, III and IV lets that energy pump H+; in one step it would all be lost as heat, leaving no gradient for ATP synthase.",
+  "links": "Stepwise energy release · Proton pumping",
   "concepts": [
-   "m7_stepwise_energy_release"
+   "m7_stepwise_energy_release",
+   "m7_proton_pumping"
   ]
  },
  {
@@ -700,7 +701,7 @@
    },
    {
     "label": "ㄷ",
-    "text": "FDG collects in cells because GLUT carriers move it into cells but not back out of them.",
+    "text": "FDG collects in tumour cells because their GLUT carriers move it inward only, so even FDG that hexokinase hasn't yet phosphorylated can't leave.",
     "correct": false,
     "explanation": "GLUT carriers work by facilitated diffusion in either direction. FDG is held in the cell because FDG 6-phosphate is charged and no longer fits GLUT; (가) adds that glycolysis can't use it up either."
    }
@@ -745,9 +746,9 @@
    },
    {
     "label": "ㄷ",
-    "text": "Steps 7 and 10 are substrate-level phosphorylation: an enzyme moves a phosphate from 1,3-bisphosphoglycerate or phosphoenolpyruvate straight onto ADP.",
+    "text": "Starting from fructose 1,6-bisphosphate as in (나) leaves the NADH made at step 6 unchanged, at 2 NADH per fructose 1,6-bisphosphate.",
     "correct": true,
-    "explanation": "No membrane or gradient is involved; the phosphate is transferred within one enzyme reaction."
+    "explanation": "Step 6 still oxidizes both G3P, reducing 2 NAD+; only the ATP tally changes."
    }
   ],
   "choices": [
@@ -758,13 +759,12 @@
    "ㄱ, ㄴ, ㄷ"
   ],
   "answerIndex": 4,
-  "links": "Glycolysis net yield · Investment and payoff phases · Substrate-level phosphorylation",
+  "links": "Glycolysis net yield · Investment and payoff phases",
   "diagram": "m7_glycolysis_map",
   "concepts": [
    "m7_glycolysis_net_yield",
    "m7_glycolysis_phase1",
-   "m7_glycolysis_phase3",
-   "m7_substrate_level"
+   "m7_glycolysis_phase3"
   ]
  },
  {
@@ -889,10 +889,10 @@
   "mod": 7,
   "topic": "Glycolysis",
   "points": 2,
-  "box": "In phase 1, glucose gets two phosphate groups from ATP before it is split.",
+  "box": "In phase 1 (steps 1-3 in the diagram), glucose gets two phosphate groups from ATP before it is split at step 4.",
   "claim": "Spending 2 ATP in phase 1 is wasteful: a cell that split glucose without first phosphorylating it would net more ATP per glucose.",
   "answer": false,
-  "explanation": "The 2 ATP are an investment, not a waste: the phosphates trap glucose and destabilize it so it can be split, and the payoff phase returns 4 ATP by passing phosphate groups to ADP. Without them the sugar isn't split and the payoff steps have nothing to act on.",
+  "explanation": "The 2 ATP are an investment, not a waste: the phosphates destabilize glucose so it can be split, and each three-carbon half keeps a phase-1 phosphate that step 10 later hands back to ADP. A cell that skipped them would lose step 10's 2 ATP as well (and its unphosphorylated sugars wouldn't fit the payoff enzymes), so it could not net more than 2.",
   "links": "Glycolysis phase 1 · Phosphorylation traps and destabilizes glucose",
   "diagram": "m7_glycolysis_map",
   "concepts": [
@@ -1080,7 +1080,7 @@
   "options": [
    "Its enzymes work inside mitochondria",
    "It releases CO2 as it oxidizes glucose",
-   "It needs O2 at its last step",
+   "It needs the citric acid cycle to regenerate its NAD+",
    "It makes its ATP using a membrane H+ gradient",
    "It runs in the cytosol and consumes no O2"
   ],
@@ -1344,7 +1344,7 @@
     "right": "A five-carbon intermediate that can leave the cycle to build amino acids"
    }
   ],
-  "explanation": "Pyruvate dehydrogenase makes acetyl-CoA, oxaloacetate accepts the acetyl group and is regenerated, NAD+ takes the electrons released, GTP is the one energy carrier the cycle makes directly, and α-ketoglutarate is a branch point for biosynthesis.",
+  "explanation": "Pyruvate dehydrogenase makes acetyl-CoA, oxaloacetate accepts the acetyl group and is regenerated, NAD+ takes the electrons released, GTP is the only ATP equivalent the cycle makes directly (by substrate-level phosphorylation), and α-ketoglutarate is a branch point for biosynthesis.",
   "links": "Pyruvate oxidation · Cycle intermediates · Electron carriers · Substrate-level phosphorylation",
   "concepts": [
    "m7_pyruvate_oxidation_step",
@@ -1512,7 +1512,7 @@
   "mod": 7,
   "topic": "Pyruvate Oxidation & Citric Acid Cycle",
   "points": 2,
-  "stem": "100 acetyl-CoA enter the citric acid cycle while the cell draws 10 α-ketoglutarate out to make glutamate. How many oxaloacetate (or molecules that become it) must the cell add to keep its oxaloacetate pool steady?",
+  "stem": "100 acetyl-CoA enter the citric acid cycle while the cell draws 10 succinyl-CoA out to make heme. How many oxaloacetate (or molecules that become it) must the cell add to keep its oxaloacetate pool steady?",
   "options": [
    "0",
    "10",
@@ -1521,7 +1521,7 @@
    "110"
   ],
   "answerIndex": 1,
-  "explanation": "Each turn regenerates the oxaloacetate it uses, except when an intermediate is drawn off: each α-ketoglutarate removed is one oxaloacetate that won't be remade, so 10 must be added.",
+  "explanation": "Each turn regenerates the oxaloacetate it uses, except when an intermediate is drawn off: each succinyl-CoA removed is one oxaloacetate that won't be remade, so 10 must be added.",
   "links": "Cycle intermediates feed other pathways · Oxaloacetate is regenerated",
   "diagram": "m7_cac_cycle",
   "concepts": [
@@ -1544,7 +1544,7 @@
    "Fats are converted to pyruvate, which the cells can then oxidize"
   ],
   "answerIndex": 1,
-  "explanation": "Beta-oxidation turns fatty acids into acetyl-CoA, so fat's carbons reach the citric acid cycle without passing through the faulty pyruvate dehydrogenase step.",
+  "explanation": "Beta-oxidation turns fatty acids into acetyl-CoA, and the liver turns some of it into ketone bodies that the brain converts back to acetyl-CoA; either way fat's carbons reach the citric acid cycle without passing through the faulty pyruvate dehydrogenase step.",
   "links": "Pyruvate dehydrogenase complex · Beta-oxidation · Real-world: pyruvate dehydrogenase deficiency",
   "concepts": [
    "m7_pyruvate_oxidation_step",
@@ -1806,7 +1806,7 @@
   "pairs": [
    {
     "left": "Coenzyme Q",
-    "right": "Neither complex I nor complex II can pass electrons on"
+    "right": "Complexes I and II stay loaded with electrons, while complex III and every carrier after it get none"
    },
    {
     "left": "Cytochrome c",
@@ -1836,9 +1836,9 @@
   "topic": "Oxidative Phosphorylation",
   "points": 1,
   "box": "Newborns keep warm partly with brown fat, whose mitochondria contain a protein called UCP1 in the inner membrane.",
-  "claim": "These cells make heat because UCP1 lets H+ flow back into the matrix without passing through ATP synthase.",
-  "answer": true,
-  "explanation": "UCP1 short-circuits the gradient, so the energy that would have made ATP is released as heat.",
+  "claim": "UCP1 makes heat by letting H+ flow from the matrix out into the intermembrane space, bypassing ATP synthase.",
+  "answer": false,
+  "explanation": "H+ is pumped into the intermembrane space, where it is high; UCP1 lets it flow back down its gradient into the matrix, releasing the energy as heat.",
   "links": "Chemiosmotic coupling · Real-world: brown fat",
   "concepts": [
    "m7_chemiosmotic_coupling",
@@ -2067,14 +2067,14 @@
   "points": 2,
   "stem": "Brown fat's UCP1 and the drug DNP both make mitochondria release energy as heat. How do they differ?",
   "options": [
-   "UCP1 is a regulated protein; DNP ferries H+ itself",
+   "UCP1 is a regulated protein, while DNP is a small molecule that ferries H+",
    "UCP1 pumps H+ out, while DNP pumps H+ into the matrix",
    "UCP1 blocks complex IV, while DNP blocks the Fo channel",
    "UCP1 makes ATP faster, while DNP makes only heat",
-   "UCP1 works in the cytosol, while DNP works in the matrix"
+   "UCP1 lets H+ leak back into the matrix, while DNP blocks ATP synthase directly"
   ],
   "answerIndex": 0,
-  "explanation": "Both let H+ back into the matrix without passing through ATP synthase; UCP1 is a regulated channel protein in the inner membrane, while DNP ferries H+ through the lipid bilayer.",
+  "explanation": "Both let H+ back into the matrix without passing through ATP synthase; UCP1 is a regulated carrier protein in the inner membrane, while DNP ferries H+ through the lipid bilayer.",
   "links": "Chemiosmotic coupling · Proton gradient · Real-world: brown fat and DNP",
   "concepts": [
    "m7_chemiosmotic_coupling",
@@ -2194,7 +2194,7 @@
     "label": "ㄴ",
     "text": "Making ethanol lets the fish get rid of fermentation's end product, whereas lactate would build up and acidify the body as in (나).",
     "correct": true,
-    "explanation": "Ethanol diffuses out across the gills; lactic acid stays in the body, so a long fermentation would be fatal."
+    "explanation": "Ethanol diffuses out across the gills; lactate stays in the body, so months of lactic acid fermentation would build up a dangerous acid load."
    },
    {
     "label": "ㄷ",
@@ -2391,7 +2391,7 @@
   "box": "After an all-out sprint, a runner keeps breathing hard for several minutes.",
   "claim": "Part of the extra O2 is used to oxidize the lactate made during the sprint, by way of pyruvate.",
   "answer": true,
-  "explanation": "Lactate is turned back into pyruvate, and pyruvate is oxidized in mitochondria, which needs O2 at the end of the electron transport chain; that is one reason breathing stays fast after the sprint.",
+  "explanation": "Lactate is turned back into pyruvate and oxidized in mitochondria, which needs O2 at the end of the electron transport chain, so some of the O2 used after the sprint goes to clearing lactate, alongside refilling phosphocreatine, ATP and O2 stores.",
   "links": "Lactic acid fermentation · O2 is the final acceptor · Real-world: breathing hard after a sprint",
   "concepts": [
    "m7_lactic_acid_fermentation",
@@ -2557,7 +2557,7 @@
     "label": "ㄷ",
     "text": "Glycogen is broken down a whole branch at a time, and each branch enters glycolysis as one molecule.",
     "correct": false,
-    "explanation": "Glucose units are cut off one at a time and enter glycolysis as glucose 6-phosphate, past step 1."
+    "explanation": "Glucose units are cut off one at a time, and most enter glycolysis as glucose 6-phosphate, past step 1."
    }
   ],
   "choices": [
@@ -2667,12 +2667,13 @@
   "topic": "Metabolic Integration",
   "points": 2,
   "box": "In McArdle disease, muscle cells can't break down their glycogen, while the liver's glycogen use is normal.",
-  "claim": "These patients tire quickly in intense exercise, but their blood glucose between meals stays normal.",
+  "claim": "During a brief all-out effort, these patients' blood lactate rises much less than a healthy person's.",
   "answer": true,
-  "explanation": "Muscle glycogen fuels the muscle itself, so losing it limits hard exercise; blood glucose depends on liver glycogen, which works normally.",
-  "links": "Liver vs muscle glycogen · Real-world: McArdle disease",
+  "explanation": "With no glycogen to break down, their muscles run less glycolysis in intense effort, so less pyruvate is reduced to lactate; this flat lactate response is a classic sign of the disease.",
+  "links": "Muscle glycogen fuels the muscle · Lactic acid fermentation · Real-world: McArdle disease",
   "concepts": [
-   "m7_liver_vs_muscle_glycogen"
+   "m7_liver_vs_muscle_glycogen",
+   "m7_lactic_acid_fermentation"
   ]
  },
  {
@@ -2796,8 +2797,8 @@
   "explanation": "Fat holds more energy per gram, but its breakdown and oxidation supply ATP more slowly than glycogen's glucose, so pace drops once muscle glycogen is gone.",
   "links": "Glycogen and fat as fuels · Real-world: hitting the wall",
   "concepts": [
-   "m7_liver_vs_muscle_glycogen",
-   "m7_lipids_energy_rich"
+   "m7_lipids_energy_rich",
+   "m7_beta_oxidation"
   ]
  },
  {

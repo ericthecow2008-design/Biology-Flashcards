@@ -12,17 +12,17 @@ CARDS = with_mod(7, [
           "Glucose can be oxidized by O2 in a flame or inside a cell. " + DIAG,
           box("Burning releases glucose's energy almost entirely as heat and light.",
               "Inside cells, glucose is oxidized at body temperature through a long series of enzyme-catalysed reactions."),
-          [S("In B, O2 accepts electrons at each small step of the staircase rather than all at once as in A.", False,
-             "Glucose's electrons go first to NAD+ and FAD; O2 takes them only at the very end of the electron transport chain."),
+          [S("The small size of each drop in B is what lets these reactions run quickly at body temperature.", False,
+             "A drop's size is its ΔG, which doesn't set the rate; the reactions run quickly at body temperature because "
+             "enzymes lower their activation energy (나)."),
            S("A route with twice as many steps as B, each smaller, would release twice as much total free energy per glucose.", False,
              "The start and end molecules fix the total; more steps change only how much of it can be captured."),
-           S("Releasing the energy in small steps, as in B, lets the cell trap much of it in carriers and ATP instead of "
-             "losing it all at once as heat.", True,
+           S("Releasing energy in small steps, as in B, lets the cell capture much of it in carriers and ATP rather than as heat.", True,
              "Small steps release amounts that enzymes can couple to reducing NAD+ or making ATP; the share that isn't "
              "trapped is still released as heat."),
            ],
-          "Energy is released in steps · O2 is the final electron acceptor",
-          ["m7_stepwise_energy_release", "m7_o2_final_acceptor"], points=3,
+          "Energy is released in steps · Enzymes lower activation energy (Module 6)",
+          ["m7_stepwise_energy_release", "m6_enzymes_lower_ea"], points=3,
           diagram="m7_energy_staircase"),
     combo(OV, "Who loses the electrons?", READ,
           box("C6H12O6 + 6 O2 → 6 CO2 + 6 H2O", "NAD+ + 2 e- + H+ → NADH"),
@@ -41,7 +41,8 @@ CARDS = with_mod(7, [
           [S("(가) is substrate-level phosphorylation, and it needs neither O2 nor a membrane.", True,
              "The phosphate goes straight from a substrate to ADP in one enzyme reaction, so no gradient, membrane or O2 is involved."),
            S("Per glucose, the process in (가) makes most of the cell's ATP, since it happens in more than one stage.", False,
-             "Substrate-level phosphorylation gives only about 4 of roughly 32 ATP per glucose; (나), oxidative phosphorylation, makes about 28."),
+             "Substrate-level phosphorylation nets only about 4 of roughly 32 ATP per glucose (a net 2 in glycolysis, 2 in the "
+             "cycle); (나), oxidative phosphorylation, makes about 28."),
            S("The process in (나), like (가), makes ATP by moving a phosphate group straight from a fuel-derived molecule onto ADP.", False,
              "ATP synthase joins ADP to inorganic phosphate, driven by H+ flowing down the gradient; no fuel-derived molecule "
              "hands it a phosphate."),
@@ -58,8 +59,7 @@ CARDS = with_mod(7, [
           "Stages of respiration · Fermentation",
           ["m7_glycolysis_overview", "m7_pyruvate_oxidation_step", "m7_cac_cycle_regenerates", "m7_o2_final_acceptor",
            "m7_fermentation_purpose"], points=3),
-    tf(OV, "Of the stages of respiration, the first to release radioactive CO2 runs in the mitochondrial matrix, not in the "
-           "cytosol where glycolysis breaks the glucose down.", True,
+    tf(OV, "Of the stages of respiration, the first to release radioactive CO2 runs in the mitochondrial matrix.", True,
        "Glycolysis in the cytosol releases no CO2; the first CO2 is released when pyruvate is oxidized to acetyl-CoA in the matrix.",
        "Stage locations · Source of CO2", ["m7_stage_locations", "m7_exhaled_co2", "m7_pyruvate_oxidation_step"], points=2,
        box="A liver cell like the one in the diagram is given glucose whose carbons are all radioactive.",
@@ -103,15 +103,15 @@ CARDS = with_mod(7, [
        "FAD → FADH2", ["NADH → NAD+", "Glucose → CO2", "Pyruvate → acetyl-CoA + CO2", "Succinate → fumarate"],
        "FAD gains two electrons (with two H+) to become FADH2: a reduction. The others lose electrons, so they are oxidations.",
        "Reduction is gain of electrons · Electron carriers", ["m7_redox_definitions", "m7_carriers_nad_fad"], points=1),
-    mc(OV, "If electrons could pass from NADH straight to O2 in one step, what would happen to the energy released?",
-       "The same total, released as heat, with no H+ pumped",
-       ["More would be released in total, since no carrier takes a share",
-        "None would be released, since O2 can't take electrons from NADH",
-        "The same total would be passed straight to ATP synthase",
-        "Less would be released in total, since the path is shorter"],
-       "The start (NADH) and end (H2O) fix the total; passing electrons through the chain's carriers in small steps is what "
-       "lets complexes I, III and IV use the energy to pump H+ instead of losing it as heat.",
-       "Stepwise energy release", ["m7_stepwise_energy_release"], points=2),
+    mc(OV, "If electrons could pass from NADH straight to O2 in one step, what would the cell lose compared with the normal chain?",
+       "The H+ gradient, since no complex would pump H+",
+       ["Nothing, since the same total energy is released",
+        "The water normally made at complex IV",
+        "The NAD+ it needs, since NADH could no longer be oxidized",
+        "Some of the total energy, since the path is shorter"],
+       "The total released is fixed by NADH and water, but only passing through complexes I, III and IV lets that energy "
+       "pump H+; in one step it would all be lost as heat, leaving no gradient for ATP synthase.",
+       "Stepwise energy release · Proton pumping", ["m7_stepwise_energy_release", "m7_proton_pumping"], points=2),
     mc(OV, "A carbon atom from glucose ends up in exhaled CO2. In which order could it pass through the stages of respiration?",
        "Glycolysis → pyruvate oxidation → citric acid cycle",
        ["Glycolysis → citric acid cycle → pyruvate oxidation",
@@ -127,7 +127,8 @@ CARDS = with_mod(7, [
          "FDG-PET scans find many cancers by imaging where FDG, a radioactive look-alike of glucose, collects in the body." + STEM_TAIL,
          box("Hexokinase phosphorylates FDG just as it phosphorylates glucose, but the next glycolysis enzyme can't act on FDG 6-phosphate.",
              "Many tumours take up far more glucose than most of the tissue around them."),
-         [S("FDG collects in cells because GLUT carriers move it into cells but not back out of them.", False,
+         [S("FDG collects in tumour cells because their GLUT carriers move it inward only, so even FDG that hexokinase "
+            "hasn't yet phosphorylated can't leave.", False,
             "GLUT carriers work by facilitated diffusion in either direction. FDG is held in the cell because FDG 6-phosphate is "
             "charged and no longer fits GLUT; (가) adds that glycolysis can't use it up either."),
           S("Tumours in (나) show up as bright spots against the tissue around them, because more FDG enters their cells and "
@@ -148,12 +149,12 @@ CARDS = with_mod(7, [
            S("Starting from fructose 1,6-bisphosphate as in (나), the net yield would rise to 4 ATP, since the ATP spent in "
              "steps 1 and 3 has already been paid.", True,
              "Steps 1 and 3 are skipped, so the 4 ATP from the payoff phase are all net gain."),
-           S("Steps 7 and 10 are substrate-level phosphorylation: an enzyme moves a phosphate from 1,3-bisphosphoglycerate or "
-             "phosphoenolpyruvate straight onto ADP.", True,
-             "No membrane or gradient is involved; the phosphate is transferred within one enzyme reaction."),
+           S("Starting from fructose 1,6-bisphosphate as in (나) leaves the NADH made at step 6 unchanged, at 2 NADH per "
+             "fructose 1,6-bisphosphate.", True,
+             "Step 6 still oxidizes both G3P, reducing 2 NAD+; only the ATP tally changes."),
            ],
-          "Glycolysis net yield · Investment and payoff phases · Substrate-level phosphorylation",
-          ["m7_glycolysis_net_yield", "m7_glycolysis_phase1", "m7_glycolysis_phase3", "m7_substrate_level"], points=3,
+          "Glycolysis net yield · Investment and payoff phases",
+          ["m7_glycolysis_net_yield", "m7_glycolysis_phase1", "m7_glycolysis_phase3"], points=3,
           diagram="m7_glycolysis_map"),
     combo(GL, "What fluoride does to mouth bacteria",
           "Mouth bacteria such as Streptococcus mutans ferment sugars and release acid that dissolves tooth enamel. Assume "
@@ -188,12 +189,14 @@ CARDS = with_mod(7, [
        "Glycolysis: 6C → 2 × 3C · Electron carriers", ["m7_glycolysis_overview", "m7_carriers_nad_fad"], points=1,
        box="Glycolysis turns one glucose into two pyruvate molecules."),
     tf(GL, "Spending 2 ATP in phase 1 is wasteful: a cell that split glucose without first phosphorylating it would net more ATP per glucose.", False,
-       "The 2 ATP are an investment, not a waste: the phosphates trap glucose and destabilize it so it can be split, and the "
-       "payoff phase returns 4 ATP by passing phosphate groups to ADP. Without them the sugar isn't split and the payoff "
-       "steps have nothing to act on.",
+       "The 2 ATP are an investment, not a waste: the phosphates destabilize glucose so it can be split, and each "
+       "three-carbon half keeps a phase-1 phosphate that step 10 later hands back to ADP. A cell that skipped them would "
+       "lose step 10's 2 ATP as well (and its unphosphorylated sugars wouldn't fit the payoff enzymes), so it could not "
+       "net more than 2.",
        "Glycolysis phase 1 · Phosphorylation traps and destabilizes glucose",
        ["m7_glycolysis_phase1", "m7_phosphorylation_traps_glucose"], points=2,
-       box="In phase 1, glucose gets two phosphate groups from ATP before it is split.", diagram="m7_glycolysis_map"),
+       box="In phase 1 (steps 1-3 in the diagram), glucose gets two phosphate groups from ATP before it is split at step 4.",
+       diagram="m7_glycolysis_map"),
     tf(GL, "If step 3 were skipped and fructose 6-phosphate could be split directly, both three-carbon products would still carry a phosphate.", False,
        "Fructose 6-phosphate has only one phosphate, so only one of the two pieces would carry it; adding the second "
        "phosphate in step 3 is what lets both halves continue.",
@@ -245,7 +248,7 @@ CARDS = with_mod(7, [
     mc(GL, "Glycolysis is thought to be one of the oldest metabolic pathways. Which statement about it is true and fits an "
            "origin before Earth's air held much O2?",
        "It runs in the cytosol and consumes no O2",
-       ["It needs O2 at its last step",
+       ["It needs the citric acid cycle to regenerate its NAD+",
         "It makes its ATP using a membrane H+ gradient",
         "Its enzymes work inside mitochondria",
         "It releases CO2 as it oxidizes glucose"],
@@ -328,8 +331,8 @@ CARDS = with_mod(7, [
            ("Pyruvate dehydrogenase complex", "Removes CO2 from pyruvate and joins what is left to coenzyme A"),
            ("α-Ketoglutarate", "A five-carbon intermediate that can leave the cycle to build amino acids")],
           "Pyruvate dehydrogenase makes acetyl-CoA, oxaloacetate accepts the acetyl group and is regenerated, NAD+ takes the "
-          "electrons released, GTP is the one energy carrier the cycle makes directly, and α-ketoglutarate is a branch "
-          "point for biosynthesis.",
+          "electrons released, GTP is the only ATP equivalent the cycle makes directly (by substrate-level phosphorylation), "
+          "and α-ketoglutarate is a branch point for biosynthesis.",
           "Pyruvate oxidation · Cycle intermediates · Electron carriers · Substrate-level phosphorylation",
           ["m7_pyruvate_oxidation_step", "m7_cac_cycle_regenerates", "m7_cac_intermediates_biosynthesis", "m7_carriers_nad_fad",
            "m7_substrate_level"],
@@ -382,10 +385,10 @@ CARDS = with_mod(7, [
        "Pyruvate oxidation · The cycle completes oxidation · Exhaled CO2",
        ["m7_pyruvate_oxidation_totals", "m7_cac_completes_oxidation", "m7_exhaled_co2"], points=2, ordered=True, key_index=2,
        diagram="m7_cac_cycle"),
-    mc(PC, "100 acetyl-CoA enter the citric acid cycle while the cell draws 10 α-ketoglutarate out to make glutamate. How "
-           "many oxaloacetate (or molecules that become it) must the cell add to keep its oxaloacetate pool steady?",
+    mc(PC, "100 acetyl-CoA enter the citric acid cycle while the cell draws 10 succinyl-CoA out to make heme. How many "
+           "oxaloacetate (or molecules that become it) must the cell add to keep its oxaloacetate pool steady?",
        "10", ["0", "10", "90", "100", "110"],
-       "Each turn regenerates the oxaloacetate it uses, except when an intermediate is drawn off: each α-ketoglutarate "
+       "Each turn regenerates the oxaloacetate it uses, except when an intermediate is drawn off: each succinyl-CoA "
        "removed is one oxaloacetate that won't be remade, so 10 must be added.",
        "Cycle intermediates feed other pathways · Oxaloacetate is regenerated",
        ["m7_cac_intermediates_biosynthesis", "m7_cac_cycle_regenerates"], points=2, ordered=True, key_index=1,
@@ -397,8 +400,9 @@ CARDS = with_mod(7, [
         "Fats are converted to pyruvate, which the cells can then oxidize",
         "Fats supply NAD+, which restores the faulty enzyme's activity",
         "Fats are fermented to lactate, which then feeds the cycle"],
-       "Beta-oxidation turns fatty acids into acetyl-CoA, so fat's carbons reach the citric acid cycle without passing "
-       "through the faulty pyruvate dehydrogenase step.",
+       "Beta-oxidation turns fatty acids into acetyl-CoA, and the liver turns some of it into ketone bodies that the brain "
+       "converts back to acetyl-CoA; either way fat's carbons reach the citric acid cycle without passing through the "
+       "faulty pyruvate dehydrogenase step.",
        "Pyruvate dehydrogenase complex · Beta-oxidation · Real-world: pyruvate dehydrogenase deficiency",
        ["m7_pyruvate_oxidation_step", "m7_beta_oxidation"], points=2),
     mc(PC, "A drug blocks the carrier protein that moves pyruvate across the inner mitochondrial membrane. What happens first?",
@@ -481,7 +485,7 @@ CARDS = with_mod(7, [
           ["m7_etc_location_components", "m7_atp_synthase", "m7_chemiosmotic_coupling"], points=4),
     match(OX, "If one part were missing", "Match each missing or blocked component to what happens in respiring mitochondria.",
           "Missing or blocked", "What happens",
-          [("Coenzyme Q", "Neither complex I nor complex II can pass electrons on"),
+          [("Coenzyme Q", "Complexes I and II stay loaded with electrons, while complex III and every carrier after it get none"),
            ("Cytochrome c", "Complex III stays loaded with electrons, but complex IV gets none"),
            ("O2", "Every carrier in the chain stays reduced"),
            ("The Fo channel of ATP synthase", "H+ piles up in the intermembrane space and electron flow slows")],
@@ -489,8 +493,9 @@ CARDS = with_mod(7, [
           "main path back for H+, so each gap blocks or slows electron flow at a different point.",
           "ETC components · O2 the final acceptor · Chemiosmotic coupling",
           ["m7_etc_location_components", "m7_o2_final_acceptor", "m7_chemiosmotic_coupling"], points=3),
-    tf(OX, "These cells make heat because UCP1 lets H+ flow back into the matrix without passing through ATP synthase.", True,
-       "UCP1 short-circuits the gradient, so the energy that would have made ATP is released as heat.",
+    tf(OX, "UCP1 makes heat by letting H+ flow from the matrix out into the intermembrane space, bypassing ATP synthase.", False,
+       "H+ is pumped into the intermembrane space, where it is high; UCP1 lets it flow back down its gradient into the "
+       "matrix, releasing the energy as heat.",
        "Chemiosmotic coupling · Real-world: brown fat", ["m7_chemiosmotic_coupling", "m7_proton_gradient"], points=1,
        box="Newborns keep warm partly with brown fat, whose mitochondria contain a protein called UCP1 in the inner membrane."),
     tf(OX, "In cells where CO occupies complex IV, NADH builds up, because electrons back up behind the block and the chain accepts fewer of them from NADH.", True,
@@ -555,12 +560,12 @@ CARDS = with_mod(7, [
        "Proton pumping · ATP yield", ["m7_proton_pumping", "m7_atp_yield_total"], points=2,
        ordered=True, key_index=1, diagram="m7_etc_membrane"),
     mc(OX, "Brown fat's UCP1 and the drug DNP both make mitochondria release energy as heat. How do they differ?",
-       "UCP1 is a regulated protein; DNP ferries H+ itself",
+       "UCP1 is a regulated protein, while DNP is a small molecule that ferries H+",
        ["UCP1 blocks complex IV, while DNP blocks the Fo channel",
         "UCP1 makes ATP faster, while DNP makes only heat",
         "UCP1 pumps H+ out, while DNP pumps H+ into the matrix",
-        "UCP1 works in the cytosol, while DNP works in the matrix"],
-       "Both let H+ back into the matrix without passing through ATP synthase; UCP1 is a regulated channel protein in the "
+        "UCP1 lets H+ leak back into the matrix, while DNP blocks ATP synthase directly"],
+       "Both let H+ back into the matrix without passing through ATP synthase; UCP1 is a regulated carrier protein in the "
        "inner membrane, while DNP ferries H+ through the lipid bilayer.",
        "Chemiosmotic coupling · Proton gradient · Real-world: brown fat and DNP", ["m7_chemiosmotic_coupling", "m7_proton_gradient"],
        points=2),
@@ -605,7 +610,8 @@ CARDS = with_mod(7, [
               "glucose into ethanol and releasing it through their gills.",
               "In most vertebrates, muscle working without O2 makes lactate, which builds up in the body."),
           [S("Making ethanol lets the fish get rid of fermentation's end product, whereas lactate would build up and acidify the body as in (나).", True,
-             "Ethanol diffuses out across the gills; lactic acid stays in the body, so a long fermentation would be fatal."),
+             "Ethanol diffuses out across the gills; lactate stays in the body, so months of lactic acid fermentation would "
+             "build up a dangerous acid load."),
            S("Ethanol fermentation gives the fish more ATP per glucose than lactic acid fermentation, which is why they survive so long.", False,
              "Both fermentations net only glycolysis's 2 ATP per glucose; the advantage is disposal of the end product."),
            S("Per glucose, the fish's ethanol fermentation releases fewer CO2 than lactic acid fermentation does.", False,
@@ -661,8 +667,9 @@ CARDS = with_mod(7, [
        "Ethanol fermentation · Real-world: bottle-conditioned beer", ["m7_ethanol_fermentation", "m7_fermentation_purpose"],
        points=2, box="Bottle-conditioned beer gets its fizz when yeast ferment a little extra sugar after the bottle is sealed."),
     tf(FE, "Part of the extra O2 is used to oxidize the lactate made during the sprint, by way of pyruvate.", True,
-       "Lactate is turned back into pyruvate, and pyruvate is oxidized in mitochondria, which needs O2 at the end of the "
-       "electron transport chain; that is one reason breathing stays fast after the sprint.",
+       "Lactate is turned back into pyruvate and oxidized in mitochondria, which needs O2 at the end of the electron "
+       "transport chain, so some of the O2 used after the sprint goes to clearing lactate, alongside refilling "
+       "phosphocreatine, ATP and O2 stores.",
        "Lactic acid fermentation · O2 is the final acceptor · Real-world: breathing hard after a sprint",
        ["m7_lactic_acid_fermentation", "m7_o2_final_acceptor"], points=2,
        box="After an all-out sprint, a runner keeps breathing hard for several minutes."),
@@ -724,7 +731,7 @@ CARDS = with_mod(7, [
              "normal muscle glycogen.", True,
              "Only the liver can remove the phosphate (나) and release free glucose into the blood, so muscle glycogen can't stand in for it."),
            S("Glycogen is broken down a whole branch at a time, and each branch enters glycolysis as one molecule.", False,
-             "Glucose units are cut off one at a time and enter glycolysis as glucose 6-phosphate, past step 1."),
+             "Glucose units are cut off one at a time, and most enter glycolysis as glucose 6-phosphate, past step 1."),
            S("Muscle glycogen serves that muscle's own contraction, because the glucose phosphate it releases can't leave the cell.", True,
              "Phosphorylated sugar is trapped inside the cell, so muscle keeps its glycogen's glucose for itself."),
            ],
@@ -754,9 +761,11 @@ CARDS = with_mod(7, [
           "entirely.",
           "Several fuels feed respiration · Beta-oxidation · Proteins as fuel",
           ["m7_respiration_fuels", "m7_beta_oxidation", "m7_proteins_as_fuel", "m7_glycogen_starch_storage"], points=3),
-    tf(MI, "These patients tire quickly in intense exercise, but their blood glucose between meals stays normal.", True,
-       "Muscle glycogen fuels the muscle itself, so losing it limits hard exercise; blood glucose depends on liver glycogen, which works normally.",
-       "Liver vs muscle glycogen · Real-world: McArdle disease", ["m7_liver_vs_muscle_glycogen"],
+    tf(MI, "During a brief all-out effort, these patients' blood lactate rises much less than a healthy person's.", True,
+       "With no glycogen to break down, their muscles run less glycolysis in intense effort, so less pyruvate is reduced to "
+       "lactate; this flat lactate response is a classic sign of the disease.",
+       "Muscle glycogen fuels the muscle · Lactic acid fermentation · Real-world: McArdle disease",
+       ["m7_liver_vs_muscle_glycogen", "m7_lactic_acid_fermentation"],
        points=2,
        box="In McArdle disease, muscle cells can't break down their glycogen, while the liver's glycogen use is normal."),
     tf(MI, "Only the glucose half can be used for energy, because glycolysis begins with glucose.", False,
@@ -798,7 +807,7 @@ CARDS = with_mod(7, [
        "Fat holds more energy per gram, but its breakdown and oxidation supply ATP more slowly than glycogen's glucose, "
        "so pace drops once muscle glycogen is gone.",
        "Glycogen and fat as fuels · Real-world: hitting the wall",
-       ["m7_liver_vs_muscle_glycogen", "m7_lipids_energy_rich"], points=2),
+       ["m7_lipids_energy_rich", "m7_beta_oxidation"], points=2),
     mc(MI, "Wort made from malted barley is rich in maltose, with a little glucose. A brewer's yeast strain takes up maltose "
            "but lacks maltase, the enzyme that splits it. In wort with no O2, what happens?",
        "It ferments the little glucose present, then stops with maltose left",
