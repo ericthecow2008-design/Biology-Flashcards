@@ -10,11 +10,11 @@ Branch: `claude/elegant-johnson-nwn5tg`.
 - [x] Phase 3b: Module 7: diagrams ✓ (12), cards ✓ (100); review round 1 (4 reviewers, ~20 MAJOR) and round 2 (2 reviewers, 8 MAJOR) fixed; round 3 on the 59 changed cards: 0 MAJOR, 22 MINOR fixed
 - [x] Phase 3c: Module 8: diagrams ✓ (13), cards ✓ (75); review round 1 (4 reviewers, 10 MAJOR) and round 2 (2 reviewers, 2 MAJOR) fixed; round 3 on the 46 changed cards: 0 MAJOR, 18 MINOR fixed
 - [x] Phase 3d: Bridge: diagrams ✓ (3 new + reused), cards ✓ (40); review round 1 (2 reviewers, 11 MAJOR) and round 2 (1 MAJOR) fixed; round 3 on the 27 changed cards: 0 MAJOR, 12 MINOR + 6 TAG fixed
-- [ ] Phase 4.1: final checks (no WARNING, coverage 2+)
-- [ ] Phase 4.2: Anki deck built + verified
-- [ ] Phase 4.3: study page updated, tested, published
-- [ ] Phase 4.4: Project doc
-- [ ] Phase 4.5: final commit/push + message
+- [x] Phase 4.1: final checks: no WARNING, no near-duplicates, Module 7 42/42 and Module 8 32/32 concepts at 2+; 33 diagrams 0 issues, 0 unmasked collisions in both fonts, gallery re-shot and checked
+- [x] Phase 4.2: Anki deck built + verified: `outputs/BIOL130_Modules6-8.apkg`, 224 notes, ALL CHECKS PASSED
+- [x] Phase 4.3: study page updated from the live page (version 1792277057-6c39), page_test ALL CHECKS PASSED, screenshots checked, published to the same URL (version 16)
+- [x] Phase 4.4: doc built: `outputs/biol130_modules6-8_flashcards.md` (no Projects tool in this session, so it stays in outputs/)
+- [x] Phase 4.5: final commit/push + message
 
 ## Notes for the final report
 - Module 6: added 4 gap cards (first law, refrigeration/activation energy, two on enzyme activators) besides the 5 cases.
