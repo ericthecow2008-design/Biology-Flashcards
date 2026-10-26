@@ -1,0 +1,8 @@
+{
+  "name": "biol130-case-studies-kit",
+  "private": true,
+  "description": "Headless-browser checks for the BIOL 130 flashcard kit",
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

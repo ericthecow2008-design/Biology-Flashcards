@@ -1,0 +1,7 @@
+{
+  "module_6": {"selftest_activation_energy": "p92: enzymes lower activation energy; they do not change delta G"},
+  "module_7": {"selftest_glycolysis_net_atp": "p101: glycolysis nets 2 ATP and 2 NADH per glucose",
+               "selftest_fermentation_regenerates_nad": "p107: fermentation regenerates NAD+ so glycolysis can continue"},
+  "module_8": {"selftest_calvin_carboxylation": "p119: rubisco adds CO2 to RuBP"},
+  "earlier_modules": {"selftest_m2_hydrolysis": "Module 2: hydrolysis consumes water"}
+}

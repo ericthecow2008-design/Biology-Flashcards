@@ -1,0 +1,2171 @@
+=================== NOTES PAGE 85
+MODULE
+MAKING LIFE WORK
+6
+An overview of metabolism will be explored in this 
+module. The basic forms of energy (kinetic and
+potential energy) will be discussed followed by a review of the ﬁrst and second laws of thermodynamics
+as they govern energy ﬂow in biological systems. The ﬁnal section of the module will examine chemical
+reactions, 
+emphasizing the function of enzymes.
+Learning Outcomes:
+• Describe energy ﬂow in anabolic and catabolic metabolism
+• Contrast kinetic and potential forms of energy and relate the structure of ATP to its role in cellular energy
+interactions
+• Explain the laws of thermodynamics as they apply to biological systems
+• Describe the type(s) of energy involved in chemical reactions and the role of enzymes.
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 86
+6-1
+OVERVIEW OF METABOLISM
+& 
+INTRODUCTION
+A. Why Do Cells Need Energy?
+- Recall that cells 
+need:
+- A way to separate the inside of the cell from the outside ￫ the membrane
+- A way to encode/transmit information ￫ nucleic 
+acids & proteins
+- Energy to do the work of the cell which includes:
+- Movement, growth, pump ions, and perform reactions needed for cellular function, etc.
+B. How Do Organisms Harvest Energy?
+- Organisms can harvest energy from their environment in one of two ways:
+a. Obtain energy from the sun ￫
+- Plants are the most common ￫ obtain energy from the sun to convert CO2 & water into
+sugar and O2
+b. Obtain energy from chemical compounds ￫
+- Animals are the most common chemotrophs ￫ obtain energy by ingesting other organisms
+and breaking them down into CO2 & water
+- Organisms can further be classiﬁed in two ways based on their source of carbon:
+- If the organism can convert CO2 into glucose since they make their own organic source of
+carbon 
+￫
+- If the organism is unable to convert CO2, they must ingest other organisms/molecules for a
+source of carbon ￫
+All organisms
+Phototrophs
+Energy from sunlight
+Autotrophs
+Carbon trom norganic
+sources unas 
+s
+Heterotrophs
+Don 
+Tron
+Chemotrophs
+Energy from chemical compounds
+Autotrophs
+Carbon from inorganic
+sources (such as Con
+Heterotrophs
+caroon tro
+Heliobacteria
+Sulfur-oxidizing bacteria
+Most bacteria
+Examples -
+Plant
+Most green
+nonsulfur bacteria
+Hydrogen bacteria
+Animals
+© Macmilan Leaning
+Figure 6.1 A Metabolic Classiﬁcation of Organisms.
+(Figure 6.1 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+
+
+=================== NOTES PAGE 87
+Biol 130
+Module 6 - Making Life Work
+87
+& METABOLISM
+A. Introduction
+Question: What is metabolism?
+Answer: Metabolism 
+￫ chemical processes that occur in a living organism to maintain life
+- Includes the building up and breakdown of chemical compounds ￫ allows energy to be
+harnessed or released
+- These reactions are continuously happening in cells
+- Many of these reactions are linked in such a way that the products of one reaction are the
+reactants of the next reaction ￫
+- There are two branches of metabolism ￫
+Macromolecules
+Carbohydrates
+Proteins
+Lipids
+Nucleic acids
+Anabolism
+Catabolism
++ H,°
++ HO
+Anabolism building of molecules
+from smaller units ￫ requires an
+input of energy (ATP)
+Subunits
+Sugars
+Amino acids
+Fatty acids
+Nucleotides
+and their precursors
+Catabolism breakdown of
+molecules into smaller units
+￫ produces energy (ATP)
+Figure 6.2 Anabolism and Catabolism.
+(Figure 6.2 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+B. Types of Energy
+- Two types of energy:
+- Energy that is not associated with movement but rather is stored ￫
+- Energy of motion ￫
+Note: energy can
+be converted from
+one form to another
+Figure 6.3 Potential &
+Kinetic Energy.
+(Figure 6.3 from Morris et al., Biology: How Life
+Works, 4th Ed., © 2023. Reprinted by permission
+of Macmillan Learning, New York, New York)
+High potential energy
+Kinetic energy
+Low potential energy
+
+
+=================== NOTES PAGE 88
+Biol 130
+Module 6 - Making Life Work
+88
+- Chemical bonds between pairs 
+of atoms in a 
+molecule hold onto a form of potential
+energy ￫
+- Bond strength & potential energy are linked
+- Strong bonds = less potential energy
+- Weak bonds = more potential energy
+C. ATP - The Energy Currency
+- Cells do not use all the energy they have at once ￫ best to keep it stored in a chemical 
+form that
+is readily accessible to the cell
+- Most common chemical form used by the cell is ATP ￫
+- The ATP molecule contains energy in its chemical bonds
+- ATP (adenosine triphosphate) is composed of:
+- Adenine
+- A ﬁve-carbon sugar ￫
+The bonds linking
+these phosphate
+groups have high
+potential energy.
+NH,
+- Three phosphate groups
+- Note: if less than 3 phosphates:
+-P- O-P.
+- Only two phosphate groups ￫
+Adenine
+Phosphate groups
+- Only one phosphate group ￫
+- ATP provides energy in a form that all cells can readily
+use ￫ to perform the work of the cell
+OH
+Ribose
+Adenosine
+Adenosine monophosphate (AMP)
+- Examples of cellular work:
+Adenosine diphosphate (ADP)
+- DNA, RNA, and protein synthesis
+Adenosine triphosphate (ATP)
+- Vesicle movement in a cell
+- Pumping substances across membranes
+- Breaking down fats to release energy
+Figure 6.4 ATP Structure.
+(Figure 6.4 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+- Breaking down proteins into amino acids
+- Oxidizing sugars to produce ATP
+- ATP has a high amount of energy ￫ the bonds between phosphate groups are weak
+- When the bonds between the phosphate groups are broken ￫ the potential energy is released
+for the cell to do work
+- Important: the chemical energy of ATP is held in the bonds connecting the phosphate groups
+
+
+=================== NOTES PAGE 89
+Biol 130
+Module 6 - Making Life Work
+89
+& LAWS OF THERMODYNAMICS
+A. First Law
+- Thermodynamics is the study of changes in energy that accompany events in the universe
+- Concepts allow us to predict the direction that events will take and whether input of energy is
+required
+- First Law > energy can be neither created nor destroyed
+- Energy can be converted from one form to another ￫ e.g.
+TRANSFORMATION
+Note: when electrons move from
+higher to lower energy level >
+energy released as heat or light
+Total energy before
+Total energy after
+Unit of energy
+Figure 6.5 The First Law Of Thermodynamics.
+(Figure 6.5 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+B. Second Law
+state
+external energy
+100% efﬁcient
+- Events in the universe have direction ￫ proceed from a higher energy state to a lower energy
+- These events are thermodynamically favourable and are said to be spontaneous ￫ no input of
+- Results in a reduction in the amount of useable energy ￫ energy transformations are not
+TRANSFORMATION
+Energy, often in
+the form of heat,
+resulting in
+increased entropy
+Energy available
+to do work
+Total energy
+before
+Total energy
+after
+Unit of energy
+Figure 6.6 The Second Law
+Of Thermodynamics.
+(Figure 6.6 from Morris et al., Biology: How Life
+Works, 4th Ed., © 2023. Reprinted by permission of
+Macmillan Learning, New York, New York)
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 90
+Biol 130
+Module 6 - Making Life Work
+90
+& CHEMICAL REACTIONS
+A. Introduction
+- Atoms keep their identity but the bonds linking them change during a chemical reaction
+- The concentrations of products and reactants can inﬂuence whether a reaction proceeds forward
+or backward
+A single covalent bond
+connecting carbon and oxygen
+in CO, and a single covalent
+bond connecting hydrogen and
+oxygen in HO are broken.
+A covalent bond is formed
+between the carbon of CO,
+and the oxygen of H,O, and
+between one oxygen of CO,
+and one hydrogen of HO.
+— 
+H
+0 = C ⼟ 0 + H + O - H
+New
+covalent
+bonds
+Carbon
+dioxide
+Water
+H,CO,
+Carbonic
+acid
+Figure 6.7 A Chemical Reaction.
+(Figure 6.7 from Morris et al., Biology: How Life Works,
+4th Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York)
+B. Free Energy (G)
+- The amount of energy in a system available to do work ￫ Gibbs free energy
+- AG is the symbol for the difference in Gibbs free energy between the reactants and products of
+a chemical process
+- If the products of a reaction have more free energy than the reactants ￫
+- Thermodynamically unfavourable ￫
+- Needs an input of energy
+- If the reactants have more free energy than the products ￫
+- Thermodynamically favourable ￫
+- Energy is available for use in other processes
+Endergonic reactions
+require energy
+a. Endergonic reaction
+(Nonspontaneous)
+b. Exergonic reaction
+(Spontaneous)
+Exergonic reactions
+release energy
+Products
+Reactants
+￩
+Free 
+energy
+Amount of
+energy
+required (+AG)
+Free 
+energy
+Amount of
+energy
+released (-AG)
+Reactants
+Products
+Course of reaction
+Course of reaction
+ﬁgure 6.8
+Macmilan Learning
+Figure 6.8 Endergonic and Exergonic Reaction
+(Figure 6.8 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 91
+B i o l   1 3 0
+Module 6 - Making Life Work
+91
+C. Energy Available
+- Total energy (H) = energy available to do work (G) + energy lost to entropy (S)
+- This can be rearranged to illustrate the state of Gibbs free energy:
+AG = AH - TAS
+Remember
+A = Change = Final State - Initial State
+- Where:
+- 
+H-total energy (enthalpy)
+- G = energy available to do work
+- S = energy lost to entropy or disorder
+- T= absolute temperature in Kelvin
+Temperature inﬂuences the
+movement of molecules & adds
+to the degree of disorder
+D. ATP Hydrolysis
+Question: What happens when ATP is hydrolyzed?
+Answer: The reaction of ATP with water is exergonic (spontaneous) ￫
+- At physiological pH ￫ the phosphate groups in ATP are negatively charged & resist one another
+- Compared to ATP, which has three phosphate groups, ADP contains two ￫ meaning that it has a
+lower potential energy
+Free energy
+н,о
+Water
+Adenosine
+triphosphate
+ADP
+Adenosine
+diphosphate
+E. Activation Energy
+- Chemical transformations require the breakage
+of certain covalent bonds within the reactant
+- Reactants must contain sufﬁcient kinetic
+energy to overcome the activation energy
+barrier ￫
+- Enzymes catalyze reactions by decreasing
+magnitude of Es barrier ￫ reaction can
+proceed
+- Cells can carry out many reactions with a +AG
+Figure 6.9 ATP Hydrolysis.
+(Figure 6.9 from Morris et al., Biology: How Life Works,
+4th Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York)
+All reactions require an input of
+energy, called activation energy
+(Ex), to proceed.
+Transition state
+Free 
+energy
+Reactants
+AG
+— Uncatalyzed reaction
+— Catalyzed reaction
+Products
+Course of reaction
+An enzyme
+accelerates
+the reaction
+by reducing
+EA-
+AG is the same
+with and
+without an
+enzyme.
+Figure 6.10 Enzyme-catalyzed Reaction.
+(Figure 6.12 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 92
+Biol 130
+Module 6 - Making Life Work
+92
+- Occurs for two reasons:
+1. 
+Relative concentrations of reactants to products 
+are 
+maintained above that deﬁned
+by equilibrium constant
+2. Coupling endergonic and exergonic reactions
+- E.g. hydrolysis of ATP ￫ drives endergonic reactions
+The coupled reaction
+proceeds because the net
+AG is negative and P, is
+shared between the two
+reactions.
+ATP
++ H,0￫
+ADP
+Glucose
+Glucose
+6-phosphatel
++ 
+P, 
+AG, = -7.3 kcal/mol Exergonic reaction
++ HO 
+AG, = +3.3 kcal/mol Endergonic reaction
+Glucose
++ 
+ATP 
+￫
+Glucose
+6-phosphate
++ 
+ADP 
+AG = -4 kcal/mol
+Coupled reaction
+Figure 6.10a
+© Macmilian Learning
+Figure 6.11 Energetic coupling.
+(Figure 6.10 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+COOH
+Amino acids
+Protein folding brings
+speciﬁc amino acids
+close to each other to
+form the active site.
+COOH
+The amino acids that
+form the active site
+are often far apart in
+the linear sequence of
+the unfolded enzyme.
+Bound
+substrate
+F. Chemical Reactions
+Question: How are chemical reactions
+catalyzed?
+Answer: Chemical reactions are catalyzed
+by proteins called ￫
+- The active site of an enzyme is formed
+by the assembly of certain amino acids
+in a three-dimensional structure
+- The enzyme active site binds the
+substrate(s) and converts it to the
+products)
+- The active site binds the substrate(s)
+and helps to stabilize the transition
+state ￫ lowers the activation energy
+-NH,
+Unfolded enzyme
+a. Schematic model
+Active site
+Substrate
+NH2
+Folded enzyme
+b. Molecular model
+Active site
+Substrate
+Figure 6.12 Enzyme Active Site.
+(Figures 6.15 and 6.16 from Morris et al., Biology: How
+Life Works, 4th Ed., © 2023. Reprinted by permission of
+Macmillan Learning, New York, New York)
+Figure 6.15
+
+
+=================== NOTES PAGE 93
+Biol 130
+Module 6 - Making Life Work
+93
+a. Lock-and-key model
+b. Induced ﬁt model
+- Anabolic 
+and catabolic
+reactions are catalyzed by
+enzymes
+Substrate
+- It is possible to affect enzyme
+activity
+- Enzyme activity can be
+reduced by two different kinds
+of inhibitors ￫ reversible &
+irreversible
+Enzyme-
+a. Catabolic reaction
+Substrate
+Products
+- Enzyme activity can be
+increased by activators
+Enzyme
+a. An enzyme-catalyzed reaction
+Substrate
+E+ S
+Enzyme-substrate
+complex
+ES
+Enzyme-product
+complex
+EP
+E + P
+Product
+Active site
+b. Anabolic reaction
+Substrates
+Enzyme
+The substrate
+binds to the
+active site, where
+it is converted to
+product.
+Product
+b. Competitive inhibition
+Competitive inhibitor
+Enzyme
+The inhibitor binds to the
+active site, competing with
+the substrate and reducing
+the rate of the reaction.
+E+ S
+Enzyme-substrate Enzyme-product
+complex
+complex
+ES
+EP
+E+ P
+Figure 6.13
+apy. How Life Works
+c. Noncompetitive inhibition
+Figure 6.13 Enzyme-Substrate Interactions.
+(Figures 6.13, 6.17 and 6.19 from Morris et al., Biology: How Life Works, 4th Ed.
+© 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+The inhibitor binds to a site
+other than the active site,
+changing the shape of the
+enzyme and reducing the
+rate of the reation.
+Threonine
+Noncompetitive inhibitor
+Threonine
+dehydratase
+- Because energy is needed for chemical reactions ￫ many
+metabolic pathways are regulated
+- An example of regulation is where the ﬁnal product in a
+pathway inhibits the ﬁrst step of the reaction known as
+P1
+P2
+- Important for maintaining balance in the cell and in helping
+the cell to conserve energy
+Allosteric
+inhibitor
+P3
+P4
+Figure 6.14 An Allosteric Enzyme.
+(Figure 6.20 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+Figure 6.20
+Brology: How Life Works
+• Macmilan Learning
+Isoleucine
+
+
+=================== NOTES PAGE 94
+MODULE
+6
+IMPORTANT TERMS AND CONCEPTS
+IMPORTANT TERMS (you should be able to deﬁne these terms)
+- Phototroph
+- Chemotroph
+- Autotroph
+- Heterotroph
+- Metabolism
+- Catabolic 
+(catabolism)
+- Anabolic (anabolism)
+- Potential 
+energy
+- Kinetic energy
+- Chemical 
+energy
+- Adenosine triphosphate (A TP)
+- 
+Chemical 
+reaction
+- Chemical equilibrium
+- Gibbs Free Energy
+- Exergonic
+- Endergonic
+- Enthalpy
+- Energetic coupling
+- Enzymes
+- Activation energy
+- Reactants
+- Products
+-   S u b s t r a t e
+- Enzyme active site
+- Enzyme inhibitors
+- Enzyme activators
+- Allosteric enzyme
+IMPORTANT CONCEPTS (you should understand these concepts)
+- Overview of metabolism
+- Kinetic and potential energy
+- Laws of Thermodynamics
+- Chemical reactions
+- Hydrolysis of ATP
+- Enzymes in catalyzing reactions
+- Enzyme regulation
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 95
+MODULE
+CELLULAR RESPIRATION
+7
+This module will begin with an overview of cellular respiration. This will be followed by glycolysis,
+pyruvate oxidation, citric acid cycle, and oxidative phosphorylation mechanisms. This module will
+examine what happens with glucose metabolism in the absence of oxygen.
+Learning Outcomes:
+• Describe cellular respiration and the catabolic reactions that produce ATP.
+• Describe how glycolysis oxidizes glucose and in turn produce pyruvate, ATP and reduced electron carriers.
+• Describe the reduction of pyruvate and the citric acid cycle.
+• Explain how the electron transport chain produces a large amount of ATP.
+• Distinguish between aerobic cellular respiration with alternative anaerobic pathways to produce ATP.
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 96
+7-1
+OVERVIEW OF CELLULAR RESPIRATION
+Catabolism
+Carbohydrate)
+Substrate-level
+phosphorylation
+CO
+X   I N T R O D U C T I O N
+A. Background
+- Cellular respiration
+- Can utilize carbohydrates, lipids, and proteins
+- Converts energy in fuel molecules into ATP
+- Allows the cell to do work
+- Two types of phosphorylation
+i. Substrate-level
+ii. Oxidative
+Electron carriers
+O,
+Electron 
+chain
+Oxidative
+phosphorylation
+B. Stages of Cellular Respiration
+- Stage 1: glycolysis >
+Figure 7.1 An Overview of Cellular Respiration.
+(Figure 7.1 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted
+by permission of Macmillan Learning, New York, New York)
+- Glucose is partially broken down ￫ small amount of energy is released
+- Note - fatty acids and amino acids may also be broken down by different pathways (we will
+not examine these)
+- Stage 2: pyruvate oxidation ￫
+- Pyruvate is produced from the breakdown of glucose in glycolysis ￫ converted to acetyl-CoA
+and CO2
+- Stage 3: citric acid cycle ￫
+- Acetyl-CoA from the end of step 2 is broken down
+- This releases CO2, a small amount of energy, and electron carriers
+- Stage 4: oxidative phosphorylation ￫
+- All the electron carriers from stages 1-3 release their high-energy electrons to the electron
+transport chain (ETC)
+- The energy released is used to synthesize large amounts of ATP
+Citric acid
+cycle
+Electron
+carriers
+Electron
+transport
+Chain
+Figure 7.2 The Four
+Stages of Cellular
+Respiration.
+(Figure 7.2 from Morris et al., Biology:
+How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan
+Learning, New York, New York)
+Glucose
+Glycolysis
+Pyruvate
+Acetyl-CoA
+co,
+Stage 1
+Glycolysis
+Glucose is broken down
+to pyruvate, producing
+ATP and reduced
+electron carriers.
+Figure 7.2
+Biology: How Life Works
+© Macmillan Learning
+Stage 2
+Pyruvate oxidation
+Pyruvate is converted to
+acetyl-CoA, producing
+reduced electron
+carriers and CO,.
+Stage 3
+Citric acid cycle
+Acetyl-CoA enters the
+citric acid cycle, produc-
+ing ATP. reduced electron
+carriers, and Co,
+Stage 4
+Oxidative phosphorylation
+Reduced electron carriers
+donate electrons to the electron
+transport chain, leading to the
+synthesis of ATP.
+
+
+=================== NOTES PAGE 97
+Biol 130
+Module 7 - Cellular Respiration
+C. Overview of ATP Generation
+- ATP is generated using several mechanisms:
+- Substrate-level phosphorylation is the process by which ATP is synthesized by a hydrolysis
+reaction involving an enzyme/substrate complex
+- A small amount of ATP is generated
+- The energy is transferred to electron carriers ￫ carry energy from one reaction to another
+- The electron carriers transport electrons to the respiratory electron transport chain ￫ which
+transfers electrons along membrane-associated proteins to ﬁnal acceptor
+- These proteins harness the energy released to produce ATP ￫ process called
+- The majority of ATP is produced using oxidative phosphorylation
+Glucose
+Acetyl-CoA
+Figure 7.3 The Four
+Stages of Cellular
+Respiration.
+(Figure 7.2 from Morris et al., Biology:
+How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan
+Learning, New York, New York)
+Pyruvate
+Citric acid
+cycle
+Electron
+carriers
+Electron
+Transpor
+Chain
+G l y c o l y s i s
+co,
+co,
+Stage 1
+Glycolysis
+Glucose is broken down
+to pyruvate, producing
+ATP and reduced
+electron carriers.
+Stage 2
+Pyruvate oxidation
+Pyruvate is converted to
+acetyl-CoA, producing
+reduced electron
+carriers and CO.
+Stage 3
+Citric acid cycle
+Acetyl-CoA enters the
+citric acid cycle, produc
+ing ATP, reduced electron
+carriers, and CO,
+Stage 4
+Oxidative phosphorylation
+Reduced electron carriers
+donate electrons to the electron
+transport chain, leading to the
+synthesis of ATP.
+Figure 7.2
+Biology: How Life Works
+© Macmillan Learning
+D. Oxidation Reactions in Cellular Respiration
+- NAD* and FAD are important electron carriers in
+cellular respiration
+- In cellular respiration ￫ the energy stored in glucose
+is harnessed in electron carriers as glucose is
+oxidized into CO2
+OIL RIG
+Oxidation Is Loss of electrons
+Reduction Is Gain of electrons
+- During glucose breakdown, glucose is oxidized to
+CO2 and O2 is reduced to HO
+LEO the lion says "GER"
+Loss Electrons is Oxidation
+Gain of Electrons is Reduction
+- Remember ￫ oxidation is the loss of electrons &
+reduction is the gain of electrons
+- Recall that the carbon atoms of glucose are bonded to other carbon atoms, hydrogen atoms, and
+oxygen atoms
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 98
+Biol 130
+Module 7 - Cellular Respiration
+98
+E. Reduction Reactions in Cellular Respiration
+- Oxygen is the ﬁnal electron acceptor in cellular respiration
+- When O2 is reduced ￫
+- The original electron donor in cellular respiration is 
+glucose
+- But the electrons move from one molecule to the next during 
+cellular 
+respiration via reduction
+reactions
+F. Electron Carriers
+- Two important electron carriers in cells are NAD*/NADH & FAD/FADH2
+- The oxidized forms of these carriers are NAD* and FAD; the reduced forms are NADH and
+FADH2
+- Through glycolysis, pyruvate oxidation, and the citric acid cycle, the oxidized form of the
+electron carrier accepts electrons and becomes reduced
+- The reduced form of the electron carriers has high potential energy
+- This is used to synthesize ATP in the ﬁnal stage of cellular respiration
+Glycolysis
+Pyruvate
+oxidation
+Citric acid
+cycle
+NADH
+Energy released is stored as ATP
+and reduced electron carriers.
+Glucose
+Change in 
+free 
+energy, 
+AG 
+(kcal/mol)
+-100
+200
+-300
+-400
+-500
+-600
+-700
+Figure 7.3
+Biology: How Life Works
+© Macmillan Learning
+Pyruvate
+NADH
+Acetyl-CoA
+NADH
+NADH
+(FADH,
+NADH
+Figure 7.4 Change in Free Energy in Cellular Respiration.
+(Figure 7.3 from Morris et al., Biology: How Life Works, 3º Ed., © 2019. Reprinted by permission of Macmillan Learning, New York, New York)
+
+
+=================== NOTES PAGE 99
+7-2
+GLYCOLYSIS
+& INTRODUCTION
+A. Background
+- Catabolic pathway >
+- The sum of ten chemical reactions that breakdown glucose
+- Goes from six-carbon glucose ￫ to two three-carbon pyruvates
+- Occurs in cytosol in presence or absence of Oz
+- Considered an anaerobic process because no oxygen is consumed
+B. Phases of Glycolysis
+- There are three different phases of glycolysis:
+1.
+￫ where energy is consumed
+.2
+￫ where glucose is split into two
+3
+￫ where ATP is one of the products
+H0- 0,
+Glucose
+유
+Glucose 6 phosphate
+Fructose 6 phosphate
+0 - 0 - 0 1
+Figure 7.5 Glycolysis.
+(Figure 7.4 from Morris et al., Biology: How Life
+Works, 3'" Ed., © 2019. Reprinted by permission
+of Macmilian Learning. New York, New York)
+Fructose 1,6 bisphosphate
+Glyceraldehyde 3-phosphate
+Glyceraldehyde 3-phosphate
+Dihydrosyacetone phosphate
+0 4
+Glyceraldehyde 3-phosphate
+NAD'
+NAD'
+1,3-Bisphosphoglycerate
+0 K 熱
+3-Phosphoglycerate
+0 ♥
+2-Phosphoglycerate
+1,3-Bisphosphoglycerate
+APP
+3-Phesphoglycerate
+Phosphoenolpyruvate
+2-Phosphoglycerate
+• ￬
+Phosphoenolpyruvate
+Pyruvate
+Figure 7.4
+Biology: How Life Works
+© Macmillan Learning
+Phase 1
+Preparatory phase.
+with consumption
+of 2 ATP
+Phase 2
+Cleavage phase
+Phase 3
+Payolf phase.
+with production of
+4 ATP and 2 NADH
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 100
+Biol 130
+Module 7 - Cellular Respiration
+100
+C. Glycolysis- Phase One
+Remember: It takes energy
+to make 
+energy!
+- Events in Phase 1 include:
+- The preparation of glucose for the next two phases ￫ addition of two phosphate groups,
+producing fructose 1,6-bisphosphate
+- This process requires an input of energy in the form of two molecules 
+of ATP
+- The phosphorylation of glucose traps the molecule inside
+Phase 1 are energy
+the cell and destabilizes it so that it is ready for phase 2
+consuming reactions
+D. Glycolysis - Phase Two
+- Events in Phase 2 include:
+- Cleavage of fructose 1,6-bisphosphate into two molecules:
+i. Glyceraldehyde 3-phosphate
+Phase 2 splits
+glucose
+ii. Dihydroxyacetone phosphate ￫ converted into another molecule of glyceraldehyde 3-
+phosphate
+-Thus, at the end there are two molecules of glyceraldehyde 3-phosphate at the end of phase 2
+Glucose
+HO- CH,
+I
+H
+/
+/
+OH
+Glucose 6-phosphate
+Phase 1
+Preparatory phase,
+with consumption
+of 2 ATP
+Fructose 6-phosphate
+3
+Fructose 1,6-bisphosphate
+®-O-CH,
+ОН
+CH,-0-P
+но/он
+Glyceraldehyde 3-phosphate
+Figure 7.4 (Part 1)
+Biology: How Life Works
+© Macmillan Learning
+Glyceraldehyde 3-phosphate
+Dihydroxyacetone phosphate
+Glyceraldehyde 3-phosphate P-O-CH,-CH-
+Figure 7.6 Phase One and Two of Glycolysis.
+(Figure 7.4 from Morris et al., Biology: How Life Works, 3" Ed., © 2019. Reprinted
+by permission of Macmillan Learning, New York, New York)
+Phase 2
+Cleavage phase
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 101
+Biol 130
+Module 7 - Cellular Respiration
+E. Glycolysis - Phase Three
+- Events in Phase 3 include:
+- Two molecules of pyruvate are formed
+- Two molecules of the electron carrier NADH are produced
+- Four molecules of AT are produced
+Glyceraldehyde 3-phosphate
+NAD'
+NADH + h
+1,3-Bisphosphoglycerate
+Glyceraldehyde 3-phosphate
+®
+NAD*
+MADH HI
+1,3-Bisphosphoglycerate
+101
+Phase 3 are energy
+producing reactions
+3-Phosphoglycerate
+8
+2-Phosphoglycerate
+3-Phosphoglycerate
+8
+2-Phosphoglycerate
+Phosphoenolpyruvate
+10
+Phase 3
+Payoff phase,
+with production of
+4 ATP and 2 NADH
+Phosphoenolpyruvate
+1O
+CH,
+Pyruvate
+Pyruvate
+Figure 7.4 (Part 2)
+Siology: How Life Works
+© Macmilan Learning
+Figure 7.7 Phase Three of Glycolysis.
+(Figure 7.4 from Morris et al., Biology: How Life Works, 3" Ed., © 2019. Reprinted
+by permission of Macmillan Learning, New York, New York)
+F. At The End Of Glycolysis
+- After glycolysis ￫ there is a net gain of
+- Phase 3 produced four ATP ￫ but two were consumed in phase 1
+- Phase 3 also produces two NADH
+- These will be used in the last reaction of cellular respiration
+G. What Are The Next Steps!
+- Stages 2-4 of cellular respiration take place in the mitochondria:
+- Recall: Stage 1 is glycolysis ￫ cytoplasm
+- Stage 2 is pyruvate oxidation
+- Stage 3 is the citric acid cycle
+- Stage 4 is oxidative phosphorylation
+
+
+=================== NOTES PAGE 102
+-
+7-3
+MITOCHONDRIAL RESPIRATION
+& PYRUVATE OXIDATION
+A. Background
+- A mitochondrion has an inner membrane
+and an outer membrane ￫ this deﬁnes the
+two spaces
+- The space between the two membranes
+￫
+- The space inside the inner membrane
+Outer membrane
+- Intermembrane
+space
+The space between the inner
+and outer membranes is the
+intermembrane space.
+- Inner membrane
+Mitochondrial
+matrix
+The space inside the
+inner membrane is
+the mitochondrial
+B. Pyruvate Oxidation
+- When oxygen is present ￫ pyruvate can
+be oxidized to produce carbon dioxide and
+NADH
+- Ultimately to acetyl-CoA
+- These reactions occur in the
+Figure 7.8 Mitochondrial Structures.
+(Figure 7.5 from Morris et al., Biology: How Life Works, 3º Ed., © 2019.
+Reprinted by permission of Macmillan Learning, New York, New York)
+mitochondrial matrix
+- Pyruvate is converted to acetyl-CoA
+- Then it is further broken down in the citric acid cycle
+- The pyruvate is initially oxidized to form CO2 and an acetyl group
+- The acetyl group is then transferred to coenzyme A ￫ carries the acetyl group to the citric acid
+cycle
+- These reactions are catalyzed by a group of enzymes called the pyruvate dehydrogenase
+complex
+Acetyl-CoA
+Citric add
+cycle
+Cytoso/
+Pyruvate
+CH3 -C
+Intermembrane space
+NAD*
+NADH
+Matrix
+Acetyl-CoA
+CH3-
+CoA
+Coenzyme A
+cO2
+Figure 7.9 Pyruvate Oxidation.
+(Figure 7.6 from Morris et al., Biology: How Life Works, 3°Ed., © 2019. Reprinted by permission of Macmillan Learning, New York, New York)
+
+
+=================== NOTES PAGE 103
+Biol 130
+Module 7 - Cellular Respiration
+103
+- Overall, 
+one molecule of pyruvate produces:
+- One molecule of CO2
+- One molecule of NADH
+- One molecule of acetyl-CoA
+- But remember! At the end of glycolysis, there are two molecules of pyruvate
+- Thus, at the end of this entire process, for each glucose molecule there are:
+- Two molecules￫
+- Two molecules ￫
+- Two molecules ￫
+Acetyl-coenzyme A
+& CITRIC ACID CYCLE
+A. Pathway
+- The citric acid cycle has
+additional names:
+- Krebs cycle and the TCA
+(tricarboxylic acid) cycle
+- It is a cycle because the ﬁrst
+reactant (oxaloacetate) in the
+process is also regenerated at the
+end
+- During this stage of cellular
+respiration ￫ the fuel molecules
+are completely oxidized
+Question: What happens during the
+citric acid cycle?
+Answer: The citric acid cycle
+completes the oxidation of
+Figure 7.7
+Biology: How Life Works
+glucose ￫
+© Macmillan Learning
+- Substrate-level phosphorylation is used to produce ATP
+- Additional energy management molecules
+￫ NADH & FADH2 are also produced
+Citrate
+6C
+Malate
+Isocitrate
+6C
+Citric acid
+cycle
+a-Ketoglutarate
+SC
+Succinate
+Succinyl-CoA
+4C
+Figure 7.10 The Citric Acid Cycle.
+(Figure 7.7 from Morris et al., Biology: How Life Works, 3* Ed., © 2019.
+Reprinted by permission of Macmillan Learning, New York, New York)
+B. Use of Intermediates
+- Some organisms can use products from different steps in the citric acid cycle as
+intermediates in other metabolic pathways
+- E.g. a-Ketoglutarate can be modiﬁed to form other amino acids and purine bases
+
+
+=================== NOTES PAGE 104
+Biol 130
+Module 7 - Cellular Respiration
+104฿
+C. Carbon Dioxide Produced
+- Have you ever thought about why we exhale COz?
+- The oxidation of acetyl-CoA produces the carbon dioxide we exhale
+- There is a transfer of the potential energy stored within acetyl-CoA to be transferred and
+stored in NADH and FADH2
+- Also, the production of GTP is catalyzed by substrate-level phosphorylation
+D. Fate of High Energy Molecules
+- The NADH and FADH2 that is produced transfers electrons to other carriers in the
+electron transport chain ￫
+- Recall that they are produced through redox reactions in the ﬁrst three stages of
+cellular respiration
+- We will look at their fate in the ETC
+Glycolysis
+Pyruvate
+oxidation
+Citric acid
+cycle
+NADH
+Energy released is stored as ATP
+and reduced electron carriers.
+Glucose
+Change in free 
+energy, AG 
+(kcal/mol)
+-100
+-200
+-300
+-400
+-500
+-600
+-700
+Figure 7.3
+Biology: How Life Works
+© Macmillan Learning
+Pyruvate
+NADH
+Acetyl-CoA
+NADH
+NADH
+ATP
+FADH,
+NADH
+Figure 7.11 Change in Free Energy in Cellular Respiration.
+(Figure 7.3 from Morris et al., Biology: How Life Works, 3*d Ed., © 2019. Reprinted by permission of Macmillan Learning, New York, New York)
+
+
+=================== NOTES PAGE 105
+Biol 130
+Module 7 - Cellular Respiration
+105
+& OXIDATIVE PHOSPHORYLATION
+A. Background
+- The electron transport chain (ETC) is in the mitochondrial inner membrane ￫ electrons enter &
+move from donors to acceptor
+- Until they reach the ﬁnal electron acceptor ￫
+- When oxygen accepts the electron ￫
+Oxidative phosphorylation
+H'O
+Mitochondrial matrix
+NADH
+•  ( N A D " )  +   ©
+2H,O
+Complex I
+FADH
+E A D )  랭 "
+OH*
+Complex III,
+Complex Il
+CoQ
+Complex IV
+Cytochrome c
+이
+OH*
+Intermembrane space
+Figure 7.9a
+Biology: How Life Works
+so macmilan Learning
+Figure 7.12 Oxidative Phosphorylation.
+(Figure 7.9 from Morris et al., Biology: How Life Works, 3" Ed., © 2019. Reprinted by permission of Macmillan Learning, New York, New York)
+B. Electron Transport Chain (ETC)
+- Electrons are moved from energy storage molecules to proteins in the ETC
+- They move through a sequence of redox processes ￫ this contributes to the formation of a
+proton gradient
+- As protons are pumped across the membrane ￫ a gradient is formed across the membrane
+- The distribution of protons is as follows:
+- In the intermembrane space ￫
+- In the mitochondrial matrix ￫
+- The protons cannot diffuse across the membrane ￫ proton concentration gradient contains
+high potential energy
+Proton gradient and ATP synthesis
+ATP synthase uses the
+electrochemical proton
+synthesis of ATP.
+The transport of electrons in complexes I, Ill, and
+IV is coupled with the transport of protons
+across the inner membrane, from the mitochon
+drial matrix to the intermembrane space.
+Complex Ill
+Complex IV
+Figure 7.13 Oxidative
+Phosphorylation.
+(Figure 7.9 from Morris et al., Biology: How Life
+Works, 3° Ed., © 2019. Reprinted by permission of
+Macmillan Learning, New York, New York)
+
+
+=================== NOTES PAGE 106
+Biol 130
+Module 7 - Cellular Respiration
+- The proton gradient powers ATP
+synthase ￫ a molecular machine
+- How does it work?
+- Protons ﬂow down their
+concentration gradient
+- As protons pass through a channel
+it rotates a protein subunit
+The F, subunit then
+uses this rotational
+energy to catalyze the
+synthesis of ATP.
+The Fo subunit forms
+a channel that rotates as
+protons pass through it.
+106
+Matrix
+Fo
+Figure 7.14 ATP Synthase.
+(Figure 7.10 from Morris et al., Biology: How Life
+Works, 3" Ed., © 2019. Reprinted by permission of
+Macmillan Learning, New York, New York)
+Figure 7.10
+Biology: How Life Works
+© Macmilan Learning
+Intermembrane space
+ATP synthase is a molecular machine that
+is composed of two subunits, Fo and Fi-
+& SUMMARY
+A. Pathway
+- Overall, the energy of glucose is released slowly in a series of reactions
+- Some of the energy is released by substrate-level phosphorylation
+- Some is generated through redox reactions that transfer energy to the electron carriers
+NADH and FADH2
+- These carriers donate electrons to the ETC ￫ forms the proton gradient to drive
+ATP synthase
+- This is oxidative phosphorylation
+- Thus, the complete oxidation of glucose forms ￫
+Electron
+produced
+GlUCOSE
+ATP
+generated
+NADH
+Glycolysis
+2 NADH
+6 NADH] = (CFADH,
+Pyruvate
+Oxidative
+phosphorylation
+2 8 A T 8 5
+Mitochondrial
+matrix
+Inner
+mitochondnial
+membrane
+Outer
+mochonora.
+memorane
+Total:
+= 32 ATP
+Intermembrane
+space
+Cytosal
+Figure 7.15 ATP Yield.
+(Figure 7.12 from Morris et al., Biology: How Life
+Works, 3*" Ed., © 2019. Reprinted by permission of
+Macmillan Learning, New York, New York)
+Figure 7.12
+Mon 
+How Le on
+© Macmilan Learning
+
+
+=================== NOTES PAGE 107
+Biol 130
+Module 7 - Cellular Respiration
+& ANAEROBIC CONDITIONS
+A. Background
+Question: What happens if oxygen is not available?
+Answer: If O2 is not available, the cell is under ￫ anaerobic conditions
+1. 
+The pyruvate produced from glycolysis can be reduced by a fermentation process
+- In bacteria and animal cells the pyruvate is reduced to ￫ lactic acid
+- This regenerates NAD* ￫ which can then be reduced in glycolysis
+- ATP is still synthesized in small amounts for use by the cell
+Glucose + 2 ADP + 2 Pi >
+lactic acid + 
+ATP + H20
+107
+a. Lactic acid fermentation
+HO-CH,
+ｰ 
+но
+/ он
+ilucose
+Glycolysis
+2. In the absence of oxygen, plants & fungi undergo ￫ ethanol fermentation
+- The pyruvate releases CO2 to form acetaldehyde ￫ the electrons from NADH are transferred
+to acetaldehyde to produce ethanol and NAD*
+- Regeneration of NAD* is important so that small amounts of ATP can be generated during
+ethanol fermentation
+Glucose + 2 ADP + 2 P; ￫
+ethanol + 
+CO2+ + ATP+ H20
+b. Ethanol fermentation
+HO
+OH
+Glucose
+Glycolysis
+CH, - C-C
+OH
+Lacticacid
+Lactic acid
+fermentation
+NAD*
+produced in
+fermentation
+BUse In
+glycolysis.
+(NAD*
+NADH
+CH, - CH, -он
+fermentation
+NAD*
+produced in
+fermentation
+is used in
+glycolysis.
+Acetaldehyde
+Pyruvate
+Figure 7.13
+Biology: How Life Works
+NADH
+Pyruvate
+Did you know?
+Goldﬁsh can survive
+months without
+oxygen by converting
+glucose into ethanol
+and releasing it
+through their gills
+Figure 7.16 Fermentation Pathways.
+(Figure 7.13 from Morris et al., Biology: How Life Works, 3'° Ed., © 2019. Reprinted by permission of Macmillan Learning, New York, New York)
+
+
+=================== NOTES PAGE 108
+HO
+HO
+7-4
+METABOLIC INTEGRATION
+X EXCESS SUGAR STORAGE
+A. Glucose
+- Plants and animals can store excess glucose for use in glycolysis later ￫ as branched polymers of
+glucose
+- Glucose monomers are cleaved one at a time ￫ enter glycolysis as an intermediate
+a. Glycogen
+- Plants store as ￫
+b. Starch
+- Animals store as ￫
+- Stored in muscle cells for
+energy to power contraction
+- Stored in liver for the whole
+body
+B. Other Sugars
+- The carbohydrates that are
+digested can produce a variety of
+disaccharides & monosaccharides
+- May produce glucose or other
+glycolysis intermediates
+Starch is a large, branched chain of
+glucose molecules found in plants
+such as potatoes, wheat, and corn.
+Glycogen is a large, branched chain of glucose
+molecules attached to a central protein.
+Figure 7.17 Glucose Storage.
+(Figure 7.16 from Morris et al., Biology: How Life Works,
+3'd Ed., © 2019. Reprinted by permission of Macmillan
+Learning, New York, New York)
+Disaccharides
+Monosaccharides
+Lactose
+CH,OH
+OH
+Galactose
+OH
+CH OH
+CH OH
+Maltose
+HO
+Fructose
+CH-OH
+CH,OH
+OH
+OH
+OH
+OH
+OH
+OH
+OH
+Milk
+CH,OH
+OH
+OH
+Mannose
+Sucrose
+CH,OH
+CH,OH
+CH,OH o
+Barley
+OH
+HO
+OH HO
+CH OH
+Candy
+Apple
+Figure 7.18 Dietary Sugars.
+(Figure 7.17 from Morris et al., Biology: How Life Works, 3r" Ed., © 2019. Reprinted by permission of Macmillan Learning, New York, New York)
+
+
+=================== NOTES PAGE 109
+Biol 130
+Module 7 - Cellular Respiration
+109
+C. Other Energy Sources
+- Lipids are an excellent energy source ￫ rich in C-C and C-H bonds
+- Fatty acids absorbed after a meal, or produced from excess glucose, can be used by cells
+- They are shortened through B-oxidation
+- 
+Inß-oxidation, lipids are broken down into glycerol and acetyl-CoA
+- Note: ATP is not produced directly
+- NADH and FADH are produced ￫
+Proteins
+Triacylglycerols
+Amino
+acids
+Fatty
+acids
+Glycerol
+Acetyl-
+COA
+Citric acid
+cycle
+Electron
+carriers
+Electron
+transport
+chain
+Other
+carbohydrates
+Glucose
+Pyruvate
+Glycolysis
+Stage 1
+Glycolysis
+Stage 2
+Pyruvate oxidation
+Stage 3
+Citric acid cycle
+Stage 4
+Oxidative phosphorylation
+Figure 7.18
+Biology: How Life Works
+© Macmillan Learning
+Figure 7.19 Other Fuel Molecules.
+(Figure 7.18 from Morris et al., Biology: How Life Works, 3° Ed., © 2019. Reprinted by permission of Macmillan Learning, New York, New York)
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 110
+MODULE
+7
+IMPORTANT TERMS AND CONCEPTS
+IMPORTANT TERMS (you should be able to 
+deﬁne these terms)
+- Cellular respiration
+- Substrate-level phosphorylation
+- Oxidative phosphorylation
+- Electron carriers
+- Electron transport chain
+- 
+Oxidation-reduction 
+reactions
+- Nicotinamide adenine dinucleotide
+(NAD)
+- Citric acid cycle (Krebs cycle,
+tricarboxylie acid 
+-TCAcycle
+- Flavin adenine dinucleotide (FAD)
+- Glycolysis
+- Pyruvate oxidation
+- Mitochondria
+- Adenosine triphosphate (ATP)
+- Intermembrane space
+- Proton gradient
+- Mitochondrial matrix
+- Fermentation
+- ATP synthase
+- Lactic acid fermentation
+- Aerobic
+- Ethanol fermentation
+- Anaerobic
+- Glycogen
+- Starch
+- Monosaccharide
+- Disaccharide
+- Beta-oxidation
+- Fatty acid
+IMPORTANT CONCEPTS (you should understand these concepts)
+- Overview of cellular respiration
+- Glycolysis
+- Pyruvate oxidation
+- The citric acid cycle
+- Oxidative phosphorylation
+- Anaerobic metabolism
+- Integration of metabolism
+Scanned with
+CS CamScanner
+
+=================== NOTES PAGE 111
+MODULE
+PHotosYnthesIS
+8
+This module will begin with an overview of photosynthesis. This will be followed by how sunlight is
+captured into chemical 
+forms. The module will conclude by examining the three-phase process of the
+Calvin cycle to illustrate how carbon dioxide is used to synthesize carbohydrates.
+Learning Outcomes:
+• Describe the chemical pathways of photosynthesis in capturing sunlight in synthesizing carbohydrates.
+• Describe the outcomes of the photosynthetic electron transport chain.
+• Explain the Calvin cycle in carbohydrate synthesis.
+
+
+=================== NOTES PAGE 112
+8-1
+OVERVIEW OF PHOTOSYNTHESIS
+d6 INTRODUCTION
+60% of the sun's output
+is outside the visible
+range and unavailable
+for photosynthesis.
+A. Background
+Question: What is photosynthesis?
+Answer: The conversion of light energy to
+chemical energy
+- Photosynthetic organisms build carbohydrates
+using sunlight and CO2 from the air
+- It is a major entry point of energy into biological
+systems
+Visible
+light
+8%
+converted
+into heat
+8%
+reﬂected
+transmitted
+20%
+lost during
+carbohydrate synthesis
+including photorespiration
+Maximum
+4% yield
+in the form
+of carbohydrates
+B. Supporting Photosynthesis
+Figure 8.10
+- Photosynthetic organisms in diverse
+environments can carry out photosynthesis
+Figure 8.1 
+Efﬁciency of Photosynthesis.
+(Figure 8.19 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+￫ if sunlight is available
+Reprinted by permission of Macmillan Learning, New York, New York)
+- E.g. In the ocean, photosynthesis occurs in upper sunlit layer of water >
+- Food webs are supported by the biomass of photosynthetic organisms
+兴   P H O T O S Y N T H E S I S
+A. Photosynthesis Reactions
+- Overall, photosynthesis is a redox reaction
+- CO2 is reduced to form high energy
+carbohydrate molecules
+- This requires energy in the form of sunlight
+- Can be divided into two stages
+Oxidation
+of water, with
+O, produced
+as a by-product
+- Light
+capture
+- The electron donor in these reactions is ￫
+- The oxidation of water results in the
+production of:
+- Electrons
+- Protons
+Reduction
+of co,
+to form
+carbohydrates
+Figure 8.3
+Biology: How Life Worko
+• Macmillan Learning
+- Thus, the oxidation of water & reduction of CO2 are linked
+through the photosynthetic electron transport chain
+Photosynthetic electron
+transport chain
+NADPH
+Calvin
+cycle
+Carbon
+ﬁxation
+Carbohydrate
+Figure 8.2 Two Stages of
+Photosynthesis.
+(Figure 8.3 from Morris et al., Biology: How Life
+Works, 4th Ed., © 2023. Reprinted by permission
+of Macmillan Learning. New York, New York) |
+
+
+=================== NOTES PAGE 113
+Biol 130
+Module 8 - Photosynthesis
+113
+B. Photosynthesis - Eukaryotic Cells
+- In photosynthetic eukaryotes, both stages take
+place in the ￫
+- Chloroplasts are semi-autonomous & self-
+replicating ￫ bound by 2 membranes separated
+by narrow space
+- In the center of the chloroplast are highly folded
+ﬂattened membrane sacs ￫
+- Space inside the thylakoid membrane is a ﬂuid
+ﬁlled space ￫
+- Orderly stacks of thylakoids ￫
+- Space surrounding thylakoids ￫
+- Carbon ﬁxation occurs here
+Outer membrane
+Inner membrane
+Thylakoid
+Grana
+Lumen
+Stroma
+Figure 8.3 Chloroplast Structure.
+(Figure 8.5 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+C. Overview of Photosynthesis
+light
+6CO2+12 
+H20 -
+• C6H1206 + 602 + 6H20
+- 2 series of reactions:
+1. Light-dependent reaction
+- Sunlight energy converted into chemical energy ￫ occurs in thylakoid membranes
+- Products:
+2. Light-independent reaction
+- ATP & NADPH used to synthesize carbohydrates ￫ occurs in stroma
+Question: How is light absorbed?
+Answer: Energy from sun is a form of electromagnetic radiation ￫ travels in photons
+- When a photon is absorbed, the compound is converted to a higher-energy state ￫ called an
+excited state
+- Three ways to re-establish ground state
+1. Dissipate energy as heat
+2. Re-emit energy in a longer wavelength ￫ ﬂuorescence
+3. Transfer energy to another molecule ￫ happens with photosynthetic pigments
+
+
+=================== NOTES PAGE 114
+Biol 130
+Module 8 - Photosynthesis
+114
+Electromagnetic spectrum
+D. Photosynthetic Pigments
+- Pigments are molecules that contain a
+chromophore ￫ chemical group capable
+of absorbing light of speciﬁc
+wavelengths (2)
+- The leaf of a green plant efﬁciently
+absorbs light energy over most of the
+spectrum
+High energy +
+Gamma
+rays
+• Low energy
+X-rays.
+Ultra-
+violet
+Visible
+light
+Infra-
+red
+Micro-
+waves
+Radio
+waves
+Visible light is only
+one part of the
+electromagnetic
+spectrum.
+400 nm
+700 nm
+Shorter +
+wavelengths
+￫ Longer
+wavelengths
+- Why green?
+- Because the pigment chlorophyll 
+is
+poor at absorbing green 2
+- Chlorophyll:
+- Major light capturing molecules
+- Absorb light of blue and red 2
+￫
+Leaves efﬁciently
+absorb light across
+most of the visible
+spectrum.
+Absorptior
+- Two parts:
+so macman Leaner
+Figure 8.4 Light Absorption by Leaves.
+(Figure 8.6 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+1. Porphyrin ring ￫ light absorption
+- Speciﬁc atom in center of ring >
+- Different side groups on ring ￫ gives
+different types of chlorophyll
+2. Phytol side chain
+- Insertion of chlorophyll in lipid
+bilayer ￫ thylakoid membrane
+- Accessory Pigments:
+- Accessory pigments are found in the thylakoid
+membrane
+CH.
+CH
+CH,
+н,С
+-CH, CH,
+Light-absorbing -
+region
+H,C-
+CH
+CH,
+CH,
+C=0
+C= 0
+C=0
+CH,
+- E.g., carotenoids
+- Accessory pigments can absorb light from
+regions of the visible spectrum that are poorly
+absorbed by chlorophyll
+- Increases efﬁciency of light absorption
+CH,
+CH
+C-сн,
+대 ,
+CH,
+Hydrocarbon -
+side chain
+- Protects photosynthetic components from
+damage
+CH,
+대 ,
+CH,
+CH,
+Figure 8.5 Chlorophyll Structure.
+댐 ,
+(Figure 8.7 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+Figure 8.7
+Biology: How Life Works
+© Macmillan Learning
+
+
+=================== NOTES PAGE 115
+Biol 130
+Module 8 - Photosynthesis
+115
+E. Light Absorption
+- When chlorophyll absorbs light ￫ one of its electrons is elevated to a higher-energy state
+- If the chlorophyll is beside other
+In the plant cell
+chlorophyll molecules ￫ energy can be
+transferred
+- The energy is passed from chlorophyll to
+chlorophyll until it reaches a pair of
+chlorophyll molecules ￫
+- Remember, the antenna chlorophylls
+transfer energy >
+- Reaction-center chlorophyll ￫ a speciﬁc
+chlorophyll capable of transferring
+electrons to an electron acceptor
+- Before the reaction center can take in
+more light energy ￫ it must ﬁrst acquire
+an electron from an electron donor since
+it lost one electron
+- Where does this electron come from?
+Light
+Energy
+transfer
+Ground-state
+electron
+Excited-state
+electron
+Light energy absorbed by chlorophyll
+in the photosystem of a plant cell can
+be transferred to an adjacent
+chlorophyll.
+Figure 8.8t
+Bology: How Life Works
+©  M a c h i u n  L e a r n i n g
+b. Reduction of the reaction center
+a. Oxidation of the reaction center
+Photosystem I
+Photosystem I|
+Light
+Antenna
+chlorophylls
+Electron
+acceptor
+Electron
+donor
+Reaction center
+Reaction center
+Figure 8.9
+Biology: How Lite works
+© Macmillan Learning
+Figure 8.6 Light Absorption (top) and Reaction Center (bottom).
+(Figures 8.8 and 8.9 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan
+Learning, New York, New York)
+
+
+=================== NOTES PAGE 116
+8-2
+PHOTOSYSTEMS
+Photosystem l
+Photosystem lI
+X   I N T R O D U C T I O N
+A. Role of Photosystems
+- Photosynthesis begins with
+absorption of light by protein-
+pigment complexes ￫
+- The absorbed light drives
+redox reactions
+- Two photosystems:
+- Photosystem II ￫
+- Photosystem I ￫
+- The two photosystems are
+connected by the photosynthetic
+electron transport chain
+- Drives the formation of ￫
+H*
+Energy
+- These are energy sources
+needed to synthesize
+carbohydrates from CO2 in
+Absorption of light energy
+by photosystem Il allows
+electrons pulled from
+water to enter the
+photosynthetic electron
+transport chain.
+A second input of light
+energy by photosystem I
+produces electron donor
+molecules capable of
+reducing NADP*.
+the Calvin cycle
+- Each photosystem has a reaction
+Figure 8.7 Two Photosystems.
+(Figure 8.11 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+center chlorophyll
+- The electrons move from water to PSIl initial high energy level, but this drops as it goes
+through the electron transport chain
+- More light energy coming in PSI raises the electron energy high enough to be used to
+reduce NADP+
+- The energy trajectory resembles a "Z" ￫
+NADP* + H*
+NADPH
+B. Role of Photosystems
+- Two photosystems act in series ￫ linked by electron transport chain
+- Flow of electrons:
+a. Between H20 and PSII
+b. Between PSII and PSI ￫
+c. Between PSI and NADP+
+
+
+=================== NOTES PAGE 117
+Biol 130
+Module 8 - Photosynthesis
+117
+- As electrons ﬂow along the Z pathway ￫ H* ions are moved from stroma to inner
+compartment of thylakoids ￫
+- Proton 
+concentration 
+>
+The production of NADPH and ATP by photosynthesis
+Stroma
+Light
+Light
+Cytochrome-
+befcomplex
+NADPH
+NADP*) + OH*
+NADP+
+reductase
+ATP synthase H
+Photosystem !!
+Photosystem 15
+Pa
+HTO
+Lumen
+Figure 8.12a
+Biology: How Life Works
+© Macmilian Learning
+Figure 8.8 Photosynthetic Electron Transport Chain.
+(Figure 
+8.12 from Morris et al., Biology: How Life Works, 4th Ed., © 2023. Reprinted by permission of Macmillan Learning, New York, New York)
+X ATP PRODUCTION
+A. ATP Production In The Chloroplast
+- The thylakoid membrane contains embedded ATP synthase enzymes
+- The ATP produced in the chloroplast remains in the chloroplast ￫ use in carbon ﬁxation
+reactions
+- Plants also have mitochondria to produce ATP needed elsewhere in the cell
+- Because ATP produced in the chloroplast stays in the chloroplast
+B. Electron Transport Chain
+- Electrons pass between PSIl and PSI through the cytochrome b6f complex
+- Plastoquinone ￫ carries electrons from PSII to the cytochrome b6f complex
+- Plastocyanin ￫ carries electrons from the cytochrome bof complex to PSI by diffusing
+through the thylakoid lumen
+- Formation of ATP ￫ results from electrons moving through PSII & PSI
+- Proton gradient drives ATP formation￫
+- Protons pass through the enzyme ATP synthase ￫ ATP is generated
+
+
+=================== NOTES PAGE 118
+8-3
+SYNTHESIZING CARBOHYDRATES
+THE CALVIN CYCLE
+A. Introduction
+- The Calvin cycle takes a low potential energy carbon compound (CO2) and converts it into a
+higher-energy carbon compound
+- This requires NADPH & ATP ￫ 15 chemical reactions that synthesize carbohydrates from CO2
+- These reactions are grouped into three main steps:
+1. Carboxylation
+2. Reduction
+3. Regeneration
+CO_
+input:
+Carbon enters
+the Calvin
+cycle as COz.
+Carboxylation:
+The addition of CO, to the
+5-carbon compound, RuBP, is
+catalyzed by the enzyme rubisco.
+3-Phosphoglycerate
+3C
+Carboxylation
+3-Phosphoglycerate
+3C
+Reduction: Energy inputs from ATP and
+NADPH lead to the synthesis of triose phosphate.
+NADPH[NADP*
+Reduction
+co,
+1C
+RuBP
+5C
+Triose
+phosphates
+3C
+Carbohydrate
+output:
+Carbohydrates
+exit as 3-carbon
+compounds.
+Regeneration
+Regeneration of RuBP: In this multistep
+process, 3-carbon compounds are reorganized
+and combined to produce RuBP.
+Figure 8.14
+Biology: How Life Works
+© Macmillan Learning
+Figure 8.9 The Calvin Cycle.
+(Figure 8.14 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+
+
+=================== NOTES PAGE 119
+Biol 130
+Module 8 - Photosynthesis
+119
+B. Step 1 - Carboxylation
+- Step 1 of the Calvin 
+cycle 
+is carboxylation
+- This is where CO2 from the air is combined with RuBP (ribulose 1,5-bisphosphate) to
+form a 6-carbon molecule ￫
+- The 6-carbon molecule is then broken down into two 3-carbon molecules of
+3-phosphoglycerate (PGA)
+C. Step 2 - Reduction
+- The potential energy of PGA must be increased ￫ this means PGA must be reduced
+- The reduction occurs in two steps:
+i. 
+PGA is phosphorylated by ATP ￫ produces 
+1,3 bisphosphoglycerate (1,3-BPG)
+ii. 
+1,3-BPG is then reduced by NADPH ￫ triose phosphate
+D. Step 3 - Regeneration
+- For every 6 triose phosphate
+molecules that are produced,
+only one can be withdrawn
+from the Calvin cycle
+- This is because RuBP
+(a 5-carbon molecule) needs
+to be regenerated ￫ using
+the 5 other triose phosphates
+- That regeneration requires
+energy in the form ￫
+- Regeneration produces three
+5-C RuBP molecules to be
+used in the carboxylation
+portion of the Calvin cycle
+co,
+input:
+Carbon enters
+Carboxylation:
+The addition of CO, to the
+5-carbon compound, RuBP. is
+catalyzed by the enzyme rubisco.
+2 Reduction: Energy inputs from ATP and
+NADPH lead to the synthesis of triose phosphate.
+3-Phosphoglycerate
+Carboxylation
+3-Phosph
+(ADPH
+NADP
+co,
+RuBP
+Carbohydrate
+output:
+Those
+Carbohydrates
+phosphates exit as 3-carbon
+3c
+compounds
+Regeneration
+process 3-carbon compounds are reorganized
+and combined to produce RuBP
+Figure 8.10 The Calvin Cycle.
+(Figure 8.14 from Morris et al., Biology: How Life Works, 4th Ed., © 2023.
+Reprinted by permission of Macmillan Learning, New York, New York)
+E. Excess Carbohydrates
+- Excess carbohydrates produced in
+the Calvin cycle are converted into storage ￫
+- The formation of starch granules during the day is a source of carbohydrates that can be used
+during the night when there is no sunlight
+
+
+=================== NOTES PAGE 120
+MODULE
+8
+IMPORTANT TERMS AND CONCEPTS
+IMPORTANT TErMS (you should be able to deﬁne these terms)
+- Photosynthesis
+- Chlorophyll
+- Photosynthetic electron transport
+- Nicotinamide adenine dinucleotide
+chain
+phosphate (NADPH)
+- Adenosine triphosphate (ATP)
+- Oxidation
+- Reduction
+- Carbohydrate
+- Chloroplast
+- Lumen
+- Thylakoid
+- Grana
+- Stroma
+- Antenna chlorophyll
+- Photosystem (PSI and PSII)
+- Reaction center
+- Z scheme
+- Photophosphorylation
+- Calvin cycle
+- Cyclic electron transport
+- Carboxylation
+- Reduction
+- Regeneration
+- Rubisco
+- Triose phosphate
+IMPORTANT CONCEPTS (you should understand these concepts)
+- Overview of photosynthesis
+- Capturing sunlight into chemical forms
+- The Calvin cycle
+- Evolution of photosynthesis
+Scanned with
+CS CamScanner
